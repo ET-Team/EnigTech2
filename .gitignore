@@ -10,5 +10,10 @@
 !/EnigTech2/minecraft/mods
 EnigTech2/minecraft/config/splash.properties
 EnigTech2/minecraft/config/InvTweaks.cfg
-EnigTech2/minecraft/config/enderio/recipes/examples/optional_tweaks.xml
-EnigTech2/minecraft/config/enderio/recipes/examples/optional_tweaks.xml
+EnigTech2/minecraft/config/enderio/recipes
+EnigTech2/minecraft/config/astralsorcery.cfg
+EnigTech2/minecraft/config/advRocketry/advancedRocketry.cfg
+EnigTech2/minecraft/config/brandon3055/contributors.json
+EnigTech2/minecraft/config/Guide-API/Guide-API.cfg
+EnigTech2/minecraft/config/astralsorcery/amulet_enchantments.cfg
+EnigTech2/minecraft/config/waitingtimestats.json
