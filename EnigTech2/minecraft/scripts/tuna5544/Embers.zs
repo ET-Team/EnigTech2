@@ -25,4 +25,21 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <embers:copper_cell>.withTag({e
 	[<ore:plateBronze>, <silentgems:craftingmaterial:1>, <contenttweaker:blood_iron>, <silentgems:craftingmaterial:1>, <ore:plateBronze>], 
 	[<embers:block_caminite_brick>, <ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>, <embers:block_caminite_brick>]
 ]);
-
+//炼金台
+mods.extendedcrafting.TableCrafting.addShaped(2, <embers:alchemy_tablet>, [
+	[null, null, null, null, null], 
+	[<embers:block_caminite_brick>, <ore:plateDawnstone>, null, <ore:plateDawnstone>, <embers:block_caminite_brick>], 
+	[<ore:plateBronze>, <naturesaura:sky_ingot>, <botania:runealtar>, <naturesaura:sky_ingot>, <ore:plateBronze>], 
+	[null, <embers:stairs_caminite_brick>, <ore:blockDawnstone>, <embers:stairs_caminite_brick>, null], 
+	[<embers:block_caminite_brick>, <bloodmagic:slate:2>, <bloodmagic:slate:2>, <bloodmagic:slate:2>, <embers:block_caminite_brick>]
+]);
+//灰烬炉
+mods.extendedcrafting.TableCrafting.addShaped(2, <embers:cinder_plinth>, [
+	[null, <ore:blockSheetmetalLead>, null, <ore:blockSheetmetalLead>, null], 
+	[null, <ore:blockSheetmetalLead>, null, <ore:blockSheetmetalLead>, null], 
+	[<ore:blockSheetmetalLead>, <naturesaura:token_terror>, <bloodmagic:lava_crystal>, <naturesaura:token_rage>, <ore:blockSheetmetalLead>], 
+	[<ore:blockSheetmetalLead>, <bloodmagic:slate:2>, <botania:specialflower>, <bloodmagic:slate:2>, <ore:blockSheetmetalLead>], 
+	[<embers:block_caminite_brick>, <embers:block_caminite_brick>, <ore:blockDawnstone>, <embers:block_caminite_brick>, <embers:block_caminite_brick>]
+]);
+//暴怒符文
+mods.embers.Alchemy.add(<botania:rune:13>, [<embers:ember_cluster>,<botania:rune:2>,<botania:rune:7>,<naturesaura:token_rage>,<contenttweaker:blood_iron>], {"dawnstone":20 to 23,"gold":20 to 23});
