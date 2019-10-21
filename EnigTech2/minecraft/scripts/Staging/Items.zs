@@ -107,6 +107,7 @@ var modsStageFour as string[] = [
 	"flopper",
 	"enderioconduitsappliedenergistics",
 	"appliedenergistics2",
+	"soot",
 	"carryon"
 
 ];
@@ -135,8 +136,7 @@ var modsStageFive as string[] = [
 	"ae2wtlib",
 	"buildinggadgets",
 	"wpt",
-	"advancedrocketry",
-	"soot"
+	"advancedrocketry"
 
 ];
 
