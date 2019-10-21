@@ -48,3 +48,10 @@ item.contenttweaker.plastic_plate.name=片状塑料
 fluid.fluid_lubricant=润滑油
 fluid.fluid_oil_gas=炼油气
 fluid.fluid_ethylene=液态乙烯
+fluid.blend_caminite=液态方美矾
+
+item.contenttweaker.basic_motioner.name=基础传动装置
+item.contenttweaker.medium_motioner.name=中级传动装置
+item.contenttweaker.advanced_motioner.name=高级传动装置
+item.contenttweaker.ultimate_motioner.name=终极传动装置
+item.contenttweaker.dust_silicon.name=粉碎硅
