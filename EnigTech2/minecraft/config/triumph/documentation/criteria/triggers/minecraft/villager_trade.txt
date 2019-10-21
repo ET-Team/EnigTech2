@@ -1,0 +1,33 @@
+These are the functions which can be called on a minecraft:villager_trade criteria 
+trigger.
+
+
+
+getEntityData:
+    Notes:
+        Returns the EntityData object so functions can be called on it.
+
+setItem:
+    Arguments:
+        ItemBlockData
+    Usage:
+        item data
+    Notes:
+        Sets the required item that must be traded for from the villager.
+
+setEntityType:
+    Arguments:
+        String
+    Usage:
+        entity type
+    Notes:
+        Sets the entity type.
+
+setCount:
+    Arguments:
+        int
+    Usage:
+        count
+    Notes:
+        Sets the number of times this criteria must be completed before it counts towards advancement progress.
+

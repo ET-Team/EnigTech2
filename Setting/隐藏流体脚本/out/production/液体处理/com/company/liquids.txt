@@ -1,0 +1,3832 @@
+<liquid:aerotheum>
+- Name: aerotheum
+- Display Name: 飞扬之清风
+- Luminosity:0
+- Density: -800
+- Temperature: 300
+- Viscosity: 100
+- Gaseous: true
+<liquid:alchemical_redstone>
+- Name: alchemical_redstone
+- Display Name: 炼金浆液
+- Luminosity:15
+- Density: 2000
+- Temperature: 900
+- Viscosity: 6000
+- Gaseous: false
+<liquid:ale>
+- Name: ale
+- Display Name: 啤酒
+- Luminosity:0
+- Density: 1004
+- Temperature: 300
+- Viscosity: 1016
+- Gaseous: false
+<liquid:alewort>
+- Name: alewort
+- Display Name: 麦芽汁
+- Luminosity:0
+- Density: 1004
+- Temperature: 300
+- Viscosity: 2000
+- Gaseous: false
+<liquid:alugentum>
+- Name: alugentum
+- Display Name: 熔融Alugentum
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:alumina>
+- Name: alumina
+- Display Name: 熔融氧化铝
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:aluminum>
+- Name: aluminum
+- Display Name: 熔融铝
+- Luminosity:15
+- Density: 2000
+- Temperature: 900
+- Viscosity: 6000
+- Gaseous: false
+<liquid:americium_241>
+- Name: americium_241
+- Display Name: 熔融镅-241
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:americium_241_fluoride>
+- Name: americium_241_fluoride
+- Display Name: 熔融氟化镅-241
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:americium_241_fluoride_flibe>
+- Name: americium_241_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化镅-241
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:americium_242>
+- Name: americium_242
+- Display Name: 熔融镅-242
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:americium_242_fluoride>
+- Name: americium_242_fluoride
+- Display Name: 熔融氟化镅-242
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:americium_242_fluoride_flibe>
+- Name: americium_242_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化镅-242
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:americium_243>
+- Name: americium_243
+- Display Name: 熔融镅-243
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:americium_243_fluoride>
+- Name: americium_243_fluoride
+- Display Name: 熔融氟化镅-243
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:americium_243_fluoride_flibe>
+- Name: americium_243_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化镅-243
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:ammonia>
+- Name: ammonia
+- Display Name: 氨气
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:applejuice>
+- Name: applejuice
+- Display Name: 苹果汁
+- Luminosity:0
+- Density: 1050
+- Temperature: 300
+- Viscosity: 1100
+- Gaseous: false
+<liquid:arsenic>
+- Name: arsenic
+- Display Name: 熔融砷
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:astralsorcery.liquidstarlight>
+- Name: astralsorcery.liquidstarlight
+- Display Name: 星能液
+- Luminosity:15
+- Density: 1001
+- Temperature: 120
+- Viscosity: 300
+- Gaseous: false
+<liquid:bas>
+- Name: bas
+- Display Name: 熔融砷化硼
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:bef2>
+- Name: bef2
+- Display Name: 熔融氟化铍
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:berkelium_247>
+- Name: berkelium_247
+- Display Name: 熔融锫-247
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:berkelium_247_fluoride>
+- Name: berkelium_247_fluoride
+- Display Name: 熔融氟化锫-247
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:berkelium_247_fluoride_flibe>
+- Name: berkelium_247_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化锫-247
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:berkelium_248>
+- Name: berkelium_248
+- Display Name: 熔融锫-248
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:berkelium_248_fluoride>
+- Name: berkelium_248_fluoride
+- Display Name: 熔融氟化锫-248
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:berkelium_248_fluoride_flibe>
+- Name: berkelium_248_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化锫-248
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:beryllium>
+- Name: beryllium
+- Display Name: 熔融铍
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:bio.ethanol>
+- Name: bio.ethanol
+- Display Name: 乙醇
+- Luminosity:0
+- Density: 790
+- Temperature: 295
+- Viscosity: 1000
+- Gaseous: false
+<liquid:biocrude>
+- Name: biocrude
+- Display Name: 生物质原油
+- Luminosity:0
+- Density: 1500
+- Temperature: 300
+- Viscosity: 2500
+- Gaseous: false
+<liquid:biodiesel>
+- Name: biodiesel
+- Display Name: 生物柴油
+- Luminosity:0
+- Density: 789
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:biomass>
+- Name: biomass
+- Display Name: 生物质
+- Luminosity:0
+- Density: 400
+- Temperature: 295
+- Viscosity: 6560
+- Gaseous: false
+<liquid:blood>
+- Name: blood
+- Display Name: 血
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:borax_solution>
+- Name: borax_solution
+- Display Name: 硼砂溶液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:boric_acid>
+- Name: boric_acid
+- Display Name: 硼酸
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:boron>
+- Name: boron
+- Display Name: 熔融硼
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:boron10>
+- Name: boron10
+- Display Name: 熔融硼-10
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:boron11>
+- Name: boron11
+- Display Name: 熔融硼-11
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:boron_nitride_solution>
+- Name: boron_nitride_solution
+- Display Name: 氮化硼溶液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:brine>
+- Name: brine
+- Display Name: 盐水
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:bronze>
+- Name: bronze
+- Display Name: 熔融青铜
+- Luminosity:15
+- Density: 2000
+- Temperature: 900
+- Viscosity: 6000
+- Gaseous: false
+<liquid:calcium_sulfate_solution>
+- Name: calcium_sulfate_solution
+- Display Name: 硫酸钙溶液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:californium_249>
+- Name: californium_249
+- Display Name: 熔融锎-249
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:californium_249_fluoride>
+- Name: californium_249_fluoride
+- Display Name: 熔融氟化锎-249
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:californium_249_fluoride_flibe>
+- Name: californium_249_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化锎-249
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:californium_250>
+- Name: californium_250
+- Display Name: 熔融锎-250
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:californium_250_fluoride>
+- Name: californium_250_fluoride
+- Display Name: 熔融氟化锎-250
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:californium_250_fluoride_flibe>
+- Name: californium_250_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化锎-250
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:californium_251>
+- Name: californium_251
+- Display Name: 熔融锎-251
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:californium_251_fluoride>
+- Name: californium_251_fluoride
+- Display Name: 熔融氟化锎-251
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:californium_251_fluoride_flibe>
+- Name: californium_251_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化锎-251
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:californium_252>
+- Name: californium_252
+- Display Name: 熔融锎-252
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:californium_252_fluoride>
+- Name: californium_252_fluoride
+- Display Name: 熔融氟化锎-252
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:californium_252_fluoride_flibe>
+- Name: californium_252_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化锎-252
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:canolaoil>
+- Name: canolaoil
+- Display Name: 菜籽油
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:carbon_dioxide>
+- Name: carbon_dioxide
+- Display Name: 二氧化碳
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:carbon_monoxide>
+- Name: carbon_monoxide
+- Display Name: 一氧化碳
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:chocolate_liquor>
+- Name: chocolate_liquor
+- Display Name: 可可浆
+- Luminosity:0
+- Density: 1325
+- Temperature: 330
+- Viscosity: 5000
+- Gaseous: false
+<liquid:cider>
+- Name: cider
+- Display Name: 苹果酒
+- Luminosity:0
+- Density: 1004
+- Temperature: 300
+- Viscosity: 1400
+- Gaseous: false
+<liquid:cloud_seed>
+- Name: cloud_seed
+- Display Name: 云之精华
+- Luminosity:0
+- Density: 500
+- Temperature: 300
+- Viscosity: 800
+- Gaseous: false
+<liquid:cloud_seed_concentrated>
+- Name: cloud_seed_concentrated
+- Display Name: 浓缩云之精华
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1200
+- Gaseous: false
+<liquid:coal>
+- Name: coal
+- Display Name: 液态煤炭
+- Luminosity:0
+- Density: 900
+- Temperature: 300
+- Viscosity: 2000
+- Gaseous: false
+<liquid:cocoa_butter>
+- Name: cocoa_butter
+- Display Name: 可可脂
+- Luminosity:0
+- Density: 1325
+- Temperature: 330
+- Viscosity: 5000
+- Gaseous: false
+<liquid:concrete>
+- Name: concrete
+- Display Name: 液态混凝土
+- Luminosity:0
+- Density: 2400
+- Temperature: 300
+- Viscosity: 4000
+- Gaseous: false
+<liquid:condensate_water>
+- Name: condensate_water
+- Display Name: 冷凝水
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 850
+- Gaseous: false
+<liquid:copper>
+- Name: copper
+- Display Name: 熔融铜
+- Luminosity:15
+- Density: 2000
+- Temperature: 900
+- Viscosity: 6000
+- Gaseous: false
+<liquid:copper_nak>
+- Name: copper_nak
+- Display Name: 共晶钠钾-铜混合物
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:copper_nak_hot>
+- Name: copper_nak_hot
+- Display Name: 热共晶钠钾-铜混合物
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:corium>
+- Name: corium
+- Display Name: 堆芯熔融物
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:creosote>
+- Name: creosote
+- Display Name: 杂酚油
+- Luminosity:0
+- Density: 1100
+- Temperature: 300
+- Viscosity: 2000
+- Gaseous: false
+<liquid:crude_oil>
+- Name: crude_oil
+- Display Name: 石油
+- Luminosity:0
+- Density: 900
+- Temperature: 300
+- Viscosity: 2000
+- Gaseous: false
+<liquid:cryotheum>
+- Name: cryotheum
+- Display Name: 极寒之凛冰
+- Luminosity:0
+- Density: 4000
+- Temperature: 50
+- Viscosity: 4000
+- Gaseous: false
+<liquid:cryotheum_nak>
+- Name: cryotheum_nak
+- Display Name: 共晶钠钾-凛冰混合物
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:cryotheum_nak_hot>
+- Name: cryotheum_nak_hot
+- Display Name: 热共晶钠钾-凛冰混合物
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:crystaloil>
+- Name: crystaloil
+- Display Name: 晶化油
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:curium_243>
+- Name: curium_243
+- Display Name: 熔融锔-243
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:curium_243_fluoride>
+- Name: curium_243_fluoride
+- Display Name: 熔融氟化锔-243
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:curium_243_fluoride_flibe>
+- Name: curium_243_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化锔-243
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:curium_245>
+- Name: curium_245
+- Display Name: 熔融锔-245
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:curium_245_fluoride>
+- Name: curium_245_fluoride
+- Display Name: 熔融氟化锔-245
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:curium_245_fluoride_flibe>
+- Name: curium_245_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化锔-245
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:curium_246>
+- Name: curium_246
+- Display Name: 熔融锔-246
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:curium_246_fluoride>
+- Name: curium_246_fluoride
+- Display Name: 熔融氟化锔-246
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:curium_246_fluoride_flibe>
+- Name: curium_246_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化锔-246
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:curium_247>
+- Name: curium_247
+- Display Name: 熔融锔-247
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:curium_247_fluoride>
+- Name: curium_247_fluoride
+- Display Name: 熔融氟化锔-247
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:curium_247_fluoride_flibe>
+- Name: curium_247_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化锔-247
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:dark_chocolate>
+- Name: dark_chocolate
+- Display Name: 熔融黑巧克力
+- Luminosity:0
+- Density: 1325
+- Temperature: 330
+- Viscosity: 5000
+- Gaseous: false
+<liquid:dawnstone>
+- Name: dawnstone
+- Display Name: 熔融黎明石
+- Luminosity:15
+- Density: 2000
+- Temperature: 900
+- Viscosity: 6000
+- Gaseous: false
+<liquid:depleted_fuel_hea_242>
+- Name: depleted_fuel_hea_242
+- Display Name: 熔融枯竭高浓缩镅-242燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hea_242_fluoride>
+- Name: depleted_fuel_hea_242_fluoride
+- Display Name: 熔融枯竭氟化高浓缩镅-242燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hea_242_fluoride_flibe>
+- Name: depleted_fuel_hea_242_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭高浓缩氟化镅-242燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_heb_248>
+- Name: depleted_fuel_heb_248
+- Display Name: 熔融枯竭高浓缩锫-248燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_heb_248_fluoride>
+- Name: depleted_fuel_heb_248_fluoride
+- Display Name: 熔融枯竭氟化高浓缩锫-248燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_heb_248_fluoride_flibe>
+- Name: depleted_fuel_heb_248_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭高浓缩氟化锫-248燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hecf_249>
+- Name: depleted_fuel_hecf_249
+- Display Name: 熔融枯竭高浓缩锎-249燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hecf_249_fluoride>
+- Name: depleted_fuel_hecf_249_fluoride
+- Display Name: 熔融枯竭氟化高浓缩锎-249燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hecf_249_fluoride_flibe>
+- Name: depleted_fuel_hecf_249_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭高浓缩氟化锎-249燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hecf_251>
+- Name: depleted_fuel_hecf_251
+- Display Name: 熔融枯竭高浓缩锎-251燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hecf_251_fluoride>
+- Name: depleted_fuel_hecf_251_fluoride
+- Display Name: 熔融枯竭氟化高浓缩锎-251燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hecf_251_fluoride_flibe>
+- Name: depleted_fuel_hecf_251_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭高浓缩氟化锎-251燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hecm_243>
+- Name: depleted_fuel_hecm_243
+- Display Name: 熔融枯竭高浓缩锔-243燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hecm_243_fluoride>
+- Name: depleted_fuel_hecm_243_fluoride
+- Display Name: 熔融枯竭氟化高浓缩锔-243燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hecm_243_fluoride_flibe>
+- Name: depleted_fuel_hecm_243_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭高浓缩氟化锔-243燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hecm_245>
+- Name: depleted_fuel_hecm_245
+- Display Name: 熔融枯竭高浓缩锔-245燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hecm_245_fluoride>
+- Name: depleted_fuel_hecm_245_fluoride
+- Display Name: 熔融枯竭氟化高浓缩锔-245燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hecm_245_fluoride_flibe>
+- Name: depleted_fuel_hecm_245_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭高浓缩氟化锔-245燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hecm_247>
+- Name: depleted_fuel_hecm_247
+- Display Name: 熔融枯竭高浓缩锔-247燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hecm_247_fluoride>
+- Name: depleted_fuel_hecm_247_fluoride
+- Display Name: 熔融枯竭氟化高浓缩锔-247燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hecm_247_fluoride_flibe>
+- Name: depleted_fuel_hecm_247_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭高浓缩氟化锔-247燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hen_236>
+- Name: depleted_fuel_hen_236
+- Display Name: 熔融枯竭高浓缩镎-236燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hen_236_fluoride>
+- Name: depleted_fuel_hen_236_fluoride
+- Display Name: 熔融枯竭氟化高浓缩镎-236燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hen_236_fluoride_flibe>
+- Name: depleted_fuel_hen_236_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭高浓缩氟化镎-236燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hep_239>
+- Name: depleted_fuel_hep_239
+- Display Name: 熔融枯竭高浓缩钚-239燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hep_239_fluoride>
+- Name: depleted_fuel_hep_239_fluoride
+- Display Name: 熔融枯竭氟化高浓缩钚-239燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hep_239_fluoride_flibe>
+- Name: depleted_fuel_hep_239_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭高浓缩氟化钚-239燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hep_241>
+- Name: depleted_fuel_hep_241
+- Display Name: 熔融枯竭高浓缩钚-241燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hep_241_fluoride>
+- Name: depleted_fuel_hep_241_fluoride
+- Display Name: 熔融枯竭氟化高浓缩钚-241燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_hep_241_fluoride_flibe>
+- Name: depleted_fuel_hep_241_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭高浓缩氟化钚-241燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_heu_233>
+- Name: depleted_fuel_heu_233
+- Display Name: 熔融枯竭高浓缩铀-233燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_heu_233_fluoride>
+- Name: depleted_fuel_heu_233_fluoride
+- Display Name: 熔融枯竭氟化高浓缩铀-233燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_heu_233_fluoride_flibe>
+- Name: depleted_fuel_heu_233_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭高浓缩氟化铀-233燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_heu_235>
+- Name: depleted_fuel_heu_235
+- Display Name: 熔融枯竭高浓缩铀-235燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_heu_235_fluoride>
+- Name: depleted_fuel_heu_235_fluoride
+- Display Name: 熔融枯竭氟化高浓缩铀-235燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_heu_235_fluoride_flibe>
+- Name: depleted_fuel_heu_235_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭高浓缩氟化铀-235燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lea_242>
+- Name: depleted_fuel_lea_242
+- Display Name: 熔融枯竭低浓缩镅-242燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lea_242_fluoride>
+- Name: depleted_fuel_lea_242_fluoride
+- Display Name: 熔融枯竭氟化低浓缩镅-242燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lea_242_fluoride_flibe>
+- Name: depleted_fuel_lea_242_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭低浓缩氟化镅-242燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_leb_248>
+- Name: depleted_fuel_leb_248
+- Display Name: 熔融枯竭低浓缩锫-248燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_leb_248_fluoride>
+- Name: depleted_fuel_leb_248_fluoride
+- Display Name: 熔融枯竭氟化低浓缩锫-248燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_leb_248_fluoride_flibe>
+- Name: depleted_fuel_leb_248_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭低浓缩氟化锫-248燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lecf_249>
+- Name: depleted_fuel_lecf_249
+- Display Name: 熔融枯竭低浓缩锎-249燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lecf_249_fluoride>
+- Name: depleted_fuel_lecf_249_fluoride
+- Display Name: 熔融枯竭氟化低浓缩锎-249燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lecf_249_fluoride_flibe>
+- Name: depleted_fuel_lecf_249_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭低浓缩氟化锎-249燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lecf_251>
+- Name: depleted_fuel_lecf_251
+- Display Name: 熔融枯竭低浓缩锎-251燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lecf_251_fluoride>
+- Name: depleted_fuel_lecf_251_fluoride
+- Display Name: 熔融枯竭氟化低浓缩锎-251燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lecf_251_fluoride_flibe>
+- Name: depleted_fuel_lecf_251_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭低浓缩氟化锎-251燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lecm_243>
+- Name: depleted_fuel_lecm_243
+- Display Name: 熔融枯竭低浓缩锔-243燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lecm_243_fluoride>
+- Name: depleted_fuel_lecm_243_fluoride
+- Display Name: 熔融枯竭氟化低浓缩锔-243燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lecm_243_fluoride_flibe>
+- Name: depleted_fuel_lecm_243_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭低浓缩氟化锔-243燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lecm_245>
+- Name: depleted_fuel_lecm_245
+- Display Name: 熔融枯竭低浓缩锔-245燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lecm_245_fluoride>
+- Name: depleted_fuel_lecm_245_fluoride
+- Display Name: 熔融枯竭氟化低浓缩锔-245燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lecm_245_fluoride_flibe>
+- Name: depleted_fuel_lecm_245_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭低浓缩氟化锔-245燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lecm_247>
+- Name: depleted_fuel_lecm_247
+- Display Name: 熔融枯竭低浓缩锔-247燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lecm_247_fluoride>
+- Name: depleted_fuel_lecm_247_fluoride
+- Display Name: 熔融枯竭氟化低浓缩锔-247燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lecm_247_fluoride_flibe>
+- Name: depleted_fuel_lecm_247_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭低浓缩氟化锔-247燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_len_236>
+- Name: depleted_fuel_len_236
+- Display Name: 熔融枯竭低浓缩镎-236燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_len_236_fluoride>
+- Name: depleted_fuel_len_236_fluoride
+- Display Name: 熔融枯竭氟化低浓缩镎-236燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_len_236_fluoride_flibe>
+- Name: depleted_fuel_len_236_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭低浓缩氟化镎-236燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lep_239>
+- Name: depleted_fuel_lep_239
+- Display Name: 熔融枯竭低浓缩钚-239燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lep_239_fluoride>
+- Name: depleted_fuel_lep_239_fluoride
+- Display Name: 熔融枯竭氟化低浓缩钚-239燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lep_239_fluoride_flibe>
+- Name: depleted_fuel_lep_239_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭低浓缩氟化钚-239燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lep_241>
+- Name: depleted_fuel_lep_241
+- Display Name: 熔融枯竭低浓缩钚-241燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lep_241_fluoride>
+- Name: depleted_fuel_lep_241_fluoride
+- Display Name: 熔融枯竭氟化低浓缩钚-241燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_lep_241_fluoride_flibe>
+- Name: depleted_fuel_lep_241_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭低浓缩氟化钚-241燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_leu_233>
+- Name: depleted_fuel_leu_233
+- Display Name: 熔融枯竭低浓缩铀-233燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_leu_233_fluoride>
+- Name: depleted_fuel_leu_233_fluoride
+- Display Name: 熔融枯竭氟化低浓缩铀-233燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_leu_233_fluoride_flibe>
+- Name: depleted_fuel_leu_233_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭低浓缩氟化铀-233燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_leu_235>
+- Name: depleted_fuel_leu_235
+- Display Name: 熔融枯竭低浓缩铀-235燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_leu_235_fluoride>
+- Name: depleted_fuel_leu_235_fluoride
+- Display Name: 熔融枯竭氟化低浓缩铀-235燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_leu_235_fluoride_flibe>
+- Name: depleted_fuel_leu_235_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭低浓缩氟化铀-235燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_tbu>
+- Name: depleted_fuel_tbu
+- Display Name: 熔融枯竭TBU燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_tbu_fluoride>
+- Name: depleted_fuel_tbu_fluoride
+- Display Name: 熔融枯竭氟化TBU燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:depleted_fuel_tbu_fluoride_flibe>
+- Name: depleted_fuel_tbu_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-枯竭TBU燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:deuterium>
+- Name: deuterium
+- Display Name: 氘
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:diamond>
+- Name: diamond
+- Display Name: 熔融钻石
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:diamond_nak>
+- Name: diamond_nak
+- Display Name: 共晶钠钾-钻石混合物
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:diamond_nak_hot>
+- Name: diamond_nak_hot
+- Display Name: 热共晶钠钾-钻石混合物
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:diborane>
+- Name: diborane
+- Display Name: 乙硼烷
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:diesel>
+- Name: diesel
+- Display Name: 柴油
+- Luminosity:0
+- Density: 789
+- Temperature: 300
+- Viscosity: 1750
+- Gaseous: false
+<liquid:ec.internal.brine>
+- Name: ec.internal.brine
+- Display Name: 气态盐水
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.chlorine>
+- Name: ec.internal.chlorine
+- Display Name: 氯
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.cleancopper>
+- Name: ec.internal.cleancopper
+- Display Name: 纯净铜浆液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.cleangold>
+- Name: ec.internal.cleangold
+- Display Name: 纯净金浆液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.cleaniron>
+- Name: ec.internal.cleaniron
+- Display Name: 纯净铁浆液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.cleanlead>
+- Name: ec.internal.cleanlead
+- Display Name: 纯净铅浆液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.cleanosmium>
+- Name: ec.internal.cleanosmium
+- Display Name: 纯净锇浆液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.cleansilver>
+- Name: ec.internal.cleansilver
+- Display Name: 纯净银浆液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.cleantin>
+- Name: ec.internal.cleantin
+- Display Name: 纯净锡浆液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.copper>
+- Name: ec.internal.copper
+- Display Name: 铜浆液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.deuterium>
+- Name: ec.internal.deuterium
+- Display Name: 氘
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.ethene>
+- Name: ec.internal.ethene
+- Display Name: 乙烯
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.fusionfuel>
+- Name: ec.internal.fusionfuel
+- Display Name: 氘氚燃料
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.gold>
+- Name: ec.internal.gold
+- Display Name: 金浆液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.hydrogen>
+- Name: ec.internal.hydrogen
+- Display Name: 氢气
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.hydrogenchloride>
+- Name: ec.internal.hydrogenchloride
+- Display Name: 氯化氢
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.iron>
+- Name: ec.internal.iron
+- Display Name: 铁浆液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.lead>
+- Name: ec.internal.lead
+- Display Name: 铅浆液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.liquidosmium>
+- Name: ec.internal.liquidosmium
+- Display Name: 液态锇
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.lithium>
+- Name: ec.internal.lithium
+- Display Name: 锂
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.osmium>
+- Name: ec.internal.osmium
+- Display Name: 锇浆液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.oxygen>
+- Name: ec.internal.oxygen
+- Display Name: 氧气
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.silver>
+- Name: ec.internal.silver
+- Display Name: 银浆液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.sodium>
+- Name: ec.internal.sodium
+- Display Name: 钠
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.sulfurdioxide>
+- Name: ec.internal.sulfurdioxide
+- Display Name: 二氧化硫
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.sulfuricacid>
+- Name: ec.internal.sulfuricacid
+- Display Name: 硫酸
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.sulfurtrioxide>
+- Name: ec.internal.sulfurtrioxide
+- Display Name: 三氧化硫
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.tin>
+- Name: ec.internal.tin
+- Display Name: 锡浆液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.tritium>
+- Name: ec.internal.tritium
+- Display Name: 氚
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ec.internal.water>
+- Name: ec.internal.water
+- Display Name: 水蒸气
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:electrum>
+- Name: electrum
+- Display Name: 熔融琥珀金
+- Luminosity:15
+- Density: 2000
+- Temperature: 900
+- Viscosity: 6000
+- Gaseous: false
+<liquid:emerald>
+- Name: emerald
+- Display Name: 熔融绿宝石
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:emerald_nak>
+- Name: emerald_nak
+- Display Name: 共晶钠钾-绿宝石混合物
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:emerald_nak_hot>
+- Name: emerald_nak_hot
+- Display Name: 热共晶钠钾-绿宝石混合物
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:empoweredoil>
+- Name: empoweredoil
+- Display Name: 充能油
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ender>
+- Name: ender
+- Display Name: 谐振末影珍珠
+- Luminosity:3
+- Density: 4000
+- Temperature: 300
+- Viscosity: 2500
+- Gaseous: false
+<liquid:ender_distillation>
+- Name: ender_distillation
+- Display Name: 深渊露水
+- Luminosity:0
+- Density: 200
+- Temperature: 175
+- Viscosity: 1000
+- Gaseous: false
+<liquid:ender_nak>
+- Name: ender_nak
+- Display Name: 共晶钠钾-末影混合物
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:ender_nak_hot>
+- Name: ender_nak_hot
+- Display Name: 热共晶钠钾-末影混合物
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:ethanol>
+- Name: ethanol
+- Display Name: 乙醇
+- Luminosity:0
+- Density: 800
+- Temperature: 300
+- Viscosity: 800
+- Gaseous: false
+<liquid:ethene>
+- Name: ethene
+- Display Name: 乙烯
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:exhaust_steam>
+- Name: exhaust_steam
+- Display Name: 废蒸汽
+- Luminosity:0
+- Density: -10
+- Temperature: 500
+- Viscosity: 40
+- Gaseous: true
+<liquid:experience>
+- Name: experience
+- Display Name: 知识精华
+- Luminosity:12
+- Density: -200
+- Temperature: 300
+- Viscosity: 200
+- Gaseous: true
+<liquid:ferroboron>
+- Name: ferroboron
+- Display Name: 熔融硼铁合金
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fiery_essence>
+- Name: fiery_essence
+- Display Name: 炽血精华
+- Luminosity:0
+- Density: 1000
+- Temperature: 1000
+- Viscosity: 1000
+- Gaseous: false
+<liquid:fierymetal>
+- Name: fierymetal
+- Display Name: 熔融炽铁
+- Luminosity:15
+- Density: 1000
+- Temperature: 1000
+- Viscosity: 1000
+- Gaseous: false
+<liquid:fire_water>
+- Name: fire_water
+- Display Name: 火焰水
+- Luminosity:0
+- Density: 900
+- Temperature: 2000
+- Viscosity: 1000
+- Gaseous: false
+<liquid:flibe>
+- Name: flibe
+- Display Name: 熔融氟锂铍盐混合物
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fluorine>
+- Name: fluorine
+- Display Name: 氟
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:fluorite_water>
+- Name: fluorite_water
+- Display Name: 氟化钙溶液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:fluoromethane>
+- Name: fluoromethane
+- Display Name: 氟代甲烷
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:for.honey>
+- Name: for.honey
+- Display Name: 蜂蜜
+- Luminosity:0
+- Density: 1420
+- Temperature: 295
+- Viscosity: 75600
+- Gaseous: false
+<liquid:fuel_hea_242>
+- Name: fuel_hea_242
+- Display Name: 熔融高浓缩镅-242燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hea_242_fluoride>
+- Name: fuel_hea_242_fluoride
+- Display Name: 熔融氟化高浓缩镅-242燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hea_242_fluoride_flibe>
+- Name: fuel_hea_242_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-高浓缩氟化镅-242燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_heb_248>
+- Name: fuel_heb_248
+- Display Name: 熔融高浓缩锫-248燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_heb_248_fluoride>
+- Name: fuel_heb_248_fluoride
+- Display Name: 熔融氟化高浓缩锫-248燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_heb_248_fluoride_flibe>
+- Name: fuel_heb_248_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-高浓缩氟化锫-248燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hecf_249>
+- Name: fuel_hecf_249
+- Display Name: 熔融高浓缩锎-249燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hecf_249_fluoride>
+- Name: fuel_hecf_249_fluoride
+- Display Name: 熔融氟化高浓缩锎-249燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hecf_249_fluoride_flibe>
+- Name: fuel_hecf_249_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-高浓缩氟化锎-249燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hecf_251>
+- Name: fuel_hecf_251
+- Display Name: 熔融高浓缩锎-251燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hecf_251_fluoride>
+- Name: fuel_hecf_251_fluoride
+- Display Name: 熔融氟化高浓缩锎-251燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hecf_251_fluoride_flibe>
+- Name: fuel_hecf_251_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-高浓缩氟化锎-251燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hecm_243>
+- Name: fuel_hecm_243
+- Display Name: 熔融高浓缩锔-243燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hecm_243_fluoride>
+- Name: fuel_hecm_243_fluoride
+- Display Name: 熔融氟化高浓缩锔-243燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hecm_243_fluoride_flibe>
+- Name: fuel_hecm_243_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-高浓缩氟化锔-243燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hecm_245>
+- Name: fuel_hecm_245
+- Display Name: 熔融高浓缩锔-245燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hecm_245_fluoride>
+- Name: fuel_hecm_245_fluoride
+- Display Name: 熔融氟化高浓缩锔-245燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hecm_245_fluoride_flibe>
+- Name: fuel_hecm_245_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-高浓缩氟化锔-245燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hecm_247>
+- Name: fuel_hecm_247
+- Display Name: 熔融高浓缩锔-247燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hecm_247_fluoride>
+- Name: fuel_hecm_247_fluoride
+- Display Name: 熔融氟化高浓缩锔-247燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hecm_247_fluoride_flibe>
+- Name: fuel_hecm_247_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-高浓缩氟化锔-247燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hen_236>
+- Name: fuel_hen_236
+- Display Name: 熔融高浓缩镎-236燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hen_236_fluoride>
+- Name: fuel_hen_236_fluoride
+- Display Name: 熔融氟化高浓缩镎-236燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hen_236_fluoride_flibe>
+- Name: fuel_hen_236_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-高浓缩氟化镎-236燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hep_239>
+- Name: fuel_hep_239
+- Display Name: 熔融高浓缩钚-239燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hep_239_fluoride>
+- Name: fuel_hep_239_fluoride
+- Display Name: 熔融氟化高浓缩钚-239燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hep_239_fluoride_flibe>
+- Name: fuel_hep_239_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-高浓缩氟化钚-239燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hep_241>
+- Name: fuel_hep_241
+- Display Name: 熔融高浓缩钚-241燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hep_241_fluoride>
+- Name: fuel_hep_241_fluoride
+- Display Name: 熔融氟化高浓缩钚-241燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_hep_241_fluoride_flibe>
+- Name: fuel_hep_241_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-高浓缩氟化钚-241燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_heu_233>
+- Name: fuel_heu_233
+- Display Name: 熔融高浓缩铀-233燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_heu_233_fluoride>
+- Name: fuel_heu_233_fluoride
+- Display Name: 熔融氟化高浓缩铀-233燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_heu_233_fluoride_flibe>
+- Name: fuel_heu_233_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-高浓缩氟化铀-233燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_heu_235>
+- Name: fuel_heu_235
+- Display Name: 熔融高浓缩铀-235燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_heu_235_fluoride>
+- Name: fuel_heu_235_fluoride
+- Display Name: 熔融氟化高浓缩铀-235燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_heu_235_fluoride_flibe>
+- Name: fuel_heu_235_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-高浓缩氟化铀-235燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lea_242>
+- Name: fuel_lea_242
+- Display Name: 熔融低浓缩镅-242燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lea_242_fluoride>
+- Name: fuel_lea_242_fluoride
+- Display Name: 熔融氟化低浓缩镅-242燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lea_242_fluoride_flibe>
+- Name: fuel_lea_242_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-低浓缩氟化镅-242燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_leb_248>
+- Name: fuel_leb_248
+- Display Name: 熔融低浓缩锫-248燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_leb_248_fluoride>
+- Name: fuel_leb_248_fluoride
+- Display Name: 熔融氟化低浓缩锫-248燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_leb_248_fluoride_flibe>
+- Name: fuel_leb_248_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-低浓缩氟化锫-248燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lecf_249>
+- Name: fuel_lecf_249
+- Display Name: 熔融低浓缩锎-249燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lecf_249_fluoride>
+- Name: fuel_lecf_249_fluoride
+- Display Name: 熔融氟化低浓缩锎-249燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lecf_249_fluoride_flibe>
+- Name: fuel_lecf_249_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-低浓缩氟化锎-249燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lecf_251>
+- Name: fuel_lecf_251
+- Display Name: 熔融低浓缩锎-251燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lecf_251_fluoride>
+- Name: fuel_lecf_251_fluoride
+- Display Name: 熔融氟化低浓缩锎-251燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lecf_251_fluoride_flibe>
+- Name: fuel_lecf_251_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-低浓缩氟化锎-251燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lecm_243>
+- Name: fuel_lecm_243
+- Display Name: 熔融低浓缩锔-243燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lecm_243_fluoride>
+- Name: fuel_lecm_243_fluoride
+- Display Name: 熔融氟化低浓缩锔-243燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lecm_243_fluoride_flibe>
+- Name: fuel_lecm_243_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-低浓缩氟化锔-243燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lecm_245>
+- Name: fuel_lecm_245
+- Display Name: 熔融低浓缩锔-245燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lecm_245_fluoride>
+- Name: fuel_lecm_245_fluoride
+- Display Name: 熔融氟化低浓缩锔-245燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lecm_245_fluoride_flibe>
+- Name: fuel_lecm_245_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-低浓缩氟化锔-245燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lecm_247>
+- Name: fuel_lecm_247
+- Display Name: 熔融低浓缩锔-247燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lecm_247_fluoride>
+- Name: fuel_lecm_247_fluoride
+- Display Name: 熔融氟化低浓缩锔-247燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lecm_247_fluoride_flibe>
+- Name: fuel_lecm_247_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-低浓缩氟化锔-247燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_len_236>
+- Name: fuel_len_236
+- Display Name: 熔融低浓缩镎-236燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_len_236_fluoride>
+- Name: fuel_len_236_fluoride
+- Display Name: 熔融氟化低浓缩镎-236燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_len_236_fluoride_flibe>
+- Name: fuel_len_236_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-低浓缩氟化镎-236燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lep_239>
+- Name: fuel_lep_239
+- Display Name: 熔融低浓缩钚-239燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lep_239_fluoride>
+- Name: fuel_lep_239_fluoride
+- Display Name: 熔融氟化低浓缩钚-239燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lep_239_fluoride_flibe>
+- Name: fuel_lep_239_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-低浓缩氟化钚-239燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lep_241>
+- Name: fuel_lep_241
+- Display Name: 熔融低浓缩钚-241燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lep_241_fluoride>
+- Name: fuel_lep_241_fluoride
+- Display Name: 熔融氟化低浓缩钚-241燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_lep_241_fluoride_flibe>
+- Name: fuel_lep_241_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-低浓缩氟化钚-241燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_leu_233>
+- Name: fuel_leu_233
+- Display Name: 熔融低浓缩铀-233燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_leu_233_fluoride>
+- Name: fuel_leu_233_fluoride
+- Display Name: 熔融氟化低浓缩铀-233燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_leu_233_fluoride_flibe>
+- Name: fuel_leu_233_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-低浓缩氟化铀-233燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_leu_235>
+- Name: fuel_leu_235
+- Display Name: 熔融低浓缩铀-235燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_leu_235_fluoride>
+- Name: fuel_leu_235_fluoride
+- Display Name: 熔融氟化低浓缩铀-235燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_leu_235_fluoride_flibe>
+- Name: fuel_leu_235_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-低浓缩氟化铀-235燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_tbu>
+- Name: fuel_tbu
+- Display Name: 熔融TBU燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_tbu_fluoride>
+- Name: fuel_tbu_fluoride
+- Display Name: 熔融氟化TBU燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:fuel_tbu_fluoride_flibe>
+- Name: fuel_tbu_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化TBU燃料
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:gasoline>
+- Name: gasoline
+- Display Name: 汽油
+- Luminosity:0
+- Density: 789
+- Temperature: 300
+- Viscosity: 1200
+- Gaseous: false
+<liquid:gelatin>
+- Name: gelatin
+- Display Name: 熔融明胶
+- Luminosity:0
+- Density: 1150
+- Temperature: 350
+- Viscosity: 8000
+- Gaseous: false
+<liquid:glass>
+- Name: glass
+- Display Name: 液态玻璃
+- Luminosity:0
+- Density: 2400
+- Temperature: 1200
+- Viscosity: 10000
+- Gaseous: false
+<liquid:glowstone>
+- Name: glowstone
+- Display Name: 充能液态荧石
+- Luminosity:15
+- Density: -500
+- Temperature: 300
+- Viscosity: 100
+- Gaseous: true
+<liquid:glowstone_nak>
+- Name: glowstone_nak
+- Display Name: 共晶钠钾-荧石混合物
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:glowstone_nak_hot>
+- Name: glowstone_nak_hot
+- Display Name: 热共晶钠钾-荧石混合物
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:gold>
+- Name: gold
+- Display Name: 熔融黄金
+- Luminosity:15
+- Density: 2000
+- Temperature: 900
+- Viscosity: 6000
+- Gaseous: false
+<liquid:gold_nak>
+- Name: gold_nak
+- Display Name: 共晶钠钾-金混合物
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:gold_nak_hot>
+- Name: gold_nak_hot
+- Display Name: 热共晶钠钾-金混合物
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:grapejuice>
+- Name: grapejuice
+- Display Name: 葡萄汁
+- Luminosity:0
+- Density: 1070
+- Temperature: 300
+- Viscosity: 1100
+- Gaseous: false
+<liquid:hard_carbon>
+- Name: hard_carbon
+- Display Name: 熔融硬碳
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:heavywater>
+- Name: heavywater
+- Display Name: 重水
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:helium>
+- Name: helium
+- Display Name: 氦气
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:helium3>
+- Name: helium3
+- Display Name: 氦3
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:high_pressure_steam>
+- Name: high_pressure_steam
+- Display Name: 高压蒸汽
+- Luminosity:0
+- Density: -10
+- Temperature: 1200
+- Viscosity: 40
+- Gaseous: true
+<liquid:honey>
+- Name: honey
+- Display Name: 蜂蜜
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false
+<liquid:hootch>
+- Name: hootch
+- Display Name: 烈酒
+- Luminosity:0
+- Density: 900
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:hot_spring_water>
+- Name: hot_spring_water
+- Display Name: 温泉水
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:hydrated_gelatin>
+- Name: hydrated_gelatin
+- Display Name: 水合明胶
+- Luminosity:0
+- Density: 1150
+- Temperature: 350
+- Viscosity: 8000
+- Gaseous: false
+<liquid:hydrofluoric_acid>
+- Name: hydrofluoric_acid
+- Display Name: 氢氟酸
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:hydrogen>
+- Name: hydrogen
+- Display Name: 氢
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:ice>
+- Name: ice
+- Display Name: 碎冰
+- Luminosity:0
+- Density: 520
+- Temperature: 265
+- Viscosity: 1000
+- Gaseous: false
+<liquid:iron>
+- Name: iron
+- Display Name: 熔融铁
+- Luminosity:15
+- Density: 2000
+- Temperature: 900
+- Viscosity: 6000
+- Gaseous: false
+<liquid:iron_nak>
+- Name: iron_nak
+- Display Name: 共晶钠钾-铁混合物
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:iron_nak_hot>
+- Name: iron_nak_hot
+- Display Name: 热共晶钠钾-铁混合物
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:ironberryjuice>
+- Name: ironberryjuice
+- Display Name: 铁树莓汁
+- Luminosity:0
+- Density: 1100
+- Temperature: 300
+- Viscosity: 1100
+- Gaseous: false
+<liquid:ironwine>
+- Name: ironwine
+- Display Name: 铁树莓酒
+- Luminosity:0
+- Density: 1034
+- Temperature: 300
+- Viscosity: 1400
+- Gaseous: false
+<liquid:juice>
+- Name: juice
+- Display Name: 果汁
+- Luminosity:0
+- Density: 1000
+- Temperature: 295
+- Viscosity: 1000
+- Gaseous: false
+<liquid:knightmetal>
+- Name: knightmetal
+- Display Name: 熔融骑士金属
+- Luminosity:15
+- Density: 1000
+- Temperature: 1000
+- Viscosity: 1000
+- Gaseous: false
+<liquid:koh>
+- Name: koh
+- Display Name: 熔融氢氧化钾
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lapis>
+- Name: lapis
+- Display Name: 熔融青金石
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lapis_nak>
+- Name: lapis_nak
+- Display Name: 共晶钠钾-青金石混合物
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:lapis_nak_hot>
+- Name: lapis_nak_hot
+- Display Name: 热共晶钠钾-青金石混合物
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:lava>
+- Name: lava
+- Display Name: 熔岩
+- Luminosity:15
+- Density: 3000
+- Temperature: 1300
+- Viscosity: 6000
+- Gaseous: false
+<liquid:lead>
+- Name: lead
+- Display Name: 熔融铅
+- Luminosity:15
+- Density: 2000
+- Temperature: 900
+- Viscosity: 6000
+- Gaseous: false
+<liquid:lif>
+- Name: lif
+- Display Name: 熔融氟化锂
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lifeessence>
+- Name: lifeessence
+- Display Name: 生命源质
+- Luminosity:0
+- Density: 2000
+- Temperature: 300
+- Viscosity: 2000
+- Gaseous: false
+<liquid:liquid_nitrogen>
+- Name: liquid_nitrogen
+- Display Name: 液氮
+- Luminosity:0
+- Density: 810
+- Temperature: 70
+- Viscosity: 170
+- Gaseous: false
+<liquid:liquid_sunshine>
+- Name: liquid_sunshine
+- Display Name: 液态阳光
+- Luminosity:0
+- Density: 200
+- Temperature: 300
+- Viscosity: 400
+- Gaseous: false
+<liquid:liquidchlorine>
+- Name: liquidchlorine
+- Display Name: 液态氯
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquiddeuterium>
+- Name: liquiddeuterium
+- Display Name: 液态氘
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquidethene>
+- Name: liquidethene
+- Display Name: 液态乙烯
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquidfusionfuel>
+- Name: liquidfusionfuel
+- Display Name: 液态氘氚燃料
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquidhelium>
+- Name: liquidhelium
+- Display Name: 液氦
+- Luminosity:0
+- Density: 150
+- Temperature: 4
+- Viscosity: 1
+- Gaseous: false
+<liquid:liquidhelium_nak>
+- Name: liquidhelium_nak
+- Display Name: 共晶钠钾-氦混合物
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:liquidhelium_nak_hot>
+- Name: liquidhelium_nak_hot
+- Display Name: 热共晶钠钾-氦混合物
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:liquidhydrogen>
+- Name: liquidhydrogen
+- Display Name: 液态氢
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquidhydrogenchloride>
+- Name: liquidhydrogenchloride
+- Display Name: 液态氯化氢
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquidlithium>
+- Name: liquidlithium
+- Display Name: 液态锂
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquidoxygen>
+- Name: liquidoxygen
+- Display Name: 液氧
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquidsodium>
+- Name: liquidsodium
+- Display Name: 液态钠
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquidsulfurdioxide>
+- Name: liquidsulfurdioxide
+- Display Name: 液态二氧化硫
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquidsulfurtrioxide>
+- Name: liquidsulfurtrioxide
+- Display Name: 液态三氧化硫
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:liquidtritium>
+- Name: liquidtritium
+- Display Name: 液态氚
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:lithium>
+- Name: lithium
+- Display Name: 熔融锂
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lithium6>
+- Name: lithium6
+- Display Name: 熔融锂-6
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:lithium7>
+- Name: lithium7
+- Display Name: 熔融锂-7
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:low_pressure_steam>
+- Name: low_pressure_steam
+- Display Name: 低压蒸汽
+- Luminosity:0
+- Density: -10
+- Temperature: 800
+- Viscosity: 40
+- Gaseous: true
+<liquid:low_quality_steam>
+- Name: low_quality_steam
+- Display Name: 低质蒸汽
+- Luminosity:0
+- Density: -10
+- Temperature: 350
+- Viscosity: 40
+- Gaseous: true
+<liquid:lubricant>
+- Name: lubricant
+- Display Name: 润滑油
+- Luminosity:0
+- Density: 925
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:magnesium>
+- Name: magnesium
+- Display Name: 熔融镁
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:magnesium_nak>
+- Name: magnesium_nak
+- Display Name: 共晶钠钾-镁混合物
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:magnesium_nak_hot>
+- Name: magnesium_nak_hot
+- Display Name: 热共晶钠钾-镁混合物
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:mana>
+- Name: mana
+- Display Name: 元始魔力
+- Luminosity:15
+- Density: 600
+- Temperature: 350
+- Viscosity: 6000
+- Gaseous: false
+<liquid:manganese>
+- Name: manganese
+- Display Name: 熔融锰
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:manganese_dioxide>
+- Name: manganese_dioxide
+- Display Name: 熔融二氧化锰
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:marshmallow>
+- Name: marshmallow
+- Display Name: 液态棉花糖
+- Luminosity:0
+- Density: 1325
+- Temperature: 330
+- Viscosity: 5000
+- Gaseous: false
+<liquid:mead>
+- Name: mead
+- Display Name: 蜂蜜酒
+- Luminosity:0
+- Density: 1034
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false
+<liquid:methanol>
+- Name: methanol
+- Display Name: 甲醇
+- Luminosity:0
+- Density: 800
+- Temperature: 300
+- Viscosity: 800
+- Gaseous: false
+<liquid:milk>
+- Name: milk
+- Display Name: 牛奶
+- Luminosity:0
+- Density: 1030
+- Temperature: 295
+- Viscosity: 3000
+- Gaseous: false
+<liquid:milk_chocolate>
+- Name: milk_chocolate
+- Display Name: 熔融牛奶巧克力
+- Luminosity:0
+- Density: 1325
+- Temperature: 330
+- Viscosity: 5000
+- Gaseous: false
+<liquid:mushroom_stew>
+- Name: mushroom_stew
+- Display Name: 蘑菇煲
+- Luminosity:0
+- Density: 2000
+- Temperature: 300
+- Viscosity: 2000
+- Gaseous: false
+<liquid:nak>
+- Name: nak
+- Display Name: 共晶钠钾合金
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:nak_hot>
+- Name: nak_hot
+- Display Name: 热共晶钠钾合金
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:naoh>
+- Name: naoh
+- Display Name: 熔融氢氧化钠
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:napalm>
+- Name: napalm
+- Display Name: 凝固汽油
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 4000
+- Gaseous: false
+<liquid:neptunium_236>
+- Name: neptunium_236
+- Display Name: 熔融镎-236
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:neptunium_236_fluoride>
+- Name: neptunium_236_fluoride
+- Display Name: 熔融氟化镎-236
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:neptunium_236_fluoride_flibe>
+- Name: neptunium_236_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化镎-236
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:neptunium_237>
+- Name: neptunium_237
+- Display Name: 熔融镎-237
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:neptunium_237_fluoride>
+- Name: neptunium_237_fluoride
+- Display Name: 熔融氟化镎-237
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:neptunium_237_fluoride_flibe>
+- Name: neptunium_237_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化镎-237 
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:neutron>
+- Name: neutron
+- Display Name: 中子流体
+- Luminosity:7
+- Density: 10000
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: false
+<liquid:nickel>
+- Name: nickel
+- Display Name: 熔融镍
+- Luminosity:15
+- Density: 2000
+- Temperature: 900
+- Viscosity: 6000
+- Gaseous: false
+<liquid:nitrogen>
+- Name: nitrogen
+- Display Name: 氮气
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:nutrient_distillation>
+- Name: nutrient_distillation
+- Display Name: 营养精华液
+- Luminosity:0
+- Density: 1500
+- Temperature: 300
+- Viscosity: 3000
+- Gaseous: false
+<liquid:oil>
+- Name: oil
+- Display Name: 原油
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 2250
+- Gaseous: false
+<liquid:oliveoil>
+- Name: oliveoil
+- Display Name: 橄榄油
+- Luminosity:0
+- Density: 920
+- Temperature: 300
+- Viscosity: 2000
+- Gaseous: false
+<liquid:oxygen>
+- Name: oxygen
+- Display Name: 氧气
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:oxygen_difluoride>
+- Name: oxygen_difluoride
+- Display Name: 二氟化氧
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:petrotheum>
+- Name: petrotheum
+- Display Name: 板块之层岩
+- Luminosity:0
+- Density: 4000
+- Temperature: 350
+- Viscosity: 1500
+- Gaseous: false
+<liquid:plantoil>
+- Name: plantoil
+- Display Name: 植物油
+- Luminosity:0
+- Density: 925
+- Temperature: 300
+- Viscosity: 2000
+- Gaseous: false
+<liquid:plasma>
+- Name: plasma
+- Display Name: 等离子体
+- Luminosity:15
+- Density: 50
+- Temperature: 10000
+- Viscosity: 100
+- Gaseous: false
+<liquid:plutonium>
+- Name: plutonium
+- Display Name: 熔融钚
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:plutonium_238>
+- Name: plutonium_238
+- Display Name: 熔融钚-238
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:plutonium_238_fluoride>
+- Name: plutonium_238_fluoride
+- Display Name: 熔融氟化钚-238
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:plutonium_238_fluoride_flibe>
+- Name: plutonium_238_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化钚-238
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:plutonium_239>
+- Name: plutonium_239
+- Display Name: 熔融钚-239
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:plutonium_239_fluoride>
+- Name: plutonium_239_fluoride
+- Display Name: 熔融氟化钚-239
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:plutonium_239_fluoride_flibe>
+- Name: plutonium_239_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化钚-239
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:plutonium_241>
+- Name: plutonium_241
+- Display Name: 熔融钚-241
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:plutonium_241_fluoride>
+- Name: plutonium_241_fluoride
+- Display Name: 熔融氟化钚-241
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:plutonium_241_fluoride_flibe>
+- Name: plutonium_241_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化钚-241
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:plutonium_242>
+- Name: plutonium_242
+- Display Name: 熔融钚-242
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:plutonium_242_fluoride>
+- Name: plutonium_242_fluoride
+- Display Name: 熔融氟化钚-242
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:plutonium_242_fluoride_flibe>
+- Name: plutonium_242_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化钚-242
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:plutonium_fluoride>
+- Name: plutonium_fluoride
+- Display Name: 熔融氟化钚
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:plutonium_fluoride_flibe>
+- Name: plutonium_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化钚
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:poison>
+- Name: poison
+- Display Name: 毒液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:potassium>
+- Name: potassium
+- Display Name: 熔融钾
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:potassium_fluoride_solution>
+- Name: potassium_fluoride_solution
+- Display Name: 氟化钾溶液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:potassium_hydroxide_solution>
+- Name: potassium_hydroxide_solution
+- Display Name: 氢氧化钾溶液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:potion>
+- Name: potion
+- Display Name: 药水
+- Luminosity:3
+- Density: 500
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false
+<liquid:potion_lingering>
+- Name: potion_lingering
+- Display Name: 滞留药水
+- Luminosity:3
+- Density: 500
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false
+<liquid:potion_splash>
+- Name: potion_splash
+- Display Name: 喷溅药水
+- Luminosity:3
+- Density: 500
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false
+<liquid:preheated_water>
+- Name: preheated_water
+- Display Name: 预热水
+- Luminosity:0
+- Density: 1000
+- Temperature: 400
+- Viscosity: 250
+- Gaseous: false
+<liquid:purified_water>
+- Name: purified_water
+- Display Name: 纯净水
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:pyrotheum>
+- Name: pyrotheum
+- Display Name: 烈焰之炽焱
+- Luminosity:15
+- Density: 2000
+- Temperature: 4000
+- Viscosity: 1200
+- Gaseous: false
+<liquid:quartz>
+- Name: quartz
+- Display Name: 熔融石英
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:quartz_nak>
+- Name: quartz_nak
+- Display Name: 共晶钠钾-石英混合物
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:quartz_nak_hot>
+- Name: quartz_nak_hot
+- Display Name: 热共晶钠钾-石英混合物
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:radaway>
+- Name: radaway
+- Display Name: 辐射宁流体
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:radaway_slow>
+- Name: radaway_slow
+- Display Name: 缓效辐射宁流体
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:redstone>
+- Name: redstone
+- Display Name: 不稳定红石
+- Luminosity:7
+- Density: 1200
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false
+<liquid:redstone_nak>
+- Name: redstone_nak
+- Display Name: 共晶钠钾-红石混合物
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:redstone_nak_hot>
+- Name: redstone_nak_hot
+- Display Name: 热共晶钠钾-红石混合物
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:refined_biofuel>
+- Name: refined_biofuel
+- Display Name: 藿香碱
+- Luminosity:0
+- Density: 750
+- Temperature: 300
+- Viscosity: 800
+- Gaseous: false
+<liquid:refined_fuel>
+- Name: refined_fuel
+- Display Name: 精炼油
+- Luminosity:0
+- Density: 750
+- Temperature: 300
+- Viscosity: 800
+- Gaseous: false
+<liquid:refined_oil>
+- Name: refined_oil
+- Display Name: 石脑油
+- Luminosity:0
+- Density: 800
+- Temperature: 300
+- Viscosity: 1400
+- Gaseous: false
+<liquid:refinedcanolaoil>
+- Name: refinedcanolaoil
+- Display Name: 精制菜籽油
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:resin>
+- Name: resin
+- Display Name: 树脂
+- Luminosity:0
+- Density: 900
+- Temperature: 300
+- Viscosity: 3000
+- Gaseous: false
+<liquid:rocket_fuel>
+- Name: rocket_fuel
+- Display Name: 火箭燃料
+- Luminosity:0
+- Density: 900
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:sand>
+- Name: sand
+- Display Name: 流沙
+- Luminosity:0
+- Density: 50000
+- Temperature: 300
+- Viscosity: 10000
+- Gaseous: false
+<liquid:sap>
+- Name: sap
+- Display Name: 树汁
+- Luminosity:0
+- Density: 1050
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false
+<liquid:seed.oil>
+- Name: seed.oil
+- Display Name: 种子油
+- Luminosity:0
+- Density: 885
+- Temperature: 295
+- Viscosity: 5000
+- Gaseous: false
+<liquid:seed_oil>
+- Name: seed_oil
+- Display Name: 种子油
+- Luminosity:0
+- Density: 950
+- Temperature: 300
+- Viscosity: 1300
+- Gaseous: false
+<liquid:short.mead>
+- Name: short.mead
+- Display Name: 蜂蜜酒
+- Luminosity:0
+- Density: 1000
+- Temperature: 295
+- Viscosity: 1200
+- Gaseous: false
+<liquid:sic_vapor>
+- Name: sic_vapor
+- Display Name: 碳化硅蒸气
+- Luminosity:0
+- Density: -10
+- Temperature: 1000
+- Viscosity: 40
+- Gaseous: true
+<liquid:silver>
+- Name: silver
+- Display Name: 熔融银
+- Luminosity:15
+- Density: 2000
+- Temperature: 900
+- Viscosity: 6000
+- Gaseous: false
+<liquid:sodium>
+- Name: sodium
+- Display Name: 熔融钠
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:sodium_fluoride_solution>
+- Name: sodium_fluoride_solution
+- Display Name: 氟化钠溶液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:sodium_hydroxide_solution>
+- Name: sodium_hydroxide_solution
+- Display Name: 氢氧化钠溶液
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:steam>
+- Name: steam
+- Display Name: 蒸汽
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: true
+<liquid:sugar>
+- Name: sugar
+- Display Name: 糖液
+- Luminosity:0
+- Density: 1150
+- Temperature: 350
+- Viscosity: 8000
+- Gaseous: false
+<liquid:sulfur>
+- Name: sulfur
+- Display Name: 熔融硫
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:sulfur_dioxide>
+- Name: sulfur_dioxide
+- Display Name: 二氧化硫
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:sulfur_trioxide>
+- Name: sulfur_trioxide
+- Display Name: 三氧化硫
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:sulfuric_acid>
+- Name: sulfuric_acid
+- Display Name: 硫酸
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:sulfuricacid>
+- Name: sulfuricacid
+- Display Name: 硫酸
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:syrup>
+- Name: syrup
+- Display Name: 糖浆
+- Luminosity:0
+- Density: 1400
+- Temperature: 300
+- Viscosity: 2500
+- Gaseous: false
+<liquid:thorium>
+- Name: thorium
+- Display Name: 熔融钍
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:thorium_230>
+- Name: thorium_230
+- Display Name: 熔融钍-230
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:thorium_230_fluoride>
+- Name: thorium_230_fluoride
+- Display Name: 熔融氟化钍-230
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:thorium_230_fluoride_flibe>
+- Name: thorium_230_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化钍-230
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:thorium_fluoride>
+- Name: thorium_fluoride
+- Display Name: 熔融氟化钍
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:thorium_fluoride_flibe>
+- Name: thorium_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化钍
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:tin>
+- Name: tin
+- Display Name: 熔融锡
+- Luminosity:15
+- Density: 2000
+- Temperature: 900
+- Viscosity: 6000
+- Gaseous: false
+<liquid:tin_nak>
+- Name: tin_nak
+- Display Name: 共晶钠钾-锡混合物
+- Luminosity:0
+- Density: 5000
+- Temperature: 300
+- Viscosity: 15000
+- Gaseous: false
+<liquid:tin_nak_hot>
+- Name: tin_nak_hot
+- Display Name: 热共晶钠钾-锡混合物
+- Luminosity:7
+- Density: 4000
+- Temperature: 700
+- Viscosity: 10000
+- Gaseous: false
+<liquid:tough>
+- Name: tough
+- Display Name: 熔融高强合金
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:tree_oil>
+- Name: tree_oil
+- Display Name: 树油
+- Luminosity:0
+- Density: 900
+- Temperature: 300
+- Viscosity: 1200
+- Gaseous: false
+<liquid:tritium>
+- Name: tritium
+- Display Name: 氚
+- Luminosity:0
+- Density: -10
+- Temperature: 300
+- Viscosity: 40
+- Gaseous: true
+<liquid:unsweetened_chocolate>
+- Name: unsweetened_chocolate
+- Display Name: 熔融无糖巧克力
+- Luminosity:0
+- Density: 1325
+- Temperature: 330
+- Viscosity: 5000
+- Gaseous: false
+<liquid:uranium>
+- Name: uranium
+- Display Name: 熔融铀
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:uranium_233>
+- Name: uranium_233
+- Display Name: 熔融铀-233
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:uranium_233_fluoride>
+- Name: uranium_233_fluoride
+- Display Name: 熔融氟化铀-233
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:uranium_233_fluoride_flibe>
+- Name: uranium_233_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化铀-233
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:uranium_235>
+- Name: uranium_235
+- Display Name: 熔融铀-235
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:uranium_235_fluoride>
+- Name: uranium_235_fluoride
+- Display Name: 熔融氟化铀-235
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:uranium_235_fluoride_flibe>
+- Name: uranium_235_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化铀-235
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:uranium_238>
+- Name: uranium_238
+- Display Name: 熔融铀-238
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:uranium_238_fluoride>
+- Name: uranium_238_fluoride
+- Display Name: 熔融氟化铀-238
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:uranium_238_fluoride_flibe>
+- Name: uranium_238_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化铀-238
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:uranium_fluoride>
+- Name: uranium_fluoride
+- Display Name: 熔融氟化铀
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:uranium_fluoride_flibe>
+- Name: uranium_fluoride_flibe
+- Display Name: 熔融氟锂铍盐-氟化铀
+- Luminosity:10
+- Density: 5000
+- Temperature: 1200
+- Viscosity: 8000
+- Gaseous: false
+<liquid:vapor_of_levity>
+- Name: vapor_of_levity
+- Display Name: 轻盈之气
+- Luminosity:0
+- Density: -10
+- Temperature: 5
+- Viscosity: 100
+- Gaseous: true
+<liquid:water>
+- Name: water
+- Display Name: 水
+- Luminosity:0
+- Density: 1000
+- Temperature: 300
+- Viscosity: 1000
+- Gaseous: false
+<liquid:wildberryjuice>
+- Name: wildberryjuice
+- Display Name: 野莓果汁
+- Luminosity:0
+- Density: 1070
+- Temperature: 300
+- Viscosity: 1100
+- Gaseous: false
+<liquid:wildberrywine>
+- Name: wildberrywine
+- Display Name: 野莓酒
+- Luminosity:0
+- Density: 1034
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false
+<liquid:wine>
+- Name: wine
+- Display Name: 葡萄酒
+- Luminosity:0
+- Density: 1034
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false
+<liquid:xpjuice>
+- Name: xpjuice
+- Display Name: 经验汁
+- Luminosity:10
+- Density: 800
+- Temperature: 300
+- Viscosity: 1500
+- Gaseous: false

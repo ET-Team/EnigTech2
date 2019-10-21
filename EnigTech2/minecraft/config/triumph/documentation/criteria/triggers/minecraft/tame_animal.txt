@@ -1,0 +1,24 @@
+These are the functions which can be called on a minecraft:tame_animal criteria trigger.
+
+
+
+getEntityData:
+    Notes:
+        Returns the EntityData object so functions can be called on it.
+
+setEntityType:
+    Arguments:
+        String
+    Usage:
+        entity type
+    Notes:
+        Sets the entity type.
+
+setCount:
+    Arguments:
+        int
+    Usage:
+        count
+    Notes:
+        Sets the number of times this criteria must be completed before it counts towards advancement progress.
+

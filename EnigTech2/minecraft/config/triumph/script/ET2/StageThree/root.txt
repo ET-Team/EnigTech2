@@ -1,0 +1,24 @@
+//Set icon item
+setIcon(<minecraft:paper>)
+
+//Set title String
+setTitle("\u9636\u6bb5\u4e09:\u542f\u8499")
+
+//Set description String
+setDescription("\u4e16\u754c\u7684\u5965\u5999\u5411\u4f60\u655e\u5f00\u5927\u95e8\uff0c\u4f60\u8be5\u5982\u4f55\u6709\u6548\u7684\u5229\u7528\u5b83\u4eec\u5462\uff1f")
+
+//Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(false)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+//Set the position
+setPos(-751,76)
+
+//Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
+Criteria40 = addCriteria("completedParent", "triumph:completed_advancement")
+Criteria40.setAdvancement("ET2:StageTwo/shanggujuanzhou")

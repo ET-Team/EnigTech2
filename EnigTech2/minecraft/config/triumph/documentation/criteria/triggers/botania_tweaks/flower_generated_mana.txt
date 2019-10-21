@@ -1,0 +1,30 @@
+These are the functions which can be called on a botania_tweaks:flower_generated_mana 
+criteria trigger. This criteria is triggered by a player generating a certain amount 
+of mana with a certain flower.
+
+
+
+setFlower:
+    Arguments:
+        String
+    Usage:
+        flower name
+    Notes:
+        Sets the required flower.
+
+setRequiredMana:
+    Arguments:
+        long
+    Usage:
+        required mana
+    Notes:
+        Sets the required mana for the flower to have generated.
+
+setCount:
+    Arguments:
+        int
+    Usage:
+        count
+    Notes:
+        Sets the number of times this criteria must be completed before it counts towards advancement progress.
+

@@ -1,0 +1,12 @@
+
+setIcon(<minecraft:iron_ingot>)
+setTitle("\u94c1\u952d")
+setDescription("\u606d\u559c,\u73a9\u5bb6\n\u8fd9\u662f\u4e00\u4e2a\u91cc\u7a0b\u7891\u7ea7\u522b\u7684\u8dc3\u8fdb,\u4f60\u4ece\u4e00\u4e2a\u539f\u59cb\u4eba\u901a\u8fc7\u5229\u7528\u751f\u5b58\u7684\u77e5\u8bc6\u6210\u529f\u7684\u83b7\u5f97\u4e86\u7b2c\u4e00\u4e2a\u94c1\u952d")
+addParent("ET2:StageOne/tieli")
+setPos(-392,30)
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:iron_ingot>)
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("GOAL")

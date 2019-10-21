@@ -1,0 +1,12 @@
+
+setIcon(<contenttweaker:arcane_essence>)
+setTitle("\u5965\u672f\u6e90\u8d28")
+setDescription("\u5236\u4f5c\u5965\u672f\u6e90\u8d28")
+addParent("ET2:StageOne/jinglinggongjiangtai")
+setPos(-423,-63)
+alwaysVisible()
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:arcane_essence>)
+drawDirectLines(true)
+setShowToast(true)
+setAnnounceToChat(true)

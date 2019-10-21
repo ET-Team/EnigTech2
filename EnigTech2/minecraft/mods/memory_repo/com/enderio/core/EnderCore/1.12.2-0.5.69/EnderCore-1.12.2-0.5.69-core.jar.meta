@@ -1,0 +1,70 @@
+Manifest-Version: 1.0
+Maven-Artifact: com.enderio.core:EnderCore:1.12.2-0.5.69:core
+FMLCorePlugin: com.enderio.core.common.transform.EnderCorePlugin
+
+Name: com/enderio/core/common/transform/EnderCoreTransformer$Transform
+ .class
+SHA-256-Digest: HOp5g3IEvPQLJaJ8I736E/UM6DedNZSMecL6EPL3BAA=
+
+Name: com/enderio/core/common/transform/EnderCorePlugin$MixinData.clas
+ s
+SHA-256-Digest: KrjxWkEH4ySO+tCiJcIXCf2ix7cQaMzU2HDEjSj77a8=
+
+Name: com/enderio/core/common/transform/EnderCoreTransformer$3.class
+SHA-256-Digest: WprHNoN3ZNnfyAySp2zuDowDTe9F9iCO0OrP3nJim3g=
+
+Name: com/enderio/core/common/transform/EnderCoreTransformer$1.class
+SHA-256-Digest: ynzNaBJNeWLlv7y+e50ItEKGvCxOrHNDlfmpYpzaWcw=
+
+Name: com/enderio/core/common/transform/EnderCoreTransformer$4.class
+SHA-256-Digest: VuofB+wuHs48KMpwc6loB1uzYPlopQYGecyT3RDCgyk=
+
+Name: com/enderio/core/common/transform/EnderCoreTransformer$ObfSafeNa
+ me.class
+SHA-256-Digest: motBqDADecsH5ia28IWTo1yxQdexU/0sfiyFYdR4NkM=
+
+Name: com/enderio/core/common/transform/NoClassloadClassWriter.class
+SHA-256-Digest: hbxCcuY95sEamym5wolFTZiMY7JiwcqcrP+GiWyympc=
+
+Name: com/enderio/core/common/transform/SimpleMixinPatcher.class
+SHA-256-Digest: suXE258I+9sKQjsMc639oPcD6YIELpMEAqMKjjSSZAE=
+
+Name: com/enderio/core/common/transform/EnderCoreMethods$IUnderlayRend
+ erAware.class
+SHA-256-Digest: ClSOUGbYqoP4i5/OpgNhRWjWLl5MVlBRJpu4ZX9H8jA=
+
+Name: com/enderio/core/common/transform/EnderCoreMethods$IOverlayRende
+ rAware.class
+SHA-256-Digest: JNO2P253t/lsa2oaPkbq0q9v4WV8Qek5L8Imzac2qRE=
+
+Name: com/enderio/core/common/transform/SimpleMixin.class
+SHA-256-Digest: D5ov+bGD6tySQ/AtefyF2CzZTEuUqu3FUt/9WJ5U460=
+
+Name: com/enderio/core/common/transform/EnderCoreMethods$ICreeperTarge
+ t.class
+SHA-256-Digest: ZXh0tVKHYAPDX+45OG/TPeOEXoS2ibWSo38f8y5ptwI=
+
+Name: com/enderio/core/common/transform/EnderCoreTransformer.class
+SHA-256-Digest: 6n7YULR+2JzKyvwxmaghTrgH2pLeNdcff62b3/h7IJg=
+
+Name: com/enderio/core/common/transform/EnderCoreMethods$IElytraFlying
+ Provider.class
+SHA-256-Digest: Rq9HJLJ6EL0/hwuNsyRRlrHUIaZOujkW6qICy0BfA3E=
+
+Name: com/enderio/core/common/transform/EnderCorePlugin.class
+SHA-256-Digest: rD6VwD69ToR/IJ6iJV/zmyzoVZinvqW4ySOtuTM6D9E=
+
+Name: com/enderio/core/common/transform/SimpleMixin$SimpleMixinList.cl
+ ass
+SHA-256-Digest: D4uui5vL+6uOCuFswD8GDgalijQW3gdxpIhvuiD58GQ=
+
+Name: com/enderio/core/common/transform/EnderCoreMethods.class
+SHA-256-Digest: lX8dKVbYobZM9iJMGDxoTAUVnJA2CL0GuvPP6YItqos=
+
+Name: com/enderio/core/common/transform/NoClassloadClassWriter$ClassIn
+ fo.class
+SHA-256-Digest: vAsJmCfREOZoBStaXFRXTtGS86NN7txFQ0hHzcQHUqs=
+
+Name: com/enderio/core/common/transform/EnderCoreTransformer$2.class
+SHA-256-Digest: ksgOxbtoFllCsqr7xk8n4yK3FSurSJFNWPuYdHQ/GvA=
+

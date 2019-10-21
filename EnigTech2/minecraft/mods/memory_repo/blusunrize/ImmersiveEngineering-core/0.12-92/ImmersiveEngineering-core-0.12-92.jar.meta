@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Maven-Artifact: blusunrize:ImmersiveEngineering-core:0.12-92
+FMLCorePlugin: blusunrize.immersiveengineering.common.asm.IELoadingPlu
+ gin
+
+Name: blusunrize/immersiveengineering/common/asm/IELoadingPlugin.class
+SHA-256-Digest: IyRADMevOfmM298gsW8L5+raMxI3plv+lIDy5eD1CE0=
+
+Name: blusunrize/immersiveengineering/common/asm/IEClassTransformer$1.
+ class
+SHA-256-Digest: EyUO8dG0LVGPSpi5nsvTZ4CV5/Jc/n0BRdXtLYLzpYE=
+
+Name: blusunrize/immersiveengineering/common/asm/IEClassTransformer.cl
+ ass
+SHA-256-Digest: Y6qcwU+SEcHCViaJ3w7fTnM19G9vv/fqNZ3NzDkGYR0=
+
+Name: blusunrize/immersiveengineering/common/asm/IEClassTransformer$Me
+ thodTransformer.class
+SHA-256-Digest: uvWFcM32zB8lH5w5JhVyoOYefiKgqkHoLbiw6zfn7c4=
+

@@ -1,0 +1,45 @@
+These are the functions which can be called on a minecraft:enchanted_item criteria 
+trigger.
+
+
+
+setItem:
+    Arguments:
+        ItemBlockData
+    Usage:
+        item data
+    Notes:
+        Sets the required item.
+
+setLevelsMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max level for the enchantment.
+
+setLevelsMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min level for the enchantment.
+
+setLevelsMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max level for the enchantment.
+
+setCount:
+    Arguments:
+        int
+    Usage:
+        count
+    Notes:
+        Sets the number of times this criteria must be completed before it counts towards advancement progress.
+
