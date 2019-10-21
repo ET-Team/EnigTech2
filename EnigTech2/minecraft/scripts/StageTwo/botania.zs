@@ -13,7 +13,12 @@ recipes.remove(<botania:altar>);
 //野木树苗
 mods.botania.Apothecary.addRecipe(<roots:wildwood_sapling>, [<minecraft:sapling:5>, <minecraft:sapling>, <minecraft:sapling:1>,<minecraft:sapling:2>,<minecraft:sapling:3>,<minecraft:sapling:4>]);
 //活木
-mods.botania.PureDaisy.addRecipe(<roots:wildwood_log>|<roots:wildwood_log:8>|<roots:wildwood_log:4>,<botania:livingwood>, 1200);
+val wildWood = <ore:wildwood_log>
+wildWood.add(<roots:wildwood_log>);
+wildWood.add(<roots:wildwood_log:4>);
+wildWood.add(<roots:wildwood_log:8>)
+mods.botania.PureDaisy.addRecipe(wildWood,<botania:livingwood>, 1200);
+
 mods.botania.PureDaisy.removeRecipe(<botania:livingwood>);
 //魔力池
 Fey.addRecipe("pool", <botania:pool>, [<botania:pool:2>, <botania:spark>, <botania:spark>, <botania:rune:8>, <contenttweaker:arcane_essence>]);
