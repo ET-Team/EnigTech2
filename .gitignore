@@ -1,7 +1,7 @@
 
 *
-!Setting
-!EnigTech2/minecraft/config
-!EnigTech2/minecraft/mods
-!EnigTech2/minecraft/resources
-!EnigTech2/minecraft/scripts
+!Setting/*
+!EnigTech2/minecraft/config/*
+!EnigTech2/minecraft/mods/*
+!EnigTech2/minecraft/resources/*
+!EnigTech2/minecraft/scripts/*
