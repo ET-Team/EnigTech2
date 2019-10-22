@@ -80,3 +80,7 @@ item.contenttweaker.baseplate_aluminum.name=铝制基底
 item.contenttweaker.baseplate_gold.name=金制基底
 item.contenttweaker.baseplate_iridium.name=铱制基底
 item.contenttweaker.rubber_plate.name=橡胶板
+
+machine.crafttweaker:polisher=抛光机
+machine.crafttweaker:chlorinizer=氯化机
+machine.crafttweaker:silicon_grower=硅生长机
