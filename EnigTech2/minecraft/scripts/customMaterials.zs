@@ -47,7 +47,9 @@ var materials as string[] = [
 	"medium_motioner",
 	"advanced_motioner",
 	"ultimate_motioner",
-	"dust_silicon"
+	"dust_silicon",
+	"multicrystal_silicon",
+	"rod_multicrystal_silicon"
 ];
 
 for item in materials{
