@@ -55,4 +55,11 @@ mods.embers.Alchemy.add(<botania:rune:11>, [<embers:ember_cluster>,<botania:rune
 mods.embers.Alchemy.add(<botania:rune:12>, [<embers:ember_cluster>,<botania:rune:3>,<botania:rune:6>,<naturesaura:token_euphoria>,<contenttweaker:blood_iron>], {"dawnstone":20 to 23,"copper":20 to 23,"iron":20 to 23,"lead":20 to 23});   
 //傲慢符文
 mods.embers.Alchemy.add(<botania:rune:15>, [<embers:ember_cluster>,<botania:rune:1>,<botania:rune:5>,<naturesaura:token_rage>,<contenttweaker:blood_iron>], {"dawnstone":20 to 23,"copper":20 to 23,"iron":20 to 23,"lead":20 to 23});   
-
+//蒸馏机	
+mods.extendedcrafting.TableCrafting.addShaped(2, <forestry:still>, [
+	[<immersiveengineering:metal_decoration0:5>, <ore:plateInvar>, <immersiveengineering:metal_decoration0:5>, <ore:plateInvar>, <immersiveengineering:metal_decoration0:5>], 
+	[<ore:plateInvar>, <minecraft:bucket>, <ore:runeFireB>, <minecraft:bucket>, <ore:plateInvar>], 
+	[<immersiveengineering:metal_decoration0:5>, <embers:pipe>, <contenttweaker:bad_machine_core>, <embers:pipe>, <immersiveengineering:metal_decoration0:5>], 
+	[<ore:plateInvar>, <ore:gearIron>, <soot:still>, <ore:gearIron>, <ore:plateInvar>], 
+	[<immersiveengineering:metal_decoration0:5>, <ore:plateInvar>, <immersiveengineering:metal_decoration0:5>, <ore:plateInvar>, <immersiveengineering:metal_decoration0:5>]
+]);

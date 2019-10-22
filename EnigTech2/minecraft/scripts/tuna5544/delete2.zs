@@ -15,3 +15,8 @@ mods.botania.RuneAltar.removeRecipe(<botania:rune:10>);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:11>);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:12>);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:15>);
+recipes.remove(<forestry:still>);
+recipes.remove(<deepmoblearning:glitch_infused_helmet>);
+recipes.remove(<deepmoblearning:glitch_infused_chestplate>);
+recipes.remove(<deepmoblearning:glitch_infused_leggings>);
+recipes.remove(<deepmoblearning:glitch_infused_boots>);
