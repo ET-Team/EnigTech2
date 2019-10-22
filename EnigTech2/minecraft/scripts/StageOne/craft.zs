@@ -36,3 +36,5 @@ mods.recipestages.Recipes.addShaped("one", <minecraft:iron_ingot>, [[<ore:nugget
 mods.rustic.EvaporatingBasin.addRecipe(<contenttweaker:solid_ethylene>*2, <liquid:fluid_ethylene>*1000);
 //耕地
 recipes.addShaped(<minecraft:farmland>,[[<minecraft:dye:15>,<minecraft:dye:15>,<minecraft:dye:15>],[<minecraft:dye:15>,<minecraft:dirt>,<minecraft:dye:15>],[<minecraft:dye:15>,<minecraft:dye:15>,<minecraft:dye:15>]]);
+//骨粉
+recipes.remove(<minecraft:dye:15>);
