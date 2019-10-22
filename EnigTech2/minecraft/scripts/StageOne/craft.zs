@@ -34,3 +34,7 @@ mods.recipestages.Recipes.addShaped("one", <minecraft:wooden_slab:5>*6, [[<minec
 mods.recipestages.Recipes.addShaped("one", <minecraft:iron_ingot>, [[<ore:nuggetIron>,<ore:nuggetIron>,<ore:nuggetIron>],[<ore:nuggetIron>,<ore:nuggetIron>,<ore:nuggetIron>],[<ore:nuggetIron>,<ore:nuggetIron>,<ore:nuggetIron>]]);
 //乙烯
 mods.rustic.EvaporatingBasin.addRecipe(<contenttweaker:solid_ethylene>*2, <liquid:fluid_ethylene>*1000);
+//耕地
+recipes.addShaped(<minecraft:farmland>,[[<minecraft:dye:15>,<minecraft:dye:15>,<minecraft:dye:15>],[<minecraft:dye:15>,<minecraft:dirt>,<minecraft:dye:15>],[<minecraft:dye:15>,<minecraft:dye:15>,<minecraft:dye:15>]]);
+//骨粉
+recipes.remove(<minecraft:dye:15>);
