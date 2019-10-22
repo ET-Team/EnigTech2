@@ -36,6 +36,7 @@ var fluidOilGas = VanillaFactory.createFluid("fluid_oil_gas", Color.fromHex("CCC
 VanillaFactory.createFluid("fluid_ethylene", Color.fromHex("CCACCC")).register();
 VanillaFactory.createFluid("fluid_hydrochloric_acid", Color.fromHex("CCCC33")).register();
 VanillaFactory.createFluid("fluid_silicon", Color.fromHex("CCCCA3")).register();
+VanillaFactory.createFluid("fluid_concentrated_silicon", Color.fromHex("CCCC83")).register();
 
 var materials as string[] = [
 	"blood_iron",
@@ -49,7 +50,27 @@ var materials as string[] = [
 	"ultimate_motioner",
 	"dust_silicon",
 	"multicrystal_silicon",
-	"rod_multicrystal_silicon"
+	"rod_monocrystal_silicon",
+	"unpolished_slice_monosilicon",
+	"slice_monosilicon",
+	"chlorinized_slice_monosilicon",
+	"ic_wafer",
+	"silicon_slice",
+	"transistor_fine",
+	"transistor_bad",
+	"resistor_fine",
+	"resistor_bad",
+	"integrated_calculation_module_unprocessed",
+	"ic_unprocessed",
+	"processor_base",
+	"silicon_reinforced",
+	"slice_silicon_compressed",
+	"slice_silicon_rough",
+	"ic_processed",
+	"baseplate_aluminum",
+	"baseplate_gold",
+	"baseplate_iridium",
+	"rubber_plate"
 ];
 
 for item in materials{
