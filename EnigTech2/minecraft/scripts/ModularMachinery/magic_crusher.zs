@@ -20,6 +20,18 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_charcoal", m
 	.addItemInput(<ore:itemCoal>)
 	.build();
 
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_silicon", machineName, 20)
+	.addManaInput(1000)
+	.addItemOutput(<contenttweaker:dust_silicon>)
+	.addItemInput(<ore:itemSilicon>)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_quartz", machineName, 20)
+	.addManaInput(1000)
+	.addItemOutput(<actuallyadditions:item_dust:5>)
+	.addItemInput(<minecraft:quartz>)
+	.build();
+
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_coke_coal", machineName, 20)
 	.addManaInput(1000)
 	.addItemOutput(<thermalfoundation:material:769>)

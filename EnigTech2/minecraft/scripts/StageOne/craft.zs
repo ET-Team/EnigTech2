@@ -1,4 +1,4 @@
-#priority 2500
+#priority 1461
 //木盆
 recipes.remove(<rustic:crushing_tub>);
 recipes.addShaped(<rustic:crushing_tub>,[[<ore:plankWood>,null,<ore:plankWood>],[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>]]);
@@ -34,6 +34,9 @@ mods.recipestages.Recipes.addShaped("one", <minecraft:wooden_slab:5>*6, [[<minec
 mods.recipestages.Recipes.addShaped("one", <minecraft:iron_ingot>, [[<ore:nuggetIron>,<ore:nuggetIron>,<ore:nuggetIron>],[<ore:nuggetIron>,<ore:nuggetIron>,<ore:nuggetIron>],[<ore:nuggetIron>,<ore:nuggetIron>,<ore:nuggetIron>]]);
 //乙烯
 mods.rustic.EvaporatingBasin.addRecipe(<contenttweaker:solid_ethylene>*2, <liquid:fluid_ethylene>*1000);
+//多晶硅
+mods.rustic.EvaporatingBasin.addRecipe(<contenttweaker:multicrystal_silicon>*1, <liquid:fluid_concentrated_silicon>*200);
+//
 //耕地
 recipes.addShaped(<minecraft:farmland>,[[<minecraft:dye:15>,<minecraft:dye:15>,<minecraft:dye:15>],[<minecraft:dye:15>,<minecraft:dirt>,<minecraft:dye:15>],[<minecraft:dye:15>,<minecraft:dye:15>,<minecraft:dye:15>]]);
 //骨粉

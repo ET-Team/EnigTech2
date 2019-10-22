@@ -16,6 +16,7 @@ var chlorinizer = IMachineRegistry.createNewMachine(
     "et2:stone"
 );
 chlorinizer.addRecipe({acid : <liquid:fluid_hydrochloric_acid>*800, silicon : <contenttweaker:dust_silicon>} , {guiwan : <liquid:fluid_silicon>*1000}, 10000, 200);
+chlorinizer.addRecipe({acid : <liquid:fluid_hydrochloric_acid>*100, silicon : <contenttweaker:slice_monosilicon>} , {output : <contenttweaker:chlorinized_slice_monosilicon>*1000}, 8000, 80);
 
 //硅生长机
 var silicon_grower = IMachineRegistry.createNewMachine(

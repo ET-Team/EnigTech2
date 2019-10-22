@@ -14,6 +14,7 @@ mods.immersiveengineering.BlastFurnace.addFuel(<contenttweaker:good_fuel>, 1200)
 
 mods.immersiveengineering.BlastFurnace.addRecipe(<thermalfoundation:material:132>, <ore:dustAluminum>, 200);
 mods.immersiveengineering.BlastFurnace.addRecipe(<thermalfoundation:material:132>, <ore:oreAluminum>, 200);
+mods.immersiveengineering.BlastFurnace.addRecipe(<appliedenergistics2:material:5>, <ore:dustQuartz>, 320);
 
 mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:blast_furnace_brick>, <contenttweaker:fire_resist_brick>, <ore:plateBronze>, 160);
 mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:magcondium_ingot>*2, <ore:ingotTerrasteel>, <ore:ingotSteel>, 160);
@@ -28,3 +29,5 @@ IEMultiBlockStages.addStage("default", "IE:AutoWorkbench", "该机器已被禁�
 IEMultiBlockStages.addStage("default", "IE:Assembler", "该机器已被禁用");
 IEMultiBlockStages.addStage("default", "IE:ArcFurnace", "该机器已被禁用");
 IEMultiBlockStages.addStage("default", "IE:DieselGenerator", "该机器已被禁用");
+
+mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:slice_silicon_compressed>, <contenttweaker:slice_silicon_rough>, <immersiveengineering:mold:0>, 120, 4);
