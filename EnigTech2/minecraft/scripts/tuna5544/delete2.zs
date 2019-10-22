@@ -9,3 +9,9 @@ recipes.remove(<embers:copper_cell>.withTag({emberCapacity: 24000.0, ember: 0.0}
 recipes.remove(<embers:alchemy_tablet>);
 recipes.remove(<embers:cinder_plinth>);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:13>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:14>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:9>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:10>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:11>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:12>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:15>);
