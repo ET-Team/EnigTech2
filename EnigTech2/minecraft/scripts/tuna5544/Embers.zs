@@ -42,4 +42,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <embers:cinder_plinth>, [
 	[<embers:block_caminite_brick>, <embers:block_caminite_brick>, <ore:blockDawnstone>, <embers:block_caminite_brick>, <embers:block_caminite_brick>]
 ]);
 //暴怒符文
-mods.embers.Alchemy.add(<botania:rune:13>, [<embers:ember_cluster>,<botania:rune:2>,<botania:rune:7>,<naturesaura:token_rage>,<contenttweaker:blood_iron>], {"dawnstone":20 to 23,"gold":20 to 23});
+mods.embers.Alchemy.add(<botania:rune:13>, [<embers:ember_cluster>,<botania:rune:2>,<botania:rune:7>,<naturesaura:token_rage>,<contenttweaker:blood_iron>], {"dawnstone":20 to 23,"gold":20 to 23,"copper":20 to 23,"iron":20 to 23,"lead":20 to 23});   
+
+
+
