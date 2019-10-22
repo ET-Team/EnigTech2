@@ -2,7 +2,7 @@
 import extrautilities2.Tweaker.IMachineRegistry;
 import extrautilities2.Tweaker.IMachineSlot;
 import extrautilities2.Tweaker.IMachine;
-
+//氯化机
 IMachineRegistry.createNewMachine(
     "Chlorinizer", 
     65565, 
@@ -16,7 +16,8 @@ IMachineRegistry.createNewMachine(
     "et2:stone"
 ).addRecipe({acid : <liquid:fluid_hydrochloric_acid>, silicon : <contenttweaker:dust_silicon>} , {output : <liquid:fluid_silicon>}, 10000, 2000);
 
-IMachineRegistry.createNewMachine(
+//硅生长机
+var silicon_grower = IMachineRegistry.createNewMachine(
     "Silicon_Grower", 
     65565, 
     4064, 
@@ -28,6 +29,6 @@ IMachineRegistry.createNewMachine(
     [IMachineSlot.newItemStackSlot("output")], 
     "et2:stone", 
     "et2:stone"
-)
-.addRecipe({water:<liquid:water>*1000, item:<contenttweaker:multicrystal_silicon>},{output:<contenttweaker:rod_multicrystal_silicon>}, 100000, 2000)
-.addRecipe({item:<contenttweaker:multicrystal_silicon>, sand:<minecraft:sand>},{output:<contenttweaker:rod_multicrystal_silicon>*2}, 80000, 1000);
+);
+silicon_grower.addRecipe({water:<liquid:water>*1000, item:<contenttweaker:multicrystal_silicon>},{output:<contenttweaker:rod_multicrystal_silicon>}, 100000, 2000);
+silicon_grower.addRecipe({item:<contenttweaker:multicrystal_silicon>, sand:<minecraft:sand>},{output:<contenttweaker:rod_multicrystal_silicon>*2}, 80000, 1000);
