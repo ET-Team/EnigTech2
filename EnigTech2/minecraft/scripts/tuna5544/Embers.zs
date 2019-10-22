@@ -38,7 +38,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <embers:cinder_plinth>, [
 	[null, <ore:blockSheetmetalLead>, null, <ore:blockSheetmetalLead>, null], 
 	[null, <ore:blockSheetmetalLead>, null, <ore:blockSheetmetalLead>, null], 
 	[<ore:blockSheetmetalLead>, <naturesaura:token_terror>, <bloodmagic:lava_crystal>, <naturesaura:token_rage>, <ore:blockSheetmetalLead>], 
-	[<ore:blockSheetmetalLead>, <bloodmagic:slate:2>, <botania:specialflower>, <bloodmagic:slate:2>, <ore:blockSheetmetalLead>], 
+	[<ore:blockSheetmetalLead>, <bloodmagic:slate:2>, <botania:specialflower>.withTag({type: "exoflame"}), <bloodmagic:slate:2>, <ore:blockSheetmetalLead>], 
 	[<embers:block_caminite_brick>, <embers:block_caminite_brick>, <ore:blockDawnstone>, <embers:block_caminite_brick>, <embers:block_caminite_brick>]
 ]);
 //暴怒符文
