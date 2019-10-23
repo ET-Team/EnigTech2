@@ -72,7 +72,9 @@ var materials as string[] = [
 	"baseplate_gold",
 	"baseplate_iridium",
 	"rubber_plate",
-	"magic_motor"
+	"magic_motor",
+	"dark_gaiya_crystal",
+	"dark_gaiya_crystal_unpolished"
 ];
 
 for item in materials{
