@@ -22,3 +22,4 @@ recipes.remove(<deepmoblearning:glitch_infused_leggings>);
 recipes.remove(<deepmoblearning:glitch_infused_boots>);
 recipes.remove(<scannable:scanner>);
 mods.bloodmagic.TartaricForge.removeRecipe([<minecraft:glowstone_dust>,<minecraft:redstone>, <minecraft:gunpowder>,<minecraft:gold_nugget>]);
+recipes.remove(<botania:manaresource:14>);

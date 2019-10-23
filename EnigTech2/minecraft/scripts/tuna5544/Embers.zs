@@ -67,3 +67,10 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <forestry:still>, [
 recipes.addShaped(<scannable:scanner>, [[<thermalfoundation:material:352>, <contenttweaker:bad_machine_core>, <thermalfoundation:material:352>],[<thermalfoundation:material:352>, <botania:diviningrod>, <thermalfoundation:material:352>], [<contenttweaker:magcondium_ingot>, <embers:ember_cartridge>.withTag({emberCapacity: 6000.0, ember: 0.0}), <contenttweaker:magcondium_ingot>]]);
 //束缚试剂
 mods.bloodmagic.TartaricForge.addRecipe(<bloodmagic:component:8>,[<botania:rune:15>, <embers:wildfire_core>, <contenttweaker:ultracondium_crystal>, <minecraft:dragon_breath>], 400,400);
+//盖亚魂锭
+mods.actuallyadditions.Empowerer.addRecipe(<botania:manaresource:14>, <embers:ingot_dawnstone>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>, 12000, 1200);
+
+
+
+
+
