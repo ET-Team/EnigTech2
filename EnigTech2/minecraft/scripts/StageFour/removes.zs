@@ -37,4 +37,11 @@ mods.enderio.SagMill.removeRecipe(<minecraft:quartz_ore>);
 mods.enderio.SagMill.removeRecipe(<actuallyadditions:block_misc:3>);
 
 
-
+recipes.remove(<forestry:fabricator>);
+recipes.remove(<forestry:rainmaker>);
+recipes.remove(<forestry:squeezer>);
+recipes.remove(<forestry:moistener>);
+recipes.remove(<forestry:fermenter>);
+recipes.remove(<forestry:centrifuge>);
+recipes.remove(<forestry:carpenter>);
+recipes.remove(<forestry:bottler>);
