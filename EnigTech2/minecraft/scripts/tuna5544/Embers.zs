@@ -69,6 +69,10 @@ recipes.addShaped(<scannable:scanner>, [[<thermalfoundation:material:352>, <cont
 mods.bloodmagic.TartaricForge.addRecipe(<bloodmagic:component:8>,[<botania:rune:15>, <embers:wildfire_core>, <contenttweaker:ultracondium_crystal>, <minecraft:dragon_breath>], 400,400);
 //盖亚魂锭
 mods.actuallyadditions.Empowerer.addRecipe(<botania:manaresource:14>, <embers:ingot_dawnstone>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>, 12000, 1200);
+//未抛光的暗淡盖亚水晶
+mods.embers.Alchemy.add(<contenttweaker:dark_gaiya_crystal_unpolished>, [<arcanearchives:raw_quartz>,<botania:manaresource:9>,<embers:ember_cluster>,<bloodmagic:blood_shard>,<contenttweaker:ultracondium_crystal>], {"dawnstone":50 to 100,"copper":50 to 100,"iron":50 to 100,"lead":50 to 100,"silver":50 to 100});   
+//盖亚水晶
+mods.actuallyadditions.Empowerer.addRecipe(<botania:pylon:2>, <contenttweaker:dark_gaiya_crystal>, <botania:manaresource:7>, <botania:manaresource:8>, <botania:manaresource:7>, <botania:manaresource:8>, 24000, 2400);
 
 
 
