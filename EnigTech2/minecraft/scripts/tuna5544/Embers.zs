@@ -12,7 +12,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2,<embers:ember_bore>, [
 	[<immersiveengineering:metal_decoration0:5>, <thermalfoundation:material:657>, <botania:lens:7>, <thermalfoundation:material:657>, <immersiveengineering:metal_decoration0:5>]
 ]);
 //机械核心
-recipes.addShaped(<embers:mech_core>,[[<ore:ingotSteel>,<twilightforest:steeleaf_ingot>,<ore:ingotSteel>],[<twilightforest:steeleaf_ingot>,<bloodmagic:lava_crystal>,<twilightforest:steeleaf_ingot>],[<ore:ingotSteel>,<twilightforest:steeleaf_ingot>,<ore:ingotSteel>]]);
+recipes.addShaped(<embers:mech_core>,[[<ore:ingotSteel>,<twilightforest:steeleaf_ingot>,<ore:ingotSteel>],[<twilightforest:steeleaf_ingot>,<contenttweaker:bad_machine_core>,<twilightforest:steeleaf_ingot>],[<ore:ingotSteel>,<twilightforest:steeleaf_ingot>,<ore:ingotSteel>]]);
 //能量发射器
 recipes.addShaped(<embers:ember_emitter>*4,[[null,<botania:spreader:2>,null],[<thermalfoundation:material:355>,<bloodmagic:slate:1>,<thermalfoundation:material:355>],[<contenttweaker:magcondium_ingot>,<embers:plate_caminite>,<contenttweaker:magcondium_ingot>]]);
 //能量接收器
@@ -28,7 +28,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <embers:copper_cell>.withTag({e
 //炼金台
 mods.extendedcrafting.TableCrafting.addShaped(2, <embers:alchemy_tablet>, [
 	[null, null, null, null, null], 
-	[<embers:block_caminite_brick>, <ore:plateDawnstone>, null, <ore:plateDawnstone>, <embers:block_caminite_brick>], 
+	[<embers:block_caminite_brick>, <ore:plateDawnstone>, <contenttweaker:bad_machine_core>, <ore:plateDawnstone>, <embers:block_caminite_brick>], 
 	[<ore:plateBronze>, <naturesaura:sky_ingot>, <botania:runealtar>, <naturesaura:sky_ingot>, <ore:plateBronze>], 
 	[null, <embers:stairs_caminite_brick>, <ore:blockDawnstone>, <embers:stairs_caminite_brick>, null], 
 	[<embers:block_caminite_brick>, <bloodmagic:slate:2>, <bloodmagic:slate:2>, <bloodmagic:slate:2>, <embers:block_caminite_brick>]
@@ -36,7 +36,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <embers:alchemy_tablet>, [
 //灰烬炉
 mods.extendedcrafting.TableCrafting.addShaped(2, <embers:cinder_plinth>, [
 	[null, <ore:blockSheetmetalLead>, null, <ore:blockSheetmetalLead>, null], 
-	[null, <ore:blockSheetmetalLead>, null, <ore:blockSheetmetalLead>, null], 
+	[null, <ore:blockSheetmetalLead>, <contenttweaker:bad_machine_core>, <ore:blockSheetmetalLead>, null], 
 	[<ore:blockSheetmetalLead>, <naturesaura:token_terror>, <bloodmagic:lava_crystal>, <naturesaura:token_rage>, <ore:blockSheetmetalLead>], 
 	[<ore:blockSheetmetalLead>, <bloodmagic:slate:2>, <botania:specialflower>.withTag({type: "exoflame"}), <bloodmagic:slate:2>, <ore:blockSheetmetalLead>], 
 	[<embers:block_caminite_brick>, <embers:block_caminite_brick>, <ore:blockDawnstone>, <embers:block_caminite_brick>, <embers:block_caminite_brick>]
@@ -63,3 +63,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <forestry:still>, [
 	[<ore:plateInvar>, <ore:gearIron>, <soot:still>, <ore:gearIron>, <ore:plateInvar>], 
 	[<immersiveengineering:metal_decoration0:5>, <ore:plateInvar>, <immersiveengineering:metal_decoration0:5>, <ore:plateInvar>, <immersiveengineering:metal_decoration0:5>]
 ]);
+//扫描器
+recipes.addShaped(<scannable:scanner>, [[<thermalfoundation:material:352>, <contenttweaker:bad_machine_core>, <thermalfoundation:material:352>],[<thermalfoundation:material:352>, <botania:diviningrod>, <thermalfoundation:material:352>], [<contenttweaker:magcondium_ingot>, <embers:ember_cartridge>.withTag({emberCapacity: 6000.0, ember: 0.0}), <contenttweaker:magcondium_ingot>]]);
+//束缚试剂
+mods.bloodmagic.TartaricForge.addRecipe(<bloodmagic:component:8>,[<botania:rune:15>, <embers:wildfire_core>, <contenttweaker:ultracondium_crystal>, <minecraft:dragon_breath>], 400,400);
