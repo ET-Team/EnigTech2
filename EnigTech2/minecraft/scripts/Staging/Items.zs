@@ -98,7 +98,6 @@ var modsStageFour as string[] = [
 	"enderioconduits",
 	"forestry",
 	"deepmoblearning",
-	"immersivepetroleum",
 	"tanaddons",
 	"scannable",
 	"elevatorid",
@@ -107,9 +106,9 @@ var modsStageFour as string[] = [
 	"flopper",
 	"enderioconduitsappliedenergistics",
 	"appliedenergistics2",
+	"extrautils2",
 	"soot",
 	"carryon"
-
 ];
 
 mods.ItemStages.addItemStage("four", <extracells:pattern.fluid>.withTag({Fluid:{}}));
@@ -126,7 +125,6 @@ var modsStageFive as string[] = [
 	"cofhworld",
 	"thermalexpansion",
 	"simplyjetpacks",
-	"extrautils2",
 	"compactmachines3",
 	"xreliquary",
 	"wct",

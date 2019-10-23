@@ -37,6 +37,7 @@ VanillaFactory.createFluid("fluid_ethylene", Color.fromHex("CCACCC")).register()
 VanillaFactory.createFluid("fluid_hydrochloric_acid", Color.fromHex("CCCC33")).register();
 VanillaFactory.createFluid("fluid_silicon", Color.fromHex("CCCCA3")).register();
 VanillaFactory.createFluid("fluid_concentrated_silicon", Color.fromHex("CCCC83")).register();
+VanillaFactory.createFluid("fluid_dragon_breathe", Color.fromHex("0XA254")).register();
 
 var materials as string[] = [
 	"blood_iron",
@@ -70,7 +71,8 @@ var materials as string[] = [
 	"baseplate_aluminum",
 	"baseplate_gold",
 	"baseplate_iridium",
-	"rubber_plate"
+	"rubber_plate",
+	"magic_motor"
 ];
 
 for item in materials{

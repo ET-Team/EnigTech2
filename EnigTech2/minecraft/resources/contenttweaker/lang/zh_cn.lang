@@ -52,6 +52,7 @@ fluid.blend_caminite=液态方美矾
 fluid.fluid_hydrochloric_acid=盐酸
 fluid.fluid_silicon=硅烷
 fluid.fluid_concentrated_silicon=高纯硅烷
+fluid.fluid_dragon_breathe=液态龙息
 
 item.contenttweaker.basic_motioner.name=基础传动装置
 item.contenttweaker.medium_motioner.name=中级传动装置
@@ -80,6 +81,7 @@ item.contenttweaker.baseplate_aluminum.name=铝制基底
 item.contenttweaker.baseplate_gold.name=金制基底
 item.contenttweaker.baseplate_iridium.name=铱制基底
 item.contenttweaker.rubber_plate.name=橡胶板
+item.contenttweaker.magic_motor.name=魔能马达
 
 machine.crafttweaker:polisher=抛光机
 machine.crafttweaker:chlorinizer=氯化机
