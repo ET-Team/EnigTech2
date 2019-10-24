@@ -82,9 +82,12 @@ item.contenttweaker.baseplate_gold.name=金制基底
 item.contenttweaker.baseplate_iridium.name=铱制基底
 item.contenttweaker.rubber_plate.name=橡胶板
 item.contenttweaker.magic_motor.name=魔能马达
-item.contenttweaker.dark_gaiya_crystal=黯淡盖亚水晶
-item.contenttweaker.dark_gaiya_crystal_unpolished=未抛光的黯淡盖亚水晶
+item.contenttweaker.dark_gaiya_crystal.name=黯淡盖亚水晶
+item.contenttweaker.dark_gaiya_crystal_unpolished.name=未抛光的黯淡盖亚水晶
 
 machine.crafttweaker:polisher=抛光机
 machine.crafttweaker:chlorinizer=氯化机
 machine.crafttweaker:silicon_grower=硅生长机
+
+item.contenttweaker.gaiya_stabilizer.name=盖亚稳定器
+item.contenttweaker.charged_gaiya_crystal.name=充能盖亚水晶
