@@ -29,3 +29,8 @@ recipes.remove(<naturesaura:time_changer>);
 recipes.remove(<embers:mechanical_pump>);
 recipes.remove(<mekanism:machineblock:12>);
 recipes.remove(<extrautils2:grocket:2>);
+recipes.remove(<soot:still>);
+recipes.remove(<embers:pump>);
+recipes.remove(<extrautils2:rainbowgenerator:2>);
+recipes.remove(<extrautils2:rainbowgenerator:1>);
+recipes.remove(<extrautils2:rainbowgenerator>);
