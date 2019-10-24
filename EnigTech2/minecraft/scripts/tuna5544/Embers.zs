@@ -12,7 +12,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2,<embers:ember_bore>, [
 	[<immersiveengineering:metal_decoration0:5>, <thermalfoundation:material:657>, <botania:lens:7>, <thermalfoundation:material:657>, <immersiveengineering:metal_decoration0:5>]
 ]);
 //机械核心
-recipes.addShaped(<embers:mech_core>,[[<ore:ingotSteel>,<twilightforest:steeleaf_ingot>,<ore:ingotSteel>],[<twilightforest:steeleaf_ingot>,<contenttweaker:bad_machine_core>,<twilightforest:steeleaf_ingot>],[<ore:ingotSteel>,<twilightforest:steeleaf_ingot>,<ore:ingotSteel>]]);
+recipes.addShaped(<embers:mech_core>,[[<ore:ingotSteel>,<twilightforest:steeleaf_ingot>,<ore:ingotSteel>],[<contenttweaker:basic_motioner>,<contenttweaker:bad_machine_core>,<contenttweaker:basic_motioner>],[<ore:ingotSteel>,<twilightforest:steeleaf_ingot>,<ore:ingotSteel>]]);
 //能量发射器
 recipes.addShaped(<embers:ember_emitter>*4,[[null,<botania:spreader:2>,null],[<thermalfoundation:material:355>,<bloodmagic:slate:1>,<thermalfoundation:material:355>],[<contenttweaker:magcondium_ingot>,<embers:plate_caminite>,<contenttweaker:magcondium_ingot>]]);
 //能量接收器
@@ -77,7 +77,29 @@ mods.actuallyadditions.Empowerer.addRecipe(<botania:pylon:2>, <contenttweaker:ch
 mods.botania.ManaInfusion.addInfusion(<contenttweaker:charged_gaiya_crystal>, <contenttweaker:dark_gaiya_crystal>, 250000);
 //盖亚稳定器
 recipes.addShaped(<contenttweaker:gaiya_stabilizer>, [[null, <botania:manaresource:7>, null],[<botania:manaresource:7>, <botania:manaresource:9>, <botania:manaresource:7>], [null, <botania:manaresource:7>, null]]);
-
-
-
-
+//粗致电尊
+mods.extendedcrafting.TableCrafting.addShaped(2, <contenttweaker:transistor_bad>, [
+	[null, null, <botania:managlass>, null, null], 
+	[null, <botania:managlass>, null, <botania:managlass>, null], 
+	[null, <botania:managlass>, null, <botania:managlass>, null], 
+	[null, <botania:managlass>, null, <botania:managlass>, null], 
+	[null, null, <botania:managlass>, null, null]
+]);
+//灰烬能量激发器
+mods.extendedcrafting.TableCrafting.addShaped(2, <embers:ember_activator>, [
+	[null, <ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>, null], 
+	[null, <ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>, null], 
+	[<ore:plateSteel>, <bloodmagic:slate:2>, <embers:mech_core>, <bloodmagic:slate:2>, <ore:plateSteel>], 
+	[<ore:plateSteel>, <bloodmagic:slate:2>, <ore:runeFireB>, <bloodmagic:slate:2>, <ore:plateSteel>], 
+	[<embers:block_caminite_brick>, <contenttweaker:magcondium_ingot>, <naturesaura:furnace_heater>, <contenttweaker:magcondium_ingot>, <embers:block_caminite_brick>]
+]);
+//锅炉（发电）
+mods.extendedcrafting.TableCrafting.addShaped(2, <embers:boiler>, [
+	[null, <ore:plateCopper>, null, <ore:plateCopper>, null], 
+	[<ore:plateSteel>, <embers:crystal_ember>, <minecraft:bucket>, <embers:crystal_ember>, <ore:plateSteel>], 
+	[<ore:plateSteel>, <contenttweaker:magcondium_ingot>, <embers:mini_boiler>, <contenttweaker:magcondium_ingot>, <ore:plateSteel>], 
+	[<ore:plateSteel>, <contenttweaker:magcondium_ingot>, <embers:mech_core>, <contenttweaker:magcondium_ingot>, <ore:plateSteel>], 
+	[<embers:block_caminite_brick>, <embers:block_caminite_brick>, <ore:runeSummerB>, <embers:block_caminite_brick>, <embers:block_caminite_brick>]
+]);
+//机器框架模具
+recipes.addShaped(<enderio:item_material>, [[<thermalfoundation:material:354>, <contenttweaker:arcane_essence>, <thermalfoundation:material:354>],[<contenttweaker:arcane_essence>, <contenttweaker:bad_machine_core>, <contenttweaker:arcane_essence>], [<thermalfoundation:material:354>, <contenttweaker:arcane_essence>, <thermalfoundation:material:354>]]);

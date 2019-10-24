@@ -33,3 +33,6 @@ recipes.remove(<extrautils2:angelring:1>);
 recipes.remove(<extrautils2:angelring>);
 recipes.remove(<botania:flighttiara>);
 recipes.remove(<silentgems:chaosrune>);
+recipes.remove(<embers:ember_activator>);
+recipes.remove(<embers:boiler>);
+recipes.remove(<enderio:item_material>);
