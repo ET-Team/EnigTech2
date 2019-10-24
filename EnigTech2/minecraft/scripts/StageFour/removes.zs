@@ -47,3 +47,8 @@ recipes.remove(<forestry:carpenter>);
 recipes.remove(<forestry:bottler>);
 
 recipes.remove(<extrautils2:machine>);
+
+recipes.remove(<deepmoblearning:trial_key>);
+recipes.remove(<deepmoblearning:simulation_chamber>);
+recipes.remove(<deepmoblearning:extraction_chamber>);
+recipes.remove(<deepmoblearning:trial_keystone>);
