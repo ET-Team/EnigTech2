@@ -1848,6 +1848,35 @@ forestry:resource_storage:2, 锡块
 forestry:resource_storage:3, 青铜块
 forestry:ash_brick:0, 灰砖
 forestry:ash_stairs:0, 灰砖楼梯
+forestry:genetic_filter:0, 基因过滤器
+forestry:charcoal:0, 木炭块
+forestry:wood_pile:0, 原木堆
+forestry:wood_pile_decorative:0, 装饰用原木堆
+forestry:ash_block:0, 灰烬块
+forestry:loam:0, 壤土
+forestry:fluid.bio.ethanol, 种子油
+forestry:fluid.biomass, 生物质
+forestry:fluid.glass, 液态玻璃
+forestry:fluid.for.honey, 蜂蜜
+forestry:fluid.ice, 碎冰
+forestry:fluid.juice, 果汁
+forestry:fluid.milk, 牛奶
+forestry:fluid.seed.oil, 种子油
+forestry:fluid.short.mead, 蜂蜜酒
+forestry:can, item.for.can.name
+forestry:capsule, item.for.capsule.name
+forestry:refractory, item.for.refractory.name
+forestry:bottler:0, 装瓶机
+forestry:carpenter:0, 木工机
+forestry:centrifuge:0, 离心机
+forestry:fermenter:0, 发酵机
+forestry:moistener:0, 加湿器
+forestry:squeezer:0, 榨汁机
+forestry:still:0, 蒸馏器
+forestry:rainmaker:0, 造雨机
+forestry:fabricator:0, 热电子加工台
+forestry:raintank:0, 集雨蓄水槽
+forestry:worktable:0, 工作台
 forestry:greenhouse:0, Greenhouse Block
 forestry:greenhouse:3, 温室能量分配器
 forestry:greenhouse:4, 温室控制器
@@ -1859,18 +1888,6 @@ forestry:climatiser:3, 温室加湿器
 forestry:climatiser:4, 温室除湿器
 forestry:greenhouse_screen, 便携式温室屏幕
 forestry:camouflage_spray_can, 伪装洒水壶
-forestry:bottler:0, 装瓶机
-forestry:carpenter:0, 木工机
-forestry:centrifuge:0, 离心机
-forestry:fermenter:0, 发酵机
-forestry:moistener:0, 加湿器
-forestry:squeezer:0, 榨汁机
-forestry:still:0, 蒸馏器
-forestry:rainmaker:0, 造雨机
-forestry:fabricator:0, 热电子加工台
-forestry:raintank:0, 集雨蓄水槽
-forestry:genetic_filter:0, 基因过滤器
-forestry:worktable:0, 工作台
 forestry:mushroom:0, tile.for.mushroom.name
 forestry:mushroom:1, tile.for.mushroom.name
 forestry:ffarm:0, 农场方块
@@ -1942,23 +1959,6 @@ forestry:farm_ender:0, 自动末影收割机
 forestry:farm_ender:1, 手动末影收割机
 forestry:peat_bog:0, 自动泥炭沼泽
 forestry:peat_bog:1, 手动泥炭沼泽
-forestry:charcoal:0, 木炭块
-forestry:wood_pile:0, 原木堆
-forestry:wood_pile_decorative:0, 装饰用原木堆
-forestry:ash_block:0, 灰烬块
-forestry:loam:0, 壤土
-forestry:fluid.bio.ethanol, 种子油
-forestry:fluid.biomass, 生物质
-forestry:fluid.glass, 液态玻璃
-forestry:fluid.for.honey, 蜂蜜
-forestry:fluid.ice, 碎冰
-forestry:fluid.juice, 果汁
-forestry:fluid.milk, 牛奶
-forestry:fluid.seed.oil, 种子油
-forestry:fluid.short.mead, 蜂蜜酒
-forestry:can, item.for.can.name
-forestry:capsule, item.for.capsule.name
-forestry:refractory, item.for.refractory.name
 enderstorage:ender_storage:0, 末影箱子
 enderstorage:ender_storage:1, 末影蓄水槽
 enderstorage:ender_pouch, 末影袋子
@@ -2056,7 +2056,12 @@ extracells:pattern.fluid:0, ME流体模板: 蜂蜜
 extracells:pattern.fluid:0, ME流体模板: 血
 extracells:pattern.fluid:0, ME流体模板: 毒液
 extracells:pattern.fluid:0, ME流体模板: 温泉水
-extracells:pattern.fluid:0, ME流体模板: fluid.fluid_ethylene
+extracells:pattern.fluid:0, ME流体模板: 液态方美矾
+extracells:pattern.fluid:0, ME流体模板: 液态乙烯
+extracells:pattern.fluid:0, ME流体模板: 盐酸
+extracells:pattern.fluid:0, ME流体模板: 硅烷
+extracells:pattern.fluid:0, ME流体模板: 高纯硅烷
+extracells:pattern.fluid:0, ME流体模板: 液态龙息
 extracells:pattern.fluid:0, ME流体模板: 润滑油
 extracells:pattern.fluid:0, ME流体模板: 炼油气
 extracells:pattern.fluid:0, ME流体模板: 熔融铁
@@ -2647,6 +2652,9 @@ extrautils2:drum:2, 强化桶
 extrautils2:drum:3, 恶魔桶
 extrautils2:drum:4, 创造桶
 extrautils2:machine:0, 机器方块
+extrautils2:machine:0, 氯化机
+extrautils2:machine:0, 硅生长机
+extrautils2:machine:0, 抛光机
 extrautils2:machine:0, 电炉
 extrautils2:machine:0, 粉碎机
 extrautils2:machine:0, 附魔器
@@ -6041,9 +6049,7 @@ appliedenergistics2:facade:0, 线缆伪装板 - 湿润的泥砖
 appliedenergistics2:facade:0, 线缆伪装板 - 紫水晶块
 appliedenergistics2:facade:0, 线缆伪装板 - 紫水晶矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 铜块
-appliedenergistics2:facade:0, 线缆伪装板 - 铜矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 银块
-appliedenergistics2:facade:0, 线缆伪装板 - 银矿石
 appliedenergistics2:crystal_seed:0, 赛特斯石英种子
 appliedenergistics2:crystal_seed:600, 下界石英种子
 appliedenergistics2:crystal_seed:1200, 福鲁伊克斯种子
@@ -9001,6 +9007,8 @@ deepmoblearning:pristine_matter_twilight_forest, 原始暮色森林物质
 deepmoblearning:pristine_matter_twilight_swamp, 原始暮色沼泽物质
 deepmoblearning:pristine_matter_twilight_darkwood, 原始暮色黑木物质
 deepmoblearning:pristine_matter_twilight_glacier, 原始暮色冰川物质
+deepmoblearningbm:digital_agonizer, 数字化苦难之井
+deepmoblearningbm:altar_linker, 祭坛连接器
 elevatorid:elevator_white, 白色电梯
 elevatorid:elevator_orange, 橙色电梯
 elevatorid:elevator_magenta, 品红色电梯
@@ -9125,6 +9133,24 @@ fluxnetworks:fluxcontroller, 能量网络控制器
 fluxnetworks:fluxstorage, 基础能量存储器
 fluxnetworks:herculeanfluxstorage, 大型能量存储器
 fluxnetworks:gargantuanfluxstorage, 超大型能量存储器
+ironchest:iron_gold_chest_upgrade, 箱子升级：铁>金
+ironchest:gold_diamond_chest_upgrade, 箱子升级：金>钻石
+ironchest:copper_silver_chest_upgrade, 箱子升级：铜>银
+ironchest:silver_gold_chest_upgrade, 箱子升级：银>金
+ironchest:copper_iron_chest_upgrade, 箱子升级：铜>铁
+ironchest:diamond_crystal_chest_upgrade, 箱子升级：钻石>水晶
+ironchest:wood_iron_chest_upgrade, 箱子升级：木>铁
+ironchest:wood_copper_chest_upgrade, 箱子升级：木>铜
+ironchest:diamond_obsidian_chest_upgrade, 箱子升级：钻石>黑曜石
+ironchest:iron_gold_shulker_upgrade, 潜影盒升级：铁>金
+ironchest:gold_diamond_shulker_upgrade, 潜影盒升级：金>钻石
+ironchest:copper_silver_shulker_upgrade, 潜影盒升级：铜>银
+ironchest:silver_gold_shulker_upgrade, 潜影盒升级：银>金
+ironchest:copper_iron_shulker_upgrade, 潜影盒升级：铜>铁
+ironchest:diamond_crystal_shulker_upgrade, 潜影盒升级：钻石>水晶
+ironchest:vanilla_iron_shulker_upgrade, 潜影盒升级：原版>铁
+ironchest:vanilla_copper_shulker_upgrade, 潜影盒升级：原版>铜
+ironchest:diamond_obsidian_shulker_upgrade, 潜影盒升级：钻石>黑曜石
 ironchest:iron_chest:0, 铁箱子
 ironchest:iron_chest:1, 金箱子
 ironchest:iron_chest:2, 钻石箱子
@@ -9245,24 +9271,6 @@ ironchest:iron_shulker_box_black:3, 黑色铜质潜影盒
 ironchest:iron_shulker_box_black:4, 黑色银质潜影盒
 ironchest:iron_shulker_box_black:5, 黑色水晶潜影盒
 ironchest:iron_shulker_box_black:6, 黑色黑曜石潜影盒
-ironchest:iron_gold_chest_upgrade, 箱子升级：铁>金
-ironchest:gold_diamond_chest_upgrade, 箱子升级：金>钻石
-ironchest:copper_silver_chest_upgrade, 箱子升级：铜>银
-ironchest:silver_gold_chest_upgrade, 箱子升级：银>金
-ironchest:copper_iron_chest_upgrade, 箱子升级：铜>铁
-ironchest:diamond_crystal_chest_upgrade, 箱子升级：钻石>水晶
-ironchest:wood_iron_chest_upgrade, 箱子升级：木>铁
-ironchest:wood_copper_chest_upgrade, 箱子升级：木>铜
-ironchest:diamond_obsidian_chest_upgrade, 箱子升级：钻石>黑曜石
-ironchest:iron_gold_shulker_upgrade, 潜影盒升级：铁>金
-ironchest:gold_diamond_shulker_upgrade, 潜影盒升级：金>钻石
-ironchest:copper_silver_shulker_upgrade, 潜影盒升级：铜>银
-ironchest:silver_gold_shulker_upgrade, 潜影盒升级：银>金
-ironchest:copper_iron_shulker_upgrade, 潜影盒升级：铜>铁
-ironchest:diamond_crystal_shulker_upgrade, 潜影盒升级：钻石>水晶
-ironchest:vanilla_iron_shulker_upgrade, 潜影盒升级：原版>铁
-ironchest:vanilla_copper_shulker_upgrade, 潜影盒升级：原版>铜
-ironchest:diamond_obsidian_shulker_upgrade, 潜影盒升级：钻石>黑曜石
 mekanism:electricbow, 电动弓
 mekanism:dust:0, 铁粉
 mekanism:dust:1, 金粉
@@ -10028,10 +10036,6 @@ immersiveengineering:steel_armor_legs, 钢护腿
 immersiveengineering:steel_armor_chest, 钢胸甲
 immersiveengineering:steel_armor_head, 钢头盔
 naturescompass:naturescompass, 生物群系指南针
-xreliquary:altar, 铸造祭坛
-xreliquary:fertile_lilypad, tile.fertile_lilypad.name
-xreliquary:interdiction_torch, tile.interdiction_torch.name
-xreliquary:wraith_node, tile.wraith_node.name
 xreliquary:alkahestry_tome, item.alkahestry_tome.name
 xreliquary:mob_ingredient:0, 肋骨
 xreliquary:mob_ingredient:1, 凋灵肋骨
@@ -10112,6 +10116,10 @@ xreliquary:twilight_cloak, item.twilight_cloak.name
 xreliquary:void_tear, item.void_tear.name
 xreliquary:witch_hat, item.witch_hat.name
 xreliquary:witherless_rose, item.witherless_rose.name
+xreliquary:altar, 铸造祭坛
+xreliquary:fertile_lilypad, tile.fertile_lilypad.name
+xreliquary:interdiction_torch, tile.interdiction_torch.name
+xreliquary:wraith_node, tile.wraith_node.name
 scannable:scanner, 扫描器
 scannable:module_blank, 空白扫描模块
 scannable:module_range, 扫描模块：范围
@@ -11403,39 +11411,71 @@ astralsorcery:blockcelestialcollectorcrystal:0, 浮动水晶
 astralsorcery:blockcelestialcollectorcrystal:0, 浮动水晶
 astralsorcery:blockcelestialcollectorcrystal:0, 浮动水晶
 base:wrench, 扳手
-contenttweaker:soso_machine_core, 中等机械核心
+contenttweaker:dust_silicon, 粉碎硅
+contenttweaker:slice_silicon_compressed, 压缩硅片
 contenttweaker:void_machine_core, 虚空机械核心
-contenttweaker:bad_machine_core, 劣等机械核心
-contenttweaker:advanced_processor, 高级处理器
 contenttweaker:mixed_coal_dust, 混合碳粉
-contenttweaker:basic_circuit, 基础电路
 contenttweaker:ultracondium_crystal, 超导水晶
-contenttweaker:solid_ethylene, item.contenttweaker.solid_ethylene.name
+contenttweaker:silicon_reinforced, 强化硅
 contenttweaker:auriminium, 灵素精华
-contenttweaker:potion_inteligence, 智力药剂
-contenttweaker:bulk_of_plastic, item.contenttweaker.bulk_of_plastic.name
+contenttweaker:bulk_of_plastic, 块状塑料
+contenttweaker:dark_gaiya_crystal_unpolished, 未抛光的黯淡盖亚水晶
+contenttweaker:resistor_fine, 高精度电阻
+contenttweaker:gaiya_stabilizer, 盖亚稳定器
+contenttweaker:rubber_plate, 橡胶板
 contenttweaker:ancient_scroll, 上古卷轴
 contenttweaker:dust_wood, 木粉
-contenttweaker:dried_grass, 晾干的草
-contenttweaker:blast_furnace_brick, 高炉砖块
+contenttweaker:slice_monosilicon, 单晶硅片
+contenttweaker:magic_motor, 魔能马达
 contenttweaker:reinforced_machine_core, 高等机械核心
 contenttweaker:divine_inspiration, 神之启示
-contenttweaker:plastic_plate, item.contenttweaker.plastic_plate.name
-contenttweaker:blood_iron, 冶血铁
-contenttweaker:good_fuel, 优质燃料
 contenttweaker:magic_key, 魔能钥匙
 contenttweaker:fire_resist_mixture, 耐火混合物
+contenttweaker:integrated_calculation_module_unprocessed, 未处理的集成运算模块
+contenttweaker:silicon_slice, 硅片
 contenttweaker:ultra_machine_core, 超等机械核心
 contenttweaker:arcane_essence, 奥术源质
-contenttweaker:iridium_osmium_ingot, 铱锇合金锭
 contenttweaker:draconium_alloy_ingot, 龙素合金锭
-contenttweaker:zhishu_machine_core, 滞枢机械核心
-contenttweaker:fire_resist_brick, 耐火砖
+contenttweaker:ic_processed, 集成电路
 contenttweaker:fuel_helper, 助燃物
 contenttweaker:living_wood_skin, 活木皮
 contenttweaker:ether_alloy_ingot, 以太合金锭
+contenttweaker:medium_motioner, 中级传动装置
 contenttweaker:bad_fuel, 劣质燃料
 contenttweaker:magcondium_ingot, 魔导合金
+contenttweaker:unpolished_slice_monosilicon, 未抛光的单晶硅片
+contenttweaker:soso_machine_core, 中等机械核心
+contenttweaker:bad_machine_core, 劣等机械核心
+contenttweaker:advanced_processor, 高级处理器
+contenttweaker:ultimate_motioner, 终极传动装置
+contenttweaker:multicrystal_silicon, 多晶硅
+contenttweaker:basic_circuit, 基础电路
+contenttweaker:solid_ethylene, 固态乙烯
+contenttweaker:potion_inteligence, 智力药剂
+contenttweaker:dark_gaiya_crystal, 黯淡盖亚水晶
+contenttweaker:transistor_bad, 粗制晶体管
+contenttweaker:processor_base, 处理器基板
+contenttweaker:baseplate_aluminum, 铝制基底
+contenttweaker:slice_silicon_rough, 粗糙硅片
+contenttweaker:resistor_bad, 粗制电阻
+contenttweaker:dried_grass, 晾干的草
+contenttweaker:blast_furnace_brick, 高炉砖块
+contenttweaker:chlorinized_slice_monosilicon, 氯化单晶硅片
+contenttweaker:ic_unprocessed, 未处理的集成电路
+contenttweaker:plastic_plate, 片状塑料
+contenttweaker:advanced_motioner, 高级传动装置
+contenttweaker:blood_iron, 冶血铁
+contenttweaker:good_fuel, 优质燃料
+contenttweaker:ic_wafer, 集成电路晶圆
+contenttweaker:rod_monocrystal_silicon, 单晶硅棒
+contenttweaker:charged_gaiya_crystal, 充能盖亚水晶
+contenttweaker:iridium_osmium_ingot, 铱锇合金锭
+contenttweaker:transistor_fine, 高精度晶体管
+contenttweaker:zhishu_machine_core, 滞枢机械核心
+contenttweaker:fire_resist_brick, 耐火砖
+contenttweaker:baseplate_gold, 金制基底
+contenttweaker:basic_motioner, 基础传动装置
+contenttweaker:baseplate_iridium, 铱制基底
 contenttweaker:integrated_calculation_module, 集成计算模块
 contenttweaker:super_calculation_module, 超级计算模块
 contenttweaker:magfusive_crystal, 注魔水晶
@@ -13336,7 +13376,7 @@ roots:bark_acacia, 金合欢树皮
 roots:bark_wildwood, 野木树皮
 roots:fey_leather, 精灵皮革
 roots:pestle, 研杵
-roots:component_pouch, 组分袋
+roots:component_pouch, 法术收容袋
 roots:apothecary_pouch, 药剂袋
 roots:flour, 面粉
 roots:staff, 法杖
@@ -13507,7 +13547,5 @@ mysticalworld:mud_brick_fence, 泥砖栅栏
 mysticalworld:amethyst_block, 紫水晶块
 mysticalworld:amethyst_ore, 紫水晶矿石
 mysticalworld:copper_block, 铜块
-mysticalworld:copper_ore, 铜矿石
 mysticalworld:silver_block, 银块
-mysticalworld:silver_ore, 银矿石
 guideapi:bloodmagic-guide, item.guideapi.book.bloodmagic.guide.name

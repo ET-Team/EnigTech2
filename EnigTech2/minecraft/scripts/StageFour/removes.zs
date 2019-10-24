@@ -45,3 +45,5 @@ recipes.remove(<forestry:fermenter>);
 recipes.remove(<forestry:centrifuge>);
 recipes.remove(<forestry:carpenter>);
 recipes.remove(<forestry:bottler>);
+
+recipes.remove(<extrautils2:machine>);
