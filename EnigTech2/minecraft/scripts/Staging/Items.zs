@@ -98,6 +98,7 @@ var modsStageFour as string[] = [
 	"enderioconduits",
 	"forestry",
 	"deepmoblearning",
+	"deepmoblearningbm",
 	"tanaddons",
 	"scannable",
 	"elevatorid",
