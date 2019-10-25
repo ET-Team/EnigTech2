@@ -121,7 +121,16 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <embers:mixer>, [
 ]);
 //晶胞灰烬能量存储器
 recipes.addShaped(<embers:crystal_cell>, [[null, <embers:caster_orb>, null],[<embers:plate_dawnstone>, <naturesaura:sky_ingot>, <embers:plate_dawnstone>], [<thermalfoundation:storage>, <embers:copper_cell>, <thermalfoundation:storage>]]);
-
+//粗制电阻
+recipes.addShaped(<contenttweaker:resistor_bad> * 3, [[null, null, null],[<immersiveengineering:material:21>, <contenttweaker:magcondium_ingot>, <immersiveengineering:material:21>], [null, null, null]]);
+//模拟室
+mods.extendedcrafting.TableCrafting.addShaped(2, <deepmoblearning:simulation_chamber>, [
+	[<extendedcrafting:material:2>, <extendedcrafting:material:2>, <extendedcrafting:material:2>, <extendedcrafting:material:2>, <extendedcrafting:material:2>], 
+	[<extendedcrafting:material:2>, <ore:gaiaIngot>, <deepmoblearning:soot_covered_plate>, <botania:terrasword>, <botania:elfglasspane>], 
+	[<extendedcrafting:material:2>, <contenttweaker:medium_motioner>, <contenttweaker:soso_machine_core>, <deepmoblearning:soot_covered_redstone>, <botania:elfglasspane>], 
+	[<extendedcrafting:material:2>, <ore:gaiaIngot>, <deepmoblearning:soot_covered_plate>, <deepmoblearning:data_model_blank>, <botania:elfglasspane>], 
+	[<extendedcrafting:material:2>, <extendedcrafting:material:2>, <extendedcrafting:material:2>, <extendedcrafting:material:2>, <extendedcrafting:material:2>]
+]);
 
 
 

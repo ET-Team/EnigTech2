@@ -39,3 +39,4 @@ recipes.remove(<enderio:item_material>);
 recipes.remove(<embers:block_furnace>);
 recipes.remove(<embers:mixer>);
 recipes.remove(<embers:crystal_cell>);
+recipes.remove(<appliedenergistics2:material:52>);
