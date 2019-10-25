@@ -252,6 +252,14 @@
         },
         {
             "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@5"
+            ]
+        },
+        {
+            "x": 2,
             "y": 1,
             "z": 0,
             "elements": [

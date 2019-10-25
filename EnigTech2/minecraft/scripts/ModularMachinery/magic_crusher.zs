@@ -14,6 +14,18 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_coal", machi
 	.addItemInput(<ore:fuelCoke>)
 	.build();
 
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_fluix", machineName, 20)
+	.addManaInput(500)
+	.addItemOutput(<appliedenergistics2:material:8>)
+	.addItemInput(<ore:crystalFluix>)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_diamond", machineName, 20)
+	.addManaInput(500)
+	.addItemOutput(<actuallyadditions:item_dust:2>)
+	.addItemInput(<minecraft:diamond>)
+	.build();
+
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_charcoal", machineName, 20)
 	.addManaInput(500)
 	.addItemOutput(<thermalfoundation:material:768>)
@@ -68,6 +80,11 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_aluminum", m
 	.addItemInput(<ore:oreAluminum>)
 	.build();
 
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_nickel", machineName, 40)
+	.addManaInput(2000)
+	.addItemOutput(<thermalfoundation:material:69>*2)
+	.addItemInput(<ore:oreNickel>)
+	.build();
 
 //OTHER ORES
 
