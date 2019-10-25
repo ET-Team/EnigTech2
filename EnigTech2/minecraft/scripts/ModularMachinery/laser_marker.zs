@@ -13,8 +13,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ic", machineName,
     .addItemOutput(<contenttweaker:ic_processed>)
 	.build();
 
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ic", machineName, 240)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ic_module", machineName, 240)
     .addEmberInput(12000)
     .addItemInput(<contenttweaker:integrated_calculation_module_unprocessed>)
-    .addItemOutput(<contenttweaker:integrated_calculation>)
+    .addItemOutput(<contenttweaker:integrated_calculation_module>)
 	.build();
