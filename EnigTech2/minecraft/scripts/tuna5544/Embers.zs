@@ -131,9 +131,24 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <deepmoblearning:simulation_cha
 	[<extendedcrafting:material:2>, <ore:gaiaIngot>, <deepmoblearning:soot_covered_plate>, <deepmoblearning:data_model_blank>, <botania:elfglasspane>], 
 	[<extendedcrafting:material:2>, <extendedcrafting:material:2>, <extendedcrafting:material:2>, <extendedcrafting:material:2>, <extendedcrafting:material:2>]
 ]);
-
-
-
+//战利品制造器
+mods.extendedcrafting.TableCrafting.addShaped(2, <deepmoblearning:extraction_chamber>, [
+	[<extendedcrafting:material:2>, <extendedcrafting:material:2>, <extendedcrafting:material:2>, <extendedcrafting:material:2>, <extendedcrafting:material:2>], 
+	[<extendedcrafting:material:2>, <ore:runePrideB>, <deepmoblearning:soot_covered_plate>, <ore:runeGreedB>, <botania:elfglasspane>], 
+	[<extendedcrafting:material:2>, <bloodmagic:blood_shard>, <contenttweaker:soso_machine_core>, <ore:eternalLifeEssence>, <botania:elfglasspane>], 
+	[<extendedcrafting:material:2>, <ore:runeEnvyB>, <deepmoblearning:soot_covered_plate>, <ore:runeLustB>, <botania:elfglasspane>], 
+	[<extendedcrafting:material:2>, <extendedcrafting:material:2>, <extendedcrafting:material:2>, <extendedcrafting:material:2>, <extendedcrafting:material:2>]
+]);
+//流体成型机MK1
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "crafttweaker:fluider_mk1"}), [[<thermalfoundation:material:354>, <rustic:evaporating_basin>, <thermalfoundation:material:354>],[<twilightforest:steeleaf_ingot>, <contenttweaker:soso_machine_core>, <twilightforest:steeleaf_ingot>], [<thermalfoundation:material:354>, <twilightforest:fiery_ingot>, <thermalfoundation:material:354>]]);
+//测试石
+mods.extendedcrafting.TableCrafting.addShaped(2, <deepmoblearning:trial_keystone>, [
+	[null, null, null, null, null], 
+	[null, null, <deepmoblearning:trial_key>, null, null], 
+	[null, <embers:flame_barrier>, <bloodmagic:blood_shard>, <embers:flame_barrier>, null], 
+	[<extendedcrafting:material:2>, <ore:gaiaIngot>, <naturesaura:sky_ingot>, <ore:gaiaIngot>, <extendedcrafting:material:2>], 
+	[<extendedcrafting:material:2>, <extendedcrafting:material:2>, <contenttweaker:soso_machine_core>, <extendedcrafting:material:2>, <extendedcrafting:material:2>]
+]);
 
 
 
