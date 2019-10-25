@@ -48,6 +48,7 @@ item.contenttweaker.plastic_plate.name=片状塑料
 fluid.fluid_lubricant=润滑油
 fluid.fluid_oil_gas=炼油气
 fluid.fluid_ethylene=液态乙烯
+fluid.fluid_concentrated_ethylene=聚乙烯
 fluid.blend_caminite=液态方美矾
 fluid.fluid_hydrochloric_acid=盐酸
 fluid.fluid_silicon=硅烷
@@ -88,6 +89,7 @@ item.contenttweaker.dark_gaiya_crystal_unpolished.name=未抛光的黯淡盖亚�
 machine.crafttweaker:polisher=抛光机
 machine.crafttweaker:chlorinizer=氯化机
 machine.crafttweaker:silicon_grower=硅生长机
+machine.crafttweaker:fluider_mk1=简易流体成型机
 
 item.contenttweaker.gaiya_stabilizer.name=盖亚稳定器
 item.contenttweaker.charged_gaiya_crystal.name=充能盖亚水晶

@@ -41,3 +41,15 @@ var polisher = IMachineRegistry.createNewMachine(
     "et2:block/machine_idle", 
     "et2:block/silicon_grower_working"
 );
+//简易流体成型机
+var fluider_mk1 = IMachineRegistry.createNewMachine(
+    "fluider_mk1", 
+    8192, 
+    512, 
+    [
+    IMachineSlot.newFluidSlot("water", 1000),
+    ], 
+    [IMachineSlot.newItemStackSlot("output")], 
+    "et2:block/machine_idle", 
+    "et2:block/fluider_working"
+);

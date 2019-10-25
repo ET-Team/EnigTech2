@@ -34,6 +34,7 @@ var fluidLubricant = VanillaFactory.createFluid("fluid_lubricant", Color.fromHex
 var fluidOilGas = VanillaFactory.createFluid("fluid_oil_gas", Color.fromHex("CCCCCC"));
 
 VanillaFactory.createFluid("fluid_ethylene", Color.fromHex("CCACCC")).register();
+VanillaFactory.createFluid("fluid_concentrated_ethylene", Color.fromHex("CC9CCC")).register();
 VanillaFactory.createFluid("fluid_hydrochloric_acid", Color.fromHex("CCCC33")).register();
 VanillaFactory.createFluid("fluid_silicon", Color.fromHex("CCCCA3")).register();
 VanillaFactory.createFluid("fluid_concentrated_silicon", Color.fromHex("CCCC83")).register();
