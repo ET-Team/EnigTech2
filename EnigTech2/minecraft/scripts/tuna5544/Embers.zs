@@ -77,7 +77,7 @@ mods.actuallyadditions.Empowerer.addRecipe(<botania:pylon:2>, <contenttweaker:ch
 mods.botania.ManaInfusion.addInfusion(<contenttweaker:charged_gaiya_crystal>, <contenttweaker:dark_gaiya_crystal>, 250000);
 //盖亚稳定器
 recipes.addShaped(<contenttweaker:gaiya_stabilizer>, [[null, <botania:manaresource:7>, null],[<botania:manaresource:7>, <botania:manaresource:9>, <botania:manaresource:7>], [null, <botania:manaresource:7>, null]]);
-//粗致电尊
+//粗制真空管
 mods.extendedcrafting.TableCrafting.addShaped(2, <contenttweaker:transistor_bad>, [
 	[null, null, <botania:managlass>, null, null], 
 	[null, <botania:managlass>, null, <botania:managlass>, null], 
