@@ -36,3 +36,6 @@ recipes.remove(<silentgems:chaosrune>);
 recipes.remove(<embers:ember_activator>);
 recipes.remove(<embers:boiler>);
 recipes.remove(<enderio:item_material>);
+recipes.remove(<embers:block_furnace>);
+recipes.remove(<embers:mixer>);
+recipes.remove(<embers:crystal_cell>);
