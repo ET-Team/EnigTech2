@@ -19,3 +19,5 @@ recipes.remove(<rustic:retort>);
 //研钵
 recipes.addShaped(<roots:mortar>,[[<minecraft:cobblestone>,null,<minecraft:cobblestone>],[<minecraft:cobblestone>,<ore:rootsBark>,<minecraft:cobblestone>],[null,<minecraft:cobblestone>,null]]);
 recipes.remove(<roots:mortar>);
+//睡莲
+Pyre.addRecipe("waterlily", <minecraft:waterlily>*3, [<minecraft:vine>, <minecraft:cactus>, <ore:treeLeaves>, <ore:treeLeaves>, <roots:wildroot>]);
