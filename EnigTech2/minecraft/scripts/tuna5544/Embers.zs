@@ -149,7 +149,14 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <deepmoblearning:trial_keystone
 	[<extendedcrafting:material:2>, <ore:gaiaIngot>, <naturesaura:sky_ingot>, <ore:gaiaIngot>, <extendedcrafting:material:2>], 
 	[<extendedcrafting:material:2>, <extendedcrafting:material:2>, <contenttweaker:soso_machine_core>, <extendedcrafting:material:2>, <extendedcrafting:material:2>]
 ]);
-
+//宝石切割台
+mods.extendedcrafting.TableCrafting.addShaped(2, <arcanearchives:gemcutters_table>, [
+	[null, null, <botania:bifrostpermpane>, <ore:livingwoodTwig>, null], 
+	[<ore:livingrock>, null, null, <ore:livingwoodTwig>, <ore:paper>], 
+	[<botania:livingwood:1>, <botania:livingwood:1>, <ore:craftingTableWood>, <botania:livingwood:1>, <botania:livingwood:1>], 
+	[null, <contenttweaker:magfusive_crystal>, <botania:livingwood:1>, <contenttweaker:magfusive_crystal>, null], 
+	[null, <botania:livingwood:1>, <botania:livingwood:1>, <botania:livingwood:1>, null]
+]);
 
 
 

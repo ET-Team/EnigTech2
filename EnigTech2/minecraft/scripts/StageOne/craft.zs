@@ -41,3 +41,5 @@ mods.rustic.EvaporatingBasin.addRecipe(<contenttweaker:multicrystal_silicon>*1, 
 recipes.addShaped(<minecraft:farmland>,[[<minecraft:dye:15>,<minecraft:dye:15>,<minecraft:dye:15>],[<minecraft:dye:15>,<minecraft:dirt>,<minecraft:dye:15>],[<minecraft:dye:15>,<minecraft:dye:15>,<minecraft:dye:15>]]);
 //骨粉
 recipes.remove(<minecraft:dye:15>);
+//甜菜种子
+recipes.addShapeless(<minecraft:beetroot_seeds>,[<minecraft:beetroot>]);
