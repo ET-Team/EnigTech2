@@ -39,8 +39,7 @@ mods.botania.RuneAltar.removeRecipe(<botania:rune:1>);
 mods.botania.RuneAltar.addRecipe(<botania:rune>*2,[<roots:dewgonia>,<silentgems:gemsuper:9>,<botania:manaresource:23>,<botania:manaresource>,<contenttweaker:living_wood_skin>],10000);
 mods.botania.RuneAltar.removeRecipe(<botania:rune>);
 //地之符文
-var green = <silentgems:gemsuper:5>|<silentgems:gemsuper:6>
-mods.botania.RuneAltar.addRecipe(<botania:rune:2>*2,[<roots:stalicripe>,green,<botania:manaresource:23>,<botania:manaresource>,<contenttweaker:living_wood_skin>],10000);
+mods.botania.RuneAltar.addRecipe(<botania:rune:2>*2,[<roots:stalicripe>,<silentgems:gemsuper:6>,<botania:manaresource:23>,<botania:manaresource>,<contenttweaker:living_wood_skin>],10000);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:2>);
 //风之符文
 mods.botania.RuneAltar.addRecipe(<botania:rune:3>*2,[<roots:cloud_berry>,<silentgems:gemsuper:15>,<botania:manaresource:23>,<botania:manaresource>,<contenttweaker:living_wood_skin>],10000);
