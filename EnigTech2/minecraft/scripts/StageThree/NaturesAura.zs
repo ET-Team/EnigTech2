@@ -81,3 +81,5 @@ recipes.addShaped(<xpt:teleporter>,[[null,<bloodmagic:blood_orb>.withTag({orb: "
 //塑料
 mods.naturesaura.Altar.addRecipe("plastic_plate", <contenttweaker:solid_ethylene>, <contenttweaker:plastic_plate>, null, 20, 50);
 mods.naturesaura.Offering.addRecipe("divine_inspiration", <minecraft:paper>, 3, <twilightforest:hydra_chop>, <contenttweaker:divine_inspiration>);
+//炽热血
+mods.naturesaura.TreeRitual.addRecipe("fiery_blood", <minecraft:sapling>,  <twilightforest:fiery_blood>*3, 50,[<twilightforest:fiery_blood>,<thermalfoundation:material:1024>,<minecraft:glass_bottle>,<naturesaura:token_rage>] );

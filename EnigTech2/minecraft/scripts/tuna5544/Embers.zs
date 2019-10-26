@@ -157,7 +157,8 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <arcanearchives:gemcutters_tabl
 	[null, <contenttweaker:magfusive_crystal>, <botania:livingwood:1>, <contenttweaker:magfusive_crystal>, null], 
 	[null, <botania:livingwood:1>, <botania:livingwood:1>, <botania:livingwood:1>, null]
 ]);
-
+//聚合黏土
+recipes.addShaped(<deepmoblearning:polymer_clay> * 24, [[null, <minecraft:clay_ball>, null],[<embers:blend_caminite>, <contenttweaker:fire_resist_mixture>, <embers:blend_caminite>], [null, <minecraft:clay_ball>, null]]);
 
 
 
