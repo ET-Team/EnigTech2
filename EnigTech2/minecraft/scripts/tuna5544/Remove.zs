@@ -42,3 +42,4 @@ recipes.remove(<embers:crystal_cell>);
 recipes.remove(<appliedenergistics2:material:52>);
 recipes.remove(<arcanearchives:gemcutters_table>);
 recipes.remove(<deepmoblearning:polymer_clay>);
+recipes.remove(<extendedcrafting:material:2>);

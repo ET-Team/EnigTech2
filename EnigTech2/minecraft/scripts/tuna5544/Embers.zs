@@ -159,8 +159,10 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <arcanearchives:gemcutters_tabl
 ]);
 //聚合黏土
 recipes.addShaped(<deepmoblearning:polymer_clay> * 24, [[null, <minecraft:clay_ball>, null],[<embers:blend_caminite>, <contenttweaker:fire_resist_mixture>, <embers:blend_caminite>], [null, <minecraft:clay_ball>, null]]);
-
-
+//注魔水晶
+mods.embers.Alchemy.add(<contenttweaker:magfusive_crystal>, [<arcanearchives:raw_quartz>,<embers:crystal_ember>,<contenttweaker:arcane_essence>,<botania:manaresource:8>,<contenttweaker:magcondium_ingot>], {"dawnstone":25 to 50,"copper":20 to 30,"iron":15 to 20,"lead":15 to 20,"silver":5 to 10});   
+//黑铁板
+mods.immersiveengineering.MetalPress.addRecipe(<extendedcrafting:material:2>, <extendedcrafting:material>, <immersiveengineering:mold>, 1000);
 
 
 
