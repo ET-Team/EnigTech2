@@ -40,7 +40,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_silicon", ma
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_quartz", machineName, 20)
 	.addManaInput(500)
-	.addItemOutput(<nuclearcraft:gem_dust:2>)
+	.addItemOutput(<appliedenergistics2:material:3>)
 	.addItemInput(<minecraft:quartz>)
 	.build();
 
