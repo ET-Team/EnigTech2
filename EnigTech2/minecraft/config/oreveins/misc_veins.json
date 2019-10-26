@@ -1,0 +1,128 @@
+{
+    "magnite": {
+        "type": "cone",
+        "ore": [
+          {
+            "ore": "oreIron",
+            "weight": 3
+          },
+          {
+            "ore": "oreGold",
+            "weight": 2
+          }
+        ],
+        "stone": "minecraft:stone",
+        "rarity": 16,
+        "min_y": 32,
+        "max_y": 48,
+        "density": 200,
+        "vertical_size": 10,
+        "horizontal_size": 10
+    },
+    "phosphur": {
+        "type": "sphere",
+        "ore": [
+          {
+            "ore": "oreLapis",
+            "weight": 5
+          },
+          {
+            "ore": "oreApatite",
+            "weight": 7
+          },
+          {
+              "ore":"oreEmerald",
+              "weight":1
+          },
+          {
+              "ore":"oreBeryl",
+              "weight":2
+          }
+        ],
+        "stone": "minecraft:stone",
+        "rarity": 16,
+        "min_y": 38,
+        "max_y": 55,
+        "density": 280,
+        "vertical_size": 10,
+        "horizontal_size": 10
+      },
+      "uranium": {
+        "type": "sphere",
+        "ore": [
+          {
+            "ore": "oreUranium",
+            "weight": 10
+          },
+          {
+            "ore": "oreThorium",
+            "weight": 5
+          },
+          {
+            "ore":"oreRedstone",
+            "weight":2
+          }
+        ],
+        "stone": "minecraft:stone",
+        "rarity": 20,
+        "min_y": 15,
+        "max_y": 38,
+        "density": 280,
+        "vertical_size": 8,
+        "horizontal_size": 8,
+        "dimensions":[7]
+      },
+      "lithium": {
+        "type": "sphere",
+        "ore": [
+          {
+            "ore": "oreDilithium",
+            "weight": 4
+          },
+          {
+            "ore": "oreLithium",
+            "weight": 9
+          },
+          {
+            "ore":"oreBoron",
+            "weight":2
+          }
+        ],
+        "stone": "minecraft:stone",
+        "rarity": 20,
+        "min_y": 32,
+        "max_y": 50,
+        "density": 280,
+        "vertical_size": 8,
+        "horizontal_size": 8,
+        "dimensions":[7]
+      },
+      "quartz": {
+        "type": "sphere",
+        "ore": [
+          {
+            "ore": "oreQuartzBlack",
+            "weight": 7
+          },
+          {
+            "ore": "oreCertusQuartz",
+            "weight": 5
+          },
+          {
+            "ore":"oreChargedCertusQuartz",
+            "weight":3
+          },
+          {
+            "block":"embers:ore_quartz",
+            "weight":10
+          }
+        ],
+        "stone": "minecraft:stone",
+        "rarity": 20,
+        "min_y": 15,
+        "max_y": 42,
+        "density": 380,
+        "vertical_size": 12,
+        "horizontal_size": 12
+      }
+}
