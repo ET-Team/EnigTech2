@@ -14,4 +14,5 @@ silicon_grower.addRecipe({water:<liquid:astralsorcery.liquidstarlight>*200,item:
 polisher.addRecipe({water:<liquid:water>*100, item:<contenttweaker:unpolished_slice_monosilicon>},{output:<contenttweaker:slice_monosilicon>}, 8000, 40);
 polisher.addRecipe({water:<liquid:water>*100, item:<contenttweaker:dark_gaiya_crystal_unpolished>},{output:<contenttweaker:dark_gaiya_crystal>},40000,200);
 
-fluider.addRecipe({water:<liquid:fluid_concentrated_ethylene>*200},{output:<contenttweaker:bulk_of_plastic>},10000,40);
+fluider.addRecipe({water:<liquid:fluid_concentrated_ethylene>*200},{output:<contenttweaker:bulk_of_plastic>},1000,40);
+fluider.addRecipe({water:<liquid:blend_caminite>*250},{output:<embers:blend_caminite>},5000,40);
