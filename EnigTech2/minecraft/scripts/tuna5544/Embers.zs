@@ -162,14 +162,15 @@ recipes.addShaped(<deepmoblearning:polymer_clay> * 24, [[null, <minecraft:clay_b
 //注魔水晶
 mods.embers.Alchemy.add(<contenttweaker:magfusive_crystal>, [<arcanearchives:raw_quartz>,<embers:crystal_ember>,<contenttweaker:arcane_essence>,<botania:manaresource:8>,<contenttweaker:magcondium_ingot>], {"dawnstone":25 to 50,"copper":20 to 30,"iron":15 to 20,"lead":15 to 20,"silver":5 to 10});   
 //黑铁板
-mods.immersiveengineering.MetalPress.addRecipe(<extendedcrafting:material:2>, <extendedcrafting:material>, <immersiveengineering:mold>, 1000);
-
-
-
-
-
-
-
+mods.immersiveengineering.MetalPress.addRecipe(<extendedcrafting:material:2>, <extendedcrafting:material>, <immersiveengineering:mold>, 2000);
+//棒模具
+recipes.addShaped(<immersiveengineering:mold:2>,[[<immersiveengineering:tool>],[<immersiveengineering:material:1>.transformReplace(<immersiveengineering:tool>)],[<thermalfoundation:material:352>]]);
+//线模具
+recipes.addShaped(<immersiveengineering:mold:4>,[[<immersiveengineering:tool>],[<immersiveengineering:material:20>],[<thermalfoundation:material:352>.transformReplace(<immersiveengineering:tool>)]]);
+//齿轮模具
+recipes.addShaped(<immersiveengineering:mold:1>,[[<immersiveengineering:tool>],[<thermalfoundation:material:23>],[<thermalfoundation:material:352>.transformReplace(<immersiveengineering:tool>)]]);
+//板模具
+recipes.addShaped(<immersiveengineering:mold>,[[<immersiveengineering:tool>],[<thermalfoundation:material:32>],[<thermalfoundation:material:352>.transformReplace(<immersiveengineering:tool>)]]);
 
 
 
