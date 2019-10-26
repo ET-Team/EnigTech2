@@ -1,5 +1,5 @@
 #priority 503
-var machineName = "magic_crusher";
+var machineName = "magic_extractor";
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_default", machineName, 200)
 	.addItemInput(<embers:ember_cluster>)
