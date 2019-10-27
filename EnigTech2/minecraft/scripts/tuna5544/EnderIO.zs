@@ -22,8 +22,9 @@ mods.enderio.AlloySmelter.addRecipe(<contenttweaker:baseplate_gold>, [<contenttw
 mods.enderio.AlloySmelter.addRecipe(<contenttweaker:baseplate_iridium>, [<contenttweaker:silicon_reinforced>, <thermalfoundation:material:135>*2,<contenttweaker:plastic_plate>],3200);
 //强化能量管道
 recipes.addShaped(<enderio:item_power_conduit:1> * 2, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<enderio:item_alloy_ingot:1>, <enderio:item_power_conduit>, <enderio:item_alloy_ingot:1>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
-
-
+//模块化
+recipes.addShaped(<modularmachinery:blockenergyoutputhatch:3>, [[<modularmachinery:itemmodularium>, <enderio:item_power_conduit:1>, <modularmachinery:itemmodularium>],[<enderio:item_power_conduit:1>, <contenttweaker:soso_machine_core>, <enderio:item_power_conduit:1>], [<modularmachinery:itemmodularium>, <enderio:item_power_conduit:1>, <modularmachinery:itemmodularium>]]);
+recipes.addShaped(<modularmachinery:blockfluidinputhatch:3>, [[<modularmachinery:itemmodularium>, <enderio:item_liquid_conduit:1>, <modularmachinery:itemmodularium>],[<enderio:item_liquid_conduit:1>, <contenttweaker:soso_machine_core>, <enderio:item_liquid_conduit:1>], [<modularmachinery:itemmodularium>, <enderio:item_liquid_conduit:1>, <modularmachinery:itemmodularium>]]);
 
 
 
