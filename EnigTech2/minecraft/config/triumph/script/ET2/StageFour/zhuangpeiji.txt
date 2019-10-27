@@ -4,7 +4,7 @@ Criteriazhengqi2.addItem(<modularmachinery:itemblueprint, meta:0, count:1, nbt:{
 setIcon(<modularmachinery:itemblueprint, meta:0, nbt:{dynamicmachine:"modularmachinery:steam_assembly"}>)
 setTitle("\u84b8\u6c7d\u88c5\u914d\u673a")
 setDescription("\u642d\u5efa\u591a\u65b9\u5757\u7ed3\u6784:\u84b8\u6c7d\u88c5\u914d\u673a")
-setPos(-421,205)
+setPos(-421,208)
 addParent("ET2:StageFour/zhengqi")
 drawDirectLines(true)
 setShowToast(true)
