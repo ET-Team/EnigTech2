@@ -4,7 +4,7 @@ Criteriahechengmianban6.addItem(<appliedenergistics2:controller, meta:0, count:1
 setIcon(<appliedenergistics2:controller, meta:0>)
 setTitle("ME\u63a7\u5236\u5668")
 setDescription("\u5236\u4f5cAE2\u7684ME\u63a7\u5236\u5668")
-setPos(-377,216)
+setPos(-384,216)
 addParent("ET2:StageFour/chuliqi")
 drawDirectLines(true)
 setShowToast(true)

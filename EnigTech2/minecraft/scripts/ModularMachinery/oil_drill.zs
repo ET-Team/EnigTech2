@@ -4,8 +4,8 @@ var machineName = "oil_drill";
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_oil", machineName, 200)
 	.addEnergyPerTickInput(500)
 	.addItemInput(<embers:pipe>)
-	.addFluidInput(<liquid:fluid_lubricant>*160)
-	.addFluidOutput(<liquid:crude_oil>*200)
+	.addFluidInput(<liquid:fluid_lubricant>*60)
+	.addFluidOutput(<liquid:crude_oil>*400)
 	.addClearWeatherRequirement()
-	.addBiomeRequirement(["minecraft:desert"])
+	.addBiomeRequirement(["minecraft:desert","minecraft:desert_hills"])
 	.build();

@@ -18,3 +18,14 @@ ancientScroll.itemRightClick = function(stack, world, player, hand) {
 };
 
 ancientScroll.register();
+
+var brainChip = VanillaFactory.createItem("brain_chip");
+brainChip.rarity = "rare";
+brainChip.maxStackSize = 1;
+brainChip.itemRightClick = function(stack,world,player,hand){
+    Commands.call("gamestage add @p five", player, world);
+    stack.shrink(1);
+    return "Pass";
+};
+
+brainChip.register();
