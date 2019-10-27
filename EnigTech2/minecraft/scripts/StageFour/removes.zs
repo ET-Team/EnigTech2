@@ -52,3 +52,6 @@ recipes.remove(<deepmoblearning:trial_key>);
 recipes.remove(<deepmoblearning:simulation_chamber>);
 recipes.remove(<deepmoblearning:extraction_chamber>);
 recipes.remove(<deepmoblearning:trial_keystone>);
+
+recipes.remove(<actuallyadditions:block_atomic_reconstructor>);
+recipes.remove(<enderio:item_material:51>);

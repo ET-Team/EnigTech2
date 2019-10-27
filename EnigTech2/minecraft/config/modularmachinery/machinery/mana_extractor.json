@@ -1,7 +1,7 @@
 {
     "registryname": "mana_extractor",
     "localizedname": "魔力激发器",
-    "color":"bfbfbf",
+    "color":"ff5cff",
     "parts": [
         {
             "x": -1,
