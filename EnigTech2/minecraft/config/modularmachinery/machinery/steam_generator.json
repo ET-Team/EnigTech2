@@ -1,6 +1,7 @@
 {
     "registryname": "steam_generator",
     "localizedname": "蒸汽涡轮机",
+    "color":"bfbfbf",
     "parts": [
         {
             "x": 0,

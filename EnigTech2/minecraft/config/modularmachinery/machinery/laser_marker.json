@@ -1,6 +1,7 @@
 {
     "registryname": "laser_marker",
     "localizedname": "余烬激光蚀刻机",
+    "color":"bfbfbf",
     "parts": [
         {
             "x": -1,

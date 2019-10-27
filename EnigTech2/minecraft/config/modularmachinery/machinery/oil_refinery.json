@@ -1,6 +1,7 @@
 {
     "registryname": "oil_refinery",
     "localizedname": "炼油厂",
+    "color":"bfbfbf",
     "parts": [
         {
             "x": -2,

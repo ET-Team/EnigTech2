@@ -1,6 +1,7 @@
 {
     "registryname": "microassembly",
     "localizedname": "微装配机",
+    "color":"bfbfbf",
     "parts": [
         {
             "x": -1,

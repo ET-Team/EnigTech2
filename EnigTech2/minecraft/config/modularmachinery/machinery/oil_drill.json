@@ -1,6 +1,7 @@
 {
     "registryname": "oil_drill",
     "localizedname": "石油钻井平台",
+    "color":"bfbfbf",
     "parts": [
         {
             "x": -1,

@@ -1,6 +1,7 @@
 {
     "registryname": "magic_magtinizer",
     "localizedname": "魔能磁化机",
+    "color":"bfbfbf",
     "parts": [
         {
             "x": -1,

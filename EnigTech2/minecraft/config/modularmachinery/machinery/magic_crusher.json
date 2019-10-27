@@ -1,6 +1,7 @@
 {
     "registryname": "magic_crusher",
     "localizedname": "魔力粉碎机",
+    "color":"bfbfbf",
     "parts": [
         {
             "x": 1,

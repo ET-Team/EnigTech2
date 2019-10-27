@@ -1,6 +1,7 @@
 {
     "registryname": "embers_chopper",
     "localizedname": "余烬切割机",
+    "color":"bfbfbf",
     "parts": [
         {
             "x": -1,

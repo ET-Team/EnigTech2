@@ -1,6 +1,7 @@
 {
     "registryname": "steam_assembly",
     "localizedname": "蒸汽装配机",
+    "color":"bfbfbf",
     "parts": [
         {
             "x": -1,
