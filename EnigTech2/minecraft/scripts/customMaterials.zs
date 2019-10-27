@@ -35,7 +35,7 @@ var fluidOilGas = VanillaFactory.createFluid("fluid_oil_gas", Color.fromHex("CCC
 
 VanillaFactory.createFluid("fluid_ethylene", Color.fromHex("CCACCC")).register();
 VanillaFactory.createFluid("fluid_concentrated_ethylene", Color.fromHex("CC9CCC")).register();
-yansuan = VanillaFactory.createFluid("fluid_hydrochloric_acid", Color.fromHex("CCCC33"));
+var yansuan = VanillaFactory.createFluid("fluid_hydrochloric_acid", Color.fromHex("CCCC33"));
 yansuan.gaseous = true;
 yansuan.register();
 VanillaFactory.createFluid("fluid_silicon", Color.fromHex("CCCCA3")).register();
