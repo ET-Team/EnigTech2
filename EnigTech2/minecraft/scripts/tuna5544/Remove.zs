@@ -1,4 +1,5 @@
 #priority 1891
+import mods.enderio.AlloySmelter;
 
 recipes.remove(<embers:blend_caminite>);
 recipes.remove(<embers:ember_bore>);
@@ -44,3 +45,7 @@ recipes.remove(<arcanearchives:gemcutters_table>);
 recipes.remove(<deepmoblearning:polymer_clay>);
 recipes.remove(<extendedcrafting:material:2>);
 recipes.remove(<embers:mini_boiler>);
+recipes.remove(<enderio:item_power_conduit:2>);
+mods.enderio.AlloySmelter.removeRecipe(<enderio:item_material:53>);
+recipes.remove(<enderio:item_power_conduit:1>);
+

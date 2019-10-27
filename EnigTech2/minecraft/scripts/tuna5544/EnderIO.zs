@@ -20,7 +20,8 @@ mods.enderio.AlloySmelter.addRecipe(<contenttweaker:baseplate_aluminum>, [<conte
 mods.enderio.AlloySmelter.addRecipe(<contenttweaker:baseplate_gold>, [<contenttweaker:silicon_reinforced>, <minecraft:gold_ingot>*2,<contenttweaker:plastic_plate>],3200);
 //铱制基板
 mods.enderio.AlloySmelter.addRecipe(<contenttweaker:baseplate_iridium>, [<contenttweaker:silicon_reinforced>, <thermalfoundation:material:135>*2,<contenttweaker:plastic_plate>],3200);
-
+//强化能量管道
+recipes.addShaped(<enderio:item_power_conduit:1> * 2, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<enderio:item_alloy_ingot:1>, <enderio:item_power_conduit>, <enderio:item_alloy_ingot:1>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 
 
 
