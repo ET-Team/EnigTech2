@@ -35,8 +35,8 @@
               "weight":1
           },
           {
-              "ore":"oreBeryl",
-              "weight":2
+            "ore":"oreMagnesium",
+            "weight":1
           }
         ],
         "stone": "minecraft:stone",
@@ -110,7 +110,7 @@
           },
           {
             "ore":"oreChargedCertusQuartz",
-            "weight":3
+            "weight":1
           },
           {
             "block":"embers:ore_quartz",
@@ -124,5 +124,137 @@
         "density": 380,
         "vertical_size": 12,
         "horizontal_size": 12
+      },
+      "iriPlatinum": {
+        "type": "sphere",
+        "ore": [
+          {
+            "ore": "oreIridium",
+            "weight": 7
+          },
+          {
+            "ore": "orePlatinum",
+            "weight": 5
+          },
+          {
+            "ore":"oreOsmium",
+            "weight":1
+          }
+        ],
+        "stone": "minecraft:stone",
+        "rarity": 50,
+        "min_y": 35,
+        "max_y": 40,
+        "density": 480,
+        "vertical_size": 4,
+        "horizontal_size": 4
+      },
+      "diamond": {
+        "type": "sphere",
+        "ore": [
+          {
+            "ore": "oreDiamond",
+            "weight": 3
+          },
+          {
+            "ore": "oreOnyx",
+            "weight": 5
+          },
+          {
+            "ore":"oreOpal",
+            "weight":2
+          }
+        ],
+        "stone": "minecraft:stone",
+        "rarity": 30,
+        "min_y": 10,
+        "max_y": 20,
+        "density": 200,
+        "vertical_size": 6,
+        "horizontal_size": 6
+      },
+      "sapphire": {
+        "type": "sphere",
+        "ore": [
+          {
+            "ore": "oreBeryl",
+            "weight": 3
+          },
+          {
+            "ore": "oreIndicolite",
+            "weight": 2
+          },
+          {
+            "ore":"oreIolite",
+            "weight":4
+          },
+          {
+            "ore":"oreAquamarine",
+            "weight":1
+          },
+          {
+            "ore":"oreSappire",
+            "weight":7
+          }
+        ],
+        "stone": "minecraft:stone",
+        "rarity": 30,
+        "min_y": 10,
+        "max_y": 20,
+        "density": 200,
+        "vertical_size": 6,
+        "horizontal_size": 6
+      },
+      "chaos": {
+        "type": "cone",
+        "ore": [
+          {
+            "ore": "oreChaos",
+            "weight": 3
+          }
+        ],
+        "stone": "minecraft:stone",
+        "rarity": 20,
+        "min_y": 0,
+        "max_y": 10,
+        "density": 200,
+        "vertical_size": 6,
+        "horizontal_size": 6
+      },
+      "high_al": {
+        "type": "sphere",
+        "ore": [
+          {
+            "ore": "oreAluminum",
+            "weight": 1
+          }
+        ],
+        "stone": "minecraft:stone",
+        "rarity": 16,
+        "min_y": 80,
+        "max_y": 130,
+        "density": 200,
+        "vertical_size": 6,
+        "horizontal_size": 6
+      },
+      "alni": {
+        "type": "sphere",
+        "ore": [
+          {
+            "ore": "oreAluminum",
+            "weight": 3
+          },
+          {
+            "ore":"oreNickel",
+            "weight":2
+          }
+        ],
+        "stone": "minecraft:stone",
+        "rarity": 20,
+        "min_y": 35,
+        "max_y": 58,
+        "density": 200,
+        "vertical_size": 8,
+        "horizontal_size": 6
       }
 }
