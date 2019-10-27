@@ -55,7 +55,7 @@
     "rarity": 16,
     "min_y": 25,
     "max_y": 55,
-    "density": 220,
+    "density": 160,
     "vertical_size": 12,
     "horizontal_size": 14
   },
@@ -135,9 +135,9 @@
     "rarity": 30,
     "min_y": 20,
     "max_y": 45,
-    "density": 320,
+    "density": 140,
     "vertical_size": 6,
-    "horizontal_size": 22
+    "horizontal_size": 24
   },
   "redstone": {
     "type": "sphere",
@@ -159,7 +159,7 @@
     "rarity": 16,
     "min_y": 5,
     "max_y": 35,
-    "density": 400,
+    "density": 200,
     "vertical_size": 5,
     "horizontal_size": 25
   }
