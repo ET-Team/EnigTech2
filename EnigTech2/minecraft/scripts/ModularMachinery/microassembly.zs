@@ -1,4 +1,5 @@
 #priority 509
+import mods.modularmachinery.RecipeBuilder;
 var machineName = "microassembly";
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_transistor", machineName, 20)
@@ -10,7 +11,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_transistor", mach
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_resistor", machineName, 20)
 	.addItemOutput(<contenttweaker:resistor_fine>)
-    .addItemInput(<ore:wireCopper>*2)
+    .addItemInput(<ore:wireCopper>, 2)
     .addItemInput(<contenttweaker:slice_silicon_compressed>)
     .addEnergyPerTickInput(512)
 	.build();
