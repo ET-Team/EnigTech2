@@ -12,7 +12,5 @@ recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "
 recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:microassembly"}), [<minecraft:paper>,<contenttweaker:basic_circuit>]);
 recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:magic_magtinizer"}), [<minecraft:paper>,<botania:manaresource:7>]);
 recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:laser_marker"}), [<minecraft:paper>,<appliedenergistics2:material:5>]);
-recipes.addShapeless(<modularmachinery:itemblueprint>, [<minecraft:paper>,<appliedenergistics2:material:5>]);
-recipes.addShapeless(<modularmachinery:itemblueprint>, [<minecraft:paper>,<botania:manaresource:7>]);
 recipes.addShaped(<actuallyadditions:block_atomic_reconstructor>, [[<thermalfoundation:material:323>, <embers:glimmer_shard>, <thermalfoundation:material:323>],[<contenttweaker:magic_motor>, <contenttweaker:soso_machine_core>, <contenttweaker:magic_motor>], [<thermalfoundation:material:323>, <embers:glimmer_shard>, <thermalfoundation:material:323>]]);
 //File End
