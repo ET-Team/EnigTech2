@@ -35,7 +35,7 @@
     "rarity": 16,
     "min_y": 45,
     "max_y": 60,
-    "density": 160,
+    "density": 120,
     "vertical_size": 8,
     "horizontal_size": 14
   },
@@ -84,11 +84,11 @@
     "ore": [
       {
         "ore": "oreIron",
-        "weight": 30
+        "weight": 38
       },
       {
         "ore": "oreNickel",
-        "weight": 2
+        "weight": 5
       },
       {
         "ore":"orePlatinum",
@@ -124,15 +124,15 @@
     "ore": [
       {
         "ore": "oreAluminum",
-        "weight": 5
+        "weight": 23
       },
       {
-        "ore": "oreCopper",
-        "weight": 2
+        "ore": "oreOsmium",
+        "weight": 1
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 20,
+    "rarity": 30,
     "min_y": 20,
     "max_y": 45,
     "density": 320,
@@ -148,11 +148,11 @@
       },
       {
         "block": "silentgems:essenceore",
-        "weight": 13
+        "weight": 17
       },
       {
         "block":"astralsorcery:blockcustomore",
-        "weight": 7
+        "weight": 1
       }
     ],
     "stone": "minecraft:stone",

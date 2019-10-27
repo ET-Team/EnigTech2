@@ -28,7 +28,7 @@ recipes.addShaped(<immersiveengineering:conveyor> * 18, [[<harvestcraft:hardened
 recipes.addShaped(<immersiveengineering:conveyor> * 12, [[<survivalist:tanned_leather>, <survivalist:tanned_leather>, <survivalist:tanned_leather>],[<immersiveengineering:material:2>, <thermalfoundation:material:259>, <immersiveengineering:material:2>], [<thermalfoundation:material:355>, <thermalfoundation:material:355>, <thermalfoundation:material:355>]]);
 
 //脉络附魔书
-recipes.addShaped(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 46 as short}]}), [[<contenttweaker:arcane_essence>, <mysticalworld:amethyst_pickaxe>.anyDamage(), <contenttweaker:arcane_essence>],[<contenttweaker:arcane_essence>, <minecraft:book>, <contenttweaker:arcane_essence>], [<contenttweaker:arcane_essence>, <naturesaura:infused_iron>, <contenttweaker:arcane_essence>]]);
+recipes.addShaped(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 46 as short}]}), [[<contenttweaker:arcane_essence>, <minecraft:diamond_pickaxe>.anyDamage(), <contenttweaker:arcane_essence>],[<contenttweaker:arcane_essence>, <minecraft:book>, <contenttweaker:arcane_essence>], [<contenttweaker:arcane_essence>, <naturesaura:infused_iron>, <contenttweaker:arcane_essence>]]);
 recipes.addShaped(<silentgems:enchantmenttoken>.withTag({TokenEnchantments: [{lvl: 1 as short, name: "veining:veining"}]}), [[null, null, null],[null, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 46 as short}]}), null], [null, null, null]]);
 
 //辐射采集器
