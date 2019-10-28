@@ -48,4 +48,5 @@ recipes.remove(<embers:mini_boiler>);
 recipes.remove(<enderio:item_power_conduit:2>);
 mods.enderio.AlloySmelter.removeRecipe(<enderio:item_material:53>);
 recipes.remove(<enderio:item_power_conduit:1>);
+recipes.remove(<tanaddons:temp_regulator>);
 

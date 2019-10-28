@@ -25,6 +25,8 @@ recipes.addShaped(<enderio:item_power_conduit:1> * 2, [[<enderio:item_material:4
 //模块化
 recipes.addShaped(<modularmachinery:blockenergyoutputhatch:3>, [[<modularmachinery:itemmodularium>, <enderio:item_power_conduit:1>, <modularmachinery:itemmodularium>],[<enderio:item_power_conduit:1>, <contenttweaker:soso_machine_core>, <enderio:item_power_conduit:1>], [<modularmachinery:itemmodularium>, <enderio:item_power_conduit:1>, <modularmachinery:itemmodularium>]]);
 recipes.addShaped(<modularmachinery:blockfluidinputhatch:3>, [[<modularmachinery:itemmodularium>, <enderio:item_liquid_conduit:1>, <modularmachinery:itemmodularium>],[<enderio:item_liquid_conduit:1>, <contenttweaker:soso_machine_core>, <enderio:item_liquid_conduit:1>], [<modularmachinery:itemmodularium>, <enderio:item_liquid_conduit:1>, <modularmachinery:itemmodularium>]]);
+//温度调节器
+recipes.addShaped(<tanaddons:temp_regulator>, [[<toughasnails:magma_shard>, <toughasnails:magma_shard>, <toughasnails:magma_shard>],[<toughasnails:temperature_coil>, <enderio:item_material>, <toughasnails:temperature_coil:1>], [<toughasnails:ice_cube>, <toughasnails:ice_cube>, <toughasnails:ice_cube>]]);
 
 
 
