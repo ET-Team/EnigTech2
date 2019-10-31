@@ -40,12 +40,19 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 16,
+        "rarity": 12,
         "min_y": 38,
         "max_y": 55,
         "density": 280,
         "vertical_size": 10,
-        "horizontal_size": 10
+        "horizontal_size": 8,
+        "indicator": {
+          "blocks": {
+            "block":"silentgems:glowrose",
+            "meta":"9"
+          },
+          "max_depth": 30
+        }
       },
       "uranium": {
         "type": "sphere",
