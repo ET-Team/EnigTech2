@@ -5,7 +5,7 @@ import mods.roots.Bark;
 mods.botania.Apothecary.removeRecipe("puredaisy");
 Pyre.addRecipe("puredaisy", <botania:specialflower>.withTag({type: "puredaisy"}), [<botania:petal>, <botania:petal>, <botania:petal>, <botania:petal>, <contenttweaker:arcane_essence>]);
 //活石
-mods.botania.PureDaisy.addRecipe(<roots:runestone>,<botania:livingrock>, 1200);
+mods.botania.PureDaisy.addRecipe(<roots:runestone>,<botania:livingrock>, 800);
 mods.botania.PureDaisy.removeRecipe(<botania:livingrock>);
 //花药台
 recipes.addShaped(<botania:altar>,[[<botania:livingrock0slab>,<contenttweaker:arcane_essence>,<botania:livingrock0slab>],[null,<botania:livingrock>,null],[<botania:livingrock>,<botania:livingrock>,<botania:livingrock>]]);
@@ -17,7 +17,7 @@ val wildWood = <ore:wildwood_log>;
 wildWood.add(<roots:wildwood_log>);
 wildWood.add(<roots:wildwood_log:4>);
 wildWood.add(<roots:wildwood_log:8>);
-mods.botania.PureDaisy.addRecipe(wildWood,<botania:livingwood>, 1200);
+mods.botania.PureDaisy.addRecipe(wildWood,<botania:livingwood>, 800);
 
 mods.botania.PureDaisy.removeRecipe(<botania:livingwood>);
 //魔力池

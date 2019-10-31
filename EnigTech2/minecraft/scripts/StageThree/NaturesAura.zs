@@ -48,7 +48,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <bloodmagic:altar>, [
 ]);
 //空白石板	
 mods.bloodmagic.AlchemyArray.addRecipe(<bloodmagic:slate>,<naturesaura:infused_stone>, <twilightforest:fiery_blood>);
-mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:slate>,<naturesaura:infused_stone>,0,1000,50,100);
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:slate>,<naturesaura:infused_stone>,0,1000,20,100);
 //气血宝珠
 mods.botania.RuneAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),[<botania:rune:7>,<botania:rune:6>,<botania:rune:5>,<botania:rune:4>,<botania:manaresource:2>,<silentgems:craftingmaterial:1>,<contenttweaker:blood_iron>,<contenttweaker:blood_iron>,<contenttweaker:blood_iron>,<contenttweaker:blood_iron>],10000);
 //炽热铁
@@ -59,7 +59,7 @@ mods.naturesaura.TreeRitual.addRecipe("eye", <minecraft:sapling>, <naturesaura:e
 //外部火焰加热器
 mods.naturesaura.TreeRitual.addRecipe("furnace_heater", <roots:wildwood_sapling>, <naturesaura:furnace_heater>, 50,[<botania:specialflower>.withTag({type: "exoflame"}),<botania:rune:5>,<minecraft:magma>,<naturesaura:token_fear>,<bloodmagic:lava_crystal>,<naturesaura:infused_stone>,<naturesaura:infused_stone>,<naturesaura:infused_iron>] );
 //血铁
-mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:blood_iron>,<botania:manaresource:7>,0,1000,50,100);
+mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:blood_iron>,<botania:manaresource:7>,0,1000,20,100);
 //增强型漏斗
 recipes.addShaped(<naturesaura:hopper_upgrade>,[[<botania:manaresource>,<naturesaura:infused_iron>,<botania:manaresource>],[<naturesaura:infused_iron>,<botania:enderhand>,<naturesaura:infused_iron>],[<botania:manaresource>,<botania:specialflower>.withTag({type: "hopperhock"}),<botania:manaresource>]]);
 //供桌
