@@ -15,8 +15,10 @@ OreStages.addReplacement("four", <thermalfoundation:ore:5>);
 OreStages.addReplacement("four", <forestry:resources>);
 
 OreStages.addReplacement("five", <astralsorcery:blockcustomore>);
+OreStages.addReplacement("five", <mekanism:oreblock:0>);
+OreStages.addReplacement("five", <thermalfoundation:ore:6>);
+OreStages.addReplacement("five", <thermalfoundation:ore:7>);
 
-OreStages.addReplacement("six", <mekanism:oreblock:0>);
 OreStages.addReplacement("six", <nuclearcraft:ore:3>);
 OreStages.addReplacement("six", <nuclearcraft:ore:4>);
 OreStages.addReplacement("six", <nuclearcraft:ore:5>);

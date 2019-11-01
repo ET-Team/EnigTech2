@@ -35,3 +35,7 @@ IEMultiBlockStages.addStage("default", "IE:ArcFurnace", "该机器已被禁用")
 IEMultiBlockStages.addStage("default", "IE:DieselGenerator", "该机器已被禁用");
 
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:slice_silicon_compressed>, <contenttweaker:slice_silicon_rough>, <immersiveengineering:mold:0>, 120, 4);
+
+//加入矿脉
+//mods.immersiveengineering.Excavator.addMineral(String name, int mineralWeight, double failChance, String[] ores, double[] chances, @Optional int[] dimensionWhitelist, @Optional boolean blacklist);
+mods.immersiveengineering.Excavator.addMineral("Platinum", 30, 0.005, ["thermalfoundation:ore:4", "thermalfoundation:ore:5"], [0.02, 0.005]);

@@ -50,7 +50,8 @@
           "blocks": {
             "block":"silentgems:glowrose",
             "meta":"9"
-          },
+          }
+        },
           "max_depth": 30
         }
       },
@@ -141,7 +142,7 @@
           },
           {
             "ore": "orePlatinum",
-            "weight": 5
+            "weight": 12
           },
           {
             "ore":"oreOsmium",
