@@ -6,7 +6,7 @@ setTitle("\u5fae\u578b\u9505\u7089")
 setDescription("\u5236\u4f5c\u5fae\u578b\u9505\u7089")
 setPos(-421,135)
 addParent("ET2:StageFour/limingshiding")
-alwaysVisible()
+  
 drawDirectLines(true)
 setShowToast(true)
 setAnnounceToChat(true)
