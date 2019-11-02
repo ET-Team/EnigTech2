@@ -34,3 +34,4 @@ recipes.remove(<embers:pump>);
 recipes.remove(<extrautils2:rainbowgenerator:2>);
 recipes.remove(<extrautils2:rainbowgenerator:1>);
 recipes.remove(<extrautils2:rainbowgenerator>);
+recipes.remove(<xreliquary:alkahestry_tome:1001>);
