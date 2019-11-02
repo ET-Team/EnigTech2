@@ -62,10 +62,6 @@
             "weight": 10
           },
           {
-            "ore": "oreThorium",
-            "weight": 5
-          },
-          {
             "ore":"oreRedstone",
             "weight":2
           }
@@ -85,14 +81,6 @@
           {
             "ore": "oreDilithium",
             "weight": 4
-          },
-          {
-            "ore": "oreLithium",
-            "weight": 9
-          },
-          {
-            "ore":"oreBoron",
-            "weight":2
           }
         ],
         "stone": "minecraft:stone",
@@ -200,7 +188,7 @@
             "weight":1
           },
           {
-            "ore":"oreSappire",
+            "ore":"oreSapphire",
             "weight":7
           }
         ],
