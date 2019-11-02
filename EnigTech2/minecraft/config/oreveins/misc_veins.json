@@ -33,10 +33,6 @@
           {
               "ore":"oreEmerald",
               "weight":1
-          },
-          {
-            "ore":"oreMagnesium",
-            "weight":1
           }
         ],
         "stone": "minecraft:stone",
