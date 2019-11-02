@@ -112,15 +112,6 @@
                 "type" : "openGui",
                 "gui" : "credits"
             }
-        },
-        
-        "fml":
-        {
-            "text" : "",
-            "posX" : 2,
-            "posY" : -40,
-            "color" : -1,
-            "alignment" : "bottom_left"
         }
     },
     

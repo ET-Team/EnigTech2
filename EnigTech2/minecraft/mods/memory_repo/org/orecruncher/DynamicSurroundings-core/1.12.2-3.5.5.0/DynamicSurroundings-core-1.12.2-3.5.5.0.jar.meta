@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Maven-Artifact: org.orecruncher:DynamicSurroundings-core:1.12.2-3.5.5.
+ 0
+FMLCorePlugin: org.orecruncher.dsurround.asm.TransformLoader
+
+Name: org/orecruncher/dsurround/asm/Transmorgrifier.class
+SHA-256-Digest: JqUK5XL1z5EdxDRSCFd3lWmcdZhylhL65TejGR68FTY=
+
+Name: org/orecruncher/dsurround/asm/PatchEntityRenderer.class
+SHA-256-Digest: /jsKFpuJJdjsslbi8zL3yzoYYxthB2RINxfZeFCLIik=
+
+Name: org/orecruncher/dsurround/asm/MyTransformer.class
+SHA-256-Digest: 1lDTnQ9Ku6qlZM1vApndPrQIlY2GUGs+rRO0Hznm+qg=
+
+Name: org/orecruncher/dsurround/asm/SoundCategoryAdditions.class
+SHA-256-Digest: xhFt/XX06FK0ms79RZ/MmKdJJhga13g7IKszFXV/eoY=
+
+Name: org/orecruncher/dsurround/asm/TransformLoader.class
+SHA-256-Digest: zHaBOrWMe/Kq/3jLk70KXTPHTEG8mFwn4qN4xSIpyH8=
+
+Name: org/orecruncher/dsurround/asm/BiomeInfoHook.class
+SHA-256-Digest: h7BEi2hMWZLCGzmlNXHjCm7CpY5vxIPTUjxJ+S4cZJI=
+
+Name: org/orecruncher/dsurround/asm/PatchSoundManagerClampVolume.class
+SHA-256-Digest: qNM0G/YUDGg37KQ/WS01meax3VwCSefpFOj5ihgsuYU=
+
+Name: org/orecruncher/dsurround/asm/PatchEntityArrow.class
+SHA-256-Digest: iwGLSN8kU/4dYnpSys758vDFHtxwGG5vI6MgVbYPjNg=
+
+Name: org/orecruncher/dsurround/asm/Transformer.class
+SHA-256-Digest: sA2QROhAVOjfGWz9kojXfXHf2VLWJJCsroE7pGLhGSg=
+
+Name: org/orecruncher/dsurround/asm/ItemInfoHook.class
+SHA-256-Digest: spE0H+QoeolB50jJ7Hy/3Eitpyl9l9qRvZCXWh5UGaA=
+
+Name: org/orecruncher/dsurround/asm/BlockStateInfoHook.class
+SHA-256-Digest: RGe0PbDcq/kk8O8VKYuSmNMFU5IiU5S/OoFZ/Ns+vnw=
+
+Name: org/orecruncher/dsurround/asm/TransformLoader$Container.class
+SHA-256-Digest: f40WB2DTIcq5Ia8F0gx0C+4WlBUK2KGyU79Zxbn483o=
+
