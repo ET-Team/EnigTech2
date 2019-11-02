@@ -12,7 +12,7 @@ inteligencePotion.maxStackSize = 1;
 inteligencePotion.rarity = "rare";
 
 inteligencePotion.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @p two", player, world);
+    Commands.call("gamestage add "+player.name+" two", player, world);
     stack.shrink(1);
     return "Pass";
 };

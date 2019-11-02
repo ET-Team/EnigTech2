@@ -12,7 +12,7 @@ item.maxStackSize = 1;
 item.rarity = "rare";
 
 item.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("gamestage add @p four", player, world);
+    Commands.call("gamestage add "+player.name+" four", player, world);
     stack.shrink(1);
     return "Pass";
 };
