@@ -1,7 +1,7 @@
 #priority 1454
 
 //方镁矾
-mods.inworldcrafting.FluidToItem.transform(<embers:blend_caminite>*4, <liquid:blend_caminite>,<contenttweaker:arcane_essence>, true);
+mods.inworldcrafting.FluidToItem.transform(<embers:blend_caminite>*4, <liquid:blend_caminite>,[<contenttweaker:arcane_essence>*2], true);
 mods.immersiveengineering.Mixer.addRecipe(<liquid:blend_caminite>*500, <liquid:water>*500, [<minecraft:clay_ball>, <minecraft:dye:15>], 1000);
 //晶体开采机
 mods.extendedcrafting.TableCrafting.addShaped(2,<embers:ember_bore>, [

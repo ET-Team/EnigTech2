@@ -1,3 +1,4 @@
 gamestage silentadd @p one
 tellraw @p {"text":"欢迎游玩EnigTech2整合包，在这个魔法主宰一切的世界里，你将如何发展科技呢？","color":"aqua"}
 tellraw @p {"text":"按'L'键打开进度系统，本整合包不附赠说明，请详细阅读进度来获取资讯","color":"gold"}
+clear @p

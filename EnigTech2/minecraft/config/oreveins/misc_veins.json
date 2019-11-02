@@ -52,8 +52,7 @@
             "meta":"9"
           }
         },
-          "max_depth": 30
-        }
+        "max_depth": 30
       },
       "uranium": {
         "type": "sphere",
