@@ -47,7 +47,6 @@ var modsStageTwo as string[] = [
 	"cookingforblockheads",
 	"forge",
 	"microblockcbe",
-	"thermalfoundation",
 	"baubles",
 	"extendedcrafting"
 ];
