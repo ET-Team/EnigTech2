@@ -21,10 +21,10 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:blast_furnace_b
 mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:magcondium_ingot>*2, <ore:ingotTerrasteel>, <ore:ingotSteel>, 160);
 mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:magic_key>, <contenttweaker:magcondium_ingot>, <storagedrawers:drawer_key>, 320);
 mods.immersiveengineering.AlloySmelter.addRecipe(<extendedcrafting:material>, <ore:ingotSteel>, <ore:dustCharcoal>, 80);
-mods.immersiveengineering.AlloySmelter.addRecipe(<modularmachinery:itemmodularium>*2, <ore:ingotAluminum>, <twilightforest:fiery_ingot>, 80);
+mods.immersiveengineering.AlloySmelter.addRecipe(<modularmachinery:itemmodularium>*3, <ore:ingotAluminum>*2, <twilightforest:fiery_ingot>, 80);
 mods.immersiveengineering.AlloySmelter.addRecipe(<deepmoblearning:trial_key>, <contenttweaker:magic_key>, <minecraft:ender_eye>, 120);
 mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:silicon_reinforced>, <contenttweaker:slice_silicon_compressed>, <contenttweaker:mixed_coal_dust>, 80);
-mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:baseplate_aluminum>, <contenttweaker:silicon_reinforced>, <thermalfoundation:material:132>, 160);
+mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:baseplate_aluminum>*3, <contenttweaker:magcondium_ingot>, <thermalfoundation:material:132>*3, 160);
 
 mods.immersiveengineering.CokeOven.addRecipe(<minecraft:prismarine_shard>, 0, <minecraft:ghast_tear>, 1000);
 mods.immersiveengineering.Refinery.addRecipe(<liquid:fluid_ethylene>, <liquid:ethanol>, <liquid:sulfuric_acid>, 2048);
