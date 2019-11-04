@@ -7,11 +7,12 @@
     "thirst": 6,
     "hydration": 0.7,
     "poisonChance": 0.0
-  };
-   {
+  },
+  {
     "item": {
       "name": "rustic:fluid_bottle",
-      "metadata": 0
+      "metadata": 0,
+      "nbt":{"Fluid":{"FluidName":"wildberryjuice","Amount":1000}}
     },
     "thirst": 3,
     "hydration": 0.7,
