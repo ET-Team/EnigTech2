@@ -47,7 +47,12 @@ recipes.addShapeless(<minecraft:beetroot_seeds>,[<minecraft:beetroot>]);
 recipes.remove(<minecraft:stone_slab:3>);
 recipes.addShaped(<minecraft:stone_slab:3>*6,[[<minecraft:cobblestone>,<minecraft:cobblestone>,<minecraft:cobblestone>]]);
 //收容袋
-recipes.addShaped(<roots:component_pouch>,[[<minecraft:string>,<ore:wool>,<minecraft:string>],[<survivalist:tanned_leather>,null,<survivalist:tanned_leather>],[<minecraft:iron_ingot>,<survivalist:tanned_leather>,<minecraft:iron_ingot>]]);
+recipes.addShaped(<roots:component_pouch>,[[<minecraft:string>,<ore:wool>,<minecraft:string>],[<ore:materialTannedLeather>,null,<ore:materialTannedLeather>],[<minecraft:iron_ingot>,<ore:materialTannedLeather>,<minecraft:iron_ingot>]]);
 recipes.remove(<roots:component_pouch>);
 //沃土
 recipes.remove(<rustic:fertile_soil>);
+//鞣制皮革
+furnace.remove(<improvedbackpacks:tanned_leather>);
+<ore:materialTannedLeather>.add(<improvedbackpacks:tanned_leather>);
+gigaherz.survivalist.Dryable.addRecipe(<improvedbackpacks:bound_leather>,<improvedbackpacks:tanned_leather>, 600);
+gigaherz.survivalist.Dryable.removeRecipe(<survivalist:tanned_leather>, <minecraft:leather>);
