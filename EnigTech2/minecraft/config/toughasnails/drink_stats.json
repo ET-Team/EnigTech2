@@ -7,5 +7,17 @@
     "thirst": 6,
     "hydration": 0.7,
     "poisonChance": 0.0
+  };
+   {
+    "item": {
+      "name": "rustic:fluid_bottle",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
   }
+
 ]
+
+
