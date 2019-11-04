@@ -11,8 +11,13 @@
   {
     "item": {
       "name": "rustic:fluid_bottle",
-      "metadata": 0,
-      "nbt":{"Fluid":{"FluidName":"wildberryjuice","Amount":1000}}
+      "metadata": 0
+    },
+    "nbt":{
+      "Fluid":{
+        "FluidName":"wildberryjuice",
+        "Amount":1000
+      }
     },
     "thirst": 3,
     "hydration": 0.7,
