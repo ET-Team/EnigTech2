@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<silentgems:craftingmaterial:8>);
 recipes.remove(<advancedrocketry:rocketbuilder>);
 recipes.remove(<advancedrocketry:launchpad>);
 recipes.remove(<advancedrocketry:concrete>);
