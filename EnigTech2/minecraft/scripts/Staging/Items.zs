@@ -22,6 +22,7 @@ var modsStageOne as string[] = [
 	"survivalist",
 	"mysticalworld",
 	"biomesoplenty",
+	"toughasnails",
 	"patchouli"
 ];
 
@@ -38,7 +39,6 @@ var modsStageTwo as string[] = [
 	"botania",
 	"silentgems",
 	"immersiveengineering",
-	"toughasnails",
 	"snad",
 	"naturescompass",
 	"ironchest",
