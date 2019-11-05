@@ -8,4 +8,5 @@ recipes.remove(<advancedrocketry:concrete>);
 recipes.removeShaped(<minecraft:chest> * 4, [[<minecraft:log>, <minecraft:log>, <minecraft:log>],[<minecraft:log>, null, <minecraft:log>], [<minecraft:log>, <minecraft:log>, <minecraft:log>]]);
 //Don't touch me!
 //#Add
+recipes.addShaped(<modularmachinery:blockcasing:5>, [[<thermalfoundation:material:326>, <modularmachinery:itemmodularium>, <thermalfoundation:material:326>],[<modularmachinery:itemmodularium>, <contenttweaker:advanced_processor>, <modularmachinery:itemmodularium>], [<thermalfoundation:material:326>, <modularmachinery:itemmodularium>, <thermalfoundation:material:326>]]);
 //File End
