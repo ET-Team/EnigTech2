@@ -1,3 +1,9 @@
 {
-  "savedSubBlockNames": {}
+  "savedSubBlockNames": {
+    "0": {
+      "0": "镍铬合金_block",
+      "1": "钕_block",
+      "2": "铬_block"
+    }
+  }
 }

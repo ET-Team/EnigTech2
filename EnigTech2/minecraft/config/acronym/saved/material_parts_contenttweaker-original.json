@@ -1,3 +1,27 @@
 {
-  "materialMappings": {}
+  "materialMappings": {
+    "镍铬合金_dust_tiny": 36,
+    "镍铬合金_rod": 33,
+    "镍铬合金_ingot": 32,
+    "铬_ingot": 25,
+    "钕_ingot": 18,
+    "铬_nugget": 24,
+    "钕_nugget": 17,
+    "镍铬合金_nugget": 31,
+    "钕_rod": 19,
+    "镍铬合金_plate": 30,
+    "铬_block": 27,
+    "钕_gear": 15,
+    "镍铬合金_dust": 28,
+    "铬_rod": 26,
+    "钕_block": 20,
+    "钕_plate": 16,
+    "铬_dust_tiny": 35,
+    "铬_dust": 21,
+    "镍铬合金_gear": 29,
+    "铬_plate": 23,
+    "镍铬合金_block": 34,
+    "钕_dust": 14,
+    "铬_gear": 22
+  }
 }

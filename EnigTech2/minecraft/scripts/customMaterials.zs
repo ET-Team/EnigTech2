@@ -6,6 +6,9 @@ import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
 import mods.contenttweaker.Fluid;
 import mods.contenttweaker.Color;
+import mods.contenttweaker.MaterialSystem;
+import mods.contenttweaker.Material;
+
 
 var arcaneEssence = VanillaFactory.createItem("arcane_essence");
 var magconduiumIngot = VanillaFactory.createItem("magcondium_ingot");
@@ -107,3 +110,33 @@ superCalculationModule.register();
 
 fluidLubricant.register();
 fluidOilGas.register();
+
+//MATERIALS
+
+mods.contenttweaker.MaterialSystem.getPartBuilder().setName("dust_tiny").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("dustTiny").build();
+
+var nd = MaterialSystem.getMaterialBuilder().setName("钕").setColor(16761035).build();
+var cr = MaterialSystem.getMaterialBuilder().setName("铬").setColor(16744192).build();
+var nicr = MaterialSystem.getMaterialBuilder().setName("镍铬合金").setColor(15787660).build();
+
+var w = MaterialSystem.getMaterialBuilder().setName("钨").setColor(10664123).build();
+var wfe = MaterialSystem.getMaterialBuilder().setName("硬化钨钢").setColor(4610158).build();
+
+var voidmetal = MaterialSystem.getMaterialBuilder().setName("虚空金属").setColor(10198472).build();
+
+var metal_list = [nd,cr,nicr,w,wfe,voidmetal] as Material[];
+var part_names = ["dust", "gear", "plate", "nugget", "ingot", "rod", "dust_tiny"] as string[];
+for i, metal in metal_list {
+    metal.registerParts(part_names);
+    var blockData = metal.registerPart("block").getData();
+    blockData.addDataValue("hardness", "5");
+    blockData.addDataValue("resistance", "30");
+    blockData.addDataValue("harvestTool", "pickaxe");
+    blockData.addDataValue("harvestLevel", "2");
+
+	var oreData = metal.registerPart("ore").getData();
+	oreData.addDataValue("hardness", "5");
+    oreData.addDataValue("resistance", "30");
+    oreData.addDataValue("harvestTool", "pickaxe");
+    oreData.addDataValue("harvestLevel", "3");
+}
