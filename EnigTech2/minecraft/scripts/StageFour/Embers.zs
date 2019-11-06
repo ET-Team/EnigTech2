@@ -101,7 +101,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <embers:block_furnace>, [
 	[<embers:plate_caminite>, <ore:plateSteel>, null, <ore:plateSteel>, <embers:plate_caminite>], 
 	[null, <embers:plate_caminite>, <ore:plateSteel>, <embers:plate_caminite>, null], 
 	[null, <bloodmagic:slate:2>, <minecraft:furnace>, <bloodmagic:slate:2>, null], 
-	[<embers:block_caminite_brick_slab_double>, <ore:runeFireB>, <embers:mech_core>, <ore:runeFireB>, <embers:block_caminite_brick_slab_double>]
+	[<embers:block_caminite_brick>, <ore:runeFireB>, <embers:mech_core>, <ore:runeFireB>, <embers:block_caminite_brick>]
 ]);
 //搅拌机
 mods.extendedcrafting.TableCrafting.addShaped(2, <embers:mixer>, [
@@ -109,7 +109,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <embers:mixer>, [
 	[<ore:plateSteel>, <contenttweaker:basic_motioner>, <ore:runeSummerB>, <embers:pipe>, <embers:pump>], 
 	[<ore:plateSteel>, <naturesaura:sky_ingot>, <embers:mech_core>, <naturesaura:sky_ingot>, <ore:plateSteel>], 
 	[<embers:pump>, <embers:pipe>, <ore:runeWinterB>, <contenttweaker:basic_motioner>, <ore:plateSteel>], 
-	[<embers:block_caminite_brick_slab_double>, <embers:block_caminite_brick_slab_double>, <embers:block_caminite_brick_slab_double>, <embers:block_caminite_brick_slab_double>, <embers:block_caminite_brick_slab_double>]
+	[<embers:block_caminite_brick>, <embers:block_caminite_brick>, <embers:block_caminite_brick>, <embers:block_caminite_brick>, <embers:block_caminite_brick>]
 ]);
 //晶胞灰烬能量存储器
 recipes.addShaped(<embers:crystal_cell>, [[null, <embers:caster_orb>, null],[<embers:plate_dawnstone>, <naturesaura:sky_ingot>, <embers:plate_dawnstone>], [<thermalfoundation:storage>, <embers:copper_cell>, <thermalfoundation:storage>]]);

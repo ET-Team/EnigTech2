@@ -1746,8 +1746,6 @@ biomesoplenty:green_dye, 绿色染料
 biomesoplenty:white_dye, 白色染料
 biomesoplenty:black_dye, 黑色染料
 biomesoplenty:earth, BOP图标
-carryon:tile_item, item.tile_item.name
-carryon:entity_item, item.entity_item.name
 toughasnails:campfire:0, 奥术营火
 toughasnails:rain_collector:0, 雨水收集器
 toughasnails:temperature_coil:0, 冷却旋管
@@ -1848,6 +1846,17 @@ forestry:resource_storage:2, 锡块
 forestry:resource_storage:3, 青铜块
 forestry:ash_brick:0, 灰砖
 forestry:ash_stairs:0, 灰砖楼梯
+forestry:greenhouse:0, Greenhouse Block
+forestry:greenhouse:3, 温室能量分配器
+forestry:greenhouse:4, 温室控制器
+forestry:greenhouse:5, 温室屏幕
+forestry:climatiser:0, 温室湿度控制器
+forestry:climatiser:1, 温室加热器
+forestry:climatiser:2, 温室风扇
+forestry:climatiser:3, 温室加湿器
+forestry:climatiser:4, 温室除湿器
+forestry:greenhouse_screen, 便携式温室屏幕
+forestry:camouflage_spray_can, 伪装洒水壶
 forestry:mushroom:0, tile.for.mushroom.name
 forestry:mushroom:1, tile.for.mushroom.name
 forestry:ffarm:0, 农场方块
@@ -1905,7 +1914,6 @@ forestry:ffarm:5, 农场控制盒
 forestry:ffarm:5, 农场控制盒
 forestry:ffarm:5, 农场控制盒
 forestry:ffarm:5, 农场控制盒
-forestry:worktable:0, 工作台
 forestry:fluid.bio.ethanol, 种子油
 forestry:fluid.biomass, 生物质
 forestry:fluid.glass, 液态玻璃
@@ -1918,12 +1926,6 @@ forestry:fluid.short.mead, 蜂蜜酒
 forestry:can, item.for.can.name
 forestry:capsule, item.for.capsule.name
 forestry:refractory, item.for.refractory.name
-forestry:charcoal:0, 木炭块
-forestry:wood_pile:0, 原木堆
-forestry:wood_pile_decorative:0, 装饰用原木堆
-forestry:ash_block:0, 灰烬块
-forestry:loam:0, 壤土
-forestry:genetic_filter:0, 基因过滤器
 forestry:arboretum:0, 自动伐木机
 forestry:arboretum:1, 手动伐木机
 forestry:farm_crops:0, 自动收割机
@@ -1948,17 +1950,13 @@ forestry:still:0, 蒸馏器
 forestry:rainmaker:0, 造雨机
 forestry:fabricator:0, 热电子加工台
 forestry:raintank:0, 集雨蓄水槽
-forestry:greenhouse:0, Greenhouse Block
-forestry:greenhouse:3, 温室能量分配器
-forestry:greenhouse:4, 温室控制器
-forestry:greenhouse:5, 温室屏幕
-forestry:climatiser:0, 温室湿度控制器
-forestry:climatiser:1, 温室加热器
-forestry:climatiser:2, 温室风扇
-forestry:climatiser:3, 温室加湿器
-forestry:climatiser:4, 温室除湿器
-forestry:greenhouse_screen, 便携式温室屏幕
-forestry:camouflage_spray_can, 伪装洒水壶
+forestry:genetic_filter:0, 基因过滤器
+forestry:worktable:0, 工作台
+forestry:charcoal:0, 木炭块
+forestry:wood_pile:0, 原木堆
+forestry:wood_pile_decorative:0, 装饰用原木堆
+forestry:ash_block:0, 灰烬块
+forestry:loam:0, 壤土
 enderstorage:ender_storage:0, 末影箱子
 enderstorage:ender_storage:1, 末影蓄水槽
 enderstorage:ender_pouch, 末影袋子
@@ -2430,7 +2428,6 @@ extracells:pattern.fluid:0, ME流体模板: 热共晶钠钾-锡混合物
 extracells:pattern.fluid:0, ME流体模板: 熔融镁
 extracells:pattern.fluid:0, ME流体模板: 共晶钠钾-镁混合物
 extracells:pattern.fluid:0, ME流体模板: 热共晶钠钾-镁混合物
-extracells:pattern.fluid:0, ME流体模板: 经验汁
 extracells:pattern.fluid:0, ME流体模板: 橄榄油
 extracells:pattern.fluid:0, ME流体模板: 铁树莓汁
 extracells:pattern.fluid:0, ME流体模板: 野莓果汁
@@ -2460,6 +2457,7 @@ extracells:pattern.fluid:0, ME流体模板: 轻盈之气
 extracells:pattern.fluid:0, ME流体模板: 烈酒
 extracells:pattern.fluid:0, ME流体模板: 火箭燃料
 extracells:pattern.fluid:0, ME流体模板: 火焰水
+extracells:pattern.fluid:0, ME流体模板: 液态经验
 extracells:pattern.fluid:0, ME流体模板: 液态阳光
 extracells:pattern.fluid:0, ME流体模板: 云之精华
 extracells:pattern.fluid:0, ME流体模板: 浓缩云之精华
@@ -5807,17 +5805,17 @@ appliedenergistics2:facade:0, 线缆伪装板 - 窑砖
 appliedenergistics2:facade:0, 线缆伪装板 - 防腐木板
 appliedenergistics2:facade:0, 线缆伪装板 - 防腐木板
 appliedenergistics2:facade:0, 线缆伪装板 - 防腐木板
-appliedenergistics2:facade:0, 线缆伪装板 - 铜板金属块
-appliedenergistics2:facade:0, 线缆伪装板 - 铝板金属块
-appliedenergistics2:facade:0, 线缆伪装板 - 铅板金属块
-appliedenergistics2:facade:0, 线缆伪装板 - 银板金属块
-appliedenergistics2:facade:0, 线缆伪装板 - 镍板金属块
-appliedenergistics2:facade:0, 线缆伪装板 - 铀板金属块
-appliedenergistics2:facade:0, 线缆伪装板 - 康铜板金属块
-appliedenergistics2:facade:0, 线缆伪装板 - 琥珀金板金属块
-appliedenergistics2:facade:0, 线缆伪装板 - 钢板金属块
-appliedenergistics2:facade:0, 线缆伪装板 - 铁板金属块
-appliedenergistics2:facade:0, 线缆伪装板 - 金板金属块
+appliedenergistics2:facade:0, 线缆伪装板 - 铜板方块
+appliedenergistics2:facade:0, 线缆伪装板 - 铝板方块
+appliedenergistics2:facade:0, 线缆伪装板 - 铅板方块
+appliedenergistics2:facade:0, 线缆伪装板 - 银板方块
+appliedenergistics2:facade:0, 线缆伪装板 - 镍板方块
+appliedenergistics2:facade:0, 线缆伪装板 - 铀板方块
+appliedenergistics2:facade:0, 线缆伪装板 - 康铜板方块
+appliedenergistics2:facade:0, 线缆伪装板 - 琥珀金板方块
+appliedenergistics2:facade:0, 线缆伪装板 - 钢板方块
+appliedenergistics2:facade:0, 线缆伪装板 - 铁板方块
+appliedenergistics2:facade:0, 线缆伪装板 - 金板方块
 appliedenergistics2:facade:0, 线缆伪装板 - 铜线圈
 appliedenergistics2:facade:0, 线缆伪装板 - 琥珀金线圈
 appliedenergistics2:facade:0, 线缆伪装板 - 高压线圈
@@ -9812,28 +9810,28 @@ immersiveengineering:cloth_device:0, 气垫
 immersiveengineering:cloth_device:1, 气球
 immersiveengineering:cloth_device:2, 带状帘
 immersiveengineering:fake_light, tile.immersiveengineering.fake_light.name
-immersiveengineering:sheetmetal:0, 铜板金属块
-immersiveengineering:sheetmetal:1, 铝板金属块
-immersiveengineering:sheetmetal:2, 铅板金属块
-immersiveengineering:sheetmetal:3, 银板金属块
-immersiveengineering:sheetmetal:4, 镍板金属块
-immersiveengineering:sheetmetal:5, 铀板金属块
-immersiveengineering:sheetmetal:6, 康铜板金属块
-immersiveengineering:sheetmetal:7, 琥珀金板金属块
-immersiveengineering:sheetmetal:8, 钢板金属块
-immersiveengineering:sheetmetal:9, 铁板金属块
-immersiveengineering:sheetmetal:10, 金板金属块
-immersiveengineering:sheetmetal_slab:0, 铜板金属块台阶
-immersiveengineering:sheetmetal_slab:1, 铝板金属块台阶
-immersiveengineering:sheetmetal_slab:2, 铅板金属块台阶
-immersiveengineering:sheetmetal_slab:3, 银板金属块台阶
-immersiveengineering:sheetmetal_slab:4, 镍板金属块台阶
-immersiveengineering:sheetmetal_slab:5, 铀板金属块台阶
-immersiveengineering:sheetmetal_slab:6, 康铜板金属块台阶
-immersiveengineering:sheetmetal_slab:7, 琥珀金板金属块台阶
-immersiveengineering:sheetmetal_slab:8, 钢板金属块台阶
-immersiveengineering:sheetmetal_slab:9, 铁板金属块台阶
-immersiveengineering:sheetmetal_slab:10, 金板金属块台阶
+immersiveengineering:sheetmetal:0, 铜板方块
+immersiveengineering:sheetmetal:1, 铝板方块
+immersiveengineering:sheetmetal:2, 铅板方块
+immersiveengineering:sheetmetal:3, 银板方块
+immersiveengineering:sheetmetal:4, 镍板方块
+immersiveengineering:sheetmetal:5, 铀板方块
+immersiveengineering:sheetmetal:6, 康铜板方块
+immersiveengineering:sheetmetal:7, 琥珀金板方块
+immersiveengineering:sheetmetal:8, 钢板方块
+immersiveengineering:sheetmetal:9, 铁板方块
+immersiveengineering:sheetmetal:10, 金板方块
+immersiveengineering:sheetmetal_slab:0, 铜板台阶
+immersiveengineering:sheetmetal_slab:1, 铝板台阶
+immersiveengineering:sheetmetal_slab:2, 铅板台阶
+immersiveengineering:sheetmetal_slab:3, 银板台阶
+immersiveengineering:sheetmetal_slab:4, 镍板台阶
+immersiveengineering:sheetmetal_slab:5, 铀板台阶
+immersiveengineering:sheetmetal_slab:6, 康铜板台阶
+immersiveengineering:sheetmetal_slab:7, 琥珀金板台阶
+immersiveengineering:sheetmetal_slab:8, 钢板台阶
+immersiveengineering:sheetmetal_slab:9, 铁板台阶
+immersiveengineering:sheetmetal_slab:10, 金板台阶
 immersiveengineering:metal_decoration0:0, 铜线圈
 immersiveengineering:metal_decoration0:1, 琥珀金线圈
 immersiveengineering:metal_decoration0:2, 高压线圈
@@ -10058,90 +10056,6 @@ immersiveengineering:steel_armor_legs, 钢护腿
 immersiveengineering:steel_armor_chest, 钢胸甲
 immersiveengineering:steel_armor_head, 钢头盔
 naturescompass:naturescompass, 生物群系指南针
-xreliquary:alkahestry_tome, item.alkahestry_tome.name
-xreliquary:mob_ingredient:0, 肋骨
-xreliquary:mob_ingredient:1, 凋灵肋骨
-xreliquary:mob_ingredient:2, 螯角
-xreliquary:mob_ingredient:3, 酶腺
-xreliquary:mob_ingredient:4, 粘液珍珠
-xreliquary:mob_ingredient:5, 蝙蝠翅膀
-xreliquary:mob_ingredient:6, 僵尸之心
-xreliquary:mob_ingredient:7, 熔火之心
-xreliquary:mob_ingredient:8, 风暴之眼
-xreliquary:mob_ingredient:9, 肥沃精华
-xreliquary:mob_ingredient:10, 霜冻核心
-xreliquary:mob_ingredient:11, 朦胧之心
-xreliquary:mob_ingredient:12, 鱿鱼嘴
-xreliquary:mob_ingredient:13, 炼狱之爪
-xreliquary:mob_ingredient:14, 海妖壳甲残片
-xreliquary:mob_ingredient:15, 腥红之布
-xreliquary:mob_ingredient:16, 守卫者之刺
-xreliquary:mercy_cross, item.mercy_cross.name
-xreliquary:angelheart_vial, item.angelheart_vial.name
-xreliquary:angelic_feather, item.angelic_feather.name
-xreliquary:destruction_catalyst, item.destruction_catalyst.name
-xreliquary:emperor_chalice, item.emperor_chalice.name
-xreliquary:ender_staff, item.ender_staff.name
-xreliquary:fortune_coin, item.fortune_coin.name
-xreliquary:glacial_staff, item.glacial_staff.name
-xreliquary:glowing_bread, item.glowing_bread.name
-xreliquary:glowing_water, item.glowing_water.name
-xreliquary:harvest_rod, item.harvest_rod.name
-xreliquary:mob_charm_fragment:0, §c僵尸心珠
-xreliquary:mob_charm_fragment:1, §f骷髅心珠
-xreliquary:mob_charm_fragment:2, §8凋零骷髅心珠
-xreliquary:mob_charm_fragment:3, §a爬行者心珠
-xreliquary:mob_charm_fragment:4, §a女巫心珠
-xreliquary:mob_charm_fragment:5, §a僵尸猪人心珠
-xreliquary:mob_charm_fragment:6, §a洞穴蜘蛛心珠
-xreliquary:mob_charm_fragment:7, §a蜘蛛心珠
-xreliquary:mob_charm_fragment:8, §a末影人心珠
-xreliquary:mob_charm_fragment:9, §a恶魂心珠
-xreliquary:mob_charm_fragment:10, §a史莱姆心珠
-xreliquary:mob_charm_fragment:11, §a岩浆怪心珠
-xreliquary:mob_charm_fragment:12, §a烈焰人心珠
-xreliquary:mob_charm_fragment:13, §a守卫者心珠
-xreliquary:hero_medallion, item.hero_medallion.name
-xreliquary:holy_hand_grenade, item.holy_hand_grenade.name
-xreliquary:ice_magus_rod, item.ice_magus_rod.name
-xreliquary:infernal_chalice, item.infernal_chalice.name
-xreliquary:infernal_claws, item.infernal_claws.name
-xreliquary:infernal_tear, item.infernal_tear.name
-xreliquary:kraken_shell, item.kraken_shell.name
-xreliquary:lantern_of_paranoia, item.lantern_of_paranoia.name
-xreliquary:magicbane, item.magicbane.name
-xreliquary:midas_touchstone, item.midas_touchstone.name
-xreliquary:mob_charm:0, §a僵尸护符
-xreliquary:mob_charm:0, §a骷髅护符
-xreliquary:mob_charm:0, §a凋零骷髅护符
-xreliquary:mob_charm:0, §a爬行者护符
-xreliquary:mob_charm:0, §a女巫护符
-xreliquary:mob_charm:0, §a僵尸猪人护符
-xreliquary:mob_charm:0, §a洞穴蜘蛛护符
-xreliquary:mob_charm:0, §a蜘蛛护符
-xreliquary:mob_charm:0, §a末影人护符
-xreliquary:mob_charm:0, §a恶魂护符
-xreliquary:mob_charm:0, §a史莱姆护符
-xreliquary:mob_charm:0, §a岩浆怪护符
-xreliquary:mob_charm:0, §a烈焰人护符
-xreliquary:mob_charm:0, §a守卫者护符
-xreliquary:mob_charm_belt, item.mob_charm_belt.name
-xreliquary:phoenix_down, item.phoenix_down.name
-xreliquary:pyromancer_staff, item.pyromancer_staff.name
-xreliquary:rending_gale, item.rending_gale.name
-xreliquary:rod_of_lyssa, item.rod_of_lyssa.name
-xreliquary:salamander_eye, item.salamander_eye.name
-xreliquary:serpent_staff, item.serpent_staff.name
-xreliquary:shears_of_winter, item.shears_of_winter.name
-xreliquary:sojourner_staff, item.sojourner_staff.name
-xreliquary:twilight_cloak, item.twilight_cloak.name
-xreliquary:void_tear, item.void_tear.name
-xreliquary:witch_hat, item.witch_hat.name
-xreliquary:witherless_rose, item.witherless_rose.name
-xreliquary:altar, 铸造祭坛
-xreliquary:fertile_lilypad, tile.fertile_lilypad.name
-xreliquary:interdiction_torch, tile.interdiction_torch.name
-xreliquary:wraith_node, tile.wraith_node.name
 scannable:scanner, 扫描器
 scannable:module_blank, 空白扫描模块
 scannable:module_range, 扫描模块：范围
@@ -10603,27 +10517,6 @@ silentgems:toolrenderhelper, item.silentgems.toolrenderhelper.name
 silentgems:guide_book, 寂静宝石手册
 snad:snad:0, 子沙
 snad:snad:1, 红子沙
-storagedrawers:upgrade_template, 升级模板
-storagedrawers:upgrade_storage:0, 抽屉容量升级（I）
-storagedrawers:upgrade_storage:1, 抽屉容量升级（II）
-storagedrawers:upgrade_storage:2, 抽屉容量升级（III）
-storagedrawers:upgrade_storage:3, 抽屉容量升级（IV）
-storagedrawers:upgrade_storage:4, 抽屉容量升级（V）
-storagedrawers:upgrade_one_stack, 存储降级
-storagedrawers:upgrade_status:0, 状态显示升级（I）
-storagedrawers:upgrade_status:1, 状态显示升级（II）
-storagedrawers:upgrade_void, 清空升级
-storagedrawers:upgrade_conversion, 转换升级
-storagedrawers:upgrade_creative:0, 创造模式容量升级
-storagedrawers:upgrade_creative:1, 创造模式取出升级
-storagedrawers:upgrade_redstone:0, 红石升级
-storagedrawers:upgrade_redstone:1, 红石升级（最大）
-storagedrawers:upgrade_redstone:2, 红石升级（最小）
-storagedrawers:drawer_key, 抽屉钥匙
-storagedrawers:shroud_key, 屏蔽钥匙
-storagedrawers:personal_key, 私人钥匙
-storagedrawers:quantify_key, 量化钥匙
-storagedrawers:tape, 打包带
 storagedrawers:basicdrawers:0, 基础抽屉
 storagedrawers:basicdrawers:0, 基础抽屉
 storagedrawers:basicdrawers:0, 基础抽屉
@@ -10674,6 +10567,28 @@ storagedrawers:customdrawers:2, 2x2 镶框抽屉
 storagedrawers:customdrawers:3, 1x2 小型镶框抽屉
 storagedrawers:customdrawers:4, 2x2 小型镶框抽屉
 storagedrawers:customtrim, 镶框
+storagedrawers:upgrade_template, 升级模板
+storagedrawers:upgrade_storage:0, 抽屉容量升级（I）
+storagedrawers:upgrade_storage:1, 抽屉容量升级（II）
+storagedrawers:upgrade_storage:2, 抽屉容量升级（III）
+storagedrawers:upgrade_storage:3, 抽屉容量升级（IV）
+storagedrawers:upgrade_storage:4, 抽屉容量升级（V）
+storagedrawers:upgrade_one_stack, 存储降级
+storagedrawers:upgrade_status:0, 状态显示升级（I）
+storagedrawers:upgrade_status:1, 状态显示升级（II）
+storagedrawers:upgrade_void, 清空升级
+storagedrawers:upgrade_conversion, 转换升级
+storagedrawers:upgrade_creative:0, 创造模式容量升级
+storagedrawers:upgrade_creative:1, 创造模式取出升级
+storagedrawers:upgrade_redstone:0, 红石升级
+storagedrawers:upgrade_redstone:1, 红石升级（最大）
+storagedrawers:upgrade_redstone:2, 红石升级（最小）
+storagedrawers:drawer_key, 抽屉钥匙
+storagedrawers:shroud_key, 屏蔽钥匙
+storagedrawers:personal_key, 私人钥匙
+storagedrawers:quantify_key, 量化钥匙
+storagedrawers:tape, 打包带
+tanspit:spit, Campfire Spit
 tombstone:decorative_grave_simple, 简易坟墓
 tombstone:decorative_grave_normal, 普通坟墓
 tombstone:decorative_grave_cross, 十字坟墓
@@ -11473,6 +11388,62 @@ astralsorcery:blockcelestialcollectorcrystal:0, 浮动水晶
 astralsorcery:blockcelestialcollectorcrystal:0, 浮动水晶
 base:wrench, 扳手
 contenttweaker:dust_silicon, 粉碎硅
+contenttweaker:material_part:14, 钕粉
+contenttweaker:material_part:15, 钕齿轮
+contenttweaker:material_part:16, 钕板
+contenttweaker:material_part:17, 钕粒
+contenttweaker:material_part:18, 钕锭
+contenttweaker:material_part:19, 钕棒
+contenttweaker:material_part:21, 铬粉
+contenttweaker:material_part:22, 铬齿轮
+contenttweaker:material_part:23, 铬板
+contenttweaker:material_part:24, 铬粒
+contenttweaker:material_part:25, 铬锭
+contenttweaker:material_part:26, 铬棒
+contenttweaker:material_part:28, 镍铬合金粉
+contenttweaker:material_part:29, 镍铬合金齿轮
+contenttweaker:material_part:30, 镍铬合金板
+contenttweaker:material_part:31, 镍铬合金粒
+contenttweaker:material_part:32, 镍铬合金锭
+contenttweaker:material_part:33, 镍铬合金棒
+contenttweaker:material_part:35, 小搓铬粉
+contenttweaker:material_part:36, 小搓镍铬合金粉
+contenttweaker:material_part:37, 小搓钕粉
+contenttweaker:material_part:41, 钨粉
+contenttweaker:material_part:42, 钨齿轮
+contenttweaker:material_part:43, 钨板
+contenttweaker:material_part:44, 钨粒
+contenttweaker:material_part:45, 钨锭
+contenttweaker:material_part:46, 钨棒
+contenttweaker:material_part:47, 小搓钨粉
+contenttweaker:material_part:50, 硬化钨钢粉
+contenttweaker:material_part:51, 硬化钨钢齿轮
+contenttweaker:material_part:52, 硬化钨钢板
+contenttweaker:material_part:53, 硬化钨钢粒
+contenttweaker:material_part:54, 硬化钨钢锭
+contenttweaker:material_part:55, 硬化钨钢棒
+contenttweaker:material_part:56, 小搓硬化钨钢粉
+contenttweaker:material_part:59, 虚空金属粉
+contenttweaker:material_part:60, 虚空金属齿轮
+contenttweaker:material_part:61, 虚空金属板
+contenttweaker:material_part:62, 虚空金属粒
+contenttweaker:material_part:63, 虚空金属锭
+contenttweaker:material_part:64, 虚空金属棒
+contenttweaker:material_part:65, 小搓虚空金属粉
+contenttweaker:material_part:68, 钼粉
+contenttweaker:material_part:69, 钼齿轮
+contenttweaker:material_part:70, 钼板
+contenttweaker:material_part:71, 钼粒
+contenttweaker:material_part:72, 钼锭
+contenttweaker:material_part:73, 钼棒
+contenttweaker:material_part:74, 小搓钼粉
+contenttweaker:material_part:77, 钼钢粉
+contenttweaker:material_part:78, 钼钢齿轮
+contenttweaker:material_part:79, 钼钢板
+contenttweaker:material_part:80, 钼钢粒
+contenttweaker:material_part:81, 钼钢锭
+contenttweaker:material_part:82, 钼钢棒
+contenttweaker:material_part:83, 小搓钼钢粉
 contenttweaker:slice_silicon_compressed, 压缩硅片
 contenttweaker:void_machine_core, 虚空机械核心
 contenttweaker:mixed_coal_dust, 混合碳粉
@@ -11512,7 +11483,7 @@ contenttweaker:ultimate_motioner, 终极传动装置
 contenttweaker:multicrystal_silicon, 多晶硅
 contenttweaker:basic_circuit, 基础电路
 contenttweaker:solid_ethylene, 固态乙烯
-contenttweaker:potion_inteligence, 智力药剂
+contenttweaker:potion_inteligence, 智慧药剂
 contenttweaker:dark_gaiya_crystal, 黯淡盖亚水晶
 contenttweaker:transistor_bad, 粗制晶体管
 contenttweaker:processor_base, 处理器基板
