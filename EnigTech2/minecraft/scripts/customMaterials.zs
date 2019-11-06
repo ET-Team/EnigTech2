@@ -127,7 +127,7 @@ var wfe = MaterialSystem.getMaterialBuilder().setName("硬化钨钢").setColor(4
 
 var voidmetal = MaterialSystem.getMaterialBuilder().setName("虚空金属").setColor(10198472).build();
 
-var metal_list = [nd,cr,nicr,w,wfe,voidmetal] as Material[];
+var metal_list = [nd,cr,nicr,w,wfe,voidmetal,mo,mofe] as Material[];
 var part_names = ["dust", "gear", "plate", "nugget", "ingot", "rod", "dust_tiny"] as string[];
 for i, metal in metal_list {
     metal.registerParts(part_names);

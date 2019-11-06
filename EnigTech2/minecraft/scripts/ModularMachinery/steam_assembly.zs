@@ -4,7 +4,7 @@ var machineName = "steam_assembly";
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_medidum_core", machineName, 80)
 	.addFluidInput(<liquid:steam>*1000)
     .addItemInput(<contenttweaker:basic_processor>*2)
-    .addItemInput(<contenttweaker:medium_motioner>*2)
+    .addItemInput(<contenttweaker:medium_motioner>)
     .addItemInput(<contenttweaker:magic_motor>)
     .addItemInput(<ore:plateInvar>)
     .addItemOutput(<contenttweaker:soso_machine_core>)
