@@ -4,11 +4,11 @@
         "ore": [
           {
             "ore": "oreIron",
-            "weight": 3
+            "weight": 5
           },
           {
             "ore": "oreGold",
-            "weight": 2
+            "weight": 1
           }
         ],
         "stone": "minecraft:stone",
@@ -252,10 +252,10 @@
         "type":"sphere",
         "ore":{"block": "thermalfoundation:ore_fluid"},
         "stone":"minecraft:sand",
-        "rarity":20,
+        "rarity":8,
         "density":280,
-        "vertical_size":4,
-        "horizontal_size":12,
+        "vertical_size":3,
+        "horizontal_size":6,
         "biomes":[17,2,130]
       }
 }

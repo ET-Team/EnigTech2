@@ -1,6 +1,6 @@
 {
-    "registryname": "blast_furnace",
-    "localizedname": "魔能高炉",
+    "registryname": "blast_furnace_mk1",
+    "localizedname": "魔能高炉MK1",
     "parts": [
         {
             "x": -1,

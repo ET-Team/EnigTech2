@@ -119,6 +119,9 @@ var nd = MaterialSystem.getMaterialBuilder().setName("钕").setColor(16761035).b
 var cr = MaterialSystem.getMaterialBuilder().setName("铬").setColor(16744192).build();
 var nicr = MaterialSystem.getMaterialBuilder().setName("镍铬合金").setColor(15787660).build();
 
+var mo = MaterialSystem.getMaterialBuilder().setName("钼").setColor(12844972).build();
+var mofe = MaterialSystem.getMaterialBuilder().setName("钼钢").setColor(13883557).build();
+
 var w = MaterialSystem.getMaterialBuilder().setName("钨").setColor(10664123).build();
 var wfe = MaterialSystem.getMaterialBuilder().setName("硬化钨钢").setColor(4610158).build();
 
