@@ -53,3 +53,14 @@ var fluider_mk1 = IMachineRegistry.createNewMachine(
     "et2:block/machine_idle", 
     "et2:block/fluider_working"
 );
+
+//简易流体精炼机
+var fluid_concentrator = IMachineRegistry.createNewMachine(
+    "fluid_concentrator", 
+    8192, 
+    512, 
+    [IMachineSlot.newFluidSlot("input", 3000)], 
+    [IMachineSlot.newItemFluidSlot("output", 3000)], 
+    "et2:block/machine_idle", 
+    "et2:block/fluid_concentrator"
+);
