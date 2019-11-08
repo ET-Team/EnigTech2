@@ -241,21 +241,23 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 20,
+        "rarity": 16,
         "min_y": 35,
         "max_y": 58,
-        "density": 200,
-        "vertical_size": 8,
+        "density": 160,
+        "vertical_size": 6,
         "horizontal_size": 6
       },
       "oilsand":{
         "type":"sphere",
-        "ore":"ore:oreClathrateOilSand",
-        "stone":{"block":"minecraft:sand","meta":0},
-        "rarity":12,
-        "density":120,
+        "ore":{"block":"thermalfoundation:ore_fluid","meta":0},
+        "stone":"minecraft:sand",
+        "rarity":20,
+        "density":100,
         "vertical_size":8,
-        "horizontal_size":6,
-        "biomes":["SANDY"]
+        "horizontal_size":8,
+        "min_y": 50,
+        "max_y": 70,
+        "biomes":["SANDY","DESERT","minecraft:desert"]
       }
 }
