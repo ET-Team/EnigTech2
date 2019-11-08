@@ -90,6 +90,7 @@ machine.crafttweaker:polisher=抛光机
 machine.crafttweaker:chlorinizer=氯化机
 machine.crafttweaker:silicon_grower=硅生长机
 machine.crafttweaker:fluider_mk1=简易流体成型机
+machine.crafttweaker:fluid_concentrator=简易流体蒸馏器
 
 item.contenttweaker.gaiya_stabilizer.name=盖亚稳定器
 item.contenttweaker.charged_gaiya_crystal.name=充能盖亚水晶

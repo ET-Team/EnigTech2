@@ -60,7 +60,7 @@ var fluid_concentrator = IMachineRegistry.createNewMachine(
     8192, 
     512, 
     [IMachineSlot.newFluidSlot("input", 3000)], 
-    [IMachineSlot.newItemFluidSlot("output", 3000)], 
+    [IMachineSlot.newFluidSlot("output", 3000)], 
     "et2:block/machine_idle", 
     "et2:block/fluid_concentrator"
 );
