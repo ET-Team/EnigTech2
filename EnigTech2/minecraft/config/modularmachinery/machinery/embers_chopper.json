@@ -47,7 +47,11 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modulardiversity:blockemberinputhatch@1"
+                "modulardiversity:blockemberinputhatch@1",
+                "modulardiversity:blockemberinputhatch@2",
+                "modulardiversity:blockemberinputhatch@3",
+                "modulardiversity:blockemberinputhatch@4",
+                "modulardiversity:blockemberinputhatch@5"
             ]
         },
         {

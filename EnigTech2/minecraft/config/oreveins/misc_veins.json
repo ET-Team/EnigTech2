@@ -36,7 +36,7 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 12,
+        "rarity": 20,
         "min_y": 38,
         "max_y": 55,
         "density": 280,
@@ -250,12 +250,12 @@
       },
       "oilsand":{
         "type":"sphere",
-        "ore":{"block": "thermalfoundation:ore_fluid"},
-        "stone":"minecraft:sand",
-        "rarity":8,
-        "density":280,
-        "vertical_size":3,
+        "ore":"ore:oreClathrateOilSand",
+        "stone":{"block":"minecraft:sand","meta":0},
+        "rarity":12,
+        "density":120,
+        "vertical_size":8,
         "horizontal_size":6,
-        "biomes":[17,2,130]
+        "biomes":["SANDY"]
       }
 }

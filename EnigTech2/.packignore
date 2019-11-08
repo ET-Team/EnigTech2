@@ -2,6 +2,7 @@ ET2LOGO.png
 minecraft/.ReAuth.cfg
 minecraft/.mixin.out
 minecraft/BotaniaVars.dat
+minecraft/CustomSkinLoader
 minecraft/astralsorcery
 minecraft/backups
 minecraft/config/CookingForBlockheadsCompat
@@ -33,6 +34,7 @@ minecraft/resourcepacks
 minecraft/saves
 minecraft/screenshots
 minecraft/server-resource-packs
+minecraft/shaderpacks
 minecraft/structures
 minecraft/texturepacks
 minecraft/usercache.json
