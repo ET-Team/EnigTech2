@@ -13,3 +13,4 @@ recipes.remove(<advancedrocketry:chemicalreactor>);
 recipes.remove(<advancedrocketry:centrifuge>);
 recipes.remove(<advancedrocketry:cuttingmachine>);
 recipes.remove(<advancedrocketry:arcfurnace>);
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/lightwell");
