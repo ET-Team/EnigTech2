@@ -1,4 +1,5 @@
 #priority 2352
+import mods.enderio.SagMill;
 
 recipes.remove(<thermalfoundation:material:102>);
 recipes.remove(<thermalfoundation:material:101>);
@@ -20,7 +21,13 @@ recipes.remove(<astralsorcery:blockaltar>);
 recipes.remove(<thermalexpansion:machine:10>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}));
 furnace.remove(<astralsorcery:itemcraftingcomponent>);
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier2");
+recipes.remove(<compactmachines3:fieldprojector>);
 
-
-
+mods.astralsorcery.Grindstone.removeRecipe(<astralsorcery:itemcraftingcomponent:2>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<astralsorcery:blockcustomore:1>);
+mods.bloodmagic.AlchemyTable.removeRecipe([<astralsorcery:blockcustomore:1>,<bloodmagic:cutting_fluid>.withTag({})]);
+mods.actuallyadditions.Crusher.removeRecipe(<astralsorcery:itemcraftingcomponent:2>);
+mods.extrautils2.Crusher.remove(<astralsorcery:blockcustomore:1>);
+mods.enderio.SagMill.removeRecipe(<astralsorcery:blockcustomore:1>);
+mods.immersiveengineering.Crusher.removeRecipesForInput(<astralsorcery:blockcustomore:1>);
 

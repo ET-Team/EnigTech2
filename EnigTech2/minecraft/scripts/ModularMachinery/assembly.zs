@@ -38,9 +38,21 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_adva
 //星辉工作台
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockaltar", machineName, 160)
     .addEnergyPerTickInput(600)
+	.addFluidInput(<liquid:fluid_lubricant>*50)
     .addItemInput(<extendedcrafting:table_advanced>)
 	.addItemInput(<astralsorcery:blockinfusedwood>*6)
 	.addItemInput(<ore:stoneMarble>,8)
 	.addItemInput(<bloodmagic:slate:4>*2)
     .addItemOutput(<astralsorcery:blockaltar>)
+    .build();
+ 
+ //压缩空间制造器
+ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_fieldprojector", machineName, 400)
+    .addEnergyPerTickInput(300)
+    .addFluidInput(<liquid:fluid_lubricant>*50)
+    .addItemInput(<contenttweaker:magic_machine_hull>*2)
+	.addItemInput(<contenttweaker:material_part:43>*4)
+	.addItemInput(<contenttweaker:advanced_motioner>*6)
+	.addItemInput(<contenttweaker:charged_gaiya_crystal>)
+    .addItemOutput(<compactmachines3:fieldprojector>*4)
     .build();
