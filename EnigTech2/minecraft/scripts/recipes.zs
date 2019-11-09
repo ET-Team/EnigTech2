@@ -1,6 +1,8 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<advancedrocketry:loader:1>);
+recipes.remove(<libvulpes:structuremachine>);
 recipes.remove(<appliedenergistics2:interface>);
 recipes.remove(<thermalfoundation:material:515>);
 recipes.remove(<thermalfoundation:material:514>);
@@ -16,6 +18,8 @@ recipes.remove(<advancedrocketry:concrete>);
 recipes.removeShaped(<minecraft:chest> * 4, [[<minecraft:log>, <minecraft:log>, <minecraft:log>],[<minecraft:log>, null, <minecraft:log>], [<minecraft:log>, <minecraft:log>, <minecraft:log>]]);
 //Don't touch me!
 //#Add
+recipes.addShaped(<advancedrocketry:loader:1>, [[null, <astralsorcery:itemcraftingcomponent>, null],[<astralsorcery:itemcraftingcomponent>, <libvulpes:structuremachine>, <astralsorcery:itemcraftingcomponent>], [null, <contenttweaker:magic_machine_hull>, <astralsorcery:itemcraftingcomponent>]]);
+recipes.addShaped(<libvulpes:structuremachine> * 8, [[<thermalfoundation:material:328>, <contenttweaker:iridium_osmium_ingot>, <thermalfoundation:material:328>],[<contenttweaker:iridium_osmium_ingot>, <contenttweaker:ultra_machine_core>, <contenttweaker:iridium_osmium_ingot>], [<thermalfoundation:material:328>, <contenttweaker:iridium_osmium_ingot>, <thermalfoundation:material:328>]]);
 recipes.addShapeless(<appliedenergistics2:molecular_assembler> * 2, [<arcanearchives:shaped_quartz>,<contenttweaker:magic_machine_hull>,<minecraft:crafting_table>]);
 recipes.addShaped(<appliedenergistics2:interface> * 8, [[null, <appliedenergistics2:material:43>, null],[<appliedenergistics2:material:44>, <contenttweaker:magic_machine_hull>, <appliedenergistics2:material:44>], [null, <appliedenergistics2:material:43>, null]]);
 recipes.addShaped(<appliedenergistics2:interface>, [[<contenttweaker:magcondium_ingot>, <botania:elfglass>, <contenttweaker:magcondium_ingot>],[<appliedenergistics2:material:43>, null, <appliedenergistics2:material:44>], [<contenttweaker:magcondium_ingot>, <botania:elfglass>, <contenttweaker:magcondium_ingot>]]);
