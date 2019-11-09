@@ -12,6 +12,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockwell", machi
     .addItemOutput(<astralsorcery:blockwell>)
     .build();
 
+
 //高等机械核心
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_advanced", machineName, 160)
     .addEnergyPerTickInput(800)
@@ -22,3 +23,4 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_adva
 	.addItemInput(<contenttweaker:magic_motor>*2)
     .addItemOutput(<contenttweaker:reinforced_machine_core>)
     .build();
+
