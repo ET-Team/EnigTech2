@@ -24,3 +24,12 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_adva
     .addItemOutput(<contenttweaker:reinforced_machine_core>)
     .build();
 
+//星辉工作台
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockaltar", machineName, 160)
+    .addEnergyPerTickInput(600)
+    .addItemInput(<extendedcrafting:table_advanced>)
+	.addItemInput(<astralsorcery:blockinfusedwood>*6)
+	.addItemInput(<ore:stoneMarble>,8)
+	.addItemInput(<bloodmagic:slate:4>*2)
+    .addItemOutput(<astralsorcery:blockaltar>)
+    .build();
