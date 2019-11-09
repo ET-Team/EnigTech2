@@ -14,3 +14,6 @@ recipes.remove(<advancedrocketry:centrifuge>);
 recipes.remove(<advancedrocketry:cuttingmachine>);
 recipes.remove(<advancedrocketry:arcfurnace>);
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/lightwell");
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/marble_black_raw");
+recipes.remove(<astralsorcery:blockblackmarble>);
+recipes.remove(<astralsorcery:blockaltar>);

@@ -11,4 +11,3 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockwell", machi
     .addItemOutput(<astralsorcery:blockwell>)
     .build();
 
-
