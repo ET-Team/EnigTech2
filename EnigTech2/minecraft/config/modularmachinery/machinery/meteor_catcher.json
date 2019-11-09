@@ -327,7 +327,7 @@
             "y": 8,
             "z": 1,
             "elements": [
-                "embers:ember_emitter@1"
+                "thermalfoundation:storage_alloy@7"
             ]
         },
         {
@@ -359,7 +359,7 @@
             "y": 8,
             "z": 3,
             "elements": [
-                "embers:ember_emitter@1"
+                "thermalfoundation:storage_alloy@7"
             ]
         },
         {
@@ -647,7 +647,7 @@
             "y": 8,
             "z": 2,
             "elements": [
-                "embers:ember_emitter@1"
+                "thermalfoundation:storage_alloy@7"
             ]
         },
         {
@@ -663,7 +663,7 @@
             "y": 8,
             "z": 2,
             "elements": [
-                "embers:ember_emitter@1"
+                "thermalfoundation:storage_alloy@7"
             ]
         },
         {

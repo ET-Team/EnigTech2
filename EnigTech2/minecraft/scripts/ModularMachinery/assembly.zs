@@ -24,6 +24,17 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_adva
     .addItemOutput(<contenttweaker:reinforced_machine_core>)
     .build();
 
+//超等机械核心
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_advanced", machineName, 180)
+    .addEnergyPerTickInput(1600)
+    .addFluidInput(<liquid:fluid_lubricant>*50)
+    .addItemInput(<contenttweaker:material_part:43>*3)
+	.addItemInput(<contenttweaker:advanced_motioner>*2)
+	.addItemInput(<contenttweaker:integrated_calculation_module>)
+	.addItemInput(<contenttweaker:strong_motor>)
+    .addItemOutput(<contenttweaker:ultra_machine_core>)
+    .build();
+
 //星辉工作台
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockaltar", machineName, 160)
     .addEnergyPerTickInput(600)

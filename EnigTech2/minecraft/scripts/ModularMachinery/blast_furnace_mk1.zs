@@ -18,13 +18,13 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_steel_from_dust",
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_al", machineName, 80)
 	.addManaInput(5000)
 	.addItemOutput(<thermalfoundation:material:132>)
-	.addItemInput(<ore:ingotIron>)
+	.addItemInput(<ore:dustAluminum>)
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_al_from_dust", machineName, 80)
 	.addManaInput(5000)
 	.addItemOutput(<thermalfoundation:material:132>)
-	.addItemInput(<ore:dustSteel>)
+	.addItemInput(<ore:oreAluminum>)
 	.build();
 
 //Nd
@@ -80,10 +80,19 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_signalium", machi
 	.build();
 
 //末影
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_signalium", machineName, 160)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_enderium", machineName, 160)
 	.addManaInput(10000)
 	.addItemOutput(<thermalfoundation:material:167>*2)
 	.addItemInput(<thermalfoundation:material:101>)
 	.addItemInput(<ore:dustIridium>)
 	.addFluidInput(<liquid:ender>*250)
+	.build();
+
+//铱锇合金
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_iriOsimium", machineName, 160)
+	.addManaInput(10000)
+	.addItemOutput(<contenttweaker:iridium_osmium_ingot>*2)
+	.addItemInput(<ore:ingotIridium>)
+	.addItemInput(<ore:ingotOsmium>)
+	.addFluidInput(<liquid:fluid_dragon_breathe>*500)
 	.build();
