@@ -168,6 +168,8 @@ for mod in modsStageSix{
 	
 }
 
+mods.ItemStages.removeItemStage(<mekanism:dust:2>);
+
 var modsStageSeven as string[] = [
 	"projecte",
 	"draconicevolution"

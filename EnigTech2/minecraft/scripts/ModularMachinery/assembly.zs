@@ -16,7 +16,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockwell", machi
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_advanced", machineName, 160)
     .addEnergyPerTickInput(800)
     .addFluidInput(<liquid:fluid_lubricant>*50)
-    .addItemInput(<ore:plateIridium>*2)
+    .addItemInput(<ore:plateIridium>,2)
 	.addItemInput(<contenttweaker:advanced_motioner>)
 	.addItemInput(<contenttweaker:advanced_processor>)
 	.addItemInput(<contenttweaker:magic_motor>*2)

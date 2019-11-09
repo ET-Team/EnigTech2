@@ -87,7 +87,7 @@ var materials as string[] = [
 	"strong_motor",
 	"strong_motor_unprocessed",
 	"meteor_bait",
-	"luar_essence",
+	"lunar_essence",
 	"lunar_blade",
 	"dust_small_osmium"
 ];

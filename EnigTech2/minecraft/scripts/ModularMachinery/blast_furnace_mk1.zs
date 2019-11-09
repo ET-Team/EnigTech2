@@ -31,13 +31,13 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_al_from_dust", ma
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_nd", machineName, 80)
 	.addManaInput(5000)
 	.addItemOutput(<contenttweaker:material_part:18>)
-	.addItemInput(<ore:ore钕>)
+	.addItemInput(<contenttweaker:sub_block_holder_0:7>)
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_nd_from_dust", machineName, 80)
 	.addManaInput(5000)
 	.addItemOutput(<contenttweaker:material_part:18>)
-	.addItemInput(<ore:dust钕>)
+	.addItemInput(<contenttweaker:material_part:14>)
 	.build();
 
 //Mithril
@@ -48,3 +48,15 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_mithril", machine
 	.addFluidInput(<liquid:mana>*100)
 	.build();
 
+//W
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_w", machineName, 120)
+	.addManaInput(10000)
+	.addItemOutput(<contenttweaker:material_part:45>)
+	.addItemInput(<contenttweaker:material_part:41>)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_w_from_dust", machineName, 120)
+	.addManaInput(10000)
+	.addItemOutput(<contenttweaker:material_part:45>)
+	.addItemInput(<contenttweaker:sub_block_holder_0:3>)
+	.build();

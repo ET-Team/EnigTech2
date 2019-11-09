@@ -15,6 +15,9 @@ recipes.remove(<advancedrocketry:concrete>);
 recipes.removeShaped(<minecraft:chest> * 4, [[<minecraft:log>, <minecraft:log>, <minecraft:log>],[<minecraft:log>, null, <minecraft:log>], [<minecraft:log>, <minecraft:log>, <minecraft:log>]]);
 //Don't touch me!
 //#Add
+recipes.addShapeless(<mekanism:dust:2>, [<contenttweaker:dust_small_osmium>,<contenttweaker:dust_small_osmium>,<contenttweaker:dust_small_osmium>,<contenttweaker:dust_small_osmium>]);
+recipes.addShapeless(<contenttweaker:material_part:14>, [<contenttweaker:material_part:37>,<contenttweaker:material_part:37>,<contenttweaker:material_part:37>,<contenttweaker:material_part:37>,<contenttweaker:material_part:37>,<contenttweaker:material_part:37>,<contenttweaker:material_part:37>,<contenttweaker:material_part:37>,<contenttweaker:material_part:37>]);
+recipes.addShapeless(<contenttweaker:material_part:21>, [<contenttweaker:material_part:35>,<contenttweaker:material_part:35>,<contenttweaker:material_part:35>,<contenttweaker:material_part:35>,<contenttweaker:material_part:35>,<contenttweaker:material_part:35>,<contenttweaker:material_part:35>,<contenttweaker:material_part:35>,<contenttweaker:material_part:35>]);
 recipes.addShaped(<thermalfoundation:material:515> * 3, [[<thermalfoundation:material:513>, null, null],[null, <botania:quartz:6>, null], [null, null, <thermalfoundation:material:514>]]);
 recipes.addShaped(<thermalfoundation:material:514> * 4, [[null, null, <thermalfoundation:material:1025>],[null, <enderio:item_alloy_endergy_ingot:5>, null], [<thermalfoundation:material:1025>, null, null]]);
 recipes.addShaped(<thermalfoundation:material:513> * 2, [[null, null, <minecraft:glowstone_dust>],[null, <contenttweaker:material_part:33>, null], [<minecraft:glowstone_dust>, null, null]]);
