@@ -1,0 +1,685 @@
+{
+    "registryname": "meteor_catcher",
+    "localizedname": "陨石捕获装置",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockinputbus@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockoutputbus@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "embers:ember_emitter@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "embers:ember_emitter@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "embers:ember_emitter@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "embers:ember_emitter@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "modulardiversity:blockbiomedetector@0"
+            ]
+        }
+    ]}

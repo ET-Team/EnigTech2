@@ -80,7 +80,16 @@ var materials as string[] = [
 	"rubber_plate",
 	"magic_motor",
 	"dark_gaiya_crystal",
-	"dark_gaiya_crystal_unpolished"
+	"dark_gaiya_crystal_unpolished",
+	"magic_calculator",
+	"magic_calculator_unpowered",
+	"magic_machine_hull",
+	"strong_motor",
+	"strong_motor_unprocessed",
+	"meteor_bait",
+	"luar_essence",
+	"lunar_blade",
+	"dust_small_osmium"
 ];
 
 for item in materials{
