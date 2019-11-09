@@ -97,3 +97,13 @@ item.contenttweaker.charged_gaiya_crystal.name=充能盖亚水晶
 item.contenttweaker.brain_chip.name=脑机芯片
 
 contenttweaker.part.dust_tiny=小搓%s粉
+
+item.contenttweaker.magic_calculator.name=魔能计算机
+item.contenttweaker.magic_calculator_unpowered.name=未充能的魔能计算机
+item.contenttweaker.magic_machine_hull.name=蕴魔机械外壳
+item.contenttweaker.strong_motor.name=强导电机
+item.contenttweaker.strong_motor_unprocessed.name=未处理的强导电机
+item.contenttweaker.meteor_bait.name=陨石诱饵
+item.contenttweaker.lunar_essence.name=月之精华
+item.contenttweaker.lunar_blade.name=月之锋刃
+item.contenttweaker.dust_small_osmium.name=小堆锇粉
