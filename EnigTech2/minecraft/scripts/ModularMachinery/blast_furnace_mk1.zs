@@ -60,3 +60,30 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_w_from_dust", mac
 	.addItemOutput(<contenttweaker:material_part:45>)
 	.addItemInput(<contenttweaker:sub_block_holder_0:3>)
 	.build();
+
+//流明粉
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_luming", machineName, 80)
+	.addManaInput(5000)
+	.addItemOutput(<thermalfoundation:material:102>*4)
+	.addItemInput(<thermalfoundation:material:72>)
+	.addItemInput(<extendedcrafting:material:7>*3)
+	.build();
+
+//信素
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_signalium", machineName, 800)
+	.addManaInput(100000)
+	.addItemOutput(<thermalfoundation:material:165>*64)
+	.addItemInput(<thermalfoundation:material:70>*16)
+	.addItemInput(<thermalfoundation:material:102>*48)
+	.addItemInput(<minecraft:dragon_egg>)
+	.addFluidInput(<liquid:applejuice>*2000)
+	.build();
+
+//末影
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_signalium", machineName, 160)
+	.addManaInput(10000)
+	.addItemOutput(<thermalfoundation:material:167>*2)
+	.addItemInput(<thermalfoundation:material:101>)
+	.addItemInput(<ore:dustIridium>)
+	.addFluidInput(<liquid:ender>*250)
+	.build();
