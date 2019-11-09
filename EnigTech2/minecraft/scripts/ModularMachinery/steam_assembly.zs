@@ -47,3 +47,10 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_calculation_proce
     .addItemOutput(<appliedenergistics2:material:23>)
 	.build();
 
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_magic_machine_hull", machineName, 120)
+	.addFluidInput(<liquid:steam>*1000)
+    .addItemInput(<thermalfoundation:material:328>*2)
+    .addItemInput(<contenttweaker:advanced_motioner>*2)
+    .addItemInput(<contenttweaker:reinforced_machine_core>)
+    .addItemOutput(<contenttweaker:magic_machine_hull>)
+	.build();

@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<appliedenergistics2:interface>);
 recipes.remove(<thermalfoundation:material:515>);
 recipes.remove(<thermalfoundation:material:514>);
 recipes.remove(<thermalfoundation:material:513>);
@@ -15,6 +16,9 @@ recipes.remove(<advancedrocketry:concrete>);
 recipes.removeShaped(<minecraft:chest> * 4, [[<minecraft:log>, <minecraft:log>, <minecraft:log>],[<minecraft:log>, null, <minecraft:log>], [<minecraft:log>, <minecraft:log>, <minecraft:log>]]);
 //Don't touch me!
 //#Add
+recipes.addShapeless(<appliedenergistics2:molecular_assembler> * 2, [<arcanearchives:shaped_quartz>,<contenttweaker:magic_machine_hull>,<minecraft:crafting_table>]);
+recipes.addShaped(<appliedenergistics2:interface> * 8, [[null, <appliedenergistics2:material:43>, null],[<appliedenergistics2:material:44>, <contenttweaker:magic_machine_hull>, <appliedenergistics2:material:44>], [null, <appliedenergistics2:material:43>, null]]);
+recipes.addShaped(<appliedenergistics2:interface>, [[<contenttweaker:magcondium_ingot>, <botania:elfglass>, <contenttweaker:magcondium_ingot>],[<appliedenergistics2:material:43>, null, <appliedenergistics2:material:44>], [<contenttweaker:magcondium_ingot>, <botania:elfglass>, <contenttweaker:magcondium_ingot>]]);
 recipes.addShapeless(<mekanism:dust:2>, [<contenttweaker:dust_small_osmium>,<contenttweaker:dust_small_osmium>,<contenttweaker:dust_small_osmium>,<contenttweaker:dust_small_osmium>]);
 recipes.addShapeless(<contenttweaker:material_part:14>, [<contenttweaker:material_part:37>,<contenttweaker:material_part:37>,<contenttweaker:material_part:37>,<contenttweaker:material_part:37>,<contenttweaker:material_part:37>,<contenttweaker:material_part:37>,<contenttweaker:material_part:37>,<contenttweaker:material_part:37>,<contenttweaker:material_part:37>]);
 recipes.addShapeless(<contenttweaker:material_part:21>, [<contenttweaker:material_part:35>,<contenttweaker:material_part:35>,<contenttweaker:material_part:35>,<contenttweaker:material_part:35>,<contenttweaker:material_part:35>,<contenttweaker:material_part:35>,<contenttweaker:material_part:35>,<contenttweaker:material_part:35>,<contenttweaker:material_part:35>]);

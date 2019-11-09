@@ -18,6 +18,8 @@ OreStages.addReplacement("five", <astralsorcery:blockcustomore>);
 OreStages.addReplacement("five", <mekanism:oreblock:0>);
 OreStages.addReplacement("five", <thermalfoundation:ore:6>);
 OreStages.addReplacement("five", <thermalfoundation:ore:7>);
+OreStages.addReplacement("five", <libvulpes:ore0:8>);
+OreStages.addReplacement("five", <contenttweaker:sub_block_holder_0:3>);
 
 OreStages.addReplacement("six", <nuclearcraft:ore:3>);
 OreStages.addReplacement("six", <nuclearcraft:ore:4>);

@@ -92,7 +92,9 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_enderium", machin
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_iriOsimium", machineName, 160)
 	.addManaInput(10000)
 	.addItemOutput(<contenttweaker:iridium_osmium_ingot>*2)
-	.addItemInput(<ore:ingotIridium>)
-	.addItemInput(<ore:ingotOsmium>)
+	.addItemInput(<ore:dustIridium>)
+	.addItemInput(<ore:dustOsmium>)
+	.addItemInput(<contenttweaker:arcane_essence>*4)
 	.addFluidInput(<liquid:fluid_dragon_breathe>*500)
 	.build();
+

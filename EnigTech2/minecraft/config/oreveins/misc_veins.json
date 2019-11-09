@@ -259,5 +259,45 @@
         "min_y": 50,
         "max_y": 70,
         "biomes":["SANDY","DESERT","minecraft:desert"]
+      },
+      "W": {
+        "type": "sphere",
+        "ore": [
+          {
+            "ore": "ore\u94a8",
+            "weight": 2
+          },
+          {
+            "ore":"oreTin",
+            "weight":3
+          }
+        ],
+        "stone": "minecraft:stone",
+        "rarity": 20,
+        "min_y": 12,
+        "max_y": 24,
+        "density": 200,
+        "vertical_size": 6,
+        "horizontal_size": 6
+      },
+      "Ti": {
+        "type": "sphere",
+        "ore": [
+          {
+            "ore": "oreTitanium",
+            "weight": 3
+          },
+          {
+            "ore":"oreIridium",
+            "weight":2
+          }
+        ],
+        "stone": "minecraft:stone",
+        "rarity": 24,
+        "min_y": 21,
+        "max_y": 33,
+        "density": 200,
+        "vertical_size": 6,
+        "horizontal_size": 6
       }
 }
