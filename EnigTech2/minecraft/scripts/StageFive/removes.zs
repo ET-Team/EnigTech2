@@ -17,3 +17,4 @@ mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/marble_black_raw");
 recipes.remove(<astralsorcery:blockblackmarble>);
 recipes.remove(<astralsorcery:blockaltar>);
+recipes.remove(<thermalexpansion:machine:10>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}));

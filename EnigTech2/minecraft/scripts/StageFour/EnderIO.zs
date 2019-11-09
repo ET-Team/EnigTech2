@@ -27,6 +27,8 @@ recipes.addShaped(<modularmachinery:blockenergyoutputhatch:3>, [[<modularmachine
 recipes.addShaped(<modularmachinery:blockfluidinputhatch:3>, [[<modularmachinery:itemmodularium>, <enderio:item_liquid_conduit:1>, <modularmachinery:itemmodularium>],[<enderio:item_liquid_conduit:1>, <contenttweaker:soso_machine_core>, <enderio:item_liquid_conduit:1>], [<modularmachinery:itemmodularium>, <enderio:item_liquid_conduit:1>, <modularmachinery:itemmodularium>]]);
 //温度调节器
 recipes.addShaped(<tanaddons:temp_regulator>, [[<toughasnails:magma_shard>, <toughasnails:magma_shard>, <toughasnails:magma_shard>],[<toughasnails:temperature_coil>, <enderio:item_material>, <toughasnails:temperature_coil:1>], [<toughasnails:ice_cube>, <toughasnails:ice_cube>, <toughasnails:ice_cube>]]);
+//硬化玻璃
+mods.enderio.AlloySmelter.addRecipe(<thermalfoundation:glass:3>*2, [<ore:dustLead>, <ore:dustObsidian>*4,<contenttweaker:dust_silicon>],3200);
 
 
 
