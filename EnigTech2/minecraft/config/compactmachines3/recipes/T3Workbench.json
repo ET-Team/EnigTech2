@@ -1,0 +1,87 @@
+{
+  "name": "compactmachines3:T3Workbench",
+
+ 
+  "target-block": "extendedcrafting:table_elite",
+  "target-count": 1,
+  "target-meta": 0,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  
+  "catalyst": "contenttweaker:charged_gaiya_crystal",
+  "catalyst-meta": 0,
+
+  
+  "input-types": {
+    "a": {
+      "id": "extendedcrafting:storage",
+      "meta": 2
+    },
+    "b": {
+      "id": "extendedcrafting:table_advanced",
+      "meta": 0
+    }
+  },
+  "input-nbt": {
+    "b:A": {
+      "nbt": "{ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},Items:[],id:\"minecraft:ec_advanced_table\"}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b:A",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+
+
+}

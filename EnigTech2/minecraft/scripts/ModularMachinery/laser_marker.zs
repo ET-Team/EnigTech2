@@ -7,6 +7,12 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ic_wafer", machin
     .addItemOutput(<contenttweaker:ic_wafer>)
 	.build();
 
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_lens", machineName, 40)
+    .addEmberInput(1000)
+    .addItemInput(<ore:blockGlass>, 2)
+    .addItemOutput(<advancedrocketry:lens>)
+	.build();
+
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ic", machineName, 160)
     .addEmberInput(6000)
     .addItemInput(<contenttweaker:ic_unprocessed>)

@@ -6,7 +6,7 @@ recipes.remove(<immersiveengineering:stone_decoration:10> * 2);
 recipes.remove(<thermalfoundation:material:99>);
 recipes.removeByRegex("immersiveengineering:material/plate_...?.?.?.?.?.?.?.?.?.?.?.?.?.?");
 recipes.remove(<storagedrawers:controller>);
-
+mods.jei.JEI.hide(<thermalexpansion:machine:3>);
 furnace.remove(<ore:ingotOsmium>);
 furnace.remove(<ore:ingotAluminum>);
 

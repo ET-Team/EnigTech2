@@ -36,6 +36,10 @@ IEMultiBlockStages.addStage("default", "IE:DieselGenerator", "该机器已被禁
 
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:slice_silicon_compressed>, <contenttweaker:slice_silicon_rough>, <immersiveengineering:mold:0>, 120, 4);
 
+mods.immersiveengineering.MetalPress.addRecipe(<libvulpes:productsheet:9>, <thermalfoundation:material:324>, <immersiveengineering:mold:0>, 40, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<libvulpes:productsheet:7>, <libvulpes:productplate:7>, <immersiveengineering:mold:0>, 40, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<libvulpes:productsheet:1>, <thermalfoundation:material:32>, <immersiveengineering:mold:0>, 40, 1);
+
 //加入矿脉
 //mods.immersiveengineering.Excavator.addMineral(String name, int mineralWeight, double failChance, String[] ores, double[] chances, @Optional int[] dimensionWhitelist, @Optional boolean blacklist);
 mods.immersiveengineering.Excavator.addMineral("Platinum", 30, 0.005, ["thermalfoundation:ore:4", "thermalfoundation:ore:5"], [0.02, 0.005]);

@@ -53,3 +53,11 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_basic_circuit", m
     .addItemInput(<contenttweaker:transistor_fine>)
     .addEnergyPerTickInput(512)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ram", machineName, 80)
+	.addItemOutput(<advancedrocketry:dataunit>*2)
+    .addItemInput(<contenttweaker:ic_processed>)
+    .addItemInput(<minecraft:repeater>)
+    .addItemInput(<contenttweaker:resistor_fine>*2)
+    .addEnergyPerTickInput(512)
+	.build();

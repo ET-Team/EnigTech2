@@ -54,3 +54,15 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_magic_machine_hul
     .addItemInput(<contenttweaker:reinforced_machine_core>)
     .addItemOutput(<contenttweaker:magic_machine_hull>)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_pressure_sink", machineName, 60)
+	.addFluidInput(<liquid:steam>*1000)
+    .addItemInput(<contenttweaker:material_part:52>*2)
+    .addItemOutput(<advancedrocketry:pressuretank:3>)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_high_pressure_sink", machineName, 80)
+	.addFluidInput(<liquid:steam>*1000)
+    .addItemInput(<ore:plateAluminum>,2)
+    .addItemOutput(<advancedrocketry:pressuretank:2>)
+	.build();

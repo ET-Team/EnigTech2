@@ -1,6 +1,24 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<advancedrocketry:guidancecomputer>);
+recipes.remove(<advancedrocketry:jetpack>);
+recipes.remove(<extendedcrafting:interface>);
+recipes.remove(<extendedcrafting:interface>);
+recipes.remove(<extendedcrafting:table_elite>);
+recipes.remove(<extendedcrafting:table_ultimate>);
+recipes.remove(<libvulpes:battery>);
+recipes.remove(<advancedrocketry:fueltank>);
+recipes.remove(<advancedrocketry:advrocketmotor>);
+recipes.remove(<libvulpes:elitemotor>);
+recipes.remove(<libvulpes:enhancedmotor>);
+recipes.remove(<libvulpes:advancedmotor>);
+recipes.remove(<libvulpes:motor>);
+recipes.remove(<advancedrocketry:seat>);
+recipes.remove(<advancedrocketry:drill>);
+recipes.remove(<advancedrocketry:ic:3>);
+recipes.remove(<advancedrocketry:ic:4>);
+recipes.remove(<advancedrocketry:ic:5>);
 recipes.remove(<advancedrocketry:loader:1>);
 recipes.remove(<libvulpes:structuremachine>);
 recipes.remove(<appliedenergistics2:interface>);
@@ -15,10 +33,32 @@ recipes.remove(<silentgems:craftingmaterial:8>);
 recipes.remove(<advancedrocketry:rocketbuilder>);
 recipes.remove(<advancedrocketry:launchpad>);
 recipes.remove(<advancedrocketry:concrete>);
-recipes.removeShaped(<minecraft:chest> * 4, [[<minecraft:log>, <minecraft:log>, <minecraft:log>],[<minecraft:log>, null, <minecraft:log>], [<minecraft:log>, <minecraft:log>, <minecraft:log>]]);
+recipes.removeShaped(<minecraft:chest> * 4, [[<ore:logWood>, <ore:logWood>, <ore:logWood>],[<ore:logWood>, null, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 //Don't touch me!
 //#Add
-recipes.addShaped(<advancedrocketry:loader:1>, [[null, <astralsorcery:itemcraftingcomponent>, null],[<astralsorcery:itemcraftingcomponent>, <libvulpes:structuremachine>, <astralsorcery:itemcraftingcomponent>], [null, <contenttweaker:magic_machine_hull>, <astralsorcery:itemcraftingcomponent>]]);
+recipes.addShaped(<contenttweaker:meteor_bait>, [[null, <astralsorcery:itemcraftingcomponent:2>, null],[<astralsorcery:itemcraftingcomponent:2>, <twilightforest:hydra_chop>, <astralsorcery:itemcraftingcomponent:2>], [null, <astralsorcery:itemcraftingcomponent:2>, null]]);
+recipes.addShaped(<advancedrocketry:guidancecomputer>, [[<libvulpes:productplate:7>, <advancedrocketry:ic:1>, <libvulpes:productplate:7>],[<advancedrocketry:ic:1>, <libvulpes:structuremachine>, <advancedrocketry:ic:1>], [<libvulpes:productplate:7>, <extendedcrafting:material:24>, <libvulpes:productplate:7>]]);
+recipes.addShaped(<extendedcrafting:interface> * 3, [[null, <appliedenergistics2:molecular_assembler>, null],[<extendedcrafting:trimmed:2>, <contenttweaker:ultra_machine_core>, <extendedcrafting:trimmed:2>], [<appliedenergistics2:molecular_assembler>, <extendedcrafting:trimmed:2>, <appliedenergistics2:molecular_assembler>]]);
+recipes.addShaped(<advancedrocketry:satelliteprimaryfunction:5>, [[<contenttweaker:plastic_plate>, <libvulpes:battery>, <contenttweaker:plastic_plate>],[<libvulpes:productgem>, <contenttweaker:soso_machine_core>, <libvulpes:productgem>], [<contenttweaker:plastic_plate>, <libvulpes:battery>, <contenttweaker:plastic_plate>]]);
+recipes.addShaped(<advancedrocketry:biomechanger>, [[<contenttweaker:plastic_plate>, <advancedrocketry:misc>, <contenttweaker:plastic_plate>],[<contenttweaker:plastic_plate>, <contenttweaker:soso_machine_core>, <contenttweaker:plastic_plate>], [<contenttweaker:plastic_plate>, <libvulpes:productsheet:1>, <contenttweaker:plastic_plate>]]);
+recipes.addShaped(<advancedrocketry:atmanalyser>, [[<advancedrocketry:lens>, <advancedrocketry:misc>, <advancedrocketry:lens>],[<thermalfoundation:material:324>, <contenttweaker:soso_machine_core>, <thermalfoundation:material:324>], [<thermalfoundation:material:324>, <libvulpes:battery>, <thermalfoundation:material:324>]]);
+recipes.addShaped(<libvulpes:battery> * 2, [[null, <ore:ingotPulsatingIron>, null],[<ore:plateLead>, <contenttweaker:magcondium_ingot>, <ore:plateLead>], [<ore:plateLead>, <contenttweaker:magcondium_ingot>, <ore:plateLead>]]);
+recipes.addShaped(<advancedrocketry:blocklens>, [[<minecraft:glass>, <advancedrocketry:lens>, <minecraft:glass>],[<advancedrocketry:lens>, <minecraft:glass>, <advancedrocketry:lens>], [<minecraft:glass>, <advancedrocketry:lens>, <minecraft:glass>]]);
+recipes.addShapeless(<advancedrocketry:itemupgrade>, [<advancedrocketry:ic:3>,<contenttweaker:basic_processor>]);
+recipes.addShapeless(<advancedrocketry:itemupgrade:1>, [<advancedrocketry:ic:3>,<minecraft:fire_charge>]);
+recipes.addShapeless(<advancedrocketry:elevatorchip>, [<advancedrocketry:ic:1>,<extrautils2:interactionproxy>,<extrautils2:interactionproxy>]);
+recipes.addShapeless(<advancedrocketry:ic:1>, [<contenttweaker:advanced_processor>,<bloodmagic:sigil_divination>]);
+recipes.addShaped(<advancedrocketry:fueltank> * 32, [[<contenttweaker:material_part:52>, <contenttweaker:magcondium_ingot>, <contenttweaker:material_part:52>],[<contenttweaker:material_part:52>, null, <contenttweaker:material_part:52>], [<contenttweaker:material_part:52>, <contenttweaker:magcondium_ingot>, <contenttweaker:material_part:52>]]);
+recipes.addShaped(<advancedrocketry:fueltank> * 2, [[<libvulpes:productplate:7>, <embers:mech_accessor>, <libvulpes:productplate:7>],[<libvulpes:productplate:7>, null, <libvulpes:productplate:7>], [<libvulpes:productplate:7>, <embers:mech_accessor>, <libvulpes:productplate:7>]]);
+recipes.addShaped(<advancedrocketry:rocketbuilder>, [[<thermalfoundation:material:328>, <astralsorcery:itemperkseal>, <thermalfoundation:material:328>],[<contenttweaker:advanced_motioner>, <contenttweaker:ultra_machine_core>, <contenttweaker:advanced_motioner>], [<thermalfoundation:material:328>, <thermalfoundation:material:328>, <thermalfoundation:material:328>]]);
+recipes.addShaped(<advancedrocketry:launchpad> * 4, [[<ore:dyeYellow>, <minecraft:concrete:*>, <ore:dyeYellow>],[<minecraft:concrete:*>, <minecraft:concrete:*>, <minecraft:concrete:*>], [<ore:dyeYellow>, <minecraft:concrete:*>, <ore:dyeYellow>]]);
+recipes.addShaped(<advancedrocketry:seat>, [[<contenttweaker:material_part:54>, <contenttweaker:material_part:54>, <contenttweaker:material_part:54>],[<contenttweaker:material_part:54>, null, <contenttweaker:material_part:54>], [<contenttweaker:material_part:54>, <minecraft:wool>, <contenttweaker:material_part:54>]]);
+recipes.addShaped(<advancedrocketry:drill>, [[<contenttweaker:material_part:43>, <thermalfoundation:material:656>, <contenttweaker:material_part:43>],[<thermalfoundation:material:656>, <libvulpes:elitemotor>, <thermalfoundation:material:656>], [<contenttweaker:material_part:43>, <thermalfoundation:material:656>, <contenttweaker:material_part:43>]]);
+recipes.addShaped(<libvulpes:elitemotor>, [[null, <contenttweaker:material_part:16>, null],[<contenttweaker:material_part:16>, <contenttweaker:strong_motor>, <contenttweaker:material_part:16>], [null, <contenttweaker:material_part:16>, null]]);
+recipes.addShapeless(<advancedrocketry:ic:5>, [<contenttweaker:advanced_processor>,<appliedenergistics2:part:281>]);
+recipes.addShapeless(<advancedrocketry:ic:4>, [<contenttweaker:advanced_processor>,<appliedenergistics2:part:280>]);
+recipes.addShapeless(<advancedrocketry:ic:3>, [<contenttweaker:advanced_processor>,<arcanearchives:shaped_quartz>,<arcanearchives:shaped_quartz>]);
+recipes.addShaped(<advancedrocketry:loader:1>, [[null, <astralsorcery:itemcraftingcomponent>, null],[<astralsorcery:itemcraftingcomponent>, <libvulpes:structuremachine>, <astralsorcery:itemcraftingcomponent>], [null, <contenttweaker:magic_machine_hull>, null]]);
 recipes.addShaped(<libvulpes:structuremachine> * 8, [[<thermalfoundation:material:328>, <contenttweaker:iridium_osmium_ingot>, <thermalfoundation:material:328>],[<contenttweaker:iridium_osmium_ingot>, <contenttweaker:ultra_machine_core>, <contenttweaker:iridium_osmium_ingot>], [<thermalfoundation:material:328>, <contenttweaker:iridium_osmium_ingot>, <thermalfoundation:material:328>]]);
 recipes.addShapeless(<appliedenergistics2:molecular_assembler> * 2, [<arcanearchives:shaped_quartz>,<contenttweaker:magic_machine_hull>,<minecraft:crafting_table>]);
 recipes.addShaped(<appliedenergistics2:interface> * 8, [[null, <appliedenergistics2:material:43>, null],[<appliedenergistics2:material:44>, <contenttweaker:magic_machine_hull>, <appliedenergistics2:material:44>], [null, <appliedenergistics2:material:43>, null]]);

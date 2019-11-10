@@ -144,11 +144,11 @@
     "ore": [
       {
         "ore": "oreRedstone",
-        "weight": 30
+        "weight": 500
       },
       {
         "block": "silentgems:essenceore",
-        "weight": 17
+        "weight": 160
       },
       {
         "block":"astralsorcery:blockcustomore",

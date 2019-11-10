@@ -25,7 +25,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_adva
     .build();
 
 //超等机械核心
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_advanced", machineName, 180)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_ultra", machineName, 180)
     .addEnergyPerTickInput(1600)
     .addFluidInput(<liquid:fluid_lubricant>*50)
     .addItemInput(<contenttweaker:material_part:43>*3)
