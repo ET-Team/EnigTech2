@@ -73,3 +73,4 @@ recipes.remove(<advancedrocketry:rocketbuilder>);
 recipes.remove(<advancedrocketry:launchpad>);
 recipes.remove(<advancedrocketry:concrete>);
 recipes.removeShaped(<minecraft:chest> * 4, [[<ore:logWood>, <ore:logWood>, <ore:logWood>],[<ore:logWood>, null, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+recipes.remove(<appliedenergistics2:molecular_assembler>);
