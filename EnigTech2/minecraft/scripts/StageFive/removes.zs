@@ -32,3 +32,9 @@ mods.enderio.SagMill.removeRecipe(<astralsorcery:blockcustomore:1>);
 mods.immersiveengineering.Crusher.removeRecipesForInput(<astralsorcery:blockcustomore:1>);
 recipes.remove(<extrautils2:angelring>);
 
+recipes.remove(<simplyjetpacks:itemjetpack:10>.withTag({Energy: 0, JetpackParticleType: 0}));
+recipes.remove(<simplyjetpacks:itemjetpack:11>.withTag({Energy: 0, JetpackParticleType: 0}));
+recipes.remove(<simplyjetpacks:itemjetpack:12>.withTag({Energy: 0, JetpackParticleType: 0}));
+recipes.remove(<simplyjetpacks:itemjetpack:13>.withTag({Energy: 0, JetpackParticleType: 0}));
+
+
