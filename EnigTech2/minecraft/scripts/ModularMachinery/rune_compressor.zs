@@ -121,14 +121,14 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_arrogance_rune", 
     .addItemInput(<botania:rune:5>)
     .addItemInput(<botania:rune:1>)
 	.build();
-
-
-
-
-
-
-
-
+//星辉铭文
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_star_rune", machineName, 80)
+	.addEmberInput(1000)
+	.addItemOutput(<contenttweaker:star_rune>)
+	.addItemInput(<astralsorcery:itemcraftingcomponent:4>)
+    .addItemInput(<contenttweaker:lunar_essence>)
+    .addItemInput(<naturesaura:clock_hand>)
+	.build();
 
 
 
