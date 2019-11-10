@@ -36,6 +36,7 @@ recipes.remove(<advancedrocketry:concrete>);
 recipes.removeShaped(<minecraft:chest> * 4, [[<ore:logWood>, <ore:logWood>, <ore:logWood>],[<ore:logWood>, null, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 //Don't touch me!
 //#Add
+recipes.addShapeless(<modularmachinery:itemblueprint>, [<appliedenergistics2:material:45>,<minecraft:paper>]);
 recipes.addShapeless(<modularmachinery:itemblueprint>, [<minecraft:coal:1>,<minecraft:paper>]);
 recipes.addShapeless(<modularmachinery:itemblueprint>, [<minecraft:coal>,<minecraft:paper>]);
 recipes.addShaped(<contenttweaker:meteor_bait>, [[null, <astralsorcery:itemcraftingcomponent:2>, null],[<astralsorcery:itemcraftingcomponent:2>, <twilightforest:hydra_chop>, <astralsorcery:itemcraftingcomponent:2>], [null, <astralsorcery:itemcraftingcomponent:2>, null]]);
