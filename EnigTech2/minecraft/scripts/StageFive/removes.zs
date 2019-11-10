@@ -37,4 +37,36 @@ recipes.remove(<simplyjetpacks:itemjetpack:11>.withTag({Energy: 0, JetpackPartic
 recipes.remove(<simplyjetpacks:itemjetpack:12>.withTag({Energy: 0, JetpackParticleType: 0}));
 recipes.remove(<simplyjetpacks:itemjetpack:13>.withTag({Energy: 0, JetpackParticleType: 0}));
 
-
+recipes.remove(<advancedrocketry:guidancecomputer>);
+recipes.remove(<advancedrocketry:jetpack>);
+recipes.remove(<extendedcrafting:interface>);
+recipes.remove(<extendedcrafting:interface>);
+recipes.remove(<extendedcrafting:table_elite>);
+recipes.remove(<extendedcrafting:table_ultimate>);
+recipes.remove(<libvulpes:battery>);
+recipes.remove(<advancedrocketry:fueltank>);
+recipes.remove(<advancedrocketry:advrocketmotor>);
+recipes.remove(<libvulpes:elitemotor>);
+recipes.remove(<libvulpes:enhancedmotor>);
+recipes.remove(<libvulpes:advancedmotor>);
+recipes.remove(<libvulpes:motor>);
+recipes.remove(<advancedrocketry:seat>);
+recipes.remove(<advancedrocketry:drill>);
+recipes.remove(<advancedrocketry:ic:3>);
+recipes.remove(<advancedrocketry:ic:4>);
+recipes.remove(<advancedrocketry:ic:5>);
+recipes.remove(<advancedrocketry:loader:1>);
+recipes.remove(<libvulpes:structuremachine>);
+recipes.remove(<appliedenergistics2:interface>);
+recipes.remove(<thermalfoundation:material:515>);
+recipes.remove(<thermalfoundation:material:514>);
+recipes.remove(<thermalfoundation:material:513>);
+recipes.remove(<thermalexpansion:frame>);
+recipes.remove(<thermalexpansion:augment:304>);
+recipes.remove(<silentgems:craftingmaterial:9>);
+furnace.remove(<ore:ingotIridium>);
+recipes.remove(<silentgems:craftingmaterial:8>);
+recipes.remove(<advancedrocketry:rocketbuilder>);
+recipes.remove(<advancedrocketry:launchpad>);
+recipes.remove(<advancedrocketry:concrete>);
+recipes.removeShaped(<minecraft:chest> * 4, [[<ore:logWood>, <ore:logWood>, <ore:logWood>],[<ore:logWood>, null, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
