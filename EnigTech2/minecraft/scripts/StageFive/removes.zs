@@ -30,4 +30,5 @@ mods.actuallyadditions.Crusher.removeRecipe(<astralsorcery:itemcraftingcomponent
 mods.extrautils2.Crusher.remove(<astralsorcery:blockcustomore:1>);
 mods.enderio.SagMill.removeRecipe(<astralsorcery:blockcustomore:1>);
 mods.immersiveengineering.Crusher.removeRecipesForInput(<astralsorcery:blockcustomore:1>);
+recipes.remove(<extrautils2:angelring>);
 
