@@ -36,6 +36,8 @@ recipes.remove(<advancedrocketry:concrete>);
 recipes.removeShaped(<minecraft:chest> * 4, [[<ore:logWood>, <ore:logWood>, <ore:logWood>],[<ore:logWood>, null, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 //Don't touch me!
 //#Add
+recipes.addShapeless(<modularmachinery:itemblueprint>, [<minecraft:coal:1>,<minecraft:paper>]);
+recipes.addShapeless(<modularmachinery:itemblueprint>, [<minecraft:coal>,<minecraft:paper>]);
 recipes.addShaped(<contenttweaker:meteor_bait>, [[null, <astralsorcery:itemcraftingcomponent:2>, null],[<astralsorcery:itemcraftingcomponent:2>, <twilightforest:hydra_chop>, <astralsorcery:itemcraftingcomponent:2>], [null, <astralsorcery:itemcraftingcomponent:2>, null]]);
 recipes.addShaped(<advancedrocketry:guidancecomputer>, [[<libvulpes:productplate:7>, <advancedrocketry:ic:1>, <libvulpes:productplate:7>],[<advancedrocketry:ic:1>, <libvulpes:structuremachine>, <advancedrocketry:ic:1>], [<libvulpes:productplate:7>, <extendedcrafting:material:24>, <libvulpes:productplate:7>]]);
 recipes.addShaped(<extendedcrafting:interface> * 3, [[null, <appliedenergistics2:molecular_assembler>, null],[<extendedcrafting:trimmed:2>, <contenttweaker:ultra_machine_core>, <extendedcrafting:trimmed:2>], [<appliedenergistics2:molecular_assembler>, <extendedcrafting:trimmed:2>, <appliedenergistics2:molecular_assembler>]]);

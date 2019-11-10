@@ -141,3 +141,13 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_itemcraftingcompo
 	.addItemInput(<contenttweaker:arcane_essence>*4)
 	.addFluidInput(<liquid:astralsorcery.liquidstarlight>*2000)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystaline", machineName, speedTierThree)
+	.addManaInput(20000)
+	.addItemOutput(<extendedcrafting:material:24>*2)
+	.addItemInput(<bloodmagic:monster_soul:4>)
+	.addItemInput(<bloodmagic:monster_soul:3>)
+    .addItemInput(<bloodmagic:monster_soul:2>)
+    .addItemInput(<bloodmagic:monster_soul:1>)
+    .addFluidInput(<liquid:fluid_dragon_breathe>*500)
+	.build();

@@ -4,8 +4,6 @@
 import crafttweaker.item.IItemStack;
 import mods.recipestages.Recipes;
 
-mods.recipestages.Recipes.setPackageStage("appeng", allStages);
-
 var allStages as string[] = [
 
 	"one",
@@ -17,6 +15,8 @@ var allStages as string[] = [
 	"seven"
 
 ];
+
+mods.recipestages.Recipes.setPackageStage("appeng", allStages);
 
 recipes.removeByRecipeName("minecraft:glass_bottle");
 recipes.removeByRecipeName("minecraft:clay");

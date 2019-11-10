@@ -2,7 +2,7 @@
 setIcon(<minecraft:paper>)
 
 //Set title String
-setTitle("\u7b2c\u4e94\u9636\u6bb5:\u7fa4\u661f")
+setTitle("\u9636\u6bb5\u4e94:\u7fa4\u661f")
 
 //Set description String
 setDescription("\u5728\u5730\u7403\u4e0a\u7684\u5de5\u4f5c\u5df2\u7ecf\u4e0d\u80fd\u6ee1\u8db3\u4f60\u5bf9\u771f\u7406\u7684\u63a2\u5bfb,\u4e5f\u8bb8\u65e0\u5c3d\u7684\u661f\u8fb0\u624d\u662f\u4f60\u7684\u5bbf\u547d ")
@@ -17,7 +17,7 @@ setShowToast(false)
 setAnnounceToChat(false)
 
 //Set the position
-setPos(-743,100)
+setPos(-745,100)
 
 //Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
 Criteria40 = addCriteria("completedParent", "triumph:completed_advancement")
