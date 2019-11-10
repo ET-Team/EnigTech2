@@ -182,3 +182,10 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystaline", mach
     .addItemInput(<bloodmagic:monster_soul:1>)
     .addFluidInput(<liquid:fluid_dragon_breathe>*500)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_star_dust", machineName, speedTierOne)
+	.addManaInput(5000)
+	.addItemOutput(<astralsorcery:itemcraftingcomponent:1>)
+	.addItemInput(<astralsorcery:itemcraftingcomponent:2>)
+	.addFluidInput(<liquid:astralsorcery.liquidstarlight>*2000)
+	.build();
