@@ -17,3 +17,5 @@ mods.astralsorcery.Altar.addAttunementAltarRecipe("shaped/internal/altar/demon_c
 mods.astralsorcery.Altar.addAttunementAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier3",<astralsorcery:blockaltar:2>,250,20,[<astralsorcery:itemcraftingcomponent>,null,<astralsorcery:itemcraftingcomponent>,<contenttweaker:material_part:52>,<contenttweaker:lunar_essence>,<contenttweaker:material_part:52>,<astralsorcery:blockmarble:2>,<astralsorcery:itemcraftingcomponent:1>,<astralsorcery:blockmarble:2>,<astralsorcery:itemcraftingcomponent:2>,<astralsorcery:itemcraftingcomponent:2>,<astralsorcery:blockmarble:4>,<astralsorcery:blockmarble:4>]);
 
 
+
+recipes.addShapeless(<astralsorcery:blockaltar>,[<astralsorcery:blockaltar>]);
