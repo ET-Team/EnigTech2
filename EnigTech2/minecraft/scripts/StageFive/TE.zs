@@ -87,4 +87,5 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <simplyjetpacks:itemjetpack:13>
 	[null, <ore:particleCustomizer>, <ore:particleCustomizer>, null, <ore:particleCustomizer>, <ore:particleCustomizer>, null]
 ]);
 
+mods.thermalexpansion.Transposer.addFillRecipe(<enderio:item_material:51>,<embers:blend_caminite>,<liquid:fluid_silicon>*2000,5000);
 
