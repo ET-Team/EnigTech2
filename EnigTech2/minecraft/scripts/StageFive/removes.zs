@@ -76,5 +76,6 @@ recipes.removeShaped(<minecraft:chest> * 4, [[<ore:logWood>, <ore:logWood>, <ore
 recipes.remove(<appliedenergistics2:molecular_assembler>);
 
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/perkseal");
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier4");
 
 recipes.remove(<silentgems:chaosaltar>);

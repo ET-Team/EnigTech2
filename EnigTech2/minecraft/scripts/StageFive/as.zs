@@ -18,7 +18,7 @@ mods.astralsorcery.Altar.addAttunementAltarRecipe("astralsorcery:shaped/internal
 //封闭印章
 mods.astralsorcery.Altar.addAttunmentAltarRecipe("astralsorcery:shaped/internal/altar/perkseal",<astralsorcery:itemperkseal>,10,10,[null,<astralsorcery:itemusabledust:1>,null,<astralsorcery:itemusabledust:1>,<astralsorcery:itemcraftingcomponent:3>,<astralsorcery:itemusabledust:1>,null,<astralsorcery:itemcraftingcomponent>,null,null,null,null,null]);
 //混沌法坛
-mods.astralsorcery.Altar.addDiscovertAltarRecipe("astralsorcery:shaped/internal/altar/chaosaltar",<silentgems:chaosaltar>,10,10,[<minecraft:redstone>,<silentgems:craftingmaterial:2>,<minecraft:redstone>,<botania:manaresource:9>,<enderio:block_reinforced_obsidian>,<botania:manaresource:9>,<enderio:block_reinforced_obsidian>,<enderio:block_reinforced_obsidian>,<enderio:block_reinforced_obsidian>]);
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/chaosaltar",<silentgems:chaosaltar>,10,10,[<minecraft:redstone>,<silentgems:craftingmaterial:2>,<minecraft:redstone>,<botania:manaresource:9>,<enderio:block_reinforced_obsidian>,<botania:manaresource:9>,<enderio:block_reinforced_obsidian>,<enderio:block_reinforced_obsidian>,<enderio:block_reinforced_obsidian>]);
 
 mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:strong_motor>,<contenttweaker:strong_motor_unprocessed>,4,20000,100,100);
 recipes.addShapeless(<astralsorcery:blockaltar>,[<astralsorcery:blockaltar>]);
