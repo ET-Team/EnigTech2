@@ -88,7 +88,8 @@ recipes.remove(<botania:alfheimportal>);
 //高级工作台
  recipes.addShaped(<extendedcrafting:table_advanced>,[[<botania:rune>,<extendedcrafting:material>,<botania:rune:3>],[<extendedcrafting:material>,<thermalfoundation:storage_alloy>,<extendedcrafting:material>],[<botania:rune:2>,<botania:rune:8>,<botania:rune:1>]]);
  recipes.remove(<extendedcrafting:table_advanced>);
-
-
-
+//合格框架格
+Fey.addRecipe("craftingmaterial_25", <silentgems:craftingmaterial:25>*16, [<ore:plateIron>, <botania:manaresource:22>, <botania:manaresource:16>, <botania:rune:2>, <silentgems:craftingmaterial>]);
+//易碎的混沌宝珠
+mods.botania.RuneAltar.addRecipe(<silentgems:chaosorb:1>.withTag({ChaosCharge: 0}),[<botania:manatablet>.withTag({}),<botania:rune>,<botania:rune:2>,<botania:rune:3>,<botania:rune:4>,<silentgems:craftingmaterial>,<silentgems:craftingmaterial>,<botania:manaresource:18>],20000);
 

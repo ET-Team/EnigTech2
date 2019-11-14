@@ -79,3 +79,11 @@ mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier4");
 
 recipes.remove(<silentgems:chaosaltar>);
+
+recipes.remove(<silentgems:craftingmaterial:25>);
+recipes.remove(<silentgems:craftingmaterial:26>);
+
+
+recipes.remove(<silentgems:chaosorb:1>.withTag({ChaosCharge: 0}));
+
+

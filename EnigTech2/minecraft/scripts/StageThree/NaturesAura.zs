@@ -83,3 +83,5 @@ mods.naturesaura.Altar.addRecipe("plastic_plate", <contenttweaker:solid_ethylene
 mods.naturesaura.Offering.addRecipe("divine_inspiration", <minecraft:paper>, 3, <twilightforest:hydra_chop>, <contenttweaker:divine_inspiration>);
 //炽热血
 mods.naturesaura.TreeRitual.addRecipe("fiery_blood", <minecraft:sapling>,  <twilightforest:fiery_blood>*3, 50,[<twilightforest:fiery_blood>,<thermalfoundation:material:1024>,<minecraft:glass_bottle>,<naturesaura:token_rage>] );
+//超级装甲格
+mods.naturesaura.TreeRitual.addRecipe("craftingmaterial:26", <roots:wildwood_sapling>, <silentgems:craftingmaterial:26>*16, 50,[<silentgems:craftingmaterial:1>,<naturesaura:infused_iron>,<twilightforest:naga_scale>,<botania:rune:2>,<bloodmagic:slate:1>] );

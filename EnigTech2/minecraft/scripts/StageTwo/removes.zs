@@ -27,3 +27,4 @@ recipes.remove(<immersiveengineering:metal_device1:3>);
 recipes.remove(<immersiveengineering:metal_device1:2>);
 recipes.remove(<immersiveengineering:wooden_device1:1>);
 recipes.remove(<immersiveengineering:wooden_device1>);
+
