@@ -5,6 +5,7 @@ recipes.addShaped(<rustic:crushing_tub>,[[<ore:plankWood>,null,<ore:plankWood>],
 //陶瓦
 recipes.remove(<patchouli:guide_book>.withTag({"patchouli:book": "roots:roots_guide"}));
 gigaherz.survivalist.Dryable.addRecipe(<minecraft:clay>, <minecraft:hardened_clay>, 1200);
+gigaherz.survivalist.Dryable.addRecipe(<item:biomesoplenty:fleshchunk>, <survivalist:jerky>, 4000);
 //玻璃  
 recipes.addShaped(<minecraft:glass>,[[<minecraft:brick>,<minecraft:brick>,<minecraft:brick>],[<minecraft:brick>,<minecraft:sand>,<minecraft:brick>],[<minecraft:brick>,<etutil:wooden_lighter>,<minecraft:brick>.transformReplace(<minecraft:brick>*7)]]);
 //智慧药剂
