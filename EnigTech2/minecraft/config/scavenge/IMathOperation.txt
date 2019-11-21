@@ -1,0 +1,69 @@
+- default:
+Description: A Default MathOperation that just returns true or false
+Parameters:
+"value": (Which value should be returned) Boolean,
+
+- array:
+Description: Allows to combine Math Operations together.
+Parameters:
+"operations": (It can be either a Object or a ObjectArray) OptionalObjectArray,
+   "type": (RegistryName for the Math Operation) Registry Element,
+
+- equals:
+Description: Checks if the Input Value equals the Selected Value
+Parameters:
+"modifiers": (It can be either a Object or a ObjectArray) OptionalObjectArray,
+   "type": (RegistryName for the Math Modifier) Registry Element,
+"value": (The Value the Operation should compare with) LongNumber,
+
+- equalsNot:
+Description: Checks if the InputValue doesn't match with selected Value
+Parameters:
+"modifiers": (It can be either a Object or a ObjectArray) OptionalObjectArray,
+   "type": (RegistryName for the Math Modifier) Registry Element,
+"value": (The Value the Operation should compare with) LongNumber,
+
+- bigger:
+Description: Checks if the Input Value is bigger then the selected Value
+Parameters:
+"modifiers": (It can be either a Object or a ObjectArray) OptionalObjectArray,
+   "type": (RegistryName for the Math Modifier) Registry Element,
+"value": (The Value the Operation should compare with) LongNumber,
+
+- biggerEquals:
+Description: Checks if the Input Value is bigger or equals the selected Value
+Parameters:
+"modifiers": (It can be either a Object or a ObjectArray) OptionalObjectArray,
+   "type": (RegistryName for the Math Modifier) Registry Element,
+"value": (The Value the Operation should compare with) LongNumber,
+
+- smaller:
+Description: Checks if the Input Value is smaller then the Selected Value
+Parameters:
+"modifiers": (It can be either a Object or a ObjectArray) OptionalObjectArray,
+   "type": (RegistryName for the Math Modifier) Registry Element,
+"value": (The Value the Operation should compare with) LongNumber,
+
+- smallerEquals:
+Description: Checks if the Input Values is smaller then or equals the Selected Value
+Parameters:
+"modifiers": (It can be either a Object or a ObjectArray) OptionalObjectArray,
+   "type": (RegistryName for the Math Modifier) Registry Element,
+"value": (The Value the Operation should compare with) LongNumber,
+
+- inRange:
+Description: Checks if the Input Value is in range of the Input Values
+Parameters:
+"modifiers": (It can be either a Object or a ObjectArray) OptionalObjectArray,
+   "type": (RegistryName for the Math Modifier) Registry Element,
+"minValue": (The Minimum Value the Operation should compare with) LongNumber,
+"maxValue": (The Maximum Value the Operation should compare with) LongNumber,
+
+- notInRange:
+Description: Checks if the Input Value is outside of the Range of the Selected Values
+Parameters:
+"modifiers": (It can be either a Object or a ObjectArray) OptionalObjectArray,
+   "type": (RegistryName for the Math Modifier) Registry Element,
+"minValue": (The Minimum Value the Operation should compare with) LongNumber,
+"maxValue": (The Maximum Value the Operation should compare with) LongNumber,
+

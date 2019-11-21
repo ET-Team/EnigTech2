@@ -16,7 +16,7 @@ mods.astralsorcery.Altar.addAttunementAltarRecipe("shaped/internal/altar/demon_c
 //天辉祭坛
 mods.astralsorcery.Altar.addAttunementAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier3",<astralsorcery:blockaltar:2>,250,20,[<astralsorcery:itemcraftingcomponent>,null,<astralsorcery:itemcraftingcomponent>,<contenttweaker:material_part:52>,<contenttweaker:lunar_essence>,<contenttweaker:material_part:52>,<astralsorcery:blockmarble:2>,<astralsorcery:itemcraftingcomponent:1>,<astralsorcery:blockmarble:2>,<astralsorcery:itemcraftingcomponent:2>,<astralsorcery:itemcraftingcomponent:2>,<astralsorcery:blockmarble:4>,<astralsorcery:blockmarble:4>]);
 //封闭印章
-mods.astralsorcery.Altar.addAttunmentAltarRecipe("astralsorcery:shaped/internal/altar/perkseal",<astralsorcery:itemperkseal>,10,10,[null,<astralsorcery:itemusabledust:1>,null,<astralsorcery:itemusabledust:1>,<astralsorcery:itemcraftingcomponent:3>,<astralsorcery:itemusabledust:1>,null,<astralsorcery:itemcraftingcomponent>,null,null,null,null,null]);
+mods.astralsorcery.Altar.addAttunementAltarRecipe("astralsorcery:shaped/internal/altar/perkseal",<astralsorcery:itemperkseal>,10,10,[null,<astralsorcery:itemusabledust:1>,null,<astralsorcery:itemusabledust:1>,<astralsorcery:itemcraftingcomponent:3>,<astralsorcery:itemusabledust:1>,null,<astralsorcery:itemcraftingcomponent>,null,null,null,null,null]);
 //混沌法坛
 mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/chaosaltar",<silentgems:chaosaltar>,10,10,[<minecraft:redstone>,<silentgems:craftingmaterial:2>,<minecraft:redstone>,<botania:manaresource:9>,<enderio:block_reinforced_obsidian>,<botania:manaresource:9>,<enderio:block_reinforced_obsidian>,<enderio:block_reinforced_obsidian>,<enderio:block_reinforced_obsidian>]);
 

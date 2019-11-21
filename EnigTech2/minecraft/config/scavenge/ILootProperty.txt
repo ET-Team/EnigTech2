@@ -1,0 +1,119 @@
+- set_size:
+Description: Allows to modify the Stacksize of the loot drop
+Parameters:
+"value": (the amount the Stackize should be, Default: 1) IntNumber,
+Incompatible With: None
+Type: Passive
+
+- set_random_size:
+Description: Allows to set a Random sized loot
+Parameters:
+either
+   "minValue": (Min Stacksize of the loot) IntNumber,
+   "maxValue": (Max Stacksize of the loot) IntNumber,
+or
+   "pool": (A Pool of Random numbers to pick from) IntNumberArray,
+Incompatible With: None
+Type: Active
+
+- set_damage:
+Description: Allows to modify the damage of an item
+Parameters:
+"value": (The Damage the Item should have) IntNumber,
+Incompatible With: None
+Type: Passive
+
+- set_name:
+Description: Allows to set the name of the loot item
+Parameters:
+"name": (The name of the item) String,
+Incompatible With: None
+Type: Passive
+
+- add_enchantment:
+Description: Adds an Enchantment to the loot
+Parameters:
+"name": (The Enchantment name of the Enchantment that should be addeed) String,
+"level": (The Level of the Enchantment) IntNumber,
+Incompatible With: None
+Type: Passive
+
+- add_tag:
+Description: Allows to add a NBTTag to the item
+Parameters:
+"key": (the key of the NBTTag) String,
+"value_type": (The Type of Value you want to create) String,
+"value": (The Value that you want to store) Mixed,
+Incompatible With: None
+Type: Passive
+
+- add_random_enchantment:
+Description: 
+Incompatible With: None
+Type: Active
+
+- set_nbtData:
+Description: Allows to set the Stacks NBTData
+Parameters:
+"name": (The NBT File Reference for NBTData you want to add. empty = clearing, Default: empty) String,
+Incompatible With: None
+Type: Passive
+
+- set_random_nbtData:
+Description: 
+Parameters:
+"datas": (The NBTCompounds that should be selected from) StringArray,
+Incompatible With: None
+Type: Active
+
+- set_random_damage:
+Description: Allows to set random damage on items
+Parameters:
+"damages": (The damages for the item) IntNumberArray,
+Incompatible With: None
+Type: Active
+
+- add_fluid:
+Description: Allows to Add Fluids to the Items if they can store them
+Parameters:
+"name": (The Fluid Registry name of the Fluid you want to add) String,
+"amount": (How much the Fluid Should be, Default: 1000) IntNumber,
+Incompatible With: None
+Type: Passive
+
+- add_random_fluid:
+Description: Allows to add a Random Fluid out of a List to the Item
+Parameters:
+"fluids": (The Fluids that should be pickt from) ObjectArray,
+      "name": (Fluid Registry name for the Fluid that should be added) String,
+      "amount": (How much fluid should be added, Default: 1000) IntNumber,
+Incompatible With: None
+Type: Active
+
+- set_random_loot:
+Description: Allows to add a Chance obj to a LootProperty
+Parameters:
+"loot": (The LootProperty that should be applied) Object,
+"chance": (How likely it is that the LootProperty is applied) null,
+Incompatible With: None
+Type: Active
+
+- set_has_flag:
+Description: Allows to add a LootProperty based on Data thats being send from the Block Property (sendFlagToLoot)
+Parameters:
+"flagID": (The ID of the the Flag that should be checkt for) String,
+"value": (If The Flag has to be true or false, Default: true) Boolean,
+"loot": (The LootProperty that should be applied) Object,
+Incompatible With: None
+Type: Active
+
+- set_has_Number:
+Description: Allows to add a LootProperty based on Data thats being send from the Block Property (sendNumberToLoot)
+Parameters:
+"NumberID": (The ID of the the Number that should be checkt for) String,
+"value": (What the number should be, Default: 0) IntNumber,
+"loot": (The LootProperty that should be applied) Object,
+Incompatible With: None
+Type: Active
+
+

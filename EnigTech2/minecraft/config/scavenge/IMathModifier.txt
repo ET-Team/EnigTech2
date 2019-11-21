@@ -1,0 +1,30 @@
+- add:
+Description: Adds a Selected Value to the Input Value
+Parameters:
+"value": (The Value that should be added) LongNumber,
+
+- remove:
+Description: Removes a Selected Value from the Input Value
+Parameters:
+"value": (The Value that should be removed) LongNumber,
+
+- multiply:
+Description: Multiplies the Input Value with a Selected Value
+Parameters:
+"value": (The Value that should be Multiplied with) LongNumber,
+
+- divide:
+Description: Divides the Input Value by a Selected Value
+Parameters:
+"value": (The Value that should be divide with) LongNumber,
+
+- pow:
+Description: Pows the Input Value with the Selected Value
+Parameters:
+"value": (The Value that should be pow with) LongNumber,
+
+- Modulo:
+Description: Applies the Selected Modulo to the Input Value
+Parameters:
+"value": (The Value that should be Modulo with) LongNumber,
+
