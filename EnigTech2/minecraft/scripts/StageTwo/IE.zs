@@ -27,7 +27,7 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:silicon_reinfor
 mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:baseplate_aluminum>*3, <contenttweaker:magcondium_ingot>, <thermalfoundation:material:132>*3, 160);
 
 mods.immersiveengineering.CokeOven.addRecipe(<minecraft:prismarine_shard>, 0, <minecraft:ghast_tear>, 1000);
-mods.immersiveengineering.CokeOven.addRecipe(<biomesoplenty:double_plant:2>, 0, <minecraft:ender_eye>, 1000);
+mods.immersiveengineering.CokeOven.addRecipe(<minecraft:ender_eye>, 0, <biomesoplenty:double_plant:2>, 1000);
 mods.immersiveengineering.Refinery.addRecipe(<liquid:fluid_ethylene>, <liquid:ethanol>, <liquid:sulfuric_acid>, 2048);
 
 IEMultiBlockStages.addStage("default", "IE:AutoWorkbench", "该机器已被禁用");

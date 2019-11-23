@@ -193,6 +193,6 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_star_dust", machi
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ender_eye", machineName, speedTierOne)
 	.addManaInput(5000)
 	.addItemOutput(<minecraft:ender_eye>*8)
-	.addItemInput(<biomesoplenty:doubleplant:2>*2)
+	.addItemInput(<biomesoplenty:double_plant:2>*2)
 	.addFluidInput(<liquid:astralsorcery.liquidstarlight>*1000)
 	.build();
