@@ -204,3 +204,11 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_hyperconductive_c
 	.addItemInput(<ore:gemDilithium>,3)
     .addFluidInput(<liquid:fluid_dragon_breathe>*500)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_hyperconductive_crystal", machineName, speedTierThree)
+	.addManaInput(20000)
+	.addItemOutput(<nuclearcraft:alloy:1>*2)
+	.addItemInput(<contenttweaker:material_part:54>)
+	.addItemInput(<contenttweaker:ether_alloy_ingot>)
+    .addFluidInput(<liquid:fluid_dragon_breathe>*100)
+	.build();
