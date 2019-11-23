@@ -86,4 +86,7 @@ recipes.remove(<silentgems:craftingmaterial:26>);
 
 recipes.remove(<silentgems:chaosorb:1>.withTag({ChaosCharge: 0}));
 
-
+recipes.remove(<mekanism:basicblock:8>);
+recipes.remove(<environmentaltech:laser_lens>);
+recipes.remove(<environmentaltech:connector>);
+recipes.remove(<mekanism:machineblock:8>);
