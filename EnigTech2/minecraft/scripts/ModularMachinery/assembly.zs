@@ -56,3 +56,14 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockaltar", mach
 	.addItemInput(<contenttweaker:charged_gaiya_crystal>)
     .addItemOutput(<compactmachines3:fieldprojector>*4)
     .build();
+
+ //连接器
+ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_connector", machineName, 160)
+    .addEnergyPerTickInput(1000)
+    .addFluidInput(<liquid:fluid_lubricant>*50)
+    .addItemInput(<botania:manaresource:16>*8)
+	.addItemInput(<enderio:item_material:38>*2)
+	.addItemInput(<actuallyadditions:item_crystal_empowered>)
+	.addItemInput(<contenttweaker:material_part:52>)
+    .addItemOutput(<environmentaltech:connector>)
+    .build();
