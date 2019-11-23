@@ -61,3 +61,10 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ram", machineName
     .addItemInput(<contenttweaker:resistor_fine>*2)
     .addEnergyPerTickInput(512)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_controlcircuit1", machineName, 80)
+	.addItemOutput(<mekanism:controlcircuit:1>)
+    .addItemInput(<mekanism:controlcircuit>*2)
+    .addItemInput(<contenttweaker:ultracondium_crystal>)
+    .addEnergyPerTickInput(512)
+	.build();

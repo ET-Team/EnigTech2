@@ -16,6 +16,14 @@ recipes.addShaped(<mekanism:machineblock>,[[<actuallyadditions:item_crystal_empo
 //能量板
 recipes.addShaped(<mekanism:energytablet>,[[<thermalfoundation:material:328>,<libvulpes:productgem>,<thermalfoundation:material:328>],[<mekanism:enrichedalloy>,<libvulpes:productgem>,<mekanism:enrichedalloy>],[<thermalfoundation:material:328>,<libvulpes:productgem>,<thermalfoundation:material:328>]]);
 //液体龙息
-mods.thermalexpansion.Crucible.addRecipe(<liquid:fluid_dragon_breathe>*10000, <minecraft:dragon_egg>, 50);
-
-
+mods.thermalexpansion.Crucible.addRecipe(<liquid:fluid_dragon_breathe>*10000, <minecraft:dragon_egg>, 50000);
+//超级能源输入仓
+recipes.addShaped(<modularmachinery:blockenergyinputhatch:6>,[[<modularmachinery:itemmodularium>,<mekanism:controlcircuit:1>,<modularmachinery:itemmodularium>],[<mekanism:controlcircuit:1>,<contenttweaker:ultra_machine_core>,<mekanism:controlcircuit:1>],[<modularmachinery:itemmodularium>,<mekanism:basicblock2:4>.withTag({tier: 1}),<modularmachinery:itemmodularium>]]);
+//压缩水晶素锭
+mods.mekanism.compressor.addRecipe(<extendedcrafting:material:24>, <contenttweaker:compress_crystaltine>);
+//五级结构方块
+recipes.addShaped(<environmentaltech:structure_frame_5>,[[null,<minecraft:nether_star>,null],[<environmentaltech:ionite_crystal>,<environmentaltech:structure_frame_4>,<environmentaltech:ionite_crystal>],[null,<contenttweaker:compress_crystaltine>,null]]);
+//以太合金锭
+mods.mekanism.compressor.addRecipe(<environmentaltech:aethium_crystal>, <contenttweaker:ether_alloy_ingot>);
+//三级结构方块
+recipes.addShaped(<environmentaltech:structure_frame_3>,[[null,<minecraft:diamond>,null],[<environmentaltech:kyronite_crystal>,<environmentaltech:structure_frame_2>,<environmentaltech:kyronite_crystal>],[null,<contenttweaker:ultracondium_crystal>,null]]);

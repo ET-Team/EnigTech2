@@ -9,6 +9,8 @@ import mods.contenttweaker.Color;
 
 VanillaFactory.createItem("charged_gaiya_crystal").register();
 VanillaFactory.createItem("gaiya_stabilizer").register();
+VanillaFactory.createItem("compress_crystaltine").register();
+
                                                           
 
 
