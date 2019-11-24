@@ -27,3 +27,11 @@ recipes.addShaped(<environmentaltech:structure_frame_5>,[[null,<minecraft:nether
 mods.mekanism.compressor.addRecipe(<environmentaltech:aethium_crystal>, <contenttweaker:ether_alloy_ingot>);
 //三级结构方块
 recipes.addShaped(<environmentaltech:structure_frame_3>,[[null,<minecraft:diamond>,null],[<environmentaltech:kyronite_crystal>,<environmentaltech:structure_frame_2>,<environmentaltech:kyronite_crystal>],[null,<contenttweaker:ultracondium_crystal>,null]]);
+//燃气发电机
+mods.extendedcrafting.TableCrafting.addShaped(2, <mekanismgenerators:generator:3>, [
+	[<contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>], 
+	[<contenttweaker:material_part:52>, <mekanism:gastank>, <ore:alloyUltimate>, <mekanism:gastank>, <contenttweaker:material_part:52>], 
+	[<contenttweaker:material_part:52>, <mekanism:basicblock:8>, <mekanism:electrolyticcore>, <mekanism:basicblock:8>, <contenttweaker:material_part:52>], 
+	[<contenttweaker:material_part:52>, <mekanism:gastank>, <ore:alloyUltimate>, <mekanism:gastank>, <contenttweaker:material_part:52>], 
+	[<contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <ore:plate硬化钨钢><contenttweaker:material_part:52>]
+]);
