@@ -175,12 +175,12 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_AlTi", machineNam
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystaline", machineName, speedTierThree)
 	.addManaInput(20000)
-	.addItemOutput(<extendedcrafting:material:24>*2)
+	.addItemOutput(<extendedcrafting:material:24>*3)
 	.addItemInput(<bloodmagic:monster_soul:4>)
 	.addItemInput(<bloodmagic:monster_soul:3>)
     .addItemInput(<bloodmagic:monster_soul:2>)
     .addItemInput(<bloodmagic:monster_soul:1>)
-    .addFluidInput(<liquid:fluid_dragon_breathe>*500)
+    .addFluidInput(<liquid:fluid_dragon_breathe>*1000)
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_star_dust", machineName, speedTierOne)

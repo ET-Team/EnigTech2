@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<mekanismgenerators:reactor:2>);
 recipes.remove(<nuclearcraft:fusion_core>);
 recipes.remove(<fluxnetworks:fluxcore>);
 recipes.remove(<mekanism:machineblock2:14>);
@@ -35,6 +36,8 @@ recipes.remove(<environmentaltech:interconnect>);
 recipes.remove(<environmentaltech:litherite_crystal>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<mekanism:controlcircuit:3> * 2, [[<contenttweaker:silicon_slice>, <contenttweaker:silicon_slice>, <contenttweaker:silicon_slice>],[<mekanism:controlcircuit:2>, <contenttweaker:integrated_calculation_module>, <mekanism:controlcircuit:2>], [<contenttweaker:silicon_slice>, <contenttweaker:silicon_slice>, <contenttweaker:silicon_slice>]]);
+recipes.addShaped(<mekanism:controlcircuit:2>, [[<contenttweaker:material_part:45>, <minecraft:diamond>, <contenttweaker:material_part:45>],[<mekanism:controlcircuit:1>, <extrautils2:ingredients:5>, <mekanism:controlcircuit:1>], [<contenttweaker:material_part:45>, <minecraft:diamond>, <contenttweaker:material_part:45>]]);
 recipes.addShaped(<contenttweaker:void_machine_core>, [[<contenttweaker:ultimate_motioner>, <contenttweaker:material_part:63>, <contenttweaker:ultimate_motioner>],[<contenttweaker:material_part:63>, <contenttweaker:integrated_calculation_module>, <contenttweaker:material_part:63>], [<contenttweaker:ultimate_motioner>, <contenttweaker:material_part:63>, <contenttweaker:ultimate_motioner>]]);
 recipes.addShaped(<contenttweaker:ultimate_motioner> * 2, [[<contenttweaker:material_part:51>, <thermalfoundation:material:136>, <contenttweaker:material_part:51>],[<thermalfoundation:material:136>, <contenttweaker:material_part:51>, <thermalfoundation:material:136>], [<contenttweaker:material_part:51>, <thermalfoundation:material:136>, <contenttweaker:material_part:51>]]);
 recipes.addShaped(<fluxnetworks:fluxcore> * 4, [[<actuallyadditions:item_misc:19>, <fluxnetworks:flux>, <actuallyadditions:item_misc:19>],[<fluxnetworks:flux>, <contenttweaker:compress_crystaltine>, <fluxnetworks:flux>], [<actuallyadditions:item_misc:19>, <fluxnetworks:flux>, <actuallyadditions:item_misc:19>]]);
