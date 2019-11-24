@@ -29,3 +29,15 @@ brainChip.itemRightClick = function(stack,world,player,hand){
 };
 
 brainChip.register();
+
+var ordersTruth = VanillaFactory.createItem("orders_truth");
+ordersTruth.rarity = "rare";
+ordersTruth.maxStackSize = 1;
+/*
+ordersTruth.itemRightClick = function(stack,world,player,hand){
+    Commands.call("gamestage add "+player.name+" seven", player, world);
+    stack.shrink(1);
+    return "Pass";
+};
+*/
+ordersTruth.register();
