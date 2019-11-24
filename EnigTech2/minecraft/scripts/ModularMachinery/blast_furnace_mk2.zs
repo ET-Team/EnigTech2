@@ -196,3 +196,11 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ender_eye", machi
 	.addItemInput(<biomesoplenty:double_plant:2>*2)
 	.addFluidInput(<liquid:astralsorcery.liquidstarlight>*1000)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_BFe", machineName, speedTierOne)
+	.addManaInput(5000)
+	.addItemOutput(<nuclearcraft:alloy:6>*2)
+	.addItemInput(<nuclearcraft:ingot:5>)
+	.addItemInput(<enderio:item_alloy_ingot:9>)
+	.addFluidInput(<gas:oxygen>*500)
+	.build();
