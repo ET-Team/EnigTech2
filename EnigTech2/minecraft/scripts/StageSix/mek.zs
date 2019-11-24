@@ -33,5 +33,15 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <mekanismgenerators:generator:3
 	[<contenttweaker:material_part:52>, <mekanism:gastank>, <ore:alloyUltimate>, <mekanism:gastank>, <contenttweaker:material_part:52>], 
 	[<contenttweaker:material_part:52>, <mekanism:basicblock:8>, <mekanism:electrolyticcore>, <mekanism:basicblock:8>, <contenttweaker:material_part:52>], 
 	[<contenttweaker:material_part:52>, <mekanism:gastank>, <ore:alloyUltimate>, <mekanism:gastank>, <contenttweaker:material_part:52>], 
-	[<contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <ore:plate硬化钨钢><contenttweaker:material_part:52>]
+	[<contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>]
+]);
+//聚变反应堆核心 
+mods.extendedcrafting.TableCrafting.addShaped(3, <nuclearcraft:fusion_core>, [
+	[<ore:plateElite>, <ore:plateElite>, <contenttweaker:sub_block_holder_0:8>, <ore:alloyUltimate>, <contenttweaker:sub_block_holder_0:8>, <ore:plateElite>, <ore:plateElite>], 
+	[<ore:plateElite>, <ore:blockGlassHardened>, <ore:solenoidMagnesiumDiboride>, <astralsorcery:itemshiftingstar>, <ore:solenoidMagnesiumDiboride>, <ore:blockGlassHardened>, <ore:plateElite>], 
+	[null, <ore:blockGlassHardened>, <ore:solenoidMagnesiumDiboride>, <astralsorcery:itemshiftingstar>, <ore:solenoidMagnesiumDiboride>, <ore:blockGlassHardened>, null], 
+	[null, <mekanism:basicblock2:4>, <nuclearcraft:chemical_reactor_idle>, <contenttweaker:void_machine_core>, <nuclearcraft:chemical_reactor_idle>, <mekanism:basicblock2:4>, null], 
+	[null, <ore:blockGlassHardened>, <ore:solenoidMagnesiumDiboride>, <astralsorcery:itemshiftingstar>, <ore:solenoidMagnesiumDiboride>, <ore:blockGlassHardened>, null], 
+	[<ore:plateElite>, <ore:blockGlassHardened>, <ore:solenoidMagnesiumDiboride>, <astralsorcery:itemshiftingstar>, <ore:solenoidMagnesiumDiboride>, <ore:blockGlassHardened>, <ore:plateElite>], 
+	[<ore:plateElite>, <ore:plateElite>, <contenttweaker:sub_block_holder_0:8>, <ore:alloyUltimate>, <contenttweaker:sub_block_holder_0:8>, <ore:plateElite>, <ore:plateElite>]
 ]);
