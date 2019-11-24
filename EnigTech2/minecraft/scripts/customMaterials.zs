@@ -89,7 +89,13 @@ var materials as string[] = [
 	"strong_motor_unprocessed",
 	"meteor_bait",
 	"lunar_essence",
-	"dust_small_osmium"
+	"dust_small_osmium",
+
+	"entropy",
+	"neutron",
+
+	"Enigmatium",
+	"Technium"
 ];
 
 for item in materials{

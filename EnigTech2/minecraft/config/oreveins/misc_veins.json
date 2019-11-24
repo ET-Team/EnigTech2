@@ -71,6 +71,34 @@
         "horizontal_size": 8,
         "dimensions":[7]
       },
+      "thorium": {
+        "type": "sphere",
+        "ore": [
+          {
+            "block": "nuclearcraft:ore",
+            "meta" : 3,
+            "weight": 10
+          },
+          {
+            "block": "nuclearcraft:ore",
+            "meta" : 5,
+            "weight":5
+          },
+          {
+            "block": "nuclearcraft:ore",
+            "meta" : 7,
+            "weight":3
+          }
+        ],
+        "stone": "minecraft:stone",
+        "rarity": 20,
+        "min_y": 20,
+        "max_y": 45,
+        "density": 280,
+        "vertical_size": 6,
+        "horizontal_size": 10,
+        "dimensions":[7]
+      },
       "lithium": {
         "type": "sphere",
         "ore": [
@@ -178,10 +206,6 @@
           {
             "ore":"oreIolite",
             "weight":4
-          },
-          {
-            "ore":"oreAquamarine",
-            "weight":1
           },
           {
             "ore":"oreSapphire",

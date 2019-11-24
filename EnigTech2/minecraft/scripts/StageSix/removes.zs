@@ -10,3 +10,4 @@ recipes.remove(<thermalfoundation:storage_alloy>);
 recipes.remove(<nuclearcraft:fusion_core>);
 
 
+mods.nuclearcraft.salt_mixer.removeRecipeWithOutput(<liquid:tough>);
