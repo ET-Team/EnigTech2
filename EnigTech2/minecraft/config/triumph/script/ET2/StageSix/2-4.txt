@@ -4,7 +4,7 @@ Criteria2-410.addItem(<modularmachinery:itemblueprint, nbt:{dynamicmachine: "mod
 setIcon(<modularmachinery:itemblueprint>)
 setTitle("\u9a6c\u514b3\u578b\u9b54\u80fd\u9ad8\u7089")
 setDescription("\u642d\u5efa\u9b54\u80fd\u9ad8\u7089MK3")
-setPos(-757,-13)
+setPos(-757,-12)
 addParent("ET2:StageSix/2-3")
 drawDirectLines(true)
 setShowToast(true)
