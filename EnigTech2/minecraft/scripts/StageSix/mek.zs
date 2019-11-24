@@ -45,3 +45,5 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <nuclearcraft:fusion_core>, [
 	[<ore:plateElite>, <ore:blockGlassHardened>, <ore:solenoidMagnesiumDiboride>, <astralsorcery:itemshiftingstar>, <ore:solenoidMagnesiumDiboride>, <ore:blockGlassHardened>, <ore:plateElite>], 
 	[<ore:plateElite>, <ore:plateElite>, <contenttweaker:sub_block_holder_0:8>, <ore:alloyUltimate>, <contenttweaker:sub_block_holder_0:8>, <ore:plateElite>, <ore:plateElite>]
 ]);
+//钢块
+recipes.addShaped(<thermalfoundation:storage_alloy>,[[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>]]);
