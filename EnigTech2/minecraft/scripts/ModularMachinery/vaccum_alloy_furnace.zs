@@ -12,6 +12,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_default", machine
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_cheap", machineName, 200)
+	.addMekanismHeatInput(100, 100000, 500000)
 	.addItemInput(<appliedenergistics2:material:47>)
 	.addItemInput(<contenttweaker:ether_alloy_ingot>)
 	.addItemInput(<botania:manaresource:7>)
@@ -22,8 +23,16 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_cheap", machineNa
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystaltine", machineName, 200)
-	.addMekanismHeatInput(100, 400000, 500000)
+	.addMekanismHeatInput(200, 250000, 300000)
 	.addItemInput(<extrautils2:ingredients:17>)
 	.addItemInput(<biomesoplenty:terrestrial_artifact>*2)
+	.addItemOutput(<extendedcrafting:material:24>)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystaltine_cheap", machineName, 100)
+	.addMekanismHeatInput(100, 100000, 500000)
+	.addItemInput(<extrautils2:ingredients:17>)
+	.addItemInput(<biomesoplenty:terrestrial_artifact>*2)
+	.addItemInput(<nuclearcraft:americium>)
 	.addItemOutput(<extendedcrafting:material:24>)
 	.build();

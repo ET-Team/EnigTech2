@@ -94,7 +94,7 @@ var materials as string[] = [
 	"entropy",
 	"neutron",
 
-	"Enigmatium",
+	"Enigarium",
 	"Technium"
 ];
 

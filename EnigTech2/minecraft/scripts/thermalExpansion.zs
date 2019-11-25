@@ -14,3 +14,8 @@ mods.thermalexpansion.Centrifuge.addRecipe([<astralsorcery:itemcraftingcomponent
 mods.thermalexpansion.Centrifuge.removeRecipe(<thermalfoundation:material:101>);
 mods.thermalexpansion.Centrifuge.removeRecipe(<thermalfoundation:material:102>);
 mods.thermalexpansion.Centrifuge.removeRecipe(<thermalfoundation:material:103>);
+
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutron>, <contenttweaker:entropy>, <liquid:neutron> * 1000, 100);
+
+mods.thermalexpansion.Refinery.addRecipe(<liquid:fluid_concentrated_silicon>*800, null, <liquid:fluid_silicon>*1000, 100);
+mods.thermalexpansion.Refinery.addRecipe(<liquid:fluid_concentrated_ethylene>*800, null, <liquid:fluid_ethylene>*1000, 100);
