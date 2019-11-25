@@ -1,6 +1,7 @@
 {
     "registryname": "meteor_catcher",
     "localizedname": "陨石捕获装置",
+    "color":"bebebe",
     "parts": [
         {
             "x": -1,
