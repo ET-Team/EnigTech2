@@ -1,7 +1,4 @@
 #priority 1476
-furnace.addRecipe(<nuclearcraft:ingot:3>, <nuclearcraft:ore:3>);
-furnace.addRecipe(<nuclearcraft:ingot:5>, <nuclearcraft:ore:5>);
-
 recipes.addShapedMirrored(<nuclearcraft:cobblestone_generator>, [[<nuclearcraft:part>, <contenttweaker:material_part:32>, <nuclearcraft:part>],[<minecraft:lava_bucket>, <contenttweaker:ether_alloy_ingot>, <minecraft:water_bucket>], [<nuclearcraft:part>, <contenttweaker:material_part:32>, <nuclearcraft:part>]]);
 recipes.addShapedMirrored(<nuclearcraft:cobblestone_generator>, [[<nuclearcraft:part>, <contenttweaker:material_part:32>, <nuclearcraft:part>],[<minecraft:lava_bucket>, <contenttweaker:ether_alloy_ingot>, <minecraft:water_bucket>], [<nuclearcraft:part>, <contenttweaker:material_part:32>, <nuclearcraft:part>]]);
 recipes.addShapeless(<contenttweaker:advanced_processor>, [<mekanism:controlcircuit:2>]);
