@@ -3,7 +3,7 @@ recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [[<contenttweaker
 
 recipes.addShaped(<contenttweaker:fire_resist_brick>, [[null, null, null],[null, <minecraft:brick>, <contenttweaker:fire_resist_mixture>], [null, <contenttweaker:fire_resist_mixture>, <contenttweaker:fire_resist_mixture>]]);
 
-recipes.addShaped(<contenttweaker:fire_resist_mixture> * 8, [[<minecraft:clay_ball>, <minecraft:sand>, <minecraft:slime_ball>],[<minecraft:sand>, <botania:specialflower>.withTag({type: "clayconia"}).onlyWithTag({type: "clayconia"}), <minecraft:sand>], [<minecraft:slime_ball>, <minecraft:sand>, <minecraft:clay_ball>]]);
+recipes.addShaped(<contenttweaker:fire_resist_mixture> * 6, [[<minecraft:clay_ball>, <minecraft:sand>, <minecraft:slime_ball>],[<minecraft:sand>, <botania:specialflower>.withTag({type: "clayconia"}).onlyWithTag({type: "clayconia"}).reuse(), <minecraft:sand>], [<minecraft:slime_ball>, <minecraft:sand>, <minecraft:clay_ball>]]);
 recipes.addShaped(<contenttweaker:good_fuel> * 2, [[<immersiveengineering:material:17>, <contenttweaker:mixed_coal_dust>, <immersiveengineering:material:17>],[<contenttweaker:mixed_coal_dust>, <contenttweaker:fuel_helper>, <contenttweaker:mixed_coal_dust>], [<immersiveengineering:material:17>, <contenttweaker:mixed_coal_dust>, <immersiveengineering:material:17>]]);
 
 recipes.addShaped(<contenttweaker:fuel_helper> * 2, [[<contenttweaker:dried_grass>, <thermalfoundation:material:800>], [<thermalfoundation:material:800>, <contenttweaker:dried_grass>]]);
