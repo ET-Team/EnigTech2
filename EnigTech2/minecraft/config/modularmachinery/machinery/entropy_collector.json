@@ -1,6 +1,7 @@
 {
     "registryname": "entropy_collector",
     "localizedname": "熵收集器",
+    "color":"eee8cd",
     "parts": [
         {
             "x": 2,
