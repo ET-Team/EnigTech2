@@ -21,9 +21,9 @@ inteligencePotion.register();
 
 var i = VanillaFactory.createItem("unknowing_dirt");
 
-i = 1;
+i.maxStackSize = 1;
 
-i = "rare";
+i.rarity = "rare";
 
 i.itemRightClick = function(stack, world, player, hand) {
     Commands.call("gamestage add "+player.name+" one", player, world);
