@@ -117,22 +117,13 @@
     
     "other":
     {
-        "splash-text":
-        {
-            "posX" : 90,
-            "posY" : 70,
-            "color" : -256,
-            "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
-        },
-        
-        "panorama":
-        {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
+        "background":{
+            "image" : "",
+            "slideshow":{
+                "images" : ["et2:001.png","et2:002.png","et2:003.png"],
+                "displayDuration" : 200,
+                "fadeDuration" : 60
+            }
         }
     }
 }

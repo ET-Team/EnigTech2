@@ -26,7 +26,6 @@ minecraft/coremods
 minecraft/crafttweaker.log
 minecraft/crash-reports
 minecraft/hs_err_pid4120.log
-minecraft/icon.png
 minecraft/journeymap
 minecraft/local
 minecraft/logs
@@ -37,6 +36,7 @@ minecraft/patchouli_data.json
 minecraft/resourcepacks
 minecraft/saves
 minecraft/screenshots
+minecraft/scripts/.zsrc
 minecraft/server-resource-packs
 minecraft/shaderpacks
 minecraft/structures

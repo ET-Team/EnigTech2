@@ -44,6 +44,7 @@ recipes.addShaped(<minecraft:farmland>,[[<minecraft:dye:15>,<minecraft:dye:15>,<
 recipes.remove(<minecraft:dye:15>);
 //甜菜种子
 recipes.addShapeless(<minecraft:beetroot_seeds>,[<minecraft:beetroot>]);
+recipes.addShapeless(<contenttweaker:unknowing_dirt>,[<minecraft:dirt>]);
 //石台阶
 recipes.remove(<minecraft:stone_slab:3>);
 recipes.addShaped(<minecraft:stone_slab:3>*6,[[<minecraft:cobblestone>,<minecraft:cobblestone>,<minecraft:cobblestone>]]);

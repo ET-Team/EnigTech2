@@ -18,3 +18,17 @@ inteligencePotion.itemRightClick = function(stack, world, player, hand) {
 };
 
 inteligencePotion.register();
+
+var i = VanillaFactory.createItem("unknowing_dirt");
+
+i = 1;
+
+i = "rare";
+
+i.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add "+player.name+" one", player, world);
+    stack.shrink(1);
+    return "Pass";
+};
+
+i.register();
