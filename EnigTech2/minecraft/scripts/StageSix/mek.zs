@@ -47,3 +47,8 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <nuclearcraft:fusion_core>, [
 ]);
 //钢块
 recipes.addShaped(<thermalfoundation:storage_alloy>,[[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>]]);
+
+
+recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk3"}),[<environmentaltech:lonsdaleite_crystal>,<minecraft:paper>]);
+recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:vaccum_alloy_furnace"}),[<nuclearcraft:alloy:1>,<minecraft:paper>]);
+recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:entropy_collector"}),[<contenttweaker:material_part:63>,<minecraft:paper>]);
