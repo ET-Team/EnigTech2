@@ -1,6 +1,15 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<nuclearcraft:cobblestone_generator>);
+recipes.remove(<nuclearcraft:cobblestone_generator>);
+recipes.remove(<environmentaltech:photovoltaic_cell>);
+recipes.remove(<environmentaltech:photovoltaic_cell>);
+recipes.remove(<environmentaltech:solar_cont_1>);
+recipes.remove(<environmentaltech:solar_cont_1>);
+recipes.remove(<nuclearcraft:cooler>);
+recipes.remove(<nuclearcraft:cobblestone_generator_dense>);
+recipes.remove(<nuclearcraft:cobblestone_generator_compact>);
 recipes.remove(<mekanismgenerators:reactor:2>);
 recipes.remove(<nuclearcraft:fusion_core>);
 recipes.remove(<fluxnetworks:fluxcore>);
@@ -36,6 +45,18 @@ recipes.remove(<environmentaltech:interconnect>);
 recipes.remove(<environmentaltech:litherite_crystal>);
 //Don't touch me!
 //#Add
+recipes.addShapedMirrored(<nuclearcraft:cobblestone_generator>, [[<nuclearcraft:part>, <contenttweaker:material_part:32>, <nuclearcraft:part>],[<minecraft:lava_bucket>, <contenttweaker:ether_alloy_ingot>, <minecraft:water_bucket>], [<nuclearcraft:part>, <contenttweaker:material_part:32>, <nuclearcraft:part>]]);
+recipes.addShapedMirrored(<nuclearcraft:cobblestone_generator>, [[<nuclearcraft:part>, <contenttweaker:material_part:32>, <nuclearcraft:part>],[<minecraft:lava_bucket>, <contenttweaker:ether_alloy_ingot>, <minecraft:water_bucket>], [<nuclearcraft:part>, <contenttweaker:material_part:32>, <nuclearcraft:part>]]);
+recipes.addShapeless(<contenttweaker:advanced_processor>, [<mekanism:controlcircuit:2>]);
+recipes.addShaped(<environmentaltech:photovoltaic_cell> * 2, [[<contenttweaker:silicon_slice>, <contenttweaker:silicon_slice>, <contenttweaker:silicon_slice>],[<actuallyadditions:item_crystal:1>, <actuallyadditions:item_crystal:1>, <actuallyadditions:item_crystal:1>], [<contenttweaker:silicon_slice>, <contenttweaker:silicon_slice>, <contenttweaker:silicon_slice>]]);
+recipes.addShaped(<environmentaltech:solar_cont_1>, [[<ore:blockLitherite>, <ore:plateAdvanced>, <ore:blockLitherite>],[<ore:plateAdvanced>, <ore:etSolarCell>, <ore:plateAdvanced>], [<ore:blockLitherite>, <ore:plateAdvanced>, <ore:blockLitherite>]]);
+recipes.addShaped(<nuclearcraft:cooler> * 4, [[<thermalfoundation:material:359>, <contenttweaker:material_part:79>, <thermalfoundation:material:359>],[<contenttweaker:material_part:79>, null, <contenttweaker:material_part:79>], [<thermalfoundation:material:359>, <contenttweaker:material_part:79>, <thermalfoundation:material:359>]]);
+recipes.addShaped(<modulardiversity:blockmekheatinput>, [[<modularmachinery:itemmodularium>, <contenttweaker:sub_block_holder_0:12>, <modularmachinery:itemmodularium>],[<contenttweaker:sub_block_holder_0:12>, <mekanism:basicblock2:3>.withTag({tier: 3}).onlyWithTag({tier: 3}), <contenttweaker:sub_block_holder_0:12>], [<modularmachinery:itemmodularium>, <contenttweaker:sub_block_holder_0:12>, <modularmachinery:itemmodularium>]]);
+recipes.addShaped(<modulardiversity:blockmeklaseracceptor>, [[<modularmachinery:itemmodularium>, <thermalfoundation:material:165>, <modularmachinery:itemmodularium>],[<thermalfoundation:material:165>, <mekanism:basicblock2:4>.withTag({tier: 3}).onlyWithTag({tier: 3}), <thermalfoundation:material:165>], [<modularmachinery:itemmodularium>, <thermalfoundation:material:165>, <modularmachinery:itemmodularium>]]);
+recipes.addShaped(<nuclearcraft:cobblestone_generator_dense>, [[<nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>],[<nuclearcraft:cobblestone_generator_compact>, <thermalfoundation:material:167>, <nuclearcraft:cobblestone_generator_compact>], [<nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>]]);
+recipes.addShaped(<nuclearcraft:cobblestone_generator_compact>, [[<nuclearcraft:cobblestone_generator>, <nuclearcraft:cobblestone_generator>, <nuclearcraft:cobblestone_generator>],[<nuclearcraft:cobblestone_generator>, <thermalfoundation:material:165>, <nuclearcraft:cobblestone_generator>], [<nuclearcraft:cobblestone_generator>, <nuclearcraft:cobblestone_generator>, <nuclearcraft:cobblestone_generator>]]);
+recipes.addShapeless(<contenttweaker:plastic_plate>, [<nuclearcraft:part:6>]);
+recipes.addShapeless(<contenttweaker:plastic_plate>, [<mekanism:polyethene:2>]);
 recipes.addShaped(<mekanism:controlcircuit:3> * 2, [[<contenttweaker:silicon_slice>, <contenttweaker:silicon_slice>, <contenttweaker:silicon_slice>],[<mekanism:controlcircuit:2>, <contenttweaker:integrated_calculation_module>, <mekanism:controlcircuit:2>], [<contenttweaker:silicon_slice>, <contenttweaker:silicon_slice>, <contenttweaker:silicon_slice>]]);
 recipes.addShaped(<mekanism:controlcircuit:2>, [[<contenttweaker:material_part:45>, <minecraft:diamond>, <contenttweaker:material_part:45>],[<mekanism:controlcircuit:1>, <extrautils2:ingredients:5>, <mekanism:controlcircuit:1>], [<contenttweaker:material_part:45>, <minecraft:diamond>, <contenttweaker:material_part:45>]]);
 recipes.addShaped(<contenttweaker:void_machine_core>, [[<contenttweaker:ultimate_motioner>, <contenttweaker:material_part:63>, <contenttweaker:ultimate_motioner>],[<contenttweaker:material_part:63>, <contenttweaker:integrated_calculation_module>, <contenttweaker:material_part:63>], [<contenttweaker:ultimate_motioner>, <contenttweaker:material_part:63>, <contenttweaker:ultimate_motioner>]]);

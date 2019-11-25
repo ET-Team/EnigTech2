@@ -202,5 +202,5 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_BFe", machineName
 	.addItemOutput(<nuclearcraft:alloy:6>*2)
 	.addItemInput(<nuclearcraft:ingot:5>)
 	.addItemInput(<enderio:item_alloy_ingot:9>)
-	.addFluidInput(<gas:oxygen>*500)
+	.addGasInput("oxygen",500)
 	.build();

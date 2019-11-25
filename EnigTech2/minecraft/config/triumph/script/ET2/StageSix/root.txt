@@ -2,10 +2,10 @@
 setIcon(<minecraft:paper>)
 
 //Set title String
-setTitle("1")
+setTitle("\u9636\u6bb5\u516d:\u539f\u5b50")
 
 //Set description String
-setDescription("1")
+setDescription("\u4f60\u638c\u63e1\u4e86\u661f\u8fb0\u7684\u5965\u79d8,\u63a5\u4e0b\u6765\u5c31\u662f\u5e94\u7528\u5b83\u4eec\u4e86...")
 
 //Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
 setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
@@ -21,4 +21,4 @@ setPos(-878,56)
 
 //Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
 Criteria40 = addCriteria("completedParent", "triumph:completed_advancement")
-Criteria40.setAdvancement("ET2:StageFour/naojixinpian")
+Criteria40.setAdvancement("ET2:StageFive/roof")

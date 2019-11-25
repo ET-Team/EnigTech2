@@ -202,7 +202,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_hyperconductive_c
 	.addItemOutput(<contenttweaker:ultracondium_crystal>)
 	.addItemInput(<extendedcrafting:material:24>)
 	.addItemInput(<ore:gemDilithium>,3)
-    .addFluidInput(<gas:oxygen>*500)
+    .addGasInput("oxygen",500)
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_BFe", machineName, speedTierOne)
@@ -210,7 +210,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_BFe", machineName
 	.addItemOutput(<nuclearcraft:alloy:6>*2)
 	.addItemInput(<nuclearcraft:ingot:5>)
 	.addItemInput(<enderio:item_alloy_ingot:9>)
-	.addFluidInput(<gas:oxygen>*500)
+	.addGasInput("oxygen",500)
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_Tough", machineName, speedTierTwo)
@@ -219,7 +219,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_Tough", machineNa
 	.addItemInput(<nuclearcraft:alloy:6>)
 	.addItemInput(<contenttweaker:material_part:54>)
 	.addItemInput(<contenttweaker:ether_alloy_ingot>)
-	.addFluidInput(<gas:oxygen>*500)
+	.addGasInput("oxygen",500)
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_Low", machineName, speedTierTwo)
@@ -227,5 +227,5 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_Low", machineName
 	.addItemOutput(<nuclearcraft:alloy:15>*2)
 	.addItemInput(<contenttweaker:compress_crystaltine>)
 	.addItemInput(<thermalfoundation:material:167>)
-	.addFluidInput(<gas:oxygen>*500)
+	.addGasInput("oxygen",500)
 	.build();
