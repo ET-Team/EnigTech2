@@ -25,3 +25,23 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <storagedrawers:upgrade_creativ
 	[null, null, <contenttweaker:entropy>, <contenttweaker:material_part:61>, <extrautils2:opinium:4>, <contenttweaker:material_part:61>, <contenttweaker:entropy>, null, null], 
 	[null, null, null, <contenttweaker:entropy>, <contenttweaker:entropy>, <contenttweaker:entropy>, null, null, null]
 ]);
+//终极工作台
+mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:table_ultimate>, [
+	[<extendedcrafting:material:2>, null, null, null, null, null, <extendedcrafting:material:2>], 
+	[<extendedcrafting:material:2>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:2>], 
+	[null, <extendedcrafting:material:2>, <extendedcrafting:material:2>, <ore:circuitUltimate>, <extendedcrafting:material:2>, <extendedcrafting:material:2>, null], 
+	[null, null, <extendedcrafting:material:2>, <ore:alloyUltimate>, <extendedcrafting:material:2>, null, null], 
+	[null, null, <extendedcrafting:material:2>, <ore:blockBlackIron>, <extendedcrafting:material:2>, null, null], 
+	[null, <extendedcrafting:material:2>, <ore:blockBlackIron>, <ore:blockBlackIron>, <ore:blockBlackIron>, <extendedcrafting:material:2>, null], 
+	[<ore:blockBlackIron>, <ore:blockBlackIron>, <ore:blockBlackIron>, <ore:blockBlackIron>, <ore:blockBlackIron>, <ore:blockBlackIron>, <ore:blockBlackIron>]
+]);
+//宝石
+mods.naturesaura.Offering.addRecipe("1", <silentgems:gem:26>,1,<twilightforest:hydra_chop>, <silentgems:gem:26>*64);
+mods.naturesaura.Offering.addRecipe("2", <silentgems:gem:5>,1,<twilightforest:hydra_chop>, <silentgems:gem:5>*64);
+mods.naturesaura.Offering.addRecipe("3", <silentgems:gem:22>,1,<twilightforest:hydra_chop>, <silentgems:gem:22>*64);
+mods.naturesaura.Offering.addRecipe("4", <silentgems:gem:9>,1,<twilightforest:hydra_chop>, <silentgems:gem:9>*64);
+mods.naturesaura.Offering.addRecipe("5", <silentgems:gem:3>,1,<twilightforest:hydra_chop>, <silentgems:gem:3>*64);
+mods.naturesaura.Offering.addRecipe("6", <silentgems:gem:2>,1,<twilightforest:hydra_chop>, <silentgems:gem:2>*64);
+mods.naturesaura.Offering.addRecipe("7", <silentgems:gem>,1,<twilightforest:hydra_chop>, <silentgems:gem>*64);
+
+
