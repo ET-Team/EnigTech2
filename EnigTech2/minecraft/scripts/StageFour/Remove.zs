@@ -1,6 +1,11 @@
 #priority 1891
 import mods.enderio.AlloySmelter;
+import mods.appliedenergistics2.Inscriber;
+import mods.appliedenergistics2.Grinder;
 
+recipes.remove(<immersiveengineering:metal_device0:2>);
+recipes.remove(<immersiveengineering:metal_device0:1>);
+recipes.remove(<immersiveengineering:metal_device0>);
 recipes.remove(<embers:blend_caminite>);
 recipes.remove(<embers:ember_bore>);
 recipes.remove(<embers:mech_core>);
@@ -53,3 +58,63 @@ mods.enderio.AlloySmelter.removeRecipe(<nuclearcraft:alloy:1>);
 recipes.remove(<enderio:item_power_conduit:1>);
 recipes.remove(<tanaddons:temp_regulator>);
 
+//硅
+furnace.remove(<appliedenergistics2:material:5>);
+recipes.remove(<appliedenergistics2:material:5>);
+mods.mekanism.crusher.removeRecipe(<nuclearcraft:gem:6>);
+mods.enderio.SagMill.removeRecipe(<minecraft:redstone_ore>);
+mods.enderio.SagMill.removeRecipe(<minecraft:sand>);
+mods.enderio.SagMill.removeRecipe(<minecraft:clay>);
+
+//mekanism电路板
+mods.mekanism.infuser.removeRecipe(<mekanism:controlcircuit>);
+recipes.remove(<mekanism:controlcircuit:1>);
+recipes.remove(<mekanism:controlcircuit:2>);
+recipes.remove(<mekanism:controlcircuit:3>);
+
+//ae电路板
+Inscriber.removeRecipe(<appliedenergistics2:material:20>);
+Inscriber.removeRecipe(<appliedenergistics2:material:23>);
+Inscriber.removeRecipe(<appliedenergistics2:material:24>);
+Inscriber.removeRecipe(<appliedenergistics2:material:22>);
+Inscriber.removeRecipe(<appliedenergistics2:material:17>);
+Inscriber.removeRecipe(<appliedenergistics2:material:18>);
+Inscriber.removeRecipe(<appliedenergistics2:material:16>);
+
+//粉碎石英
+mods.mekanism.crusher.removeRecipe(<nuclearcraft:gem_dust:2>);
+mods.nuclearcraft.manufactory.removeRecipeWithOutput(<nuclearcraft:gem_dust:2>);
+Grinder.removeRecipe(<minecraft:quartz>);
+Grinder.removeRecipe(<minecraft:quartz_ore>);
+mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:gem_dust:2>);
+mods.actuallyadditions.Crusher.removeRecipe(<nuclearcraft:gem_dust:2>);
+mods.astralsorcery.Grindstone.removeRecipe(<nuclearcraft:gem_dust:2>);
+mods.bloodmagic.AlchemyTable.removeRecipe([<minecraft:quartz_ore>,<bloodmagic:cutting_fluid>.withTag({})]);
+mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:quartz>);
+mods.enderio.SagMill.removeRecipe(<minecraft:quartz>);
+mods.enderio.SagMill.removeRecipe(<minecraft:quartz_ore>);
+mods.enderio.SagMill.removeRecipe(<actuallyadditions:block_misc:3>);
+
+
+recipes.remove(<forestry:fabricator>);
+recipes.remove(<forestry:rainmaker>);
+recipes.remove(<forestry:squeezer>);
+recipes.remove(<forestry:moistener>);
+recipes.remove(<forestry:fermenter>);
+recipes.remove(<forestry:centrifuge>);
+recipes.remove(<forestry:carpenter>);
+recipes.remove(<forestry:bottler>);
+
+recipes.remove(<extrautils2:machine>);
+
+recipes.remove(<deepmoblearning:trial_key>);
+recipes.remove(<deepmoblearning:simulation_chamber>);
+recipes.remove(<deepmoblearning:extraction_chamber>);
+recipes.remove(<deepmoblearning:trial_keystone>);
+
+recipes.remove(<actuallyadditions:block_atomic_reconstructor>);
+recipes.remove(<enderio:item_material:51>);
+
+recipes.remove(<appliedenergistics2:material:35>);
+
+recipes.remove(<twilightforest:uncrafting_table>);

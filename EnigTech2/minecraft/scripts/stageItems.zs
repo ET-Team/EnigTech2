@@ -7,7 +7,7 @@
     import mods.contenttweaker.Commands;
 
 //定义函数
-function createStageItem(name as string, stage as string, enabled as bool){
+    function createStageItem(name as string, stage as string, enabled as bool){
     var item = VanillaFactory.createItem(name);
     item.maxStackSize = 1;
     item.rarity = "rare";
@@ -19,7 +19,7 @@ function createStageItem(name as string, stage as string, enabled as bool){
         };
     }
     item.register();
-}
+    }
 //注册物品
     createStageItem("unknowing_dirt", "one", true);
     createStageItem("potion_inteligence", "two", true);

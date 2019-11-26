@@ -19,7 +19,8 @@ var fluids as string[string] = {
 	"hydrochloric_acid" : "CCCC33",
 	"silicon" : "CCCCA3",
 	"concentrated_silicon" : "CCCC83",
-	"dragon_breathe" : "CD00CD"
+	"dragon_breathe" : "CD00CD",
+	"blend_caminite" : "FFFFFF"
 };
 //流体注册
 for key in fluids{
@@ -92,7 +93,10 @@ var items as string[] = [
 	"entropy",
 	"neutron",
 	"Enigarium",
-	"Technium"
+	"Technium",
+	"charged_gaiya_crystal",
+	"gaiya_stabilizer",
+	"compress_crystaltine"
 ];
 //物品注册
 for item in items{
