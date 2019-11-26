@@ -1,4 +1,4 @@
-#priority 2500
+#priority 1005
 recipes.remove(<immersiveengineering:stone_decoration> * 3);
 recipes.remove(<immersiveengineering:stone_decoration:1> * 3);
 recipes.remove(<immersiveengineering:stone_decoration:2>);

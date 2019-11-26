@@ -55,6 +55,5 @@ recipes.remove(<roots:component_pouch>);
 recipes.remove(<rustic:fertile_soil>);
 //鞣制皮革
 furnace.remove(<improvedbackpacks:tanned_leather>);
-<ore:materialTannedLeather>.add(<improvedbackpacks:tanned_leather>);
 gigaherz.survivalist.Dryable.addRecipe(<improvedbackpacks:bound_leather>,<improvedbackpacks:tanned_leather>, 600);
 gigaherz.survivalist.Dryable.removeRecipe(<survivalist:tanned_leather>, <minecraft:leather>);

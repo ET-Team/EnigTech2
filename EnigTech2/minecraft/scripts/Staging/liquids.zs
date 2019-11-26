@@ -1,4 +1,5 @@
 #priority 1500
+
 mods.jei.JEI.hide(<liquid:aerotheum>);
 mods.jei.JEI.hide(<liquid:alchemical_redstone>);
 mods.jei.JEI.hide(<liquid:ale>);

@@ -1,6 +1,5 @@
 #priority 1369
 
-val oreDictEnt = <ore:gemAmethyst>;
-oreDictEnt.remove(<mysticalworld:amethyst_gem>);
-val oreDictEnt2 = <ore:gemAquamarine>;
-oreDictEnt2.remove(<silentgems:gem:8>);
+<ore:gemAmethyst>.remove(<mysticalworld:amethyst_gem>);
+<ore:gemAquamarine>.remove(<silentgems:gem:8>);
+<ore:materialTannedLeather>.add(<improvedbackpacks:tanned_leather>);
