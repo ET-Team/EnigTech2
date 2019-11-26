@@ -21,3 +21,5 @@ recipes.addShaped(<roots:mortar>,[[<minecraft:cobblestone>,null,<minecraft:cobbl
 recipes.remove(<roots:mortar>);
 //睡莲
 Pyre.addRecipe("waterlily", <minecraft:waterlily>*3, [<minecraft:vine>, <minecraft:cactus>, <ore:treeLeaves>, <ore:treeLeaves>, <roots:wildroot>]);
+//格罗夫祈愿
+Mortar.changeSpell("spell_supplication", [<roots:cloud_berry>, <minecraft:mossy_cobblestone>, <minecraft:sapling>, <roots:wildroot>, <roots:petals>]);

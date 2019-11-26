@@ -11,7 +11,6 @@ furnace.remove(<ore:ingotOsmium>);
 furnace.remove(<ore:ingotAluminum>);
 
 furnace.setFuel(<contenttweaker:bad_fuel>, 3200);
-
 furnace.setFuel(<contenttweaker:good_fuel>, 6400);
 
 recipes.remove(<arcanearchives:radiant_resonator>);
@@ -20,9 +19,7 @@ recipes.remove(<storagedrawers:upgrade_storage:3>);
 recipes.remove(<storagedrawers:upgrade_storage:2>);
 recipes.remove(<storagedrawers:upgrade_storage:1>);
 recipes.remove(<storagedrawers:upgrade_storage>);
-
 recipes.remove(<naturesaura:placer>);
-
 recipes.remove(<immersiveengineering:metal_device1:3>);
 recipes.remove(<immersiveengineering:metal_device1:2>);
 recipes.remove(<immersiveengineering:wooden_device1:1>);
