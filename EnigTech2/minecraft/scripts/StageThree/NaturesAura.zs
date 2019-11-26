@@ -28,16 +28,13 @@ mods.naturesaura.TreeRitual.addRecipe("soul_snare", <minecraft:sapling>, <bloodm
 mods.naturesaura.Altar.addRecipe("infused_stone", <botania:livingrock>, <naturesaura:infused_stone>, null, 20, 50);
 //浴火熔炉
 mods.extendedcrafting.TableCrafting.addShaped(2, <bloodmagic:soul_forge>, [
+	[<naturesaura:infused_stone>, <botania:manaresource:7>, null, <botania:manaresource:7>, <naturesaura:infused_stone>], 
+	[<naturesaura:infused_stone>, <botania:manaresource:8>, <botania:manaresource:9>, <botania:manaresource:8>, <naturesaura:infused_stone>], 
+	[<naturesaura:infused_stone>, <naturesaura:token_anger>, <contenttweaker:magcondium_ingot>,<naturesaura:token_fear>, <naturesaura:infused_stone>], 
+	[null, <naturesaura:infused_stone>, <botania:specialflower>.withTag({type: "exoflame"}), <naturesaura:infused_stone>, null], 
+	[null, <naturesaura:infused_stone>, <naturesaura:infused_iron_block>, <naturesaura:infused_stone>, null]
+]);
 
-[<naturesaura:infused_stone>, <botania:manaresource:7>, null, <botania:manaresource:7>, <naturesaura:infused_stone>], 
-
-[<naturesaura:infused_stone>, <botania:manaresource:8>, <botania:manaresource:9>, <botania:manaresource:8>, <naturesaura:infused_stone>], 
-
-[<naturesaura:infused_stone>, <naturesaura:token_anger>, <contenttweaker:magcondium_ingot>,<naturesaura:token_fear>, <naturesaura:infused_stone>], 
-
-[null, <naturesaura:infused_stone>, <botania:specialflower>.withTag({type: "exoflame"}), <naturesaura:infused_stone>, null], 
-
-[null, <naturesaura:infused_stone>, <naturesaura:infused_iron_block>, <naturesaura:infused_stone>, null]]);  
 //血之祭坛
 mods.extendedcrafting.TableCrafting.addShaped(2, <bloodmagic:altar>, [
 	[null, null, null, null, null], 

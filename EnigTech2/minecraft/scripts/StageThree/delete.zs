@@ -1,5 +1,7 @@
 #priority 1899
 
+recipes.remove(<xpt:link_card>);
+recipes.remove(<xpt:teleporter:1>);
 recipes.remove(<naturesaura:gold_fiber>);
 recipes.remove(<naturesaura:bottle_two_the_rebottling>);
 recipes.remove(<naturesaura:gold_powder>);
