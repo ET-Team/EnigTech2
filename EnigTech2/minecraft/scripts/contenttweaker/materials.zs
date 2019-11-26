@@ -27,17 +27,17 @@
 	var part_names = ["dust", "gear", "plate", "nugget", "ingot", "rod", "dust_tiny"] as string[];
 
 //注册类型，矿石及金属块
-for i, metal in metal_list {
-    metal.registerParts(part_names);
-    var blockData = metal.registerPart("block").getData();
-    blockData.addDataValue("hardness", "5");
-    blockData.addDataValue("resistance", "30");
-    blockData.addDataValue("harvestTool", "pickaxe");
-    blockData.addDataValue("harvestLevel", "2");
+	for i, metal in metal_list {
+		metal.registerParts(part_names);
+		var blockData = metal.registerPart("block").getData();
+		blockData.addDataValue("hardness", "5");
+		blockData.addDataValue("resistance", "30");
+		blockData.addDataValue("harvestTool", "pickaxe");
+		blockData.addDataValue("harvestLevel", "2");
 
-	var oreData = metal.registerPart("ore").getData();
-	oreData.addDataValue("hardness", "5");
-    oreData.addDataValue("resistance", "30");
-    oreData.addDataValue("harvestTool", "pickaxe");
-    oreData.addDataValue("harvestLevel", "3");
-}
+		var oreData = metal.registerPart("ore").getData();
+		oreData.addDataValue("hardness", "5");
+		oreData.addDataValue("resistance", "30");
+		oreData.addDataValue("harvestTool", "pickaxe");
+		oreData.addDataValue("harvestLevel", "3");
+	}

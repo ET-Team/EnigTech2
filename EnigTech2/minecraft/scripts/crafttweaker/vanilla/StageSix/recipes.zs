@@ -42,3 +42,5 @@ recipes.addShaped(<environmentaltech:structure_panel> * 2, [[<thermalfoundation:
 recipes.addShaped(<enderio:item_power_conduit:2> * 2, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<thermalfoundation:material:167>, <enderio:item_power_conduit:1>, <thermalfoundation:material:167>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 recipes.addShaped(<thermalexpansion:augment:512> * 2, [[null, <contenttweaker:iridium_osmium_ingot>, null],[<contenttweaker:iridium_osmium_ingot>, <thermalfoundation:material:514>, <contenttweaker:iridium_osmium_ingot>], [null, <contenttweaker:iridium_osmium_ingot>, null]]);
 recipes.addShaped(<thermalexpansion:augment:673>, [[<astralsorcery:itemcoloredlens>, <astralsorcery:itemcoloredlens>, <astralsorcery:itemcoloredlens>],[<astralsorcery:itemcoloredlens>, <thermalexpansion:dynamo:3>, <astralsorcery:itemcoloredlens>], [<mekanism:atomicalloy>, <thermalexpansion:augment:512>, <mekanism:atomicalloy>]]);
+//将所有包含高级火箭晶圆的配方替换成ET2晶圆
+recipes.replaceAllOccurences(<advancedrocketry:wafer>, <contenttweaker:ic_wafer>);
