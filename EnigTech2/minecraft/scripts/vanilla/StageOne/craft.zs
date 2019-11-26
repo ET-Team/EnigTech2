@@ -57,3 +57,6 @@ recipes.remove(<rustic:fertile_soil>);
 furnace.remove(<improvedbackpacks:tanned_leather>);
 gigaherz.survivalist.Dryable.addRecipe(<improvedbackpacks:bound_leather>,<improvedbackpacks:tanned_leather>, 600);
 gigaherz.survivalist.Dryable.removeRecipe(<survivalist:tanned_leather>, <minecraft:leather>);
+
+recipes.remove(<minecraft:crafting_table>);
+mods.recipestages.Recipes.addShaped("one", <minecraft:crafting_table>, [[<survivalist:hatchet>, <survivalist:rock>], [<ore:logWood>, <ore:logWood>]]);
