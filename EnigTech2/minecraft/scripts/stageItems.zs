@@ -5,26 +5,34 @@
     import mods.contenttweaker.Item;
     import mods.contenttweaker.IItemRightClick;
     import mods.contenttweaker.Commands;
+    import mods.contenttweaker.MutableItemStack;
 
-//定义函数
+    global stageItems as string[string] = {
+        unknowing_dirt : "one",
+        potion_inteligence : "two",
+        ancient_scroll : "three",
+        divine_inspiration : "four",
+        brain_chip : "five",
+        star_rune : "six",
+        orders_truth : "seven"
+    };
+
     function createStageItem(name as string, stage as string, enabled as bool){
-    var item = VanillaFactory.createItem(name);
-    item.maxStackSize = 1;
-    item.rarity = "rare";
-    if(enabled){
-        item.itemRightClick = function(stack, world, player, hand){
-            Commands.call("gamestage add "+player.name+" "+stage, player, world);
-            stack.shrink(1);
-            return "Pass";
-        };
+        var item as Item = VanillaFactory.createItem(name);
+        item.maxStackSize = 1;
+        item.rarity = "rare";
+        if(enabled){
+            item.itemRightClick = function(stack, world, player, hand) {
+                print(stack.name);
+                Commands.call("gamestage add "+player.name+" "+stageItems[stack.name.substring(20)], player, world);
+                stack.shrink(1);
+                return "Success";
+            };
+        }
+        item.register();
     }
-    item.register();
-    }
+
 //注册物品
-    createStageItem("unknowing_dirt", "one", true);
-    createStageItem("potion_inteligence", "two", true);
-    createStageItem("ancient_scroll", "three", true);
-    createStageItem("divine_inspiration", "four", true);
-    createStageItem("brain_chip", "five", true);
-    createStageItem("star_rune", "six", true);
-    createStageItem("orders_truth", "seven", false);
+    for key in stageItems{
+        createStageItem(key, stageItems[key], key != "orders_truth");
+    }
