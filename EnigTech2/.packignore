@@ -17,9 +17,9 @@ minecraft/config/carryon-scripts
 minecraft/config/codechicken
 minecraft/config/endercore
 minecraft/config/enderio
-minecraft/config/environmentaltech
 minecraft/config/forgeendertech
 minecraft/config/jei/bookmarks.ini
+minecraft/config/jei/jei.cfg
 minecraft/config/jei/searchColors.cfg
 minecraft/config/jei/worldSettings.cfg
 minecraft/config/waitingtimestats.json
