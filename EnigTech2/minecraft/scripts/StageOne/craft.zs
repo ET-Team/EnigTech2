@@ -57,3 +57,5 @@ recipes.remove(<rustic:fertile_soil>);
 furnace.remove(<improvedbackpacks:tanned_leather>);
 gigaherz.survivalist.Dryable.addRecipe(<improvedbackpacks:bound_leather>,<improvedbackpacks:tanned_leather>, 600);
 gigaherz.survivalist.Dryable.removeRecipe(<survivalist:tanned_leather>, <minecraft:leather>);
+//火把
+recipes.addShaped(<minecraft:torch>,[[<roots:terra_moss>],[<minecraft:stick>]]);

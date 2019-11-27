@@ -52,3 +52,16 @@ recipes.addShaped(<thermalfoundation:storage_alloy>,[[<ore:ingotSteel>,<ore:ingo
 recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk3"}),[<environmentaltech:lonsdaleite_crystal>,<minecraft:paper>]);
 recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:vaccum_alloy_furnace"}),[<nuclearcraft:alloy:1>,<minecraft:paper>]);
 recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:entropy_collector"}),[<contenttweaker:material_part:63>,<minecraft:paper>]);
+
+//守序者
+mods.extendedcrafting.TableCrafting.addShaped(4, <contenttweaker:orders_truth>, [
+	[null, null, <contenttweaker:material_part:61>, <contenttweaker:material_part:61>, <contenttweaker:material_part:61>, <contenttweaker:material_part:61>, <contenttweaker:material_part:61>, null, null], 
+	[null, <contenttweaker:material_part:61>, <astralsorcery:itemshiftingstar>, <contenttweaker:entropy>, <ore:ingotCalifornium250Base>, <contenttweaker:entropy>, <astralsorcery:itemshiftingstar>, <contenttweaker:material_part:61>, null], 
+	[<contenttweaker:material_part:61>, <astralsorcery:itemshiftingstar>, <contenttweaker:entropy>, <ore:ingotCalifornium250Base>, <ore:ingotCalifornium250>, <ore:ingotCalifornium250Base>, <contenttweaker:entropy>, <astralsorcery:itemshiftingstar>, <contenttweaker:material_part:61>], 
+	[<contenttweaker:material_part:61>, <contenttweaker:entropy>, <ore:ingotCalifornium250Base>, <ore:ingotCalifornium252>, <contenttweaker:neutron>, <ore:ingotCalifornium252>, <ore:ingotCalifornium250Base>, <contenttweaker:entropy>, <contenttweaker:material_part:61>], 
+	[<contenttweaker:material_part:61>, <ore:ingotCalifornium250Base>, <ore:ingotCalifornium250>, <contenttweaker:neutron>, <ore:listAllfishraw>, <contenttweaker:neutron>, <ore:ingotCalifornium250>, <ore:ingotCalifornium250Base>, <contenttweaker:material_part:61>], 
+	[<contenttweaker:material_part:61>, <contenttweaker:entropy>, <ore:ingotCalifornium250Base>, <ore:ingotCalifornium252>, <contenttweaker:neutron>, <ore:ingotCalifornium252>, <ore:ingotCalifornium250Base>, <contenttweaker:entropy>, <contenttweaker:material_part:61>], 
+	[<contenttweaker:material_part:61>, <astralsorcery:itemshiftingstar>, <contenttweaker:entropy>, <ore:ingotCalifornium250Base>, <ore:ingotCalifornium250>, <ore:ingotCalifornium250Base>, <contenttweaker:entropy>, <astralsorcery:itemshiftingstar>, <contenttweaker:material_part:61>], 
+	[null, <contenttweaker:material_part:61>, <astralsorcery:itemshiftingstar>, <contenttweaker:entropy>, <ore:ingotCalifornium250Base>, <contenttweaker:entropy>, <astralsorcery:itemshiftingstar>, <contenttweaker:material_part:61>, null], 
+	[null, null, <contenttweaker:material_part:61>, <contenttweaker:material_part:61>, <contenttweaker:material_part:61>, <contenttweaker:material_part:61>, <contenttweaker:material_part:61>, null, null]
+]);
