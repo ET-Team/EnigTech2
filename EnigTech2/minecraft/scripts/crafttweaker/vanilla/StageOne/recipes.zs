@@ -35,3 +35,5 @@ mods.recipestages.Recipes.addShaped("one", <minecraft:glass_bottle>,[[<ore:block
 mods.recipestages.Recipes.addShaped("one", <minecraft:clay>, [[<ore:itemClay>,<ore:itemClay>],[<ore:itemClay>,<ore:itemClay>]]);
 //火把
 recipes.addShaped(<minecraft:torch>,[[<roots:terra_moss>],[<minecraft:stick>]]);
+recipes.addShapeless(<minecraft:stick>, [<twilightforest:twilight_plant:8>]);
+recipes.addShapeless(<minecraft:stick>, [<ore:treeSapling>]);
