@@ -7,7 +7,6 @@ mods.naturesaura.Altar.removeRecipe(<naturesaura:infused_iron_block>);
     for i in 0 to 15{
         mods.botania.RuneAltar.removeRecipe(runeDef.makeStack(i));
     }
-
 //火之符文
 mods.botania.RuneAltar.addRecipe(<botania:rune:1>*2,[<roots:infernal_bulb>, <silentgems:gemsuper>,<botania:manaresource:23>,<botania:manaresource>,<contenttweaker:living_wood_skin>], 10000);
 //水之符文
