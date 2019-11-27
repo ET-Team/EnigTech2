@@ -72,18 +72,7 @@ mods.botania.Apothecary.removeRecipe("hydroangeas");
 //火红莲
 mods.botania.Apothecary.addRecipe("endoflame", [<botania:petal:12>, <botania:petal:12>, <botania:petal:8>,<botania:petal:14>,<botania:manaresource:23>,<contenttweaker:living_wood_skin>]);
 mods.botania.Apothecary.removeRecipe("endoflame");
-//精灵门核心
-mods.extendedcrafting.TableCrafting.addShaped(2, <botania:alfheimportal>, [
 
-[<botania:livingwood>,<silentgems:craftingmaterial:1>, <botania:livingwood:2>, <silentgems:craftingmaterial:1>, <botania:livingwood>], 
-
-[<silentgems:craftingmaterial:1>, <roots:cloud_berry>, <botania:rune:8>, <roots:infernal_bulb>, <silentgems:craftingmaterial:1>], 
-
-[<botania:livingwood:5>, <botania:manaresource:18>, <contenttweaker:magcondium_ingot>, <botania:manaresource:18>, <botania:livingwood:5>], 
-
-[<silentgems:craftingmaterial:1>, <roots:dewgonia>, <botania:manaresource:18>, <roots:dewgonia>, <silentgems:craftingmaterial:1>], 
-
-[<botania:livingwood>, <silentgems:craftingmaterial:1>, <botania:livingwood:2>, <silentgems:craftingmaterial:1>, <botania:livingwood>]]); 
 recipes.remove(<botania:alfheimportal>);
 //高级工作台
  recipes.addShaped(<extendedcrafting:table_advanced>,[[<botania:rune>,<extendedcrafting:material>,<botania:rune:3>],[<extendedcrafting:material>,<thermalfoundation:storage_alloy>,<extendedcrafting:material>],[<botania:rune:2>,<botania:rune:8>,<botania:rune:1>]]);

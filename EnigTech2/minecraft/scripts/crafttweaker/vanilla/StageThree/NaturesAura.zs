@@ -26,23 +26,6 @@ mods.naturesaura.TreeRitual.addRecipe("rune:7", <roots:wildwood_sapling>, <botan
 mods.naturesaura.TreeRitual.addRecipe("soul_snare", <minecraft:sapling>, <bloodmagic:soul_snare>*2, 50,[<botania:manaresource:16>,<botania:manaresource:16>,<botania:manaresource:16>,<botania:manaresource:16>,<botania:manaresource:8>,<botania:manaresource:8>,<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}),<naturesaura:infused_iron>] );
 //灌注石
 mods.naturesaura.Altar.addRecipe("infused_stone", <botania:livingrock>, <naturesaura:infused_stone>, null, 20, 50);
-//浴火熔炉
-mods.extendedcrafting.TableCrafting.addShaped(2, <bloodmagic:soul_forge>, [
-	[<naturesaura:infused_stone>, <botania:manaresource:7>, null, <botania:manaresource:7>, <naturesaura:infused_stone>], 
-	[<naturesaura:infused_stone>, <botania:manaresource:8>, <botania:manaresource:9>, <botania:manaresource:8>, <naturesaura:infused_stone>], 
-	[<naturesaura:infused_stone>, <naturesaura:token_anger>, <contenttweaker:magcondium_ingot>,<naturesaura:token_fear>, <naturesaura:infused_stone>], 
-	[null, <naturesaura:infused_stone>, <botania:specialflower>.withTag({type: "exoflame"}), <naturesaura:infused_stone>, null], 
-	[null, <naturesaura:infused_stone>, <naturesaura:infused_iron_block>, <naturesaura:infused_stone>, null]
-]);
-
-//血之祭坛
-mods.extendedcrafting.TableCrafting.addShaped(2, <bloodmagic:altar>, [
-	[null, null, null, null, null], 
-	[<bloodmagic:slate>, null, <bloodmagic:monster_soul>, null, <bloodmagic:slate>], 
-	[<bloodmagic:slate>, <ore:elvenPixieDust>, <ore:elvenDragonstone>, <ore:elvenPixieDust>, <bloodmagic:slate>], 
-	[<bloodmagic:slate>, <naturesaura:token_fear>, <botania:runealtar>, <naturesaura:token_sorrow>, <bloodmagic:slate>], 
-	[<bloodmagic:slate>, <ore:ingotFiery>, <ore:runeFireB>, <ore:ingotFiery>, <bloodmagic:slate>]
-]);
 //空白石板	
 mods.bloodmagic.AlchemyArray.addRecipe(<bloodmagic:slate>,<naturesaura:infused_stone>, <twilightforest:fiery_blood>);
 mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:slate>,<naturesaura:infused_stone>,0,1000,5,5);
@@ -59,14 +42,6 @@ mods.naturesaura.TreeRitual.addRecipe("furnace_heater", <roots:wildwood_sapling>
 mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:blood_iron>,<botania:manaresource:7>,0,1000,5,5);
 //增强型漏斗
 recipes.addShaped(<naturesaura:hopper_upgrade>,[[<botania:manaresource>,<naturesaura:infused_iron>,<botania:manaresource>],[<naturesaura:infused_iron>,<botania:enderhand>,<naturesaura:infused_iron>],[<botania:manaresource>,<botania:specialflower>.withTag({type: "hopperhock"}),<botania:manaresource>]]);
-//供桌
-mods.extendedcrafting.TableCrafting.addShaped(2, <naturesaura:offering_table>, [
-	[null, <bloodmagic:slate:2>, <ore:runeSpringB>, <bloodmagic:slate:2>, null], 
-	[<naturesaura:infused_stone>, <ore:runeSummerB>, <ore:runeAutumnB>, <ore:runeWinterB>, <naturesaura:infused_stone>], 
-	[<naturesaura:infused_stone>, <naturesaura:infused_stone>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}), <naturesaura:infused_stone>, <naturesaura:infused_stone>], 
-	[null, <contenttweaker:plastic_plate>, <ore:logWood>, <contenttweaker:plastic_plate>, null], 
-	[<contenttweaker:plastic_plate>, <ore:logWood>, <ore:logWood>, <ore:logWood>, <contenttweaker:plastic_plate>]
-]);
 //荒古树苗
 mods.naturesaura.TreeRitual.addRecipe("ancient_sapling", <roots:wildwood_sapling>, <naturesaura:ancient_sapling>, 50,[<twilightforest:twilight_sapling>,<twilightforest:twilight_sapling:1>,<botania:livingwood>,<naturesaura:gold_leaf>,<contenttweaker:arcane_essence>] );
 //学徒宝珠	

@@ -80,7 +80,17 @@ var items as string[] = [
 	"Technium",
 	"charged_gaiya_crystal",
 	"gaiya_stabilizer",
-	"compress_crystaltine"
+	"compress_crystaltine",
+	"bad_fuel",
+	"good_fuel",
+	"dust_wood",
+	"dried_grass",
+	"mixed_coal_dust",
+	"fire_resist_mixture",
+	"fire_resist_brick",
+	"fuel_helper",
+	"magic_key",
+	"blast_furnace_brick"
 ];
 //物品注册
 for item in items{
