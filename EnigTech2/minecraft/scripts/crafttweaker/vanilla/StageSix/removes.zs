@@ -1,4 +1,4 @@
-#priority 1678
+#priority 0
 
 mods.mekanism.infuser.removeRecipe(<mekanism:enrichedalloy>, <minecraft:iron_ingot>, "REDSTONE");
 recipes.remove(<mekanism:machineblock>);

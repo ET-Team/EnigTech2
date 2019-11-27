@@ -29,8 +29,6 @@ mods.naturesaura.Altar.addRecipe("infused_stone", <botania:livingrock>, <natures
 //空白石板	
 mods.bloodmagic.AlchemyArray.addRecipe(<bloodmagic:slate>,<naturesaura:infused_stone>, <twilightforest:fiery_blood>);
 mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:slate>,<naturesaura:infused_stone>,0,1000,5,5);
-//气血宝珠
-mods.botania.RuneAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),[<botania:rune:7>,<botania:rune:6>,<botania:rune:5>,<botania:rune:4>,<botania:manaresource:2>,<silentgems:craftingmaterial:1>,<contenttweaker:blood_iron>,<contenttweaker:blood_iron>,<contenttweaker:blood_iron>,<contenttweaker:blood_iron>],10000);
 //炽热铁
 mods.immersiveengineering.AlloySmelter.addRecipe(<twilightforest:fiery_ingot>, <twilightforest:fiery_blood>, <botania:manaresource:7>, 160);
 mods.immersiveengineering.AlloySmelter.addRecipe(<twilightforest:fiery_ingot>, <twilightforest:fiery_tears>, <botania:manaresource:7>, 160);
