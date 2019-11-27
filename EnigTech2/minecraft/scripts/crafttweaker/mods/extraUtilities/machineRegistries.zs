@@ -1,8 +1,8 @@
+#loader preinit
 import extrautilities2.Tweaker.IMachineRegistry;
 import extrautilities2.Tweaker.IMachineSlot;
 import extrautilities2.Tweaker.IMachine;
 
-function init(){
     //氯化机
     IMachineRegistry.createNewMachine(
         "chlorinizer", 
@@ -65,4 +65,3 @@ function init(){
         "et2:block/machine_idle", 
         "et2:block/fluid_concentrator"
     );
-}
