@@ -5,7 +5,7 @@ Criteriajinglinggongjiangtai30 = addCriteria("Criteriajinglinggongjiangtai30", "
 Criteriajinglinggongjiangtai30.addItem(<roots:fey_crafter>)
 setIcon(<roots:fey_crafter>)
 setTitle("\u7cbe\u7075\u5de5\u5320\u53f0")
-setDescription("\u5236\u4f5c\u7cbe\u7075\u5de5\u5320\u53f0\u548c\u68ee\u6797\u4e4b\u77f3")
+setDescription("\u5236\u4f5c\u7cbe\u7075\u5de5\u5320\u53f0\u548c\u68ee\u6797\u4e4b\u77f3\n\u4f7f\u7528\u5c0f\u5200/\u5315\u9996\u53f3\u952e\u5de5\u5320\u53f0\u6765\u4ece\u4e2d\u53d6\u51fa\u6210\u54c1")
 setPos(-460,-45)
 addParent("ET2:StageOne/zhuruzhan")
 Criteriajinglinggongjiangtai31 = addCriteria("completedParent", "triumph:completed_advancement")

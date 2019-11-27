@@ -2,7 +2,7 @@
 Criteriagongzuotai8 = addCriteria("Criteriagongzuotai8", "minecraft:inventory_changed")
 Criteriagongzuotai8.addItem(<minecraft:crafting_table>)
 setIcon(<minecraft:crafting_table>)
-setTitle("\u5de5\u4f5c\u53f0������")
+setTitle("\u5de5\u4f5c\u53f0")
 setDescription("\u5236\u4f5c\u5de5\u4f5c\u53f0")
 setPos(-735,-28)
 addParent("ET2:StageOne/yuanmu")
