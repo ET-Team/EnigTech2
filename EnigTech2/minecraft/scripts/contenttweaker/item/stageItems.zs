@@ -1,4 +1,4 @@
-#priority 1798
+#priority 2000
 #loader contenttweaker
 //导包
     import mods.contenttweaker.VanillaFactory;
@@ -18,7 +18,7 @@
     };
 
     function createStageItem(name as string, stage as string, enabled as bool){
-        var item as Item = VanillaFactory.createItem(name);
+        var item = VanillaFactory.createItem(name);
         item.maxStackSize = 1;
         item.rarity = "rare";
         if(enabled){

@@ -1,5 +1,5 @@
 #priority -100
-
+import mods.roots.Fey;
 Fey.removeRecipe(<roots:elemental_soil>);
 
 //奥术源质

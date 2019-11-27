@@ -1,4 +1,4 @@
-#priority 1701
+#priority 2000
 #loader contenttweaker
 //导包
 	import mods.contenttweaker.VanillaFactory;

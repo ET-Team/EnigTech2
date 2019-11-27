@@ -1,4 +1,4 @@
-#priority 1002
+#priority 1000
 import mods.orestages.OreStages;
 
 OreStages.addReplacement("two", <thermalfoundation:ore:0>);
