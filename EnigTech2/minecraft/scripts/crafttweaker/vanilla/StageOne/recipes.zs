@@ -16,7 +16,6 @@ recipes.addShapeless(<contenttweaker:unknowing_dirt>,[<minecraft:dirt>]);
 recipes.addShaped(<minecraft:stone_slab:3>*6,[[<minecraft:cobblestone>,<minecraft:cobblestone>,<minecraft:cobblestone>]]);
 //收容袋
 recipes.addShaped(<roots:component_pouch>,[[<minecraft:string>,<ore:wool>,<minecraft:string>],[<ore:materialTannedLeather>,null,<ore:materialTannedLeather>],[<minecraft:iron_ingot>,<ore:materialTannedLeather>,<minecraft:iron_ingot>]]);
-//沃土
 recipes.addShaped(<roots:mortar>,[[<minecraft:cobblestone>,null,<minecraft:cobblestone>],[<minecraft:cobblestone>,<ore:rootsBark>,<minecraft:cobblestone>],[null,<minecraft:cobblestone>,null]]);
 //工作台
 mods.recipestages.Recipes.addShaped("one", <minecraft:crafting_table>, [[<survivalist:hatchet>, <survivalist:rock>], [<ore:logWood>, <ore:logWood>]]);
@@ -34,3 +33,5 @@ mods.recipestages.Recipes.addShaped("one", <minecraft:shears>, [[null,<ore:ingot
 mods.recipestages.Recipes.addShaped("one", <minecraft:glass_bottle>,[[<ore:blockGlass>, null, <ore:blockGlass>],[null, <ore:blockGlass>, null]]);
 //粘土块
 mods.recipestages.Recipes.addShaped("one", <minecraft:clay>, [[<ore:itemClay>,<ore:itemClay>],[<ore:itemClay>,<ore:itemClay>]]);
+//火把
+recipes.addShaped(<minecraft:torch>,[[<roots:terra_moss>],[<minecraft:stick>]]);
