@@ -1,19 +1,26 @@
-#priority 1500
+#priority -100
+
 recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [[<contenttweaker:fire_resist_brick>, <ore:sandstone>, <contenttweaker:fire_resist_brick>],[<ore:sandstone>, <contenttweaker:arcane_essence>, <ore:sandstone>], [<contenttweaker:fire_resist_brick>, <ore:sandstone>, <contenttweaker:fire_resist_brick>]]);
-
 recipes.addShaped(<contenttweaker:fire_resist_brick>, [[<minecraft:brick>, <contenttweaker:fire_resist_mixture>], [<contenttweaker:fire_resist_mixture>, <contenttweaker:fire_resist_mixture>]]);
-
 recipes.addShaped(<contenttweaker:fire_resist_mixture> * 6, [[<minecraft:clay_ball>, <minecraft:sand>, <minecraft:slime_ball>],[<minecraft:sand>, <botania:specialflower>.withTag({type: "clayconia"}).onlyWithTag({type: "clayconia"}).reuse(), <minecraft:sand>], [<minecraft:slime_ball>, <minecraft:sand>, <minecraft:clay_ball>]]);
 recipes.addShaped(<contenttweaker:good_fuel> * 2, [[<immersiveengineering:material:17>, <contenttweaker:mixed_coal_dust>, <immersiveengineering:material:17>],[<contenttweaker:mixed_coal_dust>, <contenttweaker:fuel_helper>, <contenttweaker:mixed_coal_dust>], [<immersiveengineering:material:17>, <contenttweaker:mixed_coal_dust>, <immersiveengineering:material:17>]]);
-
 recipes.addShaped(<contenttweaker:fuel_helper> * 2, [[<contenttweaker:dried_grass>, <thermalfoundation:material:800>], [<thermalfoundation:material:800>, <contenttweaker:dried_grass>]]);
-
 recipes.addShaped(<contenttweaker:mixed_coal_dust> * 9, [[<thermalfoundation:material:768>, <thermalfoundation:material:769>, <thermalfoundation:material:768>],[<thermalfoundation:material:769>, <thermalfoundation:material:768>, <thermalfoundation:material:769>], [<thermalfoundation:material:768>, <thermalfoundation:material:769>, <thermalfoundation:material:768>]]);
-
 recipes.addShaped(<contenttweaker:bad_fuel> * 5, [[<thermalfoundation:material:768>, <contenttweaker:dust_wood>, <thermalfoundation:material:768>],[<contenttweaker:dust_wood>, <thermalfoundation:material:768>, <contenttweaker:dust_wood>], [<thermalfoundation:material:768>, <contenttweaker:dust_wood>, <thermalfoundation:material:768>]]);
-
 recipes.addShaped(<immersiveengineering:stone_decoration:10> * 2, [[<contenttweaker:fire_resist_brick>, <ore:sandstone>], [<ore:sandstone>, <contenttweaker:fire_resist_brick>]]);
-
+//花药台
+recipes.addShaped(<botania:altar>,[[<botania:livingrock0slab>,<contenttweaker:arcane_essence>,<botania:livingrock0slab>],[null,<botania:livingrock>,null],[<botania:livingrock>,<botania:livingrock>,<botania:livingrock>]]);
+//稀释魔力池
+recipes.addShaped(<botania:pool:2>,[[<botania:livingrock>,<contenttweaker:arcane_essence>,<botania:livingrock>],[<botania:livingrock>,<botania:livingrock>,<botania:livingrock>]]);
+//魔力发射器
+recipes.addShaped(<botania:spreader>,[[<botania:livingwood>,<botania:livingwood>,<botania:livingwood>],[<ore:ingotGold>,<contenttweaker:arcane_essence>,null],[<botania:livingwood>,<botania:livingwood>,<botania:livingwood>]]);
+//旅居者腰带
+recipes.addShaped(<botania:travelbelt>.withTag({}),[[<botania:rune:2>,<botania:manaresource:22>,null],[<botania:manaresource:22>,null,<botania:manaresource:22>],[<silentgems:craftingmaterial:30>,<botania:manaresource:22>,<botania:rune:3>]]);
+//抗击腰带
+recipes.addShaped(<botania:knockbackbelt>.withTag({}),[[<botania:rune:1>,<botania:manaresource:22>,null],[<botania:manaresource:22>,null,<botania:manaresource:22>],[<silentgems:craftingmaterial:30>,<botania:manaresource:22>,<botania:rune:3>]]);
+//高级工作台
+recipes.addShaped(<extendedcrafting:table_advanced>,[[<botania:rune>,<extendedcrafting:material>,<botania:rune:3>],[<extendedcrafting:material>,<thermalfoundation:storage_alloy>,<extendedcrafting:material>],[<botania:rune:2>,<botania:rune:8>,<botania:rune:1>]]);
+//炉砖
 recipes.addShaped(<immersiveengineering:stone_decoration:1> * 3, [
 [<contenttweaker:blast_furnace_brick>, <ore:ingotBrickNether>, <contenttweaker:blast_furnace_brick>],
 [<ore:ingotBrickNether>, <contenttweaker:arcane_essence>, <ore:ingotBrickNether>],

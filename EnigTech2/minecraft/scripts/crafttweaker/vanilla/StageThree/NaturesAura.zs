@@ -1,15 +1,11 @@
 #priority 1481
 
-import mods.roots.Pyre;
-import mods.roots.Mortar;
+
+
 import mods.bloodmagic.AlchemyArray;
 import mods.bloodmagic.BloodAltar;
-//闪耀纤维
-Pyre.addRecipe("gold_fiber", <naturesaura:gold_fiber>*3, [<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}), <survivalist:plant_fibres>, <twilightforest:torchberries>, <silentgems:craftingmaterial:1>, <contenttweaker:arcane_essence>]);
 //瓶子与木塞
 recipes.addShapeless(<naturesaura:bottle_two_the_rebottling>,[<botania:vial>,<botania:livingwood:1>]);
-//金叶粉
-Mortar.addRecipe(<naturesaura:gold_powder>*2, [<naturesaura:gold_leaf>]);
 //木墩
 recipes.addShaped(<naturesaura:wood_stand>,[[<naturesaura:gold_leaf>],[<roots:wildwood_log>]]);
 //灌注铁
