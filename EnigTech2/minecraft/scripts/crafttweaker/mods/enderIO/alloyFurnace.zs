@@ -1,5 +1,12 @@
-#priority 1864
-import mods.enderio.AlloySmelter;
+#priority -100
+
+mods.enderio.AlloySmelter.removeRecipe(<enderio:item_material:53>);
+mods.enderio.AlloySmelter.removeRecipe(<nuclearcraft:alloy:6>);
+mods.enderio.AlloySmelter.removeRecipe(<nuclearcraft:alloy:1>);
+mods.enderio.AlloySmelter.removeRecipe(<enderio:item_alloy_ingot:5>);
+mods.enderio.AlloySmelter.removeRecipe(<thermalfoundation:material:167>);
+mods.enderio.AlloySmelter.removeRecipe(<thermalfoundation:material:165>);
+mods.enderio.AlloySmelter.removeRecipe(<thermalfoundation:material:166>);
 
 //合金炉配方
     //炽热铁
@@ -26,9 +33,6 @@ import mods.enderio.AlloySmelter;
     //镍铬合金
     mods.enderio.AlloySmelter.addRecipe(<contenttweaker:material_part:32>*4, [<ore:ingotNickel>*3, <contenttweaker:material_part:25>],3200);
 
-
-
-
-
-
+    mods.enderio.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:5>, [<contenttweaker:magcondium_ingot>, <contenttweaker:arcane_essence>, <minecraft:ender_pearl>],3200);
+    mods.enderio.AlloySmelter.addRecipe(<enderio:item_material:53>, [<enderio:item_material:52>, <enderio:item_material:66>, <enderio:item_material:72>*2],3200);
 

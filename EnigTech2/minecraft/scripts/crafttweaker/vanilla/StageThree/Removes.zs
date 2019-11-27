@@ -1,4 +1,4 @@
-#priority 1850
+#priority 0
 
 recipes.remove(<immersiveengineering:wooden_device0:2>);
 recipes.remove(<immersiveengineering:metal_device1>);
@@ -18,9 +18,25 @@ recipes.remove(<embers:item_pump>);
 recipes.remove(<enderio:item_item_conduit>);
 recipes.remove(<immersiveengineering:conveyor> * 8); 
 
-mods.jei.JEI.hideCategory("ie.workbench");
-mods.jei.JEI.hideCategory("ie.arcFurnace");
-mods.jei.JEI.hideCategory("ie.arcFurnace.recycling");
-mods.jei.JEI.hideCategory("nuclearcraft_alloy_furnace");
-
-mods.jei.JEI.removeAndHide(<thermalexpansion:machine:3>);
+recipes.remove(<xpt:link_card>);
+recipes.remove(<xpt:teleporter:1>);
+recipes.remove(<naturesaura:gold_fiber>);
+recipes.remove(<naturesaura:bottle_two_the_rebottling>);
+recipes.remove(<naturesaura:gold_powder>);
+recipes.remove(<naturesaura:wood_stand>);
+recipes.remove(<bloodmagic:soul_snare>);
+recipes.remove(<bloodmagic:soul_forge>);
+recipes.remove(<bloodmagic:altar>);
+recipes.remove(<twilightforest:fiery_ingot>);
+recipes.remove(<naturesaura:hopper_upgrade>);
+recipes.remove(<naturesaura:offering_table>);
+recipes.remove(<xpt:teleporter>);
+recipes.remove(<naturesaura:time_changer>);
+recipes.remove(<embers:mechanical_pump>);
+recipes.remove(<mekanism:machineblock:12>);
+recipes.remove(<extrautils2:grocket:2>);
+recipes.remove(<soot:still>);
+recipes.remove(<embers:pump>);
+recipes.remove(<extrautils2:rainbowgenerator:2>);
+recipes.remove(<extrautils2:rainbowgenerator:1>);
+recipes.remove(<extrautils2:rainbowgenerator>);

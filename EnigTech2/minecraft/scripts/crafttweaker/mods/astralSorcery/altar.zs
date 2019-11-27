@@ -1,11 +1,15 @@
-#priority 1468
+#priority -100
 
-//熏黑大理石
-mods.bloodmagic.BloodAltar.addRecipe(<astralsorcery:blockblackmarble>,<astralsorcery:blockmarble>,4,250,10,10);
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/lightwell");
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/marble_black_raw");
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier2");
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier3");
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/perkseal");
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier4");
+
+
 //星辉祭坛
 mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier2",<astralsorcery:blockaltar:1>,3,10,[<astralsorcery:itemcraftingcomponent>,<astralsorcery:itemrockcrystalsimple>,<astralsorcery:itemcraftingcomponent>,<astralsorcery:blockmarble:4>,<forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}),<astralsorcery:blockmarble:4>,<astralsorcery:blockmarble:2>,null,<astralsorcery:blockmarble:2>]);
-//星图
-mods.naturesaura.Offering.addRecipe("itemconstellationpaper", <astralsorcery:itemcraftingcomponent>,1,<astralsorcery:itemknowledgeshare>.withTag({astralsorcery: {}}), <astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {}}));
 //日晷
 mods.astralsorcery.Altar.addAttunementAltarRecipe("shaped/internal/altar/time_changer",<naturesaura:time_changer>,250,10,[<astralsorcery:blockmarble>,<bloodmagic:slate:4>,<astralsorcery:blockmarble>,<bloodmagic:slate:4>,<botania:manaresource:5>,<bloodmagic:slate:4>,<astralsorcery:blockmarble>,<bloodmagic:slate:4>,<astralsorcery:blockmarble>,<naturesaura:token_rage>,<naturesaura:token_euphoria>,<naturesaura:token_terror>,<naturesaura:token_grief>,<naturesaura:token_rage>]);
 //恶魔坩埚
@@ -17,6 +21,4 @@ mods.astralsorcery.Altar.addAttunementAltarRecipe("astralsorcery:shaped/internal
 //混沌法坛
 mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/chaosaltar",<silentgems:chaosaltar>,10,10,[<minecraft:redstone>,<silentgems:craftingmaterial:2>,<minecraft:redstone>,<botania:manaresource:9>,<enderio:block_reinforced_obsidian>,<botania:manaresource:9>,<enderio:block_reinforced_obsidian>,<enderio:block_reinforced_obsidian>,<enderio:block_reinforced_obsidian>]);
 
-mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:strong_motor>,<contenttweaker:strong_motor_unprocessed>,4,20000,100,100);
-recipes.addShapeless(<astralsorcery:blockaltar>,[<astralsorcery:blockaltar>]);
-
+mods.astralsorcery.Altar.addConstellationAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier4",<astralsorcery:blockaltar:3>,300,20,[<bloodmagic:slate:4>,<astralsorcery:itemcraftingcomponent:3>,<bloodmagic:slate:4>,<astralsorcery:blockmarble:6>,<astralsorcery:itemcelestialcrystal>.withTag({astralsorcery: {}}),<astralsorcery:blockmarble:6>,<bloodmagic:slate:4>,<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:archmage"}),<bloodmagic:slate:4>,<astralsorcery:blockblackmarble>,<astralsorcery:blockblackmarble>,<astralsorcery:blockblackmarble>,<astralsorcery:blockblackmarble>,<mekanism:atomicalloy>,<mekanism:atomicalloy>,<astralsorcery:itemcraftingcomponent:4>,<astralsorcery:itemcraftingcomponent:4>,<astralsorcery:itemcraftingcomponent:4>,<astralsorcery:itemcraftingcomponent:4>,<mekanism:atomicalloy>,<mekanism:atomicalloy>]);

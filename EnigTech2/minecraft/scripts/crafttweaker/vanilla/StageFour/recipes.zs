@@ -1,4 +1,4 @@
-#priority 1497
+#priority -100
 
 recipes.addShaped(<immersiveengineering:metal_device0:2>, [[<thermalfoundation:material:354>, <thermalfoundation:material:354>, <thermalfoundation:material:354>],[<contenttweaker:magfusive_crystal>, <immersiveengineering:metal_device0:1>, <contenttweaker:magfusive_crystal>], [<thermalfoundation:material:354>, <thermalfoundation:material:354>, <thermalfoundation:material:354>]]);
 recipes.addShaped(<immersiveengineering:metal_device0:1>, [[<thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>],[<thermalfoundation:material:131>, <immersiveengineering:metal_device0>, <thermalfoundation:material:131>], [<thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>]]);
@@ -37,7 +37,6 @@ recipes.addShaped(<contenttweaker:brain_chip>, [[<botania:manaresource:5>, <embe
 recipes.addShaped(<appliedenergistics2:material:37>, [[<actuallyadditions:item_crystal:2>, <arcanearchives:shaped_quartz>, <actuallyadditions:item_crystal:2>],[<appliedenergistics2:material:36>, <appliedenergistics2:material:22>, <appliedenergistics2:material:36>], [<actuallyadditions:item_crystal:2>, <appliedenergistics2:material:36>, <actuallyadditions:item_crystal:2>]]);
 recipes.addShaped(<appliedenergistics2:material:36>, [[<actuallyadditions:item_crystal:4>, <arcanearchives:shaped_quartz>, <actuallyadditions:item_crystal:4>],[<appliedenergistics2:material:35>, <appliedenergistics2:material:22>, <appliedenergistics2:material:35>], [<actuallyadditions:item_crystal:4>, <appliedenergistics2:material:35>, <actuallyadditions:item_crystal:4>]]);
 recipes.addShaped(<appliedenergistics2:material:35>, [[<actuallyadditions:item_crystal:5>, <arcanearchives:shaped_quartz>, <actuallyadditions:item_crystal:5>],[<arcanearchives:shaped_quartz>, <appliedenergistics2:material:22>, <arcanearchives:shaped_quartz>], [<actuallyadditions:item_crystal:5>, <arcanearchives:shaped_quartz>, <actuallyadditions:item_crystal:5>]]);
-
 //强化能量管道
 recipes.addShaped(<enderio:item_power_conduit:1> * 2, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<enderio:item_alloy_ingot:1>, <enderio:item_power_conduit>, <enderio:item_alloy_ingot:1>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 //模块化
@@ -45,3 +44,33 @@ recipes.addShaped(<modularmachinery:blockenergyoutputhatch:3>, [[<modularmachine
 recipes.addShaped(<modularmachinery:blockfluidinputhatch:3>, [[<modularmachinery:itemmodularium>, <enderio:item_liquid_conduit:1>, <modularmachinery:itemmodularium>],[<enderio:item_liquid_conduit:1>, <contenttweaker:soso_machine_core>, <enderio:item_liquid_conduit:1>], [<modularmachinery:itemmodularium>, <enderio:item_liquid_conduit:1>, <modularmachinery:itemmodularium>]]);
 //温度调节器
 recipes.addShaped(<tanaddons:temp_regulator>, [[<toughasnails:magma_shard>, <toughasnails:magma_shard>, <toughasnails:magma_shard>],[<toughasnails:temperature_coil>, <enderio:item_material>, <toughasnails:temperature_coil:1>], [<toughasnails:ice_cube>, <toughasnails:ice_cube>, <toughasnails:ice_cube>]]);
+//机械核心
+recipes.addShaped(<embers:mech_core>,[[<ore:ingotSteel>,<twilightforest:steeleaf_ingot>,<ore:ingotSteel>],[<contenttweaker:basic_motioner>,<contenttweaker:bad_machine_core>,<contenttweaker:basic_motioner>],[<ore:ingotSteel>,<twilightforest:steeleaf_ingot>,<ore:ingotSteel>]]);
+//能量发射器
+recipes.addShaped(<embers:ember_emitter>*4,[[null,<botania:spreader:2>,null],[<thermalfoundation:material:355>,<bloodmagic:slate:1>,<thermalfoundation:material:355>],[<contenttweaker:magcondium_ingot>,<embers:plate_caminite>,<contenttweaker:magcondium_ingot>]]);
+//能量接收器
+recipes.addShaped(<embers:ember_receiver>,[[<thermalfoundation:material:355>,null,<thermalfoundation:material:355>],[<contenttweaker:magcondium_ingot>,<embers:plate_caminite>,<contenttweaker:magcondium_ingot>]]);
+//扫描器
+recipes.addShaped(<scannable:scanner>, [[<thermalfoundation:material:352>, <contenttweaker:bad_machine_core>, <thermalfoundation:material:352>],[<thermalfoundation:material:352>, <botania:diviningrod>, <thermalfoundation:material:352>], [<contenttweaker:magcondium_ingot>, <embers:ember_cartridge>.withTag({emberCapacity: 6000.0, ember: 0.0}), <contenttweaker:magcondium_ingot>]]);
+//盖亚稳定器
+recipes.addShaped(<contenttweaker:gaiya_stabilizer>, [[null, <botania:manaresource:7>, null],[<botania:manaresource:7>, <botania:manaresource:9>, <botania:manaresource:7>], [null, <botania:manaresource:7>, null]]);
+//机器框架模具
+recipes.addShaped(<enderio:item_material>, [[<thermalfoundation:material:354>, <contenttweaker:arcane_essence>, <thermalfoundation:material:354>],[<contenttweaker:arcane_essence>, <contenttweaker:bad_machine_core>, <contenttweaker:arcane_essence>], [<thermalfoundation:material:354>, <contenttweaker:arcane_essence>, <thermalfoundation:material:354>]]);
+//晶胞灰烬能量存储器
+recipes.addShaped(<embers:crystal_cell>, [[null, <embers:caster_orb>, null],[<embers:plate_dawnstone>, <naturesaura:sky_ingot>, <embers:plate_dawnstone>], [<thermalfoundation:storage>, <embers:copper_cell>, <thermalfoundation:storage>]]);
+//粗制电阻
+recipes.addShaped(<contenttweaker:resistor_bad> * 3, [[null, null, null],[<immersiveengineering:material:21>, <contenttweaker:magcondium_ingot>, <immersiveengineering:material:21>], [null, null, null]]);
+//流体成型机MK1
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "crafttweaker:fluider_mk1"}), [[<thermalfoundation:material:354>, <rustic:evaporating_basin>, <thermalfoundation:material:354>],[<twilightforest:steeleaf_ingot>, <contenttweaker:soso_machine_core>, <twilightforest:steeleaf_ingot>], [<thermalfoundation:material:354>, <twilightforest:fiery_ingot>, <thermalfoundation:material:354>]]);
+//聚合黏土
+recipes.addShaped(<deepmoblearning:polymer_clay> * 24, [[null, <minecraft:clay_ball>, null],[<embers:blend_caminite>, <contenttweaker:fire_resist_mixture>, <embers:blend_caminite>], [null, <minecraft:clay_ball>, null]]);
+//棒模具
+recipes.addShaped(<immersiveengineering:mold:2>,[[<immersiveengineering:tool>],[<immersiveengineering:material:1>.transformReplace(<immersiveengineering:tool>)],[<thermalfoundation:material:352>]]);
+//线模具
+recipes.addShaped(<immersiveengineering:mold:4>,[[<immersiveengineering:tool>],[<immersiveengineering:material:20>],[<thermalfoundation:material:352>.transformReplace(<immersiveengineering:tool>)]]);
+//齿轮模具
+recipes.addShaped(<immersiveengineering:mold:1>,[[<immersiveengineering:tool>],[<thermalfoundation:material:23>],[<thermalfoundation:material:352>.transformReplace(<immersiveengineering:tool>)]]);
+//板模具
+recipes.addShaped(<immersiveengineering:mold>,[[<immersiveengineering:tool>],[<thermalfoundation:material:32>],[<thermalfoundation:material:352>.transformReplace(<immersiveengineering:tool>)]]);
+//微型锅炉
+recipes.addShaped(<embers:mini_boiler>, [[<thermalfoundation:material:354>, <thermalfoundation:material:354>, <thermalfoundation:material:354>],[<embers:ingot_dawnstone>, <contenttweaker:bad_machine_core>, <thermalfoundation:material:354>], [<thermalfoundation:material:354>, <thermalfoundation:material:354>, <thermalfoundation:material:354>]]);

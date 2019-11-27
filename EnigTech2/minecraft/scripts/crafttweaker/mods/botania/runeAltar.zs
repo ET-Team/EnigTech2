@@ -1,7 +1,5 @@
 #priority -100
 
-mods.naturesaura.Altar.removeRecipe(<naturesaura:infused_iron>);
-mods.naturesaura.Altar.removeRecipe(<naturesaura:infused_iron_block>);
 //删除从 rune:0 到 rune:15 的所有配方
     val runeDef = <botania:rune>.definition;
     for i in 0 to 15{

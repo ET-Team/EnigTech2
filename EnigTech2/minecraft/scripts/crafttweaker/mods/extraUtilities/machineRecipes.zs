@@ -1,5 +1,6 @@
-#priority 1657
+#priority 1000
 import extrautilities2.Tweaker.IMachineRegistry;
+
 var chlorinizer = IMachineRegistry.getMachine("crafttweaker:chlorinizer");
 var silicon_grower = IMachineRegistry.getMachine("crafttweaker:silicon_grower");
 var polisher = IMachineRegistry.getMachine("crafttweaker:polisher");

@@ -1,4 +1,4 @@
-#priority 1657
+#priority -100
 
 //硫酸
 mods.inworldcrafting.FluidToFluid.transform(<liquid:sulfuric_acid>, <liquid:water>, [<ore:dustSulfur> * 4]);
