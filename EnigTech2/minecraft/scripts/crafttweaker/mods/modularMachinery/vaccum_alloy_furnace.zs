@@ -1,4 +1,4 @@
-#priority 502
+#priority -100
 var machineName = "vaccum_alloy_furnace";
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_default", machineName, 400)

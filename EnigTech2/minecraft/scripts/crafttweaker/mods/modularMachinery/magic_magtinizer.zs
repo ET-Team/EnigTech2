@@ -1,4 +1,4 @@
-#priority 506
+#priority -100
 var machineName = "magic_magtinizer";
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_default", machineName, 160)

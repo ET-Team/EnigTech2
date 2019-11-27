@@ -1,4 +1,4 @@
-#priority 509
+#priority -100
 import mods.modularmachinery.RecipeBuilder;
 var machineName = "microassembly";
 

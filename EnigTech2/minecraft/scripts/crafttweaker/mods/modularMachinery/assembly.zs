@@ -1,4 +1,4 @@
-#priority 506
+#priority -100
 var machineName = "assembly";
 
 //聚星缸

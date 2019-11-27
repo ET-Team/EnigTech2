@@ -1,4 +1,4 @@
-#priority 504
+#priority -100
 var machineName = "meteor_catcher";
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_meteor", machineName, 400)

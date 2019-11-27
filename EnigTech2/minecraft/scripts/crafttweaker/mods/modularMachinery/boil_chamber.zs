@@ -1,4 +1,4 @@
-#priority 504
+#priority -100
 var machineName = "boil_chamber";
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_default", machineName, 10)

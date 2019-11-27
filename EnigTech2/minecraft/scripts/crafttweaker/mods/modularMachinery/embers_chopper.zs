@@ -1,4 +1,4 @@
-#priority 506
+#priority -100
 var machineName = "embers_chopper";
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_plastic", machineName, 40)

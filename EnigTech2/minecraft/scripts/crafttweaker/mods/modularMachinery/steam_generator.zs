@@ -1,4 +1,4 @@
-#priority 504
+#priority -100
 var machineName = "steam_generator";
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_default", machineName, 10)

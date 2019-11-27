@@ -1,4 +1,4 @@
-#priority 506
+#priority -100
 var machineName = "blast_furnace_mk1";
 
 val speedTierOne = 80;

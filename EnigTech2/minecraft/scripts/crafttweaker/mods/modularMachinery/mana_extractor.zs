@@ -1,4 +1,4 @@
-#priority 503
+#priority -100
 var machineName = "magic_extractor";
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_default", machineName, 200)

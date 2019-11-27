@@ -1,4 +1,4 @@
-#priority 502
+#priority -100
 var machineName = "oil_drill";
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_oil", machineName, 200)

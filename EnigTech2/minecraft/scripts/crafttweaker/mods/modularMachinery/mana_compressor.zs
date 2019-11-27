@@ -1,4 +1,4 @@
-#priority 506
+#priority -100
 var machineName = "mana_compressor";
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_mana", machineName, 200)

@@ -1,4 +1,4 @@
-#priority 500
+#priority -100
 var machineName = "magic_crusher";
 
 //ORES AND DUSTS OF COALS

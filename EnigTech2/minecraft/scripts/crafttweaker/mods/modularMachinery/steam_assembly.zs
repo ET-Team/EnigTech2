@@ -1,4 +1,4 @@
-#priority 505
+#priority -100
 var machineName = "steam_assembly";
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_medidum_core", machineName, 80)

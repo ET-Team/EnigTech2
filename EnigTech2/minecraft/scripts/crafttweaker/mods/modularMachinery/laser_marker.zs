@@ -1,4 +1,4 @@
-#priority 506
+#priority -100
 var machineName = "laser_marker";
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ic_wafer", machineName, 80)

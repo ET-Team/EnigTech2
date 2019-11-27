@@ -1,4 +1,4 @@
-#priority 506
+#priority -100
 var machineName = "rune_compressor";
 
 //空白符文
