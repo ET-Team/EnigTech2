@@ -280,19 +280,19 @@
         "type": "sphere",
         "ore": [
           {
-            "ore": "oreBeryl",
+            "ore": "oreAgate",
             "weight": 3
           },
           {
-            "ore": "oreIndicolite",
+            "ore": "oreMorganite",
             "weight": 2
           },
           {
-            "ore":"oreIolite",
+            "ore":"oreGarnet",
             "weight":4
           },
           {
-            "ore":"oreSapphire",
+            "ore":"oreRuby",
             "weight":7
           }
         ],
@@ -315,19 +315,19 @@
         "type": "sphere",
         "ore": [
           {
-            "ore": "oreBeryl",
+            "ore": "oreHeliodor",
             "weight": 3
           },
           {
-            "ore": "oreIndicolite",
+            "ore": "orePeridot",
             "weight": 2
           },
           {
-            "ore":"oreIolite",
+            "ore":"oreAmber",
             "weight":4
           },
           {
-            "ore":"oreSapphire",
+            "ore":"oreTopaz",
             "weight":7
           }
         ],

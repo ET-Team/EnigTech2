@@ -20,7 +20,7 @@ recipes.addShaped(<roots:mortar>,[[<minecraft:cobblestone>,null,<minecraft:cobbl
 //工作台
 mods.recipestages.Recipes.addShaped("one", <minecraft:crafting_table>, [[<survivalist:hatchet>, <survivalist:rock>], [<ore:logWood>, <ore:logWood>]]);
 //木半砖
-mods.recipestages.Recipes.addShaped("one", <minecraft:wooden_slab>*6, [[<minecraft:planks>,<minecraft:planks>,<minecraft:planks>]]);
+mods.recipestages.Recipes.addShaped("one", <minecraft:wooden_slab:0>*6, [[<minecraft:planks:0>,<minecraft:planks:0>,<minecraft:planks:0>]]);
 mods.recipestages.Recipes.addShaped("one", <minecraft:wooden_slab:2>*6, [[<minecraft:planks:2>,<minecraft:planks:2>,<minecraft:planks:2>]]);
 mods.recipestages.Recipes.addShaped("one", <minecraft:wooden_slab:1>*6, [[<minecraft:planks:1>,<minecraft:planks:1>,<minecraft:planks:1>]]);
 mods.recipestages.Recipes.addShaped("one", <minecraft:wooden_slab:3>*6, [[<minecraft:planks:3>,<minecraft:planks:3>,<minecraft:planks:3>]]);
@@ -34,6 +34,6 @@ mods.recipestages.Recipes.addShaped("one", <minecraft:glass_bottle>,[[<ore:block
 //粘土块
 mods.recipestages.Recipes.addShaped("one", <minecraft:clay>, [[<ore:itemClay>,<ore:itemClay>],[<ore:itemClay>,<ore:itemClay>]]);
 //火把
-recipes.addShaped(<minecraft:torch>,[[<roots:terra_moss>],[<minecraft:stick>]]);
+recipes.addShaped(<minecraft:torch>*2,[[<roots:terra_moss>],[<minecraft:stick>]]);
 recipes.addShapeless(<minecraft:stick>, [<twilightforest:twilight_plant:8>]);
 recipes.addShapeless(<minecraft:stick>, [<ore:treeSapling>]);
