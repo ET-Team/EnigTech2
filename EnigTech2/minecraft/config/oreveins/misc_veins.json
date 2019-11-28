@@ -12,12 +12,19 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 16,
+        "rarity": 30,
         "min_y": 32,
         "max_y": 48,
         "density": 200,
         "vertical_size": 10,
-        "horizontal_size": 10
+        "horizontal_size": 10,
+        "indicator": {
+          "blocks": {
+              "block":"silentgems:glowrose",
+              "meta":"4"
+            }
+        },
+        "max_depth": 50
     },
     "phosphur": {
         "type": "sphere",
@@ -36,7 +43,7 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 20,
+        "rarity": 40,
         "min_y": 38,
         "max_y": 55,
         "density": 280,
@@ -44,11 +51,11 @@
         "horizontal_size": 8,
         "indicator": {
           "blocks": {
-            "block":"silentgems:glowrose",
-            "meta":"9"
-          }
+              "block":"silentgems:glowrose",
+              "meta":"9"
+            }
         },
-        "max_depth": 30
+        "max_depth": 70
       },
       "uranium": {
         "type": "sphere",
@@ -63,13 +70,20 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 20,
+        "rarity": 40,
         "min_y": 15,
         "max_y": 38,
         "density": 280,
         "vertical_size": 8,
         "horizontal_size": 8,
-        "dimensions":[7]
+        "dimensions":[7],
+        "indicator": {
+          "blocks": {
+              "block":"silentgems:glowrose",
+              "meta":"10"
+            }
+        },
+        "max_depth": 70
       },
       "thorium": {
         "type": "sphere",
@@ -91,13 +105,20 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 20,
+        "rarity": 40,
         "min_y": 20,
         "max_y": 45,
         "density": 280,
         "vertical_size": 6,
         "horizontal_size": 10,
-        "dimensions":[7]
+        "dimensions":[7],
+        "indicator": {
+          "blocks": {
+              "block":"silentgems:glowrose",
+              "meta":"14"
+            }
+        },
+        "max_depth": 70
       },
       "lithium": {
         "type": "sphere",
@@ -108,13 +129,20 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 20,
+        "rarity": 40,
         "min_y": 32,
         "max_y": 50,
         "density": 280,
         "vertical_size": 8,
         "horizontal_size": 8,
-        "dimensions":[7]
+        "dimensions":[7],
+        "indicator": {
+          "blocks": {
+              "block":"silentgems:glowrose",
+              "meta":"8"
+            }
+        },
+        "max_depth": 70
       },
       "quartz": {
         "type": "sphere",
@@ -137,12 +165,19 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 20,
+        "rarity": 40,
         "min_y": 15,
         "max_y": 42,
         "density": 380,
         "vertical_size": 12,
-        "horizontal_size": 12
+        "horizontal_size": 12,
+        "indicator": {
+          "blocks": {
+              "block":"silentgems:glowrose",
+              "meta":"15"
+            }
+        },
+        "max_depth": 70
       },
       "iriPlatinum": {
         "type": "sphere",
@@ -161,12 +196,19 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 50,
+        "rarity": 80,
         "min_y": 35,
         "max_y": 40,
         "density": 480,
         "vertical_size": 4,
-        "horizontal_size": 4
+        "horizontal_size": 4,
+        "indicator": {
+          "blocks": {
+              "block":"silentgems:glowrose",
+              "meta":"7"
+            }
+        },
+        "max_depth": 70
       },
       "diamond": {
         "type": "sphere",
@@ -185,12 +227,19 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 30,
+        "rarity": 60,
         "min_y": 10,
         "max_y": 20,
         "density": 200,
         "vertical_size": 6,
-        "horizontal_size": 6
+        "horizontal_size": 6,
+        "indicator": {
+          "blocks": {
+              "block":"silentgems:glowrose",
+              "meta":"3"
+            }
+        },
+        "max_depth": 70
       },
       "sapphire": {
         "type": "sphere",
@@ -217,8 +266,85 @@
         "min_y": 10,
         "max_y": 20,
         "density": 200,
-        "vertical_size": 6,
-        "horizontal_size": 6
+        "vertical_size": 8,
+        "horizontal_size": 8,
+        "indicator": {
+          "blocks": {
+              "block":"silentgems:glowrose",
+              "meta":"6"
+            }
+        },
+        "max_depth": 70
+      },
+      "ruby": {
+        "type": "sphere",
+        "ore": [
+          {
+            "ore": "oreBeryl",
+            "weight": 3
+          },
+          {
+            "ore": "oreIndicolite",
+            "weight": 2
+          },
+          {
+            "ore":"oreIolite",
+            "weight":4
+          },
+          {
+            "ore":"oreSapphire",
+            "weight":7
+          }
+        ],
+        "stone": "minecraft:stone",
+        "rarity": 30,
+        "min_y": 10,
+        "max_y": 50,
+        "density": 200,
+        "vertical_size": 8,
+        "horizontal_size": 8,
+        "indicator": {
+          "blocks": {
+              "block":"silentgems:glowrose",
+              "meta":"0"
+            }
+        },
+        "max_depth": 70
+      },
+      "topaz": {
+        "type": "sphere",
+        "ore": [
+          {
+            "ore": "oreBeryl",
+            "weight": 3
+          },
+          {
+            "ore": "oreIndicolite",
+            "weight": 2
+          },
+          {
+            "ore":"oreIolite",
+            "weight":4
+          },
+          {
+            "ore":"oreSapphire",
+            "weight":7
+          }
+        ],
+        "stone": "minecraft:stone",
+        "rarity": 30,
+        "min_y": 10,
+        "max_y": 50,
+        "density": 200,
+        "vertical_size": 8,
+        "horizontal_size": 8,
+        "indicator": {
+          "blocks": {
+              "block":"silentgems:glowrose",
+              "meta":"2"
+            }
+        },
+        "max_depth": 70
       },
       "chaos": {
         "type": "cone",
@@ -229,12 +355,19 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 20,
+        "rarity": 40,
         "min_y": 0,
         "max_y": 10,
         "density": 200,
-        "vertical_size": 6,
-        "horizontal_size": 6
+        "vertical_size": 8,
+        "horizontal_size": 8,
+        "indicator": {
+          "blocks": {
+              "block":"silentgems:glowrose",
+              "meta":"13"
+            }
+        },
+        "max_depth": 70
       },
       "high_al": {
         "type": "sphere",
@@ -245,12 +378,12 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 10,
+        "rarity": 30,
         "min_y": 80,
         "max_y": 130,
         "density": 200,
-        "vertical_size": 6,
-        "horizontal_size": 6
+        "vertical_size": 8,
+        "horizontal_size": 18
       },
       "alni": {
         "type": "sphere",
@@ -265,18 +398,25 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 16,
+        "rarity": 30,
         "min_y": 35,
         "max_y": 58,
         "density": 160,
-        "vertical_size": 6,
-        "horizontal_size": 6
+        "vertical_size": 8,
+        "horizontal_size": 8,
+        "indicator": {
+          "blocks": {
+              "block":"silentgems:glowrose",
+              "meta":"11"
+            }
+        },
+        "max_depth": 70
       },
       "oilsand":{
         "type":"sphere",
         "ore":{"block":"thermalfoundation:ore_fluid","meta":0},
         "stone":"minecraft:sand",
-        "rarity":20,
+        "rarity":40,
         "density":100,
         "vertical_size":8,
         "horizontal_size":8,
@@ -297,12 +437,19 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 20,
+        "rarity": 40,
         "min_y": 12,
         "max_y": 24,
         "density": 200,
-        "vertical_size": 6,
-        "horizontal_size": 6
+        "vertical_size": 8,
+        "horizontal_size": 8,
+        "indicator": {
+          "blocks": {
+              "block":"silentgems:glowrose",
+              "meta":"1"
+            }
+        },
+        "max_depth": 70
       },
       "Ti": {
         "type": "sphere",
@@ -313,15 +460,22 @@
           },
           {
             "ore":"oreIridium",
-            "weight":2
+            "weight":1
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 24,
+        "rarity": 50,
         "min_y": 21,
         "max_y": 33,
         "density": 200,
-        "vertical_size": 6,
-        "horizontal_size": 6
+        "vertical_size": 8,
+        "horizontal_size": 8,
+        "indicator": {
+          "blocks": {
+              "block":"silentgems:glowrose",
+              "meta":"5"
+            }
+        },
+        "max_depth": 70
       }
 }
