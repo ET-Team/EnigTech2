@@ -36,7 +36,7 @@ recipes.addShaped(<arcanearchives:radiant_resonator>, [[<contenttweaker:magcondi
 recipes.addShaped(<soot:still>, [[<embers:pipe>, <embers:pipe>, <embers:pipe>],[<embers:plate_dawnstone>, null, <flopper:flopper>], [<embers:block_tank>, null, null]]);
 recipes.addShaped(<embers:pump>, [[null, <embers:plate_caminite>, null],[<embers:plate_caminite>, <flopper:flopper>, <embers:plate_caminite>], [null, <embers:plate_caminite>, null]]);
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:3>, [[<deepmoblearning:glitch_infused_ingot>, <botania:manaresource:4>, <deepmoblearning:glitch_infused_ingot>],[<arcanearchives:shaped_quartz>, <contenttweaker:soso_machine_core>, <arcanearchives:shaped_quartz>], [<deepmoblearning:glitch_infused_ingot>, <botania:manaresource:4>, <deepmoblearning:glitch_infused_ingot>]]);
-recipes.addShaped(<naturesaura:placer>, [[<botania:storage>, <botania:specialflower>.withTag({type: "rannuncarpus"}).onlyWithTag({type: "rannuncarpus"}), <botania:storage>],[<immersiveengineering:material:9>, <minecraft:dispenser>, <immersiveengineering:material:9>], [<botania:storage>, <naturesaura:infused_iron>, <botania:storage>]]);
+recipes.addShaped("placer", <naturesaura:placer>, [[<botania:storage>, <botania:specialflower>.withTag({type: "rannuncarpus"}).onlyWithTag({type: "rannuncarpus"}), <botania:storage>],[<immersiveengineering:material:9>, <minecraft:dispenser>, <immersiveengineering:material:9>], [<botania:storage>, <naturesaura:infused_iron>, <botania:storage>]]);
 
 //砍树附魔
 recipes.addShaped(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 38 as short}]}),[[<contenttweaker:arcane_essence>,<minecraft:diamond_axe>,<contenttweaker:arcane_essence>],[<contenttweaker:arcane_essence>,<minecraft:book>,<contenttweaker:arcane_essence>],[<contenttweaker:arcane_essence>,<naturesaura:infused_iron>,<contenttweaker:arcane_essence>]]);
@@ -49,8 +49,8 @@ recipes.addShaped(<xpt:link_card>, [[<minecraft:blaze_powder>, <minecraft:ender_
 recipes.addShaped(<xpt:teleporter>,[[null,<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),null],[<contenttweaker:magcondium_ingot>,<botania:storage:2>,<contenttweaker:magcondium_ingot>],[<contenttweaker:magcondium_ingot>,<botania:lens:18>.withTag({}),<contenttweaker:magcondium_ingot>]]);
 
 //瓶子与木塞
-recipes.addShapeless(<naturesaura:bottle_two_the_rebottling>,[<botania:vial>,<botania:livingwood:1>]);
+recipes.addShapeless("bottle_two_the_rebottling", <naturesaura:bottle_two_the_rebottling>,[<botania:vial>,<botania:livingwood:1>]);
 //木墩
-recipes.addShaped(<naturesaura:wood_stand>,[[<naturesaura:gold_leaf>],[<roots:wildwood_log>]]);
+recipes.addShaped("wood_stand", <naturesaura:wood_stand>,[[<naturesaura:gold_leaf>],[<roots:wildwood_log>]]);
 //增强型漏斗
-recipes.addShaped(<naturesaura:hopper_upgrade>,[[<botania:manaresource>,<naturesaura:infused_iron>,<botania:manaresource>],[<naturesaura:infused_iron>,<botania:enderhand>,<naturesaura:infused_iron>],[<botania:manaresource>,<botania:specialflower>.withTag({type: "hopperhock"}),<botania:manaresource>]]);
+recipes.addShaped("hopper_upgrade", <naturesaura:hopper_upgrade>,[[<botania:manaresource>,<naturesaura:infused_iron>,<botania:manaresource>],[<naturesaura:infused_iron>,<botania:enderhand>,<naturesaura:infused_iron>],[<botania:manaresource>,<botania:specialflower>.withTag({type: "hopperhock"}),<botania:manaresource>]]);
