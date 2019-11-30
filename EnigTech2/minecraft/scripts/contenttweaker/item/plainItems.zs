@@ -92,6 +92,7 @@ var items as string[] = [
 	"magic_key",
 	"blast_furnace_brick"
 ];
+
 //物品注册
 for item in items{
 	VanillaFactory.createItem(item).register();
