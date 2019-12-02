@@ -6,7 +6,7 @@ Pyre.removeRecipe(<roots:pereskia>);
 //红石
 Pyre.addRecipe("redstone", <minecraft:redstone>, [<minecraft:red_flower>, <minecraft:red_flower>, <minecraft:flint>, <minecraft:flint>, <roots:terra_spores>]);
 //木麒麟
-Pyre.addRecipe("pereskia", <roots:pereskia>*3, [<minecraft:beetroot>, <minecraft:reeds>, <roots:wildroot>, <minecraft:redstone>, <roots:petals>]);
+Pyre.addRecipe("pereskia", <roots:pereskia>*4, [<minecraft:beetroot>, <minecraft:reeds>, <roots:wildroot>, <minecraft:redstone>, <roots:petals>]);
 //睡莲
 Pyre.addRecipe("waterlily", <minecraft:waterlily>*3, [<minecraft:vine>, <minecraft:cactus>, <ore:treeLeaves>, <ore:treeLeaves>, <roots:wildroot>]);
 //闪耀纤维
