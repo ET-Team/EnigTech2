@@ -12,7 +12,7 @@ var allStages as string[] = [
 	"four",
 	"five",
 	"six",
-	"seven"
+	"alpha"
 
 ];
 
@@ -184,14 +184,14 @@ for mod in modsStageSix{
 
 mods.ItemStages.removeItemStage(<mekanism:dust:2>);
 
-var modsStageSeven as string[] = [
+var modsStageAlpha as string[] = [
 	"projecte",
 	"draconicevolution"
 ];
 
-for mod in modsStageSeven{
+for mod in modsStageAlpha{
 
-	mods.ItemStages.stageModItems("seven", mod);
-	Recipes.setRecipeStageByMod("seven", mod);
+	mods.ItemStages.stageModItems("alpha", mod);
+	Recipes.setRecipeStageByMod("alpha", mod);
 	
 }

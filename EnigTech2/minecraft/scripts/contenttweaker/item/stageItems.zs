@@ -14,7 +14,7 @@
         divine_inspiration : "four",
         brain_chip : "five",
         star_rune : "six",
-        orders_truth : "seven"
+        orders_truth : "alpha"
     };
 
     function createStageItem(name as string, stage as string, enabled as bool){

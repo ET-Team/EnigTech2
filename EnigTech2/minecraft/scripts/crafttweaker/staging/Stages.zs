@@ -7,4 +7,5 @@ static StageThree = ZenStager.getStage("three");
 static StageFour = ZenStager.getStage("four");
 static StageFive = ZenStager.getStage("five");
 static StageSix = ZenStager.getStage("six");
+static StageAlpha = ZenStager.getStage("alpha");
 static StageDefault = ZenStager.getStage("default");
