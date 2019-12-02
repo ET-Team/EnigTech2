@@ -36,3 +36,5 @@ mods.recipestages.Recipes.addShaped("one", <minecraft:clay>, [[<ore:itemClay>,<o
 recipes.addShaped(<minecraft:torch>*2,[[<roots:terra_moss>],[<minecraft:stick>]]);
 recipes.addShapeless(<minecraft:stick>, [<twilightforest:twilight_plant:8>]);
 recipes.addShapeless(<minecraft:stick>, [<ore:treeSapling>]);
+//陶罐
+recipes.addShaped(<rustic:vase>*2,[[null,<minecraft:hardened_clay>,null],[<minecraft:hardened_clay>,null,<minecraft:hardened_clay>],[<minecraft:hardened_clay>,<minecraft:hardened_clay>,<minecraft:hardened_clay>]]);

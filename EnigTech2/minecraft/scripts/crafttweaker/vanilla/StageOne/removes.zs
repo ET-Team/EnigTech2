@@ -14,3 +14,4 @@ recipes.remove(<minecraft:stick>);
 recipes.remove(<traverse:fir_planks>);
 recipes.removeShaped(<minecraft:furnace>,[[<traverse:red_rock_cobblestone>,<traverse:red_rock_cobblestone>,<traverse:red_rock_cobblestone>],[<traverse:red_rock_cobblestone>,null,<traverse:red_rock_cobblestone>],[<traverse:red_rock_cobblestone>,<traverse:red_rock_cobblestone>,<traverse:red_rock_cobblestone>]]);
 recipes.removeShaped(<minecraft:furnace>,[[<traverse:blue_rock_cobblestone>,<traverse:blue_rock_cobblestone>,<traverse:blue_rock_cobblestone>],[<traverse:blue_rock_cobblestone>,null,<traverse:blue_rock_cobblestone>],[<traverse:blue_rock_cobblestone>,<traverse:blue_rock_cobblestone>,<traverse:blue_rock_cobblestone>]]);
+recipes.remove(<rustic:vase>);
