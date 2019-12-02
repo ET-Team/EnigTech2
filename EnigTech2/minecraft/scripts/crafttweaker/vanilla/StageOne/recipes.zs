@@ -1,14 +1,13 @@
 #priority -100
 //木盆
 recipes.addShaped(<rustic:crushing_tub>,[[<ore:plankWood>,null,<ore:plankWood>],[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>]]);
-//玻璃 
-recipes.addShaped(<minecraft:glass>,[[<minecraft:brick>,<minecraft:brick>,<minecraft:brick>],[<minecraft:brick>,<minecraft:sand>,<minecraft:brick>],[<minecraft:brick>,<etutil:wooden_lighter>,<minecraft:brick>.transformReplace(<minecraft:brick>*7)]]);
+//玻璃
+recipes.addShaped(<minecraft:glass>,[[<minecraft:brick>.reuse(),<minecraft:brick>.reuse(),<minecraft:brick>.reuse()],[<minecraft:brick>.reuse(),<minecraft:sand>,<minecraft:brick>.reuse(10)],[<minecraft:brick>.reuse(),<etutil:wooden_lighter>.anyDamage().transformDamage(),<minecraft:brick>.reuse()]]);
 //石头
-recipes.addShaped(<minecraft:stone>,[[<minecraft:brick>,<minecraft:brick>,<minecraft:brick>],[<minecraft:brick>,<minecraft:cobblestone>,<minecraft:brick>],[<minecraft:brick>,<etutil:wooden_lighter>,<minecraft:brick>.transformReplace(<minecraft:brick>*7)]]);
-//打火器
+recipes.addShaped(<minecraft:stone>,[[<minecraft:brick>.reuse(),<minecraft:brick>.reuse(),<minecraft:brick>.reuse()],[<minecraft:brick>.reuse(),<minecraft:cobblestone>,<minecraft:brick>.reuse(10)],[<minecraft:brick>.reuse(),<etutil:wooden_lighter>.anyDamage().transformDamage(),<minecraft:brick>.reuse()]]);//打火器
 recipes.addShaped(<etutil:wooden_lighter>,[[<ore:stickWood>,null],[null,<ore:stickWood>]]);
 //耕地
-recipes.addShaped(<minecraft:farmland>,[[<minecraft:dye:15>,<minecraft:dye:15>,<minecraft:dye:15>],[<minecraft:dye:15>,<minecraft:dirt>,<minecraft:dye:15>],[<minecraft:dye:15>,<minecraft:dye:15>,<minecraft:dye:15>]]);
+recipes.addShaped(<minecraft:farmland>*5,[[<minecraft:dirt>,<minecraft:dye:15>,<minecraft:dirt>],[<minecraft:dye:15>,<minecraft:dirt>,<minecraft:dye:15>],[<minecraft:dirt>,<minecraft:dye:15>,<minecraft:dirt>]]);
 //甜菜种子
 recipes.addShapeless(<minecraft:beetroot_seeds>,[<minecraft:beetroot>]);
 recipes.addShapeless(<contenttweaker:unknowing_dirt>,[<minecraft:dirt>]);
@@ -18,7 +17,7 @@ recipes.addShaped(<minecraft:stone_slab:3>*6,[[<minecraft:cobblestone>,<minecraf
 recipes.addShaped(<roots:component_pouch>,[[<minecraft:string>,<ore:wool>,<minecraft:string>],[<ore:materialTannedLeather>,null,<ore:materialTannedLeather>],[<minecraft:iron_ingot>,<ore:materialTannedLeather>,<minecraft:iron_ingot>]]);
 recipes.addShaped(<roots:mortar>,[[<minecraft:cobblestone>,null,<minecraft:cobblestone>],[<minecraft:cobblestone>,<ore:rootsBark>,<minecraft:cobblestone>],[null,<minecraft:cobblestone>,null]]);
 //工作台
-mods.recipestages.Recipes.addShaped("one", <minecraft:crafting_table>, [[<survivalist:hatchet>, <survivalist:rock>], [<ore:logWood>, <ore:logWood>]]);
+mods.recipestages.Recipes.addShaped("one", <minecraft:crafting_table>.anyDamage(), [[<survivalist:hatchet>, <survivalist:rock>], [<ore:logWood>, <ore:logWood>]]);
 //木半砖
 mods.recipestages.Recipes.addShaped("one", <minecraft:wooden_slab:0>*6, [[<minecraft:planks:0>,<minecraft:planks:0>,<minecraft:planks:0>]]);
 mods.recipestages.Recipes.addShaped("one", <minecraft:wooden_slab:2>*6, [[<minecraft:planks:2>,<minecraft:planks:2>,<minecraft:planks:2>]]);

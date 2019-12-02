@@ -3,7 +3,7 @@ Criteriazhihuiyaoji41 = addCriteria("Criteriazhihuiyaoji41", "minecraft:inventor
 Criteriazhihuiyaoji41.addItem(<contenttweaker:potion_inteligence>)
 setIcon(<contenttweaker:potion_inteligence>)
 setTitle("\u667a\u6167\u836f\u5242")
-setDescription("\u5236\u4f5c\u667a\u6167\u836f\u5242")
+setDescription("\u5236\u4f5c\u667a\u6167\u836f\u5242\n\u53f3\u952e\u559d\u4e0b\u4ee5\u89e3\u9501\u7b2c\u4e8c\u9636\u6bb5")
 setPos(-390,-45)
 addParent("ET2:StageOne/lengningqi")
 Criteriazhihuiyaoji42 = addCriteria("completedParent", "triumph:completed_advancement")
