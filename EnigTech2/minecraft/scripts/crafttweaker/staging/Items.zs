@@ -74,7 +74,7 @@ for mod in modsStageTwo{
 mods.ItemStages.removeItemStage(<immersiveengineering:metal_multiblock>);
 
 Recipes.setRecipeStageByMod("two", "minecraft");
-Recipes.setRecipeStage("two", <minecraft:chest>);
+Recipes.setRecipeStageByMod("two", "thermalfoundation");
 
 var modsStageThree as string[] = [
 	"twilightforest",
@@ -100,8 +100,6 @@ for mod in modsStageThree{
 	mods.ItemStages.stageModItems("three", mod);
 	Recipes.setRecipeStageByMod("three", mod);
 }
-
-Recipes.setRecipeStageByMod("three", "thermalfoundation");
 
 var modsStageFour as string[] = [
 	"embers",

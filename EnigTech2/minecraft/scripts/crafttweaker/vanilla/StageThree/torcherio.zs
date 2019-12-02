@@ -1,7 +1,7 @@
 #modloaded torcherino
 
 recipes.remove(<item:torcherino:blocktorcherino>);
-recipes.addShaped([
+recipes.addShaped(<item:torcherino:blocktorcherino>, [
     [<contenttweaker:super_calculation_module>,<contenttweaker:entropy>,<contenttweaker:super_calculation_module>],
     [<contenttweaker:neutron>,<minecraft:torch>,<contenttweaker:neutron>],
     [<contenttweaker:super_calculation_module>,<contenttweaker:entropy>,<contenttweaker:super_calculation_module>]
