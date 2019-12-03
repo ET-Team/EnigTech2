@@ -19,13 +19,15 @@ recipes.remove(<extendedcrafting:material>);
 recipes.remove(<environmentaltech:structure_frame_6>);
 recipes.remove(<projecte:item.pe_body_stone>);
 recipes.remove(<projecte:item.pe_soul_stone>);
+recipes.remove(<projecte:transmutation_table>);
+recipes.remove(<projecte:item.pe_matter:1>);
 //终极能量输入仓
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:7>,[[<modularmachinery:itemmodularium>,<draconicevolution:wyvern_energy_core>,<modularmachinery:itemmodularium>],[<draconicevolution:wyvern_energy_core>,<contenttweaker:zhishu_machine_core>,<draconicevolution:wyvern_energy_core>],[<modularmachinery:itemmodularium>,<draconicevolution:wyvern_energy_core>,<modularmachinery:itemmodularium>]]);
 //六级结构方块
 recipes.addShaped(<environmentaltech:structure_frame_6>,[[null,<contenttweaker:material_part:63>,null],[<contenttweaker:draconium_alloy_ingot>,<environmentaltech:structure_frame_5>,<contenttweaker:draconium_alloy_ingot>],[null,<contenttweaker:material_part:63>,null]]);
 //禁忌生命精华
 mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:forbidden_life_essence>,<contenttweaker:essencial_blood>,4,100000,100,1);
-mods.naturesaura.TreeRitual.addRecipe("forbidden_life_essence", <minecraft:sapling>, <contenttweaker:forbidden_life_essence>, 50,[<contenttweaker:forbidden_life_essence>,<bloodmagic:blood_shard>,<contenttweaker:blood_iron>,<twilightforest:fiery_blood>] );
+mods.naturesaura.TreeRitual.addRecipe("forbidden_life_essence", <minecraft:sapling>, <contenttweaker:forbidden_life_essence>*2, 50,[<contenttweaker:forbidden_life_essence>,<bloodmagic:blood_shard>,<contenttweaker:blood_iron>,<twilightforest:fiery_blood>] );
 //护符
 recipes.addShaped(<projecte:item.pe_body_stone>,[[<bloodmagic:slate:4>,<silentgems:gemsuper>,<bloodmagic:slate:4>],[<projecte:item.pe_matter:1>,<contenttweaker:forbidden_life_essence>,<projecte:item.pe_matter:1>],[<bloodmagic:slate:4>,<silentgems:gemsuper>,<bloodmagic:slate:4>]]);
 recipes.addShaped(<projecte:item.pe_soul_stone>,[[<bloodmagic:slate:4>,<silentgems:gemsuper:9>,<bloodmagic:slate:4>],[<projecte:item.pe_matter:1>,<contenttweaker:forbidden_life_essence>,<projecte:item.pe_matter:1>],[<bloodmagic:slate:4>,<silentgems:gemsuper:9>,<bloodmagic:slate:4>]]);
