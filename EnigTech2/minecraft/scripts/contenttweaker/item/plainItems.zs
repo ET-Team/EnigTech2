@@ -76,8 +76,7 @@ var items as string[] = [
 	"dust_small_osmium",
 	"entropy",
 	"neutron",
-	"Enigarium",
-	"Technium",
+	
 	"charged_gaiya_crystal",
 	"gaiya_stabilizer",
 	"compress_crystaltine",
@@ -91,7 +90,10 @@ var items as string[] = [
 	"fuel_helper",
 	"magic_key",
 	"blast_furnace_brick",
-	"enigtecharium",
+
+	"enigarium",
+	"technium",
+	"enigtechnium",
 	"solidified_energy",
 	"will_of_world_tree",
 	"pity_from_nature",

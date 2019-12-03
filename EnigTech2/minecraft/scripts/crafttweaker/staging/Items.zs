@@ -1,4 +1,3 @@
-
 #priority 1000
 
 import crafttweaker.item.IItemStack;
@@ -193,3 +192,20 @@ for mod in modsStageAlpha{
 	Recipes.setRecipeStageByMod("alpha", mod);
 	
 }
+
+val itemsStageAlpha as IIngredient[] = [
+	<contenttweaker:enigarium>,
+	<contenttweaker:technium>,
+	<contenttweaker:enigtechnium>,
+	<contenttweaker:will_of_world_tree>,
+	<contenttweaker:pity_from_nature>,
+	<contenttweaker:solidified_energy>,
+	<contenttweaker:essencial_blood>,
+	<contenttweaker:forbidden_life_essence>
+];
+
+for item in itemsStageAlpha{
+	mods.ItemStages.addItemStage("alpha", item);
+}
+
+mods.ItemStages.stageTooltip("alpha", "EMC:");
