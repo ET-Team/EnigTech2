@@ -14,7 +14,8 @@
         divine_inspiration : "four",
         brain_chip : "five",
         star_rune : "six",
-        orders_truth : "alpha"
+        orders_truth : "alpha",
+        ascenders_proof : "beta",
     };
 
     function createStageItem(name as string, stage as string, enabled as bool){
@@ -34,5 +35,5 @@
 
 //注册物品
     for key in stageItems{
-        createStageItem(key, stageItems[key], key != "orders_truth");
+        createStageItem(key, stageItems[key], key != "ascenders_proof");
     }

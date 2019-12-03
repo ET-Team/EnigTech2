@@ -90,7 +90,13 @@ var items as string[] = [
 	"fire_resist_brick",
 	"fuel_helper",
 	"magic_key",
-	"blast_furnace_brick"
+	"blast_furnace_brick",
+	"enigtecharium",
+	"solidified_energy",
+	"will_of_world_tree",
+	"pity_from_nature",
+	"essencial_blood",
+	"forbidden_life_essence"
 ];
 
 //物品注册

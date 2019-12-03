@@ -11,7 +11,7 @@ val warning as string[IIngredient] = {
 };
 
 val praise as string[IIngredient] = {
-    <item:contenttweaker:orders_truth> : "恭喜，玩家，EnigTech2整合包已经被您征服在手下，敬请期待v1.1的DLC更新\n灵能波函数的坍塌或许会为其带来一些转变"
+    <item:contenttweaker:ascenders_proof> : "恭喜，飞升者，玄理2整合包已经被您征服在手下"
 };
 
 for item in toAdd{
