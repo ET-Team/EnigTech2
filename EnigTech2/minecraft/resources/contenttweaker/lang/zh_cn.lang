@@ -113,8 +113,8 @@ item.contenttweaker.compress_crystaltine.name=压缩水晶素锭
 
 item.contenttweaker.entropy.name=凝聚态熵
 item.contenttweaker.neutron.name=固态中子素
-item.contenttweaker.Enigarium.name=Enigarium锭
-item.contenttweaker.Technium.name=Technium锭
+item.contenttweaker.enigarium.name=玄素锭
+item.contenttweaker.technium.name=真理锭
 item.contenttweaker.orders_truth.name=守序者的真理
 item.contenttweaker.unknowing_dirt.name=蒙昧之土
 
@@ -127,3 +127,10 @@ tooltip.itemstages.enchant=你在没理解上面的附魔前还不能使用这�
 message.itemstages.drop=你丢掉了 %s.
 
 message.itemstages.attack=你在理解透彻%s是如何工作的之前还不能使用它造成伤害
+
+item.contenttweaker.enigtechnium.name=玄理之锭
+item.contenttweaker.solidified_energy.name=固态能量
+item.contenttweaker.will_of_world_tree.name=世界树的意志
+item.contenttweaker.pity_from_nature.name=大自然的垂怜
+item.contenttweaker.essencial_blood.name=一滴精血
+item.contenttweaker.forbidden_life_essence.name=禁忌生命精华
