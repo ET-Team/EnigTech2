@@ -67,3 +67,11 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockaltar", mach
 	.addItemInput(<contenttweaker:material_part:52>)
     .addItemOutput(<environmentaltech:connector>)
     .build();
+//龙芯
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_connector", machineName, 500)
+    .addEnergyPerTickInput(1000)
+    .addFluidInput(<liquid:fluid_lubricant>*100)
+    .addItemInput(<contenttweaker:draconium_alloy_ingot>*20)
+	.addItemInput(<contenttweaker:auriminium>*4)
+	.addItemInput(<contenttweaker:material_part:63>*4)
+    .addItemOutput(<draconicevolution:draconic_core>*2)
