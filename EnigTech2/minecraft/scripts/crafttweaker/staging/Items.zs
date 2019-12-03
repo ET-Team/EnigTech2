@@ -1,6 +1,7 @@
 #priority 1000
 
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 import mods.recipestages.Recipes;
 
 var allStages as string[] = [
