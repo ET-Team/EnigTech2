@@ -234,6 +234,6 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_draconium", machi
 	.addManaInput(1000000)
 	.addItemOutput(<contenttweaker:draconium_alloy_ingot>)
 	.addItemInput(<contenttweaker:ether_alloy_ingot>)
-	.addItemInput(<ore:dustDraconium>*2)
-    .addFluidInput(<liquid:fluid_dragon_breathe>,1000)
+	.addItemInput(<ore:dustDraconium>, 2)
+    .addFluidInput(<liquid:fluid_dragon_breathe>*1000)
 	.build();
