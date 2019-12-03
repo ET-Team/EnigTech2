@@ -23,5 +23,35 @@
         "mode": "REMOVE",
         "result": "draconicevolution:reactor_component,1,1",
         "catalyst": "draconicevolution:wyvern_core"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:reactor_core",
+        "catalyst": "draconicevolution:chaos_shard,1,0",
+        "energy": 1000000000,
+        "tier": 4,
+        "ingredients": [
+            "ore:ingotDraconiumAwakened",
+            "ore:ingotDraconiumAwakened",
+            "ore:ingotDraconiumAwakened",
+            "ore:ingotDraconiumAwakened",
+            "ore:ingotDraconiumAwakened",
+            "ore:ingotDraconiumAwakened"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:reactor_component,0,1",
+        "catalyst": "draconicevolution:wyvern_core",
+        "energy": 100000000,
+        "tier": 2,
+        "ingredients": [
+            "draconicevolution:reactor_part,0,1",
+            "draconicevolution:reactor_part,0,1",
+            "draconicevolution:reactor_part,0,1",
+            "contenttweaker:draconium_alloy_ingot",
+            "contenttweaker:draconium_alloy_ingot",
+            "contenttweaker:draconium_alloy_ingot"
+        ]
     }
 ]
