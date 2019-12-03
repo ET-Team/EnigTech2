@@ -1,0 +1,3069 @@
+{
+    "registryname": "singularity_maker",
+    "localizedname": "史瓦西压缩装置",
+    "parts": [
+        {
+            "x": -8,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockinputbus@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockoutputbus@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@12"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        }
+    ]}
