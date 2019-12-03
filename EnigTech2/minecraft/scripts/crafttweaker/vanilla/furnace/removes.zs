@@ -6,4 +6,4 @@ furnace.remove(<ore:ingotAluminum>);
 furnace.remove(<improvedbackpacks:tanned_leather>);
 furnace.remove(<ore:ingotIridium>);
 furnace.remove(<astralsorcery:itemcraftingcomponent>);
-furnace.remove(<item:draconicevolution:draconic_ingot>);
+furnace.remove(<item:draconicevolution:draconium_ingot>);
