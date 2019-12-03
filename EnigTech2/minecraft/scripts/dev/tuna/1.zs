@@ -6,3 +6,5 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <contenttweaker:auriminium>, [
 	[<ore:ingotTerrasteel>, <contenttweaker:compress_crystaltine>, <astralsorcery:itemcraftingcomponent:4>, <contenttweaker:compress_crystaltine>, <ore:ingotTerrasteel>], 
 	[<contenttweaker:entropy>, <naturesaura:sky_ingot>, <ore:ingotTerrasteel>, <naturesaura:sky_ingot>, <contenttweaker:entropy>]
 ]);
+//删除龙芯合成
+recipes.remove(<draconicevolution:draconic_core>);
