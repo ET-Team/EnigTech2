@@ -98,7 +98,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crafting_injector
     .addEnergyPerTickInput(1000)
     .addFluidInput(<liquid:fluid_dragon_breathe>*2000)
     .addItemInput(<thermalfoundation:storage:7>)
-	.addItemInput(<contenttweaker:zhishu_machine_core>>)
+	.addItemInput(<contenttweaker:zhishu_machine_core>)
     .addItemInput(<naturesaura:infused_stone>*5)
     .addItemInput(<botania:manaresource:2>*2)
     .addItemOutput(<draconicevolution:crafting_injector>*2)
