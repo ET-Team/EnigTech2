@@ -75,3 +75,4 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_connector", machi
 	.addItemInput(<contenttweaker:auriminium>*4)
 	.addItemInput(<contenttweaker:material_part:63>*4)
     .addItemOutput(<draconicevolution:draconic_core>*2)
+    .build();
