@@ -11,7 +11,7 @@ val warning as string[IIngredient] = {
 };
 
 val praise as string[IIngredient] = {
-    <item:contenttweaker:ascenders_proof> : "恭喜，飞升者，玄理2整合包已经被您征服在手下"
+    <item:contenttweaker:ascenders_proof> : "恭喜，飞升者，玄理2整合包已经被您征服在手下，此物品不会在任何合成中消耗"
 };
 
 for item in toAdd{

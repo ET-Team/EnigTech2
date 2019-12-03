@@ -20,3 +20,5 @@ mods.bloodmagic.BloodAltar.addRecipe(<astralsorcery:blockblackmarble>,<astralsor
 mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:strong_motor>,<contenttweaker:strong_motor_unprocessed>,4,20000,100,100);
 //魔能计算机
 mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:magic_calculator>,<contenttweaker:magic_calculator_unpowered>,4,10000,100,100);
+
+mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:forbidden_life_essence>,<contenttweaker:essencial_blood>,4,100000,100,1);

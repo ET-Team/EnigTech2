@@ -24,3 +24,5 @@ mods.naturesaura.TreeRitual.addRecipe("ancient_sapling", <roots:wildwood_sapling
 mods.naturesaura.TreeRitual.addRecipe("fiery_blood", <minecraft:sapling>,  <twilightforest:fiery_blood>*3, 50,[<twilightforest:fiery_blood>,<thermalfoundation:material:1024>,<minecraft:glass_bottle>,<naturesaura:token_rage>] );
 //超级装甲格
 mods.naturesaura.TreeRitual.addRecipe("craftingmaterial:26", <roots:wildwood_sapling>, <silentgems:craftingmaterial:26>*16, 50,[<silentgems:craftingmaterial:1>,<naturesaura:infused_iron>,<twilightforest:naga_scale>,<botania:rune:2>,<bloodmagic:slate:1>] );
+
+mods.naturesaura.TreeRitual.addRecipe("forbidden_life_essence", <minecraft:sapling>, <contenttweaker:forbidden_life_essence>*2, 50,[<contenttweaker:forbidden_life_essence>,<bloodmagic:blood_shard>,<contenttweaker:blood_iron>,<twilightforest:fiery_blood>] );

@@ -1,4 +1,32 @@
 {
-  "entries": [],
-  "__comment": "Use the in-game commands to edit this file"
+  "entries": [
+    {
+      "item": "contenttweaker:pity_from_nature|0",
+      "emc": 1000000000
+    },
+    {
+      "item": "contenttweaker:will_of_world_tree|0",
+      "emc": 1000000000
+    },
+    {
+      "item": "extendedcrafting:material|32",
+      "emc": 10000000000
+    },
+    {
+      "item": "contenttweaker:solidified_energy|0",
+      "emc": 100000000
+    },
+    {
+      "item": "contenttweaker:entropy|0",
+      "emc": 10000000
+    },
+    {
+      "item": "botania:manaresource|4",
+      "emc": 327680
+    },
+    {
+      "item": "projecte:item.pe_fuel|2",
+      "emc": 57890000
+    }
+  ]
 }

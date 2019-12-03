@@ -3,12 +3,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 recipes.replaceAllOccurences(<item:draconicevolution:draconium_ingot>, <contenttweaker:draconium_alloy_ingot>);
-mods.recipestages.Recipes.addShaped("alpha", <contenttweaker:enigtechnium>, [
-    [<contenttweaker:solidified_energy>,<contenttweaker:solidified_energy>,<contenttweaker:solidified_energy>],
-    [<contenttweaker:solidified_energy>,<item:extendedcrafting:storage:4>,<contenttweaker:solidified_energy>],
-    [<contenttweaker:solidified_energy>,<contenttweaker:solidified_energy>,<contenttweaker:solidified_energy>]
-]);
-mods.recipestages.Recipes.addShapeless(<contenttweaker:enigtechnium>, [<contenttweaker:technium>,<contenttweaker:enigarium>]);
+mods.recipestages.Recipes.addShapeless("alpha", <contenttweaker:technium>, [<contenttweaker:technium>,<contenttweaker:enigarium>]);
 
 //模板
 /*
@@ -31,14 +26,14 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [<contenttweaker:technium>,<botania:pool:1>,<contenttweaker:technium>]
     ],
     <embers:creative_ember_source> : [
-        [null,<thermalfoundation:upgrade:256>,null],
-        [null,<embers:crystal_cell>,null],
-        [null,<thermalfoundation:upgrade:256>,null]
+        [<thermalfoundation:upgrade:256>],
+        [<embers:crystal_cell>],
+        [<thermalfoundation:upgrade:256>]
     ],
     <mekanism:gastank>.withTag({tier: 4}) : [
-        [null,<thermalfoundation:upgrade:256>,null],
-        [null,<mekanism:gastank>.withTag({tier: 3}),null],
-        [null,<thermalfoundation:upgrade:256>,null]
+        [<thermalfoundation:upgrade:256>],
+        [<mekanism:gastank>.withTag({tier: 3})],
+        [<thermalfoundation:upgrade:256>]
     ],
     <storagedrawers:upgrade_creative:1>*2 : [
         [<contenttweaker:enigtechnium>,<thermalfoundation:upgrade:256>,<contenttweaker:enigtechnium>],
@@ -46,9 +41,9 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [<contenttweaker:enigtechnium>,<thermalfoundation:upgrade:256>,<contenttweaker:enigtechnium>]
     ],
     <appliedenergistics2:creative_storage_cell>.withTag({}) : [
-        [null,<appliedenergistics2:storage_cell_64k>.withTag({}),null],
-        [null,<storagedrawers:upgrade_creative:1>,null],
-        [null,<appliedenergistics2:fluid_storage_cell_64k>.withTag({}),null]
+        [<appliedenergistics2:storage_cell_64k>.withTag({})],
+        [<storagedrawers:upgrade_creative:1>],
+        [<appliedenergistics2:fluid_storage_cell_64k>.withTag({})]
     ],
     <buildinggadgets:constructionpastecontainercreative> : [
         [null,<storagedrawers:upgrade_creative:1>,null],
@@ -56,40 +51,53 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [null,<storagedrawers:upgrade_creative:1>,null]
     ],
      <bloodmagic:sacrificial_dagger:1>.withTag({sacrifice: 0 as byte}) : [
-        [<contenttweaker:enigarium>,null,<contenttweaker:enigarium>],
+        [<ore:ingotIron>,null,<ore:ingotGold>],
         [null,<contenttweaker:pity_from_nature>,null],
-        [<contenttweaker:enigarium>,null,<contenttweaker:pity_from_nature>]
+        [<ore:ingotIronwood>,null,<ore:ingotIron>]
     ],
    <botania:manatablet>.withTag({mana: 500000, creative: 1 as byte}) : [
-        [null,<contenttweaker:ascenders_proof>,null],
-        [null,<botania:pool:1>,null],
-        [null,null,null]
+        [<contenttweaker:ascenders_proof>.reuse()],
+        [<botania:pool:1>]
     ],
      <bibliocraft:bookcasecreative> : [
-        [null,<contenttweaker:ascenders_proof>,null],
-        [null,<bibliocraft:bookcase>,null],
-        [null,null,null]
+        [<contenttweaker:ascenders_proof>.reuse()],
+        [<bibliocraft:bookcase>],
     ],
     <wct:wct_creative>.withTag({IsInRange: 0 as byte}) : [
-        [null,<contenttweaker:ascenders_proof>,null],
-        [null,<wct:wct>.withTag({internalCurrentPower: 1600000.0}),null],
-        [null,null,null]
+        [<contenttweaker:ascenders_proof>.reuse()],
+        [<wct:wct>.withTag({internalCurrentPower: 1600000.0})]
     ],
     <wpt:wpt_creative>.withTag({IsInRange: 0 as byte}) : [
-        [null,<contenttweaker:ascenders_proof>,null],
-        [null,<wct:wct_creative>.withTag({IsInRange: 0 as byte}),null],
-        [null,<appliedenergistics2:material:52>,null]
+        [<contenttweaker:ascenders_proof>.reuse()],
+        [<wct:wct_creative>.withTag({IsInRange: 0 as byte})],
+        [<appliedenergistics2:material:52>]
     ],
      <deepmoblearning:creative_model_learner> : [
-        [null,<thermalfoundation:upgrade:256>,null],
-        [null,<deepmoblearning:data_model_blank>,null],
-        [null,null,null]
-    ]
-
-
-    
+        [<thermalfoundation:upgrade:256>],
+        [<deepmoblearning:data_model_blank>]
+    ],
+    <contenttweaker:enigtechnium> : [
+        [<contenttweaker:solidified_energy>,<contenttweaker:solidified_energy>,<contenttweaker:solidified_energy>],
+        [<contenttweaker:solidified_energy>,<item:extendedcrafting:storage:4>,<contenttweaker:solidified_energy>],
+        [<contenttweaker:solidified_energy>,<contenttweaker:solidified_energy>,<contenttweaker:solidified_energy>]
+    ],
+    itemUtils.getItem("projecte:item.pe_fuel", 1) : [
+        [<contenttweaker:good_fuel>, itemUtils.getItem("projecte:item.pe_fuel"), <contenttweaker:good_fuel>],
+        [<contenttweaker:good_fuel>, itemUtils.getItem("projecte:item.pe_philosophers_stone").reuse(), <contenttweaker:good_fuel>],
+        [<contenttweaker:good_fuel>, itemUtils.getItem("projecte:item.pe_fuel"), <contenttweaker:good_fuel>]
+    ],
+    itemUtils.getItem("projecte:item.pe_fuel", 2) : [
+        [<contenttweaker:entropy>, itemUtils.getItem("projecte:item.pe_fuel", 1), <contenttweaker:entropy>],
+        [<astralsorcery:itemcraftingcomponent:4>, itemUtils.getItem("projecte:item.pe_philosophers_stone").reuse(), <astralsorcery:itemcraftingcomponent:4>],
+        [<contenttweaker:entropy>, itemUtils.getItem("projecte:item.pe_fuel", 1), <contenttweaker:entropy>]
+    ],
+    <contenttweaker:ascenders_proof> : [[<rustic:retort>, <rustic:condenser>, <rustic:retort>],[<rustic:fluid_bottle>, <contenttweaker:enigtechnium>, <rustic:crushing_tub>], [<roots:stalicripe>, <roots:cloud_berry>, <roots:dewgonia>]],
+    <projecte:item.pe_body_stone> : [[<bloodmagic:slate:4>,<silentgems:gemsuper>,<bloodmagic:slate:4>],[<projecte:item.pe_matter:1>,<contenttweaker:forbidden_life_essence>,<projecte:item.pe_matter:1>],[<bloodmagic:slate:4>,<silentgems:gemsuper>,<bloodmagic:slate:4>]],
+    <projecte:item.pe_soul_stone> : [[<bloodmagic:slate:4>,<silentgems:gemsuper:9>,<bloodmagic:slate:4>],[<projecte:item.pe_matter:1>,<contenttweaker:forbidden_life_essence>,<projecte:item.pe_matter:1>],[<bloodmagic:slate:4>,<silentgems:gemsuper:9>,<bloodmagic:slate:4>]],
+    <modularmachinery:blockenergyinputhatch:7> : [[<modularmachinery:itemmodularium>,<draconicevolution:wyvern_energy_core>,<modularmachinery:itemmodularium>],[<draconicevolution:wyvern_energy_core>,<contenttweaker:zhishu_machine_core>,<draconicevolution:wyvern_energy_core>],[<modularmachinery:itemmodularium>,<draconicevolution:wyvern_energy_core>,<modularmachinery:itemmodularium>]],
+    <environmentaltech:structure_frame_6> : [[null,<contenttweaker:material_part:63>,null],[<contenttweaker:draconium_alloy_ingot>,<environmentaltech:structure_frame_5>,<contenttweaker:draconium_alloy_ingot>],[null,<contenttweaker:material_part:63>,null]]
 };
 
 for output in shapedRecipes{
-    mods.recipestages.Recipes.addShaped("alpha", output, shapedRecipes[outputs]);
+    mods.recipestages.Recipes.addShaped("alpha", output, shapedRecipes[output]);
 }
