@@ -10,3 +10,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <contenttweaker:auriminium>, [
 recipes.remove(<draconicevolution:draconic_core>);
 recipes.remove(<draconicevolution:fusion_crafting_core>);
 recipes.remove(<draconicevolution:crafting_injector>);
+recipes.remove(<extendedcrafting:material>);
+//终极能量输入仓
+recipes.addShaped(<modularmachinery:blockenergyinputhatch:7>,[[<modularmachinery:itemmodularium>,<draconicevolution:wyvern_energy_core>,<modularmachinery:itemmodularium>],[<draconicevolution:wyvern_energy_core>,<contenttweaker:zhishu_machine_core>,<draconicevolution:wyvern_energy_core>],[<modularmachinery:itemmodularium>,<draconicevolution:wyvern_energy_core>,<modularmachinery:itemmodularium>]]);
+
