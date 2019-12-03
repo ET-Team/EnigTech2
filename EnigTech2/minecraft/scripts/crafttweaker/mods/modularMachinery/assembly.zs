@@ -83,3 +83,4 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_draconic_core", m
     .addItemInput(<draconicevolution:draconic_core>*4)
 	.addItemInput(<contenttweaker:material_part:61>*20)
     .addItemOutput(<contenttweaker:zhishu_machine_core>)
+    .build();
