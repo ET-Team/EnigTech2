@@ -16,14 +16,13 @@ item.rarity = "EPIC";
 item.glowing = true;
 item.itemRightClick = function(stack, world, player, hand) {
                 print(stack.name);
-                if(stack.damage != 0){
-                    stack.damageItem(-1, player);
-                }
                 if(world.isRemote()){
-                    world.spawnEntity(<item:contenttweaker:essencial_blood>.createEntityItem(world, player.x, player.y, player.z));
                     player.sendChat(player.name+" 榨取出了他心头的一滴精血");
+                    Commands.call("playsound minecraft:entity.player.hurt player "+player.name, player, world);
+                }else{
+                    world.spawnEntity(<item:contenttweaker:essencial_blood>.createEntityItem(world, player.x, player.y, player.z));
                 }
-                player.health = 0.0f;
+                player.attackEntityFrom(<damageSource:GENERIC>, 1000000000000000.0f);
                 return "Pass";
             };
 item.register();
