@@ -38,3 +38,15 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <contenttweaker:orders_truth>, 
 	[null, <contenttweaker:material_part:61>, <astralsorcery:itemshiftingstar>, <contenttweaker:entropy>, <ore:ingotCalifornium250Base>, <contenttweaker:entropy>, <astralsorcery:itemshiftingstar>, <contenttweaker:material_part:61>, null], 
 	[null, null, <contenttweaker:material_part:61>, <contenttweaker:material_part:61>, <contenttweaker:material_part:61>, <contenttweaker:material_part:61>, <contenttweaker:material_part:61>, null, null]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(4, <item:extendedcrafting:material:32>, [
+	[<ore:ingotSilver>, <ore:ingotSilver>, <contenttweaker:neutron>, <contenttweaker:neutron>, <ore:ingotTin>, <contenttweaker:neutron>, <contenttweaker:neutron>, <ore:ingotCopper>, <ore:ingotCopper>], 
+	[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotBronze>, <ore:ingotPlatinum>, <ore:ingotIron>, <ore:ingotGold>, <ore:ingotElectrum>, <ore:ingotCopper>, <ore:ingotCopper>], 
+	[<contenttweaker:neutron>, <ore:ingotBronze>, <ore:ingotPlatinum>, <ore:ingotIron>, <deepmoblearning:glitch_infused_ingot>, <ore:ingotIron>, <ore:ingotGold>, <ore:ingotElectrum>, <contenttweaker:neutron>], 
+	[<contenttweaker:neutron>, <ore:ingotPlatinum>, <ore:ingotIron>, <ore:ingotSignalum>, <contenttweaker:material_part:45>, <contenttweaker:material_part:25>, <ore:ingotIron>, <ore:ingotGold>, <contenttweaker:neutron>], 
+	[<ore:ingotTin>, <ore:ingotIron>, <ore:ingotMithril>, <contenttweaker:material_part:72>, <contenttweaker:material_part:63>, <ore:ingotTitanium>, <ore:ingotUnstable>, <ore:ingotIron>, <ore:ingotTin>], 
+	[<contenttweaker:neutron>, <ore:ingotInvar>, <ore:ingotIron>, <ore:ingotLumium>, <ore:ingotIridium>, <ore:ingotEnderium>, <ore:ingotIron>, <ore:ingotNickel>, <contenttweaker:neutron>], 
+	[<contenttweaker:neutron>, <ore:ingotConstantan>, <ore:ingotInvar>, <ore:ingotIron>, <ore:ingotDemonicMetal>, <ore:ingotIron>, <ore:ingotNickel>, <ore:ingotSteel>, <contenttweaker:neutron>], 
+	[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotConstantan>, <ore:ingotInvar>, <ore:ingotIron>, <ore:ingotNickel>, <ore:ingotSteel>, <ore:ingotAluminum>, <ore:ingotAluminum>], 
+	[<ore:ingotLead>, <ore:ingotLead>, <contenttweaker:neutron>, <contenttweaker:neutron>, <ore:ingotTin>, <contenttweaker:neutron>, <contenttweaker:neutron>, <ore:ingotAluminum>, <ore:ingotAluminum>]
+]);
