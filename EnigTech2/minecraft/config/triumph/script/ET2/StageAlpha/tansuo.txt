@@ -4,7 +4,7 @@ Criteriatansuo14.addItem(<modularmachinery:itemblueprint, meta:0, count:1, nbt:{
 setIcon(<modularmachinery:itemblueprint, meta:0, nbt:{dynamicmachine:"modularmachinery:energy_solidifier"}>)
 setTitle("\u5723\u7ecf\u548f\u5531")
 setDescription("\u642d\u5efa \u6df7\u4e71.\u96f6\u70b9.\u5b87\u5b99.\u771f\u7a7a.\u574d\u7f29\u80fd\u91c7\u96c6\u88c5\u7f6e")
-setPos(-553,75)
+setPos(-569,52)
 addParent("ET2:StageAlpha/longkuai")
 drawDirectLines(true)
 setShowToast(true)

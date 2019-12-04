@@ -4,7 +4,7 @@ Criterialingqifuzhouzhuangzhi17.addItem(<modularmachinery:itemblueprint, meta:0,
 setIcon(<modularmachinery:itemblueprint, meta:0, nbt:{dynamicmachine:"modularmachinery:aura_collector"}>)
 setTitle("\u7075\u6c14\u9644\u7740\u88c5\u7f6e")
 setDescription("\u642d\u5efa\u7075\u6c14\u9644\u7740\u88c5\u7f6e")
-setPos(100,100)
+setPos(-528,15)
 addParent("ET2:StageAlpha/hongwuzhi")
 drawDirectLines(true)
 setShowToast(true)
