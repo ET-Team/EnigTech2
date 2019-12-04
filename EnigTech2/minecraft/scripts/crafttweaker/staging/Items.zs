@@ -62,7 +62,8 @@ var modsStageTwo as string[] = [
 	"forge",
 	"microblockcbe",
 	"baubles",
-	"extendedcrafting"
+	"extendedcrafting",
+	"flopper",
 ];
 
 for mod in modsStageTwo{
@@ -115,7 +116,6 @@ var modsStageFour as string[] = [
 	"elevatorid",
 	"rangedpumps",
 	"arcanearchives",
-	"flopper",
 	"enderioconduitsappliedenergistics",
 	"appliedenergistics2",
 	"extrautils2",
