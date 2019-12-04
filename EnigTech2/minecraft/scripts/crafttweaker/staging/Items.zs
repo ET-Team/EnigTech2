@@ -146,7 +146,8 @@ var modsStageFive as string[] = [
 	"ae2wtlib",
 	"buildinggadgets",
 	"wpt",
-	"advancedrocketry"
+	"advancedrocketry",
+	"libvulpes"
 
 ];
 
@@ -193,6 +194,45 @@ for mod in modsStageAlpha{
 	Recipes.setRecipeStageByMod("alpha", mod);
 	
 }
+val itemsStageFour as IIngredient[] = [
+	<contenttweaker:transistor_bad>,
+	<contenttweaker:transistor_fine>,
+	<contenttweaker:unpolished_slice_monosilicon>,
+	<contenttweaker:advanced_motioner>,
+	<contenttweaker:advanced_processor>,
+	<contenttweaker:bad_machine_core>,
+	<contenttweaker:baseplate_aluminum>,
+	<contenttweaker:baseplate_gold>,
+	<contenttweaker:baseplate_iridium>,
+	<contenttweaker:basic_circuit>,
+	<contenttweaker:basic_motioner>,
+	<contenttweaker:basic_processor>,
+	<contenttweaker:brain_chip>,
+	<contenttweaker:bulk_of_plastic>,
+	<contenttweaker:charged_gaiya_crystal>,
+	<contenttweaker:chlorinized_slice_monosilicon>,
+	<contenttweaker:dark_gaiya_crystal>,
+	<contenttweaker:dark_gaiya_crystal_unpolished>,
+	<contenttweaker:gaiya_stabilizer>,
+	<contenttweaker:ic_processed>,
+	<contenttweaker:ic_unprocessed>,
+	<contenttweaker:ic_wafer>,
+	<contenttweaker:magfusive_crystal>,
+	<contenttweaker:magic_motor>,
+	<contenttweaker:medium_motioner>,
+	<contenttweaker:processor_base>,
+	<contenttweaker:reinforced_machine_core>,
+	<contenttweaker:resistor_bad>,
+	<contenttweaker:resistor_fine>,
+	<contenttweaker:rod_monocrystal_silicon>,
+	<contenttweaker:rubber_plate>,
+	<contenttweaker:silicon_reinforced>,
+	<contenttweaker:silicon_slice>,
+	<contenttweaker:slice_monosilicon>,
+	<contenttweaker:slice_silicon_compressed>,
+	<contenttweaker:slice_silicon_rough>,
+	<contenttweaker:soso_machine_core>
+];
 val itemsStageFive as IIngredient[] = [
 	<contenttweaker:ultra_machine_core>,
 	<contenttweaker:lunar_essence>,
@@ -201,7 +241,12 @@ val itemsStageFive as IIngredient[] = [
 	<contenttweaker:integrated_calculation_module_unprocessed>,
 	<contenttweaker:magic_calculator_unpowered>,
 	<contenttweaker:magic_machine_hull>,
-	<contenttweaker:magic_calculator>
+	<contenttweaker:magic_calculator>,
+	<contenttweaker:star_rune>,
+	<contenttweaker:strong_motor>,
+	<contenttweaker:strong_motor_unprocessed>,
+	<contenttweaker:meteor_bait>,
+	<contenttweaker:dust_small_osmium>
 ];
 val itemsStageSix as IIngredient[] = [
 	<contenttweaker:void_machine_core>,
@@ -240,4 +285,13 @@ for item in itemsStageFive{
 	mods.ItemStages.addItemStage("five", item);
 }
 
+for item in itemsStageFour{
+	mods.ItemStages.addItemStage("four", item);
+}
+for i in 14 to 84{
+    mods.ItemStages.addItemStage("five", <contenttweaker:material_part>.definition.makeStack(i));
+}
+for i in 0 to 16{
+    mods.ItemStages.addItemStage("five", <contenttweaker:sub_block_holder_0>.definition.makeStack(i));
+}
 mods.ItemStages.stageTooltip("alpha", "EMC:");
