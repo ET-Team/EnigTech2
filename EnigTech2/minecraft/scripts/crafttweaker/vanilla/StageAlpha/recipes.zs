@@ -3,7 +3,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 recipes.replaceAllOccurences(<item:draconicevolution:draconium_ingot>, <contenttweaker:draconium_alloy_ingot>);
-mods.recipestages.Recipes.addShapeless("alpha", <contenttweaker:technium>, [<contenttweaker:technium>,<contenttweaker:enigarium>]);
+mods.recipestages.Recipes.addShapeless("alpha", <contenttweaker:enigtechnium>, [<contenttweaker:technium>,<contenttweaker:enigarium>]);
 
 //模板
 /*
@@ -76,7 +76,7 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [<thermalfoundation:upgrade:256>],
         [<deepmoblearning:data_model_blank>]
     ],
-    <contenttweaker:enigtechnium> : [
+    <contenttweaker:technium> : [
         [<contenttweaker:solidified_energy>,<contenttweaker:solidified_energy>,<contenttweaker:solidified_energy>],
         [<contenttweaker:solidified_energy>,<item:extendedcrafting:storage:4>,<contenttweaker:solidified_energy>],
         [<contenttweaker:solidified_energy>,<contenttweaker:solidified_energy>,<contenttweaker:solidified_energy>]
