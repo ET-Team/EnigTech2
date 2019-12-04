@@ -59,9 +59,9 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [<contenttweaker:ascenders_proof>.reuse()],
         [<botania:pool:1>]
     ],
-     <bibliocraft:bookcasecreative> : [
+     <bibliocraft:bookcasecreative:6> : [
         [<contenttweaker:ascenders_proof>.reuse()],
-        [<bibliocraft:bookcase>],
+        [<bibliocraft:bookcase:6>],
     ],
     <wct:wct_creative>.withTag({IsInRange: 0 as byte}) : [
         [<contenttweaker:ascenders_proof>.reuse()],

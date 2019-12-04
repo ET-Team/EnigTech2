@@ -1,0 +1,230 @@
+{
+  "name": "compactmachines3:stone",
+
+  "target-item": "projecte:item.pe_philosophers_stone",
+  "target-count": 1,
+  "target-meta": 0,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  
+  
+  "catalyst": "astralsorcery:itemcraftingcomponent",
+  "catalyst-meta": 4,
+
+  
+  
+  "input-types": {
+    "a": {
+      "id": "silentgems:gemblocksuperdark",
+      "meta": 13
+    },
+    "b": {
+      "id": "silentgems:gemblocksuperlight",
+      "meta": 0
+    },
+    "c": {
+      "id": "silentgems:gemblocksuperlight",
+      "meta": 1
+    },
+    "d": {
+      "id": "silentgems:gemblocksuper",
+      "meta": 0
+    },
+    "e": {
+      "id": "silentgems:gemblocksuperdark",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "a",
+        "a",
+        "a",
+        "_"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "_",
+        "a",
+        "a",
+        "a",
+        "_"
+      ]
+    ],
+    [
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ]
+    ],
+    [
+      [
+        "c",
+        "c",
+        "c",
+        "c",
+        "c"
+      ],
+      [
+        "c",
+        "c",
+        "c",
+        "c",
+        "c"
+      ],
+      [
+        "c",
+        "c",
+        "c",
+        "c",
+        "c"
+      ],
+      [
+        "c",
+        "c",
+        "c",
+        "c",
+        "c"
+      ],
+      [
+        "c",
+        "c",
+        "c",
+        "c",
+        "c"
+      ]
+    ],
+    [
+      [
+        "d",
+        "d",
+        "d",
+        "d",
+        "d"
+      ],
+      [
+        "d",
+        "d",
+        "d",
+        "d",
+        "d"
+      ],
+      [
+        "d",
+        "d",
+        "d",
+        "d",
+        "d"
+      ],
+      [
+        "d",
+        "d",
+        "d",
+        "d",
+        "d"
+      ],
+      [
+        "d",
+        "d",
+        "d",
+        "d",
+        "d"
+      ]
+    ],
+    [
+      [
+        "_",
+        "e",
+        "e",
+        "e",
+        "_"
+      ],
+      [
+        "e",
+        "e",
+        "e",
+        "e",
+        "e"
+      ],
+      [
+        "e",
+        "e",
+        "e",
+        "e",
+        "e"
+      ],
+      [
+        "e",
+        "e",
+        "e",
+        "e",
+        "e"
+      ],
+      [
+        "_",
+        "e",
+        "e",
+        "e",
+        "_"
+      ]
+    ]
+  ]
+
+
+
+}
