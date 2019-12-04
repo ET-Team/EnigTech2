@@ -95,7 +95,10 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
     <projecte:item.pe_body_stone> : [[<bloodmagic:slate:4>,<silentgems:gemsuper>,<bloodmagic:slate:4>],[<projecte:item.pe_matter:1>,<contenttweaker:forbidden_life_essence>,<projecte:item.pe_matter:1>],[<bloodmagic:slate:4>,<silentgems:gemsuper>,<bloodmagic:slate:4>]],
     <projecte:item.pe_soul_stone> : [[<bloodmagic:slate:4>,<silentgems:gemsuper:9>,<bloodmagic:slate:4>],[<projecte:item.pe_matter:1>,<contenttweaker:forbidden_life_essence>,<projecte:item.pe_matter:1>],[<bloodmagic:slate:4>,<silentgems:gemsuper:9>,<bloodmagic:slate:4>]],
     <modularmachinery:blockenergyinputhatch:7> : [[<modularmachinery:itemmodularium>,<draconicevolution:wyvern_energy_core>,<modularmachinery:itemmodularium>],[<draconicevolution:wyvern_energy_core>,<contenttweaker:zhishu_machine_core>,<draconicevolution:wyvern_energy_core>],[<modularmachinery:itemmodularium>,<draconicevolution:wyvern_energy_core>,<modularmachinery:itemmodularium>]],
-    <environmentaltech:structure_frame_6> : [[null,<contenttweaker:material_part:63>,null],[<contenttweaker:draconium_alloy_ingot>,<environmentaltech:structure_frame_5>,<contenttweaker:draconium_alloy_ingot>],[null,<contenttweaker:material_part:63>,null]]
+    <environmentaltech:structure_frame_6> : [[null,<contenttweaker:material_part:63>,null],[<contenttweaker:draconium_alloy_ingot>,<environmentaltech:structure_frame_5>,<contenttweaker:draconium_alloy_ingot>],[null,<contenttweaker:material_part:63>,null]],
+    <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_solidifier"}) : [[<item:minecraft:paper>,<contenttweaker:entropy>]],
+    <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:aura_collector"}) : [[<item:minecraft:paper>,<item:contenttweaker:auriminium>]],
+    <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:singularity_maker"}) : [[<item:minecraft:paper>, <item:appliedenergistics2:material:6>]]
 };
 
 for output in shapedRecipes{
