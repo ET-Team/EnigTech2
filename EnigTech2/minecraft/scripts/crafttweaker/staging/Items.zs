@@ -193,8 +193,29 @@ for mod in modsStageAlpha{
 	Recipes.setRecipeStageByMod("alpha", mod);
 	
 }
-
+val itemsStageFive as IIngredient[] = [
+	<contenttweaker:ultra_machine_core>,
+	<contenttweaker:lunar_essence>,
+	<contenttweaker:iridium_osmium_ingot>,
+	<contenttweaker:integrated_calculation_module>,
+	<contenttweaker:integrated_calculation_module_unprocessed>,
+	<contenttweaker:magic_calculator_unpowered>,
+	<contenttweaker:magic_machine_hull>,
+	<contenttweaker:magic_calculator>
+];
+val itemsStageSix as IIngredient[] = [
+	<contenttweaker:void_machine_core>,
+	<contenttweaker:super_calculation_module>,
+	<contenttweaker:orders_truth>,
+	<contenttweaker:neutron>,
+	<contenttweaker:entropy>,
+	<contenttweaker:compress_crystaltine>,
+	<contenttweaker:ultracondium_crystal>,
+	<contenttweaker:ultimate_motioner>,
+	<contenttweaker:ether_alloy_ingot>
+];
 val itemsStageAlpha as IIngredient[] = [
+	<contenttweaker:auriminium>,
 	<contenttweaker:enigarium>,
 	<contenttweaker:technium>,
 	<contenttweaker:enigtechnium>,
@@ -202,11 +223,21 @@ val itemsStageAlpha as IIngredient[] = [
 	<contenttweaker:pity_from_nature>,
 	<contenttweaker:solidified_energy>,
 	<contenttweaker:essencial_blood>,
-	<contenttweaker:forbidden_life_essence>
+	<contenttweaker:forbidden_life_essence>,
+	<contenttweaker:moon_blade>,
+	<contenttweaker:zhishu_machine_core>
 ];
 
 for item in itemsStageAlpha{
 	mods.ItemStages.addItemStage("alpha", item);
+}
+
+for item in itemsStageSix{
+	mods.ItemStages.addItemStage("six", item);
+}
+
+for item in itemsStageFive{
+	mods.ItemStages.addItemStage("five", item);
 }
 
 mods.ItemStages.stageTooltip("alpha", "EMC:");

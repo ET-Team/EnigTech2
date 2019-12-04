@@ -27,6 +27,38 @@
     {
       "item": "projecte:item.pe_fuel|2",
       "emc": 57890000
+    },
+    {
+      "item": "deepmoblearning:glitch_infused_ingot|0",
+      "emc": 792810
+    },
+    {
+      "item": "thermalfoundation:material|167",
+      "emc": 199810
+    },
+    {
+      "item": "libvulpes:productingot|7",
+      "emc": 8810
+    },
+    {
+      "item": "contenttweaker:material_part|25",
+      "emc": 8810
+    },
+    {
+      "item": "contenttweaker:material_part|45",
+      "emc": 12810
+    },
+    {
+      "item": "contenttweaker:material_part|72",
+      "emc": 8810
+    },
+    {
+      "item": "thermalfoundation:material|136",
+      "emc": 14810
+    },
+    {
+      "item": "thermalfoundation:material|135",
+      "emc": 94810
     }
   ]
 }
