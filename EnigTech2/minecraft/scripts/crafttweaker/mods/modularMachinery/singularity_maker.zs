@@ -19,3 +19,9 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_os", machineName,
 	.addItemInput(<ore:blockOsmium>)
     .addItemOutput(<appliedenergistics2:material:47>)
     .build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_entropy", machineName, 18*20*3)
+    .addEnergyPerTickInput(1000000)
+	.addItemInput(<appliedenergistics2:material:47>)
+    .addItemOutput(<contenttweaker:entropy>*8)
+    .build();

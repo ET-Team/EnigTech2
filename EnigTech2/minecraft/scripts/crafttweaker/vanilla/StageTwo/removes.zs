@@ -2,7 +2,6 @@
 
 recipes.remove(<immersiveengineering:stone_decoration> * 3);
 recipes.remove(<immersiveengineering:stone_decoration:1> * 3);
-recipes.remove(<immersiveengineering:stone_decoration:2>);
 recipes.remove(<immersiveengineering:stone_decoration:10> * 2);
 recipes.remove(<thermalfoundation:material:99>);
 recipes.remove(<storagedrawers:controller>);

@@ -1,6 +1,7 @@
 {
     "registryname": "aura_collector",
     "localizedname": "灵气附着装置",
+    "color":"008080",
     "parts": [
         {
             "x": -4,

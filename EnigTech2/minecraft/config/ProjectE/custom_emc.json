@@ -10,7 +10,7 @@
     },
     {
       "item": "extendedcrafting:material|32",
-      "emc": 10000000000
+      "emc": 1000000000
     },
     {
       "item": "contenttweaker:solidified_energy|0",
@@ -18,7 +18,7 @@
     },
     {
       "item": "contenttweaker:entropy|0",
-      "emc": 10000000
+      "emc": 1000000
     },
     {
       "item": "botania:manaresource|4",
@@ -26,7 +26,7 @@
     },
     {
       "item": "projecte:item.pe_fuel|2",
-      "emc": 57890000
+      "emc": 4710000
     },
     {
       "item": "deepmoblearning:glitch_infused_ingot|0",
@@ -59,6 +59,22 @@
     {
       "item": "thermalfoundation:material|135",
       "emc": 94810
+    },
+    {
+      "item": "projecte:item.pe_matter|1",
+      "emc": 89100000
+    },
+    {
+      "item": "contenttweaker:good_fuel|0",
+      "emc": 1800
+    },
+    {
+      "item": "appliedenergistics2:material|47",
+      "emc": 3280000
+    },
+    {
+      "item": "projecte:item.pe_philosophers_stone|0",
+      "emc": 18210000
     }
   ]
 }

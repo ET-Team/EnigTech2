@@ -64,6 +64,7 @@ var modsStageTwo as string[] = [
 	"baubles",
 	"extendedcrafting",
 	"flopper",
+	"thermalfoundation"
 ];
 
 for mod in modsStageTwo{
@@ -75,7 +76,6 @@ for mod in modsStageTwo{
 mods.ItemStages.removeItemStage(<immersiveengineering:metal_multiblock>);
 
 Recipes.setRecipeStageByMod("two", "minecraft");
-Recipes.setRecipeStageByMod("two", "thermalfoundation");
 
 var modsStageThree as string[] = [
 	"twilightforest",
@@ -182,6 +182,9 @@ for mod in modsStageSix{
 }
 
 mods.ItemStages.removeItemStage(<mekanism:dust:2>);
+mods.ItemStages.removeItemStage(<item:nuclearcraft:gem_dust>);
+mods.ItemStages.removeItemStage(<item:nuclearcraft:gem_dust:2>);
+mods.ItemStages.removeItemStage(<mekanism:dust:2>);
 
 var modsStageAlpha as string[] = [
 	"projecte",
@@ -195,6 +198,7 @@ for mod in modsStageAlpha{
 	
 }
 val itemsStageFour as IIngredient[] = [
+	<immersiveengineering:stone_decoration:2>,
 	<contenttweaker:transistor_bad>,
 	<contenttweaker:transistor_fine>,
 	<contenttweaker:unpolished_slice_monosilicon>,

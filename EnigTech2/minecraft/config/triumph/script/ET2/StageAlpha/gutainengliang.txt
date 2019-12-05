@@ -4,7 +4,7 @@ Criteriagutainengliang15.addItem(<contenttweaker:solidified_energy, meta:0, coun
 setIcon(<contenttweaker:solidified_energy, meta:0>)
 setTitle("\u80fd\u91cf\u7cd6\u679c")
 setDescription("\u5236\u4f5c\u56fa\u6001\u80fd\u91cf")
-setPos(-528,52)
+setPos(-480,71)
 addParent("ET2:StageAlpha/tansuo")
 drawDirectLines(true)
 setShowToast(true)
