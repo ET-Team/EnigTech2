@@ -120,7 +120,7 @@
         "background":{
             "image" : "",
             "slideshow":{
-                "images" : ["et2:001.png","et2:002.png","et2:003.png"],
+                "images" : ["et2:001.png","et2:002.png","et2:003.png","et3:004.png"],
                 "displayDuration" : 200,
                 "fadeDuration" : 60
             }

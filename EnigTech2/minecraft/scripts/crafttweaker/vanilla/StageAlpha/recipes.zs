@@ -98,7 +98,8 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
     <environmentaltech:structure_frame_6> : [[null,<contenttweaker:material_part:63>,null],[<contenttweaker:draconium_alloy_ingot>,<environmentaltech:structure_frame_5>,<contenttweaker:draconium_alloy_ingot>],[null,<contenttweaker:material_part:63>,null]],
     <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_solidifier"}) : [[<item:minecraft:paper>,<contenttweaker:entropy>]],
     <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:aura_collector"}) : [[<item:minecraft:paper>,<item:contenttweaker:auriminium>]],
-    <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:singularity_maker"}) : [[<item:minecraft:paper>, <item:appliedenergistics2:material:6>]]
+    <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:singularity_maker"}) : [[<item:minecraft:paper>, <item:appliedenergistics2:material:6>]],
+    <projecte:transmutation_table> : [[<contenttweaker:entropy>, <contenttweaker:entropy>, <contenttweaker:entropy>],[<projecte:item.pe_matter>, <projecte:item.pe_matter>, <projecte:item.pe_matter>], [null, <projecte:item.pe_matter>, null]]
 };
 
 for output in shapedRecipes{
