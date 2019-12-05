@@ -4,6 +4,7 @@ minecraft/.ReAuth.cfg
 minecraft/.mixin.out
 minecraft/BotaniaVars.dat
 minecraft/CustomSkinLoader
+minecraft/WailaErrorOutput.txt
 minecraft/astralsorcery
 minecraft/backups
 minecraft/config/CookingForBlockheadsCompat
@@ -39,6 +40,7 @@ minecraft/saves
 minecraft/screenshots
 minecraft/scripts/.zsrc
 minecraft/server-resource-packs
+minecraft/servers.dat
 minecraft/shaderpacks
 minecraft/structures
 minecraft/texturepacks
