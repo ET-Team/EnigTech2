@@ -3,6 +3,8 @@
 recipes.remove(<immersiveengineering:metal_device0:2>);
 recipes.remove(<immersiveengineering:metal_device0:1>);
 recipes.remove(<immersiveengineering:metal_device0>);
+recipes.remove(<appliedenergistics2:material:36>);
+recipes.remove(<appliedenergistics2:material:37>);
 recipes.remove(<embers:blend_caminite>);
 recipes.remove(<embers:ember_bore>);
 recipes.remove(<embers:mech_core>);
