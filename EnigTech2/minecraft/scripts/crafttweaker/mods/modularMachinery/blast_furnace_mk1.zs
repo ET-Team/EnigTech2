@@ -151,3 +151,15 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystaline", mach
     .addItemInput(<bloodmagic:monster_soul:1>)
     .addFluidInput(<liquid:fluid_dragon_breathe>*500)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_yi", machineName, speedTierTwo)
+	.addManaInput(3000)
+	.addItemOutput(<thermalfoundation:material:135>)
+	.addItemInput(<ore:oreIridium>)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ge", machineName, speedTierTwo)
+	.addManaInput(3000)
+	.addItemOutput(<contenttweaker:material_part:25>)
+	.addItemInput(<contenttweaker:material_part:21>)
+	.build();

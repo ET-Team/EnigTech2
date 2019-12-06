@@ -13,3 +13,8 @@
     mods.immersiveengineering.BlastFurnace.addRecipe(<thermalfoundation:material:132>, <ore:dustAluminum>, 120);
     mods.immersiveengineering.BlastFurnace.addRecipe(<thermalfoundation:material:132>, <ore:oreAluminum>, 120);
     mods.immersiveengineering.BlastFurnace.addRecipe(<appliedenergistics2:material:5>, <appliedenergistics2:material:3>, 200);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<thermalfoundation:material:135>, <ore:oreIridium>, 500);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:material_part:25>, <contenttweaker:material_part:21>, 500);
+
+
+   

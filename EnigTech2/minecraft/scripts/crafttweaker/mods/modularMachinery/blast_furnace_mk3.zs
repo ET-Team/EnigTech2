@@ -237,3 +237,15 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_draconium", machi
 	.addItemInput(<ore:dustDraconium>, 2)
     .addFluidInput(<liquid:fluid_dragon_breathe>*1000)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_yi", machineName, speedTierTwo)
+	.addManaInput(3000)
+	.addItemOutput(<thermalfoundation:material:135>)
+	.addItemInput(<ore:oreIridium>)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ge", machineName, speedTierTwo)
+	.addManaInput(3000)
+	.addItemOutput(<contenttweaker:material_part:25>)
+	.addItemInput(<contenttweaker:material_part:21>)
+	.build();
