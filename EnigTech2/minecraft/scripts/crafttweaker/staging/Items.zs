@@ -47,8 +47,6 @@ for mod in modsStageOne{
 
 }
 
-mods.ItemStages.stageModItems("one", "minecraft");
-
 var modsStageTwo as string[] = [
 	"botania",
 	"silentgems",
@@ -197,6 +195,9 @@ for mod in modsStageAlpha{
 	Recipes.setRecipeStageByMod("alpha", mod);
 	
 }
+
+mods.ItemStages.removeItemStage(<immersiveengineering:stone_decoration:2>);
+
 val itemsStageFour as IIngredient[] = [
 	<immersiveengineering:stone_decoration:2>,
 	<contenttweaker:transistor_bad>,
