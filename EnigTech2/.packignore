@@ -1,5 +1,7 @@
 ET2LOGO-2-200x200.png
+ET2LOGO-2.png
 ET2LOGO.png
+logo.png
 minecraft/.ReAuth.cfg
 minecraft/.mixin.out
 minecraft/BotaniaVars.dat
@@ -23,6 +25,7 @@ minecraft/config/jei/bookmarks.ini
 minecraft/config/jei/jei.cfg
 minecraft/config/jei/searchColors.cfg
 minecraft/config/jei/worldSettings.cfg
+minecraft/config/patchouli.cfg
 minecraft/config/waitingtimestats.json
 minecraft/coremods
 minecraft/crafttweaker.log
