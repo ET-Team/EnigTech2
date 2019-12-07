@@ -40,3 +40,6 @@ recipes.remove(<embers:pump>);
 recipes.remove(<extrautils2:rainbowgenerator:2>);
 recipes.remove(<extrautils2:rainbowgenerator:1>);
 recipes.remove(<extrautils2:rainbowgenerator>);
+recipes.remove(<silentgems:craftingmaterial:29>);
+furnace.remove(<silentgems:craftingmaterial:30>);
+

@@ -9,6 +9,7 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<modularmachinery:itemmodulariu
 mods.immersiveengineering.AlloySmelter.addRecipe(<deepmoblearning:trial_key>, <contenttweaker:magic_key>, <minecraft:ender_eye>, 120);
 mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:silicon_reinforced>, <contenttweaker:slice_silicon_compressed>, <contenttweaker:mixed_coal_dust>, 80);
 mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:baseplate_aluminum>*3, <contenttweaker:magcondium_ingot>, <thermalfoundation:material:132>*3, 160);
+mods.immersiveengineering.AlloySmelter.addRecipe(<silentgems:craftingmaterial:30>, <silentgems:craftingmaterial:1>*2, <naturesaura:infused_iron>, 300);
 //炽热铁
 mods.immersiveengineering.AlloySmelter.addRecipe(<twilightforest:fiery_ingot>, <twilightforest:fiery_blood>, <botania:manaresource:7>, 160);
 mods.immersiveengineering.AlloySmelter.addRecipe(<twilightforest:fiery_ingot>, <twilightforest:fiery_tears>, <botania:manaresource:7>, 160);
