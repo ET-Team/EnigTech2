@@ -75,3 +75,24 @@ recipes.addShaped(<immersiveengineering:mold:1>,[[<immersiveengineering:tool>],[
 recipes.addShaped(<immersiveengineering:mold>,[[<immersiveengineering:tool>],[<thermalfoundation:material:32>],[<thermalfoundation:material:352>.transformReplace(<immersiveengineering:tool>)]]);
 //微型锅炉
 recipes.addShaped(<embers:mini_boiler>, [[<thermalfoundation:material:354>, <thermalfoundation:material:354>, <thermalfoundation:material:354>],[<embers:ingot_dawnstone>, <contenttweaker:bad_machine_core>, <thermalfoundation:material:354>], [<thermalfoundation:material:354>, <thermalfoundation:material:354>, <thermalfoundation:material:354>]]);
+recipes.addShaped(
+    <item:extrautils2:ingredients:12>,[
+        [<ore:gemLapis>,<ore:gemLapis>,<ore:gemLapis>],
+        [<ore:gemLapis>,<ore:ingotIron>,<ore:gemLapis>],
+        [<ore:gemLapis>,<ore:gemLapis>,<ore:gemLapis>]
+    ]
+);
+recipes.addShaped(
+    <item:extrautils2:decorativesolidwood:1>*8,[
+        [<item:botania:livingwood>,<item:botania:livingwood>,<item:botania:livingwood>],
+        [<item:botania:livingwood>,<item:contenttweaker:arcane_essence>,<item:botania:livingwood>],
+        [<item:botania:livingwood>,<item:botania:livingwood>,<item:botania:livingwood>]
+    ]
+);
+recipes.addShaped(
+    <item:extrautils2:ingredients:17>*8,[
+        [<item:contenttweaker:blood_iron>,<item:contenttweaker:blood_iron>,<item:contenttweaker:blood_iron>],
+        [<item:contenttweaker:blood_iron>,<item:minecraft:nether_star>,<item:contenttweaker:blood_iron>],
+        [<item:contenttweaker:blood_iron>,<item:contenttweaker:blood_iron>,<item:contenttweaker:blood_iron>]
+    ]
+);
