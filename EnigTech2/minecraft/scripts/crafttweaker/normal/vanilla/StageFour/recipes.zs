@@ -75,4 +75,4 @@ recipes.addShaped(<immersiveengineering:mold:1>,[[<immersiveengineering:tool>],[
 //板模具
 recipes.addShaped(<immersiveengineering:mold>,[[<immersiveengineering:tool>],[<thermalfoundation:material:32>],[<thermalfoundation:material:352>.transformReplace(<immersiveengineering:tool>)]]);
 //微型锅炉
-recipes.addShaped(<embers:mini_boiler>, [[<thermalfoundation:material:354>, <thermalfoundation:material:354>, <thermalfoundation:material:354>],[<embers:ingot_dawnstone>, <contenttweaker:bad_machine_core>, <thermalfoundation:material:354>], [<thermalfoundation:material:354>, <thermalfoundation:material:354>, <thermalfoundation:material:354>]]);
+recipes.addShaped(<embers:mini_boiler>*2, [[<thermalfoundation:material:354>, <thermalfoundation:material:354>, <thermalfoundation:material:354>],[<embers:ingot_dawnstone>, <contenttweaker:bad_machine_core>, <thermalfoundation:material:354>], [<thermalfoundation:material:354>, <thermalfoundation:material:354>, <thermalfoundation:material:354>]]);

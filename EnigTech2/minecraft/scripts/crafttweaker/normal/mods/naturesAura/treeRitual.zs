@@ -6,13 +6,13 @@ mods.naturesaura.TreeRitual.removeRecipe(<naturesaura:eye>);
 mods.naturesaura.TreeRitual.removeRecipe(<naturesaura:furnace_heater>);
 
 //春之符文
-mods.naturesaura.TreeRitual.addRecipe("rune:4", <naturesaura:ancient_sapling>, <botania:rune:4>, 50,[<naturesaura:birth_spirit>,<naturesaura:token_joy>,<minecraft:egg>,<botania:rune>,<botania:rune:1>] );
+mods.naturesaura.TreeRitual.addRecipe("rune:4", <naturesaura:ancient_sapling>, <botania:rune:4>*2, 50,[<naturesaura:birth_spirit>,<naturesaura:token_joy>,<minecraft:egg>,<botania:rune>,<botania:rune:1>] );
 //夏之符文
-mods.naturesaura.TreeRitual.addRecipe("rune:5", <naturesaura:ancient_sapling>, <botania:rune:5>, 50,[<twilightforest:cicada>,<naturesaura:token_fear>,<minecraft:melon>,<botania:rune:2>,<botania:rune:3>] );
+mods.naturesaura.TreeRitual.addRecipe("rune:5", <naturesaura:ancient_sapling>, <botania:rune:5>*2, 50,[<twilightforest:cicada>,<naturesaura:token_fear>,<minecraft:melon>,<botania:rune:2>,<botania:rune:3>] );
 //秋之符文	
-mods.naturesaura.TreeRitual.addRecipe("rune:6", <naturesaura:ancient_sapling>, <botania:rune:6>, 50,[<roots:wildewheet>,<naturesaura:token_anger>,<naturesaura:gold_leaf>,<botania:rune:3>,<botania:rune:1>] );
+mods.naturesaura.TreeRitual.addRecipe("rune:6", <naturesaura:ancient_sapling>, <botania:rune:6>*2, 50,[<roots:wildewheet>,<naturesaura:token_anger>,<naturesaura:gold_leaf>,<botania:rune:3>,<botania:rune:1>] );
 //冬之符文
-mods.naturesaura.TreeRitual.addRecipe("rune:7", <naturesaura:ancient_sapling>, <botania:rune:7>, 50,[<minecraft:snow>,<naturesaura:token_sorrow>,<twilightforest:arctic_fur>,<botania:rune>,<botania:rune:2>] );	
+mods.naturesaura.TreeRitual.addRecipe("rune:7", <naturesaura:ancient_sapling>, <botania:rune:7>*2, 50,[<minecraft:snow>,<naturesaura:token_sorrow>,<twilightforest:arctic_fur>,<botania:rune>,<botania:rune:2>] );	
 //原始投网
 mods.naturesaura.TreeRitual.addRecipe("soul_snare", <minecraft:sapling>, <bloodmagic:soul_snare>*2, 50,[<botania:manaresource:16>,<botania:manaresource:16>,<botania:manaresource:16>,<botania:manaresource:16>,<botania:manaresource:8>,<botania:manaresource:8>,<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}),<naturesaura:infused_iron>] );
 //环境之眼
