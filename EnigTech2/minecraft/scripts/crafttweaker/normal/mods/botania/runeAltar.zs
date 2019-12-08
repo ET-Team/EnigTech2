@@ -20,4 +20,4 @@ mods.botania.RuneAltar.addRecipe(<silentgems:craftingmaterial:1>,[<contenttweake
 //易碎的混沌宝珠
 mods.botania.RuneAltar.addRecipe(<silentgems:chaosorb:1>.withTag({ChaosCharge: 0}),[<botania:manatablet>.withTag({}),<botania:rune>,<botania:rune:2>,<botania:rune:3>,<botania:rune:4>,<silentgems:craftingmaterial>,<silentgems:craftingmaterial>,<botania:manaresource:18>],20000);
 //气血宝珠
-mods.botania.RuneAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),[<botania:rune:7>,<botania:rune:6>,<botania:rune:5>,<botania:rune:4>,<botania:manaresource:2>,<silentgems:craftingmaterial:1>,<contenttweaker:blood_iron>,<contenttweaker:blood_iron>,<contenttweaker:blood_iron>,<contenttweaker:blood_iron>],10000);
+mods.botania.RuneAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),[<botania:rune:7>,<botania:rune:6>,<botania:rune:5>,<botania:rune:4>,<botania:manaresource:2>,<silentgems:craftingmaterial:1>,<contenttweaker:blood_iron>,<contenttweaker:blood_iron>],10000);
