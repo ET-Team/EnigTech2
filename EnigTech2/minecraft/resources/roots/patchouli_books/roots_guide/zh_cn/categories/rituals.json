@@ -1,0 +1,6 @@
+{
+  "name": "Rituals",
+  "sortnum" : 3,
+  "description": "Rituals are performed using a $(l:basics/pyre)Pyre$() and generally occur over a period of time. Although some require standing stones or the presence of trees, they are still relatively portable and can be set up wherever needed.$(br2)$(info) All rituals will interact with inventories beneath them to replenish ingredients & restart rituals, allowing for automation.",
+  "icon": "roots:bonfire"
+}

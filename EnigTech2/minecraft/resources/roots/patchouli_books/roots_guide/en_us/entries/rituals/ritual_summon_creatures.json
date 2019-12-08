@@ -1,0 +1,23 @@
+{
+  "name": "Summon Creatures",
+  "icon": "roots:ritual_summon_creatures",
+  "category": "rituals",
+  "advancement": "roots:wildewheet",
+  "flag": "roots:ritual_summon_creatures",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Summons a creature from beyond the grave to return to the land of the living. The creature summoned is determined by what item is placed on $(l:apparatus/offering_plate)a nearby offering plate$().$(br2)$(info) (Current valid items: raw chicken, raw porkchop, raw beef, pelt, carapace, and leather.)"
+    },
+    {
+      "type": "pyre_template",
+      "ritual": "ritual_summon_creatures"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "apparatus/offering_plate"
+      ]
+    }
+  ]
+}

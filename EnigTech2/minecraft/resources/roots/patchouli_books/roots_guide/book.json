@@ -1,0 +1,18 @@
+{
+	"name": "德鲁伊之艺术",
+	"advancement_namespaces": [
+		"roots"
+	],
+	"creative_tab": "roots",
+	"advancements_tab": "roots",
+	"landing_text": "德鲁伊的艺术有许多形式。 这本书记载了所有已知的从跟大自然交互而从中获利的方法。",
+	"book_texture": "roots:textures/gui/book.png",
+	"filler_texture": "roots:textures/gui/patchouli/book_filler.png",
+	"model": "roots:druid_handbook",
+	"version": 3,
+	"show_progress": false,
+	"macros": {
+		"$(info)": "$(thing)$(bold)$(t:Important Detail)[!]$()",
+		"$(warning)": "$(#f00)$(bold)$(t:Warning)[!]$()"
+	}
+}

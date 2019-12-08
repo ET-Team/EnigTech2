@@ -1,0 +1,48 @@
+{
+  "name": "Elemental Soil",
+  "icon": "roots:elemental_soil",
+  "category": "resources",
+  "priority": true,
+  "advancement": "roots:fey_crafter",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "roots:elemental_soil",
+      "link_recipe": false,
+      "text": "Elementally attuned herbs can be picky about where - as fickle as the elements themselves. Elemental soil itself increases the rate at which any plant grows, but it can also be imbued with an element to allow the corresponding plant to grow."
+    },
+    {
+      "type": "spotlight",
+      "item": "roots:elemental_soil_fire",
+      "link_recipe": true,
+      "text": "$(l:herbs/infernal_bulb)Infernal Bulbs$() grow on magmatic soil. Obtained by dropping a piece of elemental soil into a pool of lava.$(br2)Other plants grown on magmatic soil will have drops cooked when harvested, if cookable. In addition, each plant harvested may drop experience."
+    },
+    {
+      "type": "spotlight",
+      "item": "roots:elemental_soil_water",
+      "link_recipe": true,
+      "text": "$(l:herbs/dewgonia)Dewgonia$() grows on aquatic soil. Obtained by soaking elemental soil for a short period of time in water.$(br2)Normal plants grown on the soil will be harvested automagically, the drops placed in containers below the soil or on the surface if none exists. $(info) Gravel beneath prevents this behaviour."
+    },
+    {
+      "type": "spotlight",
+      "item": "roots:elemental_soil_air",
+      "link_recipe": true,
+      "text": "$(l:herbs/cloud_berry)Cloud Berries$() grow on caelic, air-bound soil. Obtained by exposing elemental soil to the airy heights and the open sky.$(br2)Normal plants can also be grown on caelic soil, and the soil will grow them much faster than normal."
+    },
+    {
+      "type": "spotlight",
+      "item": "roots:elemental_soil_earth",
+      "link_recipe": true,
+      "text": "$(l:herbs/stalicripe)Stalicripe$() grow on terran soil. Obtained by exposing elemental soil to the dark, covered depths of underground caves and chasms.$(br2)Normal plants can also be grown on terran soil, and the fertile earth will yield much more for the crop."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "herbs/cloud_berry",
+        "herbs/infernal_bulb",
+        "herbs/dewgonia",
+        "herbs/stalicripe"
+      ]
+    }
+  ]
+}

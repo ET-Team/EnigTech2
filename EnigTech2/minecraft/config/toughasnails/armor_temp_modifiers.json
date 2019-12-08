@@ -6,7 +6,7 @@
       "toughasnails:jelled_slime_leggings",
       "toughasnails:jelled_slime_boots"
     ],
-    "modifier": -1
+    "modifier": -4
   },
   {
     "names": [
@@ -15,6 +15,6 @@
       "toughasnails:wool_leggings",
       "toughasnails:wool_boots"
     ],
-    "modifier": 1
+    "modifier": 2
   }
 ]

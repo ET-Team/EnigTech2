@@ -1,0 +1,64 @@
+{
+  "name": "Transmutation",
+  "icon": "roots:ritual_transmutation",
+  "category": "rituals",
+  "advancement": "roots:runestone",
+  "flag": "roots:ritual_transmutation",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Some natural delights are harder to find than others. Thankfully, with the energies of the pyre, you can convert more mundane objects into more precious items.$(br2)$(info) This ritual requires standing stones."
+    },
+    {
+      "type": "pyre_template",
+      "ritual": "ritual_transmutation"
+    },
+    {
+      "type": "multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "0": "roots:bonfire",
+          "R": "roots:runestone",
+          "C": "roots:chiseled_runestone"
+        },
+        "pattern": [
+          ["       ","       ","       ","       ","       ","       ","       "],
+          ["   C   ","       ","       ","       ","       ","       ","       "],
+          ["   R   ","       ","       ","       ","       ","       ","       "],
+          ["   R   ","       ","       ","   0   ","       ","       ","       "]
+        ]
+      }
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:dye:3",
+      "link_recipe": true,
+      "text": "Dead bushes will turn into cocoa beans."
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:log:3",
+      "link_recipe": true,
+      "text": "Birch logs will transform into jungle."
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:leaves:3",
+      "link_recipe": true,
+      "text": "Birch leaves will transform into jungle."
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:melon_block",
+      "link_recipe": true,
+      "text": "Pumpkins planted $(info) above still or flowing water will transform into melons."
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:cactus",
+      "link_recipe": true,
+      "text": "Pumpkins planted $(info) on sand will turn into cactuses."
+    }
+  ]
+}

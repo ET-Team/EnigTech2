@@ -1,0 +1,6 @@
+{
+  "name": "Spell Recipes",
+  "sortnum" : 2,
+  "description": "Spells are a way of channeling magic through a staff, using a small amount of herbs as a reagent, to effect change in the world.$(br2)The most basic spells use what herbs are commonly available, while the more advanced not only require more complex herbs to cast, but also $(l:basics/spells)in their initial crafting$().",
+  "icon": "roots:staff"
+}

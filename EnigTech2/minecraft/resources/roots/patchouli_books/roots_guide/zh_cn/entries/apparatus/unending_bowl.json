@@ -1,0 +1,23 @@
+{
+  "name": "Unending Bowl",
+  "icon": "roots:unending_bowl",
+  "category": "apparatus",
+  "advancement": "roots:dewgonia",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "roots:unending_bowl",
+      "text": "Once placed, the unending bowl, as its name suggests, will never run out of water, no matter how much is taken from it."
+    },
+    {
+      "type": "fey_crafting_template",
+      "recipe": "unending_bowl"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "herbs/dewgonia"
+      ]
+    }
+  ]
+}

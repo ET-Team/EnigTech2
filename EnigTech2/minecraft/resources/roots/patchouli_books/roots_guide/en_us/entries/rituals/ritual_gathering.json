@@ -1,0 +1,35 @@
+{
+  "name": "Gathering",
+  "icon": "roots:ritual_gathering",
+  "category": "rituals",
+  "advancement": "roots:wildewheet",
+  "flag": "roots:ritual_gathering",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Items that litter the ground will be picked up at regular intervals and deposited into an inventory placed directly beneath the pyre."
+    },
+    {
+      "type": "pyre_template",
+      "ritual": "ritual_gathering"
+    },
+    {
+      "type": "multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "0": "roots:bonfire",
+          "R": "roots:runestone",
+          "C": "roots:chiseled_runestone",
+          "I": "minecraft:chest"
+        },
+        "pattern": [
+          ["   C   ","       ","       ","       ","       ","       ","       "],
+          ["   R   ","       ","       ","       ","       ","       ","       "],
+          ["   R   ","       ","       ","   0   ","       ","       ","       "],
+          ["       ","       ","       ","   I   ","       ","       ","       "]
+        ]
+      }
+    }
+  ]
+}
