@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 import crafttweaker.item.IIngredient;
 val toAdd as string[IIngredient] = {

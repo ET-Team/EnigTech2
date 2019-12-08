@@ -1,3 +1,4 @@
+#packmode expert
 #priority 0
 
 recipes.remove(<immersiveengineering:stone_decoration> * 3);
