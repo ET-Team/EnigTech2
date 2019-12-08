@@ -8,7 +8,7 @@ OreStages.addReplacement("two", <thermalfoundation:ore:2>);
 OreStages.addReplacement("two", <thermalfoundation:ore:3>);
 OreStages.addReplacement("two", <silentgems:essenceore>);
 
-OreStages.addReplacement("three", <thermalfoundation:ore:3>);
+OreStages.addReplacement("three", <thermalfoundation:ore:4>);
 
 OreStages.addReplacement("four", <actuallyadditions:block_misc:3>);
 OreStages.addReplacement("four", <appliedenergistics2:charged_quartz_ore>);
