@@ -22,7 +22,7 @@ mods.naturesaura.TreeRitual.addRecipe("furnace_heater", <naturesaura:ancient_sap
 //荒古树苗
 mods.naturesaura.TreeRitual.addRecipe("ancient_sapling", <roots:wildwood_sapling>, <naturesaura:ancient_sapling>, 50,[<twilightforest:twilight_sapling>,<twilightforest:twilight_sapling:1>,<botania:livingwood>,<naturesaura:gold_leaf>,<contenttweaker:arcane_essence>] );
 //炽热血
-mods.naturesaura.TreeRitual.addRecipe("fiery_blood", <minecraft:sapling>,  <twilightforest:fiery_blood>*3, 50,[<twilightforest:fiery_blood>,<thermalfoundation:material:1024>,<minecraft:glass_bottle>,<naturesaura:token_rage>] );
+mods.naturesaura.TreeRitual.addRecipe("fiery_blood", <minecraft:sapling>,  <twilightforest:fiery_blood>*4, 50,[<twilightforest:fiery_blood>,<thermalfoundation:material:1024>,<minecraft:glass_bottle>,<naturesaura:token_rage>] );
 //超级装甲格
 mods.naturesaura.TreeRitual.addRecipe("craftingmaterial:26", <naturesaura:ancient_sapling>, <silentgems:craftingmaterial:26>*16, 50,[<silentgems:craftingmaterial:1>,<naturesaura:infused_iron>,<twilightforest:naga_scale>,<botania:rune:2>,<bloodmagic:slate:1>] );
 
