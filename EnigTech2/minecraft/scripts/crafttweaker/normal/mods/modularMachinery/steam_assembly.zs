@@ -16,7 +16,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_magic_motor", mac
     .addItemInput(<embers:plate_dawnstone>*2)
     .addItemInput(<immersiveengineering:material:21>*3)
     .addItemInput(<contenttweaker:magcondium_ingot>)
-    .addItemOutput(<contenttweaker:magic_motor>)
+    .addItemOutput(<contenttweaker:magic_motor>*2)
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_bad_processor", machineName, 60)
@@ -24,7 +24,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_bad_processor", m
     .addItemInput(<contenttweaker:basic_circuit>*2)
     .addItemInput(<contenttweaker:resistor_bad>*2)
     .addItemInput(<twilightforest:steeleaf_ingot>)
-    .addItemOutput(<contenttweaker:basic_processor>)
+    .addItemOutput(<contenttweaker:basic_processor>*2)
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_engineering_processor", machineName, 60)

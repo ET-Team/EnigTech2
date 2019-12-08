@@ -131,3 +131,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_redstone", m
 	.addItemInput(<ore:oreLapis>)
 	.build();
 
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_meteor", machineName, 40)
+	.addManaInput(2000)
+	.addItemOutput(<item:appliedenergistics2:material:45>)
+	.addItemInput(<item:appliedenergistics2:sky_stone_block>)
+	.build();

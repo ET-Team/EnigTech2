@@ -47,7 +47,7 @@ recipes.addShapeless(<silentgems:enchantmenttoken>.withTag({TokenEnchantments: [
 recipes.addShaped(<xpt:link_card>, [[<minecraft:blaze_powder>, <minecraft:ender_pearl>, <minecraft:blaze_powder>],[<minecraft:ender_pearl>, <contenttweaker:plastic_plate>, <minecraft:ender_pearl>], [<minecraft:blaze_powder>, <minecraft:ender_pearl>, <minecraft:blaze_powder>]]);
 
 //传送器
-recipes.addShaped(<xpt:teleporter>,[[null,<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),null],[<contenttweaker:magcondium_ingot>,<botania:storage:2>,<contenttweaker:magcondium_ingot>],[<contenttweaker:magcondium_ingot>,<botania:lens:18>.withTag({}),<contenttweaker:magcondium_ingot>]]);
+recipes.addShaped(<xpt:teleporter>,[[null,<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),null],[<contenttweaker:magcondium_ingot>,<botania:storage:2>,<contenttweaker:magcondium_ingot>],[<contenttweaker:magcondium_ingot>,<botania:lens:18>,<contenttweaker:magcondium_ingot>]]);
 
 //瓶子与木塞
 recipes.addShapeless("bottle_two_the_rebottling", <naturesaura:bottle_two_the_rebottling>,[<botania:vial>,<botania:livingwood:1>]);
@@ -55,3 +55,8 @@ recipes.addShapeless("bottle_two_the_rebottling", <naturesaura:bottle_two_the_re
 recipes.addShaped("wood_stand", <naturesaura:wood_stand>,[[<naturesaura:gold_leaf>],[<roots:wildwood_log>]]);
 //增强型漏斗
 recipes.addShaped("hopper_upgrade", <naturesaura:hopper_upgrade>,[[<botania:manaresource>,<naturesaura:infused_iron>,<botania:manaresource>],[<naturesaura:infused_iron>,<botania:enderhand>,<naturesaura:infused_iron>],[<botania:manaresource>,<botania:specialflower>.withTag({type: "hopperhock"}),<botania:manaresource>]]);
+recipes.addShaped("pattern", <item:appliedenergistics2:material:52>*2,[
+    [<ore:plateElectrum>,<ore:plateInvar>,<ore:plateElectrum>],
+    [<ore:plateInvar>,<contenttweaker:advanced_processor>,<ore:plateInvar>],
+    [<ore:plateElectrum>,<ore:plateInvar>,<ore:plateElectrum>]
+]);
