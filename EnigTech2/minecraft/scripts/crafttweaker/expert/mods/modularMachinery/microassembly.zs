@@ -3,14 +3,14 @@
 import mods.modularmachinery.RecipeBuilder;
 var machineName = "microassembly";
 
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_transistor", machineName, 20)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_transistor", machineName, 40)
 	.addItemOutput(<contenttweaker:transistor_fine>)
     .addItemInput(<contenttweaker:plastic_plate>*3)
     .addItemInput(<contenttweaker:silicon_slice>)
     .addEnergyPerTickInput(512)
 	.build();
 
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_resistor", machineName, 20)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_resistor", machineName, 40)
 	.addItemOutput(<contenttweaker:resistor_fine>)
     .addItemInput(<ore:wireCopper>, 2)
     .addItemInput(<contenttweaker:slice_silicon_compressed>)

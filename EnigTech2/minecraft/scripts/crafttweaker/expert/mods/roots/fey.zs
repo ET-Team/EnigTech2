@@ -14,4 +14,4 @@ Fey.addRecipe("pool", <botania:pool>, [<botania:pool:2>, <botania:spark>, <botan
 //符文祭坛
 Fey.addRecipe("runealtar", <botania:runealtar>, [<botania:livingrock>, <botania:livingrock>, <botania:livingrock>, <botania:manaresource:2>, <contenttweaker:arcane_essence>]);
 //合格框架格
-Fey.addRecipe("craftingmaterial_25", <silentgems:craftingmaterial:25>*16, [<ore:plateIron>, <botania:manaresource:22>, <botania:manaresource:16>, <botania:rune:2>, <silentgems:craftingmaterial>]);
+Fey.addRecipe("craftingmaterial_25", <silentgems:craftingmaterial:25>*12, [<ore:plateIron>, <botania:manaresource:22>, <botania:manaresource:16>, <botania:rune:2>, <silentgems:craftingmaterial>]);

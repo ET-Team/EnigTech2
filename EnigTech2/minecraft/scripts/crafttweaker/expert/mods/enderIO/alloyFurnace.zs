@@ -30,9 +30,9 @@ mods.enderio.AlloySmelter.removeRecipe(<thermalfoundation:material:166>);
     //铱制基板
     mods.enderio.AlloySmelter.addRecipe(<contenttweaker:baseplate_iridium>, [<contenttweaker:silicon_reinforced>, <thermalfoundation:material:135>*2,<contenttweaker:plastic_plate>],3200);
     //硬化玻璃
-    mods.enderio.AlloySmelter.addRecipe(<thermalfoundation:glass:3>*2, [<ore:dustLead>, <ore:dustObsidian>*4,<contenttweaker:dust_silicon>],3200);
+    mods.enderio.AlloySmelter.addRecipe(<thermalfoundation:glass:3>, [<ore:dustLead>, <ore:dustObsidian>*4,<contenttweaker:dust_silicon>],3200);
     //镍铬合金
-    mods.enderio.AlloySmelter.addRecipe(<contenttweaker:material_part:32>*4, [<ore:ingotNickel>*3, <contenttweaker:material_part:25>],3200);
+    mods.enderio.AlloySmelter.addRecipe(<contenttweaker:material_part:32>*3, [<ore:ingotNickel>*2, <contenttweaker:material_part:25>],3200);
 
     mods.enderio.AlloySmelter.addRecipe(<silentgems:craftingmaterial:30>, [<silentgems:craftingmaterial:1>*2, <naturesaura:infused_iron>], 3200);
 

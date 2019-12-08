@@ -15,7 +15,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockwell", machi
 
 
 //高等机械核心
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_advanced", machineName, 160)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_advanced", machineName, 200)
     .addEnergyPerTickInput(800)
     .addFluidInput(<liquid:fluid_lubricant>*50)
     .addItemInput(<ore:plateIridium>,2)
@@ -26,7 +26,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_adva
     .build();
 
 //超等机械核心
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_ultra", machineName, 180)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_ultra", machineName, 200)
     .addEnergyPerTickInput(1600)
     .addFluidInput(<liquid:fluid_lubricant>*50)
     .addItemInput(<contenttweaker:material_part:43>*3)
@@ -37,7 +37,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_ultr
     .build();
 
 //星辉工作台
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockaltar", machineName, 160)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockaltar", machineName, 200)
     .addEnergyPerTickInput(600)
 	.addFluidInput(<liquid:fluid_lubricant>*50)
     .addItemInput(<extendedcrafting:table_advanced>)
@@ -48,7 +48,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockaltar", mach
     .build();
  
  //压缩空间制造器
- mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_fieldprojector", machineName, 400)
+ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_fieldprojector", machineName, 480)
     .addEnergyPerTickInput(300)
     .addFluidInput(<liquid:fluid_lubricant>*50)
     .addItemInput(<contenttweaker:magic_machine_hull>*2)
@@ -59,7 +59,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockaltar", mach
     .build();
 
  //连接器
- mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_connector", machineName, 160)
+ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_connector", machineName, 200)
     .addEnergyPerTickInput(1000)
     .addFluidInput(<liquid:fluid_lubricant>*50)
     .addItemInput(<botania:manaresource:16>*8)
@@ -69,7 +69,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockaltar", mach
     .addItemOutput(<environmentaltech:connector>)
     .build();
 //龙芯
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_draconic_core", machineName, 500)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_draconic_core", machineName, 600)
     .addEnergyPerTickInput(1000)
     .addFluidInput(<liquid:fluid_lubricant>*100)
     .addItemInput(<contenttweaker:draconium_alloy_ingot>*10)
@@ -78,7 +78,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_draconic_core", m
     .addItemOutput(<draconicevolution:draconic_core>*2)
     .build();
 //滞枢机械核心
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_zhishu_machine_core", machineName, 500)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_zhishu_machine_core", machineName, 600)
     .addEnergyPerTickInput(1000)
     .addFluidInput(<liquid:fluid_lubricant>*100)
     .addItemInput(<draconicevolution:draconic_core>*4)
@@ -86,7 +86,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_zhishu_machine_co
     .addItemOutput(<contenttweaker:zhishu_machine_core>)
     .build();
 //聚合核心
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_fusion_crafting_core", machineName, 500)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_fusion_crafting_core", machineName, 600)
     .addEnergyPerTickInput(1000)
     .addFluidInput(<liquid:fluid_dragon_breathe>*2000)
     .addItemInput(<contenttweaker:zhishu_machine_core>)
@@ -95,7 +95,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_fusion_crafting_c
     .addItemOutput(<draconicevolution:fusion_crafting_core>)
     .build();
 //注入装置
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crafting_injector", machineName, 500)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crafting_injector", machineName, 600)
     .addEnergyPerTickInput(1000)
     .addFluidInput(<liquid:fluid_dragon_breathe>*2000)
     .addItemInput(<thermalfoundation:storage:7>)

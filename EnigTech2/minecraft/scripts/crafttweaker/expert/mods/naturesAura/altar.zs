@@ -6,7 +6,7 @@ mods.naturesaura.Altar.removeRecipe(<naturesaura:infused_iron_block>);
 mods.naturesaura.Altar.removeRecipe(<naturesaura:infused_stone>);
 
 //灌注铁
-mods.naturesaura.Altar.addRecipe("infused_iron", <contenttweaker:magcondium_ingot>, <naturesaura:infused_iron>*2, null, 20, 50);
+mods.naturesaura.Altar.addRecipe("infused_iron", <contenttweaker:magcondium_ingot>, <naturesaura:infused_iron>, null, 20, 50);
 //灌注石
 mods.naturesaura.Altar.addRecipe("infused_stone", <minecraft:lapis_block>, <naturesaura:infused_stone>, null, 20, 50);
 //塑料

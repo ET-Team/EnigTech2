@@ -2,9 +2,9 @@
 #priority -100
 var machineName = "blast_furnace_mk2";
 
-val speedTierOne = 40;
-val speedTierTwo = 80;
-val speedTierThree = 160;
+val speedTierOne = 60;
+val speedTierTwo = 120;
+val speedTierThree = 180;
 
 //Steel
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_steel", machineName, speedTierOne)
