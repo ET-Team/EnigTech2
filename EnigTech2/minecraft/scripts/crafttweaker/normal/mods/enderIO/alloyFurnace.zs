@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 mods.enderio.AlloySmelter.removeRecipe(<enderio:item_material:53>);

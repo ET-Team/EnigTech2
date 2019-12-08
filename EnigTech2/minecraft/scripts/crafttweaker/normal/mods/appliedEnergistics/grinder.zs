@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 import mods.appliedenergistics2.Grinder;
 

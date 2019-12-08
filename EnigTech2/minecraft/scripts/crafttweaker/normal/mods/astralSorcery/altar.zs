@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/lightwell");

@@ -1,3 +1,4 @@
+#packmode normal
 #priority -2000
 import crafttweaker.recipes.ICraftingRecipe;
 

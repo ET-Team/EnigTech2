@@ -1,3 +1,4 @@
+#packmode normal
 #priority 0
 
 recipes.remove(<thermalfoundation:material:102>);

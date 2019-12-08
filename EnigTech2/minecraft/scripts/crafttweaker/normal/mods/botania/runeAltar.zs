@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 //删除从 rune:0 到 rune:15 的所有配方

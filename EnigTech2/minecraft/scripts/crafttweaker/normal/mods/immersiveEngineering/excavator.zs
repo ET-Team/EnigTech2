@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 //加入铂矿脉

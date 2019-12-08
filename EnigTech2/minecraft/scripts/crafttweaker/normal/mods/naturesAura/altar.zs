@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 mods.naturesaura.Altar.removeRecipe(<naturesaura:infused_iron>);

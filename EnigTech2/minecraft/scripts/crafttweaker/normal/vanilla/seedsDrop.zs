@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 val seedList = vanilla.seeds.seeds;

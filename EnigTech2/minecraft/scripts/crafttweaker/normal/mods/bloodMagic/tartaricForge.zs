@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 mods.bloodmagic.TartaricForge.removeRecipe([<minecraft:stone>,<minecraft:cauldron>,<minecraft:dye:4>,<minecraft:diamond>]);

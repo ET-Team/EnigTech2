@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 //燃料注册和删除
     mods.immersiveengineering.BlastFurnace.removeFuel(<minecraft:coal:1>);

@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 //天气检测器
 recipes.addShaped(<modulardiversity:blockweatherdetector>, [[<modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>],[<modularmachinery:itemmodularium>, <enderio:item_material:18>, <modularmachinery:itemmodularium>], [<modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>]]);

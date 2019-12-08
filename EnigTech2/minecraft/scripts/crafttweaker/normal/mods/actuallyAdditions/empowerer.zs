@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 //盖亚魂锭

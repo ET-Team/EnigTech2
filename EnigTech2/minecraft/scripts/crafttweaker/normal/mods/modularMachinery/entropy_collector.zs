@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 var machineName = "entropy_collector";
 

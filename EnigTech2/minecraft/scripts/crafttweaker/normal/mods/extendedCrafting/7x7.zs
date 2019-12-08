@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 //强化飞行背包

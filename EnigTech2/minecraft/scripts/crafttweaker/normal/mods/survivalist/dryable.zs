@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 gigaherz.survivalist.Dryable.removeRecipe(<survivalist:tanned_leather>, <minecraft:leather>);

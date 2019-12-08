@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 mods.immersiveengineering.Crusher.removeRecipesForInput(<astralsorcery:blockcustomore:1>);

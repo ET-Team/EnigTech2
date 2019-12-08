@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 mods.thermalexpansion.Refinery.addRecipe(<liquid:rocketfuel>*500, null, <liquid:refined_fuel>*1000, 100);

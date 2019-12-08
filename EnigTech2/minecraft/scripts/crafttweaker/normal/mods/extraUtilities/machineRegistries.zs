@@ -1,3 +1,4 @@
+#packmode normal
 #loader preinit
 import extrautilities2.Tweaker.IMachineRegistry;
 import extrautilities2.Tweaker.IMachineSlot;

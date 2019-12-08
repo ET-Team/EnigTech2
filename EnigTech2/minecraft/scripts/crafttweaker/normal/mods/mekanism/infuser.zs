@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 //mekanism电路板

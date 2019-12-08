@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 val machineName = "singularity_maker";

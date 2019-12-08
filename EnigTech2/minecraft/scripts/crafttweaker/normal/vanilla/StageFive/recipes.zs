@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 recipes.replaceAllOccurences(<advancedrocketry:ic>, <contenttweaker:basic_processor>);

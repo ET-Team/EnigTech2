@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 //液态方镁矾

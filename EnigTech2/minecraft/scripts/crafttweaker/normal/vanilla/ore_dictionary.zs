@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 //移除 神秘世界模组 紫水晶 的矿物词典

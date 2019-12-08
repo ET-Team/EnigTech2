@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 mods.naturesaura.TreeRitual.removeRecipe(<naturesaura:ancient_sapling>);

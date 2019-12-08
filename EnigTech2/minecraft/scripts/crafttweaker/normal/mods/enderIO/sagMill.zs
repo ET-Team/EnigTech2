@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 mods.enderio.SagMill.removeRecipe(<minecraft:redstone_ore>);

@@ -1,3 +1,4 @@
+#packmode normal
 #priority 0
 
 recipes.remove(<immersiveengineering:metal_device0:2>);

@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 mods.thermalexpansion.Centrifuge.removeRecipe(<thermalfoundation:material:101>);

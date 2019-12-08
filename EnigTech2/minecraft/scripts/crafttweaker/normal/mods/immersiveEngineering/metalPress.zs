@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:slice_silicon_compressed>, <contenttweaker:slice_silicon_rough>, <immersiveengineering:mold:0>, 120, 4);

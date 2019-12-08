@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 mods.thermalexpansion.Transposer.addFillRecipe(<twilightforest:fiery_ingot>, <minecraft:iron_ingot>,<liquid:pyrotheum>*200, 100);

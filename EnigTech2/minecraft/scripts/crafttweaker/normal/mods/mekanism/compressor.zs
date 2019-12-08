@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 //压缩水晶素锭

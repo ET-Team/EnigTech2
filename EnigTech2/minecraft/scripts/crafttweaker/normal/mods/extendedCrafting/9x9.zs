@@ -1,3 +1,4 @@
+#packmode normal
 #priority -100
 
 //创造魔力池
