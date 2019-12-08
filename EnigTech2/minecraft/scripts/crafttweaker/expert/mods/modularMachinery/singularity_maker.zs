@@ -17,7 +17,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_w", machineName, 
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_os", machineName, 18*20*3)
     .addEnergyPerTickInput(400000)
-	.addItemInput(<ore:blockOsmium>*2)
+	.addItemInput(<ore:blockOsmium>, 2)
     .addItemOutput(<appliedenergistics2:material:47>)
     .build();
 
