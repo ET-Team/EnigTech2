@@ -52,3 +52,4 @@ recipes.addShaped(<modularmachinery:blockoutputbus:2>, [[null, <thermalfoundatio
 recipes.addShapeless(<minecraft:dye:15> * 9, [<ore:blockBone>]);
 recipes.addShaped(<modularmachinery:blockcasing:5>, [[<thermalfoundation:material:326>, <modularmachinery:itemmodularium>, <thermalfoundation:material:326>],[<modularmachinery:itemmodularium>, <contenttweaker:advanced_processor>, <modularmachinery:itemmodularium>], [<thermalfoundation:material:326>, <modularmachinery:itemmodularium>, <thermalfoundation:material:326>]]);
 recipes.addShapeless(<astralsorcery:blockaltar>,[<astralsorcery:blockaltar>]);
+recipes.addShaped(<enderio:item_material:67>,[[<enderio:item_material:36>,<ore:dustQuartz>,<enderio:item_material:36>],[<ore:dustQuartz>,<enderio:item_material:51>,<ore:dustQuartz>],[<enderio:item_material:36>,<ore:dustQuartz>,<enderio:item_material:36>]]);
