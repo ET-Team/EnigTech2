@@ -1,4 +1,3 @@
-#packmode normal
 #loader preinit
 import extrautilities2.Tweaker.IMachineRegistry;
 import extrautilities2.Tweaker.IMachineSlot;
@@ -48,9 +47,7 @@ import extrautilities2.Tweaker.IMachine;
         "fluider_mk1", 
         8192, 
         512, 
-        [
-        IMachineSlot.newFluidSlot("water", 1000),
-        ], 
+        [IMachineSlot.newFluidSlot("water", 1000)], 
         [IMachineSlot.newItemStackSlot("output")], 
         "et2:block/machine_idle", 
         "et2:block/fluider_working"
