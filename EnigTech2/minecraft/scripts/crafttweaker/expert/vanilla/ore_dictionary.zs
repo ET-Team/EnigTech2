@@ -7,3 +7,4 @@
 //为 改良背包模组 鞣制皮革 添加矿物词典
 <ore:materialTannedLeather>.add(<improvedbackpacks:tanned_leather>);
 <ore:cropFlax>.remove(<minecraft:string>);
+<ore:gemApatite>.remove(<item:forestry:apatite>);
