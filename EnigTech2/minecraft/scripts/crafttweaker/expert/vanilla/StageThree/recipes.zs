@@ -9,11 +9,12 @@ recipes.addShaped(<modularmachinery:blockcasing:3>, [[<modularmachinery:itemmodu
 //通风口
 recipes.addShaped(<modularmachinery:blockcasing:1>, [[<ore:plateBronze>, <modularmachinery:itemmodularium>, <ore:plateBronze>],[<modularmachinery:itemmodularium>, null, <modularmachinery:itemmodularium>], [<ore:plateBronze>, <modularmachinery:itemmodularium>, <ore:plateBronze>]]);
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:magic_crusher"}), [[null, <minecraft:piston>, null],[null, <minecraft:paper>, null], [null, <contenttweaker:arcane_essence>, null]]);
+
 //转运器
 recipes.addShaped(<translocators:translocator_part> * 4, [[<ore:ingotBronze>, <ore:plateSteel>, <ore:ingotBronze>],[<ore:ingotBronze>, <contenttweaker:magcondium_ingot>, <ore:ingotBronze>], [<ore:ingotBronze>, <ore:plateSteel>, <ore:ingotBronze>]]);
 recipes.addShaped(<modulardiversity:blockmanainputhatch>, [[<modularmachinery:itemmodularium>, <botania:livingrock>, <modularmachinery:itemmodularium>],[<botania:livingrock>, <contenttweaker:magcondium_ingot>, <botania:livingrock>], [<modularmachinery:itemmodularium>, <botania:livingrock>, <modularmachinery:itemmodularium>]]);
 
-recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:oil_drill"}), [[null, null, null],[null, <minecraft:paper>, null], [null, <forge:bucketfilled>, null]]);
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:oil_drill"}), [[<minecraft:paper>], [<minecraft:bucket>]]);
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:3>, [[<modularmachinery:itemmodularium>, <twilightforest:giant_obsidian>, <modularmachinery:itemmodularium>],[<twilightforest:giant_obsidian>, <enderio:block_tank:1>, <twilightforest:giant_obsidian>], [<modularmachinery:itemmodularium>, <twilightforest:giant_obsidian>, <modularmachinery:itemmodularium>]]);
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:2>, [[<modularmachinery:itemmodularium>, <contenttweaker:magcondium_ingot>, <modularmachinery:itemmodularium>],[<contenttweaker:magcondium_ingot>, <enderio:block_cap_bank:2>, <contenttweaker:magcondium_ingot>], [<modularmachinery:itemmodularium>, <contenttweaker:magcondium_ingot>, <modularmachinery:itemmodularium>]]);
 recipes.addShaped(<modularmachinery:blockfluidinputhatch:2>, [[<modularmachinery:itemmodularium>, <embers:pipe>, <modularmachinery:itemmodularium>],[<embers:pipe>, <enderio:block_tank:1>, <embers:pipe>], [<modularmachinery:itemmodularium>, <embers:pipe>, <modularmachinery:itemmodularium>]]);
@@ -33,7 +34,7 @@ recipes.addShaped(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl:
 recipes.addShaped(<silentgems:enchantmenttoken>.withTag({TokenEnchantments: [{lvl: 1 as short, name: "veining:veining"}]}), [[null, null, null],[null, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 46 as short}]}), null], [null, null, null]]);
 
 //辐射采集器
-recipes.addShaped(<arcanearchives:radiant_resonator>, [[<contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>],[<enderio:item_alloy_ingot:5>, <naturesaura:offering_table>, <enderio:item_alloy_ingot:5>], [<enderio:item_alloy_ingot:5>, null, <enderio:item_alloy_ingot:5>]]); 
+recipes.addShaped(<arcanearchives:radiant_resonator>, [[<contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>],[<enderio:item_alloy_ingot:5>, <naturesaura:ancient_log>, <enderio:item_alloy_ingot:5>], [<enderio:item_alloy_ingot:5>, null, <enderio:item_alloy_ingot:5>]]); 
 recipes.addShaped(<soot:still>, [[<embers:pipe>, <embers:pipe>, <embers:pipe>],[<embers:plate_dawnstone>, null, <flopper:flopper>], [<embers:block_tank>, null, null]]);
 recipes.addShaped(<embers:pump>, [[null, <embers:plate_caminite>, null],[<embers:plate_caminite>, <flopper:flopper>, <embers:plate_caminite>], [null, <embers:plate_caminite>, null]]);
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:3>, [[<deepmoblearning:glitch_infused_ingot>, <botania:manaresource:4>, <deepmoblearning:glitch_infused_ingot>],[<arcanearchives:shaped_quartz>, <contenttweaker:soso_machine_core>, <arcanearchives:shaped_quartz>], [<deepmoblearning:glitch_infused_ingot>, <botania:manaresource:4>, <deepmoblearning:glitch_infused_ingot>]]);

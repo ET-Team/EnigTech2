@@ -33,7 +33,7 @@ recipes.addShaped(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl:
 recipes.addShaped(<silentgems:enchantmenttoken>.withTag({TokenEnchantments: [{lvl: 1 as short, name: "veining:veining"}]}), [[null, null, null],[null, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 46 as short}]}), null], [null, null, null]]);
 
 //辐射采集器
-recipes.addShaped(<arcanearchives:radiant_resonator>, [[<contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>],[<enderio:item_alloy_ingot:5>, <naturesaura:offering_table>, <enderio:item_alloy_ingot:5>], [<enderio:item_alloy_ingot:5>, null, <enderio:item_alloy_ingot:5>]]); 
+recipes.addShaped(<arcanearchives:radiant_resonator>, [[<contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>],[<enderio:item_alloy_ingot:5>, <naturesaura:sky_ingot>, <enderio:item_alloy_ingot:5>], [<enderio:item_alloy_ingot:5>, null, <enderio:item_alloy_ingot:5>]]); 
 recipes.addShaped(<soot:still>, [[<embers:pipe>, <embers:pipe>, <embers:pipe>],[<embers:plate_dawnstone>, null, <flopper:flopper>], [<embers:block_tank>, null, null]]);
 recipes.addShaped(<embers:pump>, [[null, <embers:plate_caminite>, null],[<embers:plate_caminite>, <flopper:flopper>, <embers:plate_caminite>], [null, <embers:plate_caminite>, null]]);
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:3>, [[<deepmoblearning:glitch_infused_ingot>, <botania:manaresource:4>, <deepmoblearning:glitch_infused_ingot>],[<arcanearchives:shaped_quartz>, <contenttweaker:soso_machine_core>, <arcanearchives:shaped_quartz>], [<deepmoblearning:glitch_infused_ingot>, <botania:manaresource:4>, <deepmoblearning:glitch_infused_ingot>]]);
