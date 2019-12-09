@@ -66,13 +66,13 @@ recipes.addShaped(<extrautils2:machine>.withTag({Type: "crafttweaker:fluider_mk1
 //聚合黏土
 recipes.addShaped(<deepmoblearning:polymer_clay> * 24, [[null, <minecraft:clay_ball>, null],[<embers:blend_caminite>, <contenttweaker:fire_resist_mixture>, <embers:blend_caminite>], [null, <minecraft:clay_ball>, null]]);
 //棒模具
-recipes.addShaped(<immersiveengineering:mold:2>,[[<immersiveengineering:tool>],[<immersiveengineering:material:1>.transformReplace(<immersiveengineering:tool>)],[<thermalfoundation:material:352>]]);
+recipes.addShaped(<immersiveengineering:mold:2>,[[<immersiveengineering:tool>],[<immersiveengineering:material:1>],[<thermalfoundation:material:352>]]);
 //线模具
-recipes.addShaped(<immersiveengineering:mold:4>,[[<immersiveengineering:tool>],[<immersiveengineering:material:20>],[<thermalfoundation:material:352>.transformReplace(<immersiveengineering:tool>)]]);
+recipes.addShaped(<immersiveengineering:mold:4>,[[<immersiveengineering:tool>],[<immersiveengineering:material:20>],[<thermalfoundation:material:352>]]);
 //齿轮模具
-recipes.addShaped(<immersiveengineering:mold:1>,[[<immersiveengineering:tool>],[<thermalfoundation:material:23>],[<thermalfoundation:material:352>.transformReplace(<immersiveengineering:tool>)]]);
+recipes.addShaped(<immersiveengineering:mold:1>,[[<immersiveengineering:tool>],[<thermalfoundation:material:23>],[<thermalfoundation:material:352>]]);
 //板模具
-recipes.addShaped(<immersiveengineering:mold>,[[<immersiveengineering:tool>],[<thermalfoundation:material:32>],[<thermalfoundation:material:352>.transformReplace(<immersiveengineering:tool>)]]);
+recipes.addShaped(<immersiveengineering:mold>,[[<immersiveengineering:tool>],[<thermalfoundation:material:32>],[<thermalfoundation:material:352>]]);
 //微型锅炉
 recipes.addShaped(<embers:mini_boiler>, [[<thermalfoundation:material:354>, <thermalfoundation:material:354>, <thermalfoundation:material:354>],[<embers:ingot_dawnstone>, <contenttweaker:bad_machine_core>, <thermalfoundation:material:354>], [<thermalfoundation:material:354>, <thermalfoundation:material:354>, <thermalfoundation:material:354>]]);
 recipes.addShaped(
