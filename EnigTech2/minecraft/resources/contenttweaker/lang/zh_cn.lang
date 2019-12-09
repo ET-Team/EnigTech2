@@ -139,3 +139,12 @@ item.contenttweaker.forbidden_life_essence.name=禁忌生命精华
 item.contenttweaker.moon_blade.name=月之锋刃
 
 item.contenttweaker.ascenders_proof.name=飞升者的证明
+
+contenttweaker.material.Neodymium=钕
+contenttweaker.material.Chromium=铬
+contenttweaker.material.Nichrome=镍铬合金
+contenttweaker.material.Molybdenum=钼
+contenttweaker.material.MolybdenumSteel=钼钢
+contenttweaker.material.Tungsten=钨
+contenttweaker.material.TungstenSteel=钨钢
+contenttweaker.material.VoidMetal=虚空金属

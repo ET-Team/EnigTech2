@@ -1,0 +1,140 @@
+item.contenttweaker.arcane_essence.name=Arcane Essence
+item.contenttweaker.auriminium.name=Auriminium
+item.contenttweaker.magcondium_ingot.name=Magcondium Ingot
+item.contenttweaker.magfusive_crystal.name=Magfusive Crystal
+
+item.contenttweaker.basic_circuit.name=Basic Circuit
+item.contenttweaker.basic_processor.name=Basic Processor
+item.contenttweaker.advanced_processor.name=Advanced Processor
+item.contenttweaker.integrated_calculation_module.name=Integrated Calculation Module
+item.contenttweaker.super_calculation_module.name=Super Calculation Module
+
+item.contenttweaker.bad_machine_core.name=Basic Machine Core
+item.contenttweaker.soso_machine_core.name=Refined Machine Core
+item.contenttweaker.reinforced_machine_core.name=Reinforced Machine Core
+item.contenttweaker.ultra_machine_core.name=Ultra Machine Core
+item.contenttweaker.void_machine_core.name=Void Machine Core
+item.contenttweaker.zhishu_machine_core.name=Szhishu Machine Core
+
+item.contenttweaker.iridium_osmium_ingot.name=Osmiridium Ingot
+item.contenttweaker.ultracondium_crystal.name=Superconductive Crystal
+item.contenttweaker.ether_alloy_ingot.name=Ether Alloy Ingot
+item.contenttweaker.draconium_alloy_ingot.name=Draconium Alloy Ingot
+
+item.contenttweaker.potion_inteligence.name=Potion of Intelligence
+
+item.contenttweaker.good_fuel.name=Refined Fuel
+item.contenttweaker.bad_fuel.name=Poor Fuel
+item.contenttweaker.dried_grass.name=Hay
+item.contenttweaker.mixed_coal_dust.name=Mixed Coal Dust
+item.contenttweaker.fire_resist_mixture.name=Fire-resistant Mixture
+item.contenttweaker.fire_resist_brick.name=Fire-resistant Brick
+item.contenttweaker.fuel_helper.name=Combustion Aid
+item.contenttweaker.dust_wood.name=Wood Dust
+
+item.contenttweaker.blast_furnace_brick.name=Blast Furnace Brick
+
+item.contenttweaker.living_wood_skin.name=Living Wood Skin
+item.contenttweaker.ancient_scroll.name=Ancient Scroll
+
+item.contenttweaker.magic_key.name=Magic Key
+
+item.contenttweaker.blood_iron.name=Blood Iron Ingot
+item.contenttweaker.divine_inspiration.name=Inspiration from Divinity
+item.contenttweaker.solid_ethylene.name=Solid Ethylene
+item.contenttweaker.bulk_of_plastic.name=Plastic Bulk
+item.contenttweaker.plastic_plate.name=Plastic Plate
+
+fluid.fluid_lubricant=Lubricant
+fluid.fluid_oil_gas=Oil Gas
+fluid.fluid_ethylene=Ethylene
+fluid.fluid_concentrated_ethylene=Polyethylene
+fluid.fluid_blend_caminite=Liquid Caminite
+fluid.fluid_hydrochloric_acid=Hydrogen Chloride
+fluid.fluid_silicon=Silane
+fluid.fluid_concentrated_silicon=Concentrated Silane
+fluid.fluid_dragon_breathe=Liquid Dragon Breathe
+
+item.contenttweaker.basic_motioner.name=Basic Gearing
+item.contenttweaker.medium_motioner.name=Refined Gearing
+item.contenttweaker.advanced_motioner.name=Advanced Gearing
+item.contenttweaker.ultimate_motioner.name=Ultimate Gearing
+item.contenttweaker.dust_silicon.name=Crushed Silicon
+item.contenttweaker.multicrystal_silicon.name=Polysilicon Rod
+item.contenttweaker.rod_monocrystal_silicon.name=Monocrystalline Silicon Rod
+item.contenttweaker.unpolished_slice_monosilicon.name=Unpolished Monocrystalline Silicon Slice
+item.contenttweaker.slice_monosilicon.name=Monocrystalline Silicon Slice
+item.contenttweaker.chlorinized_slice_monosilicon.name=Chlorinized Monocrystalline Silicon Slice
+item.contenttweaker.ic_wafer.name=IC Wafer
+item.contenttweaker.silicon_slice.name=Silicon slice
+item.contenttweaker.transistor_fine.name=Refined Transistor
+item.contenttweaker.transistor_bad.name=Crude Transistor
+item.contenttweaker.resistor_fine.name=Refined Resistor
+item.contenttweaker.resistor_bad.name=Crude Resistor
+item.contenttweaker.integrated_calculation_module_unprocessed.name=Unprocessed Integrated Calculation Module
+item.contenttweaker.ic_unprocessed.name=Unprocessed IC
+item.contenttweaker.processor_base.name=Processor Substrate
+item.contenttweaker.silicon_reinforced.name=Reinforced Silicon
+item.contenttweaker.slice_silicon_compressed.name=Compressed Silicon Slice
+item.contenttweaker.slice_silicon_rough.name=Rough SIlicon Slice
+item.contenttweaker.ic_processed.name=IC
+item.contenttweaker.baseplate_aluminum.name=Aluminium Substrate
+item.contenttweaker.baseplate_gold.name=Gold Substrate
+item.contenttweaker.baseplate_iridium.name=Iridium Substrate
+item.contenttweaker.rubber_plate.name=Rubber Plate
+item.contenttweaker.magic_motor.name=Magic Motor
+item.contenttweaker.dark_gaiya_crystal.name=Mundane Gaia Crystal
+item.contenttweaker.dark_gaiya_crystal_unpolished.name=Unpolished Mundane Gaia Crystal
+
+machine.crafttweaker:polisher=Polisher
+machine.crafttweaker:chlorinizer=Chlorinizer
+machine.crafttweaker:silicon_grower=Silicon Grower
+machine.crafttweaker:fluider_mk1=Basic Fluid Solidifier
+machine.crafttweaker:fluid_concentrator=Basic Distiller
+
+item.contenttweaker.gaiya_stabilizer.name=Gaia Stabalizer
+item.contenttweaker.charged_gaiya_crystal.name=Charged Gaia Crystal
+item.contenttweaker.brain_chip.name=Brain Chip
+
+contenttweaker.part.dust_tiny=Tiny %s Dust
+
+item.contenttweaker.magic_calculator.name=Magic Calculator
+item.contenttweaker.magic_calculator_unpowered.name=Uncharged Magic Calculator
+item.contenttweaker.magic_machine_hull.name=Magic Machine Hull
+item.contenttweaker.strong_motor.name=Ultraconductive Motor
+item.contenttweaker.strong_motor_unprocessed.name=Unprocessed Ultraconductive Motor
+item.contenttweaker.meteor_bait.name=Meteor Bait
+item.contenttweaker.lunar_essence.name=Lunar Essence
+item.contenttweaker.lunar_blade.name=Lunar Blade
+item.contenttweaker.dust_small_osmium.name=Tiny Osimium Dust
+item.contenttweaker.star_rune.name=Rune of the stars
+
+item.contenttweaker.compress_crystaltine.name=Compressed Crystaltine Ingot
+
+item.contenttweaker.entropy.name=Condensed Entropy
+item.contenttweaker.neutron.name=Solidified Neutron
+item.contenttweaker.enigarium.name=Enigarium Ingot
+item.contenttweaker.technium.name=Technium Ingot
+item.contenttweaker.orders_truth.name=The Truth of The Orders
+item.contenttweaker.unknowing_dirt.name=The Dirt of innocence
+
+item.contenttweaker.enigtechnium.name=EnigTechnium Ingot
+item.contenttweaker.solidified_energy.name=Solidified Engergy
+item.contenttweaker.will_of_world_tree.name=The Will of Yggdrasill
+item.contenttweaker.pity_from_nature.name=The Pity from The Nature
+item.contenttweaker.essencial_blood.name=A Drop of Essencial Blood
+item.contenttweaker.forbidden_life_essence.name=Forbidden Life Essence
+
+
+item.contenttweaker.moon_blade.name=The Blade of Moon
+
+item.contenttweaker.ascenders_proof.name=The Proof of the Ascender
+
+contenttweaker.material.Neodymium=Neodymium
+contenttweaker.material.Chromium=Chromium
+contenttweaker.material.Nichrome=Nichrome
+contenttweaker.material.Molybdenum=Molybdenum
+contenttweaker.material.MolybdenumSteel=Molybdenum Steel
+contenttweaker.material.Tungsten=Tungsten
+contenttweaker.material.TungstenSteel=Tungsten Steel
+contenttweaker.material.VoidMetal=Voidium
