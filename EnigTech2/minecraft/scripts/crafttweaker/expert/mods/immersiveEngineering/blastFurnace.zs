@@ -16,3 +16,4 @@
     mods.immersiveengineering.BlastFurnace.addRecipe(<thermalfoundation:material:135>, <ore:dustIridium>, 500);
     mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:material_part:45>, <contenttweaker:sub_block_holder_0:3>, 500);
     mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:material_part:45>, <contenttweaker:material_part:41>, 500);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:material_part:25>, <contenttweaker:material_part:21>, 500);

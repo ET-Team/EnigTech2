@@ -28,5 +28,16 @@ recipes.remove(<botania:pool:2>);
 recipes.remove(<botania:altar>);
 recipes.remove(<botania:pool>);
 recipes.remove(<botania:travelbelt>);
+recipes.remove(<forestry:resource_storage:2>);
+recipes.remove(<embers:block_tin>);
+recipes.remove(<mekanism:basicblock:13>);
+recipes.remove(<libvulpes:metal0:5>);
+recipes.remove(<mekanism:basicblock:1>);
+recipes.remove(<embers:block_bronze>);
+recipes.remove(<forestry:resource_storage:3>);
+recipes.remove(<forestry:resource_storage:1>);
+recipes.remove(<embers:block_copper>);
+recipes.remove(<mekanism:basicblock:12>);
+recipes.remove(<libvulpes:metal0:4>);
 
 recipes.removeByRegex("immersiveengineering:material/plate_.*");
