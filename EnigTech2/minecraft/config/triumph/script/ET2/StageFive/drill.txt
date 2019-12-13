@@ -3,7 +3,7 @@ Criteriacomputer26 = addCriteria("Criteriacomputer26", "minecraft:inventory_chan
 Criteriacomputer26.addItem(<advancedrocketry:drill, meta:0, count:1>)
 setIcon(<advancedrocketry:drill, meta:0>)
 setTitle("\u6ecb~~~")
-setDescription("\u6ca1\u6709\u94bb\u5934��\u4f60\u96be\u9053\u8981\u7528\u706b\u529b\u5f00\u77ff\u6cd5\u5417?")
+setDescription("\u6ca1\u6709\u94bb\u5934\u4f60\u96be\u9053\u8981\u7528\u706b\u529b\u5f00\u77ff\u6cd5\u5417?")
 setPos(-396,304)
 addParent("ET2:StageFive/computer")
 drawDirectLines(true)

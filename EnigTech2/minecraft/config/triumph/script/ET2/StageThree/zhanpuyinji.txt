@@ -3,7 +3,7 @@ Criteriazhanpuyinji12 = addCriteria("Criteriazhanpuyinji12", "minecraft:inventor
 Criteriazhanpuyinji12.addItem(<bloodmagic:sigil_divination>)
 setIcon(<bloodmagic:sigil_divination>)
 setTitle("\u8ba9\u6211\u5eb7\u5eb7")
-setDescription("\u5236\u4f5c\u5360\u535c\u5370\u8bb0��\u6765\u5e2e\u52a9\u4f60\u67e5\u770b\u8840\u4e4b\u796d\u575b\u7684\u5bb9\u91cf")
+setDescription("\u5236\u4f5c\u5360\u535c\u5370\u8bb0\u6765\u5e2e\u52a9\u4f60\u67e5\u770b\u8840\u4e4b\u796d\u575b\u7684\u5bb9\u91cf")
 setPos(-244,44)
 addParent("ET2:StageThree/xuezhijitan")
 drawDirectLines(true)

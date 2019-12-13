@@ -3,7 +3,7 @@ Criteriayeshenggenjing53 = addCriteria("Criteriayeshenggenjing53", "minecraft:in
 Criteriayeshenggenjing53.addItem(<roots:wildroot>)
 setIcon(<roots:wildroot>)
 setTitle("\u91ce\u751f\u6839\u830e")
-setDescription("\u901a\u8fc7\u7834\u574f\u8349\u4e1b��\u83b7\u5f97\u91ce\u751f\u6839\u830e")
+setDescription("\u901a\u8fc7\u7834\u574f\u8349\u4e1b\u83b7\u5f97\u91ce\u751f\u6839\u830e")
 setPos(-840,70)
 addParent("ET2:StageOne/root")
 Criteriayeshenggenjing54 = addCriteria("completedParent", "triumph:completed_advancement")
