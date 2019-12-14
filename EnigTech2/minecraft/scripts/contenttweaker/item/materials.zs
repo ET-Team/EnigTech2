@@ -13,14 +13,14 @@
 //注册 小搓粉 类型
 	mods.contenttweaker.MaterialSystem.getPartBuilder().setName("dust_tiny").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("dustTiny").build();
 //钕 铬 镍铬合金 钼 钼钢 钨 硬化钨钢 虚空金属的注册
-	var nd = MaterialSystem.getMaterialBuilder().setName("钕").setColor(16761035).build();
-	var cr = MaterialSystem.getMaterialBuilder().setName("铬").setColor(16744192).build();
-	var nicr = MaterialSystem.getMaterialBuilder().setName("镍铬合金").setColor(15787660).build();
-	var mo = MaterialSystem.getMaterialBuilder().setName("钼").setColor(13883557).build();
-	var mofe = MaterialSystem.getMaterialBuilder().setName("钼钢").setColor(12844972).build();
-	var w = MaterialSystem.getMaterialBuilder().setName("钨").setColor(10664123).build();
-	var wfe = MaterialSystem.getMaterialBuilder().setName("硬化钨钢").setColor(4610158).build();
-	var voidmetal = MaterialSystem.getMaterialBuilder().setName("虚空金属").setColor(10198472).build();
+	var nd = MaterialSystem.getMaterialBuilder().setName("Neodymium").setColor(16761035).build();
+	var cr = MaterialSystem.getMaterialBuilder().setName("Chromium").setColor(16744192).build();
+	var nicr = MaterialSystem.getMaterialBuilder().setName("Nichrome").setColor(15787660).build();
+	var mo = MaterialSystem.getMaterialBuilder().setName("Molybdenum").setColor(13883557).build();
+	var mofe = MaterialSystem.getMaterialBuilder().setName("MolybdenumSteel").setColor(12844972).build();
+	var w = MaterialSystem.getMaterialBuilder().setName("Tungsten").setColor(10664123).build();
+	var wfe = MaterialSystem.getMaterialBuilder().setName("TungstenSteel").setColor(4610158).build();
+	var voidmetal = MaterialSystem.getMaterialBuilder().setName("VoidMetal").setColor(10198472).build();
 
 //材料列表和类型列表
 	var metal_list = [nd,cr,nicr,w,wfe,voidmetal,mo,mofe] as Material[];
