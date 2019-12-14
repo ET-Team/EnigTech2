@@ -10,3 +10,4 @@
 <ore:gemApatite>.remove(<item:forestry:apatite>);
 
 <ore:gemAquamarine>.remove(<silentgems:gem:8>);
+<ore:blockApatite>.remove(<forestry:resource_storage>);
