@@ -31,6 +31,11 @@ recipes.removeByRecipeName("minecraft:dark_wooden_slab");
 
 recipes.removeByRecipeName("minecraft:iron_ingot_from_nuggets");
 
+mods.recipestages.Recipes.setRecipeStage("two", "traverse:fir_stairs");
+mods.recipestages.Recipes.setRecipeStage("two", "traverse:fir_fence");
+mods.recipestages.Recipes.setRecipeStage("two", "traverse:fir_fence_gate");
+mods.recipestages.Recipes.setRecipeStage("two", "traverse:fir_door");
+
 var modsStageOne as string[] = [
 	"roots",
 	"rustic",
