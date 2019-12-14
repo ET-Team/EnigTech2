@@ -4,7 +4,7 @@ import mods.roots.Fey;
 Fey.removeRecipe(<roots:elemental_soil>);
 
 //奥术源质
-Fey.addRecipe("arcaneessence", <contenttweaker:arcane_essence>*4, [<roots:spirit_herb>, <roots:cloud_berry>, <roots:pereskia>, <roots:stalicripe>, <roots:dewgonia>]);
+Fey.addRecipe("arcaneessence", <contenttweaker:arcane_essence>*2, [<roots:spirit_herb>, <roots:cloud_berry>, <roots:pereskia>, <roots:stalicripe>, <roots:dewgonia>]);
 //冷凝器
 Fey.addRecipe("condenser", <rustic:condenser>, [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <contenttweaker:arcane_essence>, <minecraft:hardened_clay>, <minecraft:brick>]);
 //杀菌釜

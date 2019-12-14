@@ -1,4 +1,3 @@
-#packmode normal
 #priority 1000
 import extrautilities2.Tweaker.IMachineRegistry;
 
@@ -18,9 +17,9 @@ silicon_grower.addRecipe({water:<liquid:astralsorcery.liquidstarlight>*200,item:
 polisher.addRecipe({water:<liquid:water>*100, item:<contenttweaker:unpolished_slice_monosilicon>},{output:<contenttweaker:slice_monosilicon>}, 8000, 40);
 polisher.addRecipe({water:<liquid:water>*100, item:<contenttweaker:dark_gaiya_crystal_unpolished>},{output:<contenttweaker:dark_gaiya_crystal>},40000,200);
 
-fluider.addRecipe({water:<liquid:fluid_concentrated_ethylene>*200},{output:<contenttweaker:bulk_of_plastic>},1000,40);
-fluider.addRecipe({water:<liquid:fluid_blend_caminite>*250},{output:<embers:blend_caminite>},5000,40);
+fluider.addRecipe({liquid:<liquid:fluid_concentrated_ethylene>*200},{output:<contenttweaker:bulk_of_plastic>},1000,40);
+fluider.addRecipe({liquid:<liquid:fluid_blend_caminite>*200},{output:<embers:blend_caminite>},5000,40);
 
 fluid.addRecipe({input:<liquid:fluid_silicon>*1000},{output:<liquid:fluid_concentrated_silicon>*600}, 2000, 80);
-fluid.addRecipe({input:<liquid:fluid_ethylene>*1000},{output:<liquid:fluid_concentrated_ethylene>*600}, 2000, 120);
-fluid.addRecipe({input:<liquid:fluid_oil_gas>*2000},{output:<liquid:fluid_ethylene>*1600}, 2000, 160);
+fluid.addRecipe({input:<liquid:fluid_ethylene>*1000},{output:<liquid:fluid_concentrated_ethylene>*600}, 2000, 80);
+fluid.addRecipe({input:<liquid:fluid_oil_gas>*1000},{output:<liquid:fluid_ethylene>*800}, 2000, 80);

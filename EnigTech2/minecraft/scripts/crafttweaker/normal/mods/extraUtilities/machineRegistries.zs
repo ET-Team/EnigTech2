@@ -47,8 +47,8 @@ import extrautilities2.Tweaker.IMachine;
         "fluider_mk1", 
         8192, 
         512, 
-        [IMachineSlot.newFluidSlot("water", 1000)], 
-        [IMachineSlot.newItemStackSlot("output")], 
+        [IMachineSlot.newFluidSlot("liquid", 10000)], 
+        [IMachineSlot.newItemStackSlot("output", 10000)], 
         "et2:block/machine_idle", 
         "et2:block/fluider_working"
     );
@@ -56,10 +56,10 @@ import extrautilities2.Tweaker.IMachine;
     //简易流体精炼机
     IMachineRegistry.createNewMachine(
         "fluid_concentrator", 
-        8192, 
-        512, 
-        [IMachineSlot.newFluidSlot("input", 3000)], 
-        [IMachineSlot.newFluidSlot("output", 3000)], 
+        8192,
+        512,
+        [IMachineSlot.newFluidSlot("input",10000)], 
+        [IMachineSlot.newFluidSlot("output", 100000)], 
         "et2:block/machine_idle", 
         "et2:block/fluid_concentrator"
     );

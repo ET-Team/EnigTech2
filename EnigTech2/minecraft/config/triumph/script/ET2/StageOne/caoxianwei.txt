@@ -3,7 +3,7 @@ Criteriacaoxianwei0 = addCriteria("Criteriacaoxianwei0", "minecraft:inventory_ch
 Criteriacaoxianwei0.addItem(<survivalist:plant_fibres>)
 setIcon(<survivalist:plant_fibres>)
 setTitle("\u8349\u7ea4\u7ef4")
-setDescription("\u901a\u8fc7\u7834\u574f\u8349\u4e1b��\u83b7\u5f97\u8349\u7ea4\u7ef4")
+setDescription("\u901a\u8fc7\u7834\u574f\u8349\u4e1b\u83b7\u5f97\u8349\u7ea4\u7ef4")
 setPos(-809,-21)
 addParent("ET2:StageOne/root")
 Criteriacaoxianwei1 = addCriteria("completedParent", "triumph:completed_advancement")
