@@ -8,3 +8,5 @@
 <ore:materialTannedLeather>.add(<improvedbackpacks:tanned_leather>);
 <ore:cropFlax>.remove(<minecraft:string>);
 <ore:gemApatite>.remove(<item:forestry:apatite>);
+
+<ore:gemAquamarine>.remove(<silentgems:gem:8>);
