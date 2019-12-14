@@ -40,6 +40,7 @@ recipes.addShaped(<appliedenergistics2:material:36>, [[<actuallyadditions:item_c
 recipes.addShaped(<appliedenergistics2:material:35>, [[<actuallyadditions:item_crystal:5>, <arcanearchives:shaped_quartz>, <actuallyadditions:item_crystal:5>],[<arcanearchives:shaped_quartz>, <appliedenergistics2:material:22>, <arcanearchives:shaped_quartz>], [<actuallyadditions:item_crystal:5>, <arcanearchives:shaped_quartz>, <actuallyadditions:item_crystal:5>]]);
 recipes.addShaped(<forestry:resource_storage>, [[<forestry:apatite>, <forestry:apatite>, <forestry:apatite>],[<forestry:apatite>, <forestry:apatite>, <forestry:apatite>], [<forestry:apatite>, <forestry:apatite>, <forestry:apatite>]]);
 recipes.addShapeless(<forestry:apatite>*9,[<forestry:resource_storage>]);
+recipes.addShaped(<enderio:item_material:52>,[[<enderio:item_material:74>,<ore:dustNetherQuartz>,<enderio:item_material:49>],[<ore:dustNetherQuartz>,<enderio:item_material:51>,<ore:dustNetherQuartz>],[<enderio:item_material:49>,<ore:dustNetherQuartz>,<enderio:item_material:74>]]);
 //强化能量管道
 recipes.addShaped(<enderio:item_power_conduit:1> * 2, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<enderio:item_alloy_ingot:1>, <enderio:item_power_conduit>, <enderio:item_alloy_ingot:1>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 //模块化
