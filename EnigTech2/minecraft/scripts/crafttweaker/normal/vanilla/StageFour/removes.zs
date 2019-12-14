@@ -67,4 +67,6 @@ recipes.remove(<enderio:item_material:51>);
 recipes.remove(<appliedenergistics2:material:35>);
 recipes.remove(<twilightforest:uncrafting_table>);
 recipes.remove(<actuallyadditions:block_phantom_liquiface>);
+recipes.remove(<enderio:item_material:67>);
+recipes.remove(<enderio:item_material:52>);
 
