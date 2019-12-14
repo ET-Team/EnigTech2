@@ -9,6 +9,9 @@ recipes.addShaped(<contenttweaker:fuel_helper> * 2, [[<contenttweaker:dried_gras
 recipes.addShaped(<contenttweaker:mixed_coal_dust> * 9, [[<thermalfoundation:material:768>, <thermalfoundation:material:769>, <thermalfoundation:material:768>],[<thermalfoundation:material:769>, <thermalfoundation:material:768>, <thermalfoundation:material:769>], [<thermalfoundation:material:768>, <thermalfoundation:material:769>, <thermalfoundation:material:768>]]);
 recipes.addShaped(<contenttweaker:bad_fuel> * 5, [[<thermalfoundation:material:768>, <contenttweaker:dust_wood>, <thermalfoundation:material:768>],[<contenttweaker:dust_wood>, <thermalfoundation:material:768>, <contenttweaker:dust_wood>], [<thermalfoundation:material:768>, <contenttweaker:dust_wood>, <thermalfoundation:material:768>]]);
 recipes.addShaped(<immersiveengineering:stone_decoration:10> * 2, [[<contenttweaker:fire_resist_brick>, <ore:sandstone>], [<ore:sandstone>, <contenttweaker:fire_resist_brick>]]);
+recipes.addShaped(<forestry:fertilizer_compound>*8,[[<ore:sand>],[<forestry:apatite>],[<ore:sand>]]);
+recipes.addShaped(<forestry:fertilizer_compound>*16,[[<ore:dustAsh>,<ore:dustAsh>,<ore:dustAsh>],[<ore:dustAsh>,<forestry:apatite>,<ore:dustAsh>],[<ore:dustAsh>,<ore:dustAsh>,<ore:dustAsh>]]);
+recipes.addShaped(<botania:cellblock>*6,[[<minecraft:cactus>,<minecraft:cactus>,<minecraft:cactus>],[<ore:listAllveggie>,<ore:listAllveggie>,<ore:listAllveggie>]]);
 //花药台
 recipes.addShaped(<botania:altar>,[[<botania:livingrock0slab>,<contenttweaker:arcane_essence>,<botania:livingrock0slab>],[null,<botania:livingrock>,null],[<botania:livingrock>,<botania:livingrock>,<botania:livingrock>]]);
 //稀释魔力池
