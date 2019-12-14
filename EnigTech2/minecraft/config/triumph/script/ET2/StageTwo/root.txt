@@ -2,10 +2,10 @@
 setIcon(<minecraft:paper>)
 
 //Set title String
-setTitle("Stage Two: The Civilized")
+setTitle("\u9636\u6bb5\u4e8c:\u5f00\u5316")
 
 //Set description String
-setDescription("Time to think about how to live, instead of being alive.")
+setDescription("\u4f60\u5df2\u7ecf\u5728\u8fd9\u4e2a\u4e16\u754c\u521d\u6b65\u7ad9\u4f4f\u4e86\u8ddf\u811a\uff0c\u4f46\u662f\u4f60\u7a76\u7adf\u8d70\u591a\u8fdc\u5462\uff1f")
 
 //Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
 setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
