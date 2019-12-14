@@ -39,5 +39,9 @@ recipes.remove(<forestry:resource_storage:1>);
 recipes.remove(<embers:block_copper>);
 recipes.remove(<mekanism:basicblock:12>);
 recipes.remove(<libvulpes:metal0:4>);
+recipes.remove(<forestry:resource_storage>);
+recipes.remove(<forestry:fertilizer_compound>);
+recipes.remove(<botania:cellblock>);
+
 
 recipes.removeByRegex("immersiveengineering:material/plate_.*");
