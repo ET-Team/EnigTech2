@@ -3,7 +3,7 @@ Criteriashanggujuanzhou13 = addCriteria("Criteriashanggujuanzhou13", "minecraft:
 Criteriashanggujuanzhou13.addItem(<contenttweaker:ancient_scroll>)
 setIcon(<contenttweaker:ancient_scroll>)
 setTitle("Ancient Scroll")
-setDescription("Through the Ancient Scroll, you saw the light of the possibility, the possibility of establishing your own civilization...")
+setDescription("Through the Ancient Scroll, you saw the dawn of your own civilization...")
 setPos(-132,64)
 addParent("ET2:StageTwo/jinglingmunhexin")
 drawDirectLines(true)
