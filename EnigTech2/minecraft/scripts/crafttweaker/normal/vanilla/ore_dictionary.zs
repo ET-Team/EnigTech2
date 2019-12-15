@@ -11,3 +11,5 @@
 
 <ore:gemAquamarine>.remove(<silentgems:gem:8>);
 <ore:blockApatite>.remove(<forestry:resource_storage>);
+//移除 林业模组 灰烬 的矿物词典
+<ore:dustAsh>.remove(<forestry:ash>);
