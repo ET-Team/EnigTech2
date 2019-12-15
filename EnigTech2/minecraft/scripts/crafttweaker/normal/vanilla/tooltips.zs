@@ -19,7 +19,7 @@ val warning as string[IIngredient] = {
 val praise as string[IIngredient] = {
     
     <item:contenttweaker:potion_inteligence> : "Congratulation, The Man of Innocence, Stage One has been conqured by thee, right click to drink this potion and unlock Stage Two",
-    <item:contenttweaker:ancient_scroll> : "Congratulation, The friend of the Plants, Stage Two has been conquered by thee, right click to read this scroll and unlock Stage Three",
+    <item:contenttweaker:ancient_scroll> : "Congratulation, The Friend of the Plants, Stage Two has been conquered by thee, right click to read this scroll and unlock Stage Three",
     <item:contenttweaker:divine_inspiration> : "Congratulation, The Manipulator of Aura, Stage Three has been conquered by thee, right click to understand this sheet of text and unlock Stage Four",
     <item:contenttweaker:brain_chip> : "Congratulation, The Master of Machinery, Stage Four has been conquered by thee, right click to implant this chip and unlock Stage Five",
     <item:contenttweaker:star_rune> : "Congratulation, The Descendant of Stars, Stage Five has been conquered by thee, right click to merge this rune and unlock Stage Six",
