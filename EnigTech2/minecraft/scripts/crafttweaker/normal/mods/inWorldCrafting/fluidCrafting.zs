@@ -2,7 +2,7 @@
 #priority -100
 
 //导包
-import mods.inworldcrafting.FluidToFluid；
+import mods.inworldcrafting.FluidToFluid;
 import mods.inworldcrafting.FluidToItem;
 
 //硫酸
