@@ -3,7 +3,7 @@
 
 //删除从 rune:0 到 rune:15 的所有配方
     val runeDef = <botania:rune>.definition;
-    for i in 0 to 15{
+    for i in 0 to 16{
         mods.botania.RuneAltar.removeRecipe(runeDef.makeStack(i));
     }
 //火之符文
