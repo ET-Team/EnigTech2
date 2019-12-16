@@ -216,3 +216,12 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <mekanismgenerators:generator:3
 	[<contenttweaker:material_part:52>, <mekanism:gastank>, <ore:alloyUltimate>, <mekanism:gastank>, <contenttweaker:material_part:52>], 
 	[<contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>]
 ]);
+//恶魔桶
+mods.extendedcrafting.TableCrafting.addShaped(2, <extrautils2:drum:3>, [
+	[<contenttweaker:material_part:52>, <extrautils2:ingredients:11>, <extrautils2:ingredients:11>, <extrautils2:ingredients:11>, <contenttweaker:material_part:52>], 
+	[<contenttweaker:material_part:52>, <bloodmagic:slate:3>, <extrautils2:klein>, <bloodmagic:slate:3>, <contenttweaker:material_part:52>], 
+	[<contenttweaker:material_part:52>, <bloodmagic:slate:3>, <extrautils2:drum:2>, <bloodmagic:slate:3>, <contenttweaker:material_part:52>], 
+	[<contenttweaker:material_part:52>, <bloodmagic:slate:3>, <extrautils2:klein>, <bloodmagic:slate:3>, <contenttweaker:material_part:52>], 
+	[<contenttweaker:material_part:52>, <extrautils2:ingredients:11>, <extrautils2:ingredients:11>, <extrautils2:ingredients:11>, <contenttweaker:material_part:52>]
+]);
+
