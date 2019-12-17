@@ -70,3 +70,4 @@ recipes.remove(<actuallyadditions:block_phantom_liquiface>);
 recipes.remove(<enderio:item_material:67>);
 recipes.remove(<enderio:item_material:52>);
 recipes.remove(<extrautils2:drum:3>);
+recipes.remove(<enderio:block_wired_charger>);

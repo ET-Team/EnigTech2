@@ -50,3 +50,4 @@ recipes.remove(<thermalexpansion:augment:673>);
 recipes.remove(<environmentaltech:connector>);
 recipes.remove(<environmentaltech:interconnect>);
 recipes.remove(<environmentaltech:litherite_crystal>);
+recipes.remove(<mekanism:machineblock2:5>);
