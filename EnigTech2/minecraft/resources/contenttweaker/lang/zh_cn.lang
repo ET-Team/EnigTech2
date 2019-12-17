@@ -148,3 +148,5 @@ contenttweaker.material.MolybdenumSteel=钼钢
 contenttweaker.material.Tungsten=钨
 contenttweaker.material.TungstenSteel=钨钢
 contenttweaker.material.VoidMetal=虚空金属
+
+enchantment.veining.veining.desc=这个附魔能够使链接的矿石随着你单独的一次挖掘动作一齐掉落
