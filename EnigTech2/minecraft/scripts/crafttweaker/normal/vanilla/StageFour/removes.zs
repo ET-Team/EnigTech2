@@ -71,3 +71,5 @@ recipes.remove(<enderio:item_material:67>);
 recipes.remove(<enderio:item_material:52>);
 recipes.remove(<extrautils2:drum:3>);
 recipes.remove(<enderio:block_wired_charger>);
+recipes.remove(<simplyjetpacks:metaitemmods:26>);
+recipes.remove(<simplyjetpacks:metaitemmods:27>);
