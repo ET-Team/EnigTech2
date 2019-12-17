@@ -42,6 +42,8 @@ recipes.addShaped(<forestry:resource_storage>, [[<forestry:apatite>, <forestry:a
 recipes.addShapeless(<forestry:apatite>*9,[<forestry:resource_storage>]);
 recipes.addShaped(<enderio:item_material:52>,[[<enderio:item_material:74>,<ore:dustNetherQuartz>,<enderio:item_material:49>],[<ore:dustNetherQuartz>,<enderio:item_material:51>,<ore:dustNetherQuartz>],[<enderio:item_material:49>,<ore:dustNetherQuartz>,<enderio:item_material:74>]]);
 recipes.addShaped(<enderio:block_wired_charger>,[[<enderio:item_alloy_ingot>,<contenttweaker:magcondium_ingot>,<enderio:item_alloy_ingot>],[<contenttweaker:magcondium_ingot>,<enderio:block_simple_wired_charger>,<contenttweaker:magcondium_ingot>],[<enderio:item_alloy_ingot>,<contenttweaker:magcondium_ingot>,<enderio:item_alloy_ingot>]]);
+recipes.addShaped(<simplyjetpacks:metaitemmods:26>,[[<ore:ingotLead>,<actuallyadditions:item_battery_double>,<ore:ingotLead>],[<ore:blockGlass>,<enderio:item_power_conduit>,<ore:blockGlass>],[<ore:ingotLead>,<embers:jet_augment>,<ore:ingotLead>]]);
+recipes.addShaped(<simplyjetpacks:metaitemmods:27>,[[<ore:ingotInvar>,<actuallyadditions:item_battery_double>,<ore:ingotInvar>],[<ore:blockGlass>,<enderio:item_power_conduit:1>,<ore:blockGlass>],[<ore:ingotInvar>,<embers:jet_augment>,<ore:ingotInvar>]]);
 //强化能量管道
 recipes.addShaped(<enderio:item_power_conduit:1> * 2, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<enderio:item_alloy_ingot:1>, <enderio:item_power_conduit>, <enderio:item_alloy_ingot:1>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 //模块化
