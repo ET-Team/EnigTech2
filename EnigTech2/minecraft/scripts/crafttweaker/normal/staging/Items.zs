@@ -122,6 +122,7 @@ var modsStageFour as string[] = [
 	"arcanearchives",
 	"enderioconduitsappliedenergistics",
 	"appliedenergistics2",
+	"simplyjetpacks",
 	"extrautils2",
 	"soot",
 	"carryon"
@@ -140,7 +141,6 @@ var modsStageFive as string[] = [
 	"astralsorcery",
 	"cofhworld",
 	"thermalexpansion",
-	"simplyjetpacks",
 	"compactmachines3",
 	"xreliquary",
 	"wct",

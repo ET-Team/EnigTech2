@@ -136,3 +136,9 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_meteor", mac
 	.addItemOutput(<item:appliedenergistics2:material:45>)
 	.addItemInput(<item:appliedenergistics2:sky_stone_block>)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_wood", machineName, 20)
+	.addManaInput(500)
+	.addItemOutput(<contenttweaker:dust_wood>)
+	.addItemInput(<ore:plankWood>)
+	.build();
