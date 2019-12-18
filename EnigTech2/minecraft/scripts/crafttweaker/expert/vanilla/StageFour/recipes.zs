@@ -103,4 +103,4 @@ recipes.addShaped(
     ]
 );
 //温室玻璃
-recipes.addShaped("greenhouse_glass_tweaked_advanced", <sereneseasons:greenhouse_glass:0> * 8, [[<ore:dyeCyan>,<ore:blockGlass>,<ore:dyeCyan>],[<ore:blockGlass>,<forestry:fertilizer_bio>,<ore:blockGlass>],[<ore:dyeCyan>,<forestry:resource_storage:0>,<ore:dyeCyan>]);
+recipes.addShaped("greenhouse_glass_tweaked_advanced", <sereneseasons:greenhouse_glass:0> * 8, [[<ore:dyeCyan>,<ore:blockGlass>,<ore:dyeCyan>],[<ore:blockGlass>,<forestry:fertilizer_bio>,<ore:blockGlass>],[<ore:dyeCyan>,<forestry:resource_storage:0>,<ore:dyeCyan>]]);
