@@ -55,3 +55,4 @@ recipes.addShaped(<modularmachinery:blockcasing:5>, [[<thermalfoundation:materia
 recipes.addShapeless(<astralsorcery:blockaltar>,[<astralsorcery:blockaltar>]);
 recipes.addShaped(<enderio:item_material:67>,[[<enderio:item_material:36>,<ore:dustQuartz>,<enderio:item_material:36>],[<ore:dustQuartz>,<enderio:item_material:51>,<ore:dustQuartz>],[<enderio:item_material:36>,<ore:dustQuartz>,<enderio:item_material:36>]]);
 recipes.addShaped(<astralsorcery:itemwand>.withTag({astralsorcery: {}}),[[null,<botania:manaresource:2>,<minecraft:ender_pearl>],[null,<ore:stoneMarble>,<botania:manaresource:2>],[<ore:stoneMarble>,null,null]]);
+recipes.addShaped(<advancedrocketry:electrolyser>,[[<ore:itemBattery>,<immersiveengineering:material:21>,<ore:itemBattery>],[<ore:plateTin>,<libvulpes:structuremachine>,<ore:plateTin>],[<advancedrocketry:ic:3>,<ore:plateTin>,<advancedrocketry:ic:3>]]);
