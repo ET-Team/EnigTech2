@@ -63,4 +63,3 @@ recipes.remove(<mekanism:basicblock:8>);
 recipes.remove(<environmentaltech:laser_lens>);
 recipes.remove(<environmentaltech:connector>);
 recipes.remove(<mekanism:machineblock:8>);
-recipes.remove(<advancedrocketry:satellitecontrolcenter>);
