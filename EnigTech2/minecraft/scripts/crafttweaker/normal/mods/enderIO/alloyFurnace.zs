@@ -20,7 +20,7 @@ mods.enderio.AlloySmelter.removeRecipe(<thermalfoundation:material:166>);
     //黑铁
     mods.enderio.AlloySmelter.addRecipe(<extendedcrafting:material>, [<ore:ingotSteel>, <ore:dustCharcoal>],3200);
     //模块化合金锭
-    mods.enderio.AlloySmelter.addRecipe(<modularmachinery:itemmodularium>, [<ore:ingotAluminum>, <twilightforest:fiery_ingot>],3200);
+    mods.enderio.AlloySmelter.addRecipe(<modularmachinery:itemmodularium>*3, [<ore:ingotAluminum>*2, <twilightforest:fiery_ingot>],3200);
     //高炉砖
     mods.enderio.AlloySmelter.addRecipe(<contenttweaker:blast_furnace_brick>, [<contenttweaker:fire_resist_brick>,<ore:plateBronze>],3200);
     //铝制基底
