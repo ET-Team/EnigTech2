@@ -36,3 +36,5 @@ recipes.addShapeless(<minecraft:stick>, [<twilightforest:twilight_plant:8>]);
 recipes.addShapeless(<minecraft:stick>, [<ore:treeSapling>]);
 //陶罐
 recipes.addShaped(<rustic:vase>,[[null,<minecraft:hardened_clay>,null],[<minecraft:hardened_clay>,null,<minecraft:hardened_clay>],[<minecraft:hardened_clay>,<minecraft:hardened_clay>,<minecraft:hardened_clay>]]);
+//温室玻璃
+recipes.addShaped("greenhouse_glass_tweaked_noob", <sereneseasons:greenhouse_glass:0>, [[<ore:dyeBlue>,<ore:blockGlass>,<ore:dyeBlue>],[<ore:blockGlass>,<minecraft:dye:15>,<ore:blockGlass>],[<ore:dyeBlue>,<minecraft:cobblestone>,<ore:dyeBlue>]]);

@@ -18,6 +18,7 @@ recipes.removeShaped(<minecraft:furnace>,[[<traverse:red_rock_cobblestone>,<trav
 recipes.removeShaped(<minecraft:furnace>,[[<traverse:blue_rock_cobblestone>,<traverse:blue_rock_cobblestone>,<traverse:blue_rock_cobblestone>],[<traverse:blue_rock_cobblestone>,null,<traverse:blue_rock_cobblestone>],[<traverse:blue_rock_cobblestone>,<traverse:blue_rock_cobblestone>,<traverse:blue_rock_cobblestone>]]);
 recipes.remove(<rustic:vase>);
 recipes.removeByRecipeName("silentgems:multipart_sickle");
+recipes.removeByRecipeName("sereneseasons:greenhouse_glass");
 
 for i in recipes.all{
     if(isRecipeNull(i)&i.resourceDomain == "advancedrocketry"){

@@ -2,8 +2,8 @@
 #priority -100
 
 //导包
-mods.inworldcrafting.FluidToFluid;
-mods.inworldcrafting.FluidToItem;
+import mods.inworldcrafting.FluidToFluid;
+import mods.inworldcrafting.FluidToItem;
 
 //硫酸
 FluidToFluid.transform(<liquid:sulfuric_acid>, <liquid:water>, [<ore:dustSulfur> * 4]);

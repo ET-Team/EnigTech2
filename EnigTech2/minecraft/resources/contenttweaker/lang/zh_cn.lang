@@ -140,13 +140,13 @@ item.contenttweaker.moon_blade.name=月之锋刃
 
 item.contenttweaker.ascenders_proof.name=飞升者的证明
 
-contenttweaker.material.Neodymium=钕
-contenttweaker.material.Chromium=铬
-contenttweaker.material.Nichrome=镍铬合金
-contenttweaker.material.Molybdenum=钼
-contenttweaker.material.MolybdenumSteel=钼钢
-contenttweaker.material.Tungsten=钨
-contenttweaker.material.TungstenSteel=钨钢
-contenttweaker.material.VoidMetal=虚空金属
+base.material.neodymium=钕
+base.material.chromium=铬
+base.material.nichrome=镍铬合金
+base.material.molybdenum=钼
+base.material.molybdenum_steel=钼钢
+base.material.tungsten=钨
+base.material.tungsten_steel=钨钢
+base.material.void_metal=虚空金属
 
 enchantment.veining.veining.desc=这个附魔能够使链接的矿石随着你单独的一次挖掘动作一齐掉落

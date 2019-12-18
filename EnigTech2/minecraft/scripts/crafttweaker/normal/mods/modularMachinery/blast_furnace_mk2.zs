@@ -217,3 +217,10 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ge", machineName,
 	.addItemOutput(<contenttweaker:material_part:25>)
 	.addItemInput(<contenttweaker:material_part:21>)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_litheralite", machineName, speedTierTwo)
+	.addManaInput(3000)
+	.addItemOutput(<environmentaltech:litherite_crystal>)
+	.addItemInput(<astralsorcery:itemcraftingcomponent>)
+	.addFluidInput(<liquid:mana>*100)
+	.build();
