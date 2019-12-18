@@ -13,3 +13,5 @@
 <ore:blockApatite>.remove(<forestry:resource_storage>);
 //移除 林业模组 灰烬 的矿物词典
 <ore:dustAsh>.remove(<forestry:ash>);
+//抹杀 Forge Microblocks模组 石棒 的存在
+<ore:rodStone>.remove(<microblockcbe:stone_rod>);
