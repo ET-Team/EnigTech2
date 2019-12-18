@@ -41,3 +41,5 @@ recipes.addShapeless(<minecraft:stick>, [<ore:treeSapling>]);
 //陶罐
 recipes.addShaped(<rustic:vase>*2,[[null,<minecraft:hardened_clay>,null],[<minecraft:hardened_clay>,null,<minecraft:hardened_clay>],[<minecraft:hardened_clay>,<minecraft:hardened_clay>,<minecraft:hardened_clay>]]);
 recipes.addShaped(<item:minecraft:slime_ball>, [[<ore:tallow>,<ore:tallow>],[<ore:tallow>,<ore:tallow>]]);
+//温室玻璃
+recipes.addShaped("greenhouse_glass_tweaked_noob", <sereneseasons:greenhouse_glass:0> * 2, [[<ore:dyeBlue>,<ore:blockGlass>,<ore:dyeLightBlue>],[<ore:blockGlass>,<minecraft:dye:15>,<ore:blockGlass>],[<ore:dyeLightBlue>,<minecraft:stone:0>,<ore:dyeBlue>]);
