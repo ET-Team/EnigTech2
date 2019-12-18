@@ -41,4 +41,4 @@ recipes.addShapeless(<thermalfoundation:material:33>, [<botania:lens:13>.reuse()
 recipes.addShapeless(<thermalfoundation:material:320>, [<botania:lens:13>.reuse(),<thermalfoundation:material:128>,<thermalfoundation:material:128>]);
 recipes.addShapeless(<thermalfoundation:material:352>, [<botania:lens:13>.reuse(),<ore:ingotSteel>,<ore:ingotSteel>]);
 //温室玻璃
-recipes.addShaped("greenhouse_glass_tweaked_standard", <sereneseasons:greenhouse_glass:0> * 2, [[<ore:dyeLightBlue>,<ore:blockGlass>,<ore:dyeLightBlue>],[<ore:blockGlass>,<botania:fertilizer>,<ore:blockGlass>],[<ore:dyeLightBlue>,<roots:runestone>,<ore:dyeLightBlue>]);
+recipes.addShaped("greenhouse_glass_tweaked_standard", <sereneseasons:greenhouse_glass:0> * 4, [[<ore:dyeLightBlue>,<ore:blockGlass>,<ore:dyeLightBlue>],[<ore:blockGlass>,<botania:fertilizer>,<ore:blockGlass>],[<ore:dyeLightBlue>,<roots:runestone>,<ore:dyeLightBlue>]);
