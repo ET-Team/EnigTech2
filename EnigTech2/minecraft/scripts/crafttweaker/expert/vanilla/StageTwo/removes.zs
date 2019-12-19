@@ -80,5 +80,6 @@ recipes.remove(<forestry:resource_storage>);
 recipes.remove(<astralsorcery:itemwand>.withTag({astralsorcery: {}}));
 recipes.remove(<silentgems:chaosorb:1>);
 recipes.removeByRecipeName("microblockcbe:stone_rod");
+recipes.removeByRecipeName("cookingforblockheads:sink");
 
 recipes.removeByRegex("immersiveengineering:material/plate_.*");
