@@ -13,7 +13,6 @@ AlloySmelter.removeRecipe(<thermalfoundation:material:165>);
 AlloySmelter.removeRecipe(<thermalfoundation:material:166>);
 AlloySmelter.removeRecipe(<enderio:item_material:39>);
 
-
 //合金炉配方
     //炽热铁
     AlloySmelter.addRecipe(<twilightforest:fiery_ingot>, [<botania:manaresource:7>, <twilightforest:fiery_blood>],3200);
