@@ -224,4 +224,11 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <extrautils2:drum:3>, [
 	[<contenttweaker:material_part:52>, <bloodmagic:slate:3>, <extrautils2:klein>, <bloodmagic:slate:3>, <contenttweaker:material_part:52>], 
 	[<contenttweaker:material_part:52>, <extrautils2:ingredients:11>, <extrautils2:ingredients:11>, <extrautils2:ingredients:11>, <contenttweaker:material_part:52>]
 ]);
-
+//月之锋刃
+mods.extendedcrafting.TableCrafting.addShaped(2, <contenttweaker:moon_blade>, [
+	[null, null, <astralsorcery:itemcraftingcomponent:1>, null, null], 
+	[null, <contenttweaker:auriminium>, <astralsorcery:itemcraftingcomponent:1>, <contenttweaker:lunar_essence>, null], 
+	[null, <contenttweaker:auriminium>, <astralsorcery:itemcraftingcomponent:1>, <contenttweaker:lunar_essence>, null], 
+	[null, <roots:wildwood_log>, <roots:wildwood_log>, <roots:wildwood_log>, null], 
+	[null, null, <roots:wildwood_log>, null, null]
+]);

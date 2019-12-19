@@ -15,6 +15,7 @@ recipes.remove(<projecte:item.pe_body_stone>);
 recipes.remove(<projecte:item.pe_soul_stone>);
 recipes.remove(<projecte:transmutation_table>);
 recipes.remove(<projecte:item.pe_matter:1>);
+recipes.remove(<projecte:item.pe_time_watch>);
 
 mods.thermalexpansion.Factorizer.removeRecipeSplit(<draconicevolution:draconium_block>);
 mods.thermalexpansion.Factorizer.removeRecipeSplit(<draconicevolution:draconium_ingot>);
