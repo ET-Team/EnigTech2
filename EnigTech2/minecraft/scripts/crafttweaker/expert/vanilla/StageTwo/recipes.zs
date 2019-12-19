@@ -42,3 +42,5 @@ recipes.addShapeless(<thermalfoundation:material:320>, [<botania:lens:13>.reuse(
 recipes.addShapeless(<thermalfoundation:material:352>, [<botania:lens:13>.reuse(),<ore:ingotSteel>,<ore:ingotSteel>]);
 //温室玻璃
 recipes.addShaped("greenhouse_glass_tweaked_standard", <sereneseasons:greenhouse_glass:0> * 4, [[<ore:dyeLightBlue>,<ore:blockGlass>,<ore:dyeLightBlue>],[<ore:blockGlass>,<botania:fertilizer>,<ore:blockGlass>],[<ore:dyeLightBlue>,<roots:runestone>,<ore:dyeLightBlue>]]);
+//水槽 (expert)
+recipes.addShaped("sink_tweaked_expert",<cookingforblockheads:sink>,[[<minecraft:iron_ingot>,<contenttweaker:arcane_essence>,<minecraft:iron_ingot>],[<ore:hardenedClay>,<roots:unending_bowl>,<ore:hardenedClay>],[<ore:hardenedClay>,<ore:hardenedClay>,<ore:hardenedClay>]]);
