@@ -103,7 +103,7 @@
         "mojang":
         {
             "text" : "EnigTech2-v1.2.9",
-            "posX" : -120,
+            "posX" : -100,
             "posY" : -10,
             "color" : -1,
             "alignment" : "bottom_right",
