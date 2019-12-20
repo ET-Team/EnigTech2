@@ -269,3 +269,12 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_osmium_from_ore",
 	.addItemOutput(<mekanism:ingot:1>)
 	.addItemInput(<ore:oreOsmium>)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dark_gaiya_crystal_unpolished", machineName, speedTierTwo)
+	.addManaInput(10000)
+	.addItemOutput(<contenttweaker:dark_gaiya_crystal_unpolished>)
+	.addItemInput(<botania:manaresource:9>)
+	.addItemInput(<contenttweaker:ultracondium_crystal>)
+	.addItemInput(<astralsorcery:itemcraftingcomponent:2>*2)
+	.addFluidInput(<liquid:mana>*1000)
+	.build();
