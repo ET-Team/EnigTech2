@@ -827,6 +827,150 @@
     "hydration": 0.7,
     "poisonChance": 0.0
   },
+  {
+    "item": {
+      "name": "minecraft:apple",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "minecraft:chorus_fruit",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "biomesoplenty:pear",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "biomesoplenty:peach",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:pineappleitem",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:cantaloupeitem",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:pearitem",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:grapefruititem",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:peachitem",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:orangeitem",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:lycheeitem",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:lemonitem",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:plumitem",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "forestry:fruits",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "forestry:fruits",
+      "metadata":3
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "forestry:fruits",
+      "metadata": 4
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  }
 ]
 
 
