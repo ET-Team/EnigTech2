@@ -13,7 +13,7 @@ import extrautilities2.Tweaker.IMachine;
         IMachineSlot.newItemStackSlot("silicon")
         ], 
         [IMachineSlot.newFluidSlot("guiwan", 2000),IMachineSlot.newItemStackSlot("output")], 
-        "et2:block/machine_idle", 
+        "et2:block/chlorinizer", 
         "et2:block/chlorinizer_working"
     );
     //硅生长机
@@ -26,7 +26,7 @@ import extrautilities2.Tweaker.IMachine;
         IMachineSlot.newItemStackSlot("item")
         ], 
         [IMachineSlot.newItemStackSlot("output")], 
-        "et2:block/machine_idle", 
+        "et2:block/silicon_grower", 
         "et2:block/silicon_grower_working"
     );
     //抛光机
@@ -39,8 +39,8 @@ import extrautilities2.Tweaker.IMachine;
         IMachineSlot.newItemStackSlot("item")
         ], 
         [IMachineSlot.newItemStackSlot("output")], 
-        "et2:block/machine_idle", 
-        "et2:block/silicon_grower_working"
+        "et2:block/polisher", 
+        "et2:block/polisher_working"
     );
     //简易流体成型机
     IMachineRegistry.createNewMachine(
@@ -49,8 +49,8 @@ import extrautilities2.Tweaker.IMachine;
         512, 
         [IMachineSlot.newFluidSlot("liquid", 10000)], 
         [IMachineSlot.newItemStackSlot("output", 10000)], 
-        "et2:block/machine_idle", 
-        "et2:block/fluider_working"
+        "et2:block/fluider_mk1", 
+        "et2:block/fluider_mk1_working"
     );
 
     //简易流体精炼机
@@ -60,6 +60,6 @@ import extrautilities2.Tweaker.IMachine;
         512,
         [IMachineSlot.newFluidSlot("input",10000)], 
         [IMachineSlot.newFluidSlot("output", 100000)], 
-        "et2:block/machine_idle", 
-        "et2:block/fluid_concentrator"
+        "et2:block/fluid_concentrator", 
+        "et2:block/fluid_concentrator_working"
     );
