@@ -82,3 +82,10 @@ recipes.addShaped(<immersiveengineering:mold:1>,[[<immersiveengineering:tool>],[
 recipes.addShaped(<immersiveengineering:mold>,[[<immersiveengineering:tool>],[<thermalfoundation:material:32>],[<thermalfoundation:material:352>]]);
 //微型锅炉
 recipes.addShaped(<embers:mini_boiler>*2, [[<thermalfoundation:material:354>, <thermalfoundation:material:354>, <thermalfoundation:material:354>],[<embers:ingot_dawnstone>, <contenttweaker:bad_machine_core>, <thermalfoundation:material:354>], [<thermalfoundation:material:354>, <thermalfoundation:material:354>, <thermalfoundation:material:354>]]);
+recipes.addShaped(
+    <item:simplyjetpacks:metaitemmods:18>,[
+        [<ore:ingotSignalum>,<ore:ingotLumium>,<ore:ingotSignalum>],
+        [<ore:ingotLumium>,<botania:elfglass>,<ore:ingotLumium>],
+        [<ore:ingotSignalum>,<ore:ingotLumium>,<ore:ingotSignalum>]
+    ]
+);

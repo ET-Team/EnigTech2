@@ -1,6 +1,7 @@
 #packmode normal
 #priority 0
 
+recipes.remove(<item:simplyjetpacks:metaitemmods:18>);
 recipes.remove(<immersiveengineering:metal_device0:2>);
 recipes.remove(<immersiveengineering:metal_device0:1>);
 recipes.remove(<immersiveengineering:metal_device0>);

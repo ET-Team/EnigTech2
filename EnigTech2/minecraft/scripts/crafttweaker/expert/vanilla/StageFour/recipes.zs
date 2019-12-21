@@ -102,5 +102,13 @@ recipes.addShaped(
         [<item:contenttweaker:blood_iron>,<item:contenttweaker:blood_iron>,<item:contenttweaker:blood_iron>]
     ]
 );
+
+recipes.addShaped(
+    <item:simplyjetpacks:metaitemmods:18>,[
+        [<ore:ingotSignalum>,<ore:ingotLumium>,<ore:ingotSignalum>],
+        [<ore:ingotLumium>,<botania:elfglass>,<ore:ingotLumium>],
+        [<ore:ingotSignalum>,<ore:ingotLumium>,<ore:ingotSignalum>]
+    ]
+);
 //温室玻璃
 recipes.addShaped("greenhouse_glass_tweaked_advanced", <sereneseasons:greenhouse_glass:0> * 8, [[<ore:dyeCyan>,<ore:blockGlass>,<ore:dyeCyan>],[<ore:blockGlass>,<forestry:fertilizer_bio>,<ore:blockGlass>],[<ore:dyeCyan>,<forestry:resource_storage:0>,<ore:dyeCyan>]]);
