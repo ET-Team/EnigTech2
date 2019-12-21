@@ -70,11 +70,23 @@
     },
     {
       "item": "appliedenergistics2:material|47",
-      "emc": 3280000
+      "emc": 0
     },
     {
       "item": "projecte:item.pe_philosophers_stone|0",
       "emc": 18210000
+    },
+    {
+      "item": "contenttweaker:draconium_alloy_ingot|0",
+      "emc": 3276851
+    },
+    {
+      "item": "draconicevolution:draconic_core|0",
+      "emc": 42768510
+    },
+    {
+      "item": "contenttweaker:material_part|54",
+      "emc": 81621
     }
   ]
 }
