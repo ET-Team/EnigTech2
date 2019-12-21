@@ -278,3 +278,15 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dark_gaiya_crysta
 	.addItemInput(<astralsorcery:itemcraftingcomponent:2>*2)
 	.addFluidInput(<liquid:mana>*1000)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ir", machineName, speedTierTwo)
+	.addManaInput(3000)
+	.addItemOutput(<thermalfoundation:material:135>)
+	.addItemInput(<ore:oreIridium>)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ir_dust", machineName, speedTierTwo)
+	.addManaInput(3000)
+	.addItemOutput(<thermalfoundation:material:135>)
+	.addItemInput(<ore:dustIridium>)
+	.build();

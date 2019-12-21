@@ -236,3 +236,15 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_osmium_from_ore",
 	.addItemOutput(<mekanism:ingot:1>)
 	.addItemInput(<ore:oreOsmium>)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ir", machineName, speedTierTwo)
+	.addManaInput(3000)
+	.addItemOutput(<thermalfoundation:material:135>)
+	.addItemInput(<ore:oreIridium>)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ir_dust", machineName, speedTierTwo)
+	.addManaInput(3000)
+	.addItemOutput(<thermalfoundation:material:135>)
+	.addItemInput(<ore:dustIridium>)
+	.build();

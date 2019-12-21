@@ -164,3 +164,15 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ge", machineName,
 	.addItemOutput(<contenttweaker:material_part:25>)
 	.addItemInput(<contenttweaker:material_part:21>)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ir", machineName, speedTierTwo)
+	.addManaInput(3000)
+	.addItemOutput(<thermalfoundation:material:135>)
+	.addItemInput(<ore:oreIridium>)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ir_dust", machineName, speedTierTwo)
+	.addManaInput(3000)
+	.addItemOutput(<thermalfoundation:material:135>)
+	.addItemInput(<ore:dustIridium>)
+	.build();
