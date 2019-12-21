@@ -1,6 +1,7 @@
 #packmode normal
 #priority 0
 
+recipes.remove(<item:mekanismgenerators:reactorglass:1>);
 recipes.remove(<mekanism:machineblock>);
 recipes.remove(<mekanism:energytablet>);
 recipes.remove(<environmentaltech:structure_frame_5>);

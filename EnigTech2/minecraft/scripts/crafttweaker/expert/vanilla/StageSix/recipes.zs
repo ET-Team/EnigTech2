@@ -68,3 +68,10 @@ recipes.addShaped(<thermalexpansion:augment:512> * 2, [[null, <contenttweaker:ir
 recipes.addShaped(<thermalexpansion:augment:673>, [[<astralsorcery:itemcoloredlens>, <astralsorcery:itemcoloredlens>, <astralsorcery:itemcoloredlens>],[<astralsorcery:itemcoloredlens>, <thermalexpansion:dynamo:3>, <astralsorcery:itemcoloredlens>], [<mekanism:atomicalloy>, <thermalexpansion:augment:512>, <mekanism:atomicalloy>]]);
 //将所有包含高级火箭晶圆的配方替换成ET2晶圆
 recipes.replaceAllOccurences(<advancedrocketry:wafer>, <contenttweaker:ic_wafer>);
+recipes.addShaped(
+    <item:mekanismgenerators:reactorglass:1>, [
+        [<ore:plateTungstenSteel>,<ore:netherStar>,<ore:plateTungstenSteel>],
+        [<ore:netherStar>,<botania:elfglass>,<ore:netherStar>],
+        [<ore:plateTungstenSteel>,<ore:netherStar>,<ore:plateTungstenSteel>]
+    ]
+);
