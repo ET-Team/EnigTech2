@@ -162,6 +162,14 @@ for mod in modsStageFive{
 	
 }
 
+mods.ItemStages.removeItemStage(<thermalexpansion:capacitor>.withTag({Energy: 1000000}));
+mods.ItemStages.removeItemStage(<thermalexpansion:capacitor:1>.withTag({Energy: 4000000}));
+
+mods.ItemStages.removeItemStage(<thermalexpansion:capacitor>);
+mods.ItemStages.removeItemStage(<thermalexpansion:capacitor:1>);
+
+mods.ItemStages.addItemStage("four",<thermalexpansion:capacitor>);
+mods.ItemStages.addItemStage("four",<thermalexpansion:capacitor:1>);
 
 var modsStageSix as string[] = [
 	"mekanism",
@@ -185,7 +193,6 @@ for mod in modsStageSix{
 	
 }
 
-mods.ItemStages.removeItemStage(<mekanism:dust:2>);
 mods.ItemStages.removeItemStage(<item:nuclearcraft:gem_dust>);
 mods.ItemStages.removeItemStage(<item:nuclearcraft:gem_dust:2>);
 mods.ItemStages.removeItemStage(<mekanism:dust:2>);
