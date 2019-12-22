@@ -1,0 +1,17 @@
+{
+    "name": "方铅矿脉",
+    "icon": "minecraft:iron_ore",
+    "category": "large_vein",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:iron_ore",
+            "title": "方铅矿脉",
+            "text": "方铅矿脉是中期使用量很大的矿脉，盛产可以用来合金琥珀金的银矿石"
+        },
+        {
+            "type": "text",
+            "text": "主矿石:银矿石$(br)伴生矿石:铅矿石$(br2)生成高度:35-52$(br2)矿脉大小:大$(br)矿脉密度:中等$(br2)地表指示:无$(br)矿脉稀有度:中等$(br2)生成维度:主世界"
+        }
+    ]
+}

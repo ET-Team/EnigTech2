@@ -1,0 +1,17 @@
+{
+    "name": "黄铜矿脉",
+    "icon": "thermalfoundation:ore",
+    "category": "large_vein",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "thermalfoundation:ore",
+            "title": "黄铜矿脉",
+            "text": "黄铜矿脉是初期使用量很大的矿脉，盛产铜矿石"
+        },
+        {
+            "type": "text",
+            "text": "主矿石:铜矿石$(br)伴生矿石:铁矿石$(br2)生成高度:45-60$(br2)矿脉大小:大$(br)矿脉密度:中等$(br2)地表指示:无$(br)矿脉稀有度:中等$(br2)生成维度:主世界"
+        }
+    ]
+}
