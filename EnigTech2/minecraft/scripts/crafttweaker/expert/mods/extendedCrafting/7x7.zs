@@ -66,3 +66,13 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <nuclearcraft:fusion_core>, [
 	[<ore:plateElite>, <ore:blockGlassHardened>, <ore:solenoidMagnesiumDiboride>, <astralsorcery:itemshiftingstar>, <ore:solenoidMagnesiumDiboride>, <ore:blockGlassHardened>, <ore:plateElite>], 
 	[<ore:plateElite>, <ore:plateElite>, <contenttweaker:sub_block_holder_0:8>, <ore:alloyUltimate>, <contenttweaker:sub_block_holder_0:8>, <ore:plateElite>, <ore:plateElite>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(3, <bloodmagic:sacrificial_dagger:1>.withTag({sacrifice: 0 as byte}), [
+	[null, null, null, null, null, null, <astralsorcery:itemcraftingcomponent:1>], 
+	[null, null, null, null, <contenttweaker:lunar_essence>, <astralsorcery:itemcraftingcomponent:1>, <contenttweaker:neutron>], 
+	[null, <bloodmagic:slate:4>, <bloodmagic:slate:4>, <contenttweaker:lunar_essence>, <astralsorcery:itemcraftingcomponent:1>, <contenttweaker:neutron>, null], 
+	[null, <bloodmagic:slate:4>, <contenttweaker:lunar_essence>, <astralsorcery:itemcraftingcomponent:1>, <contenttweaker:neutron>, null, null], 
+	[null, <contenttweaker:material_part:64>, <bloodmagic:slate:4>, <contenttweaker:neutron>, <bloodmagic:slate:4>, null, null], 
+	[<contenttweaker:material_part:64>, <contenttweaker:material_part:64>, <contenttweaker:material_part:64>, <bloodmagic:slate:4>, <bloodmagic:slate:4>, null, null], 
+	[<contenttweaker:sub_block_holder_0:8>, <contenttweaker:material_part:64>, null, null, null, null, null]
+]);

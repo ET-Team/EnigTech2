@@ -290,3 +290,13 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dark_gaiya_crysta
 	.addItemInput(<astralsorcery:itemcraftingcomponent:1>*2)
 	.addFluidInput(<liquid:mana>*1000)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_raw_quartz", machineName, speedTierTwo)
+	.addManaInput(3000)
+	.addItemOutput(<arcanearchives:raw_quartz>)
+	.addItemInput(<environmentaltech:kyronite_crystal>*2)
+	.addItemInput(<botania:quartz:1>*3)
+    .addItemInput(<appliedenergistics2:material:1>*6)
+	.addItemInput(<actuallyadditions:item_misc:5>*20)
+	.addFluidInput(<liquid:mana>*1000)
+	.build();	
