@@ -62,9 +62,16 @@ recipes.addShaped(<nuclearcraft:part:8>, [[<nuclearcraft:part:4>, <contenttweake
 recipes.addShapedMirrored(<nuclearcraft:part> * 6, [[<contenttweaker:material_part:79>, <mekanism:atomicalloy>], [<mekanism:atomicalloy>, <contenttweaker:material_part:79>]]);
 recipes.addShaped(<mekanismgenerators:reactorglass> * 4, [[null, <mekanismgenerators:reactor:1>, null],[<mekanismgenerators:reactor:1>, <ore:blockGlassHardened>, <mekanismgenerators:reactor:1>], [null, <mekanismgenerators:reactor:1>, null]]);
 recipes.addShaped(<environmentaltech:interconnect> * 2, [[<thermalfoundation:material:359>, <thermalfoundation:material:359>, <thermalfoundation:material:359>],[<contenttweaker:material_part:52>, <environmentaltech:connector>, <contenttweaker:material_part:52>], [<thermalfoundation:material:359>, <thermalfoundation:material:359>, <thermalfoundation:material:359>]]);
-recipes.addShaped(<environmentaltech:structure_panel> * 2, [[<thermalfoundation:material:352>, <mekanism:atomicalloy>, <thermalfoundation:material:352>],[<environmentaltech:connector>, <actuallyadditions:item_crystal:2>, <environmentaltech:connector>], [<thermalfoundation:material:352>, <mekanism:atomicalloy>, <thermalfoundation:material:352>]]);
+recipes.addShaped(<environmentaltech:structure_panel> * 2, [[<thermalfoundation:material:352>, <minecraft:obsidian>, <thermalfoundation:material:352>],[<environmentaltech:connector>, <actuallyadditions:item_crystal:2>, <environmentaltech:connector>], [<thermalfoundation:material:352>, <minecraft:obsidian>, <thermalfoundation:material:352>]]);
 recipes.addShaped(<enderio:item_power_conduit:2> * 2, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<thermalfoundation:material:167>, <enderio:item_power_conduit:1>, <thermalfoundation:material:167>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 recipes.addShaped(<thermalexpansion:augment:512> * 2, [[null, <contenttweaker:iridium_osmium_ingot>, null],[<contenttweaker:iridium_osmium_ingot>, <thermalfoundation:material:514>, <contenttweaker:iridium_osmium_ingot>], [null, <contenttweaker:iridium_osmium_ingot>, null]]);
 recipes.addShaped(<thermalexpansion:augment:673>, [[<astralsorcery:itemcoloredlens>, <astralsorcery:itemcoloredlens>, <astralsorcery:itemcoloredlens>],[<astralsorcery:itemcoloredlens>, <thermalexpansion:dynamo:3>, <astralsorcery:itemcoloredlens>], [<mekanism:atomicalloy>, <thermalexpansion:augment:512>, <mekanism:atomicalloy>]]);
 //将所有包含高级火箭晶圆的配方替换成ET2晶圆
 recipes.replaceAllOccurences(<advancedrocketry:wafer>, <contenttweaker:ic_wafer>);
+recipes.addShaped(
+    <item:mekanismgenerators:reactorglass:1>, [
+        [<ore:plateTungstenSteel>,<ore:netherStar>,<ore:plateTungstenSteel>],
+        [<ore:netherStar>,<botania:elfglass>,<ore:netherStar>],
+        [<ore:plateTungstenSteel>,<ore:netherStar>,<ore:plateTungstenSteel>]
+    ]
+);

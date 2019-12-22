@@ -40,3 +40,5 @@ recipes.addShapeless(<thermalfoundation:material:32>, [<botania:lens:13>.reuse()
 recipes.addShapeless(<thermalfoundation:material:33>, [<botania:lens:13>.reuse(),<minecraft:gold_ingot>,<minecraft:gold_ingot>]);
 recipes.addShapeless(<thermalfoundation:material:320>, [<botania:lens:13>.reuse(),<thermalfoundation:material:128>,<thermalfoundation:material:128>]);
 recipes.addShapeless(<thermalfoundation:material:352>, [<botania:lens:13>.reuse(),<ore:ingotSteel>,<ore:ingotSteel>]);
+//水槽 (normal)
+recipes.addShaped("sink_tweaked_normal",<cookingforblockheads:sink>,[[<minecraft:iron_ingot>,<minecraft:water_bucket>.transformReplace(<minecraft:bucket>),<minecraft:iron_ingot>],[<ore:hardenedClay>,<minecraft:cauldron>,<ore:hardenedClay>],[<ore:hardenedClay>,<ore:hardenedClay>,<ore:hardenedClay>]]);

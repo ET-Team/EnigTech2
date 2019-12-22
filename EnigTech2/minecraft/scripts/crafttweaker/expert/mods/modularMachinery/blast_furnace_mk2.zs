@@ -224,3 +224,27 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_litheralite", mac
 	.addItemInput(<astralsorcery:itemcraftingcomponent>)
 	.addFluidInput(<liquid:mana>*100)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_osmium", machineName, speedTierTwo)
+	.addManaInput(10000)
+	.addItemOutput(<mekanism:ingot:1>)
+	.addItemInput(<ore:dustOsmium>)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_osmium_from_ore", machineName, speedTierTwo)
+	.addManaInput(10000)
+	.addItemOutput(<mekanism:ingot:1>)
+	.addItemInput(<ore:oreOsmium>)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ir", machineName, speedTierTwo)
+	.addManaInput(3000)
+	.addItemOutput(<thermalfoundation:material:135>)
+	.addItemInput(<ore:oreIridium>)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ir_dust", machineName, speedTierTwo)
+	.addManaInput(3000)
+	.addItemOutput(<thermalfoundation:material:135>)
+	.addItemInput(<ore:dustIridium>)
+	.build();

@@ -10,11 +10,56 @@
   },
   {
     "names": [
+      "roots:sylvan_helmet",
+      "roots:sylvan_chestplate",
+      "roots:sylvan_leggings",
+      "roots:sylvan_slime_boots"
+    ],
+    "modifier": -3
+  },
+  {
+    "names": [
+      "minecraft:diamond_helmet",
+      "minecraft:diamond_chestplate",
+      "minecraft:diamond_leggings",
+      "minecraft:diamond_boots"
+    ],
+    "modifier": -1
+  },
+  {
+    "names": [
       "toughasnails:wool_helmet",
       "toughasnails:wool_chestplate",
       "toughasnails:wool_leggings",
       "toughasnails:wool_boots"
     ],
     "modifier": 2
+  },
+  {
+    "names": [
+      "minecraft:leather_helmet",
+      "minecraft:leather_chestplate",
+      "minecraft:leather_leggings",
+      "minecraft:leather_boots"
+    ],
+    "modifier": 1
+  },
+  {
+    "names": [
+      "twilightforest:arctic_helmet",
+      "twilightforest:arctic_chestplate",
+      "twilightforest:arctic_leggings",
+      "twilightforest:arctic_boots",
+      "twilightforest:yeti_helmet",
+      "twilightforest:yeti_boots"
+    ],
+    "modifier": 3
+  },
+  {
+    "names": [
+      "twilightforest:yeti_chestplate",
+      "twilightforest:yeti_leggings"
+    ],
+    "modifier": 4
   }
 ]

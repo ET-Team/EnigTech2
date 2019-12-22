@@ -28,6 +28,186 @@
   },
   {
     "item": {
+      "name": "harvestcraft:melonjuiceitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:carrotjuiceitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:strawberryjuiceitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:grapejuiceitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:blueberryjuiceitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:cherryjuiceitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:papayajuiceitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:starfruitjuiceitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:orangejuiceitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:peachjuiceitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:limejuiceitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:pomegranatejuiceitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:blackberryjuiceitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:raspberryjuiceitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:kiwijuiceitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:cranberryjuiceitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:plumjuiceitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:pearjuiceitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:apricotjuiceitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:grapefruitjuiceitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
       "name": "harvestcraft:cactusfruitjuiceitem",
       "metadata": 0
     },
@@ -55,7 +235,7 @@
   },
   {
     "item": {
-      "name": "harvestcraft:figsmoothieitem",
+      "name": "harvestcraft:pumpkinspicelatteitem",
       "metadata": 0
     },
     "thirst": 3,
@@ -64,15 +244,733 @@
   },
   {
     "item": {
-      "name": "harvestcraft:persimmonsmoothieitem",
+      "name": "harvestcraft:hotcocoaitem",
       "metadata": 0
     },
     "thirst": 3,
     "hydration": 0.7,
     "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:figsmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:persimmonsmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:melonsmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:strawberrysmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:lemonaideitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:lemonsmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:blueberrysmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:cherrysmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:papayasmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:bananasmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:orangesmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:peachsmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:limesmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:mangosmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:pomegranatesmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:blackberrysmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:raspberrysmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:apricotsmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:grapefruitsmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:kiwismoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:gooseberrysmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:applesmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:coconutsmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:cranberrysmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:grapesmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:pearsmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:plumsmoothieitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:chocolatemilkitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:bubbleteaitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:raspberrymilkshakeitem",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:greenteaitem",
+      "metadata": 0
+    },
+    "thirst": 2,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:earlgreyteaitem",
+      "metadata": 0
+    },
+    "thirst": 2,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:rosepetalteaitem",
+      "metadata": 0
+    },
+    "thirst": 2,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:dandelionteaitem",
+      "metadata": 0
+    },
+    "thirst": 2,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:cherrysodaitem",
+      "metadata": 0
+    },
+    "thirst": 5,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:rootbeerfloatitem",
+      "metadata": 0
+    },
+    "thirst": 5,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:colasodaitem",
+      "metadata": 0
+    },
+    "thirst": 5,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:gingersodaitem",
+      "metadata": 0
+    },
+    "thirst": 5,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:grapesodaitem",
+      "metadata": 0
+    },
+    "thirst": 5,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:lemonlimesodaitem",
+      "metadata": 0
+    },
+    "thirst": 5,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:orangesodaitem",
+      "metadata": 0
+    },
+    "thirst": 5,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:rootbeersodaitem",
+      "metadata": 0
+    },
+    "thirst": 5,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:strawberrysodaitem",
+      "metadata": 0
+    },
+    "thirst": 5,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:grapefruitsodaitem",
+      "metadata": 0
+    },
+    "thirst": 5,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:applecideritem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:energydrinkitem",
+      "metadata": 0
+    },
+    "thirst": 6,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "brewcraft:preparedbeachrummixitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "brewcraft:preparedcherryvodkamixitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "brewcraft:preparedcoconutrummixitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "brewcraft:preparedhandmadevodkamixitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "brewcraft:preparedhardapplecidermixitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "brewcraft:preparedhardlemonademixitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "brewcraft:preparedhoneymeadmixitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "brewcraft:preparedpinkmoscatomixitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "brewcraft:preparedpmaxrieslingmixitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "brewcraft:preparedrennalgoldmixitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "brewcraft:preparedriverchardonnaymixitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "brewcraft:preparedsakemixitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "brewcraft:preparedsavannazinfandelmixitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "brewcraft:preparedspicedrummixitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "brewcraft:preparedswampmerlotmixitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "brewcraft:preparedtiagapinotnoirmixitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "brewcraft:preparedtotalvodkamixitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "brewcraft:prepareduglyavocadoginmixitem",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "minecraft:apple",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "minecraft:chorus_fruit",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "biomesoplenty:pear",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "biomesoplenty:peach",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:pineappleitem",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:cantaloupeitem",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:pearitem",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:grapefruititem",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:peachitem",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:orangeitem",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:lycheeitem",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:lemonitem",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "harvestcraft:plumitem",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "forestry:fruits",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "forestry:fruits",
+      "metadata":3
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "forestry:fruits",
+      "metadata": 4
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
   }
-  
-
 ]
 
 

@@ -26,6 +26,11 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [<botania:pool:1>,<thermalfoundation:upgrade:35>,<botania:pool:1>],
         [<contenttweaker:technium>,<botania:pool:1>,<contenttweaker:technium>]
     ],
+    <environmentaltech:structure_frame_6> : [
+        [null,<contenttweaker:material_part:63>,null],
+        [<contenttweaker:draconium_alloy_ingot>,<environmentaltech:structure_frame_5>,<contenttweaker:draconium_alloy_ingot>],
+        [null,<contenttweaker:material_part:63>,null]
+    ],
     <embers:creative_ember_source> : [
         [<thermalfoundation:upgrade:256>],
         [<embers:crystal_cell>],
