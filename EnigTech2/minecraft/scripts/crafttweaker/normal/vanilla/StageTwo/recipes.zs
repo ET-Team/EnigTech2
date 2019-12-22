@@ -42,3 +42,7 @@ recipes.addShapeless(<thermalfoundation:material:320>, [<botania:lens:13>.reuse(
 recipes.addShapeless(<thermalfoundation:material:352>, [<botania:lens:13>.reuse(),<ore:ingotSteel>,<ore:ingotSteel>]);
 //水槽 (normal)
 recipes.addShaped("sink_tweaked_normal",<cookingforblockheads:sink>,[[<minecraft:iron_ingot>,<minecraft:water_bucket>.transformReplace(<minecraft:bucket>),<minecraft:iron_ingot>],[<ore:hardenedClay>,<minecraft:cauldron>,<ore:hardenedClay>],[<ore:hardenedClay>,<ore:hardenedClay>,<ore:hardenedClay>]]);
+
+recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:steam_generator_mk2"}),[<minecraft:paper>,<forge:bucketfilled>.withTag({FluidName: "steam", Amount: 1000})]);
+recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:boil_chamber_mk2"}),[<minecraft:paper>,<mekanismgenerators:turbineblade>]);
+recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:boil_chamber"}),[<minecraft:paper>,<embers:mini_boiler>]);

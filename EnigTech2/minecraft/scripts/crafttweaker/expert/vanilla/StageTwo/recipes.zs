@@ -44,3 +44,7 @@ recipes.addShapeless(<thermalfoundation:material:352>, [<botania:lens:13>.reuse(
 recipes.addShaped("greenhouse_glass_tweaked_standard", <sereneseasons:greenhouse_glass:0> * 4, [[<ore:dyeLightBlue>,<ore:blockGlass>,<ore:dyeLightBlue>],[<ore:blockGlass>,<botania:fertilizer>,<ore:blockGlass>],[<ore:dyeLightBlue>,<roots:runestone>,<ore:dyeLightBlue>]]);
 //水槽 (expert)
 recipes.addShaped("sink_tweaked_expert",<cookingforblockheads:sink>,[[<minecraft:iron_ingot>,<contenttweaker:arcane_essence>,<minecraft:iron_ingot>],[<ore:hardenedClay>,<roots:unending_bowl>,<ore:hardenedClay>],[<ore:hardenedClay>,<ore:hardenedClay>,<ore:hardenedClay>]]);
+
+recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:steam_generator_mk2"}),[<minecraft:paper>,<forge:bucketfilled>.withTag({FluidName: "steam", Amount: 1000})]);
+recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:boil_chamber_mk2"}),[<minecraft:paper>,<mekanismgenerators:turbineblade>]);
+recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:boil_chamber"}),[<minecraft:paper>,<embers:mini_boiler>]);
