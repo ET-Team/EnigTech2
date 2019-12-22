@@ -51,11 +51,6 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [<storagedrawers:upgrade_creative:1>,<buildinggadgets:copypastetool>,<storagedrawers:upgrade_creative:1>],
         [null,<storagedrawers:upgrade_creative:1>,null]
     ],
-     <bloodmagic:sacrificial_dagger:1>.withTag({sacrifice: 0 as byte}) : [
-        [<ore:ingotIron>,null,<ore:ingotGold>],
-        [null,<contenttweaker:pity_from_nature>,null],
-        [<ore:ingotIronwood>,null,<ore:ingotIron>]
-    ],
    <botania:manatablet>.withTag({mana: 500000, creative: 1 as byte}) : [
         [<contenttweaker:ascenders_proof>.reuse()],
         [<botania:pool:1>]
