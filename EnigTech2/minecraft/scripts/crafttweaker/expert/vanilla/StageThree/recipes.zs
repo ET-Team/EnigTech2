@@ -61,3 +61,5 @@ recipes.addShaped("pattern", <item:appliedenergistics2:material:52>*2,[
     [<ore:plateInvar>,<contenttweaker:advanced_processor>,<ore:plateInvar>],
     [<ore:plateElectrum>,<ore:plateInvar>,<ore:plateElectrum>]
 ]);
+
+recipes.addShaped(<minecraft:crafting_table>,[[<ore:plankTreatedWood>,<ore:plankTreatedWood>],[<ore:plankTreatedWood>,<ore:plankTreatedWood>]]);
