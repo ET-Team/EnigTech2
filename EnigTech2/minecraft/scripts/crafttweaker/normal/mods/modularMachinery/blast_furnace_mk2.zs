@@ -248,3 +248,10 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ir_dust", machine
 	.addItemOutput(<thermalfoundation:material:135>)
 	.addItemInput(<ore:dustIridium>)
 	.build();
+
+//硅
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_silicon", machineName, speedTierOne)
+	.addManaInput(3000)
+	.addItemOutput(<appliedenergistics2:material:5>)
+	.addItemInput(<appliedenergistics2:material:3>)
+	.build();
