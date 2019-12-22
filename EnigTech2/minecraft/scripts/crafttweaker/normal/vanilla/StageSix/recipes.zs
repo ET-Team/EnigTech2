@@ -66,6 +66,7 @@ recipes.addShaped(<environmentaltech:structure_panel> * 2, [[<thermalfoundation:
 recipes.addShaped(<enderio:item_power_conduit:2> * 2, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<thermalfoundation:material:167>, <enderio:item_power_conduit:1>, <thermalfoundation:material:167>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 recipes.addShaped(<thermalexpansion:augment:512> * 2, [[null, <contenttweaker:iridium_osmium_ingot>, null],[<contenttweaker:iridium_osmium_ingot>, <thermalfoundation:material:514>, <contenttweaker:iridium_osmium_ingot>], [null, <contenttweaker:iridium_osmium_ingot>, null]]);
 recipes.addShaped(<thermalexpansion:augment:673>, [[<astralsorcery:itemcoloredlens>, <astralsorcery:itemcoloredlens>, <astralsorcery:itemcoloredlens>],[<astralsorcery:itemcoloredlens>, <thermalexpansion:dynamo:3>, <astralsorcery:itemcoloredlens>], [<mekanism:atomicalloy>, <thermalexpansion:augment:512>, <mekanism:atomicalloy>]]);
+
 //将所有包含高级火箭晶圆的配方替换成ET2晶圆
 recipes.replaceAllOccurences(<advancedrocketry:wafer>, <contenttweaker:ic_wafer>);
 recipes.addShaped(
@@ -75,3 +76,26 @@ recipes.addShaped(
         [<ore:plateTungstenSteel>,<ore:netherStar>,<ore:plateTungstenSteel>]
     ]
 );
+
+//结构管道
+recipes.addShapedMirrored("structuralduct_normal",<thermaldynamics:duct_48:0>*6,[[null,null,null],[<ore:plateInvar>,<mekanism:enrichedalloy>,<ore:plateInvar>],[null,null,null]]);
+
+//凛冰固化能量管道及其他
+recipes.replaceAllOccurences(<thermaldynamics:duct_0:4>, <thermaldynamics:duct_48:0>);
+recipes.replaceAllOccurences(<thermaldynamics:duct_16:2>, <thermaldynamics:duct_48:0>);
+recipes.replaceAllOccurences(<thermaldynamics:duct_16:3>, <thermaldynamics:duct_48:0>);
+recipes.replaceAllOccurences(<thermaldynamics:duct_32:0>, <thermaldynamics:duct_48:0>);
+recipes.replaceAllOccurences(<thermaldynamics:duct_32:1>, <thermaldynamics:duct_48:0>);
+recipes.replaceAllOccurences(<thermaldynamics:duct_32:2>, <thermaldynamics:duct_48:0>);
+
+//伺服器
+recipes.addShaped("servo_signalum_normal",<thermaldynamics:servo:3>*2,[[null,<compactmachines3:redstonetunneltool>,null],[<xnet:netcable:4>,<ore:paneGlassColorless>,<xnet:netcable:4>],[<ore:ingotSignalum>,<extrautils2:ingredients:0>,<ore:ingotSignalum>]]);
+recipes.addShaped("servo_enderium_normal",<thermaldynamics:servo:4>*2,[[null,<compactmachines3:redstonetunneltool>,null],[<xnet:netcable:4>,<ore:paneGlassColorless>,<xnet:netcable:4>],[<ore:ingotEnderium>,<extrautils2:ingredients:0>,<ore:ingotEnderium>]]);
+
+//过滤器
+recipes.addShaped("filter_signalum_normal",<thermaldynamics:filter:3>*2,[[null,<extrautils2:grocket:1>,null],[<thermaldynamics:duct_48:0>,<ore:paneGlassColorless>,<thermaldynamics:duct_48:0>],[<ore:ingotSignalum>,<enderio:item_material:77>,<ore:ingotSignalum>]]);
+recipes.addShaped("filter_enderium_normal",<thermaldynamics:filter:4>*2,[[null,<extrautils2:grocket:1>,null],[<thermaldynamics:duct_48:0>,<ore:paneGlassColorless>,<thermaldynamics:duct_48:0>],[<ore:ingotEnderium>,<enderio:item_material:77>,<ore:ingotEnderium>]]);
+
+//检索器
+recipes.addShaped("retriever_signalum_normal",<thermaldynamics:retriever:3>*2,[[null,<arcanearchives:monitoring_crystal>,null],[<appliedenergistics2:material:42>,<ore:paneGlassColorless>,<appliedenergistics2:material:42>],[<ore:ingotSignalum>,<extrautils2:ingredients:2>,<ore:ingotSignalum>]]);
+recipes.addShaped("retriever_enderium_normal",<thermaldynamics:retriever:4>*2,[[null,<arcanearchives:monitoring_crystal>,null],[<appliedenergistics2:material:42>,<ore:paneGlassColorless>,<appliedenergistics2:material:42>],[<ore:ingotEnderium>,<extrautils2:ingredients:2>,<ore:ingotEnderium>]]);
