@@ -60,3 +60,5 @@ recipes.addShaped("pattern2", <item:appliedenergistics2:material:52>*2,[
     [<embers:crystal_ember>,<contenttweaker:basic_processor>,<embers:crystal_ember>],
     [<ore:plateDawnstone>,<embers:plate_dawnstone>,<ore:plateDawnstone>]
 ]);
+
+recipes.addShaped(<minecraft:crafting_table>,[[<ore:plankTreatedWood>,<ore:plankTreatedWood>],[<ore:plankTreatedWood>,<ore:plankTreatedWood>]]);
