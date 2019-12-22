@@ -299,4 +299,11 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_raw_quartz", mach
     .addItemInput(<appliedenergistics2:material:1>*6)
 	.addItemInput(<actuallyadditions:item_misc:5>*20)
 	.addFluidInput(<liquid:mana>*1000)
-	.build();	
+	.build();
+
+//硅
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_silicon", machineName, speedTierOne)
+	.addManaInput(3000)
+	.addItemOutput(<appliedenergistics2:material:5>)
+	.addItemInput(<appliedenergistics2:material:3>)
+	.build();
