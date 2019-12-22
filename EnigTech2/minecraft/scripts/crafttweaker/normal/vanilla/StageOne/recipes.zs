@@ -45,3 +45,5 @@ recipes.addShaped(<item:minecraft:slime_ball>, [[<ore:tallow>,<ore:tallow>],[<or
 recipes.addShaped("greenhouse_glass_tweaked_noob", <sereneseasons:greenhouse_glass:0> * 2, [[<ore:dyeBlue>,<ore:blockGlass>,<ore:dyeLightBlue>],[<ore:blockGlass>,<minecraft:dye:15>,<ore:blockGlass>],[<ore:dyeLightBlue>,<minecraft:stone:0>,<ore:dyeBlue>]]);
 //链甲片
 recipes.addShaped("chainmail_normal", <survivalist:chainmail>, [[null,<ore:nuggetIron>,null],[<ore:nuggetIron>,null,<ore:nuggetIron>],[null,<ore:nuggetIron>,null]]);
+//玄理矿石词典
+recipes.addShapeless(<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:et2_orevein_wiki"}),[<survivalist:rock>,<survivalist:rock>,<survivalist:rock>,<minecraft:book>]);

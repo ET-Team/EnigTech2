@@ -40,3 +40,5 @@ recipes.addShaped(<rustic:vase>,[[null,<minecraft:hardened_clay>,null],[<minecra
 recipes.addShaped("greenhouse_glass_tweaked_noob", <sereneseasons:greenhouse_glass:0>, [[<ore:dyeBlue>,<ore:blockGlass>,<ore:dyeBlue>],[<ore:blockGlass>,<minecraft:dye:15>,<ore:blockGlass>],[<ore:dyeBlue>,<minecraft:cobblestone>,<ore:dyeBlue>]]);
 //链甲片
 recipes.addShaped("chainmail_expert", <survivalist:chainmail>, [[<ore:nuggetIron>,null,<ore:nuggetIron>],[null,<ore:nuggetIron>,null],[<ore:nuggetIron>,null,<ore:nuggetIron>]]);
+//玄理矿石词典
+recipes.addShapeless(<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:et2_orevein_wiki"}),[<survivalist:rock>,<survivalist:rock>,<survivalist:rock>,<minecraft:book>]);
