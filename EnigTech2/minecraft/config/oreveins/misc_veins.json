@@ -421,7 +421,7 @@
         "vertical_size":8,
         "horizontal_size":8,
         "min_y": 50,
-        "max_y": 70,
+        "max_y": 80,
         "biomes":["SANDY","DESERT","minecraft:desert"]
       },
       "W": {
