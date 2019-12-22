@@ -1,7 +1,7 @@
 {
-    "registryname": "magic_magtinizer",
-    "localizedname": "魔能磁化机MK1",
-    "color":"bfbfbf",
+    "registryname": "magic_magtinizer_mk2",
+    "localizedname": "魔能磁化机MK2",
+    "color":"191970",
     "parts": [
         {
             "x": -1,
@@ -20,7 +20,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "environmentaltech:pladium@0"
             ]
         },
         {
@@ -28,7 +28,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "environmentaltech:pladium@0"
             ]
         },
         {
@@ -36,7 +36,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "environmentaltech:pladium@0"
             ]
         },
         {
@@ -44,7 +44,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "botania:storage@2"
+                "botania:storage@1"
             ]
         },
         {
@@ -52,7 +52,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "modularmachinery:blockinputbus@3"
             ]
         },
         {
@@ -60,7 +60,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "botania:storage@2"
+                "botania:storage@1"
             ]
         },
         {
@@ -68,7 +68,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "environmentaltech:pladium@0"
             ]
         },
         {
@@ -76,7 +76,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "environmentaltech:pladium@0"
             ]
         },
         {
@@ -84,7 +84,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "environmentaltech:pladium@0"
             ]
         },
         {
@@ -92,7 +92,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "botania:storage@2"
+                "botania:storage@1"
             ]
         },
         {
@@ -100,7 +100,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "botania:storage@2"
+                "botania:storage@1"
             ]
         },
         {
@@ -108,7 +108,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "environmentaltech:pladium@0"
             ]
         },
         {
@@ -116,7 +116,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "botania:storage@2"
+                "botania:storage@1"
             ]
         },
         {
@@ -124,7 +124,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "botania:storage@2"
+                "botania:storage@1"
             ]
         },
         {
@@ -132,7 +132,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "botania:storage@2"
+                "botania:storage@1"
             ]
         },
         {
@@ -140,7 +140,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "environmentaltech:pladium@0"
             ]
         },
         {
@@ -148,7 +148,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "botania:storage@2"
+                "botania:storage@1"
             ]
         },
         {
@@ -156,7 +156,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "environmentaltech:pladium@0"
             ]
         },
         {
@@ -164,7 +164,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "environmentaltech:pladium@0"
             ]
         },
         {
@@ -172,7 +172,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "environmentaltech:pladium@0"
             ]
         },
         {
@@ -180,7 +180,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "botania:storage@2"
+                "botania:storage@1"
             ]
         },
         {
@@ -188,7 +188,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "botania:storage@2"
+                "botania:storage@1"
             ]
         },
         {
@@ -196,7 +196,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "environmentaltech:pladium@0"
             ]
         },
         {
@@ -204,7 +204,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "botania:storage@2"
+                "botania:storage@1"
             ]
         },
         {
@@ -212,7 +212,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "environmentaltech:pladium@0"
             ]
         },
         {
@@ -220,7 +220,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "environmentaltech:pladium@0"
             ]
         },
         {
@@ -228,7 +228,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "botania:storage@2"
+                "botania:storage@1"
             ]
         },
         {
@@ -236,7 +236,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "botania:storage@2"
+                "botania:storage@1"
             ]
         },
         {
@@ -244,7 +244,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "botania:storage@2"
+                "botania:storage@1"
             ]
         },
         {
@@ -252,7 +252,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "environmentaltech:pladium@0"
             ]
         },
         {
@@ -260,7 +260,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "environmentaltech:pladium@0"
             ]
         },
         {
@@ -268,7 +268,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockoutputbus@0"
+                "modularmachinery:blockoutputbus@4"
             ]
         }
     ]}
