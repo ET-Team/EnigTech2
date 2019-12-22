@@ -2,7 +2,7 @@
 Criteriaemoyuanzhi9 = addCriteria("Criteriaemoyuanzhi9", "minecraft:inventory_changed")
 Criteriaemoyuanzhi9.addItem(<bloodmagic:monster_soul>)
 setIcon(<bloodmagic:monster_soul>)
-setTitle("\u6076\u9b54\u539f\u8d28")
+setTitle("\u6076\u9b54\u6e90\u8d28")
 setDescription("\u83b7\u5f97\u6076\u9b54\u6e90\u8d28")
 setPos(-331,-2)
 addParent("ET2:StageThree/yuanshitouwang")

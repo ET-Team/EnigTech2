@@ -43,3 +43,5 @@ recipes.addShaped(<rustic:vase>*2,[[null,<minecraft:hardened_clay>,null],[<minec
 recipes.addShaped(<item:minecraft:slime_ball>, [[<ore:tallow>,<ore:tallow>],[<ore:tallow>,<ore:tallow>]]);
 //温室玻璃
 recipes.addShaped("greenhouse_glass_tweaked_noob", <sereneseasons:greenhouse_glass:0> * 2, [[<ore:dyeBlue>,<ore:blockGlass>,<ore:dyeLightBlue>],[<ore:blockGlass>,<minecraft:dye:15>,<ore:blockGlass>],[<ore:dyeLightBlue>,<minecraft:stone:0>,<ore:dyeBlue>]]);
+//链甲片
+recipes.addShaped("chainmail_normal", <survivalist:chainmail>, [[null,<ore:nuggetIron>,null],[<ore:nuggetIron>,null,<ore:nuggetIron>],[null,<ore:nuggetIron>,null]]);

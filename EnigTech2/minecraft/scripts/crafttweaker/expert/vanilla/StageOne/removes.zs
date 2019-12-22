@@ -19,6 +19,8 @@ recipes.removeShaped(<minecraft:furnace>,[[<traverse:blue_rock_cobblestone>,<tra
 recipes.remove(<rustic:vase>);
 recipes.removeByRecipeName("silentgems:multipart_sickle");
 recipes.removeByRecipeName("sereneseasons:greenhouse_glass");
+recipes.removeByRecipeName("survivalist:chainmail");
+recipes.removeByRecipeName("survivalist:chainmail_nuggets");
 
 for i in recipes.all{
     if(isRecipeNull(i)&i.resourceDomain == "advancedrocketry"){
