@@ -1,0 +1,17 @@
+{
+    "name": "蓝宝石矿脉",
+    "icon": "silentgems:gemore:9",
+    "category": "small_vein",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "silentgems:gemore:9",
+            "title": "蓝宝石矿脉",
+            "text": "蓝宝石矿脉是前期会用到的矿脉，储量中等，盛产蓝宝石矿石"
+        },
+        {
+            "type": "text",
+            "text": "主矿石:蓝宝石矿石$(br)伴生矿石:蓝碧玺，绿色蓝宝石，堇青石$(br2)生成高度:10-20$(br2)矿脉大小:中等$(br)矿脉密度:中等$(br2)地表指示:绿色蓝宝石荧光玫瑰$(br)矿脉稀有度:稀有$(br2)生成维度:主世界"
+        }
+    ]
+}
