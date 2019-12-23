@@ -1,0 +1,17 @@
+{
+    "name": "钍矿脉",
+    "icon": "nuclearcraft:ore:3",
+    "category": "small_vein",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "nuclearcraft:ore:3",
+            "title": "钍矿脉",
+            "text": "钍矿脉是后期会用到的矿脉，储量中等，盛产钍矿石"
+        },
+        {
+            "type": "text",
+            "text": "主矿石:钍矿石$(br)伴生矿石:镁矿石，硼矿石$(br2)生成高度:20-45$(br2)矿脉大小:中等$(br)矿脉密度:密集$(br2)地表指示:缟玛瑙荧光玫瑰$(br)矿脉稀有度:稀有$(br2)生成维度:暮色森林"
+        }
+    ]
+}
