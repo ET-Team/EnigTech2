@@ -428,7 +428,7 @@
         "type": "sphere",
         "ore": [
           {
-            "ore": "ore\u94a8",
+            "ore": "oreTungsten",
             "weight": 2
           },
           {
