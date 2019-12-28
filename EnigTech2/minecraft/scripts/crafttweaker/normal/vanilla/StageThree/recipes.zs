@@ -62,3 +62,10 @@ recipes.addShaped("pattern2", <item:appliedenergistics2:material:52>*2,[
 ]);
 
 recipes.addShaped(<minecraft:crafting_table>,[[<ore:plankTreatedWood>,<ore:plankTreatedWood>],[<ore:plankTreatedWood>,<ore:plankTreatedWood>]]);
+
+recipes.addShaped(<embers:ember_bore>,[[<embers:stairs_caminite_brick>,<contenttweaker:magcondium_ingot>,<embers:stairs_caminite_brick>],[<immersiveengineering:metal_decoration0:5>,<contenttweaker:soso_machine_core>,<immersiveengineering:metal_decoration0:5>],[<thermalfoundation:material:657>,<botania:lens:7>.withTag({}),<thermalfoundation:material:657>]]);
+recipes.addShaped(<embers:cinder_plinth>,[[<immersiveengineering:sheetmetal:2>,null,<immersiveengineering:sheetmetal:2>],[<bloodmagic:lava_crystal>,<contenttweaker:soso_machine_core>,<bloodmagic:lava_crystal>],[<embers:block_caminite_brick>,<embers:block_dawnstone>,<embers:block_caminite_brick>]]);
+recipes.addShaped(<embers:ember_activator>,[[<ore:plateCopper>,<contenttweaker:magcondium_ingot>,<ore:plateCopper>],[<bloodmagic:slate:2>,<contenttweaker:soso_machine_core>,<bloodmagic:slate:2>],[<embers:block_caminite_brick>,<naturesaura:furnace_heater>,<embers:block_caminite_brick>]]);
+recipes.addShaped(<embers:boiler>,[[<ore:plateSteel>,null,<ore:plateSteel>],[<contenttweaker:magcondium_ingot>,<contenttweaker:soso_machine_core>,<contenttweaker:magcondium_ingot>],[<embers:block_caminite_brick>,<botania:rune:5>,<embers:block_caminite_brick>]]);
+recipes.addShaped(<embers:block_furnace>,[[<ore:plateSteel>,null,<ore:plateSteel>],[<bloodmagic:slate:2>,<contenttweaker:soso_machine_core>,<bloodmagic:slate:2>],[<embers:block_caminite_brick>,<botania:rune:1>,<embers:block_caminite_brick>]]);
+recipes.addShaped(<embers:mixer>,[[<contenttweaker:basic_motioner>,<botania:rune:5>,<ore:plateSteel>],[<naturesaura:sky_ingot>,<contenttweaker:soso_machine_core>,<naturesaura:sky_ingot>],[<ore:plateSteel>,<botania:rune:7>,<contenttweaker:basic_motioner>]]);
