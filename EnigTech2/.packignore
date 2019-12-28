@@ -53,12 +53,16 @@ minecraft/screenshots
 minecraft/scripts/.zsrc
 minecraft/scripts/.zsrc
 minecraft/server-resource-packs
+minecraft/server-resource-packs
 minecraft/shaderpacks
+minecraft/shaderpacks
+minecraft/texturepacks
 minecraft/texturepacks
 minecraft/usercache.json
 minecraft/usercache.json
 minecraft/usernamecache.json
 minecraft/usernamecache.json
+minecraft/valkyrielib
 minecraft/valkyrielib
 modlist.html
 natives
