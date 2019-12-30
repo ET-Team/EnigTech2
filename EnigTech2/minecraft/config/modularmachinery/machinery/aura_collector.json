@@ -79,7 +79,6 @@
             "x": 0,
             "y": 0,
             "z": 4,
-            "nbt": {"id":"minecraft:pamwatertrap"},
             "elements": [
                 "harvestcraft:watertrap@3"
             ]
