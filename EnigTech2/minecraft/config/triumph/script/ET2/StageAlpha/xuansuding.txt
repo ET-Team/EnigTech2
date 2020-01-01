@@ -2,7 +2,7 @@
 Criteriadaziran3 = addCriteria("Criteriadaziran3", "minecraft:inventory_changed")
 Criteriadaziran3.addItem(<contenttweaker:enigarium, meta:0>)
 setIcon(<contenttweaker:enigarium, meta:0>)
-setTitle("\u7384\u7d20\u5b9a")
+setTitle("\u7384\u7d20\u952d")
 setDescription("\u5236\u4f5c\u7384\u7d20\u952d")
 setPos(-443,15)
 addParent("ET2:StageAlpha/daziran")
