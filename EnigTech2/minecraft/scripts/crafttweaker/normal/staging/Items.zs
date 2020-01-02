@@ -17,8 +17,6 @@ var allStages as string[] = [
 
 ];
 
-mods.recipestages.Recipes.setPackageStage("appeng", allStages);
-
 recipes.removeByRecipeName("minecraft:glass_bottle");
 recipes.removeByRecipeName("minecraft:clay");
 recipes.removeByRecipeName("minecraft:shears");
