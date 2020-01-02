@@ -1,8 +1,11 @@
 #packmode expert
 #priority -100
 
+//导包
+import mods.extendedcrafting.TableCrafting;
+
 //强化飞行背包
-mods.extendedcrafting.TableCrafting.addShaped(3, <simplyjetpacks:itemjetpack:12>.withTag({Energy: 0, JetpackParticleType: 0}), [
+TableCrafting.addShaped(3, <simplyjetpacks:itemjetpack:12>.withTag({Energy: 0, JetpackParticleType: 0}), [
 	[null, null, null, null, null, null, null], 
 	[null, null, <ore:dustAstralStarmetal>, <contenttweaker:charged_gaiya_crystal>, <ore:dustAstralStarmetal>, null, null], 
 	[null, <ore:dustAstralStarmetal>, <ore:gaiaIngot>, <thermalexpansion:capacitor:2>, <ore:gaiaIngot>, <ore:dustAstralStarmetal>, null], 
@@ -13,7 +16,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <simplyjetpacks:itemjetpack:12>
 ]);
 
 //谐振飞行背包
-mods.extendedcrafting.TableCrafting.addShaped(3, <simplyjetpacks:itemjetpack:13>.withTag({Energy: 0, JetpackParticleType: 0}), [
+TableCrafting.addShaped(3, <simplyjetpacks:itemjetpack:13>.withTag({Energy: 0, JetpackParticleType: 0}), [
 	[null, null, null, null, null, null, null], 
 	[null, null, <ore:dustAstralStarmetal>, <contenttweaker:charged_gaiya_crystal>, <ore:dustAstralStarmetal>, null, null], 
 	[null, <ore:dustAstralStarmetal>, <ore:gaiaIngot>, <thermalexpansion:capacitor:4>, <ore:gaiaIngot>, <ore:dustAstralStarmetal>, null], 
@@ -24,7 +27,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <simplyjetpacks:itemjetpack:13>
 ]);
 
 //天使指环
-mods.extendedcrafting.TableCrafting.addShaped(3, <extrautils2:angelring>, [
+TableCrafting.addShaped(3, <extrautils2:angelring>, [
 	[null, null, <ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>, null, null], 
 	[null, <ore:ingotElectrum>, <ore:dustAstralStarmetal>, <contenttweaker:lunar_essence>, <ore:dustAstralStarmetal>, <ore:ingotElectrum>, null], 
 	[<ore:ingotElectrum>, <ore:dustAstralStarmetal>, <contenttweaker:iridium_osmium_ingot>, <ore:ingotCrystaltine>, <contenttweaker:iridium_osmium_ingot>, <ore:dustAstralStarmetal>, <ore:ingotElectrum>], 
@@ -35,7 +38,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <extrautils2:angelring>, [
 ]);
 
 //未处理的强导电机
-mods.extendedcrafting.TableCrafting.addShaped(3, <contenttweaker:strong_motor_unprocessed>, [
+TableCrafting.addShaped(3, <contenttweaker:strong_motor_unprocessed>, [
 	[<ore:plateCopper>, <ore:plateAluminum>, <ore:plateCopper>, <ore:plateAluminum>, <ore:plateCopper>, <ore:plateAluminum>, <ore:plateCopper>], 
 	[<ore:plateAluminum>, <contenttweaker:material_part:19>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <contenttweaker:material_part:19>, <ore:plateAluminum>], 
 	[<ore:plateCopper>, <contenttweaker:magcondium_ingot>, <silentgems:craftingmaterial:1>, <contenttweaker:advanced_motioner>, <contenttweaker:dark_gaiya_crystal>, <contenttweaker:magcondium_ingot>, <ore:plateCopper>], 
@@ -46,7 +49,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <contenttweaker:strong_motor_un
 ]);
 
 //终极工作台
-mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:table_ultimate>, [
+TableCrafting.addShaped(3, <extendedcrafting:table_ultimate>, [
 	[<extendedcrafting:material:2>, null, null, null, null, null, <extendedcrafting:material:2>], 
 	[<extendedcrafting:material:2>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:2>], 
 	[null, <extendedcrafting:material:2>, <extendedcrafting:material:2>, <ore:circuitUltimate>, <extendedcrafting:material:2>, <extendedcrafting:material:2>, null], 
@@ -57,7 +60,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:table_ultimat
 ]);
 
 //聚变反应堆核心 
-mods.extendedcrafting.TableCrafting.addShaped(3, <nuclearcraft:fusion_core>, [
+TableCrafting.addShaped(3, <nuclearcraft:fusion_core>, [
 	[<ore:plateElite>, <ore:plateElite>, <contenttweaker:sub_block_holder_0:8>, <ore:alloyUltimate>, <contenttweaker:sub_block_holder_0:8>, <ore:plateElite>, <ore:plateElite>], 
 	[<ore:plateElite>, <ore:blockGlassHardened>, <ore:solenoidMagnesiumDiboride>, <astralsorcery:itemshiftingstar>, <ore:solenoidMagnesiumDiboride>, <ore:blockGlassHardened>, <ore:plateElite>], 
 	[null, <ore:blockGlassHardened>, <ore:solenoidMagnesiumDiboride>, <astralsorcery:itemshiftingstar>, <ore:solenoidMagnesiumDiboride>, <ore:blockGlassHardened>, null], 
@@ -67,7 +70,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <nuclearcraft:fusion_core>, [
 	[<ore:plateElite>, <ore:plateElite>, <contenttweaker:sub_block_holder_0:8>, <ore:alloyUltimate>, <contenttweaker:sub_block_holder_0:8>, <ore:plateElite>, <ore:plateElite>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(3, <bloodmagic:sacrificial_dagger:1>.withTag({sacrifice: 0 as byte}), [
+TableCrafting.addShaped(3, <bloodmagic:sacrificial_dagger:1>.withTag({sacrifice: 0 as byte}), [
 	[null, null, null, null, null, null, <astralsorcery:itemcraftingcomponent:1>], 
 	[null, null, null, null, <contenttweaker:lunar_essence>, <astralsorcery:itemcraftingcomponent:1>, <contenttweaker:neutron>], 
 	[null, <bloodmagic:slate:4>, <bloodmagic:slate:4>, <contenttweaker:lunar_essence>, <astralsorcery:itemcraftingcomponent:1>, <contenttweaker:neutron>, null], 
@@ -75,4 +78,118 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <bloodmagic:sacrificial_dagger:
 	[null, <contenttweaker:material_part:64>, <bloodmagic:slate:4>, <contenttweaker:neutron>, <bloodmagic:slate:4>, null, null], 
 	[<contenttweaker:material_part:64>, <contenttweaker:material_part:64>, <contenttweaker:material_part:64>, <bloodmagic:slate:4>, <bloodmagic:slate:4>, null, null], 
 	[<contenttweaker:sub_block_holder_0:8>, <contenttweaker:material_part:64>, null, null, null, null, null]
+]);
+
+//鬼哭
+val altir = <advancedrocketry:productrod>;
+val eight = <enderio:item_basic_capacitor:2>;
+val tungp = <contenttweaker:material_part:52>;
+val molyg = <contenttweaker:material_part:78>;
+val blizz = <thermalfoundation:material:2048>;
+val ultmo = <contenttweaker:ultimate_motioner>;
+TableCrafting.addShaped(3, <extrautils2:lawsword>, [
+	[null, null, null, null, null, altir, <botania:lens:8>], 
+	[null, null, null, null, altir, <enderio:item_material:12>, altir], 
+	[null, null, null, blizz, <enderio:item_material:13>, altir, null], 
+	[null, eight, ultmo, <botania:spawnermover>, blizz, null, null], 
+	[tungp, molyg, <contenttweaker:ultra_machine_core>, ultmo, null, null, null], 
+	[null, <extendedcrafting:material:24>, molyg, eight, null, null, null], 
+	[<enderio:item_material:71>, null, tungp, null, null, null, null]
+]);
+
+//消防斧
+TableCrafting.addShaped(3, <extrautils2:fireaxe>, [
+	[null, null, <enderio:item_alloy_ball>, <enderio:block_infinity:2>, <enderio:block_infinity:2>, null, null], 
+	[null, null, <enderio:block_infinity:2>, <botania:lens:7>, <immersiveengineering:toolupgrade:7>, <minecraft:enchanted_book>, null], 
+	[null, null, <enderio:block_infinity:2>, <immersiveengineering:toolupgrade:7>, <botania:lens:8>, <thermalfoundation:material:357>, null], 
+	[null, null, null, <bloodmagic:monster_soul:2>, <thermalfoundation:material:357>, <thermalfoundation:material:357>, null], 
+	[null, null, <advancedrocketry:productrod>, null, null, null, null], 
+	[null, <advancedrocketry:productrod>, null, null, null, null, null], 
+	[<contenttweaker:gaiya_stabilizer>, null, null, null, null, null, null]
+]);
+
+//光剑
+TableCrafting.addShaped(3, <extrautils2:luxsaber:0>, [
+	[null, null, null, null, null, <contenttweaker:gaiya_stabilizer>, <contenttweaker:gaiya_stabilizer>], 
+	[null, null, null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>], 
+	[null, null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>, null], 
+	[null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>, null, null], 
+	[null, <deepmoblearning:glitch_infused_ingot>, <mekanism:machineblock2:13>, <contenttweaker:gaiya_stabilizer>, null, null, null], 
+	[<advancedrocketry:thermitetorch>, <environmentaltech:laser_lens_colored:11>, <deepmoblearning:glitch_infused_ingot>, null, null, null, null], 
+	[<environmentaltech:laser_core>, <advancedrocketry:thermitetorch>, null, null, null, null, null]
+]);
+TableCrafting.addShaped(3, <extrautils2:luxsaber:1>, [
+	[null, null, null, null, null, <contenttweaker:gaiya_stabilizer>, <contenttweaker:gaiya_stabilizer>], 
+	[null, null, null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>], 
+	[null, null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>, null], 
+	[null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>, null, null], 
+	[null, <deepmoblearning:glitch_infused_ingot>, <mekanism:machineblock2:13>, <contenttweaker:gaiya_stabilizer>, null, null, null], 
+	[<advancedrocketry:thermitetorch>, <environmentaltech:laser_lens_colored:2>, <deepmoblearning:glitch_infused_ingot>, null, null, null, null], 
+	[<environmentaltech:laser_core>, <advancedrocketry:thermitetorch>, null, null, null, null, null]
+]);
+TableCrafting.addShaped(3, <extrautils2:luxsaber:2>, [
+	[null, null, null, null, null, <contenttweaker:gaiya_stabilizer>, <contenttweaker:gaiya_stabilizer>], 
+	[null, null, null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>], 
+	[null, null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>, null], 
+	[null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>, null, null], 
+	[null, <deepmoblearning:glitch_infused_ingot>, <mekanism:machineblock2:13>, <contenttweaker:gaiya_stabilizer>, null, null, null], 
+	[<advancedrocketry:thermitetorch>, <environmentaltech:laser_lens_colored:14>, <deepmoblearning:glitch_infused_ingot>, null, null, null, null], 
+	[<environmentaltech:laser_core>, <advancedrocketry:thermitetorch>, null, null, null, null, null]
+]);
+TableCrafting.addShaped(3, <extrautils2:luxsaber:3>, [
+	[null, null, null, null, null, <contenttweaker:gaiya_stabilizer>, <contenttweaker:gaiya_stabilizer>], 
+	[null, null, null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>], 
+	[null, null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>, null], 
+	[null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>, null, null], 
+	[null, <deepmoblearning:glitch_infused_ingot>, <mekanism:machineblock2:13>, <contenttweaker:gaiya_stabilizer>, null, null, null], 
+	[<advancedrocketry:thermitetorch>, <environmentaltech:laser_lens_colored:4>, <deepmoblearning:glitch_infused_ingot>, null, null, null, null], 
+	[<environmentaltech:laser_core>, <advancedrocketry:thermitetorch>, null, null, null, null, null]
+]);
+TableCrafting.addShaped(3, <extrautils2:luxsaber:4>, [
+	[null, null, null, null, null, <contenttweaker:gaiya_stabilizer>, <contenttweaker:gaiya_stabilizer>], 
+	[null, null, null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>], 
+	[null, null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>, null], 
+	[null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>, null, null], 
+	[null, <deepmoblearning:glitch_infused_ingot>, <mekanism:machineblock2:13>, <contenttweaker:gaiya_stabilizer>, null, null, null], 
+	[<advancedrocketry:thermitetorch>, <environmentaltech:laser_lens_colored:5>, <deepmoblearning:glitch_infused_ingot>, null, null, null, null], 
+	[<environmentaltech:laser_core>, <advancedrocketry:thermitetorch>, null, null, null, null, null]
+]);
+TableCrafting.addShaped(3, <extrautils2:luxsaber:5>, [
+	[null, null, null, null, null, <contenttweaker:gaiya_stabilizer>, <contenttweaker:gaiya_stabilizer>], 
+	[null, null, null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>], 
+	[null, null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>, null], 
+	[null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>, null, null], 
+	[null, <deepmoblearning:glitch_infused_ingot>, <mekanism:machineblock2:13>, <contenttweaker:gaiya_stabilizer>, null, null, null], 
+	[<advancedrocketry:thermitetorch>, <environmentaltech:laser_lens_colored:9>, <deepmoblearning:glitch_infused_ingot>, null, null, null, null], 
+	[<environmentaltech:laser_core>, <advancedrocketry:thermitetorch>, null, null, null, null, null]
+]);
+TableCrafting.addShaped(3, <extrautils2:luxsaber:6>, [
+	[null, null, null, null, null, <contenttweaker:gaiya_stabilizer>, <contenttweaker:gaiya_stabilizer>], 
+	[null, null, null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>], 
+	[null, null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>, null], 
+	[null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>, null, null], 
+	[null, <deepmoblearning:glitch_infused_ingot>, <mekanism:machineblock2:13>, <contenttweaker:gaiya_stabilizer>, null, null, null], 
+	[<advancedrocketry:thermitetorch>, <environmentaltech:laser_lens_colored:0>, <deepmoblearning:glitch_infused_ingot>, null, null, null, null], 
+	[<environmentaltech:laser_core>, <advancedrocketry:thermitetorch>, null, null, null, null, null]
+]);
+TableCrafting.addShaped(3, <extrautils2:luxsaber:7>, [
+	[null, null, null, null, null, <contenttweaker:gaiya_stabilizer>, <contenttweaker:gaiya_stabilizer>], 
+	[null, null, null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>], 
+	[null, null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>, null], 
+	[null, null, <contenttweaker:gaiya_stabilizer>, null, <contenttweaker:gaiya_stabilizer>, null, null], 
+	[null, <deepmoblearning:glitch_infused_ingot>, <mekanism:machineblock2:13>, <contenttweaker:gaiya_stabilizer>, null, null, null], 
+	[<advancedrocketry:thermitetorch>, <environmentaltech:laser_lens_colored:7>, <deepmoblearning:glitch_infused_ingot>, null, null, null, null], 
+	[<environmentaltech:laser_core>, <advancedrocketry:thermitetorch>, null, null, null, null, null]
+]);
+
+
+//复合弓
+TableCrafting.addShaped(3, <extrautils2:compoundbow>, [
+	[null, null, null, null, null, <contenttweaker:iridium_osmium_ingot>, <deepmoblearning:glitch_infused_ingot>], 
+	[null, null, null, <contenttweaker:iridium_osmium_ingot>, <contenttweaker:iridium_osmium_ingot>, null, <botania:manaresource:16>], 
+	[null, null, <botania:lens:8>, <advancedrocketry:productsheet:1>, null, <botania:manaresource:16>, null], 
+	[null, <contenttweaker:iridium_osmium_ingot>, <advancedrocketry:productsheet:1>, <enderio:item_material:13>, <botania:manaresource:16>, <enderio:item_material:67>, null], 
+	[null, <contenttweaker:iridium_osmium_ingot>, null, <botania:manaresource:16>, <deepmoblearning:data_model_skeleton>.withTag({tier: 4}), null, null], 
+	[<contenttweaker:iridium_osmium_ingot>, null, <botania:manaresource:16>, <enderio:item_material:67>, null, <botania:lightrelay:3>, null], 
+	[<deepmoblearning:glitch_infused_ingot>, <botania:manaresource:16>, null, null, null, null, null]
 ]);
