@@ -4,7 +4,15 @@ import crafttweaker.item.IIngredient;
 val toAdd as string[IIngredient] = {
     <contenttweaker:lunar_essence> : "绝对不是月饼",
     <item:contenttweaker:entropy> : "四维时空混乱度的体现...",
-    <item:contenttweaker:essencial_blood> : "用月之锋刃取出的你心头的一滴精血"
+    <item:contenttweaker:essencial_blood> : "用月之锋刃取出的你心头的一滴精血",
+    <modulardiversity:blockemberinputhatch:0> : "余烬能量缓存：100",
+    <modulardiversity:blockemberinputhatch:1> : "余烬能量缓存：800",
+    <modulardiversity:blockemberinputhatch:2> : "余烬能量缓存：4000",
+    <modulardiversity:blockemberinputhatch:3> : "余烬能量缓存：8000",
+    <modulardiversity:blockemberinputhatch:4> : "余烬能量缓存：16000",
+    <modulardiversity:blockemberinputhatch:5> : "余烬能量缓存：32000",
+    <modulardiversity:blockemberinputhatch:6> : "余烬能量缓存：64000",
+    <modulardiversity:blockemberinputhatch:7> : "余烬能量缓存：144000"
 };
 
 val warning as string[IIngredient] = {
