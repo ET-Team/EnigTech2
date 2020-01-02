@@ -6,7 +6,15 @@ val toAdd as string[IIngredient] = {
     <item:contenttweaker:entropy> : "四维时空混乱度的体现...",
     <item:contenttweaker:essencial_blood> : "用月之锋刃取出的你心头的一滴精血",
     <item:extrautils2:ingredients:11> : "将一个岩浆用地狱砖块围起来后向内投入黄金来跟恶魔交易这种金属",
-    <item:contenttweaker:magic_key> : "将魔能钥匙丢入围绕着鲜花的水池来打开通往暮色森林的传送门"
+    <item:contenttweaker:magic_key> : "将魔能钥匙丢入围绕着鲜花的水池来打开通往暮色森林的传送门",
+    <modulardiversity:blockemberinputhatch:0> : "余烬能量缓存：100",
+    <modulardiversity:blockemberinputhatch:1> : "余烬能量缓存：800",
+    <modulardiversity:blockemberinputhatch:2> : "余烬能量缓存：4000",
+    <modulardiversity:blockemberinputhatch:3> : "余烬能量缓存：8000",
+    <modulardiversity:blockemberinputhatch:4> : "余烬能量缓存：16000",
+    <modulardiversity:blockemberinputhatch:5> : "余烬能量缓存：32000",
+    <modulardiversity:blockemberinputhatch:6> : "余烬能量缓存：64000",
+    <modulardiversity:blockemberinputhatch:7> : "余烬能量缓存：144000"
 };
 
 val warning as string[IIngredient] = {
