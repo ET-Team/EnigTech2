@@ -16,6 +16,7 @@ JEI.hideCategory("pe.collector");
 
 //隐藏
 val hidesArray = [
+    <botania:opencrate:1>,
     <projecte:collector_mk1>,
     <projecte:collector_mk2>,
     <projecte:collector_mk3>,

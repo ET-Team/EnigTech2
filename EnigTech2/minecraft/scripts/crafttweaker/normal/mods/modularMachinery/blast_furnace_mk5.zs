@@ -82,9 +82,9 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_m_from_dust", mac
 //流明粉
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_luming", machineName, speedTierOne)
 	.addManaInput(5000)
-	.addItemOutput(<thermalfoundation:material:102>*4)
+	.addItemOutput(<thermalfoundation:material:102>*5)
 	.addItemInput(<thermalfoundation:material:72>)
-	.addItemInput(<extendedcrafting:material:7>*3)
+	.addItemInput(<extendedcrafting:material:7>*4)
 	.build();
 
 //信素
@@ -135,8 +135,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName+"_MuFe_from_dust", ma
 //海蓝宝石
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_itemcraftingcomponent", machineName, speedTierOne)
 	.addManaInput(5000)
-	.addItemOutput(<astralsorcery:itemcraftingcomponent>*16)
-	.addItemInput(<ore:gemSapphire>,8)
+	.addItemOutput(<astralsorcery:itemcraftingcomponent>*24)
+	.addItemInput(<ore:gemSapphire>,12)
 	.addItemInput(<astralsorcery:itemusabledust:1>*4)
 	.addItemInput(<astralsorcery:itemusabledust>*4)
 	.addItemInput(<contenttweaker:arcane_essence>*4)
@@ -176,7 +176,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_AlTi", machineNam
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystaline", machineName, speedTierThree)
 	.addManaInput(20000)
-	.addItemOutput(<extendedcrafting:material:24>*3)
+	.addItemOutput(<extendedcrafting:material:24>*4)
 	.addItemInput(<bloodmagic:monster_soul:4>)
 	.addItemInput(<bloodmagic:monster_soul:3>)
     .addItemInput(<bloodmagic:monster_soul:2>)
@@ -200,7 +200,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ender_eye", machi
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_hyperconductive_crystal", machineName, speedTierThree)
 	.addManaInput(20000)
-	.addItemOutput(<contenttweaker:ultracondium_crystal>)
+	.addItemOutput(<contenttweaker:ultracondium_crystal>*2)
 	.addItemInput(<extendedcrafting:material:24>)
 	.addItemInput(<ore:gemDilithium>,3)
     .addGasInput("oxygen",500)
@@ -233,7 +233,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_Low", machineName
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_draconium", machineName, speedTierThree)
 	.addManaInput(1000000)
-	.addItemOutput(<contenttweaker:draconium_alloy_ingot>)
+	.addItemOutput(<contenttweaker:draconium_alloy_ingot>*2)
 	.addItemInput(<contenttweaker:ether_alloy_ingot>)
 	.addItemInput(<ore:dustDraconium>, 2)
     .addFluidInput(<liquid:fluid_dragon_breathe>*1000)
@@ -272,10 +272,10 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_osmium_from_ore",
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dark_gaiya_crystal_unpolished", machineName, speedTierTwo)
 	.addManaInput(10000)
-	.addItemOutput(<contenttweaker:dark_gaiya_crystal_unpolished>)
-	.addItemInput(<botania:manaresource:9>)
+	.addItemOutput(<contenttweaker:dark_gaiya_crystal_unpolished>*2)
+	.addItemInput(<botania:manaresource:9>*2)
 	.addItemInput(<contenttweaker:ultracondium_crystal>)
-	.addItemInput(<astralsorcery:itemcraftingcomponent:2>*2)
+	.addItemInput(<astralsorcery:itemcraftingcomponent:2>*3)
 	.addFluidInput(<liquid:mana>*1000)
 	.build();
 
@@ -293,7 +293,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ir_dust", machine
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_raw_quartz", machineName, speedTierTwo)
 	.addManaInput(3000)
-	.addItemOutput(<arcanearchives:raw_quartz>)
+	.addItemOutput(<arcanearchives:raw_quartz>*2)
 	.addItemInput(<environmentaltech:kyronite_crystal>*2)
 	.addItemInput(<botania:quartz:1>*3)
     .addItemInput(<appliedenergistics2:material:1>*6)
