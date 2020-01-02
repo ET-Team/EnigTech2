@@ -449,7 +449,7 @@
               "meta":"1"
             }
         },
-        "max_depth": 70
+        "max_depth": 90
       },
       "Ti": {
         "type": "sphere",

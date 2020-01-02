@@ -44,8 +44,7 @@ recipes.addShapeless(<thermalfoundation:material:352>, [<botania:lens:13>.reuse(
 recipes.addShaped("sink_tweaked_normal",<cookingforblockheads:sink>,[[<minecraft:iron_ingot>,<minecraft:water_bucket>.transformReplace(<minecraft:bucket>),<minecraft:iron_ingot>],[<ore:hardenedClay>,<minecraft:cauldron>,<ore:hardenedClay>],[<ore:hardenedClay>,<ore:hardenedClay>,<ore:hardenedClay>]]);
 
 recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:steam_generator_mk2"}),[<minecraft:paper>,<forge:bucketfilled>.withTag({FluidName: "steam", Amount: 1000})]);
-recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:boil_chamber_mk2"}),[<minecraft:paper>,<mekanismgenerators:turbineblade>]);
-recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:boil_chamber"}),[<minecraft:paper>,<embers:mini_boiler>]);
+recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:boil_chamber_mk2"}),[<minecraft:paper>,<embers:mini_boiler>]);
 recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk4"}),[<minecraft:paper>,<environmentaltech:ionite_crystal>]);
 recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk5"}),[<minecraft:paper>,<contenttweaker:material_part:61>]);
 recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:magic_magtinizer_mk2"}),[<minecraft:paper>,<environmentaltech:pladium_crystal>]);
