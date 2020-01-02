@@ -1,76 +1,90 @@
 #packmode expert
 #priority 0
 
-recipes.remove(<item:simplyjetpacks:metaitemmods:18>);
-recipes.remove(<immersiveengineering:metal_device0:2>);
-recipes.remove(<immersiveengineering:metal_device0:1>);
-recipes.remove(<immersiveengineering:metal_device0>);
-recipes.remove(<appliedenergistics2:material:36>);
-recipes.remove(<appliedenergistics2:material:37>);
-recipes.remove(<embers:blend_caminite>);
-recipes.remove(<embers:ember_bore>);
-recipes.remove(<embers:mech_core>);
-recipes.remove(<embers:ember_emitter>);
-recipes.remove(<embers:ember_receiver>);
-recipes.remove(<embers:copper_cell>.withTag({emberCapacity: 24000.0, ember: 0.0}));
-recipes.remove(<embers:alchemy_tablet>);
-recipes.remove(<embers:cinder_plinth>);
-recipes.remove(<forestry:still>);
-recipes.remove(<deepmoblearning:glitch_infused_helmet>);
-recipes.remove(<deepmoblearning:glitch_infused_chestplate>);
-recipes.remove(<deepmoblearning:glitch_infused_leggings>);
-recipes.remove(<deepmoblearning:glitch_infused_boots>);
-recipes.remove(<scannable:scanner>);
-recipes.remove(<botania:manaresource:14>);
-recipes.remove(<botania:pylon:2>);
-recipes.remove(<actuallyadditions:item_wings_of_the_bats>);
-recipes.remove(<extrautils2:angelring:5>);
-recipes.remove(<extrautils2:angelring:4>);
-recipes.remove(<extrautils2:angelring:3>);
-recipes.remove(<extrautils2:angelring:2>);
-recipes.remove(<extrautils2:angelring:1>);
-recipes.remove(<extrautils2:angelring>);
-recipes.remove(<botania:flighttiara>);
-recipes.remove(<silentgems:chaosrune>);
-recipes.remove(<embers:ember_activator>);
-recipes.remove(<embers:boiler>);
-recipes.remove(<enderio:item_material>);
-recipes.remove(<embers:block_furnace>);
-recipes.remove(<embers:mixer>);
-recipes.remove(<embers:crystal_cell>);
-recipes.remove(<appliedenergistics2:material:52>);
-recipes.remove(<arcanearchives:gemcutters_table>);
-recipes.remove(<deepmoblearning:polymer_clay>);
-recipes.remove(<extendedcrafting:material:2>);
-recipes.remove(<embers:mini_boiler>);
-recipes.remove(<enderio:item_power_conduit:2>);
-recipes.remove(<enderio:item_power_conduit:1>);
-recipes.remove(<tanaddons:temp_regulator>);
-recipes.remove(<appliedenergistics2:material:5>);
-recipes.remove(<mekanism:controlcircuit:1>);
-recipes.remove(<mekanism:controlcircuit:2>);
-recipes.remove(<mekanism:controlcircuit:3>);
-recipes.remove(<forestry:fabricator>);
-recipes.remove(<forestry:rainmaker>);
-recipes.remove(<forestry:squeezer>);
-recipes.remove(<forestry:moistener>);
-recipes.remove(<forestry:fermenter>);
-recipes.remove(<forestry:centrifuge>);
-recipes.remove(<forestry:carpenter>);
-recipes.remove(<forestry:bottler>);
-recipes.remove(<extrautils2:machine>);
-recipes.remove(<deepmoblearning:trial_key>);
-recipes.remove(<deepmoblearning:simulation_chamber>);
-recipes.remove(<deepmoblearning:extraction_chamber>);
-recipes.remove(<deepmoblearning:trial_keystone>);
-recipes.remove(<actuallyadditions:block_atomic_reconstructor>);
-recipes.remove(<enderio:item_material:51>);
-recipes.remove(<appliedenergistics2:material:35>);
-recipes.remove(<twilightforest:uncrafting_table>);
-recipes.remove(<actuallyadditions:block_phantom_liquiface>);
-recipes.remove(<enderio:item_material:67>);
-recipes.remove(<enderio:item_material:52>);
-recipes.remove(<extrautils2:drum:3>);
-recipes.remove(<enderio:block_wired_charger>);
-recipes.remove(<simplyjetpacks:metaitemmods:26>);
-recipes.remove(<simplyjetpacks:metaitemmods:27>);
+//导包
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
+
+val removingArray = [
+    <item:simplyjetpacks:metaitemmods:18>,
+    <immersiveengineering:metal_device0:2>,
+    <immersiveengineering:metal_device0:1>,
+    <immersiveengineering:metal_device0>,
+    <appliedenergistics2:material:36>,
+    <appliedenergistics2:material:37>,
+    <embers:blend_caminite>,
+    <embers:ember_bore>,
+    <embers:mech_core>,
+    <embers:ember_emitter>,
+    <embers:ember_receiver>,
+    <embers:copper_cell>.withTag({emberCapacity: 24000.0, ember: 0.0}),
+    <embers:alchemy_tablet>,
+    <embers:cinder_plinth>,
+    <forestry:still>,
+    <deepmoblearning:glitch_infused_helmet>,
+    <deepmoblearning:glitch_infused_chestplate>,
+    <deepmoblearning:glitch_infused_leggings>,
+    <deepmoblearning:glitch_infused_boots>,
+    <scannable:scanner>,
+    <botania:manaresource:14>,
+    <botania:pylon:2>,
+    <actuallyadditions:item_wings_of_the_bats>,
+    <extrautils2:angelring:5>,
+    <extrautils2:angelring:4>,
+    <extrautils2:angelring:3>,
+    <extrautils2:angelring:2>,
+    <extrautils2:angelring:1>,
+    <extrautils2:angelring>,
+    <botania:flighttiara>,
+    <silentgems:chaosrune>,
+    <embers:ember_activator>,
+    <embers:boiler>,
+    <enderio:item_material>,
+    <embers:block_furnace>,
+    <embers:mixer>,
+    <embers:crystal_cell>,
+    <appliedenergistics2:material:52>,
+    <arcanearchives:gemcutters_table>,
+    <deepmoblearning:polymer_clay>,
+    <extendedcrafting:material:2>,
+    <embers:mini_boiler>,
+    <enderio:item_power_conduit:2>,
+    <enderio:item_power_conduit:1>,
+    <tanaddons:temp_regulator>,
+    <appliedenergistics2:material:5>,
+    <mekanism:controlcircuit:1>,
+    <mekanism:controlcircuit:2>,
+    <mekanism:controlcircuit:3>,
+    <forestry:fabricator>,
+    <forestry:rainmaker>,
+    <forestry:squeezer>,
+    <forestry:moistener>,
+    <forestry:fermenter>,
+    <forestry:centrifuge>,
+    <forestry:carpenter>,
+    <forestry:bottler>,
+    <extrautils2:machine>,
+    <extrautils2:lawsword>,
+    <extrautils2:compoundbow>,
+    <extrautils2:fireaxe>,
+    <extrautils2:luxsaber:*>,
+    <deepmoblearning:trial_key>,
+    <deepmoblearning:simulation_chamber>,
+    <deepmoblearning:extraction_chamber>,
+    <deepmoblearning:trial_keystone>,
+    <actuallyadditions:block_atomic_reconstructor>,
+    <enderio:item_material:51>,
+    <appliedenergistics2:material:35>,
+    <twilightforest:uncrafting_table>,
+    <actuallyadditions:block_phantom_liquiface>,
+    <enderio:item_material:67>,
+    <enderio:item_material:52>,
+    <extrautils2:drum:3>,
+    <enderio:block_wired_charger>,
+    <simplyjetpacks:metaitemmods:26>,
+    <simplyjetpacks:metaitemmods:27>,
+] as IItemStack[];
+
+for items in removingArray{
+    recipes.remove(items);
+}
