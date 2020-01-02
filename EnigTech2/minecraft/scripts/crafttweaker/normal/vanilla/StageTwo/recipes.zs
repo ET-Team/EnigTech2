@@ -50,3 +50,7 @@ recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "
 recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk5"}),[<minecraft:paper>,<contenttweaker:material_part:61>]);
 recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:magic_magtinizer_mk2"}),[<minecraft:paper>,<environmentaltech:pladium_crystal>]);
 
+//混沌煤炭块
+val bcoal = <minecraft:coal_block>;
+val bchaos = <silentgems:miscblock:0>;
+recipes.addShaped("chaoscoal_block", <silentgems:miscblock:3>*8, [[bcoal,bcoal,bcoal],[bcoal,bchaos,bcoal],[bcoal,bcoal,bcoal]]);
