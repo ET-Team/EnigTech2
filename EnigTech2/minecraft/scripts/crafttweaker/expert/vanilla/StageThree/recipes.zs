@@ -31,7 +31,6 @@ recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immers
 
 //脉络附魔书
 recipes.addShaped(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 47 as short}]}), [[<contenttweaker:arcane_essence>, <minecraft:diamond_pickaxe>.anyDamage(), <contenttweaker:arcane_essence>],[<contenttweaker:arcane_essence>, <minecraft:book>, <contenttweaker:arcane_essence>], [<contenttweaker:arcane_essence>, <naturesaura:infused_iron>, <contenttweaker:arcane_essence>]]);
-recipes.addShaped(<silentgems:enchantmenttoken>.withTag({TokenEnchantments: [{lvl: 1 as short, name: "veining:veining"}]}), [[null, null, null],[null, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 46 as short}]}), null], [null, null, null]]);
 
 //辐射采集器
 recipes.addShaped(<arcanearchives:radiant_resonator>, [[<contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>],[<enderio:item_alloy_ingot:5>, <naturesaura:ancient_log>, <enderio:item_alloy_ingot:5>], [<enderio:item_alloy_ingot:5>, null, <enderio:item_alloy_ingot:5>]]); 
@@ -42,7 +41,6 @@ recipes.addShaped("placer", <naturesaura:placer>, [[<botania:storage>, <botania:
 
 //砍树附魔
 recipes.addShaped(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 38 as short}]}),[[<contenttweaker:arcane_essence>,<minecraft:diamond_axe>,<contenttweaker:arcane_essence>],[<contenttweaker:arcane_essence>,<minecraft:book>,<contenttweaker:arcane_essence>],[<contenttweaker:arcane_essence>,<naturesaura:infused_iron>,<contenttweaker:arcane_essence>]]);
-recipes.addShapeless(<silentgems:enchantmenttoken>.withTag({TokenEnchantments: [{lvl: 1 as short, name: "felling:felling"}]}),[<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 64 as short}]})]);
 
 //经验传送器
 recipes.addShaped(<xpt:link_card>, [[<minecraft:blaze_powder>, <minecraft:ender_pearl>, <minecraft:blaze_powder>],[<minecraft:ender_pearl>, <contenttweaker:plastic_plate>, <minecraft:ender_pearl>], [<minecraft:blaze_powder>, <minecraft:ender_pearl>, <minecraft:blaze_powder>]]);

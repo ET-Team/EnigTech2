@@ -100,7 +100,7 @@ TableCrafting.addShaped(3, <extrautils2:lawsword>, [
 //消防斧
 TableCrafting.addShaped(3, <extrautils2:fireaxe>, [
 	[null, null, <enderio:item_alloy_ball>, <enderio:block_infinity:2>, <enderio:block_infinity:2>, null, null], 
-	[null, null, <enderio:block_infinity:2>, <botania:lens:7>, <immersiveengineering:toolupgrade:7>, <minecraft:enchanted_book>, null], 
+	[null, null, <enderio:block_infinity:2>, <botania:lens:7>, <immersiveengineering:toolupgrade:7>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 38 as short}]}), null], 
 	[null, null, <enderio:block_infinity:2>, <immersiveengineering:toolupgrade:7>, <botania:lens:8>, <thermalfoundation:material:357>, null], 
 	[null, null, null, <bloodmagic:monster_soul:2>, <thermalfoundation:material:357>, <thermalfoundation:material:357>, null], 
 	[null, null, <advancedrocketry:productrod>, null, null, null, null], 
