@@ -187,8 +187,8 @@ TableCrafting.addShaped(3, <extrautils2:luxsaber:7>, [
 TableCrafting.addShaped(3, <extrautils2:compoundbow>, [
 	[null, null, null, null, null, <contenttweaker:iridium_osmium_ingot>, <deepmoblearning:glitch_infused_ingot>], 
 	[null, null, null, <contenttweaker:iridium_osmium_ingot>, <contenttweaker:iridium_osmium_ingot>, null, <botania:manaresource:16>], 
-	[null, null, <botania:lens:8>, <advancedrocketry:productsheet:1>, null, <botania:manaresource:16>, null], 
-	[null, <contenttweaker:iridium_osmium_ingot>, <advancedrocketry:productsheet:1>, <enderio:item_material:13>, <botania:manaresource:16>, <enderio:item_material:67>, null], 
+	[null, null, <botania:lens:8>, <advancedrocketry:productplate:1>, null, <botania:manaresource:16>, null], 
+	[null, <contenttweaker:iridium_osmium_ingot>, <advancedrocketry:productplate:1>, <enderio:item_material:13>, <botania:manaresource:16>, <enderio:item_material:67>, null], 
 	[null, <contenttweaker:iridium_osmium_ingot>, null, <botania:manaresource:16>, <deepmoblearning:data_model_skeleton>.withTag({tier: 4}), null, null], 
 	[<contenttweaker:iridium_osmium_ingot>, null, <botania:manaresource:16>, <enderio:item_material:67>, null, <botania:lightrelay:3>, null], 
 	[<deepmoblearning:glitch_infused_ingot>, <botania:manaresource:16>, null, null, null, null, null]
