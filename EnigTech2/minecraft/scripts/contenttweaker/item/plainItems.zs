@@ -90,6 +90,9 @@ var items as string[] = [
 	"fuel_helper",
 	"magic_key",
 	"blast_furnace_brick",
+	"stable_potato",
+	"baked_stable_potato",
+	"baked_stable_potato_unpolished",
 
 	"enigarium",
 	"technium",
@@ -105,3 +108,9 @@ var items as string[] = [
 for item in items{
 	VanillaFactory.createItem(item).register();
 }
+
+val item = VanillaFactory.createItem("charged_stable_potato");
+item.maxStackSize = 64;
+item.rarity = "EPIC";
+item.glowing = true;
+item.register();

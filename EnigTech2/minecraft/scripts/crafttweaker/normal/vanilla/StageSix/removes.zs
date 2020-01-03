@@ -95,6 +95,13 @@ val removingODArray = [
     <ore:blockSteel>
 ] as IOreDictEntry[];
 
+//按配方ID移除
+val removingRNArray = [
+    "crafttweaker:thermaldynamics-duct_16_4-modified",
+    "crafttweaker:thermaldynamics-duct_16_5-modified",
+    "crafttweaker:thermaldynamics-duct_16_7-modified",
+] as string[];
+
 //结算
 for ods in removingODArray{
     recipes.remove(ods);
@@ -102,4 +109,8 @@ for ods in removingODArray{
 
 for items in removingArray{
     recipes.remove(items);
+}
+
+for rns in removingRNArray{
+    recipes.removeByRecipeName(rns);
 }
