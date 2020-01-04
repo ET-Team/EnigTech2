@@ -21,3 +21,5 @@ FluidToItem.transform(<contenttweaker:arcane_essence> * 4, <liquid:fluid_dragon_
 FluidToItem.transform(<embers:blend_caminite> * 4, <liquid:fluid_blend_caminite>, [<contenttweaker:arcane_essence> * 2], true);
 //玻璃瓶->纯净水->纯净水瓶
 FluidToItem.transform(<toughasnails:purified_water_bottle> * 3, <liquid:purified_water>, [<minecraft:glass_bottle> * 3], true);
+//冷静土豆
+FluidToItem.transform(<contenttweaker:stable_potato>, <fluid:cryotheum>, [<silentgems:chaosorb>.withTag({ChaosCharge: 5000})], true);
