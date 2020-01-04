@@ -146,10 +146,10 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_itemcraftingcompo
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystaline", machineName, speedTierThree)
 	.addManaInput(20000)
 	.addItemOutput(<extendedcrafting:material:24>*2)
-	.addItemInput(<bloodmagic:monster_soul:4>)
-	.addItemInput(<bloodmagic:monster_soul:3>)
-    .addItemInput(<bloodmagic:monster_soul:2>)
-    .addItemInput(<bloodmagic:monster_soul:1>)
+	.addItemInput(<bloodmagic:item_demon_crystal:4>)
+	.addItemInput(<bloodmagic:item_demon_crystal:3>)
+    .addItemInput(<bloodmagic:item_demon_crystal:2>)
+    .addItemInput(<bloodmagic:item_demon_crystal:1>)
     .addFluidInput(<liquid:fluid_dragon_breathe>*500)
 	.build();
 
