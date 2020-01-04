@@ -88,12 +88,32 @@ val removingArray = [
     <thermaldynamics:retriever:2>,
     <thermaldynamics:retriever:3>,
     <thermaldynamics:retriever:4>,
+        <thermaldynamics:duct_0:9>,
+    <thermaldynamics:duct_16:4>,
+    <thermaldynamics:duct_16:5>,
+    <thermaldynamics:duct_32:4>.withTag({DenseType: 2 as byte}),
+    <thermaldynamics:duct_32:4>.withTag({DenseType: 1 as byte}),
+    <thermaldynamics:duct_32:4>,
+    <thermaldynamics:duct_32:5>.withTag({DenseType: 2 as byte}),
+    <thermaldynamics:duct_32:5>.withTag({DenseType: 1 as byte}),
+    <thermaldynamics:duct_32:5>,
+    <thermaldynamics:duct_32:6>.withTag({DenseType: 2 as byte}),
+    <thermaldynamics:duct_32:6>.withTag({DenseType: 1 as byte}),
+    <thermaldynamics:duct_32:6>,
+    <thermaldynamics:duct_32:7>.withTag({DenseType: 2 as byte}),
+    <thermaldynamics:duct_32:7>.withTag({DenseType: 1 as byte}),
+    <thermaldynamics:duct_32:7>
 ] as IItemStack[];
 
 //按矿辞移除
 val removingODArray = [
     <ore:blockSteel>
 ] as IOreDictEntry[];
+
+//按配方ID移除
+val removingRNArray = [
+
+] as string[];
 
 //结算
 for ods in removingODArray{
@@ -102,4 +122,8 @@ for ods in removingODArray{
 
 for items in removingArray{
     recipes.remove(items);
+}
+
+for rns in removingRNArray{
+    recipes.removeByRecipeName(rns);
 }

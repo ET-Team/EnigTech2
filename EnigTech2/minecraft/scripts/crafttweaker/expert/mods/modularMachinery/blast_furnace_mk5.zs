@@ -307,3 +307,10 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_silicon", machine
 	.addItemOutput(<appliedenergistics2:material:5>)
 	.addItemInput(<appliedenergistics2:material:3>)
 	.build();
+
+//未抛光的美味冷静土豆
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_potato", machineName, speedTierThree)
+    .addManaInput(3000)
+	.addItemOutput(<contenttweaker:baked_stable_potato_unpolished>)
+	.addItemInput(<contenttweaker:stable_potato>)
+	.build();

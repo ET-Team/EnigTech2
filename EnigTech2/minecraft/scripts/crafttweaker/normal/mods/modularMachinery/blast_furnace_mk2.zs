@@ -177,10 +177,10 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_AlTi", machineNam
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystaline", machineName, speedTierThree)
 	.addManaInput(20000)
 	.addItemOutput(<extendedcrafting:material:24>*2)
-	.addItemInput(<bloodmagic:monster_soul:4>)
-	.addItemInput(<bloodmagic:monster_soul:3>)
-    .addItemInput(<bloodmagic:monster_soul:2>)
-    .addItemInput(<bloodmagic:monster_soul:1>)
+	.addItemInput(<bloodmagic:item_demon_crystal:4>)
+	.addItemInput(<bloodmagic:item_demon_crystal:3>)
+    .addItemInput(<bloodmagic:item_demon_crystal:2>)
+    .addItemInput(<bloodmagic:item_demon_crystal:1>)
     .addFluidInput(<liquid:fluid_dragon_breathe>*500)
 	.build();
 
@@ -254,4 +254,11 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_silicon", machine
 	.addManaInput(3000)
 	.addItemOutput(<appliedenergistics2:material:5>)
 	.addItemInput(<appliedenergistics2:material:3>)
+	.build();
+
+//未抛光的美味冷静土豆
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_potato", machineName, speedTierThree)
+    .addManaInput(1000)
+	.addItemOutput(<contenttweaker:baked_stable_potato_unpolished>)
+	.addItemInput(<contenttweaker:stable_potato>)
 	.build();

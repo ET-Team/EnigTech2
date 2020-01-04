@@ -84,5 +84,6 @@ recipes.remove(<astralsorcery:itemwand>.withTag({astralsorcery: {}}));
 recipes.remove(<silentgems:chaosorb:1>);
 recipes.removeByRecipeName("microblockcbe:stone_rod");
 recipes.remove(<silentgems:guide_book>);
+recipes.removeByRecipeName("silentgems:potato_stick");
 
 recipes.removeByRegex("immersiveengineering:material/plate_.*");
