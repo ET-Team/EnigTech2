@@ -14,8 +14,9 @@ silicon_grower.addRecipe({water:<liquid:water>*1000, item:<contenttweaker:multic
 silicon_grower.addRecipe({water:<liquid:astralsorcery.liquidstarlight>*200,item:<ore:sand>},{output:<contenttweaker:multicrystal_silicon>}, 80000, 400);
 silicon_grower.addRecipe({water:<liquid:astralsorcery.liquidstarlight>*200,item:<ore:dustDilithium>},{output:<libvulpes:productgem>}, 80000, 400);
 
-polisher.addRecipe({water:<liquid:water>*100, item:<contenttweaker:unpolished_slice_monosilicon>},{output:<contenttweaker:slice_monosilicon>}, 8000, 40);
+polisher.addRecipe({water:<liquid:water>*100, item:<contenttweaker:unpolished_slice_monosilicon>},{output:<contenttweaker:slice_monosilicon>},8000,40);
 polisher.addRecipe({water:<liquid:water>*100, item:<contenttweaker:dark_gaiya_crystal_unpolished>},{output:<contenttweaker:dark_gaiya_crystal>},40000,200);
+polisher.addRecipe({water:<liquid:boiling_potato_juice>*9600, item:<contenttweaker:baked_stable_potato_unpolished>},{output:<contenttweaker:baked_stable_potato>},40000,200);
 
 fluider.addRecipe({liquid:<liquid:fluid_concentrated_ethylene>*200},{output:<contenttweaker:bulk_of_plastic>},1000,40);
 fluider.addRecipe({liquid:<liquid:fluid_blend_caminite>*200},{output:<embers:blend_caminite>},5000,40);
