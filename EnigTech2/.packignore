@@ -1,5 +1,6 @@
 ET2LOGO-2-200x200.png
 ET2LOGO-2.png
+ET2LOGO-2.png
 ET2LOGO.png
 Hexagon.png
 logo.png
@@ -14,6 +15,12 @@ minecraft/CustomSkinLoader
 minecraft/astralsorcery
 minecraft/astralsorcery
 minecraft/backups
+minecraft/backups
+minecraft/config/BNBGamingCore.cfg
+minecraft/config/betterfps.json
+minecraft/config/bibliocraft.cfg
+minecraft/config/bookshelf.cfg
+minecraft/config/clienttweaks.cfg
 minecraft/config/jei/bookmarks.ini
 minecraft/config/jei/bookmarks.ini
 minecraft/config/jei/jei.cfg

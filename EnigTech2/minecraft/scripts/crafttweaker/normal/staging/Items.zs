@@ -311,3 +311,6 @@ for i in 0 to 16{
     mods.ItemStages.addItemStage("five", <contenttweaker:sub_block_holder_0>.definition.makeStack(i));
 }
 mods.ItemStages.stageTooltip("alpha", "EMC:");
+
+mods.ItemStages.removeItemStage(<soot:stamp_text>);
+mods.ItemStages.addItemStage("default",<soot:stamp_text>);
