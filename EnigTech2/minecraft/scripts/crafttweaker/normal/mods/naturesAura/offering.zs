@@ -2,7 +2,7 @@
 #priority -100
 
 //星图
-mods.naturesaura.Offering.addRecipe("itemconstellationpaper", <astralsorcery:itemcraftingcomponent>,1,<astralsorcery:itemknowledgeshare>.withTag({astralsorcery: {}}), <astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {}}));
+mods.naturesaura.Offering.addRecipe("itemconstellationpaper", <astralsorcery:itemcraftingcomponent>,1,<astralsorcery:itemcraftingcomponent:5>, <astralsorcery:itemconstellationpaper>.withTag({astralsorcery: {}}));
 //宝石
 mods.naturesaura.Offering.addRecipe("1", <silentgems:gem:26>,1,<twilightforest:hydra_chop>, <silentgems:gem:26>*64);
 mods.naturesaura.Offering.addRecipe("2", <silentgems:gem:5>,1,<twilightforest:hydra_chop>, <silentgems:gem:5>*64);
