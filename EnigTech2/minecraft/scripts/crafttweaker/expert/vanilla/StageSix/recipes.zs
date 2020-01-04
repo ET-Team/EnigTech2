@@ -1,6 +1,8 @@
 #packmode expert
 #priority -100
 
+import crafttweaker.item.IItemStack;
+
 //钢制机壳
 recipes.addShaped(<mekanism:basicblock:8>,[[<contenttweaker:material_part:52>,<thermalfoundation:glass:3>,<contenttweaker:material_part:52>],[<thermalfoundation:glass:3>,<contenttweaker:ultra_machine_core>,<thermalfoundation:glass:3>],[<contenttweaker:material_part:52>,<thermalfoundation:glass:3>,<contenttweaker:material_part:52>]]);
 //透镜
@@ -80,14 +82,6 @@ recipes.addShaped(
 //结构管道
 recipes.addShapedMirrored("structuralduct_expert",<thermaldynamics:duct_48:0>*4,[[null,null,null],[<ore:plateInvar>,<mekanism:enrichedalloy>,<ore:plateInvar>],[null,null,null]]);
 
-//凛冰固化能量管道及其他
-recipes.replaceAllOccurences(<thermaldynamics:duct_0:4>, <thermaldynamics:duct_48:0>);
-recipes.replaceAllOccurences(<thermaldynamics:duct_16:2>, <thermaldynamics:duct_48:0>);
-recipes.replaceAllOccurences(<thermaldynamics:duct_16:3>, <thermaldynamics:duct_48:0>);
-recipes.replaceAllOccurences(<thermaldynamics:duct_32:0>, <thermaldynamics:duct_48:0>);
-recipes.replaceAllOccurences(<thermaldynamics:duct_32:1>, <thermaldynamics:duct_48:0>);
-recipes.replaceAllOccurences(<thermaldynamics:duct_32:2>, <thermaldynamics:duct_48:0>);
-
 //伺服器
 recipes.addShaped("servo_signalum_expert",<thermaldynamics:servo:3>*2,[[null,<compactmachines3:redstonetunneltool>,null],[<xnet:netcable:4>,<appliedenergistics2:quartz_glass>,<xnet:netcable:4>],[<ore:ingotSignalum>,<extrautils2:ingredients:0>,<ore:ingotSignalum>]]);
 recipes.addShaped("servo_enderium_expert",<thermaldynamics:servo:4>*2,[[null,<compactmachines3:redstonetunneltool>,null],[<xnet:netcable:4>,<appliedenergistics2:quartz_glass>,<xnet:netcable:4>],[<ore:ingotEnderium>,<extrautils2:ingredients:0>,<ore:ingotEnderium>]]);
@@ -99,3 +93,50 @@ recipes.addShaped("filter_enderium_expert",<thermaldynamics:filter:4>*2,[[null,<
 //检索器
 recipes.addShaped("retriever_signalum_expert",<thermaldynamics:retriever:3>*2,[[null,<arcanearchives:monitoring_crystal>,null],[<appliedenergistics2:material:42>,<appliedenergistics2:quartz_glass>,<appliedenergistics2:material:42>],[<ore:ingotSignalum>,<extrautils2:ingredients:2>,<ore:ingotSignalum>]]);
 recipes.addShaped("retriever_enderium_expert",<thermaldynamics:retriever:4>*2,[[null,<arcanearchives:monitoring_crystal>,null],[<appliedenergistics2:material:42>,<appliedenergistics2:quartz_glass>,<appliedenergistics2:material:42>],[<ore:ingotEnderium>,<extrautils2:ingredients:2>,<ore:ingotEnderium>]]);
+
+//TD管道规整
+val hpj = <ore:ingotElectrum>;
+val yhbl = <ore:blockGlassHardened>;
+val guan = <thermaldynamics:duct_48:0>;
+val xsu = <ore:ingotSignalum>;
+val lead = <ore:ingotLead>;
+val leadn = <ore:nuggetLead>;
+val silvern = <ore:nuggetSilver>;
+
+recipes.addShaped("empty_csf_tweaked",<thermaldynamics:duct_0:9>,[[hpj,yhbl,hpj],[yhbl,guan,yhbl],[hpj,yhbl,hpj]]);
+recipes.addShaped("fluiduct_tweaked",<thermaldynamics:duct_16:4>*3,[[null,xsu,null],[guan,guan,guan],[null,hpj,null]]);
+recipes.addShaped("itemduct_tweaked",<thermaldynamics:duct_32:4>*3,[[null,guan,null],[xsu,guan,hpj],[null,guan,null]]);
+recipes.addShapedMirrored("denseitemduct_tweaked_1",<thermaldynamics:duct_32:4>.withTag({DenseType: 1 as byte}),[[null,null,null],[leadn,<thermaldynamics:duct_32:4>,leadn],[null,leadn,null]]);
+recipes.addShapedMirrored("denseitemduct_tweaked_2",<thermaldynamics:duct_32:4>.withTag({DenseType: 2 as byte}),[[null,null,null],[silvern,<thermaldynamics:duct_32:4>,silvern],[null,silvern,null]]);
+recipes.addShapedMirrored("denseimpulseitemduct_tweaked_1",<thermaldynamics:duct_32:6>.withTag({DenseType: 1 as byte}),[[null,null,null],[leadn,<thermaldynamics:duct_32:6>,leadn],[null,leadn,null]]);
+recipes.addShapedMirrored("denseimpulseitemduct_tweaked_2",<thermaldynamics:duct_32:6>.withTag({DenseType: 2 as byte}),[[null,null,null],[silvern,<thermaldynamics:duct_32:6>,silvern],[null,silvern,null]]);
+
+//录入透明
+val transparentArray = [
+    <thermaldynamics:duct_16:4>,
+    <thermaldynamics:duct_32:4>.withTag({DenseType: 2 as byte}),
+    <thermaldynamics:duct_32:4>.withTag({DenseType: 1 as byte}),
+    <thermaldynamics:duct_32:4>,
+    <thermaldynamics:duct_32:6>.withTag({DenseType: 2 as byte}),
+    <thermaldynamics:duct_32:6>.withTag({DenseType: 1 as byte}),
+    <thermaldynamics:duct_32:6>
+] as IItemStack[];
+
+//录入不透明
+val opaqueArray = [
+    <thermaldynamics:duct_16:5>,
+    <thermaldynamics:duct_32:5>.withTag({DenseType: 2 as byte}),
+    <thermaldynamics:duct_32:5>.withTag({DenseType: 1 as byte}),
+    <thermaldynamics:duct_32:5>,
+    <thermaldynamics:duct_32:7>.withTag({DenseType: 2 as byte}),
+    <thermaldynamics:duct_32:7>.withTag({DenseType: 1 as byte}),
+    <thermaldynamics:duct_32:7>
+] as IItemStack[];
+
+//结算转换配方
+for i, trans in transparentArray{
+    recipes.addShapeless(opaqueArray[i]*6,[trans,trans,trans,trans,trans,trans,lead.transformReplace(<thermalfoundation:glass:3>)]);
+}
+for i, opaq in opaqueArray{
+    recipes.addShapeless(transparentArray[i]*6,[opaq,opaq,opaq,opaq,opaq,opaq,yhbl.transformReplace(<thermalfoundation:material:131>)]);
+}
