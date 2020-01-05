@@ -1,5 +1,5 @@
 //Set icon item
-setIcon(<minecraft:paper>)
+setIcon(<thermalfoundation:material:23>)
 
 //Set title String
 setTitle("\u9636\u6bb5\u56db:\u673a\u68b0\u5316")

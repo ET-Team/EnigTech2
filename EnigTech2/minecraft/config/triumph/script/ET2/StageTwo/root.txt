@@ -1,5 +1,5 @@
 //Set icon item
-setIcon(<minecraft:paper>)
+setIcon(<botania:specialflower, meta:0,nbt:{type:"puredaisy"}>)
 
 //Set title String
 setTitle("\u9636\u6bb5\u4e8c:\u5f00\u5316")

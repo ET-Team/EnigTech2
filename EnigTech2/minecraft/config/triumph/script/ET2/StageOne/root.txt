@@ -1,5 +1,5 @@
 //Set icon item
-setIcon(<minecraft:paper>)
+setIcon(<survivalist:rock, ore:rock, meta:0>)
 
 //Set title String
 setTitle("\u9636\u6bb5\u4e00:\u539f\u59cb")
