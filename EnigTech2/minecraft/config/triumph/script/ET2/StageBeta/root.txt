@@ -1,5 +1,5 @@
 //Set icon item
-setIcon(<minecraft:paper>)
+setIcon(<teastory:tea_leaf>)
 
 //Set title String
 setTitle("\u9636\u6bb5\u7ef4\u5854\uff1a\u4eab\u53d7\u751f\u6d3b")

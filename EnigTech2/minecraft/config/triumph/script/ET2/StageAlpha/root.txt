@@ -1,5 +1,5 @@
 //Set icon item
-setIcon(<minecraft:paper>)
+setIcon(<contenttweaker:ascenders_proof>)
 
 //Set title String
 setTitle("\u9636\u6bb5\u963f\u5c14\u6cd5:\u7075\u80fd\u98de\u5347")

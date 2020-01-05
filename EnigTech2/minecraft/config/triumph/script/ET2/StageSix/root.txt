@@ -1,5 +1,5 @@
 //Set icon item
-setIcon(<minecraft:paper>)
+setIcon(<appliedenergistics2:material:47>)
 
 //Set title String
 setTitle("\u9636\u6bb5\u516d:\u539f\u5b50")

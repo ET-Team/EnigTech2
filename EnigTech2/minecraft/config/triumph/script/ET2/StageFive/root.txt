@@ -1,5 +1,5 @@
 //Set icon item
-setIcon(<minecraft:paper>)
+setIcon(<botania:tinyplanet>)
 
 //Set title String
 setTitle("\u9636\u6bb5\u4e94:\u7fa4\u661f")
