@@ -85,6 +85,8 @@ val removingArray = [
     <enderio:block_wired_charger>,
     <simplyjetpacks:metaitemmods:26>,
     <simplyjetpacks:metaitemmods:27>,
+    <thermalexpansion:capacitor>,
+    <thermalexpansion:capacitor:1>
 ] as IItemStack[];
 
 for items in removingArray{

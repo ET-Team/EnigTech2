@@ -45,6 +45,8 @@ recipes.addShaped(<enderio:item_material:52>,[[<enderio:item_material:74>,<ore:d
 recipes.addShaped(<enderio:block_wired_charger>,[[<enderio:item_alloy_ingot>,<contenttweaker:magcondium_ingot>,<enderio:item_alloy_ingot>],[<contenttweaker:magcondium_ingot>,<enderio:block_simple_wired_charger>,<contenttweaker:magcondium_ingot>],[<enderio:item_alloy_ingot>,<contenttweaker:magcondium_ingot>,<enderio:item_alloy_ingot>]]);
 recipes.addShaped(<simplyjetpacks:metaitemmods:26>,[[<ore:ingotLead>,<actuallyadditions:item_battery_double>,<ore:ingotLead>],[<ore:blockGlass>,<enderio:item_power_conduit>,<ore:blockGlass>],[<ore:ingotLead>,<embers:jet_augment>,<ore:ingotLead>]]);
 recipes.addShaped(<simplyjetpacks:metaitemmods:27>,[[<ore:ingotInvar>,<actuallyadditions:item_battery_double>,<ore:ingotInvar>],[<ore:blockGlass>,<enderio:item_power_conduit:1>,<ore:blockGlass>],[<ore:ingotInvar>,<embers:jet_augment>,<ore:ingotInvar>]]);
+recipes.addShaped(<thermalexpansion:capacitor>.withTag({Energy: 0}),[[null,<minecraft:redstone>,null],[<ore:ingotLead>,<ore:ingotCopper>,<ore:ingotLead>],[<minecraft:redstone>,<ore:dustSulfur>,<minecraft:redstone>]]);
+recipes.addShaped(<thermalexpansion:capacitor:1>.withTag({Energy: 0}),[[null,<minecraft:redstone>,null],[<ore:ingotInvar>,<thermalexpansion:capacitor>.withTag({Energy: 0}),<ore:ingotInvar>],[<minecraft:redstone>,<ore:ingotTin>,<minecraft:redstone>]]);
 //强化能量管道
 recipes.addShaped(<enderio:item_power_conduit:1> * 2, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<enderio:item_alloy_ingot:1>, <enderio:item_power_conduit>, <enderio:item_alloy_ingot:1>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 //模块化
