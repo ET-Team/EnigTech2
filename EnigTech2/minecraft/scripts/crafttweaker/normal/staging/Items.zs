@@ -13,7 +13,8 @@ var allStages as string[] = [
 	"four",
 	"five",
 	"six",
-	"alpha"
+	"alpha",
+	"beta"
 
 ];
 
@@ -196,6 +197,18 @@ mods.ItemStages.removeItemStage(<item:nuclearcraft:gem_dust:2>);
 mods.ItemStages.removeItemStage(<mekanism:dust:2>);
 
 var modsStageAlpha as string[] = [
+	"projecte",
+	"draconicevolution"
+];
+
+for mod in modsStageAlpha{
+
+	mods.ItemStages.stageModItems("alpha", mod);
+	Recipes.setRecipeStageByMod("alpha", mod);
+	
+}
+
+var modsStageBeta as string[] = [
 	"projecte",
 	"draconicevolution"
 ];
