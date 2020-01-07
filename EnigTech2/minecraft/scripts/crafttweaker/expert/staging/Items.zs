@@ -207,6 +207,19 @@ for mod in modsStageAlpha{
 	
 }
 
+var modsStageBeta as string[] = [
+	"touhou_little_maid",
+	"teastory",
+	"cuisine"
+];
+
+for mod in modsStageBeta{
+
+	mods.ItemStages.stageModItems("beta", mod);
+	Recipes.setRecipeStageByMod("beta", mod);
+	
+}
+
 mods.ItemStages.removeItemStage(<immersiveengineering:stone_decoration:2>);
 
 val itemsStageFour as IIngredient[] = [

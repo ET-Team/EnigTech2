@@ -209,14 +209,15 @@ for mod in modsStageAlpha{
 }
 
 var modsStageBeta as string[] = [
-	"projecte",
-	"draconicevolution"
+	"touhou_little_maid",
+	"teastory",
+	"cuisine"
 ];
 
-for mod in modsStageAlpha{
+for mod in modsStageBeta{
 
-	mods.ItemStages.stageModItems("alpha", mod);
-	Recipes.setRecipeStageByMod("alpha", mod);
+	mods.ItemStages.stageModItems("beta", mod);
+	Recipes.setRecipeStageByMod("beta", mod);
 	
 }
 
