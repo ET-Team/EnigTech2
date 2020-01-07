@@ -4,6 +4,6 @@ var machineName = "energy_solidifier";
 
 //Energy
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_energy", machineName, 60*18*20)
-    .addEnergyPerTickInput(200000000)
+    .addEnergyPerTickInput(100000000000)
     .addItemOutput(<contenttweaker:solidified_energy>)
     .build();

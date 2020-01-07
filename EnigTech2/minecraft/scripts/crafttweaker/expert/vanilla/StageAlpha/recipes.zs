@@ -46,10 +46,10 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [<thermalfoundation:upgrade:256>,<storagedrawers:upgrade_creative>,<thermalfoundation:upgrade:256>],
         [<contenttweaker:enigtechnium>,<thermalfoundation:upgrade:256>,<contenttweaker:enigtechnium>]
     ],
-    <appliedenergistics2:creative_storage_cell>.withTag({}) : [
-        [<appliedenergistics2:storage_cell_64k>.withTag({})],
+    <appliedenergistics2:creative_storage_cell> : [
+        [<appliedenergistics2:storage_cell_64k>],
         [<storagedrawers:upgrade_creative:1>],
-        [<appliedenergistics2:fluid_storage_cell_64k>.withTag({})]
+        [<appliedenergistics2:fluid_storage_cell_64k>]
     ],
     <buildinggadgets:constructionpastecontainercreative> : [
         [null,<storagedrawers:upgrade_creative:1>,null],
