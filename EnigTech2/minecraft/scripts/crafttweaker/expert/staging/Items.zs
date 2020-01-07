@@ -120,6 +120,7 @@ var modsStageFour as string[] = [
 	"arcanearchives",
 	"enderioconduitsappliedenergistics",
 	"appliedenergistics2",
+	"buildinggadgets",
 	"extrautils2",
 	"soot",
 	"carryon"
@@ -146,7 +147,6 @@ var modsStageFive as string[] = [
 	"enderiomachines",
 	"enderiointegrationforestry",
 	"ae2wtlib",
-	"buildinggadgets",
 	"wpt",
 	"advancedrocketry",
 	"libvulpes"
