@@ -34,3 +34,10 @@ SagMill.addRecipe(
     <ore:oreUranium>,
     "MULTIPLY_OUTPUT"
 );
+
+SagMill.addRecipe(
+    [<thermalfoundation:material:71>],
+    [100],
+    <ore:ingotIridium>,
+    "NONE"
+);
