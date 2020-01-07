@@ -101,8 +101,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_signalium", machi
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_enderium", machineName, speedTierTwo)
 	.addManaInput(10000)
 	.addItemOutput(<thermalfoundation:material:167>*2)
-	.addItemInput(<thermalfoundation:material:101>)
-	.addItemInput(<ore:dustIridium>)
+	.addItemInput(<ore:ingotIridium>)
+	.addItemInput(<ore:ingotSignalum>)
 	.addFluidInput(<liquid:ender>*250)
 	.build();
 
@@ -110,8 +110,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_enderium", machin
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_iriOsimium", machineName, speedTierTwo)
 	.addManaInput(10000)
 	.addItemOutput(<contenttweaker:iridium_osmium_ingot>*2)
-	.addItemInput(<ore:dustIridium>)
-	.addItemInput(<ore:dustOsmium>)
+	.addItemInput(<ore:ingotIridium>)
+	.addItemInput(<ore:ingotOsmium>)
 	.addItemInput(<contenttweaker:arcane_essence>*4)
 	.addFluidInput(<liquid:fluid_dragon_breathe>*500)
 	.build();
