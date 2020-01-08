@@ -17,7 +17,14 @@ val removingODArray = [
 
 //按配方ID移除
 val removingRNArray = [
-
+    "cuisine:mill",
+    "cuisine:bbq_rack",
+    "cuisine:fire_pit",
+    "cuisine:wok",
+    "cuisine:iron_spatula",
+    "cuisine:wooden_arm",
+    "cuisine:drinkro",
+    "cuisine:wooden_handle"
 ] as string[];
 
 //结算

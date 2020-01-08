@@ -50,6 +50,7 @@ val hidesArray = [
     <thermaldynamics:retriever:0>,
     <thermaldynamics:retriever:1>,
     <thermaldynamics:retriever:2>,
+    <cuisine:material:0>
 ] as IItemStack[];
 
 for items in hidesArray{
