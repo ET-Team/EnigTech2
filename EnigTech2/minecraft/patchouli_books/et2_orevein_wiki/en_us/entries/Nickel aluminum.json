@@ -2,6 +2,7 @@
     "name": "镍铝矿脉",
     "icon": "thermalfoundation:ore:5",
     "category": "small_vein",
+    "advancement": "et2:stageThree/root",
     "pages": [
         {
             "type": "spotlight",
