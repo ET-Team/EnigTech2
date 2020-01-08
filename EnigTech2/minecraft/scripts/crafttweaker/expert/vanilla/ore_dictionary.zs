@@ -24,3 +24,8 @@
 <ore:dustAsh>.remove(<forestry:ash>);
 //抹杀 Forge Microblocks模组 石棒 的存在
 <ore:rodStone>.remove(<microblockcbe:stone_rod>);
+//统一Mek Cuisine Pams 盐 矿辞
+<ore:listAllspice>.add(<mekanism:salt>);
+<ore:listAllspice>.add(<harvestcraft:saltitem>);
+<ore:foodSalt>.add(<cuisine:material:2>);
+<ore:itemSalt>.add(<cuisine:material:2>);
