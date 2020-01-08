@@ -2,6 +2,7 @@
     "name": "钍矿脉",
     "icon": "nuclearcraft:ore:3",
     "category": "small_vein",
+    "advancement": "et2:stageSix/root",
     "pages": [
         {
             "type": "spotlight",

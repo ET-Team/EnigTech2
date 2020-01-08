@@ -2,6 +2,7 @@
     "name": "煤炭矿脉",
     "icon": "minecraft:coal_ore",
     "category": "large_vein",
+    "advancement": "et2:stageOne/root",
     "pages": [
         {
             "type": "spotlight",

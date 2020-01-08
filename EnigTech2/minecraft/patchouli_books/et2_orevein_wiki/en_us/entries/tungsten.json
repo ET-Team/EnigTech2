@@ -2,6 +2,7 @@
     "name": "钨矿脉",
     "icon": "contenttweaker:sub_block_holder_0:3",
     "category": "small_vein",
+    "advancement": "et2:stageFive/root",
     "pages": [
         {
             "type": "spotlight",

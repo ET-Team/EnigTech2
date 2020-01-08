@@ -2,6 +2,7 @@
     "name": "石英矿脉",
     "icon": "minecraft:quartz_ore",
     "category": "small_vein",
+    "advancement": "et2:stageTwo/root",
     "pages": [
         {
             "type": "spotlight",

@@ -2,6 +2,7 @@
     "name": "钛矿脉",
     "icon": "libvulpes:ore0:8",
     "category": "small_vein",
+    "advancement": "et2:stageFive/root",
     "pages": [
         {
             "type": "spotlight",

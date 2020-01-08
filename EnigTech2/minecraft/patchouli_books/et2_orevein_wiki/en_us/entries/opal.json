@@ -2,12 +2,13 @@
     "name": "蛋白石矿脉",
     "icon": "silentgems:gemore:15",
     "category": "small_vein",
+    "advancement": "et2:stageTwo/root",
     "pages": [
         {
             "type": "spotlight",
             "item": "silentgems:gemore:15",
             "title": "蛋白石矿脉",
-            "text": "蛋白石矿脉是前期会用到的矿脉，储量中等，盛产蛋白石矿石"
+            "text": "蛋白石矿脉是前期会用到的矿脉，储量中等，钻石矿石比重很高，密度也非常大"
         },
         {
             "type": "text",

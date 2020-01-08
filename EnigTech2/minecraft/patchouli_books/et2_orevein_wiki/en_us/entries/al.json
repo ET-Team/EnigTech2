@@ -2,6 +2,7 @@
     "name": "铝土矿脉",
     "icon": "thermalfoundation:ore:4",
     "category": "large_vein",
+    "advancement": "et2:stageThree/root",
     "pages": [
         {
             "type": "spotlight",
