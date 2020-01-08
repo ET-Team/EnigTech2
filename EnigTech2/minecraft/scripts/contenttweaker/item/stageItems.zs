@@ -15,7 +15,8 @@
         brain_chip : "five",
         star_rune : "six",
         orders_truth : "alpha",
-        ascenders_proof : "beta",
+        ascenders_proof : "default",
+        life_insight : "beta"
     };
 
     function createStageItem(name as string, stage as string, enabled as bool){
