@@ -2,6 +2,7 @@
     "name": "铱矿脉",
     "icon": "thermalfoundation:ore:7",
     "category": "small_vein",
+    "advancement": "et2:stageFive/root",
     "pages": [
         {
             "type": "spotlight",
