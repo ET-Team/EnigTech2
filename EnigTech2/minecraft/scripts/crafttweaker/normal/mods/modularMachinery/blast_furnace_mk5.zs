@@ -179,9 +179,9 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystaline", mach
 	.addItemOutput(<extendedcrafting:material:24>*4)
 	.addItemInput(<bloodmagic:monster_soul:4>)
 	.addItemInput(<bloodmagic:monster_soul:3>)
-    .addItemInput(<bloodmagic:monster_soul:2>)
-    .addItemInput(<bloodmagic:monster_soul:1>)
-    .addFluidInput(<liquid:fluid_dragon_breathe>*1000)
+    	.addItemInput(<bloodmagic:monster_soul:2>)
+    	.addItemInput(<bloodmagic:monster_soul:1>)
+    	.addFluidInput(<liquid:fluid_dragon_breathe>*1000)
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_star_dust", machineName, speedTierOne)
@@ -203,7 +203,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_hyperconductive_c
 	.addItemOutput(<contenttweaker:ultracondium_crystal>*2)
 	.addItemInput(<extendedcrafting:material:24>)
 	.addItemInput(<ore:gemDilithium>,3)
-    .addGasInput("oxygen",500)
+    	.addGasInput("oxygen",500)
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_BFe", machineName, speedTierOne)
