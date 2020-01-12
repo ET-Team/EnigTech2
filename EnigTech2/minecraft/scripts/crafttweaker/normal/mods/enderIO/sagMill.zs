@@ -41,3 +41,10 @@ SagMill.addRecipe(
     <ore:ingotIridium>,
     "NONE"
 );
+
+SagMill.addRecipe(
+    [<libvulpes:productgem:0>*2, <libvulpes:productdust:0>, <minecraft:cobblestone>],
+    [100,15,15],
+    <ore:oreDilithium>,
+    "MULTIPLY_OUTPUT"
+);
