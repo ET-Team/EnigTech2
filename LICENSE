@@ -1,7 +1,7 @@
 ET License
 
-Copyright (c) 2019 dong031001
-版权所有 (c) 2019 dong031001
+Copyright (c) 2020 dong031001
+版权所有 (c) 2020 dong031001
 
 1.Definitions 术语定义
 
@@ -29,22 +29,27 @@ The customized content(the "CC") refers to any part of this repository that is n
 2.License
 
 Permission is hereby granted, free of charge, to anybody obtaining the CC, the freedom to use and modify CC, under the following conditions.
+许可在此列明，任何个体或组织都可以在以下前提下不收取任何费用地使用或修改本整合包：
 
 2.1
 
 Any individual and/or organization may not, whether in whole or partially, distribute a modified version of the CC.
+任何个体或组织都不得分发经修改后的客制化内容。
 
 2.2
 
 Any individual and/or organization may not, whether in whole or partially, use the CC in any commercial activities.
+任何个体或组织都不得将整合包用于商业用途。
 
 2.3
 
 Any individual and/or organization must give credit to the contributors of this repository when distributing the CC.
+任何个体或组织都应在整合包的分发过程中列明这个仓库的所有贡献者。
 
 2.4
 
 Toward any actions except for those declared, ALL RIGHTS RESERVED.
+对于任何没有在上列明的行为，版权所有者保留一切权利。
 
 3.Mod Dealings
 
