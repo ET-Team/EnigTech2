@@ -4,6 +4,8 @@
 !/EnigTech2
 /EnigTech2/*
 !/EnigTech2/minecraft
+!/EnigTech2/manifest.json
+!/EnigTech2/modlist.html
 /EnigTech2/minecraft/*
 !/EnigTech2/minecraft/scripts
 !/EnigTech2/minecraft/config
