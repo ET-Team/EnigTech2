@@ -26,9 +26,10 @@
         if(enabled){
             item.itemRightClick = function(stack, world, player, hand) {
                 print(stack.name);
-                Commands.call("gamestage add "+player.name+" "+stageItems[stack.name.substring(20)], player, world);
-                Commands.call("title "+player.name+"title {\"text\":\"您已解锁新阶段！\"}");
-                Commands.call("summon minecraft:firework_rocket "+player.x+" "+(player.y+2)+" "+player.z+" {LifeTime:30,FireworksItem:{id:'minecraft:firework_rocket',Count:1b,tag:{Fireworks:{Flight:3b,Explosions:[{Flicker:1b,Trail:1b,Type:1b,Colors:[I;11743532,2437522,3887386,14602026,14188952,8073150],FadeColors:[I;15435844,6719955,12801229,2651799,4312372,5320730,3887386,15790320]}]}}}}");
+                Commands.call("gamestage add "+player.name+" "+stageItems[stack.name.substring(20)], player, world, false, true);
+                Commands.call("title "+player.name+" title {\"text\":\"您已解锁新阶段！\"}", player, world, false, true);
+                Commands.call("summon minecraft:fireworks_rocket "+player.x+" "+(player.y+2)+" "+player.z+" {LifeTime:30,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532,3887386,2437522,8073150,4408131,14188952,4312372,14602026,15435844,15790320],FadeColors:[I;2437522,14188952,4312372,14602026]}]}}}}", player, world, false, true);
+                Commands.call("playsound minecraft:ui.toast.challenge_complete player "+player.name, player, world, false, true);
                 stack.shrink(1);
                 return "Success";
             };
