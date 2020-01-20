@@ -114,3 +114,9 @@ item.maxStackSize = 64;
 item.rarity = "EPIC";
 item.glowing = true;
 item.register();
+
+val tlm = VanillaFactory.createItem("tlm_ultra");
+tlm.maxStackSize = 1;
+tlm.rarity = "EPIC";
+tlm.glowing = true;
+tlm.register();

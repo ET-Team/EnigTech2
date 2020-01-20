@@ -135,7 +135,6 @@ item.contenttweaker.pity_from_nature.name=大自然的垂怜
 item.contenttweaker.essencial_blood.name=一滴精血
 item.contenttweaker.forbidden_life_essence.name=禁忌生命精华
 
-
 item.contenttweaker.moon_blade.name=月之锋刃
 
 item.contenttweaker.ascenders_proof.name=飞升者的证明
@@ -150,6 +149,7 @@ base.material.tungsten_steel=钨钢
 base.material.void_metal=虚空金属
 
 enchantment.veining.veining.desc=没有人不喜欢连锁挖矿！
+enchantment.felling.felling.desc=没有人不喜欢连锁砍树！
 enchantment.bibliocraft.bibliocraft.deathcompassench.desc=重生时会获得一个指向死亡地点的永恒罗盘
 enchantment.bibliocraft.bibliocraft.readingench.desc=准星对准架子上的物品时可显示物品名字
 
@@ -157,3 +157,7 @@ item.contenttweaker.baked_stable_potato_unpolished.name=未抛光的美味冷静
 item.contenttweaker.baked_stable_potato.name=美味冷静土豆
 item.contenttweaker.charged_stable_potato.name=充能冷静土豆
 item.contenttweaker.stable_potato.name=冷静土豆
+
+item.contenttweaker.tlm_ultra.name=扭蛋收藏者纹章
+
+jei.tlmtweak.altar_craft.item_craft.result=合成物品
