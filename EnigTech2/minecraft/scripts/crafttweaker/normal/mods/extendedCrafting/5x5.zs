@@ -237,3 +237,12 @@ TableCrafting.addShaped(2, <touhou_little_maid:hakurei_gohei>.withTag({GoheiMode
 	[null, <naturesaura:ancient_stick>, null, null, <silentgems:craftingmaterial:11>], 
 	[<naturesaura:ancient_stick>, null, null, null, <silentgems:craftingmaterial:11>]
 ]);
+
+//旗指物
+TableCrafting.addShaped(2, <touhou_little_maid:hata_sasimono>, [
+	[null, <naturesaura:ancient_stick>, <botania:manaresource:22>, <botania:manaresource:22>, null], 
+	[null, <naturesaura:ancient_stick>, <botania:rune:4>, <botania:manaresource:22>, null], 
+	[null, <naturesaura:ancient_stick>, <botania:manaresource:22>, <botania:manaresource:22>, null], 
+	[null, <naturesaura:ancient_stick>, null, null, null], 
+	[null, <naturesaura:ancient_stick>, null, null, null]
+]);

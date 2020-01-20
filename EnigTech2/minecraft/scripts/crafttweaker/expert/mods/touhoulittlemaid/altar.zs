@@ -44,79 +44,92 @@ val diam = <botania:manaresource:9>;
 val obsim = <minecraft:obsidian>;
 val warp = <waystones:warp_stone>;
 val paper = <ore:paper>;
+val marble = <tombstone:dark_marble>;
 
 Altar.addItemCraftRecipe("tlmtweak:drownprotect",0.2,<touhou_little_maid:drown_protect_bauble>,
+fugu,
 base,
+hydro,
+hydro,
 fugu,
-hydro*2,
-fugu,
-<ore:gemSappire>
+<ore:gemSapphire>
 );
 
 Altar.addItemCraftRecipe("tlmtweak:fallprotect",0.2,<touhou_little_maid:fall_protect_bauble>,
-base,
 fthert,
-fthers*2,
+base,
+fthers,
+fthers,
 fthert,
 <ore:gemHeliodor>
 );
 
 Altar.addItemCraftRecipe("tlmtweak:magicprotect",0.2,<touhou_little_maid:magic_protect_bauble>,
-base,
 dtct,
-kill*2,
+base,
+kill,
+kill,
 dtct,
 <ore:gemMoonstone>
 );
 
 Altar.addItemCraftRecipe("tlmtweak:projprotect",0.2,<touhou_little_maid:projectile_protect_bauble>,
-base,
 steelp,
-relay*2,
+base,
+relay,
+relay,
 steelp,
 <ore:gemMalachite>
 );
 
 Altar.addItemCraftRecipe("tlmtweak:fireprotect",0.2,<touhou_little_maid:fire_protect_bauble>,
-base,
 cool,
-jell*2,
+base,
+jell,
+jell,
 cool,
 <ore:gemRuby>
 );
 
 Altar.addItemCraftRecipe("tlmtweak:explosionprotect",0.2,<touhou_little_maid:explosion_protect_bauble>,
-base,
 agent,
-obsit*2,
+base,
+obsit,
+obsit,
 agent,
 <ore:gemAmber>
 );
 
 Altar.addItemCraftRecipe("tlmtweak:elixir",0.3,<touhou_little_maid:ultramarine_orb_elixir>,
-<roots:component_pouch>,
 lumi,
-diam*2,
+<roots:component_pouch>,
+diam,
+diam,
 lumi,
 <silentgems:craftingmaterial:32>
 );
 
 Altar.addItemCraftRecipe("tlmtweak:tomb",0.3,<touhou_little_maid:tombstone_bauble>,
-<botania:specialflower>.withTag({type: "fallenKanade"}),
 <silentgems:soul_urn>,
+<botania:specialflower>.withTag({type: "fallenKanade"}),
 <tombstone:ankh_of_pray>,
-<tombstone:dark_marble>*3
+marble,
+marble,
+marble
 );
 
-Altar.addItemCraftRecipe("tlmtweak:",0.1,<touhou_little_maid:kappa_compass>,
-obsim*3,
+Altar.addItemCraftRecipe("tlmtweak:compass",0.1,<touhou_little_maid:kappa_compass>,
+obsim,
+obsim,
+obsim,
 <bibliocraft:compass>,
-warp*2
+warp,
+warp
 );
 
 Altar.addItemCraftRecipe("tlmtweak:camera",0.1,<touhou_little_maid:camera>,
-<ore:plateSilver>,
 <botania:lens:17>,
+<ore:plateSilver>,
 <botania:lens:5>,
 <botania:lens:14>,
 <botania:clip>,
@@ -124,8 +137,10 @@ Altar.addItemCraftRecipe("tlmtweak:camera",0.1,<touhou_little_maid:camera>,
 );
 
 Altar.addItemCraftRecipe("tlmtweak:album",0.1,<touhou_little_maid:album>,
-paper*2,
+paper,
+paper,
 <botania:cosmetic:9>,
-paper*2,
+paper,
+paper,
 <minecraft:book>
 );

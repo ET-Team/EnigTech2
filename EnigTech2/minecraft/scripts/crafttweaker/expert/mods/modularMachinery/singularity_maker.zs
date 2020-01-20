@@ -26,3 +26,9 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_entropy", machine
 	.addItemInput(<appliedenergistics2:material:47>)
     .addItemOutput(<contenttweaker:entropy>*4)
     .build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_tlm", machineName, 18*20*3)
+    .addEnergyPerTickInput(10000)
+	.addItemInput(<contenttweaker:tlm_ultra>)
+    .addItemOutput(<touhou_little_maid:substitute_jizo>*3)
+    .build();
