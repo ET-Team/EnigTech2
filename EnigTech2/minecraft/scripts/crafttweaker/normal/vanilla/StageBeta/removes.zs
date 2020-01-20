@@ -25,7 +25,8 @@ val removingRNArray = [
     "cuisine:wooden_arm",
     "cuisine:drinkro",
     "cuisine:wooden_handle",
-    "touhou_little_maid:hata_sasimono"
+    "touhou_little_maid:hata_sasimono",
+    "touhou_little_maid:hakurei_gohei"
 ] as string[];
 
 //结算

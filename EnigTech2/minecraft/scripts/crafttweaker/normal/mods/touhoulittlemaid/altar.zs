@@ -1,4 +1,4 @@
-#packmode expert
+#packmode normal
 #priority -100
 
 import mods.touhoulittlemaid.Altar;
