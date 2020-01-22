@@ -18,5 +18,5 @@ Pyre.addRecipe("puredaisy", <botania:specialflower>.withTag({type: "puredaisy"})
 Pyre.addRecipe("hydroangeas", <botania:specialflower>.withTag({type: "hydroangeas"}), [<contenttweaker:arcane_essence>, <botania:petal:9>, <botania:petal:9>, <botania:petal:11>, <botania:petal:11>]);
 //炒茶煮饭锅
 Pyre.addRecipe("teapot", <teastory:tea_drying_pan>, [<cuisine:fire_pit:1>, <ore:ingotIron>, <roots:runic_dust>, <ore:cropRice>, <ore:cropTea>]);
-//茶筅
-Pyre.addRecipe("teawhisk", <teastory:tea_whisk>, [<survivalist:rack>, <ore:plankWood>, <roots:runic_dust>, <ore:stickWood>, <ore:cropTea>]);
+//茶簸箕
+Pyre.addRecipe("teapan", <teastory:teapan>, [<survivalist:rack>, <ore:plankWood>, <roots:runic_dust>, <ore:stickWood>, <ore:cropTea>]);
