@@ -69,6 +69,9 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
 };
 
 //镜像有序
+val strope = <teastory:straw_rope>;
+val trass = <contenttweaker:dried_grass>;
+
 val shapedMirroredRecipes as IIngredient[][][IItemStack] = {
     <cuisine:iron_spatula> : [
         [null,<ore:plateIron>,null],
@@ -81,6 +84,18 @@ val shapedMirroredRecipes as IIngredient[][][IItemStack] = {
         [null,null,null],
         [null,<tanspit:spit>,null],
         [null,<cuisine:fire_pit:0>,null]
+    ],
+
+    <teastory:straw_cushion> : [
+        [null,null,null],
+        [strope,strope,strope],
+        [trass,trass,trass]
+    ],
+
+    <teastory:tea_table> : [
+        [null,null,null],
+        [<ore:teaCup>,<ore:teaKettle>,<ore:teaPot>],
+        [<bibliocraft:framingboard>,<bibliocraft:framingsheet>,<bibliocraft:framingboard>]
     ]
 };
 
@@ -103,3 +118,8 @@ for msdoutput in shapedMirroredRecipes{
 for sloutput in shapedlessRecipes{
     mods.recipestages.Recipes.addShapeless("beta", sloutput, shapedlessRecipes[sloutput]);
 }
+
+//额外操作
+recipes.replaceAllOccurences(<teastory:straw>, <contenttweaker:dried_grass>);
+recipes.replaceAllOccurences(<minecraft:wheat>, <contenttweaker:dried_grass>, <minecraft:hay_block>);
+recipes.replaceAllOccurences(<minecraft:wheat>, <contenttweaker:dried_grass>, <mysticalworld:thatch>*16);

@@ -12,3 +12,7 @@ Mortar.addRecipe(<thermalfoundation:material:800>, [<contenttweaker:dust_wood>])
 Mortar.addRecipe(<immersiveengineering:material:17>, [<ore:fuelCoke>]);
 Mortar.addRecipe(<thermalfoundation:material:768>, [<ore:itemCoal>]);
 Mortar.addRecipe(<thermalfoundation:material:769>, [<ore:itemCharcoal>]);
+//茶风研钵搬运
+val seeds = <teastory:xian_rice_seeds>;
+Mortar.addRecipe(<teastory:matcha_powder>, [<teastory:matcha_leaf>]);
+Mortar.addRecipe(<teastory:xian_rice>*2, [seeds, seeds, seeds, seeds, seeds]);

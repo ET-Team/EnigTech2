@@ -16,3 +16,7 @@ Pyre.addRecipe("gold_fiber", <naturesaura:gold_fiber>*2, [<naturesaura:aura_bott
 Pyre.addRecipe("puredaisy", <botania:specialflower>.withTag({type: "puredaisy"}), [<botania:petal>, <botania:petal>, <botania:petal>, <botania:petal>, <contenttweaker:arcane_essence>]);
 //水绣球
 Pyre.addRecipe("hydroangeas", <botania:specialflower>.withTag({type: "hydroangeas"}), [<contenttweaker:arcane_essence>, <botania:petal:9>, <botania:petal:9>, <botania:petal:11>, <botania:petal:11>]);
+//炒茶煮饭锅
+Pyre.addRecipe("teapot", <teastory:tea_drying_pan>, [<cuisine:fire_pit:1>, <ore:ingotIron>, <roots:runic_dust>, <ore:cropRice>, <ore:cropTea>]);
+//茶筅
+Pyre.addRecipe("teawhisk", <teastory:tea_whisk>, [<survivalist:rack>, <ore:plankWood>, <roots:runic_dust>, <ore:stickWood>, <ore:cropTea>]);
