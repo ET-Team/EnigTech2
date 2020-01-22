@@ -17,7 +17,7 @@ setShowToast(false)
 setAnnounceToChat(false)
 
 //Set the position
-setPos(-728,23)
+setPos(-787,11)
 
 //Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
 Criteria40 = addCriteria("completedParent", "triumph:completed_advancement")
