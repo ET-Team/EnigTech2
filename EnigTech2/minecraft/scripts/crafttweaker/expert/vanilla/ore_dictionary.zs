@@ -29,3 +29,14 @@
 <ore:listAllspice>.add(<harvestcraft:saltitem>);
 <ore:foodSalt>.add(<cuisine:material:2>);
 <ore:itemSalt>.add(<cuisine:material:2>);
+//环境之眼 环境目镜
+<ore:auraDetector>.add(<naturesaura:eye>);
+<ore:auraDetector>.add(<naturesaura:eye_improved>);
+//茶风杯子壶子罐子
+<ore:teaCup>.add(<teastory:cup:*>);
+<ore:teaPot>.add(<teastory:pot_stone>);
+<ore:teaPot>.add(<teastory:pot_iron>);
+<ore:teaPot>.add(<teastory:pot_porcelain>);
+<ore:teaPot>.add(<teastory:pot_zisha>);
+<ore:teaKettle>.add(<teastory:empty_zisha_kettle>);
+<ore:teaKettle>.add(<teastory:empty_porcelain_kettle>);

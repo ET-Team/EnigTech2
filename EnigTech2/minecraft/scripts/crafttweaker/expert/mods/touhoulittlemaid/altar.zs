@@ -34,7 +34,6 @@ val kill = <botania:manavoid>;
 val relay = <botania:pistonrelay>;
 val steelp = <ore:plateSteel>;
 val redblz = <silentgems:craftingmaterial:27>;
-val hydro = <botania:specialflower>.withTag({type: "hydroangeas"});
 val cool = <toughasnails:temperature_coil:0>;
 val jell = <toughasnails:jelled_slime>;
 val agent = <silentgems:charging_agent:0>;
@@ -49,8 +48,8 @@ val marble = <tombstone:dark_marble>;
 Altar.addItemCraftRecipe("tlmtweak:drownprotect",0.2,<touhou_little_maid:drown_protect_bauble>,
 fugu,
 base,
-hydro,
-hydro,
+<roots:cloud_berry>,
+<bloodmagic:component:0>,
 fugu,
 <ore:gemSapphire>
 );
@@ -111,7 +110,7 @@ lumi,
 
 Altar.addItemCraftRecipe("tlmtweak:tomb",0.3,<touhou_little_maid:tombstone_bauble>,
 <silentgems:soul_urn>,
-<botania:specialflower>.withTag({type: "fallenKanade"}),
+<roots:moonglow_seed>,
 <tombstone:ankh_of_pray>,
 marble,
 marble,

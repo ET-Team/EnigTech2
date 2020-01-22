@@ -26,7 +26,17 @@ val removingRNArray = [
     "cuisine:drinkro",
     "cuisine:wooden_handle",
     "touhou_little_maid:hata_sasimono",
-    "touhou_little_maid:hakurei_gohei"
+    "touhou_little_maid:hakurei_gohei",
+    "teastory:soil_detection_meter",
+    "teastory:matcha_powder",
+    "teastory:wooden_mortar_and_pestle",
+    "teastory:tea_drying_pan",
+    "teastory:xian_rice",
+    "teastory:tea_table",
+    "teastory:straw_cushion",
+    "teastory:tea_leaf",
+    "teastory:teapan_1",
+    "teastory:teapan_2"
 ] as string[];
 
 //结算
