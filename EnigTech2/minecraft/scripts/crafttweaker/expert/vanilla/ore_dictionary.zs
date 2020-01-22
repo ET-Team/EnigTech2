@@ -29,3 +29,6 @@
 <ore:listAllspice>.add(<harvestcraft:saltitem>);
 <ore:foodSalt>.add(<cuisine:material:2>);
 <ore:itemSalt>.add(<cuisine:material:2>);
+//环境之眼 环境目镜
+<ore:auraDetector>.add(<naturesaura:eye>);
+<ore:auraDetector>.add(<naturesaura:eye_improved>);

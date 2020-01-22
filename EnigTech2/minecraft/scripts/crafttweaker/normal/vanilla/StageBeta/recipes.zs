@@ -27,6 +27,8 @@ import crafttweaker.item.IIngredient;
 val teppan = <ore:plateIron>;
 val cobl = <ore:cobblestone>;
 val slabele = <immersiveengineering:sheetmetal_slab:7>;
+val redengi = <immersiveengineering:metal_decoration0:3>;
+val steelpart = <immersiveengineering:material:9>;
 
 val shapedRecipes as IIngredient[][][IItemStack] = {
     <cuisine:drinkro> : [
@@ -57,6 +59,12 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [<ore:plateElectrum>,<ore:plateGold>,<ore:plateElectrum>],
         [<naturesaura:calling_spirit>,<patchouli:guide_book>.withTag({"patchouli:book": "touhou_little_maid:memorizable_gensokyo"}),<naturesaura:calling_spirit>],
         [slabele,slabele,slabele]
+    ],
+
+    <teastory:soil_detection_meter> : [
+        [steelpart,<teastory:broken_tea>,steelpart],
+        [redengi,<teastory:xian_rice_seeds>,redengi],
+        [<minecraft:repeater>,<ore:auraDetector>.reuse(),<minecraft:comparator>]
     ]
 };
 
