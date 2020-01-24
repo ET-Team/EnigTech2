@@ -117,6 +117,7 @@ item.contenttweaker.enigarium.name=玄素锭
 item.contenttweaker.technium.name=真理锭
 item.contenttweaker.orders_truth.name=守序者的真理
 item.contenttweaker.unknowing_dirt.name=蒙昧之土
+item.contenttweaker.life_insight.name=生命真谛
 
 tooltip.itemstages.name.default=不熟悉的物品
 tooltip.itemstages.description=你还不知道如何使用这个物品

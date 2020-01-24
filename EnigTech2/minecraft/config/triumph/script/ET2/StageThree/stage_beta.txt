@@ -2,7 +2,7 @@
 Criteriaboo = addCriteria("Criteriabook_s", "minecraft:inventory_changed")
 Criteriaboo.addItem(<contenttweaker:life_insight>)
 setIcon(<contenttweaker:life_insight>)
-setTitle("\u751f\u547d\u4e4b\u771f\u8c1b")
+setTitle("\u751f\u547d\u771f\u8c1b")
 setDescription("\u51c6\u5907\u597d\u8fdb\u5165\u5e7b\u60f3\u4e61\u4e86\u5417?")
 setPos(-879,-49)
 addParent("ET2:StageThree/chunzhifuwen")
