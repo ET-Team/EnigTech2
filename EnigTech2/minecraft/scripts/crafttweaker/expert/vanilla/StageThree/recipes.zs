@@ -68,3 +68,5 @@ recipes.addShaped(<embers:ember_activator>,[[<ore:plateCopper>,<contenttweaker:m
 recipes.addShaped(<embers:boiler>,[[<ore:plateSteel>,null,<ore:plateSteel>],[<contenttweaker:magcondium_ingot>,<contenttweaker:soso_machine_core>,<contenttweaker:magcondium_ingot>],[<embers:block_caminite_brick>,<botania:rune:5>,<embers:block_caminite_brick>]]);
 recipes.addShaped(<embers:block_furnace>,[[<ore:plateSteel>,null,<ore:plateSteel>],[<bloodmagic:slate:2>,<contenttweaker:soso_machine_core>,<bloodmagic:slate:2>],[<embers:block_caminite_brick>,<botania:rune:1>,<embers:block_caminite_brick>]]);
 recipes.addShaped(<embers:mixer>,[[<contenttweaker:basic_motioner>,<botania:rune:5>,<ore:plateSteel>],[<naturesaura:sky_ingot>,<contenttweaker:soso_machine_core>,<naturesaura:sky_ingot>],[<ore:plateSteel>,<botania:rune:7>,<contenttweaker:basic_motioner>]]);
+
+recipes.addShapeless("life_insight", <contenttweaker:life_insight>, [<minecraft:book>,<botania:rune:4>]);
