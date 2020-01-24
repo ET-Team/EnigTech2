@@ -1,8 +1,8 @@
 ET2LOGO-2-200x200.png
 ET2LOGO-2.png
-ET2LOGO-2.png
 ET2LOGO.png
 Hexagon.png
+instance.cfg
 logo.png
 minecraft/.ReAuth.cfg
 minecraft/.ReAuth.cfg
@@ -30,7 +30,6 @@ minecraft/config/jei/searchColors.cfg
 minecraft/config/jei/worldSettings.cfg
 minecraft/config/jei/worldSettings.cfg
 minecraft/config/smoothfont
-minecraft/config/smoothfont
 minecraft/coremods
 minecraft/coremods
 minecraft/crafttweaker.log
@@ -44,6 +43,7 @@ minecraft/local
 minecraft/local
 minecraft/logs
 minecraft/logs
+minecraft/mods
 minecraft/options.txt
 minecraft/options.txt
 minecraft/optionsof.txt
@@ -61,6 +61,7 @@ minecraft/scripts/.zsrc
 minecraft/scripts/.zsrc
 minecraft/server-resource-packs
 minecraft/server-resource-packs
+minecraft/servers.dat
 minecraft/shaderpacks
 minecraft/shaderpacks
 minecraft/texturepacks
@@ -71,5 +72,6 @@ minecraft/usernamecache.json
 minecraft/usernamecache.json
 minecraft/valkyrielib
 minecraft/valkyrielib
+mmc-pack.json
 modlist.html
 natives
