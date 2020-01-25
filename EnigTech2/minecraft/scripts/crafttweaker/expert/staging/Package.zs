@@ -10,7 +10,8 @@ var allStages as string[] = [
 	"four",
 	"five",
 	"six",
-	"alpha"
+	"alpha",
+	"beta"
 
 ];
 
