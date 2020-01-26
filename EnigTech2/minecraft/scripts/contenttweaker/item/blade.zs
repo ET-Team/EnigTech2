@@ -17,12 +17,12 @@ item.glowing = true;
 item.itemRightClick = function(stack, world, player, hand) {
         print(stack.name);
         if(world.isRemote()){
-            player.sendChat(player.name+" 榨取出了他心头的一滴精血");
-            Commands.call("playsound minecraft:entity.player.hurt player "+player.name, player, world);
-        }else{
-            world.spawnEntity(<item:contenttweaker:essencial_blood>.createEntityItem(world, player.x, player.y, player.z));
+            player.sendChat(player.name ~ game.localize("message.conttenttweaker.use_moon_blade"));
+            Commands.call("playsound minecraft:entity.player.hurt player " ~ player.name, player, world);
+        } else {
+            world.spawnEntity(<item:contenttweaker:essencial_blood>.createEntityItem(world, player.position3f.asBlockPos()));
         }
         player.attackEntityFrom(<damageSource:GENERIC>, 1000000000000000.0f);
-        return "Pass";
+        return "Success";
     };
 item.register();
