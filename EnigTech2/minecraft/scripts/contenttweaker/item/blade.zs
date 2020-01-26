@@ -17,7 +17,7 @@ item.glowing = true;
 item.itemRightClick = function(stack, world, player, hand) {
         print(stack.name);
         if(world.isRemote()){
-            player.sendChat(player.name ~ game.localize("message.conttenttweaker.use_moon_blade"));
+            player.sendChat(player.name ~ game.localize("message.conttenttweaker.use_moon_blade").substring(2));
             Commands.call("playsound minecraft:entity.player.hurt player " ~ player.name, player, world);
         } else {
             world.spawnEntity(<item:contenttweaker:essencial_blood>.createEntityItem(world, player.position3f.asBlockPos()));
