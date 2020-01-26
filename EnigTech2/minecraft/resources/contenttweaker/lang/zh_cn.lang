@@ -129,6 +129,8 @@ message.itemstages.drop=你丢掉了 %s.
 
 message.itemstages.attack=你在理解透彻%s是如何工作的之前还不能使用它造成伤害
 
+message.conttenttweaker.use_moon_blade=%s榨取出了他心头的一滴精血
+
 item.contenttweaker.enigtechnium.name=玄理之锭
 item.contenttweaker.solidified_energy.name=固态能量
 item.contenttweaker.will_of_world_tree.name=世界树的意志
