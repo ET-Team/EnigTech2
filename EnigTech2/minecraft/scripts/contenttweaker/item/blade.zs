@@ -23,6 +23,6 @@ item.itemRightClick = function(stack, world, player, hand) {
             world.spawnEntity(<item:contenttweaker:essencial_blood>.createEntityItem(world, player.position3f.asBlockPos()));
         }
         player.attackEntityFrom(<damageSource:GENERIC>, 1000000000000000.0f);
-        return "Success";
+        return "Pass";
     };
 item.register();
