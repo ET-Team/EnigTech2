@@ -117,6 +117,7 @@ item.contenttweaker.enigarium.name=玄素锭
 item.contenttweaker.technium.name=真理锭
 item.contenttweaker.orders_truth.name=守序者的真理
 item.contenttweaker.unknowing_dirt.name=蒙昧之土
+item.contenttweaker.life_insight.name=生命真谛
 
 tooltip.itemstages.name.default=不熟悉的物品
 tooltip.itemstages.description=你还不知道如何使用这个物品
@@ -128,12 +129,15 @@ message.itemstages.drop=你丢掉了 %s.
 
 message.itemstages.attack=你在理解透彻%s是如何工作的之前还不能使用它造成伤害
 
+message.conttenttweaker.use_moon_blade=%s榨取出了他心头的一滴精血
+
 item.contenttweaker.enigtechnium.name=玄理之锭
 item.contenttweaker.solidified_energy.name=固态能量
 item.contenttweaker.will_of_world_tree.name=世界树的意志
 item.contenttweaker.pity_from_nature.name=大自然的垂怜
 item.contenttweaker.essencial_blood.name=一滴精血
 item.contenttweaker.forbidden_life_essence.name=禁忌生命精华
+item.contenttweaker.life_insight.name=生命之真谛
 
 item.contenttweaker.moon_blade.name=月之锋刃
 

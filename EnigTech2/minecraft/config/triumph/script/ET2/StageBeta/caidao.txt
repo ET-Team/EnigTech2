@@ -6,7 +6,7 @@ Criteriacaidao4.addItem(<cuisine:chopping_board, meta:0, nbt:{BlockEntityTag:{co
 setIcon(<cuisine:kitchen_knife, meta:0>)
 setTitle("\u5207\u788e")
 setDescription("\u5c06\u897f\u7ea2\u67ff\u653e\u5728\u7827\u677f\u4e0a,\u4f7f\u7528\u83dc\u5200\u5c06\u5176\u5207\u788e")
-setPos(-638,45)
+setPos(-640,40)
 addParent("ET2:StageBeta/fanqie")
 drawDirectLines(true)
 setShowToast(true)

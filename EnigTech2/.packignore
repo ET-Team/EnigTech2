@@ -1,9 +1,9 @@
 ET2LOGO-2-200x200.png
 ET2LOGO-2.png
-ET2LOGO-2.png
 ET2LOGO.png
 Hexagon.png
 logo.png
+manifest.json
 minecraft/.ReAuth.cfg
 minecraft/.ReAuth.cfg
 minecraft/.mixin.out
@@ -29,7 +29,6 @@ minecraft/config/jei/searchColors.cfg
 minecraft/config/jei/searchColors.cfg
 minecraft/config/jei/worldSettings.cfg
 minecraft/config/jei/worldSettings.cfg
-minecraft/config/smoothfont
 minecraft/config/smoothfont
 minecraft/coremods
 minecraft/coremods
@@ -71,5 +70,6 @@ minecraft/usernamecache.json
 minecraft/usernamecache.json
 minecraft/valkyrielib
 minecraft/valkyrielib
+modlist.html
 modlist.html
 natives

@@ -49,6 +49,8 @@ recipes.addShaped(<xpt:teleporter>,[[null,<bloodmagic:blood_orb>.withTag({orb: "
 
 //瓶子与木塞
 recipes.addShapeless("bottle_two_the_rebottling", <naturesaura:bottle_two_the_rebottling>,[<botania:vial>,<botania:livingwood:1>]);
+//生命的真谛
+recipes.addShapeless("λμαφο_ενα_γραμμαις", <contenttweaker:life_insight>,[<item:minecraft:book>,<botania:rune:4>.reuse()]);
 //木墩
 recipes.addShaped("wood_stand", <naturesaura:wood_stand>,[[<naturesaura:gold_leaf>],[<roots:wildwood_log>]]);
 //增强型漏斗

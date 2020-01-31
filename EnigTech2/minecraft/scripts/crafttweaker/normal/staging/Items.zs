@@ -195,6 +195,7 @@ for mod in modsStageSix{
 mods.ItemStages.removeItemStage(<item:nuclearcraft:gem_dust>);
 mods.ItemStages.removeItemStage(<item:nuclearcraft:gem_dust:2>);
 mods.ItemStages.removeItemStage(<mekanism:dust:2>);
+mods.ItemStages.removeItemStage(<ore:ingotOsmium>.getFirstItem);
 
 var modsStageAlpha as string[] = [
 	"projecte",
