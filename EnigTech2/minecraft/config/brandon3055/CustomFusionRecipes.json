@@ -25,6 +25,11 @@
         "catalyst": "draconicevolution:wyvern_core"
     },
     {
+        "mode": "REMOVE",
+        "result": "draconicevolution:dislocator_advanced,1,0",
+        "catalyst": "draconicevolution:dislocator"
+    },
+    {
         "mode": "ADD",
         "result": "draconicevolution:reactor_core",
         "catalyst": "draconicevolution:chaos_shard,1,0",
@@ -47,10 +52,27 @@
         "tier": 1,
         "ingredients": [
             "draconicevolution:reactor_part,0,1",
-            "draconicevolution:reactor_part,0,1",
+            "contenttweaker:draconium_alloy_ingot",
             "draconicevolution:reactor_part,0,1",
             "contenttweaker:draconium_alloy_ingot",
+            "draconicevolution:reactor_part,0,1",
+            "contenttweaker:draconium_alloy_ingot"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:dislocator_advanced",
+        "catalyst": "draconicevolution:dislocator",
+        "energy": 1000000,
+        "tier": 2,
+        "ingredients": [
+            "minecraft:ender_pearl",
             "contenttweaker:draconium_alloy_ingot",
+            "minecraft:ender_pearl",
+            "contenttweaker:draconium_alloy_ingot",
+            "minecraft:ender_pearl",
+            "contenttweaker:draconium_alloy_ingot",
+            "draconicevolution:wyvern_core",
             "contenttweaker:draconium_alloy_ingot"
         ]
     }
