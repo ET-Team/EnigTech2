@@ -194,7 +194,7 @@ for mod in modsStageSix{
 mods.ItemStages.removeItemStage(<item:nuclearcraft:gem_dust>);
 mods.ItemStages.removeItemStage(<item:nuclearcraft:gem_dust:2>);
 mods.ItemStages.removeItemStage(<mekanism:dust:2>);
-mods.ItemStages.removeItemStage(<mekanism:ingot:1>);
+mods.ItemStages.removeItemStage(<ore:ingotOsmium>.getFirstItem);
 
 var modsStageAlpha as string[] = [
 	"projecte",
@@ -277,7 +277,7 @@ val itemsStageFive as IIngredient[] = [
 	<contenttweaker:strong_motor_unprocessed>,
 	<contenttweaker:meteor_bait>,
 	<contenttweaker:dust_small_osmium>,
-	<mekanism:ingot:1>
+	<ore:ingotOsmium>.getFirstItem
 ];
 val itemsStageSix as IIngredient[] = [
 	<contenttweaker:void_machine_core>,
