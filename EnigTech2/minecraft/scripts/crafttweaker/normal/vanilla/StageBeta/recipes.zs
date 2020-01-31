@@ -65,6 +65,12 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [steelpart,<teastory:broken_tea>,steelpart],
         [redengi,<teastory:xian_rice_seeds>,redengi],
         [<minecraft:repeater>,<ore:auraDetector>.reuse(),<minecraft:comparator>]
+    ],
+
+    <touhou_little_maid:marisa_broom> : [
+        [null,<enderio:item_material:47>,<extrautils2:angelring:*>],
+        [null,<naturesaura:ancient_stick>,<enderio:item_material:47>],
+        [<naturesaura:ancient_stick>,null,null]
     ]
 };
 
