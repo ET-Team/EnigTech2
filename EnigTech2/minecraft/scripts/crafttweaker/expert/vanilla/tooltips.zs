@@ -16,7 +16,13 @@ val toAdd as string[IIngredient] = {
     <contenttweaker:stable_potato> : "混沌马铃薯冷静了下来，开始思考自己的价值。",
     <contenttweaker:baked_stable_potato_unpolished> : "也许，它应该承受烈火......",
     <contenttweaker:baked_stable_potato> : "也许，它应该经历打磨......",
-    <contenttweaker:charged_stable_potato> : "博采众长，凝练自我......"
+    <contenttweaker:charged_stable_potato> : "博采众长，凝练自我......",
+    <extrautils2:angelring:1> : "天降之奏的花瓣就算拔下来也不会枯死的。而且我们用的可是龙的注魔诶！放心好了",
+    <extrautils2:angelring:2> : "Do you ever feel like a plastic bag?",
+    <extrautils2:angelring:3> : "红 魔 瘟 疫",
+    <extrautils2:angelring:4> : "金戒指已经够俗气了。金翅膀...我的老天爷啊",
+    <extrautils2:angelring:5> : "做完这个之后，建议你立即联系当地卫生医疗部门并如实反映情况",
+    <extrautils2:angelring:0> : "经典款天使指环。你有听说过他们家的新款吗？"
 };
 
 val warning as string[IIngredient] = {
@@ -31,8 +37,7 @@ val praise as string[IIngredient] = {
     <item:contenttweaker:brain_chip> : "恭喜，机械大师，专家模式阶段四已经被你征服在手下，右键植入此芯片来解锁阶段五",
     <item:contenttweaker:star_rune> : "恭喜，星尘之子，专家模式阶段五已经被你征服在手下，右键融合此符文来解锁阶段六",
     <item:contenttweaker:orders_truth> : "恭喜，守序者，专家模式阶段六已经被你征服在手下，右键值守你的信条来解锁阶段阿尔法，寻找飞升之路",
-    <item:contenttweaker:ascenders_proof> : "恭喜，飞升者，专家模式下的玄理2整合包已经被您征服，此物品不会在任何合成中消耗，请允许我，代表ET团队，向您致以最高的敬意",
-    <silentgems:food:0> : "恭喜，育碧员工，你们公司的全部家当已经被您败光了。能合成出此物品表示你真是闲得离谱"
+    <item:contenttweaker:ascenders_proof> : "恭喜，飞升者，专家模式下的玄理2整合包已经被您征服，此物品不会在任何合成中消耗，请允许我，代表ET团队，向您致以最高的敬意"
 
 };
 
