@@ -165,6 +165,12 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ge", machineName,
 	.addItemInput(<contenttweaker:material_part:21>)
 	.build();
 
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_osmium", machineName, speedTierTwo)
+	.addManaInput(10000)
+	.addItemOutput(<mekanism:ingot:1>)
+	.addItemInput(<ore:dustOsmium>)
+	.build();
+
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ir", machineName, speedTierTwo)
 	.addManaInput(3000)
 	.addItemOutput(<thermalfoundation:material:135>)
