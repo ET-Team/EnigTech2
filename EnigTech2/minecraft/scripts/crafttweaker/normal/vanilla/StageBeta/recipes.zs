@@ -68,7 +68,7 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
     ],
 
     <touhou_little_maid:marisa_broom> : [
-        [null,<enderio:item_material:47>,<extrautils2:angelring:*>],
+        [null,<enderio:item_material:47>,<extrautils2:angelring:*>.reuse()],
         [null,<naturesaura:ancient_stick>,<enderio:item_material:47>],
         [<naturesaura:ancient_stick>,null,null]
     ]
