@@ -30,7 +30,7 @@ recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immers
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 12, [[<ore:materialTannedLeather>, <ore:materialTannedLeather>, <ore:materialTannedLeather>],[<immersiveengineering:material:2>, <thermalfoundation:material:259>, <immersiveengineering:material:2>], [<thermalfoundation:material:355>, <thermalfoundation:material:355>, <thermalfoundation:material:355>]]);
 
 //脉络附魔书
-recipes.addShaped(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 47 as short}]}), [[<contenttweaker:arcane_essence>, <minecraft:diamond_pickaxe>.anyDamage(), <contenttweaker:arcane_essence>],[<contenttweaker:arcane_essence>, <minecraft:book>, <contenttweaker:arcane_essence>], [<contenttweaker:arcane_essence>, <naturesaura:infused_iron>, <contenttweaker:arcane_essence>]]);
+recipes.addShaped(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 54 as short}]}), [[<contenttweaker:arcane_essence>, <minecraft:diamond_pickaxe>.anyDamage(), <contenttweaker:arcane_essence>],[<contenttweaker:arcane_essence>, <minecraft:book>, <contenttweaker:arcane_essence>], [<contenttweaker:arcane_essence>, <naturesaura:infused_iron>, <contenttweaker:arcane_essence>]]);
 
 //辐射采集器
 recipes.addShaped(<arcanearchives:radiant_resonator>, [[<contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>, <contenttweaker:magcondium_ingot>],[<enderio:item_alloy_ingot:5>, <naturesaura:ancient_log>, <enderio:item_alloy_ingot:5>], [<enderio:item_alloy_ingot:5>, null, <enderio:item_alloy_ingot:5>]]); 
@@ -40,7 +40,7 @@ recipes.addShaped(<modularmachinery:blockenergyinputhatch:3>, [[<deepmoblearning
 recipes.addShaped("placer", <naturesaura:placer>, [[<botania:storage>, <botania:specialflower>.withTag({type: "rannuncarpus"}).onlyWithTag({type: "rannuncarpus"}), <botania:storage>],[<immersiveengineering:material:9>, <minecraft:dispenser>, <immersiveengineering:material:9>], [<botania:storage>, <naturesaura:infused_iron>, <botania:storage>]]);
 
 //砍树附魔
-recipes.addShaped(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 38 as short}]}),[[<contenttweaker:arcane_essence>,<minecraft:diamond_axe>,<contenttweaker:arcane_essence>],[<contenttweaker:arcane_essence>,<minecraft:book>,<contenttweaker:arcane_essence>],[<contenttweaker:arcane_essence>,<naturesaura:infused_iron>,<contenttweaker:arcane_essence>]]);
+recipes.addShaped(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 40 as short}]}),[[<contenttweaker:arcane_essence>,<minecraft:diamond_axe>,<contenttweaker:arcane_essence>],[<contenttweaker:arcane_essence>,<minecraft:book>,<contenttweaker:arcane_essence>],[<contenttweaker:arcane_essence>,<naturesaura:infused_iron>,<contenttweaker:arcane_essence>]]);
 
 //经验传送器
 recipes.addShaped(<xpt:link_card>, [[<minecraft:blaze_powder>, <minecraft:ender_pearl>, <minecraft:blaze_powder>],[<minecraft:ender_pearl>, <contenttweaker:plastic_plate>, <minecraft:ender_pearl>], [<minecraft:blaze_powder>, <minecraft:ender_pearl>, <minecraft:blaze_powder>]]);

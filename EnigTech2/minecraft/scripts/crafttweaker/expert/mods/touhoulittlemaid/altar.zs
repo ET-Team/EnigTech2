@@ -18,6 +18,12 @@ val removesArray = [
     "touhou_little_maid:craft_fire_protect_bauble",
     "touhou_little_maid:craft_explosion_protect_bauble",
     "touhou_little_maid:craft_elixir",
+    "touhou_little_maid:craft_maid_beacon",
+    "touhou_little_maid:craft_maid_backpack_big",
+    "touhou_little_maid:craft_maid_backpack_small",
+    "touhou_little_maid:craft_maid_backpack_middle",
+    "touhou_little_maid:spawn_maid",
+    "touhou_little_maid:craft_suitcase"
 ] as string[];
 
 for removes in removesArray{
@@ -142,4 +148,58 @@ paper,
 paper,
 paper,
 <minecraft:book>
+);
+
+Altar.addItemCraftRecipe("tlmtweak:suitcase",0.2,<touhou_little_maid:suitcase>,
+<ore:chest>,
+<ore:dyeYellow>,
+<contenttweaker:plastic_plate>,
+<contenttweaker:plastic_plate>,
+<immersiveengineering:material:9>,
+<immersiveengineering:material:9>
+);
+
+Altar.addItemCraftRecipe("tlmtweak:smallc",0.1,<touhou_little_maid:maid_backpack:1>,
+<ore:chest>,
+<ore:dyeRed>,
+<ore:materialTannedLeather>,
+<ore:materialTannedLeather>,
+<improvedbackpacks:upgrade:0>,
+<botania:rune:4>
+);
+
+Altar.addItemCraftRecipe("tlmtweak:midc",0.2,<touhou_little_maid:maid_backpack:2>,
+<ore:chest>,
+<silentgems:soulgem>.withTag({sg_soul_gem: "Pig"}),
+<harvestcraft:hardenedleatheritem>,
+<harvestcraft:hardenedleatheritem>,
+<improvedbackpacks:upgrade:2>,
+<botania:rune:4>
+);
+
+Altar.addItemCraftRecipe("tlmtweak:bigc",0.3,<touhou_little_maid:maid_backpack:3>,
+<ore:chest>,
+<botania:sparkupgrade:1>,
+<extendedcrafting:frame>,
+<immersiveengineering:wirecoil:3>,
+<extendedcrafting:frame>,
+<immersiveengineering:wirecoil:3>
+);
+
+Altar.addItemCraftRecipe("tlmtweak:spawnmaid",0.5,<minecraft:spawn_egg>.withTag({EntityTag: {id: "touhou_little_maid:entity.passive.maid"}}),
+<naturesaura:birth_spirit>,
+<ore:blockLapis>,
+<ore:blockGold>,
+<ore:blockRedstone>,
+<ore:blockIron>,
+<ore:blockCoal>
+);
+
+Altar.addItemCraftRecipe("tlmtweak:beacon",0.3,<touhou_little_maid:maid_beacon>,
+<minecraft:beacon>,
+<botania:elfglasspane>,
+<botania:rune:8>,
+<naturesaura:ancient_sapling>,
+<roots:wildwood_sapling>,
+<immersiveengineering:wooden_device1:3>
 );
