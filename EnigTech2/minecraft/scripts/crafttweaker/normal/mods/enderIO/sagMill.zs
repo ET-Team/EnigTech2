@@ -12,6 +12,7 @@ SagMill.removeRecipe(<minecraft:quartz_ore>);
 SagMill.removeRecipe(<actuallyadditions:block_misc:3>);
 SagMill.removeRecipe(<astralsorcery:blockcustomore:1>);
 SagMill.removeRecipe(<nuclearcraft:ore:4>);
+SagMill.removeRecipe(<thermalfoundation:storage:8>);
 
 //adds
 SagMill.addRecipe(
