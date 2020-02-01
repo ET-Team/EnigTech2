@@ -22,7 +22,10 @@ val toAdd as string[IIngredient] = {
     <extrautils2:angelring:3> : "红 魔 瘟 疫",
     <extrautils2:angelring:4> : "金戒指已经够俗气了。金翅膀...我的老天爷啊",
     <extrautils2:angelring:5> : "做完这个之后，建议你立即联系当地卫生医疗部门并如实反映情况",
-    <extrautils2:angelring:0> : "经典款天使指环。你有听说过他们家的新款吗？"
+    <extrautils2:angelring:0> : "经典款天使指环。你有听说过他们家的新款吗？",
+    <appliedenergistics2:material:13> : "此物品可通过金属冲压机回收为殷钢板",
+    <appliedenergistics2:material:14> : "此物品可通过金属冲压机回收为殷钢板",
+    <appliedenergistics2:material:15> : "此物品可通过金属冲压机回收为殷钢板"
 };
 
 val warning as string[IIngredient] = {
@@ -32,7 +35,9 @@ val warning as string[IIngredient] = {
     <item:immersiveengineering:material:6> : "这种燃料并不是十分高效，也许制作混合炭粉能够做出更好的燃料？",
     <contenttweaker:magfusive_crystal> : "可牵引蕴藏 黎明之力 的坠星，代价：500000LP",
     <astralsorcery:blockcelestialgateway> : "可牵引蕴藏 宇宙之力 的坠星，代价：1500000LP",
-    <draconicevolution:wyvern_core> : "可牵引蕴藏 龙之力 的 坠星，代价：10000000LP"
+    <draconicevolution:wyvern_core> : "可牵引蕴藏 龙之力 的 坠星，代价：10000000LP",
+    <thermalfoundation:storage:8> : "血淋淋的教训"
+
 };
 
 val praise as string[IIngredient] = {

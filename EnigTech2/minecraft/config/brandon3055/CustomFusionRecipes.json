@@ -150,5 +150,22 @@
             "actuallyadditions:item_misc,1,15",
             "actuallyadditions:item_misc,1,15"
         ]
+    },
+    {
+        "mode": "ADD",
+        "result": "thermalfoundation:material,9,136",
+        "catalyst": "thermalfoundation:storage,1,8",
+        "energy": 10000,
+        "tier": 0,
+        "ingredients": [
+            "bloodmagic:cutting_fluid,1,0",
+            "bloodmagic:cutting_fluid,1,0",
+            "bloodmagic:cutting_fluid,1,0",
+            "bloodmagic:cutting_fluid,1,0",
+            "bloodmagic:cutting_fluid,1,0",
+            "bloodmagic:cutting_fluid,1,0",
+            "bloodmagic:cutting_fluid,1,0",
+            "bloodmagic:cutting_fluid,1,0"
+        ]
     }
 ]
