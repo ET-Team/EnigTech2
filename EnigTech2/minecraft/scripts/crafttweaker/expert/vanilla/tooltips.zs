@@ -32,7 +32,7 @@ val warning as string[IIngredient] = {
     <item:immersiveengineering:material:6> : "这种燃料并不是十分高效，也许制作混合炭粉能够做出更好的燃料？",
     <contenttweaker:magfusive_crystal> : "可牵引蕴藏 黎明之力 的坠星，代价：500000LP",
     <astralsorcery:blockcelestialgateway> : "可牵引蕴藏 宇宙之力 的坠星，代价：1500000LP",
-    <draconicevolution:wyvern_core> : "可牵引蕴藏 龙之力 的 坠星，代价：8000000LP"
+    <draconicevolution:wyvern_core> : "可牵引蕴藏 龙之力 的 坠星，代价：10000000LP"
 };
 
 val praise as string[IIngredient] = {

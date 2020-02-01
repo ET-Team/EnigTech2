@@ -36,7 +36,7 @@
       "oreName": "oreGold"
     },
     {
-      "weight": 20,
+      "weight": 25,
       "oreName": "blockDawnstone"
     },
     {
@@ -46,7 +46,7 @@
   ],
   "explosionStrength": 15.0,
   "radius": 5,
-  "maxWeight": 1200,
+  "maxWeight": 1205,
   "version": 3,
   "cost": 500000
 }
