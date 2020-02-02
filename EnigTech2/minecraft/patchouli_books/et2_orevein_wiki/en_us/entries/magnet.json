@@ -2,7 +2,6 @@
     "name": "磁铁矿脉",
     "icon": "minecraft:gold_ore",
     "category": "small_vein",
-    "advancement": "et2:stageTwo/root",
     "pages": [
         {
             "type": "spotlight",

@@ -2,7 +2,6 @@
     "name": "黄宝石矿脉",
     "icon": "silentgems:gemore:2",
     "category": "small_vein",
-    "advancement": "et2:stageTwo/root",
     "pages": [
         {
             "type": "spotlight",
