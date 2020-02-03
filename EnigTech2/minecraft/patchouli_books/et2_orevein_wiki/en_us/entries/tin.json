@@ -2,7 +2,6 @@
     "name": "锡石矿脉",
     "icon": "thermalfoundation:ore:1",
     "category": "large_vein",
-    "advancement": "et2:stageTwo/root",
     "pages": [
         {
             "type": "spotlight",

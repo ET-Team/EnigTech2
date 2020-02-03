@@ -30,6 +30,7 @@ minecraft/config/jei/searchColors.cfg
 minecraft/config/jei/worldSettings.cfg
 minecraft/config/jei/worldSettings.cfg
 minecraft/config/smoothfont
+minecraft/config.rar
 minecraft/coremods
 minecraft/coremods
 minecraft/crafttweaker.log
@@ -58,8 +59,10 @@ minecraft/screenshots
 minecraft/screenshots
 minecraft/scripts/.zsrc
 minecraft/scripts/.zsrc
+minecraft/scripts.rar
 minecraft/server-resource-packs
 minecraft/server-resource-packs
+minecraft/servers.dat
 minecraft/shaderpacks
 minecraft/shaderpacks
 minecraft/texturepacks

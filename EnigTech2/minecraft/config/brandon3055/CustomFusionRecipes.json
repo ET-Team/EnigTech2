@@ -25,6 +25,11 @@
         "catalyst": "draconicevolution:wyvern_core"
     },
     {
+        "mode": "REMOVE",
+        "result": "draconicevolution:dislocator_advanced,1,0",
+        "catalyst": "draconicevolution:dislocator"
+    },
+    {
         "mode": "ADD",
         "result": "draconicevolution:reactor_core",
         "catalyst": "draconicevolution:chaos_shard,1,0",
@@ -47,11 +52,120 @@
         "tier": 1,
         "ingredients": [
             "draconicevolution:reactor_part,0,1",
-            "draconicevolution:reactor_part,0,1",
+            "contenttweaker:draconium_alloy_ingot",
             "draconicevolution:reactor_part,0,1",
             "contenttweaker:draconium_alloy_ingot",
-            "contenttweaker:draconium_alloy_ingot",
+            "draconicevolution:reactor_part,0,1",
             "contenttweaker:draconium_alloy_ingot"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:dislocator_advanced",
+        "catalyst": "draconicevolution:dislocator",
+        "energy": 1000000,
+        "tier": 2,
+        "ingredients": [
+            "minecraft:ender_pearl",
+            "contenttweaker:draconium_alloy_ingot",
+            "minecraft:ender_pearl",
+            "contenttweaker:draconium_alloy_ingot",
+            "minecraft:ender_pearl",
+            "contenttweaker:draconium_alloy_ingot",
+            "draconicevolution:wyvern_core",
+            "contenttweaker:draconium_alloy_ingot"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "extrautils2:angelring,1,1",
+        "catalyst": "extrautils2:angelring,1,0",
+        "energy": 1000000,
+        "tier": 1,
+        "ingredients": [
+            "botania:specialflower,1,0,{type: fallenKanade}",
+            "botania:specialflower,1,0,{type: fallenKanade}",
+            "botania:specialflower,1,0,{type: fallenKanade}",
+            "botania:specialflower,1,0,{type: fallenKanade}",
+            "botania:specialflower,1,0,{type: fallenKanade}",
+            "botania:specialflower,1,0,{type: fallenKanade}"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "extrautils2:angelring,1,2",
+        "catalyst": "extrautils2:angelring,1,0",
+        "energy": 1000000,
+        "tier": 1,
+        "ingredients": [
+            "nuclearcraft:part,1,6",
+            "nuclearcraft:part,1,6",
+            "contenttweaker:draconium_alloy_ingot",
+            "contenttweaker:magcondium_ingot",
+            "nuclearcraft:part,1,6",
+            "nuclearcraft:part,1,6"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "extrautils2:angelring,1,3",
+        "catalyst": "extrautils2:angelring,1,0",
+        "energy": 1000000,
+        "tier": 1,
+        "ingredients": [
+            "forge:bucketfilled>,1,0,{FluidName: blood, Amount: 1000}",
+            "forge:bucketfilled>,1,0,{FluidName: blood, Amount: 1000}",
+            "actuallyadditions:item_misc,1,15",
+            "actuallyadditions:item_misc,1,15",
+            "actuallyadditions:item_misc,1,15",
+            "actuallyadditions:item_misc,1,15"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "extrautils2:angelring,1,4",
+        "catalyst": "extrautils2:angelring,1,0",
+        "energy": 1000000,
+        "tier": 1,
+        "ingredients": [
+            "minecraft:gold_block",
+            "minecraft:gold_block",
+            "ore:ingotLumium",
+            "ore:ingotLumium",
+            "minecraft:gold_block",
+            "minecraft:gold_block"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "extrautils2:angelring,1,5",
+        "catalyst": "extrautils2:angelring,1,0",
+        "energy": 1000000,
+        "tier": 1,
+        "ingredients": [
+            "actuallyadditions:item_misc,1,15",
+            "actuallyadditions:item_misc,1,15",
+            "actuallyadditions:item_misc,1,15",
+            "actuallyadditions:item_misc,1,15",
+            "actuallyadditions:item_misc,1,15",
+            "actuallyadditions:item_misc,1,15"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "thermalfoundation:material,9,136",
+        "catalyst": "thermalfoundation:storage,1,8",
+        "energy": 10000,
+        "tier": 0,
+        "ingredients": [
+            "bloodmagic:cutting_fluid,1,0",
+            "bloodmagic:cutting_fluid,1,0",
+            "bloodmagic:cutting_fluid,1,0",
+            "bloodmagic:cutting_fluid,1,0",
+            "bloodmagic:cutting_fluid,1,0",
+            "bloodmagic:cutting_fluid,1,0",
+            "bloodmagic:cutting_fluid,1,0",
+            "bloodmagic:cutting_fluid,1,0"
         ]
     }
 ]

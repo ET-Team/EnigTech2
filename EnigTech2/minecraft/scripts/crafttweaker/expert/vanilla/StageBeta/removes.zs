@@ -36,7 +36,8 @@ val removingRNArray = [
     "teastory:straw_cushion",
     "teastory:tea_leaf",
     "teastory:teapan_1",
-    "teastory:teapan_2"
+    "teastory:teapan_2",
+    "touhou_little_maid:marisa_broom"
 ] as string[];
 
 //结算
