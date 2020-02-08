@@ -91,6 +91,10 @@
     {
       "item": "contenttweaker:material_part|63",
       "emc": 481621
+    },
+    {
+      "item":"contenttweaker:strong_motor_unprocessed",
+      "emc":2178190
     }
   ]
 }
