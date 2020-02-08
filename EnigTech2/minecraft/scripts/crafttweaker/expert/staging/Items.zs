@@ -180,7 +180,8 @@ var modsStageSix as string[] = [
 	"xnet",
 	"valkyrielib",
 	"packagedauto",
-	"packagedexcrafting"
+	"packagedexcrafting",
+	"thermaldynamics"
 	
 ];
 
