@@ -41,18 +41,6 @@
       "emc": 8810
     },
     {
-      "item": "contenttweaker:material_part|25",
-      "emc": 8810
-    },
-    {
-      "item": "contenttweaker:material_part|45",
-      "emc": 12810
-    },
-    {
-      "item": "contenttweaker:material_part|72",
-      "emc": 8810
-    },
-    {
       "item": "thermalfoundation:material|136",
       "emc": 14810
     },
@@ -83,14 +71,6 @@
     {
       "item": "draconicevolution:draconic_core|0",
       "emc": 42768510
-    },
-    {
-      "item": "contenttweaker:material_part|54",
-      "emc": 81621
-    },
-    {
-      "item": "contenttweaker:material_part|63",
-      "emc": 481621
     },
     {
       "item":"contenttweaker:strong_motor_unprocessed",
