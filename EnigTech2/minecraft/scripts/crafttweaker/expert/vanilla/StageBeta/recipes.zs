@@ -108,7 +108,7 @@ val shapedMirroredRecipes as IIngredient[][][IItemStack] = {
 //无序
 val shapedlessRecipes as IIngredient[][IItemStack] = {
     <cuisine:material:1>*2 : [
-        <immersiveengineering:material:0>,<roots:runic_shears>.reuse()
+        <immersiveengineering:material:0>,<roots:runic_shears>.reuse().anyDamage()
     ],
   
     <extrautils2:angelring:0> : [
