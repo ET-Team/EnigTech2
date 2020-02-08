@@ -1,4 +1,5 @@
 #priority 2000
+#modloaded etutil
 import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;

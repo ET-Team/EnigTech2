@@ -1,4 +1,5 @@
 #packmode expert
+#modloaded etutil
 #priority 0
 
 recipes.remove(<immersiveengineering:wooden_device0:2>);

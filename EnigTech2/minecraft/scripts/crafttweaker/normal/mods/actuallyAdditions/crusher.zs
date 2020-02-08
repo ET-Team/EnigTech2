@@ -1,4 +1,5 @@
 #packmode normal
+#modloaded etutil
 #priority -100
 
 mods.actuallyadditions.Crusher.removeRecipe(<nuclearcraft:gem_dust:2>);

@@ -1,4 +1,5 @@
 #packmode expert
+#modloaded etutil
 #priority -2000
 import crafttweaker.recipes.ICraftingRecipe;
 

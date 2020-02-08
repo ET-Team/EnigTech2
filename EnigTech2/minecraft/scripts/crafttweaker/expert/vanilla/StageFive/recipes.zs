@@ -1,4 +1,5 @@
 #packmode expert
+#modloaded etutil
 #priority -100
 
 recipes.replaceAllOccurences(<advancedrocketry:ic>, <contenttweaker:basic_processor>);

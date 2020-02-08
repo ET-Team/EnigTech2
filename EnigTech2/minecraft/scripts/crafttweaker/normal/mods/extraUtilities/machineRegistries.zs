@@ -1,4 +1,5 @@
 #loader preinit
+#modloaded etutil
 import extrautilities2.Tweaker.IMachineRegistry;
 import extrautilities2.Tweaker.IMachineSlot;
 import extrautilities2.Tweaker.IMachine;

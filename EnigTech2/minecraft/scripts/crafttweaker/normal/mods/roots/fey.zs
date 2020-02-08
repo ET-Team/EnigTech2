@@ -1,4 +1,5 @@
 #packmode normal
+#modloaded etutil
 #priority -100
 import mods.roots.Fey;
 Fey.removeRecipe(<roots:elemental_soil>);

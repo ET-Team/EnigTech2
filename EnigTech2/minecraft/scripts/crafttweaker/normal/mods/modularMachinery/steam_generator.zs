@@ -1,4 +1,5 @@
 #packmode normal
+#modloaded etutil
 #priority -100
 var machineName = "steam_generator";
 
