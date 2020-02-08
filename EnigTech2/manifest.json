@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "EnigTech2",
-  "version": "1.3.0",
+  "version": "1.3.2",
   "author": "dong031001",
   "files": [
     {
@@ -56,7 +56,12 @@
     },
     {
       "projectID": 277064,
-      "fileID": 2817910,
+      "fileID": 2865499,
+      "required": true
+    },
+    {
+      "projectID": 271492,
+      "fileID": 2469710,
       "required": true
     },
     {
@@ -111,7 +116,7 @@
     },
     {
       "projectID": 354236,
-      "fileID": 2842963,
+      "fileID": 2877594,
       "required": true
     },
     {
@@ -131,12 +136,12 @@
     },
     {
       "projectID": 231382,
-      "fileID": 2744222,
+      "fileID": 2867147,
       "required": true
     },
     {
       "projectID": 223565,
-      "fileID": 2753317,
+      "fileID": 2867186,
       "required": true
     },
     {
@@ -176,7 +181,7 @@
     },
     {
       "projectID": 243707,
-      "fileID": 2849362,
+      "fileID": 2863817,
       "required": true
     },
     {
@@ -206,7 +211,7 @@
     },
     {
       "projectID": 229218,
-      "fileID": 2812054,
+      "fileID": 2855967,
       "required": true
     },
     {
@@ -231,7 +236,7 @@
     },
     {
       "projectID": 231484,
-      "fileID": 2733516,
+      "fileID": 2862651,
       "required": true
     },
     {
@@ -301,7 +306,7 @@
     },
     {
       "projectID": 282940,
-      "fileID": 2838234,
+      "fileID": 2865502,
       "required": true
     },
     {
@@ -370,6 +375,11 @@
       "required": true
     },
     {
+      "projectID": 303122,
+      "fileID": 2733301,
+      "required": true
+    },
+    {
       "projectID": 284139,
       "fileID": 2821069,
       "required": true
@@ -386,12 +396,12 @@
     },
     {
       "projectID": 246183,
-      "fileID": 2823796,
+      "fileID": 2865501,
       "required": true
     },
     {
       "projectID": 241721,
-      "fileID": 2757379,
+      "fileID": 2872629,
       "required": true
     },
     {
@@ -661,7 +671,7 @@
     },
     {
       "projectID": 285612,
-      "fileID": 2831330,
+      "fileID": 2863699,
       "required": true
     },
     {
@@ -696,7 +706,7 @@
     },
     {
       "projectID": 311357,
-      "fileID": 2837405,
+      "fileID": 2872951,
       "required": true
     },
     {
@@ -711,7 +721,7 @@
     },
     {
       "projectID": 236542,
-      "fileID": 2859333,
+      "fileID": 2875228,
       "required": true
     },
     {
@@ -801,7 +811,7 @@
     },
     {
       "projectID": 355044,
-      "fileID": 2858200,
+      "fileID": 2869368,
       "required": true
     },
     {
@@ -812,6 +822,11 @@
     {
       "projectID": 286924,
       "fileID": 2772097,
+      "required": true
+    },
+    {
+      "projectID": 334957,
+      "fileID": 2759598,
       "required": true
     },
     {
@@ -831,7 +846,7 @@
     },
     {
       "projectID": 303694,
-      "fileID": 2846079,
+      "fileID": 2868936,
       "required": true
     },
     {
@@ -841,7 +856,7 @@
     },
     {
       "projectID": 32274,
-      "fileID": 2844789,
+      "fileID": 2873185,
       "required": true
     },
     {
@@ -865,13 +880,13 @@
       "required": true
     },
     {
-      "projectID": 318255,
-      "fileID": 2747710,
+      "projectID": 314904,
+      "fileID": 2819669,
       "required": true
     },
     {
-      "projectID": 314904,
-      "fileID": 2819669,
+      "projectID": 318255,
+      "fileID": 2747710,
       "required": true
     },
     {
