@@ -1,4 +1,5 @@
 #priority 1000
+#modloaded etutil
 import extrautilities2.Tweaker.IMachineRegistry;
 
 var chlorinizer = IMachineRegistry.getMachine("crafttweaker:chlorinizer");

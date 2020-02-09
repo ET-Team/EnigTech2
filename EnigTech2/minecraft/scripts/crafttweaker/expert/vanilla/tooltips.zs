@@ -1,4 +1,5 @@
 #packmode expert
+#modloaded etutil
 #priority -100
 import crafttweaker.item.IIngredient;
 val toAdd as string[IIngredient] = {
@@ -25,7 +26,8 @@ val toAdd as string[IIngredient] = {
     <extrautils2:angelring:0> : "经典款天使指环。你有听说过他们家的新款吗？",
     <appliedenergistics2:material:13> : "此物品可通过金属冲压机回收为殷钢板",
     <appliedenergistics2:material:14> : "此物品可通过金属冲压机回收为殷钢板",
-    <appliedenergistics2:material:15> : "此物品可通过金属冲压机回收为殷钢板"
+    <appliedenergistics2:material:15> : "此物品可通过金属冲压机回收为殷钢板",
+    <appliedenergistics2:material:19> : "此物品可通过金属冲压机回收为殷钢板"
 };
 
 val warning as string[IIngredient] = {

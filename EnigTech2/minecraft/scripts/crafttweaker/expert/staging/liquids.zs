@@ -1,4 +1,5 @@
 #packmode expert
+#modloaded etutil
 #priority 1000
 
 mods.jei.JEI.hide(<liquid:aerotheum>);

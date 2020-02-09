@@ -1,4 +1,5 @@
 #packmode expert
+#modloaded etutil
 #priority -100
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -108,7 +109,7 @@ val shapedMirroredRecipes as IIngredient[][][IItemStack] = {
 //无序
 val shapedlessRecipes as IIngredient[][IItemStack] = {
     <cuisine:material:1>*2 : [
-        <immersiveengineering:material:0>,<roots:runic_shears>.reuse()
+        <immersiveengineering:material:0>,<roots:runic_shears>.anyDamage().transformDamage(1)
     ],
   
     <extrautils2:angelring:0> : [

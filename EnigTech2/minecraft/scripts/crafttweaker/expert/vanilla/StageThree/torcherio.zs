@@ -1,4 +1,5 @@
 #packmode normal
+#modloaded etutil
 #modloaded torcherino
 
 recipes.remove(<item:torcherino:blocktorcherino>);

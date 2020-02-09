@@ -1,4 +1,5 @@
 #packmode normal
+#modloaded etutil
 #priority -100
 
 //移除 神秘世界模组 紫水晶 的矿物词典
@@ -43,3 +44,4 @@
 //坠星
 <ore:blockMeteorolite>.add(<appliedenergistics2:sky_stone_block>);
 <ore:blockMarbleDark>.add(<tombstone:dark_marble>);
+<ore:blockInfusedObsidian>.add(<draconicevolution:infused_obsidian>);

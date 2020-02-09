@@ -41,18 +41,6 @@
       "emc": 8810
     },
     {
-      "item": "contenttweaker:material_part|25",
-      "emc": 8810
-    },
-    {
-      "item": "contenttweaker:material_part|45",
-      "emc": 12810
-    },
-    {
-      "item": "contenttweaker:material_part|72",
-      "emc": 8810
-    },
-    {
       "item": "thermalfoundation:material|136",
       "emc": 14810
     },
@@ -85,12 +73,40 @@
       "emc": 42768510
     },
     {
+      "item": "contenttweaker:strong_motor_unprocessed|0",
+      "emc": 2178190
+    },
+    {
+      "item": "contenttweaker:material_part|25",
+      "emc": 8810
+    },
+    {
+      "item": "contenttweaker:material_part|45",
+      "emc": 8810
+    },
+    {
+      "item": "contenttweaker:material_part|72",
+      "emc": 12810
+    },
+    {
       "item": "contenttweaker:material_part|54",
       "emc": 81621
     },
     {
+      "item": "contenttweaker:material_part|81",
+      "emc": 118680
+    },
+    {
       "item": "contenttweaker:material_part|63",
       "emc": 481621
+    },
+    {
+      "item": "mekanismgenerators:generator|10",
+      "emc": 704680
+    },
+    {
+      "item": "mekanismgenerators:generator|11",
+      "emc": 2981621
     }
   ]
 }

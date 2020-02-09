@@ -1,4 +1,5 @@
 #packmode normal
+#modloaded etutil
 #priority -100
 //活木和活石的白雏菊魔改
 mods.botania.PureDaisy.removeRecipe(<botania:livingrock>);

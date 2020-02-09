@@ -1,4 +1,5 @@
 #packmode expert
+#modloaded etutil
 #priority 0
 
 //导包
@@ -112,7 +113,7 @@ val removingODArray = [
 
 //按配方ID移除
 val removingRNArray = [
-
+    "mekanismgenerators:generator_10"
 ] as string[];
 
 //结算

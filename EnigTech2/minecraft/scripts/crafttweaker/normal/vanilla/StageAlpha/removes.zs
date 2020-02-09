@@ -1,4 +1,5 @@
 #packmode normal
+#modloaded etutil
 #priority 0
 
 recipes.remove(<item:draconicevolution:draconium_ingot>);

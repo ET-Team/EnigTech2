@@ -12,6 +12,10 @@
       "oreName": "oreDraconium"
     },
     {
+      "weight": 400,
+      "oreName": "blockInfusedObsidian"
+    },
+    {
       "weight": 80,
       "oreName": "oreMolybdenumSteel"
     },
@@ -24,7 +28,7 @@
       "oreName": "oreMithril"
     },
     {
-      "weight": 20,
+      "weight": 10,
       "oreName": "blockDraconium"
     },
     {
@@ -40,9 +44,9 @@
       "oreName": "blockMeteorolite"
     }
   ],
-  "explosionStrength": 10.0,
-  "radius": 3,
-  "maxWeight": 1200,
+  "explosionStrength": 15.0,
+  "radius": 7,
+  "maxWeight": 1590,
   "version": 4,
   "cost": 10000000
 }

@@ -1,4 +1,5 @@
 #packmode expert
+#modloaded etutil
 #priority -100
 var machineName = "boil_chamber_mk2";
 

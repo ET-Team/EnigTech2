@@ -1,4 +1,5 @@
 #packmode expert
+#modloaded etutil
 #priority -100
 
 import crafttweaker.item.IItemStack;
@@ -46,7 +47,6 @@ recipes.addShaped(<mekanism:machineblock2:14>, [[<contenttweaker:material_part:5
 recipes.addShaped(<extrautils2:ingredients:5> * 8, [[<astralsorcery:itemcraftingcomponent:2>, <contenttweaker:lunar_essence>, <astralsorcery:itemcraftingcomponent:2>],[<minecraft:nether_star>, <ore:ingotUnstable>, <minecraft:nether_star>], [<astralsorcery:itemcraftingcomponent:2>, <contenttweaker:lunar_essence>, <astralsorcery:itemcraftingcomponent:2>]]);
 recipes.addShaped(<mekanism:machineblock2:13>, [[<contenttweaker:material_part:79>, <contenttweaker:material_part:79>, null],[<mekanism:controlcircuit:3>, <contenttweaker:material_part:51>, <embers:glimmer_shard>], [<contenttweaker:material_part:79>, <contenttweaker:material_part:79>, null]]);
 recipes.addShaped(<mekanismgenerators:generator:13>, [[<thermalfoundation:material:328>, <contenttweaker:material_part:81>, <thermalfoundation:material:328>],[<thermalfoundation:material:328>, <simplyjetpacks:metaitemmods:21>, <thermalfoundation:material:328>], [<thermalfoundation:material:328>, <contenttweaker:material_part:81>, <thermalfoundation:material:328>]]);
-recipes.addShaped(<mekanismgenerators:generator:12> * 2, [[<thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>],[<contenttweaker:material_part:79>, <thermalfoundation:material:264>, <contenttweaker:material_part:79>], [<thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>]]);
 recipes.addShaped(<mekanismgenerators:generator:11>, [[<contenttweaker:material_part:52>, <contenttweaker:material_part:81>, <contenttweaker:material_part:52>],[<contenttweaker:material_part:52>, <contenttweaker:strong_motor>, <contenttweaker:material_part:52>], [<contenttweaker:material_part:52>, <contenttweaker:material_part:81>, <contenttweaker:material_part:52>]]);
 recipes.addShaped(<mekanismgenerators:generator:10> * 4, [[<contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>],[<contenttweaker:material_part:52>, <contenttweaker:material_part:69>, <contenttweaker:material_part:52>], [<contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>]]);
 recipes.addShaped(<mekanismgenerators:generator:9> * 2, [[<contenttweaker:material_part:43>, <contenttweaker:material_part:19>, <contenttweaker:material_part:43>],[<contenttweaker:material_part:43>, <contenttweaker:material_part:19>, <contenttweaker:material_part:43>], [<contenttweaker:material_part:43>, <contenttweaker:material_part:19>, <contenttweaker:material_part:43>]]);
@@ -95,6 +95,7 @@ recipes.addShaped("retriever_signalum_expert",<thermaldynamics:retriever:3>*2,[[
 recipes.addShaped("retriever_enderium_expert",<thermaldynamics:retriever:4>*2,[[null,<arcanearchives:monitoring_crystal>,null],[<appliedenergistics2:material:42>,<appliedenergistics2:quartz_glass>,<appliedenergistics2:material:42>],[<ore:ingotEnderium>,<extrautils2:ingredients:2>,<ore:ingotEnderium>]]);
 
 //TD管道规整
+val brz = <ore:ingotBronze>;
 val hpj = <ore:ingotElectrum>;
 val yhbl = <ore:blockGlassHardened>;
 val guan = <thermaldynamics:duct_48:0>;
@@ -103,6 +104,7 @@ val lead = <ore:ingotLead>;
 val leadn = <ore:nuggetLead>;
 val silvern = <ore:nuggetSilver>;
 
+recipes.addShaped("superfluiduct_tweaked",<thermaldynamics:duct_16:6>,[[brz,yhbl,brz],[yhbl,<mekanism:transmitter:1>.withTag({tier: 3}),yhbl],[brz,yhbl,brz]]);
 recipes.addShaped("empty_csf_tweaked",<thermaldynamics:duct_0:9>,[[hpj,yhbl,hpj],[yhbl,guan,yhbl],[hpj,yhbl,hpj]]);
 recipes.addShaped("fluiduct_tweaked",<thermaldynamics:duct_16:4>*3,[[null,xsu,null],[guan,guan,guan],[null,hpj,null]]);
 recipes.addShaped("itemduct_tweaked",<thermaldynamics:duct_32:4>*3,[[null,guan,null],[xsu,guan,hpj],[null,guan,null]]);
@@ -114,6 +116,7 @@ recipes.addShapedMirrored("denseimpulseitemduct_tweaked_2",<thermaldynamics:duct
 //录入透明
 val transparentArray = [
     <thermaldynamics:duct_16:4>,
+    <thermaldynamics:duct_16:6>,
     <thermaldynamics:duct_32:4>.withTag({DenseType: 2 as byte}),
     <thermaldynamics:duct_32:4>.withTag({DenseType: 1 as byte}),
     <thermaldynamics:duct_32:4>,
@@ -125,6 +128,7 @@ val transparentArray = [
 //录入不透明
 val opaqueArray = [
     <thermaldynamics:duct_16:5>,
+    <thermaldynamics:duct_16:7>,
     <thermaldynamics:duct_32:5>.withTag({DenseType: 2 as byte}),
     <thermaldynamics:duct_32:5>.withTag({DenseType: 1 as byte}),
     <thermaldynamics:duct_32:5>,

@@ -1,4 +1,5 @@
 #packmode normal
+#modloaded etutil
 #priority 1000
 import mods.recipestages.Recipes;
 

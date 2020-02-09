@@ -1,4 +1,5 @@
 #packmode expert
+#modloaded etutil
 #priority -100
 
 import mods.immersiveengineering.MetalPress;
@@ -13,3 +14,4 @@ MetalPress.addRecipe(<extendedcrafting:material:2>, <extendedcrafting:material>,
 MetalPress.addRecipe(<thermalfoundation:material:354>, <appliedenergistics2:material:13>, <immersiveengineering:mold>, 2000);
 MetalPress.addRecipe(<thermalfoundation:material:354>, <appliedenergistics2:material:14>, <immersiveengineering:mold>, 2000);
 MetalPress.addRecipe(<thermalfoundation:material:354>, <appliedenergistics2:material:15>, <immersiveengineering:mold>, 2000);
+MetalPress.addRecipe(<thermalfoundation:material:354>, <appliedenergistics2:material:19>, <immersiveengineering:mold>, 2000);

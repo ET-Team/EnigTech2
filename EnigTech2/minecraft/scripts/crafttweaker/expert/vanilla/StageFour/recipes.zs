@@ -1,4 +1,5 @@
 #packmode expert
+#modloaded etutil
 #priority -100
 
 recipes.addShaped(<immersiveengineering:metal_device0:2>, [[<thermalfoundation:material:354>, <thermalfoundation:material:354>, <thermalfoundation:material:354>],[<contenttweaker:magfusive_crystal>, <immersiveengineering:metal_device0:1>, <contenttweaker:magfusive_crystal>], [<thermalfoundation:material:354>, <thermalfoundation:material:354>, <thermalfoundation:material:354>]]);

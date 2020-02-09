@@ -1,4 +1,5 @@
 #priority 2000
+#modloaded etutil
 #loader contenttweaker
 //导包
 	import mods.contenttweaker.VanillaFactory;

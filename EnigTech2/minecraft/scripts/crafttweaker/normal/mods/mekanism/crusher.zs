@@ -1,4 +1,5 @@
 #packmode normal
+#modloaded etutil
 #priority -100
 
 mods.mekanism.crusher.removeRecipe(<nuclearcraft:gem:6>);

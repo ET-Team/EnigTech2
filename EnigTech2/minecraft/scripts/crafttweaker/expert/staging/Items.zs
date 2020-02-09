@@ -1,4 +1,5 @@
 #packmode expert
+#modloaded etutil
 #priority 1000
 
 import crafttweaker.item.IItemStack;
@@ -180,7 +181,8 @@ var modsStageSix as string[] = [
 	"xnet",
 	"valkyrielib",
 	"packagedauto",
-	"packagedexcrafting"
+	"packagedexcrafting",
+	"thermaldynamics"
 	
 ];
 

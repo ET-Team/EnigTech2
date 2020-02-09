@@ -1,4 +1,5 @@
 #packmode expert
+#modloaded etutil
 #priority -100
 //木盆
 recipes.addShaped(<rustic:crushing_tub>,[[<ore:plankWood>,null,<ore:plankWood>],[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>]]);

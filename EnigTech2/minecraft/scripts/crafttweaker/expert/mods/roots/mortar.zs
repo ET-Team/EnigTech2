@@ -1,4 +1,5 @@
 #packmode expert
+#modloaded etutil
 #priority -100
 import mods.roots.Mortar;
 
