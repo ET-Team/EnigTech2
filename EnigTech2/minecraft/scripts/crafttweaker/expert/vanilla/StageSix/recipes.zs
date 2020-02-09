@@ -104,7 +104,7 @@ val lead = <ore:ingotLead>;
 val leadn = <ore:nuggetLead>;
 val silvern = <ore:nuggetSilver>;
 
-recipes.addShaped("superfluiduct_tweaked",<thermaldynamics:duct_16:4>,[[brz,yhbl,brz],[yhbl,<mekanism:transmitter:1>.withTag({tier: 3}),yhbl],[brz,yhbl,brz]]);
+recipes.addShaped("superfluiduct_tweaked",<thermaldynamics:duct_16:6>,[[brz,yhbl,brz],[yhbl,<mekanism:transmitter:1>.withTag({tier: 3}),yhbl],[brz,yhbl,brz]]);
 recipes.addShaped("empty_csf_tweaked",<thermaldynamics:duct_0:9>,[[hpj,yhbl,hpj],[yhbl,guan,yhbl],[hpj,yhbl,hpj]]);
 recipes.addShaped("fluiduct_tweaked",<thermaldynamics:duct_16:4>*3,[[null,xsu,null],[guan,guan,guan],[null,hpj,null]]);
 recipes.addShaped("itemduct_tweaked",<thermaldynamics:duct_32:4>*3,[[null,guan,null],[xsu,guan,hpj],[null,guan,null]]);

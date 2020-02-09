@@ -1,4 +1,4 @@
 #packmode expert
 #priority -100
 
-mods.nuclearcraft.melter.removeRecipeWithOutput(<ore:dustSalt>);
+mods.nuclearcraft.melter.removeRecipeWithInput(<ore:dustSalt>);
