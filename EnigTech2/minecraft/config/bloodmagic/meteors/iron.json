@@ -36,17 +36,25 @@
       "oreName": "oreGold"
     },
     {
-      "weight": 25,
+      "weight": 50,
       "oreName": "blockDawnstone"
     },
     {
       "weight": 100,
       "oreName": "oreRedstone"
+    },
+    {
+      "weight": 5,
+      "oreName": "blockVibrantAlloy"
+    },
+    {
+      "weight": 15,
+      "oreName": "blockEnergeticAlloy"
     }
   ],
   "explosionStrength": 15.0,
   "radius": 5,
-  "maxWeight": 1205,
+  "maxWeight": 1260,
   "version": 3,
   "cost": 500000
 }
