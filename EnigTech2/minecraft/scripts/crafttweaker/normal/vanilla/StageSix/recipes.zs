@@ -95,6 +95,7 @@ recipes.addShaped("retriever_signalum_normal",<thermaldynamics:retriever:3>*2,[[
 recipes.addShaped("retriever_enderium_normal",<thermaldynamics:retriever:4>*2,[[null,<arcanearchives:monitoring_crystal>,null],[<appliedenergistics2:material:42>,<ore:paneGlassColorless>,<appliedenergistics2:material:42>],[<ore:ingotEnderium>,<extrautils2:ingredients:2>,<ore:ingotEnderium>]]);
 
 //TD管道规整
+val brz = <ore:ingotBronze>;
 val hpj = <ore:ingotElectrum>;
 val yhbl = <ore:blockGlassHardened>;
 val guan = <thermaldynamics:duct_48:0>;
@@ -103,6 +104,7 @@ val lead = <ore:ingotLead>;
 val leadn = <ore:nuggetLead>;
 val silvern = <ore:nuggetSilver>;
 
+recipes.addShaped("superfluiduct_tweaked",<thermaldynamics:duct_16:4>,[[brz,yhbl,brz],[yhbl,<mekanism:transmitter:1>.withTag({tier: 3}),yhbl],[brz,yhbl,brz]]);
 recipes.addShaped("empty_csf_tweaked",<thermaldynamics:duct_0:9>,[[hpj,yhbl,hpj],[yhbl,guan,yhbl],[hpj,yhbl,hpj]]);
 recipes.addShaped("fluiduct_tweaked",<thermaldynamics:duct_16:4>*3,[[null,xsu,null],[guan,guan,guan],[null,hpj,null]]);
 recipes.addShaped("itemduct_tweaked",<thermaldynamics:duct_32:4>*3,[[null,guan,null],[xsu,guan,hpj],[null,guan,null]]);
@@ -114,6 +116,7 @@ recipes.addShapedMirrored("denseimpulseitemduct_tweaked_2",<thermaldynamics:duct
 //录入透明
 val transparentArray = [
     <thermaldynamics:duct_16:4>,
+    <thermaldynamics:duct_16:6>,
     <thermaldynamics:duct_32:4>.withTag({DenseType: 2 as byte}),
     <thermaldynamics:duct_32:4>.withTag({DenseType: 1 as byte}),
     <thermaldynamics:duct_32:4>,
@@ -125,6 +128,7 @@ val transparentArray = [
 //录入不透明
 val opaqueArray = [
     <thermaldynamics:duct_16:5>,
+    <thermaldynamics:duct_16:7>,
     <thermaldynamics:duct_32:5>.withTag({DenseType: 2 as byte}),
     <thermaldynamics:duct_32:5>.withTag({DenseType: 1 as byte}),
     <thermaldynamics:duct_32:5>,
