@@ -73,7 +73,7 @@
       "emc": 42768510
     },
     {
-      "item":"contenttweaker:strong_motor_unprocessed",
+      "item":"contenttweaker:strong_motor_unprocessed|0",
       "emc":2178190
     }
   ]
