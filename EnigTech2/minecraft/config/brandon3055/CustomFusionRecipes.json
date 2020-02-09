@@ -113,8 +113,8 @@
         "energy": 1000000,
         "tier": 1,
         "ingredients": [
-            "forge:bucketfilled>,1,0,{FluidName: blood, Amount: 1000}",
-            "forge:bucketfilled>,1,0,{FluidName: blood, Amount: 1000}",
+            "contenttweaker:essencial_blood",
+            "contenttweaker:essencial_blood",
             "actuallyadditions:item_misc,1,15",
             "actuallyadditions:item_misc,1,15",
             "actuallyadditions:item_misc,1,15",

@@ -44,3 +44,4 @@
 //坠星
 <ore:blockMeteorolite>.add(<appliedenergistics2:sky_stone_block>);
 <ore:blockMarbleDark>.add(<tombstone:dark_marble>);
+<ore:blockInfusedObsidian>.add(<draconicevolution:infused_obsidian>);
