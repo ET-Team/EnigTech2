@@ -27,7 +27,8 @@ val toAdd as string[IIngredient] = {
     <appliedenergistics2:material:13> : "此物品可通过金属冲压机回收为殷钢板",
     <appliedenergistics2:material:14> : "此物品可通过金属冲压机回收为殷钢板",
     <appliedenergistics2:material:15> : "此物品可通过金属冲压机回收为殷钢板",
-    <appliedenergistics2:material:19> : "此物品可通过金属冲压机回收为殷钢板"
+    <appliedenergistics2:material:19> : "此物品可通过金属冲压机回收为殷钢板",
+    <roots:creative_pouch> : "“他们算不上袋子法师。”"
 };
 
 val warning as string[IIngredient] = {
@@ -39,7 +40,6 @@ val warning as string[IIngredient] = {
     <astralsorcery:blockcelestialgateway> : "可牵引蕴藏 宇宙之力 的坠星，代价：1500000LP",
     <draconicevolution:wyvern_core> : "可牵引蕴藏 龙之力 的 坠星，代价：10000000LP",
     <thermalfoundation:storage:8> : "血淋淋的教训"
-
 };
 
 val praise as string[IIngredient] = {

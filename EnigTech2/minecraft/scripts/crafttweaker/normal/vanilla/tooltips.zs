@@ -29,7 +29,8 @@ val toAdd as string[IIngredient] = {
     <appliedenergistics2:material:13> : "此物品可通过金属冲压机回收为殷钢板",
     <appliedenergistics2:material:14> : "此物品可通过金属冲压机回收为殷钢板",
     <appliedenergistics2:material:15> : "此物品可通过金属冲压机回收为殷钢板",
-    <appliedenergistics2:material:19> : "此物品可通过金属冲压机回收为殷钢板"
+    <appliedenergistics2:material:19> : "此物品可通过金属冲压机回收为殷钢板",
+    <roots:creative_pouch> : "“他们算不上袋子法师。”"
 };
 
 val warning as string[IIngredient] = {
