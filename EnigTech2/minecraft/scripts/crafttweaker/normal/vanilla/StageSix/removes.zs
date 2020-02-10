@@ -113,7 +113,8 @@ val removingODArray = [
 
 //按配方ID移除
 val removingRNArray = [
-    "mekanismgenerators:generator_10"
+    "mekanismgenerators:generator_10",
+    "mekanism:basicblock2_5"
 ] as string[];
 
 //结算
