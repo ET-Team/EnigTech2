@@ -167,5 +167,121 @@
             "bloodmagic:cutting_fluid,1,0",
             "bloodmagic:cutting_fluid,1,0"
         ]
+    },
+    {
+        "mode": "ADD",
+        "result": "extrautils2:spike_creative",
+        "catalyst": "extrautils2:spike_iron",
+        "energy": 50000000,
+        "tier": 2,
+        "ingredients": [
+            "mysticalworld:amethyst_knife",
+            "mysticalworld:amethyst_knife",
+            "thermalfoundation:upgrade,1,256",
+            "thermalfoundation:upgrade,1,256",
+            "mysticalworld:amethyst_knife",
+            "mysticalworld:amethyst_knife"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "extrautils2:itemcreativedestructionwand",
+        "catalyst": "extrautils2:itemdestructionwand",
+        "energy": 50000000,
+        "tier": 2,
+        "ingredients": [
+            "extrautils2:decorativesolidwood,1,1",
+            "extrautils2:decorativesolidwood,1,1",
+            "thermalfoundation:upgrade,1,256",
+            "thermalfoundation:upgrade,1,256",
+            "extrautils2:decorativesolidwood,1,1",
+            "extrautils2:decorativesolidwood,1,1"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "extrautils2:itemcreativebuilderswand",
+        "catalyst": "extrautils2:itembuilderswand",
+        "energy": 50000000,
+        "tier": 2,
+        "ingredients": [
+            "extrautils2:decorativesolidwood,1,1",
+            "extrautils2:decorativesolidwood,1,1",
+            "thermalfoundation:upgrade,1,256",
+            "thermalfoundation:upgrade,1,256",
+            "extrautils2:decorativesolidwood,1,1",
+            "extrautils2:decorativesolidwood,1,1"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "roots:creative_pouch",
+        "catalyst": "roots:component_pouch",
+        "energy": 50000000,
+        "tier": 2,
+        "ingredients": [
+            "roots:wildwood_rune",
+            "roots:wildwood_rune",
+            "thermalfoundation:upgrade,1,256",
+            "thermalfoundation:upgrade,1,256",
+            "roots:wildwood_rune",
+            "roots:wildwood_rune"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "embers:creative_ember_source",
+        "catalyst": "embers:crystal_cell",
+        "energy": 50000000,
+        "tier": 2,
+        "ingredients": [
+            "embers:ember_cluster",
+            "embers:ember_cluster",
+            "thermalfoundation:upgrade,1,256",
+            "thermalfoundation:upgrade,1,256",
+            "embers:ember_cluster",
+            "embers:ember_cluster"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "mekanism:gastank,1,0,{tier: 4}",
+        "catalyst": "mekanism:gastank,1,0,{tier: 3}",
+        "energy": 50000000,
+        "tier": 2,
+        "ingredients": [
+            "mekanism:transmitter,1,2,{tier: 3}",
+            "mekanism:transmitter,1,2,{tier: 3}",
+            "thermalfoundation:upgrade,1,256",
+            "thermalfoundation:upgrade,1,256",
+            "mekanism:transmitter,1,2,{tier: 3}",
+            "mekanism:transmitter,1,2,{tier: 3}"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "ae2wtlib:wut_creative",
+        "catalyst": "ae2wtlib:wut",
+        "energy": 30000000,
+        "tier": 2,
+        "ingredients": [
+            "wct:wct_creative",
+            "wpt:wpt_creative"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "embers:creative_heat",
+        "catalyst": "embers:ancient_motive_core",
+        "energy": 30000000,
+        "tier": 2,
+        "ingredients": [
+            "actuallyadditions:item_crystal_empowered,1,4",
+            "actuallyadditions:item_crystal_empowered,1,4",
+            "embers:creative_ember_source",
+            "embers:creative_ember_source",
+            "actuallyadditions:item_crystal_empowered,1,4",
+            "actuallyadditions:item_crystal_empowered,1,4"
+        ]
     }
 ]
