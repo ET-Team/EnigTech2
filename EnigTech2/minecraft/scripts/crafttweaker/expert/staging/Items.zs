@@ -289,7 +289,8 @@ val itemsStageSix as IIngredient[] = [
 	<contenttweaker:compress_crystaltine>,
 	<contenttweaker:ultracondium_crystal>,
 	<contenttweaker:ultimate_motioner>,
-	<contenttweaker:ether_alloy_ingot>
+	<contenttweaker:ether_alloy_ingot>,
+	<actuallyadditions:block_laser_relay_fluids>
 ];
 val itemsStageAlpha as IIngredient[] = [
 	<contenttweaker:auriminium>,
@@ -330,3 +331,4 @@ mods.ItemStages.stageTooltip("alpha", "EMC:");
 
 mods.ItemStages.removeItemStage(<soot:stamp_text>);
 mods.ItemStages.addItemStage("default",<soot:stamp_text>);
+mods.ItemStages.addItemStage("default",<roots:unending_bowl>);

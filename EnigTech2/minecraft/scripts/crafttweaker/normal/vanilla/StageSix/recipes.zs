@@ -94,6 +94,11 @@ recipes.addShaped("filter_enderium_normal",<thermaldynamics:filter:4>*2,[[null,<
 recipes.addShaped("retriever_signalum_normal",<thermaldynamics:retriever:3>*2,[[null,<arcanearchives:monitoring_crystal>,null],[<appliedenergistics2:material:42>,<ore:paneGlassColorless>,<appliedenergistics2:material:42>],[<ore:ingotSignalum>,<extrautils2:ingredients:2>,<ore:ingotSignalum>]]);
 recipes.addShaped("retriever_enderium_normal",<thermaldynamics:retriever:4>*2,[[null,<arcanearchives:monitoring_crystal>,null],[<appliedenergistics2:material:42>,<ore:paneGlassColorless>,<appliedenergistics2:material:42>],[<ore:ingotEnderium>,<extrautils2:ingredients:2>,<ore:ingotEnderium>]]);
 
+//流体激光
+val jhb = <nuclearcraft:part:3>;
+val lxg = <nuclearcraft:part:5>;
+mods.recipestages.Recipes.addShaped("six", <actuallyadditions:block_laser_relay_fluids>*2, [[null,<mekanism:teleportationcore>,null],[lxg,<thermaldynamics:duct_16:6>,lxg],[jhb,jhb,jhb]]);
+
 //TD管道规整
 val brz = <ore:ingotBronze>;
 val hpj = <ore:ingotElectrum>;
