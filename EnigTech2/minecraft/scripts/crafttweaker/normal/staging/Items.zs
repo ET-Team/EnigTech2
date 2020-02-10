@@ -290,7 +290,8 @@ val itemsStageSix as IIngredient[] = [
 	<contenttweaker:compress_crystaltine>,
 	<contenttweaker:ultracondium_crystal>,
 	<contenttweaker:ultimate_motioner>,
-	<contenttweaker:ether_alloy_ingot>
+	<contenttweaker:ether_alloy_ingot>,
+	<actuallyadditions:block_laser_relay_fluids>
 ];
 val itemsStageAlpha as IIngredient[] = [
 	<contenttweaker:auriminium>,
@@ -331,6 +332,7 @@ mods.ItemStages.stageTooltip("alpha", "EMC:");
 
 mods.ItemStages.removeItemStage(<soot:stamp_text>);
 mods.ItemStages.addItemStage("default",<soot:stamp_text>);
+mods.ItemStages.addItemStage("default",<roots:unending_bowl>);
 mods.ItemStages.addItemStage("default",<actuallyadditions:item_spawner_changer>);
 mods.ItemStages.addItemStage("default",<touhou_little_maid:marisa_broom>);
 mods.ItemStages.addItemStage("default",<minecraft:spawn_egg>.withTag({EntityTag: {id: "touhou_little_maid:entity.passive.maid"}}));

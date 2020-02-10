@@ -47,7 +47,7 @@ recipes.addShaped(<mekanism:machineblock2:14>, [[<contenttweaker:material_part:5
 recipes.addShaped(<extrautils2:ingredients:5> * 8, [[<astralsorcery:itemcraftingcomponent:2>, <contenttweaker:lunar_essence>, <astralsorcery:itemcraftingcomponent:2>],[<minecraft:nether_star>, <ore:ingotUnstable>, <minecraft:nether_star>], [<astralsorcery:itemcraftingcomponent:2>, <contenttweaker:lunar_essence>, <astralsorcery:itemcraftingcomponent:2>]]);
 recipes.addShaped(<mekanism:machineblock2:13>, [[<contenttweaker:material_part:79>, <contenttweaker:material_part:79>, null],[<mekanism:controlcircuit:3>, <contenttweaker:material_part:51>, <embers:glimmer_shard>], [<contenttweaker:material_part:79>, <contenttweaker:material_part:79>, null]]);
 recipes.addShaped(<mekanismgenerators:generator:13>, [[<thermalfoundation:material:328>, <contenttweaker:material_part:81>, <thermalfoundation:material:328>],[<thermalfoundation:material:328>, <simplyjetpacks:metaitemmods:21>, <thermalfoundation:material:328>], [<thermalfoundation:material:328>, <contenttweaker:material_part:81>, <thermalfoundation:material:328>]]);
-recipes.addShaped(<mekanismgenerators:generator:11>, [[<contenttweaker:material_part:52>, <contenttweaker:material_part:81>, <contenttweaker:material_part:52>],[<contenttweaker:material_part:52>, <contenttweaker:strong_motor>, <contenttweaker:material_part:52>], [<contenttweaker:material_part:52>, <contenttweaker:material_part:81>, <contenttweaker:material_part:52>]]);
+recipes.addShaped(<mekanismgenerators:generator:11>*4, [[<contenttweaker:material_part:52>, <contenttweaker:material_part:81>, <contenttweaker:material_part:52>],[<contenttweaker:material_part:52>, <contenttweaker:strong_motor>, <contenttweaker:material_part:52>], [<contenttweaker:material_part:52>, <contenttweaker:material_part:81>, <contenttweaker:material_part:52>]]);
 recipes.addShaped(<mekanismgenerators:generator:10> * 4, [[<contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>],[<contenttweaker:material_part:52>, <contenttweaker:material_part:69>, <contenttweaker:material_part:52>], [<contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>]]);
 recipes.addShaped(<mekanismgenerators:generator:9> * 2, [[<contenttweaker:material_part:43>, <contenttweaker:material_part:19>, <contenttweaker:material_part:43>],[<contenttweaker:material_part:43>, <contenttweaker:material_part:19>, <contenttweaker:material_part:43>], [<contenttweaker:material_part:43>, <contenttweaker:material_part:19>, <contenttweaker:material_part:43>]]);
 recipes.addShaped(<mekanismgenerators:generator:8> * 4, [[<contenttweaker:material_part:43>, <contenttweaker:advanced_motioner>, <contenttweaker:material_part:43>],[<contenttweaker:material_part:43>, <contenttweaker:material_part:19>, <contenttweaker:material_part:43>], [<contenttweaker:material_part:43>, <contenttweaker:advanced_motioner>, <contenttweaker:material_part:43>]]);
@@ -93,6 +93,16 @@ recipes.addShaped("filter_enderium_expert",<thermaldynamics:filter:4>*2,[[null,<
 //检索器
 recipes.addShaped("retriever_signalum_expert",<thermaldynamics:retriever:3>*2,[[null,<arcanearchives:monitoring_crystal>,null],[<appliedenergistics2:material:42>,<appliedenergistics2:quartz_glass>,<appliedenergistics2:material:42>],[<ore:ingotSignalum>,<extrautils2:ingredients:2>,<ore:ingotSignalum>]]);
 recipes.addShaped("retriever_enderium_expert",<thermaldynamics:retriever:4>*2,[[null,<arcanearchives:monitoring_crystal>,null],[<appliedenergistics2:material:42>,<appliedenergistics2:quartz_glass>,<appliedenergistics2:material:42>],[<ore:ingotEnderium>,<extrautils2:ingredients:2>,<ore:ingotEnderium>]]);
+
+//流体激光 热导元件
+val jhb = <nuclearcraft:part:3>;
+val gjb = <nuclearcraft:part:1>;
+val lxg = <nuclearcraft:part:5>;
+
+val daore = <nuclearcraft:alloy:11>;
+
+mods.recipestages.Recipes.addShaped("six",<actuallyadditions:block_laser_relay_fluids>*2, [[null,<mekanism:teleportationcore>,null],[lxg,<thermaldynamics:duct_16:6>,lxg],[jhb,jhb,jhb]]);
+mods.recipestages.Recipes.addShaped("six",<mekanism:basicblock2:5>*3,[[gjb,daore,gjb],[daore,<contenttweaker:ultimate_motioner>,daore],[gjb,daore,gjb]]);
 
 //TD管道规整
 val brz = <ore:ingotBronze>;

@@ -27,16 +27,6 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [<botania:pool:1>,<thermalfoundation:upgrade:35>,<botania:pool:1>],
         [<contenttweaker:technium>,<botania:pool:1>,<contenttweaker:technium>]
     ],
-    <embers:creative_ember_source> : [
-        [<thermalfoundation:upgrade:256>],
-        [<embers:crystal_cell>],
-        [<thermalfoundation:upgrade:256>]
-    ],
-    <mekanism:gastank>.withTag({tier: 4}) : [
-        [<thermalfoundation:upgrade:256>],
-        [<mekanism:gastank>.withTag({tier: 3})],
-        [<thermalfoundation:upgrade:256>]
-    ],
     <storagedrawers:upgrade_creative:1>*2 : [
         [<contenttweaker:enigtechnium>,<thermalfoundation:upgrade:256>,<contenttweaker:enigtechnium>],
         [<thermalfoundation:upgrade:256>,<storagedrawers:upgrade_creative>,<thermalfoundation:upgrade:256>],
@@ -77,6 +67,18 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [<contenttweaker:solidified_energy>,<contenttweaker:solidified_energy>,<contenttweaker:solidified_energy>],
         [<contenttweaker:solidified_energy>,<item:extendedcrafting:storage:4>,<contenttweaker:solidified_energy>],
         [<contenttweaker:solidified_energy>,<contenttweaker:solidified_energy>,<contenttweaker:solidified_energy>]
+    ],
+    <thermalexpansion:satchel:32000>.withTag({Accessible: 1 as byte}) : [
+        [<thermalfoundation:upgrade:256>],
+        [<ore:satchelTE>]
+    ],
+    <thermalexpansion:reservoir:32000>.withTag({}) : [
+        [<thermalfoundation:upgrade:256>],
+        [<ore:reservoirTE>]
+    ],
+    <thermalexpansion:capacitor:32000>.withTag({Energy: 25000000}) : [
+        [<thermalfoundation:upgrade:256>],
+        [<ore:capacitorTE>]
     ],
     itemUtils.getItem("projecte:item.pe_fuel", 1) : [
         [<contenttweaker:good_fuel>, itemUtils.getItem("projecte:item.pe_fuel"), <contenttweaker:good_fuel>],
