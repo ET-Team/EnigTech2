@@ -1,6 +1,5 @@
-#packmode normal
 #modloaded etutil
-#priority -100
+#priority -200
 
 //导包
 import mods.jei.JEI;
@@ -59,5 +58,6 @@ val hidesArray = [
 ] as IItemStack[];
 
 for items in hidesArray{
+    mods.ItemStages.removeItemStage(items);
     JEI.hide(items);
 }
