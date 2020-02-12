@@ -1,6 +1,5 @@
-#packmode normal
 #modloaded etutil
-#priority -100
+#priority -200
 
 //导包
 import mods.jei.JEI;
@@ -52,9 +51,13 @@ val hidesArray = [
     <thermaldynamics:retriever:1>,
     <thermaldynamics:retriever:2>,
     <cuisine:material:0>,
-    <teastory:wooden_mortar_and_pestle>
+    <teastory:wooden_mortar_and_pestle>,
+    <silentgems:enchantmenttoken>,
+    <silentgems:chaosrune>,
+    <silentgems:chaosgem>
 ] as IItemStack[];
 
 for items in hidesArray{
+    mods.ItemStages.removeItemStage(items);
     JEI.hide(items);
 }
