@@ -35,8 +35,6 @@ val hidesArray = [
     <thermaldynamics:duct_16:1>,
     <thermaldynamics:duct_16:2>,
     <thermaldynamics:duct_16:3>,
-    <thermaldynamics:duct_16:6>,
-    <thermaldynamics:duct_16:7>,
     <thermaldynamics:duct_32:0>,
     <thermaldynamics:duct_32:1>,
     <thermaldynamics:duct_32:2>,
