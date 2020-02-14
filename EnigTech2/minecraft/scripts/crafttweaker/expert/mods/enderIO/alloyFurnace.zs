@@ -47,3 +47,5 @@ AlloySmelter.removeRecipe(<enderio:item_material:39>);
     AlloySmelter.addRecipe(<contenttweaker:silicon_reinforced>, [<contenttweaker:slice_silicon_compressed>, <contenttweaker:mixed_coal_dust>],3200);
     //土豆棒
     AlloySmelter.addRecipe(<silentgems:food:0>, [<contenttweaker:charged_stable_potato>, <silentgems:soulgem>.withTag({sg_soul_gem: "Potato"}), <forestry:oak_stick>],6400);
+    //锆合金
+    AlloySmelter.addRecipe(<nuclearcraft:alloy:12>*8, [<ore:ingotZirconium>*7, <ore:ingotTin>], 7200);
