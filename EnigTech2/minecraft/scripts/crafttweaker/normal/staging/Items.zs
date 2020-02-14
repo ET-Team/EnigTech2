@@ -322,12 +322,9 @@ for item in itemsStageFive{
 for item in itemsStageFour{
 	mods.ItemStages.addItemStage("four", item);
 }
-for i in 14 to 84{
-    mods.ItemStages.addItemStage("five", <contenttweaker:material_part>.definition.makeStack(i));
-}
-for i in 0 to 16{
-    mods.ItemStages.addItemStage("five", <contenttweaker:sub_block_holder_0>.definition.makeStack(i));
-}
+
+
+
 mods.ItemStages.stageTooltip("alpha", "EMC:");
 
 mods.ItemStages.removeItemStage(<soot:stamp_text>);
