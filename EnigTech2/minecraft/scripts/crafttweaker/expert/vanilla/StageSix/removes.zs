@@ -114,7 +114,9 @@ val removingODArray = [
 //按配方ID移除
 val removingRNArray = [
     "mekanismgenerators:generator_10",
-    "mekanism:basicblock2_5"
+    "mekanism:basicblock2_5",
+    "nuclearcraft:item.nuclearcraft.part.steel_frame",
+    "nuclearcraft:tile.nuclearcraft.salt_fission_redstone_port"
 ] as string[];
 
 //结算

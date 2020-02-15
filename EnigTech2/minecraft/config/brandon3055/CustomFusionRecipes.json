@@ -246,7 +246,7 @@
     {
         "mode": "ADD",
         "result": "mekanism:gastank,1,0,{tier: 4}",
-        "catalyst": "mekanism:gastank,1,0,{tier: 3}",
+        "catalyst": "mekanism:gastank,1,0,{tier: 3, mekData: {security: 0}}",
         "energy": 50000000,
         "tier": 2,
         "ingredients": [
