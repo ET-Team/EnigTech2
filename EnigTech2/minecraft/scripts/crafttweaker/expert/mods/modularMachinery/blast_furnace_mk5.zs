@@ -315,3 +315,13 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_potato", machineN
 	.addItemOutput(<contenttweaker:baked_stable_potato_unpolished>)
 	.addItemInput(<contenttweaker:stable_potato>)
 	.build();
+
+//碳化硅纤维
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_sicfiber", machineName, speedTierThree)
+	.addManaInput(5000)
+	.addItemOutput(<nuclearcraft:part:13>*6)
+	.addItemInput(<mekanism:substrate>)
+	.addFluidInput(<fluid:pyrotheum>*1000)
+	.addFluidInput(<fluid:sic_vapor>*2000)
+	.addFluidInput(<fluid:biomass>*500)
+	.build();

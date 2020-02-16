@@ -38,3 +38,12 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystaltine_cheap
 	.addItemInput(<nuclearcraft:americium>)
 	.addItemOutput(<extendedcrafting:material:24>)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_sic", machineName, 360)
+	.addMekanismHeatInput(2, 22730, 23730)
+	.addItemInput(<ore:dustQuartz>,2)
+	.addItemInput(<ore:fuelCoke>)
+	.addItemInput(<ore:dustSalt>)
+	.addItemInput(<ore:dustWood>,2)
+	.addItemOutput(<nuclearcraft:alloy:13>)
+	.build();
