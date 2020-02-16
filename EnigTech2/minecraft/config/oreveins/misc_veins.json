@@ -424,7 +424,7 @@
         "max_y": 80,
         "biomes":["SANDY","DESERT","minecraft:desert"]
       },
-      "W": {
+      "Tungsten": {
         "type": "sphere",
         "ore": [
           {
