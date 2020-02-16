@@ -109,3 +109,6 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
 for output in shapedRecipes{
     mods.recipestages.Recipes.addShaped("alpha", output, shapedRecipes[output]);
 }
+
+recipes.replaceAllOccurences(<minecraft:slime>,<bloodmagic:component:31>,<draconicevolution:tool_upgrade:11>);
+recipes.replaceAllOccurences(<minecraft:redstone_block>,<bloodmagic:component:13>,<draconicevolution:tool_upgrade:10>);

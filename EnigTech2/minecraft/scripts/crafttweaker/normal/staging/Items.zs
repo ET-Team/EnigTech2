@@ -5,6 +5,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.recipestages.Recipes;
+import mods.ItemStages.addItemStage;
+import mods.ItemStages.removeItemStage;
 
 var allStages as string[] = [
 
@@ -31,10 +33,10 @@ recipes.removeByRecipeName("minecraft:dark_wooden_slab");
 
 recipes.removeByRecipeName("minecraft:iron_ingot_from_nuggets");
 
-mods.recipestages.Recipes.setRecipeStage("two", "traverse:fir_stairs");
-mods.recipestages.Recipes.setRecipeStage("two", "traverse:fir_fence");
-mods.recipestages.Recipes.setRecipeStage("two", "traverse:fir_fence_gate");
-mods.recipestages.Recipes.setRecipeStage("two", "traverse:fir_door");
+Recipes.setRecipeStage("two", "traverse:fir_stairs");
+Recipes.setRecipeStage("two", "traverse:fir_fence");
+Recipes.setRecipeStage("two", "traverse:fir_fence_gate");
+Recipes.setRecipeStage("two", "traverse:fir_door");
 
 var modsStageOne as string[] = [
 	"roots",
@@ -77,7 +79,7 @@ for mod in modsStageTwo{
 	Recipes.setRecipeStageByMod("two", mod);
 }
 
-mods.ItemStages.removeItemStage(<immersiveengineering:metal_multiblock>);
+removeItemStage(<immersiveengineering:metal_multiblock>);
 
 Recipes.setRecipeStageByMod("two", "minecraft");
 
@@ -129,8 +131,8 @@ var modsStageFour as string[] = [
 	"carryon"
 ];
 
-mods.ItemStages.addItemStage("four", <extracells:pattern.fluid>.withTag({Fluid:{}}));
-mods.ItemStages.addItemStage("four",<bloodmagic:upgrade_tome>.withTag({}));
+addItemStage("four", <extracells:pattern.fluid>.withTag({Fluid:{}}));
+addItemStage("four",<bloodmagic:upgrade_tome>.withTag({}));
 
 for mod in modsStageFour{
 
@@ -162,14 +164,14 @@ for mod in modsStageFive{
 	
 }
 
-mods.ItemStages.removeItemStage(<thermalexpansion:capacitor>.withTag({Energy: 1000000}));
-mods.ItemStages.removeItemStage(<thermalexpansion:capacitor:1>.withTag({Energy: 4000000}));
+removeItemStage(<thermalexpansion:capacitor>.withTag({Energy: 1000000}));
+removeItemStage(<thermalexpansion:capacitor:1>.withTag({Energy: 4000000}));
 
-mods.ItemStages.removeItemStage(<thermalexpansion:capacitor>);
-mods.ItemStages.removeItemStage(<thermalexpansion:capacitor:1>);
+removeItemStage(<thermalexpansion:capacitor>);
+removeItemStage(<thermalexpansion:capacitor:1>);
 
-mods.ItemStages.addItemStage("four",<thermalexpansion:capacitor>);
-mods.ItemStages.addItemStage("four",<thermalexpansion:capacitor:1>);
+addItemStage("four",<thermalexpansion:capacitor>);
+addItemStage("four",<thermalexpansion:capacitor:1>);
 
 var modsStageSix as string[] = [
 	"mekanism",
@@ -194,10 +196,10 @@ for mod in modsStageSix{
 	
 }
 
-mods.ItemStages.removeItemStage(<item:nuclearcraft:gem_dust>);
-mods.ItemStages.removeItemStage(<item:nuclearcraft:gem_dust:2>);
-mods.ItemStages.removeItemStage(<mekanism:dust:2>);
-mods.ItemStages.removeItemStage(<mekanism:ingot:1>);
+removeItemStage(<item:nuclearcraft:gem_dust>);
+removeItemStage(<item:nuclearcraft:gem_dust:2>);
+removeItemStage(<mekanism:dust:2>);
+removeItemStage(<mekanism:ingot:1>);
 
 var modsStageAlpha as string[] = [
 	"projecte",
@@ -224,7 +226,7 @@ for mod in modsStageBeta{
 	
 }
 
-mods.ItemStages.removeItemStage(<immersiveengineering:stone_decoration:2>);
+removeItemStage(<immersiveengineering:stone_decoration:2>);
 
 val itemsStageFour as IIngredient[] = [
 	<immersiveengineering:stone_decoration:2>,
@@ -308,39 +310,45 @@ val itemsStageAlpha as IIngredient[] = [
 ];
 
 for item in itemsStageAlpha{
-	mods.ItemStages.addItemStage("alpha", item);
+	addItemStage("alpha", item);
 }
 
 for item in itemsStageSix{
-	mods.ItemStages.addItemStage("six", item);
+	addItemStage("six", item);
 }
 
 for item in itemsStageFive{
-	mods.ItemStages.addItemStage("five", item);
+	addItemStage("five", item);
 }
 
 for item in itemsStageFour{
-	mods.ItemStages.addItemStage("four", item);
+	addItemStage("four", item);
 }
 for i in 14 to 84{
-    mods.ItemStages.addItemStage("five", <contenttweaker:material_part>.definition.makeStack(i));
+    addItemStage("five", <contenttweaker:material_part>.definition.makeStack(i));
 }
 for i in 0 to 16{
-    mods.ItemStages.addItemStage("five", <contenttweaker:sub_block_holder_0>.definition.makeStack(i));
+    addItemStage("five", <contenttweaker:sub_block_holder_0>.definition.makeStack(i));
 }
 mods.ItemStages.stageTooltip("alpha", "EMC:");
 
-mods.ItemStages.removeItemStage(<soot:stamp_text>);
-mods.ItemStages.addItemStage("default",<soot:stamp_text>);
+removeItemStage(<soot:stamp_text>);
+addItemStage("default",<soot:stamp_text>);
 
-mods.ItemStages.removeItemStage(<roots:unending_bowl>);
-mods.ItemStages.addItemStage("default",<roots:unending_bowl>);
+removeItemStage(<roots:unending_bowl>);
+addItemStage("default",<roots:unending_bowl>);
 
-mods.ItemStages.removeItemStage(<actuallyadditions:item_spawner_changer>);
-mods.ItemStages.addItemStage("default",<actuallyadditions:item_spawner_changer>);
+removeItemStage(<actuallyadditions:item_spawner_changer>);
+addItemStage("default",<actuallyadditions:item_spawner_changer>);
 
-mods.ItemStages.removeItemStage(<touhou_little_maid:marisa_broom>);
-mods.ItemStages.addItemStage("default",<touhou_little_maid:marisa_broom>);
+removeItemStage(<touhou_little_maid:marisa_broom>);
+addItemStage("default",<touhou_little_maid:marisa_broom>);
 
-mods.ItemStages.removeItemStage(<minecraft:spawn_egg>.withTag({EntityTag: {id: "touhou_little_maid:entity.passive.maid"}}));
-mods.ItemStages.addItemStage("beta",<minecraft:spawn_egg>.withTag({EntityTag: {id: "touhou_little_maid:entity.passive.maid"}}));
+removeItemStage(<minecraft:spawn_egg>.withTag({EntityTag: {id: "touhou_little_maid:entity.passive.maid"}}));
+addItemStage("beta",<minecraft:spawn_egg>.withTag({EntityTag: {id: "touhou_little_maid:entity.passive.maid"}}));
+
+removeItemStage(<embers:dust_metallurgic>);
+addItemStage("default",<embers:dust_metallurgic>);
+
+removeItemStage(<minecraft:slime>);
+addItemStage("default",<minecraft:slime>);
