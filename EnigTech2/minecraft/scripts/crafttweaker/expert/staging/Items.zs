@@ -329,25 +329,26 @@ for i in 14 to 84{
 for i in 0 to 16{
     addItemStage("five", <contenttweaker:sub_block_holder_0>.definition.makeStack(i));
 }
+
 mods.ItemStages.stageTooltip("alpha", "EMC:");
-
-removeItemStage(<soot:stamp_text>);
-addItemStage("default",<soot:stamp_text>);
-
-removeItemStage(<roots:unending_bowl>);
-addItemStage("default",<roots:unending_bowl>);
-
-removeItemStage(<actuallyadditions:item_spawner_changer>);
-addItemStage("default",<actuallyadditions:item_spawner_changer>);
-
-removeItemStage(<touhou_little_maid:marisa_broom>);
-addItemStage("default",<touhou_little_maid:marisa_broom>);
 
 removeItemStage(<minecraft:spawn_egg>.withTag({EntityTag: {id: "touhou_little_maid:entity.passive.maid"}}));
 addItemStage("beta",<minecraft:spawn_egg>.withTag({EntityTag: {id: "touhou_little_maid:entity.passive.maid"}}));
 
-removeItemStage(<embers:dust_metallurgic>);
-addItemStage("default",<embers:dust_metallurgic>);
+val bannedArray = [
+	<soot:stamp_text>,
+	<roots:unending_bowl>,
+	<actuallyadditions:item_spawner_changer>,
+	<touhou_little_maid:marisa_broom>,
+	<embers:dust_metallurgic>,
+	<minecraft:slime>,
+	<mekanism:basicblock:6>.withTag({}),
+	<botania:blackholetalisman>.withTag({}),
+	<appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:slime"}),
+	<thermaldynamics:cover>.withTag({Meta: 0 as byte, Block: "minecraft:slime"})
+] as IItemStack[];
 
-removeItemStage(<minecraft:slime>);
-addItemStage("default",<minecraft:slime>);
+for bannedItems in bannedArray{
+	removeItemStage(bannedItems);
+	addItemStage("default",bannedItems);
+}
