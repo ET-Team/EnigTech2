@@ -343,7 +343,10 @@ val bannedArray = [
 	<touhou_little_maid:marisa_broom>,
 	<embers:dust_metallurgic>,
 	<minecraft:slime>,
-	<mekanism:basicblock:6>.withTag({}),
+	<mekanism:basicblock:6>.withTag({tier: 0}),
+	<mekanism:basicblock:6>.withTag({tier: 1}),
+	<mekanism:basicblock:6>.withTag({tier: 2}),
+	<mekanism:basicblock:6>.withTag({tier: 3}),
 	<botania:blackholetalisman>.withTag({}),
 	<appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:slime"}),
 	<thermaldynamics:cover>.withTag({Meta: 0 as byte, Block: "minecraft:slime"})
