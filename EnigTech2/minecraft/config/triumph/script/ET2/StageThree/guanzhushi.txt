@@ -3,7 +3,7 @@ Criteriaguanzhutieding22 = addCriteria("Criteriaguanzhutieding22", "minecraft:in
 Criteriaguanzhutieding22.addItem(<naturesaura:infused_stone>)
 setIcon(<naturesaura:infused_stone>)
 setTitle("\u704c\u6ce8\u77f3")
-setDescription("\u5236\u4f5c\u704c\u6ce8\u77f3")
+setDescription("\u4f60\u77e5\u9053\u5417\uff1f\u704c\u6ce8\u77f3\u4e5f\u53ef\u4ee5\u88ab\u8f6c\u5316\u6210\u6d3b\u77f3\uff0c\u5e76\u4e14\u901f\u5ea6\u66f4\u5feb\uff01")
 setPos(-441,47)
 addParent("ET2:StageThree/ziranjitan")
 drawDirectLines(true)
