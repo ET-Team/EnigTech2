@@ -103,7 +103,8 @@ val removingArray = [
     <thermaldynamics:duct_32:6>,
     <thermaldynamics:duct_32:7>.withTag({DenseType: 2 as byte}),
     <thermaldynamics:duct_32:7>.withTag({DenseType: 1 as byte}),
-    <thermaldynamics:duct_32:7>
+    <thermaldynamics:duct_32:7>,
+    <nuclearcraft:compound:2>
 ] as IItemStack[];
 
 //按矿辞移除

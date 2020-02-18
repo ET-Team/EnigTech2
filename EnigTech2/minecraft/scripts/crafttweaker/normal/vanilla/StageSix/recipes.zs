@@ -180,3 +180,4 @@ mods.recipestages.Recipes.addShaped("six",<nuclearcraft:salt_fission_redstone_po
 
 recipes.replaceAllOccurences(<ore:stone>,<ore:stoneMarble>,<nuclearcraft:heat_exchanger_wall>*4);
 recipes.replaceAllOccurences(<ore:stone>,<ore:stoneMarble>,<nuclearcraft:heat_exchanger_vent>*4);
+recipes.replaceAllOccurences(<ore:dustEnergetic>,<contenttweaker:energetic_clathrate>);

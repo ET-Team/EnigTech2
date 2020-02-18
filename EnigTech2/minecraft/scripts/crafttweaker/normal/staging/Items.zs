@@ -293,7 +293,8 @@ val itemsStageSix as IIngredient[] = [
 	<contenttweaker:ultracondium_crystal>,
 	<contenttweaker:ultimate_motioner>,
 	<contenttweaker:ether_alloy_ingot>,
-	<actuallyadditions:block_laser_relay_fluids>
+	<actuallyadditions:block_laser_relay_fluids>,
+	<contenttweaker:energetic_clathrate>
 ];
 val itemsStageAlpha as IIngredient[] = [
 	<contenttweaker:auriminium>,
@@ -349,7 +350,8 @@ val bannedArray = [
 	<mekanism:basicblock:6>.withTag({tier: 3}),
 	<botania:blackholetalisman>.withTag({}),
 	<appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:slime"}),
-	<thermaldynamics:cover>.withTag({Meta: 0 as byte, Block: "minecraft:slime"})
+	<thermaldynamics:cover>.withTag({Meta: 0 as byte, Block: "minecraft:slime"}),
+	<nuclearcraft:compound:2>
 ] as IItemStack[];
 
 for bannedItems in bannedArray{
