@@ -102,7 +102,11 @@ var items as string[] = [
 	"will_of_world_tree",
 	"pity_from_nature",
 	"essencial_blood",
-	"forbidden_life_essence"
+	"forbidden_life_essence",
+	"energetic_clathrate",
+	"resonance_heatsource",
+	"depleted_heatsource",
+	"energetic_shard"
 ];
 
 //物品注册

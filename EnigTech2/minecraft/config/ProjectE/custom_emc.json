@@ -107,6 +107,10 @@
     {
       "item": "mekanismgenerators:generator|11",
       "emc": 2981621
+    },
+    {
+      "item": "nuclearcraft:alloy|15",
+      "emc": 219490
     }
   ]
 }

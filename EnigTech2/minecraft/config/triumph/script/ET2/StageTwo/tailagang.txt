@@ -2,7 +2,7 @@
 Criteriatailagang9 = addCriteria("Criteriatailagang9", "minecraft:inventory_changed")
 Criteriatailagang9.addItem(<botania:manaresource:4>)
 setIcon(<botania:manaresource:4>)
-setTitle("\u6cf0\u62c9\u94a2")
+setTitle("\u4e00\u5757\u5927\u81ea\u7136")
 setDescription("\u5236\u4f5c\u6cf0\u62c9\u94a2\u952d")
 setPos(-263,23)
 addParent("ET2:StageTwo/tailaningjuban")

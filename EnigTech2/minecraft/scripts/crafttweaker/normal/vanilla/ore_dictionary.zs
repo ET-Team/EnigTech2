@@ -63,3 +63,5 @@
 <ore:capacitorTE>.add(<thermalexpansion:capacitor:2>);
 <ore:capacitorTE>.add(<thermalexpansion:capacitor:3>);
 <ore:capacitorTE>.add(<thermalexpansion:capacitor:4>);
+
+<ore:slimeball>.add(<contenttweaker:depleted_heatsource>);

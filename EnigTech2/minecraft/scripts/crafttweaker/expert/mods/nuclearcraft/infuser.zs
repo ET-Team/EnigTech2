@@ -2,4 +2,7 @@
 #modloaded etutil
 #priority -100
 
-mods.nuclearcraft.infuser.addRecipe(<contenttweaker:entropy>, <fluid:neutron>*100, <contenttweaker:neutron>, 80);
+import mods.nuclearcraft.infuser;
+
+infuser.addRecipe(<contenttweaker:entropy>, <fluid:neutron>*100, <contenttweaker:neutron>, 80);
+infuser.addRecipe(<contenttweaker:energetic_clathrate>, <fluid:ender>*125, <contenttweaker:resonance_heatsource>*4, 120);

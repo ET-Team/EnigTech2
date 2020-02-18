@@ -101,8 +101,14 @@ val lxg = <nuclearcraft:part:5>;
 
 val daore = <nuclearcraft:alloy:11>;
 
-mods.recipestages.Recipes.addShaped("six",<actuallyadditions:block_laser_relay_fluids>*2, [[null,<mekanism:teleportationcore>,null],[lxg,<thermaldynamics:duct_16:6>,lxg],[jhb,jhb,jhb]]);
+mods.recipestages.Recipes.addShaped("alpha",<actuallyadditions:block_laser_relay_fluids>*2, [[null,<mekanism:teleportationcore>,null],[lxg,<thermaldynamics:duct_16:6>,lxg],[jhb,jhb,jhb]]);
 mods.recipestages.Recipes.addShaped("six",<mekanism:basicblock2:5>*4,[[gjb,daore,gjb],[daore,<contenttweaker:ultimate_motioner>,daore],[gjb,daore,gjb]]);
+
+//nc钢制外壳
+val xzl = <enderio:block_dark_iron_bars>;
+val steelp = <ore:plateSteel>;
+
+mods.recipestages.Recipes.addShaped("six",<nuclearcraft:part:12>*2, [[xzl,steelp,xzl],[steelp,<ore:gearNichrome>,steelp],[xzl,steelp,xzl]]);
 
 //TD管道规整
 val brz = <ore:ingotBronze>;
@@ -154,3 +160,24 @@ for i, trans in transparentArray{
 for i, opaq in opaqueArray{
     recipes.addShapeless(transparentArray[i]*6,[opaq,opaq,opaq,opaq,opaq,opaq,yhbl.transformReplace(<thermalfoundation:material:131>)]);
 }
+
+//熔盐套件
+val adv = <libvulpes:advstructuremachine>;
+val rsc = <enderio:item_redstone_conduit>;
+val steelArray = [
+    <nuclearcraft:salt_fission_wall>*4,
+    <nuclearcraft:heat_exchanger_wall>*4,
+    <nuclearcraft:salt_fission_vent>*4,
+    <nuclearcraft:heat_exchanger_controller>,
+    <nuclearcraft:heat_exchanger_vent>*4,
+] as IItemStack[];
+
+for theRecipes in steelArray{
+    recipes.replaceAllOccurences(<ore:ingotSteel>,<libvulpes:advstructuremachine>,theRecipes);
+}
+
+mods.recipestages.Recipes.addShaped("six",<nuclearcraft:salt_fission_redstone_port>,[[adv,rsc,adv],[rsc,<nuclearcraft:part:12>,rsc],[adv,rsc,adv]]);
+
+recipes.replaceAllOccurences(<ore:stone>,<ore:stoneMarble>,<nuclearcraft:heat_exchanger_wall>*4);
+recipes.replaceAllOccurences(<ore:stone>,<ore:stoneMarble>,<nuclearcraft:heat_exchanger_vent>*4);
+recipes.replaceAllOccurences(<ore:dustEnergetic>,<contenttweaker:energetic_clathrate>);
