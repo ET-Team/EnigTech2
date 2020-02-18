@@ -46,6 +46,8 @@ item.contenttweaker.bulk_of_plastic.name=块状塑料
 item.contenttweaker.plastic_plate.name=片状塑料
 item.contenttweaker.energetic_clathrate.name=高能络合物
 item.contenttweaker.resonance_heatsource.name=高热共振晶体
+item.contenttweaker.depleted_heatsource.name=弱波凝块
+item.contenttweaker.energetic_shard.name=高能络合物碎块
 
 fluid.fluid_lubricant=润滑油
 fluid.fluid_oil_gas=炼油气

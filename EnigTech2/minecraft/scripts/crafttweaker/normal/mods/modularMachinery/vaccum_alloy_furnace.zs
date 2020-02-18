@@ -18,5 +18,5 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_sic", machineName
 	.addItemInput(<ore:fuelCoke>)
 	.addItemInput(<ore:dustSalt>)
 	.addItemInput(<ore:dustWood>,2)
-	.addItemOutput(<nuclearcraft:alloy:13>)
+	.addItemOutput(<nuclearcraft:alloy:13>*4)
 	.build();

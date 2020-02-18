@@ -104,7 +104,9 @@ var items as string[] = [
 	"essencial_blood",
 	"forbidden_life_essence",
 	"energetic_clathrate",
-	"resonance_heatsource"
+	"resonance_heatsource",
+	"depleted_heatsource",
+	"energetic_shard"
 ];
 
 //物品注册
