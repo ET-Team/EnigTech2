@@ -1,0 +1,10 @@
+Criteriasalt = addCriteria("Criteriasalt", "minecraft:inventory_changed")
+Criteriasalt.addItem(<nuclearcraft:salt_fission_controller>)
+setIcon(<nuclearcraft:salt_fission_controller>)
+setTitle("Scary Gaysers...");
+setDescription("\u5b66\u4e60\u7194\u76d0\u88c2\u53d8\u53cd\u5e94\u5806\u7684\u64cd\u4f5c\u6d41\u7a0b\u5e76\u5236\u4f5c\u4e00\u53f0\u7194\u878d\u76d0\u88c2\u53d8\u63a7\u5236\u5668\u6765\u5f00\u59cb\u4f60\u7684\u642d\u5efa\u3002")
+setPos(-654,155)
+addParent("ET2:StageAlpha/wasteam")
+drawDirectLines(true)
+setShowToast(true)
+setAnnounceToChat(true)

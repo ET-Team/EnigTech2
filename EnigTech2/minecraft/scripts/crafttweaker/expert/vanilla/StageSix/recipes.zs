@@ -101,7 +101,7 @@ val lxg = <nuclearcraft:part:5>;
 
 val daore = <nuclearcraft:alloy:11>;
 
-mods.recipestages.Recipes.addShaped("six",<actuallyadditions:block_laser_relay_fluids>*2, [[null,<mekanism:teleportationcore>,null],[lxg,<thermaldynamics:duct_16:6>,lxg],[jhb,jhb,jhb]]);
+mods.recipestages.Recipes.addShaped("alpha",<actuallyadditions:block_laser_relay_fluids>*2, [[null,<mekanism:teleportationcore>,null],[lxg,<thermaldynamics:duct_16:6>,lxg],[jhb,jhb,jhb]]);
 mods.recipestages.Recipes.addShaped("six",<mekanism:basicblock2:5>*3,[[gjb,daore,gjb],[daore,<contenttweaker:ultimate_motioner>,daore],[gjb,daore,gjb]]);
 
 //nc钢制外壳
