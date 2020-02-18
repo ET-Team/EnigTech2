@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "EnigTech2",
-  "version": "1.3.2",
+  "version": "1.3.4",
   "author": "dong031001",
   "files": [
     {
@@ -166,7 +166,7 @@
     },
     {
       "projectID": 224712,
-      "fileID": 2707185,
+      "fileID": 2875678,
       "required": true
     },
     {
@@ -181,7 +181,7 @@
     },
     {
       "projectID": 243707,
-      "fileID": 2863817,
+      "fileID": 2880380,
       "required": true
     },
     {
@@ -386,7 +386,7 @@
     },
     {
       "projectID": 232758,
-      "fileID": 2831241,
+      "fileID": 2880441,
       "required": true
     },
     {
@@ -396,7 +396,7 @@
     },
     {
       "projectID": 246183,
-      "fileID": 2865501,
+      "fileID": 2882804,
       "required": true
     },
     {
@@ -451,12 +451,12 @@
     },
     {
       "projectID": 250702,
-      "fileID": 2822814,
+      "fileID": 2876721,
       "required": true
     },
     {
       "projectID": 237307,
-      "fileID": 2697672,
+      "fileID": 2883493,
       "required": true
     },
     {
@@ -506,7 +506,7 @@
     },
     {
       "projectID": 306626,
-      "fileID": 2824208,
+      "fileID": 2882138,
       "required": true
     },
     {
@@ -716,12 +716,12 @@
     },
     {
       "projectID": 236541,
-      "fileID": 2841976,
+      "fileID": 2878931,
       "required": true
     },
     {
       "projectID": 236542,
-      "fileID": 2875228,
+      "fileID": 2883965,
       "required": true
     },
     {
@@ -771,7 +771,7 @@
     },
     {
       "projectID": 220954,
-      "fileID": 2693544,
+      "fileID": 2881277,
       "required": true
     },
     {
@@ -846,7 +846,7 @@
     },
     {
       "projectID": 303694,
-      "fileID": 2868936,
+      "fileID": 2880289,
       "required": true
     },
     {
@@ -856,7 +856,7 @@
     },
     {
       "projectID": 32274,
-      "fileID": 2873185,
+      "fileID": 2880387,
       "required": true
     },
     {
@@ -965,5 +965,5 @@
       "required": true
     }
   ],
-  "overrides": "minecraft"
+  "overrides": "src"
 }
