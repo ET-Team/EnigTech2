@@ -31,7 +31,9 @@ val toAdd as string[IIngredient] = {
     <appliedenergistics2:material:15> : "此物品可通过金属冲压机回收为殷钢板",
     <appliedenergistics2:material:19> : "此物品可通过金属冲压机回收为殷钢板",
     <roots:creative_pouch> : "“他们算不上袋子法师。”",
-    <cuisine:chopping_board> : "更精致的砧板。能做红案，能做白案，还能劈柴。"
+    <cuisine:chopping_board> : "更精致的砧板。能做红案，能做白案，还能劈柴。",
+    <mekanism:basicblock2:7> : "“你管这叫锅炉？这就是个大开水壶！烧出来的水给我泡小罐茶还差不多。人核电厂整得比咱好多了。”————《通用机械工人日记选摘》",
+    <mekanism:basicblock2:7> : "“这种锅炉产出的蒸汽量，估计能勉强养活两个汗蒸房。”————《玄理工程简志》"
 };
 
 val warning as string[IIngredient] = {
