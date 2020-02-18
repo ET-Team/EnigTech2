@@ -54,7 +54,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_coke", machineNam
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_resonance", machineName, 8)
 	.addFluidInput(<liquid:water>*12000)
     .addFluidInput(<fluid:fluid_oil_gas>*2)
-    .addFluidOutput(<fluid:high_pressure_steam>*162000)
+    .addFluidOutput(<fluid:high_pressure_steam>*972000)
     .addItemInput(<contenttweaker:resonance_heatsource>)
     .addItemOutput(<contenttweaker:depleted_heatsource>)
 	.build();
