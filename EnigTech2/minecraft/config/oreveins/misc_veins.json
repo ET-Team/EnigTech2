@@ -22,9 +22,9 @@
           "blocks": {
               "block":"silentgems:glowrose",
               "meta":"4"
-            }
-        },
-        "max_depth": 50
+            },
+            "max_depth": 70
+        }
     },
     "phosphur": {
         "type": "sphere",
@@ -53,9 +53,9 @@
           "blocks": {
               "block":"silentgems:glowrose",
               "meta":"9"
-            }
-        },
-        "max_depth": 70
+            },
+            "max_depth": 70
+        }
       },
       "uranium": {
         "type": "sphere",
@@ -82,8 +82,7 @@
               "block":"silentgems:glowrose",
               "meta":"10"
             }
-        },
-        "max_depth": 70
+        }
       },
       "thorium": {
         "type": "sphere",
@@ -116,9 +115,9 @@
           "blocks": {
               "block":"silentgems:glowrose",
               "meta":"14"
-            }
-        },
-        "max_depth": 70
+            },
+            "max_depth": 70
+        }
       },
       "lithium": {
         "type": "sphere",
@@ -140,9 +139,9 @@
           "blocks": {
               "block":"silentgems:glowrose",
               "meta":"8"
-            }
-        },
-        "max_depth": 70
+            },
+            "max_depth": 70
+        }
       },
       "quartz": {
         "type": "sphere",
@@ -175,9 +174,9 @@
           "blocks": {
               "block":"silentgems:glowrose",
               "meta":"15"
-            }
-        },
-        "max_depth": 70
+            },
+            "max_depth": 70
+        }
       },
       "iriPlatinum": {
         "type": "sphere",
@@ -237,9 +236,9 @@
           "blocks": {
               "block":"silentgems:glowrose",
               "meta":"3"
-            }
-        },
-        "max_depth": 70
+            },
+            "max_depth": 70
+        }
       },
       "sapphire": {
         "type": "sphere",
@@ -272,9 +271,9 @@
           "blocks": {
               "block":"silentgems:glowrose",
               "meta":"6"
-            }
-        },
-        "max_depth": 70
+            },
+            "max_depth": 70
+        }
       },
       "ruby": {
         "type": "sphere",
@@ -342,18 +341,13 @@
           "blocks": {
               "block":"silentgems:glowrose",
               "meta":"2"
-            }
-        },
-        "max_depth": 70
+            },
+            "max_depth": 70
+        }
       },
       "chaos": {
         "type": "cone",
-        "ore": [
-          {
-            "ore": "oreChaos",
-            "weight": 3
-          }
-        ],
+        "ore": "ore:oreChaos",
         "stone": "minecraft:stone",
         "rarity": 40,
         "min_y": 0,
@@ -363,11 +357,11 @@
         "horizontal_size": 8,
         "indicator": {
           "blocks": {
-              "block":"silentgems:glowrose",
-              "meta":"13"
-            }
-        },
-        "max_depth": 70
+            "block":"silentgems:glowrose",
+            "meta":"13"
+          },
+          "max_depth": 70
+        }
       },
       "high_al": {
         "type": "sphere",
@@ -408,9 +402,9 @@
           "blocks": {
               "block":"silentgems:glowrose",
               "meta":"11"
-            }
-        },
-        "max_depth": 70
+            },
+            "max_depth": 70
+        }
       },
       "oilsand":{
         "type":"sphere",
@@ -426,9 +420,9 @@
       },
       "wasteland_uranium":{
         "type":"sphere",
-        "ore" : "oreUranium",
+        "ore" : "ore:oreUranium",
         "stone":"minecraft:stone",
-        "rarity":30,
+        "rarity":20,
         "density":400,
         "vertical_size":18,
         "horizontal_size":18,
@@ -439,7 +433,8 @@
           "blocks" : {
             "block" : "nuclearcraft:glowing_mushroom",
             "meta" : 0
-          }
+          },
+          "max_depth": 70
         }
       },
       "Tungsten": {
@@ -463,11 +458,11 @@
         "horizontal_size": 8,
         "indicator": {
           "blocks": {
-              "block":"silentgems:glowrose",
-              "meta":"1"
-            }
-        },
-        "max_depth": 90
+            "block":"silentgems:glowrose",
+            "meta":"1"
+          },
+          "max_depth": 70
+        }
       },
       "Ti": {
         "type": "sphere",
@@ -490,10 +485,10 @@
         "horizontal_size": 8,
         "indicator": {
           "blocks": {
-              "block":"silentgems:glowrose",
-              "meta":"5"
-            }
-        },
-        "max_depth": 70
+            "block":"silentgems:glowrose",
+            "meta":"5"
+          },
+          "max_depth": 70
+        }
       }
 }
