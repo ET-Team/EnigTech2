@@ -280,7 +280,8 @@ val itemsStageFive as IIngredient[] = [
 	<contenttweaker:strong_motor>,
 	<contenttweaker:strong_motor_unprocessed>,
 	<contenttweaker:meteor_bait>,
-	<contenttweaker:dust_small_osmium>
+	<contenttweaker:dust_small_osmium>,
+	<item:enderio:item_material:51>
 ];
 val itemsStageSix as IIngredient[] = [
 	<contenttweaker:void_machine_core>,
@@ -313,18 +314,22 @@ val itemsStageAlpha as IIngredient[] = [
 ];
 
 for item in itemsStageAlpha{
+	removeItemStage(item);
 	addItemStage("alpha", item);
 }
 
 for item in itemsStageSix{
+	removeItemStage(item);
 	addItemStage("six", item);
 }
 
 for item in itemsStageFive{
+	removeItemStage(item);
 	addItemStage("five", item);
 }
 
 for item in itemsStageFour{
+	removeItemStage(item);
 	addItemStage("four", item);
 }
 
@@ -359,3 +364,4 @@ for bannedItems in bannedArray{
 	removeItemStage(bannedItems);
 	addItemStage("default",bannedItems);
 }
+
