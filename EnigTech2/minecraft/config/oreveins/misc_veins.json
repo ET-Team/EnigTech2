@@ -424,6 +424,24 @@
         "max_y": 80,
         "biomes":["SANDY","DESERT","minecraft:desert"]
       },
+      "wasteland_uranium":{
+        "type":"sphere",
+        "ore" : "oreUranium",
+        "stone":"minecraft:stone",
+        "rarity":30,
+        "density":400,
+        "vertical_size":18,
+        "horizontal_size":18,
+        "min_y": 30,
+        "max_y": 50,
+        "biomes":["nuclearcraft:nuclear_wasteland"],
+        "indicator" : {
+          "blocks" : {
+            "block" : "nuclearcraft:glowing_mushroom",
+            "meta" : 0
+          }
+        }
+      },
       "Tungsten": {
         "type": "sphere",
         "ore": [
