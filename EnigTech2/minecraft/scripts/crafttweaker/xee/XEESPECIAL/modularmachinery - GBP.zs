@@ -1,6 +1,7 @@
 #packmode normal expert
 #modloaded etutil apotheosis bloodarsenal botania_tweaks botanicadds draconicadditions enderioendergy rf-capability-adapter equivalentenergistics sgextraparts
 #priority -100
+
 var machineName = "grinding_ball_polisher";
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_stellar", machineName, 10)
