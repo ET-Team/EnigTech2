@@ -16,4 +16,7 @@ All of the scripts here must start with a ModLoader Preprocessor line. The corre
 
 The form is to avoid problems that might happen due to some weird operations. Such as selecting some, but not all of the DLC mods to the modpack. Now, if so, the modpack will just treat this player as "privately added some mods into it" but not "installing the DLC".
 
-The packmoded-scripts will be separated into two folders: xee\normal and xee\expert, and Vanilla/Moded will be separated too, but the separation won't be formed by particular mods and stages in xee, so name the scripts with mod names is necessary.
+The packmoded-scripts will be separated into two folders: xee\normal and xee\expert, inside minecraft is considered as a mod and the vanilla-tweaking scripts will be in "minecraft" folder abreast of other mod-tweaking folders.
+
+The priority settings follow the overall situation.
+
