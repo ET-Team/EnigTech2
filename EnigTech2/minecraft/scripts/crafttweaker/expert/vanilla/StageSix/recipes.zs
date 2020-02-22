@@ -119,9 +119,10 @@ val xsu = <ore:ingotSignalum>;
 val lead = <ore:ingotLead>;
 val leadn = <ore:nuggetLead>;
 val silvern = <ore:nuggetSilver>;
+val ex = <mekanism:transmitter>.withTag({tier: 3});
 
 recipes.addShaped("superfluiduct_tweaked",<thermaldynamics:duct_16:6>,[[brz,yhbl,brz],[yhbl,<mekanism:transmitter:1>.withTag({tier: 3}),yhbl],[brz,yhbl,brz]]);
-recipes.addShaped("empty_csf_tweaked",<thermaldynamics:duct_0:9>,[[hpj,yhbl,hpj],[yhbl,guan,yhbl],[hpj,yhbl,hpj]]);
+recipes.addShaped("empty_csf_tweaked",<thermaldynamics:duct_0:9>*2,[[ex,yhbl,ex],[yhbl,guan,yhbl],[ex,yhbl,ex]]);
 recipes.addShaped("fluiduct_tweaked",<thermaldynamics:duct_16:4>*3,[[null,xsu,null],[guan,guan,guan],[null,hpj,null]]);
 recipes.addShaped("itemduct_tweaked",<thermaldynamics:duct_32:4>*3,[[null,guan,null],[xsu,guan,hpj],[null,guan,null]]);
 recipes.addShapedMirrored("denseitemduct_tweaked_1",<thermaldynamics:duct_32:4>.withTag({DenseType: 1 as byte}),[[null,null,null],[leadn,<thermaldynamics:duct_32:4>,leadn],[null,leadn,null]]);

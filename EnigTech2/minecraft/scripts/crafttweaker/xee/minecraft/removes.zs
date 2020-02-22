@@ -8,14 +8,7 @@ import crafttweaker.oredict.IOreDictEntry;
 
 //按资源ID移除
 val removingArray = [
-    <enderio:item_endergy_conduit:0>*8,
-	<enderio:item_endergy_conduit:1>*8,
-	<enderio:item_endergy_conduit:2>*8,
-	<enderio:item_endergy_conduit:3>*8,
-	<enderio:item_endergy_conduit:4>*8,
-	<enderio:item_endergy_conduit:5>*8,
-	<enderio:item_endergy_conduit:6>*8,
-	<enderio:item_endergy_conduit:7>*8,
+    <enderio:item_endergy_conduit:*>*8,
 	<enderio:item_alloy_endergy_ball:*>*24,
 ] as IItemStack[];
 
