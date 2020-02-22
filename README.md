@@ -8,3 +8,5 @@ ET2是由 ET-Team 共同制作的项目，项目目标是制作一个完整的�
 <u>ET2使用Twitch进行一开始的模组安装，但后继更新及魔改内容均在MMC启动器环境下进行。</u>
 
 ET2 is a project by dong031001 and tuna5544. The goal of the project is to complete a full-structured magic-tech modpack, and suceed EnigTech1's general ideas.
+
+**郑重声明：没有任何猴子和/或打字机在整合包的开发过程当中被伤害**
