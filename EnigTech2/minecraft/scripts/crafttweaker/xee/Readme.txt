@@ -16,7 +16,13 @@ All of the scripts here must start with a ModLoader Preprocessor line. The corre
 
 The form is to avoid problems that might happen due to some weird operations. Such as selecting some, but not all of the DLC mods to the modpack. Now, if so, the modpack will just treat this player as "privately added some mods into it" but not "installing the DLC".
 
-The packmoded-scripts will be separated into two folders: xee\normal and xee\expert, inside minecraft is considered as a mod and the vanilla-tweaking scripts will be in "minecraft" folder abreast of other mod-tweaking folders.
+There will be no differences between packmodes in this DLC, so separated folders containing packmoded scripts will no longer be exist. So please start every single scripts with:
+
+#packmode normal expert
+#modloaded etutils apotheosis bloodarsenal botania_tweaks botanicadds draconicadditions enderio endergy rf-capability-adapter equivalentenergistics sgextraparts
+
+Inside the folder xee Minecraft is considered as a mod and the vanilla-tweaking scripts will be in "minecraft" folder abreast of other mod-tweaking folders.
+
+The "XEESPECIAL" folder contains the scripts that are about non-DLC contents but is tweaking/overriding the way it processes ONLY when the DLC is installed. For example you can't make Zinc Dust from Spinels by NuclearCraft machines wothout the DLC.
 
 The priority settings follow the overall situation.
-
