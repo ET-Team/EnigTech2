@@ -65,3 +65,6 @@
 <ore:capacitorTE>.add(<thermalexpansion:capacitor:4>);
 
 <ore:slimeball>.add(<contenttweaker:depleted_heatsource>);
+
+<ore:gemCertusQuartz>.add(<item:appliedenergistics2:material>);
+<ore:gemCertusQuartz>.add(<item:appliedenergistics2:material:1>);
