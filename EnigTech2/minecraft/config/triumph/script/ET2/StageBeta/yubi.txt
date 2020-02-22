@@ -2,7 +2,7 @@
 Criteria0 = addCriteria("Criteria0", "minecraft:inventory_changed")
 Criteria0.addItem(<touhou_little_maid:hakurei_gohei, meta:0>)
 Criteriayubi1 = addCriteria("Criteriayubi1", "triumph:right_click_block")
-Criteriayubi1.setBlock(<<minecraft:wool, ore:woolRed, meta:14>>)
+Criteriayubi1.setBlock(<minecraft:wool, ore:woolRed, meta:14>)
 setIcon(<touhou_little_maid:hakurei_gohei, meta:0>)
 setTitle("\u535a\u4e3d\u306e\u8d2a\u8d22\u5deb\u5973")
 setDescription("\u5236\u4f5c\u535a\u4e3d\u7684\u5fa1\u5e01,\u5e76\u642d\u5efa\u796d\u575b")
