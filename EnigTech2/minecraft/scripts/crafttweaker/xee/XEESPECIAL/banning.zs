@@ -16,7 +16,12 @@ val bannedArray = [
 	<enderio:item_endergy_conduit:4>,
 	<enderio:item_endergy_conduit:5>,
 	<enderio:item_endergy_conduit:6>,
-	<enderio:item_endergy_conduit:7>
+	<enderio:item_endergy_conduit:7>,
+	<enderio:item_alloy_endergy_ingot:0>,
+	<enderio:item_alloy_endergy_ball>,
+	<appliedenergistics2:facade>.withTag({damage: 0, item: "enderio:block_alloy_endergy"}),
+	<enderio:block_alloy_endergy>,
+	<enderio:item_alloy_endergy_nugget>
 ] as IItemStack[];
 
 for bannedItems in bannedArray{
