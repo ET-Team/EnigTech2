@@ -118,20 +118,20 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_calloy", machineN
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_sig", machineName, 8)
     .addEnergyPerTickInput(1600)
     .addItemInput(<ore:ingotSignalum>)
-    .addItemOutput(<enderio:item_alloy_ball:57>*6)
+    .addItemOutput(<enderio:item_material:57>*6)
     .addFluidInput(<fluid:glass>*1200)
     .build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_end", machineName, 8)
     .addEnergyPerTickInput(1600)
     .addItemInput(<ore:ingotEnderium>)
-    .addItemOutput(<enderio:item_alloy_ball:58>*6)
+    .addItemOutput(<enderio:item_material:58>*6)
     .addFluidInput(<fluid:glass>*1200)
     .build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_lum", machineName, 8)
     .addEnergyPerTickInput(1600)
     .addItemInput(<ore:ingotLumium>)
-    .addItemOutput(<enderio:item_alloy_ball:59>*6)
+    .addItemOutput(<enderio:item_material:59>*6)
     .addFluidInput(<fluid:glass>*1200)
     .build();
