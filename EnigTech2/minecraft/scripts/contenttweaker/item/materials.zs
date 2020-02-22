@@ -13,7 +13,7 @@
 
 //注册 小搓粉 类型
 	mods.contenttweaker.MaterialSystem.getPartBuilder().setName("dust_tiny").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("dustTiny").build();
-//钕 铬 镍铬合金 钼 钼钢 钨 硬化钨钢 虚空金属的注册
+//钕 铬 镍铬合金 钼 钼钢 钨 硬化钨钢 虚空金属 锌 黄铜的注册
 	var nd = MaterialSystem.getMaterialBuilder().setName("Neodymium").setColor(16761035).build();
 	var cr = MaterialSystem.getMaterialBuilder().setName("Chromium").setColor(16744192).build();
 	var nicr = MaterialSystem.getMaterialBuilder().setName("Nichrome").setColor(15787660).build();
@@ -22,9 +22,11 @@
 	var w = MaterialSystem.getMaterialBuilder().setName("Tungsten").setColor(10664123).build();
 	var wfe = MaterialSystem.getMaterialBuilder().setName("TungstenSteel").setColor(4610158).build();
 	var voidmetal = MaterialSystem.getMaterialBuilder().setName("VoidMetal").setColor(10198472).build();
+	var zinc = MaterialSystem.getMaterialBuilder().setName("Zinc").setColor(15132410).build();
+	var brass =  MaterialSystem.getMaterialBuilder().setName("Brass").setColor(16766720).build();
 
 //材料列表和类型列表
-	var metal_list = [nd,cr,nicr,w,wfe,voidmetal,mo,mofe] as Material[];
+	var metal_list = [nd,cr,nicr,w,wfe,voidmetal,mo,mofe,zinc,brass] as Material[];
 	var part_names = ["dust", "gear", "plate", "nugget", "ingot", "rod", "dust_tiny"] as string[];
 
 //注册类型，矿石及金属块
