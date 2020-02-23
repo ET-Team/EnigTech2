@@ -41,3 +41,12 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_conduit4", machin
     .addItemInput(<ore:itemInfinityGoop>,2)
     .addItemOutput(<enderio:item_endergy_conduit:11>*3)
     .build();
+
+//微电子单元
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_unit", machineName, 120)
+    .addEnergyPerTickInput(800)
+    .addFluidInput(<liquid:fluid_lubricant>*30)
+    .addItemInput(<contenttweaker:transistor_fine>*3)
+    .addItemInput(<enderio:item_capacitor_energetic_silver>*3)
+    .addItemOutput(<cyberware:component:9>)
+    .build();
