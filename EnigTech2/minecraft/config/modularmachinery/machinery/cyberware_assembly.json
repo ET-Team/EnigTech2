@@ -1,7 +1,7 @@
 {
     "registryname": "cyberware_assembly",
-    "localizedname": "机械躯体装配室",
-    "color":"595959",
+    "localizedname": "赛博维尔™装配室",
+    "color":"595b5f",
     "parts": [
         {
             "x": -2,
