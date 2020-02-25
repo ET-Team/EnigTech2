@@ -21,6 +21,9 @@ mods.recipestages.Recipes.addShapeless("alpha", <contenttweaker:enigtechnium>, [
     ]
 */
 
+val brzp = <thermalfoundation:material:355>;
+val mmi = <modularmachinery:itemmodularium>;
+
 val shapedRecipes as IIngredient[][][IItemStack] = {
     <thermalfoundation:upgrade:256> : [
         [<contenttweaker:technium>,<botania:pool:1>,<contenttweaker:technium>],
@@ -90,6 +93,7 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [<astralsorcery:itemcraftingcomponent:4>, itemUtils.getItem("projecte:item.pe_philosophers_stone").reuse(), <astralsorcery:itemcraftingcomponent:4>],
         [<contenttweaker:entropy>, itemUtils.getItem("projecte:item.pe_fuel", 1), <contenttweaker:entropy>]
     ],
+    <modularmachinery:blockoutputbus:3> : [[brzp,mmi,brzp],[mmi,<contenttweaker:bad_machine_core>,mmi],[brzp,<mekanism:machineblock:15>,brzp]],
     <contenttweaker:ascenders_proof> : [[<rustic:retort>, <rustic:condenser>, <rustic:retort>],[<rustic:fluid_bottle>.withTag({Fluid: {FluidName: "ironberryjuice", Amount: 1000}}), <contenttweaker:enigtechnium>, <rustic:crushing_tub>], [<roots:stalicripe>, <roots:cloud_berry>, <roots:dewgonia>]],
     <projecte:item.pe_body_stone> : [[<bloodmagic:slate:4>,<silentgems:gemsuper>,<bloodmagic:slate:4>],[<projecte:item.pe_matter:1>,<contenttweaker:forbidden_life_essence>,<projecte:item.pe_matter:1>],[<bloodmagic:slate:4>,<silentgems:gemsuper>,<bloodmagic:slate:4>]],
     <projecte:item.pe_soul_stone> : [[<bloodmagic:slate:4>,<silentgems:gemsuper:9>,<bloodmagic:slate:4>],[<projecte:item.pe_matter:1>,<contenttweaker:forbidden_life_essence>,<projecte:item.pe_matter:1>],[<bloodmagic:slate:4>,<silentgems:gemsuper:9>,<bloodmagic:slate:4>]],

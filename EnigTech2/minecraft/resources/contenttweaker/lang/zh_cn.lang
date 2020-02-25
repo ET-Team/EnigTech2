@@ -155,6 +155,15 @@ base.material.molybdenum_steel=钼钢
 base.material.tungsten=钨
 base.material.tungsten_steel=钨钢
 base.material.void_metal=虚空金属
+base.material.zinc=锌
+base.material.brass=黄铜
+base.material.cobalt=钴
+base.material.manyullyn=玛玉灵
+base.material.ardite=阿迪特
+base.material.prismarinium=海晶素
+base.material.thyrium=鍪银
+base.material.adamantium=精金
+base.material.sinisite=逆银
 
 enchantment.veining.veining.desc=没有人不喜欢连锁挖矿！
 enchantment.felling.felling.desc=没有人不喜欢连锁砍树！
