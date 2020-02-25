@@ -11,3 +11,4 @@ AlloySmelter.removeRecipe(<enderio:item_alloy_endergy_ingot:5>);
 
 //合金炉配方
 AlloySmelter.addRecipe(<enderio:item_alloy_endergy_ingot:4>,[<ore:itemPulsatingPowder>,<toughasnails:jelled_slime>,<ore:dyePink>],10000);
+AlloySmelter.addRecipe(<bloodarsenal:base_item:3>,[<ore:dustSoularium>,<contenttweaker:blood_iron>,<bloodarsenal:base_item:2>],2000);
