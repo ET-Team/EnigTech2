@@ -28,6 +28,7 @@ import crafttweaker.item.IIngredient;
 val tirod = <ore:stickTitanium>;
 val crnug = <ore:nuggetChromium>;
 val invarp = <ore:plateInvar>;
+val thytd = <ore:dustTinyThyrium>;
 
 //有序
 val shapedRecipes as IIngredient[][][IItemStack] = {
@@ -41,6 +42,12 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [crnug,crnug,crnug],
         [invarp,invarp,invarp],
         [crnug,crnug,crnug]
+    ],
+
+    <contenttweaker:material_part:113> : [
+        [thytd,thytd,thytd],
+        [thytd,thytd,thytd],
+        [thytd,thytd,thytd]
     ]
 };
 
