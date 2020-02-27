@@ -5,10 +5,26 @@ var machineName = "blast_furnace_mke";
 
 //恒星合金
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_stellar", machineName, 240)
-    .addEnergyPerTickInput(25600)
+    .addEnergyPerTickInput(16800)
     .addItemInput(<ore:ingotMelodicAlloy>)
-    .addItemInput(<ore:ingotAstralStarmetal>)
-	.addItemInput(<ore:ingotZinc>)
+	.addItemInput(<ore:dustZinc>,2)
     .addItemOutput(<enderio:item_alloy_endergy_ingot:3>*2)
-    .addFluidOutput(<fluid:astralsorcery.liquidstarlight>*1250)
+    .addFluidInput(<fluid:astralsorcery.liquidstarlight>*3250)
+    .build();
+
+//旋律合金
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_melodic", machineName, 240)
+    .addEnergyPerTickInput(15200)
+    .addItemInput(<ore:ingotManyullyn>)
+	.addItemInput(<silentgems:craftingmaterial:30>)
+    .addItemInput(<minecraft:chorus_fruit>)
+    .addItemOutput(<enderio:item_alloy_endergy_ingot:2>*2)
+    .build();
+
+//晶化合金
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystalline", machineName, 200)
+    .addEnergyPerTickInput(13900)
+    .addItemInput(<ore:ingotPrismarinium>)
+	.addItemInput(<ore:itemPulsatingPowder>)
+    .addItemOutput(<enderio:item_alloy_endergy_ingot:1>*2)
     .build();

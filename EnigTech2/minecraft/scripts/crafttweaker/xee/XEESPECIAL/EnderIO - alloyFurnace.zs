@@ -9,6 +9,8 @@ import mods.enderio.AlloySmelter;
 AlloySmelter.removeRecipe(<enderio:item_alloy_endergy_ingot:0>);
 AlloySmelter.removeRecipe(<enderio:item_alloy_endergy_ingot:5>);
 AlloySmelter.removeRecipe(<enderio:item_alloy_endergy_ingot:3>);
+AlloySmelter.removeRecipe(<enderio:item_alloy_endergy_ingot:2>);
+AlloySmelter.removeRecipe(<enderio:item_alloy_endergy_ingot:1>);
 
 //合金炉配方
 AlloySmelter.addRecipe(<enderio:item_alloy_endergy_ingot:4>,[<ore:itemPulsatingPowder>,<toughasnails:jelled_slime>,<ore:dyePink>],10000);
