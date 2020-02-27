@@ -106,7 +106,8 @@ var items as string[] = [
 	"energetic_clathrate",
 	"resonance_heatsource",
 	"depleted_heatsource",
-	"energetic_shard"
+	"energetic_shard",
+	"brass_wire"
 ];
 
 //物品注册

@@ -29,6 +29,7 @@ val tirod = <ore:stickTitanium>;
 val crnug = <ore:nuggetChromium>;
 val invarp = <ore:plateInvar>;
 val thytd = <ore:dustTinyThyrium>;
+val brsw = <ore:wireBrass>;
 
 //有序
 val shapedRecipes as IIngredient[][][IItemStack] = {
@@ -48,6 +49,12 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [thytd,thytd,thytd],
         [thytd,thytd,thytd],
         [thytd,thytd,thytd]
+    ],
+
+    <contenttweaker:brass_coil> : [
+        [brsw,brsw,brsw],
+        [brsw,<thermalfoundation:wrench>.reuse(),brsw],
+        [brsw,brsw,brsw]
     ]
 };
 

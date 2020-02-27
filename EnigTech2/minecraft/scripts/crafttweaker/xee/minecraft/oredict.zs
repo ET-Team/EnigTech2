@@ -5,7 +5,10 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
-val oredictArray = [
+//一一对应！！！
+
+//移除
+val oredictRemoveArray = [
     <ore:crafterPortable>,
     <ore:crafterPortable>,
     <ore:ingotCopper>,
@@ -35,7 +38,7 @@ val oredictArray = [
     <ore:ingotSinisite>
 ] as IOreDictEntry[];
 
-val sgingotArray = [
+val itemRemoveArray = [
     <extendedcrafting:handheld_table>,
     <actuallyadditions:item_crafter_on_a_stick>,
     <sgextraparts:ingot:0>,
@@ -65,6 +68,22 @@ val sgingotArray = [
     <sgextraparts:ingot:24>
 ] as IItemStack[];
 
-for i, oredicts in oredictArray{
-    oredicts.remove(sgingotArray[i]);
+//增添
+val oredictAddArray = [
+    <ore:wireBrass>,
+    <ore:coilBrass>
+] as IOreDictEntry[];
+
+val itemAddArray = [
+    <contenttweaker:brass_wire>,
+    <contenttweaker:brass_coil>
+] as IItemStack[];
+
+//结算
+for i, oredictOld in oredictRemoveArray{
+    oredictOld.remove(itemRemoveArray[i]);
+}
+
+for i, oredictNew in oredictAddArray{
+    oredictNew.add(itemAddArray[i]);
 }
