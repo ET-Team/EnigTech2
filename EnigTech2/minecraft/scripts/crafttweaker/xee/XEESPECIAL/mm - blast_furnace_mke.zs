@@ -30,7 +30,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystalline", mac
     .build();
 
 //鍪银锭
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_thyrium", machineName, 120)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_thyrium", machineName, 60)
     .addEnergyPerTickInput(5000)
     .addItemInput(<ore:dustThyrium>)
     .addItemOutput(<contenttweaker:material_part:117>)
