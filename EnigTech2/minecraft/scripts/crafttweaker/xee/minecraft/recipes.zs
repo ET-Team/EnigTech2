@@ -30,6 +30,7 @@ val crnug = <ore:nuggetChromium>;
 val invarp = <ore:plateInvar>;
 val thytd = <ore:dustTinyThyrium>;
 val brsw = <ore:wireBrass>;
+val zintd = <ore:dustTinyZinc>;
 
 //有序
 val shapedRecipes as IIngredient[][][IItemStack] = {
@@ -55,6 +56,12 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [brsw,brsw,brsw],
         [brsw,<thermalfoundation:wrench>.reuse(),brsw],
         [brsw,brsw,brsw]
+    ],
+
+    <contenttweaker:material_part:86> : [
+        [zintd,zintd,zintd],
+        [zintd,zintd,zintd],
+        [zintd,zintd,zintd]
     ]
 };
 

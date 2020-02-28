@@ -13,7 +13,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_adamantium",
 //阿迪特粉
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_ardite", machineName, 60)
 	.addManaInput(3000)
-	.addItemOutput(<contenttweaker:material_part:158>)
+	.addItemOutput(<contenttweaker:material_part:158>*2)
 	.addItemInput(<ore:oreArdite>)
 	.build();
 

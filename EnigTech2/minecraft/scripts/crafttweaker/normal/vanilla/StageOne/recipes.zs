@@ -55,3 +55,8 @@ recipes.addShapeless(<patchouli:guide_book>.withTag({"patchouli:book": "patchoul
 //压缩红石
 mods.recipestages.Recipes.addShaped("one", redbb, [[redb,redb,redb],[redb,redb,redb],[redb,redb,redb]]);
 mods.recipestages.Recipes.addShaped("one", <contenttweaker:redstone_block_81>, [[redbb,redbb,redbb],[redbb,redbb,redbb],[redbb,redbb,redbb]]);
+
+recipes.replaceAllOccurences(<mysticalworld:iron_dust>,<ore:dustIron>);
+recipes.replaceAllOccurences(<mysticalworld:gold_dust>,<ore:dustGold>);
+recipes.replaceAllOccurences(<mysticalworld:silver_dust>,<ore:dustSilver>);
+recipes.replaceAllOccurences(<mysticalworld:copper_dust>,<ore:dustCopper>);
