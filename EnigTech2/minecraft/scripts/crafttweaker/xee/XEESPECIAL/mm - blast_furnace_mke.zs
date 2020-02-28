@@ -28,3 +28,10 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystalline", mac
 	.addItemInput(<ore:itemPulsatingPowder>)
     .addItemOutput(<enderio:item_alloy_endergy_ingot:1>*2)
     .build();
+
+//鍪银锭
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_thyrium", machineName, 120)
+    .addEnergyPerTickInput(5000)
+    .addItemInput(<ore:dustThyrium>)
+    .addItemOutput(<contenttweaker:material_part:117>)
+    .build();

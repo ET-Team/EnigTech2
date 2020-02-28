@@ -92,3 +92,8 @@ recipes.addShaped(
         [<ore:ingotSignalum>,<ore:ingotLumium>,<ore:ingotSignalum>]
     ]
 );
+
+//麻袋
+val xian = <ore:string>;
+val lthr = <ore:leather>;
+mods.recipestages.Recipes.addShaped("four", <actuallyadditions:item_bag>, [[xian,lthr,xian],[xian,<ore:satchelTE>,xian],[lthr,<actuallyadditions:block_crystal:3>,lthr]]);
