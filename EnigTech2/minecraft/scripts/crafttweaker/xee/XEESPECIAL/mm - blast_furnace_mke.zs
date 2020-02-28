@@ -15,7 +15,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_stellar", machine
 //旋律合金
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_melodic", machineName, 240)
     .addEnergyPerTickInput(15200)
-    .addItemInput(<ore:ingotManyullyn>)
+    .addItemInput(<ore:dustManyullyn>)
 	.addItemInput(<silentgems:craftingmaterial:30>)
     .addItemInput(<minecraft:chorus_fruit>)
     .addItemOutput(<enderio:item_alloy_endergy_ingot:2>*2)

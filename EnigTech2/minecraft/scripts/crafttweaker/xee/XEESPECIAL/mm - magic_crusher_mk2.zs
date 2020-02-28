@@ -16,3 +16,10 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_ardite", mac
 	.addItemOutput(<contenttweaker:material_part:158>)
 	.addItemInput(<ore:oreArdite>)
 	.build();
+
+//玛玉灵粉
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_manyullyn", machineName, 60)
+	.addManaInput(20000)
+	.addItemOutput(<contenttweaker:material_part:131>)
+	.addItemInput(<ore:ingotManyullyn>)
+	.build();
