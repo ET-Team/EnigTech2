@@ -22,8 +22,8 @@ function BlockBuilder(name as string, material as BlockMaterial, sound as SoundT
 BlockBuilder("brass_coil", <blockmaterial:iron>, <soundtype:metal>, 5.0, 50.0, "pickaxe", 2);
 ResourceLocation.create("contenttweaker:brass_coil/brass_coil");
 
-BlockBuilder("redstone_block_9",<blockmaterial:stone>,<soundtype:stone>,5.0,50.0,"pickaxe",0);
+BlockBuilder("redstone_block_9",<blockmaterial:rock>,<soundtype:stone>,5.0,50.0,"pickaxe",0);
 ResourceLocation.create("contenttweaker:redstone_block_9/restone_block_9");
 
-BlockBuilder("redstone_block_81",<blockmaterial:stone>,<soundtype:stone>,6.0,60.0,"pickaxe",2);
+BlockBuilder("redstone_block_81",<blockmaterial:rock>,<soundtype:stone>,6.0,60.0,"pickaxe",2);
 ResourceLocation.create("contenttweaker:redstone_block_81/restone_block_81");
