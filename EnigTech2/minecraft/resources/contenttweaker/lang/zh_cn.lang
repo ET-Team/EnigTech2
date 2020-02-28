@@ -90,6 +90,7 @@ item.contenttweaker.rubber_plate.name=橡胶板
 item.contenttweaker.magic_motor.name=魔能马达
 item.contenttweaker.dark_gaiya_crystal.name=黯淡盖亚水晶
 item.contenttweaker.dark_gaiya_crystal_unpolished.name=未抛光的黯淡盖亚水晶
+item.contenttweaker.rough_mithril.name=不被认可的秘银
 
 machine.crafttweaker:polisher=抛光机
 machine.crafttweaker:chlorinizer=氯化机

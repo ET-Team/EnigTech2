@@ -31,6 +31,7 @@ val invarp = <ore:plateInvar>;
 val thytd = <ore:dustTinyThyrium>;
 val brsw = <ore:wireBrass>;
 val zintd = <ore:dustTinyZinc>;
+val snn = <ore:nuggetSinisite>;
 
 //有序
 val shapedRecipes as IIngredient[][][IItemStack] = {
@@ -62,6 +63,12 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [zintd,zintd,zintd],
         [zintd,zintd,zintd],
         [zintd,zintd,zintd]
+    ],
+
+    <contenttweaker:material_part:126> : [
+        [snn,snn,snn],
+        [snn,snn,snn],
+        [snn,snn,snn]
     ]
 };
 

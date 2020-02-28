@@ -43,3 +43,11 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_vvd", machineName
     .addFluidInput(<fluid:ender>*250)
     .addItemOutput(<enderio:item_alloy_endergy_ingot:6>)
     .build();
+
+//逆银锭
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_sinisite", machineName, 60)
+    .addEnergyPerTickInput(5000)
+    .addItemInput(<ore:ingotThyrium>)
+    .addItemInput(<ore:ingotMithril>)
+    .addItemOutput(<contenttweaker:material_part:126>*2)
+    .build();
