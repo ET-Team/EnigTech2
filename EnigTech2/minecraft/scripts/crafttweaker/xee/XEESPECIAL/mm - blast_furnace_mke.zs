@@ -35,3 +35,11 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_thyrium", machine
     .addItemInput(<ore:dustThyrium>)
     .addItemOutput(<contenttweaker:material_part:117>)
     .build();
+
+//生动合金
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_vvd", machineName, 200)
+    .addEnergyPerTickInput(12800)
+    .addItemInput(<ore:ingotEnergeticSilver>)
+    .addFluidInput(<fluid:ender>*250)
+    .addItemOutput(<enderio:item_alloy_endergy_ingot:6>)
+    .build();
