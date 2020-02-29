@@ -17,6 +17,28 @@
       "13": "molybdenum_block",
       "14": "molybdenum_ore",
       "15": "molybdenum_steel_ore"
+    },
+    "1": {
+      "0": "adamantium_ore",
+      "1": "prismarinium_ore",
+      "2": "sinisite_block",
+      "3": "sinisite_ore",
+      "4": "prismarinium_block",
+      "5": "adamantium_block",
+      "6": "brass_block",
+      "7": "ardite_block",
+      "8": "zinc_ore",
+      "9": "manyullyn_ore",
+      "10": "thyrium_ore",
+      "11": "brass_ore",
+      "12": "cobalt_block",
+      "13": "thyrium_block",
+      "14": "manyullyn_block",
+      "15": "cobalt_ore_minecraft_netherrack"
+    },
+    "2": {
+      "0": "ardite_ore_minecraft_netherrack",
+      "1": "zinc_block"
     }
   }
 }
