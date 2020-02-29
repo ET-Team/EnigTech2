@@ -115,3 +115,8 @@ recipes.addShaped(
 );
 //温室玻璃
 recipes.addShaped("greenhouse_glass_tweaked_advanced", <sereneseasons:greenhouse_glass:0> * 8, [[<ore:dyeCyan>,<ore:blockGlass>,<ore:dyeCyan>],[<ore:blockGlass>,<forestry:fertilizer_bio>,<ore:blockGlass>],[<ore:dyeCyan>,<forestry:resource_storage:0>,<ore:dyeCyan>]]);
+
+//麻袋
+val xian = <ore:string>;
+val lthr = <ore:leather>;
+mods.recipestages.Recipes.addShaped("four", <actuallyadditions:item_bag>, [[xian,lthr,xian],[xian,<ore:satchelTE>,xian],[lthr,<actuallyadditions:block_crystal:3>,lthr]]);

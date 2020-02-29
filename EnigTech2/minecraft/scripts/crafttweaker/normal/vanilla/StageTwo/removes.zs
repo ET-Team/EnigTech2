@@ -88,5 +88,6 @@ recipes.remove(<silentgems:guide_book>);
 recipes.removeByRecipeName("silentgems:potato_stick");
 recipes.removeByRecipeName("minecraft:slime");
 recipes.removeByRecipeName("minecraft:slime_ball");
+recipes.removeByRecipeName("silentgems:chaos_essence_crystallized");
 
 recipes.removeByRegex("immersiveengineering:material/plate_.*");

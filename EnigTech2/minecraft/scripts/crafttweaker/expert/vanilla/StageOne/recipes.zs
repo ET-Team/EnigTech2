@@ -1,6 +1,10 @@
 #packmode expert
 #modloaded etutil
 #priority -100
+
+val redb = <ore:blockRedstone>;
+val redbb = <contenttweaker:redstone_block_9>;
+
 //木盆
 recipes.addShaped(<rustic:crushing_tub>,[[<ore:plankWood>,null,<ore:plankWood>],[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>]]);
 //玻璃
@@ -43,3 +47,11 @@ recipes.addShaped("greenhouse_glass_tweaked_noob", <sereneseasons:greenhouse_gla
 recipes.addShaped("chainmail_expert", <survivalist:chainmail>, [[<ore:nuggetIron>,null,<ore:nuggetIron>],[null,<ore:nuggetIron>,null],[<ore:nuggetIron>,null,<ore:nuggetIron>]]);
 //玄理矿石词典
 recipes.addShapeless(<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:et2_orevein_wiki"}),[<survivalist:rock>,<survivalist:rock>,<survivalist:rock>,<minecraft:book>]);
+//压缩红石
+mods.recipestages.Recipes.addShaped("one", redbb, [[redb,redb,redb],[redb,redb,redb],[redb,redb,redb]]);
+mods.recipestages.Recipes.addShaped("one", <contenttweaker:redstone_block_81>, [[redbb,redbb,redbb],[redbb,redbb,redbb],[redbb,redbb,redbb]]);
+
+recipes.replaceAllOccurences(<mysticalworld:iron_dust>,<ore:dustIron>);
+recipes.replaceAllOccurences(<mysticalworld:gold_dust>,<ore:dustGold>);
+recipes.replaceAllOccurences(<mysticalworld:silver_dust>,<ore:dustSilver>);
+recipes.replaceAllOccurences(<mysticalworld:copper_dust>,<ore:dustCopper>);

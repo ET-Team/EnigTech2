@@ -87,7 +87,8 @@ val removingArray = [
     <simplyjetpacks:metaitemmods:26>,
     <simplyjetpacks:metaitemmods:27>,
     <thermalexpansion:capacitor>,
-    <thermalexpansion:capacitor:1>
+    <thermalexpansion:capacitor:1>,
+    <actuallyadditions:item_bag>
 ] as IItemStack[];
 
 for items in removingArray{
