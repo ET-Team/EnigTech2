@@ -107,9 +107,10 @@ var items as string[] = [
 	"resonance_heatsource",
 	"depleted_heatsource",
 	"energetic_shard",
-	"dimension_metal"
+	"dimension_metal",
 	"brass_wire",
-	"rough_mithril"
+	"rough_mithril",
+	"construction_motioner"
 ];
 
 //物品注册
