@@ -68,6 +68,8 @@ recipes.addShaped(<environmentaltech:structure_panel> * 2, [[<thermalfoundation:
 recipes.addShaped(<enderio:item_power_conduit:2> * 2, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<thermalfoundation:material:167>, <enderio:item_power_conduit:1>, <thermalfoundation:material:167>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 recipes.addShaped(<thermalexpansion:augment:512> * 2, [[null, <contenttweaker:iridium_osmium_ingot>, null],[<contenttweaker:iridium_osmium_ingot>, <thermalfoundation:material:514>, <contenttweaker:iridium_osmium_ingot>], [null, <contenttweaker:iridium_osmium_ingot>, null]]);
 recipes.addShaped(<thermalexpansion:augment:673>, [[<astralsorcery:itemcoloredlens>, <astralsorcery:itemcoloredlens>, <astralsorcery:itemcoloredlens>],[<astralsorcery:itemcoloredlens>, <thermalexpansion:dynamo:3>, <astralsorcery:itemcoloredlens>], [<mekanism:atomicalloy>, <thermalexpansion:augment:512>, <mekanism:atomicalloy>]]);
+recipes.addShaped(<extrautils2:quarryproxy>,[[<contenttweaker:dimension_metal>,<contenttweaker:dimension_metal>,<contenttweaker:dimension_metal>],[<contenttweaker:dimension_metal>,<mekanism:teleportationcore>,<contenttweaker:dimension_metal>],[<contenttweaker:dimension_metal>,<actuallyadditions:block_phantom_breaker>,<contenttweaker:dimension_metal>]]);
+recipes.addShaped(<mekanism:teleportationcore>,[[<mekanism:atomicalloy>,<contenttweaker:dimension_metal>,<mekanism:atomicalloy>],[<contenttweaker:dimension_metal>,<appliedenergistics2:material:47>,<contenttweaker:dimension_metal>],[<mekanism:atomicalloy>,<contenttweaker:dimension_metal>,<mekanism:atomicalloy>]]);
 
 //将所有包含高级火箭晶圆的配方替换成ET2晶圆
 recipes.replaceAllOccurences(<advancedrocketry:wafer>, <contenttweaker:ic_wafer>);
@@ -119,9 +121,10 @@ val xsu = <ore:ingotSignalum>;
 val lead = <ore:ingotLead>;
 val leadn = <ore:nuggetLead>;
 val silvern = <ore:nuggetSilver>;
+val ex = <mekanism:transmitter>.withTag({tier: 3});
 
 recipes.addShaped("superfluiduct_tweaked",<thermaldynamics:duct_16:6>,[[brz,yhbl,brz],[yhbl,<mekanism:transmitter:1>.withTag({tier: 3}),yhbl],[brz,yhbl,brz]]);
-recipes.addShaped("empty_csf_tweaked",<thermaldynamics:duct_0:9>,[[hpj,yhbl,hpj],[yhbl,guan,yhbl],[hpj,yhbl,hpj]]);
+recipes.addShaped("empty_csf_tweaked",<thermaldynamics:duct_0:9>*2,[[ex,yhbl,ex],[yhbl,guan,yhbl],[ex,yhbl,ex]]);
 recipes.addShaped("fluiduct_tweaked",<thermaldynamics:duct_16:4>*3,[[null,xsu,null],[guan,guan,guan],[null,hpj,null]]);
 recipes.addShaped("itemduct_tweaked",<thermaldynamics:duct_32:4>*3,[[null,guan,null],[xsu,guan,hpj],[null,guan,null]]);
 recipes.addShapedMirrored("denseitemduct_tweaked_1",<thermaldynamics:duct_32:4>.withTag({DenseType: 1 as byte}),[[null,null,null],[leadn,<thermaldynamics:duct_32:4>,leadn],[null,leadn,null]]);

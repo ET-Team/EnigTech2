@@ -186,11 +186,6 @@
       "id": "OD:oreFirestone"
     },
     {
-      "target": "blue",
-      "weight": 163,
-      "id": "OD:oreCobalt"
-    },
-    {
       "target": "orange",
       "weight": 159,
       "id": "OD:oreArdite"
@@ -239,11 +234,6 @@
       "target": "brown",
       "weight": 177,
       "id": "deepresonance:resonating_ore"
-    },
-    {
-      "target": "pink",
-      "weight": 186,
-      "id": "OD:oreZinc"
     },
     {
       "target": "white",

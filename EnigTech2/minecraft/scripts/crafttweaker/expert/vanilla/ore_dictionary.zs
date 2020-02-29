@@ -68,3 +68,6 @@
 
 <ore:gemCertusQuartz>.add(<item:appliedenergistics2:material>);
 <ore:gemCertusQuartz>.add(<item:appliedenergistics2:material:1>);
+
+<ore:dustTinyIron>.add(<mysticalworld:iron_dust_tiny>);
+<ore:dustTinyGold>.add(<mysticalworld:gold_dust_tiny>);
