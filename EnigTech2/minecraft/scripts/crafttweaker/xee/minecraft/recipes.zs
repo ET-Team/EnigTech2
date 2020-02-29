@@ -69,6 +69,12 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [snn,snn,snn],
         [snn,snn,snn],
         [snn,snn,snn]
+    ],
+
+    <contenttweaker:construction_motioner>*2 : [
+        [<ore:rodManyullyn>,<ore:gearSinisite>,<ore:gearPrismarinium>],
+        [<ore:rodSinisite>,<enderio:item_xp_transfer>,<ore:gearSinisite>],
+        [null,<ore:rodSinisite>,<ore:rodManyullyn>]
     ]
 };
 
@@ -96,3 +102,4 @@ for sloutput in shapedlessRecipes{
 }
 
 //额外操作
+recipes.replaceAllOccurences(<ore:ingotIron>, <contenttweaker:construction_motioner>, <rf-capability-adapter:aecapabilityadapter>);
