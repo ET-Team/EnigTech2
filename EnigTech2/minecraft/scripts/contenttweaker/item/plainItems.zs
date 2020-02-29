@@ -108,6 +108,8 @@ var items as string[] = [
 	"depleted_heatsource",
 	"energetic_shard",
 	"dimension_metal"
+	"brass_wire",
+	"rough_mithril"
 ];
 
 //物品注册

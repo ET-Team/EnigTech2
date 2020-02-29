@@ -3,6 +3,8 @@
 #priority -100
 
 val slm = <ore:slimeball>;
+val star = <silentgems:craftingmaterial:20>;
+val agent = <silentgems:charging_agent:2>;
 
 recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [[<contenttweaker:fire_resist_brick>, <ore:sandstone>, <contenttweaker:fire_resist_brick>],[<ore:sandstone>, <contenttweaker:arcane_essence>, <ore:sandstone>], [<contenttweaker:fire_resist_brick>, <ore:sandstone>, <contenttweaker:fire_resist_brick>]]);
 recipes.addShaped(<contenttweaker:fire_resist_brick>, [[<minecraft:brick>, <contenttweaker:fire_resist_mixture>], [<contenttweaker:fire_resist_mixture>, <contenttweaker:fire_resist_mixture>]]);
@@ -54,3 +56,6 @@ recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "
 
 //神秘粘液
 mods.recipestages.Recipes.addShaped("two",<silentgems:craftingmaterial:28>*6,[[slm,slm,slm],[slm,<botania:manaresource:23>,slm],[slm,slm,slm]]);
+
+//晶化混沌
+mods.recipestages.Recipes.addShaped("two",<silentgems:craftingmaterial:2>, [[star,agent,star],[agent,<silentgems:craftingmaterial:18>,agent],[star,agent,star]]);
