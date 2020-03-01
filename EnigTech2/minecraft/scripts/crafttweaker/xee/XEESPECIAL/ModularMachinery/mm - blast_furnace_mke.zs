@@ -51,3 +51,12 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_sinisite", machin
     .addItemInput(<ore:ingotMithril>)
     .addItemOutput(<contenttweaker:material_part:126>*2)
     .build();
+
+//HOP石墨锭
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_HOP", machineName, 200)
+    .addEnergyPerTickInput(10000)
+    .addItemInput(<ore:dustGraphite>)
+    .addFluidInput(<fluid:pyrotheum>*200)
+    .addItemOutput(<immersiveengineering:material:19>)
+    .build();
+    

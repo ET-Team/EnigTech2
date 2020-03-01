@@ -32,6 +32,7 @@ val thytd = <ore:dustTinyThyrium>;
 val brsw = <ore:wireBrass>;
 val zintd = <ore:dustTinyZinc>;
 val snn = <ore:nuggetSinisite>;
+val qfiber = <appliedenergistics2:part:140>;
 
 //有序
 val shapedRecipes as IIngredient[][][IItemStack] = {
@@ -75,6 +76,12 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [<ore:rodManyullyn>,<ore:gearSinisite>,<ore:gearPrismarinium>],
         [<ore:rodSinisite>,<enderio:item_xp_transfer>,<ore:gearSinisite>],
         [null,<ore:rodSinisite>,<ore:rodManyullyn>]
+    ],
+
+    <cyberware:component:5>*6 : [
+        [null,qfiber,null],
+        [qfiber,<mekanism:polyethene:3>,qfiber],
+        [null,qfiber,null]
     ]
 };
 
