@@ -92,4 +92,24 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_batterybone", mac
     .addItemInput(<thermalfoundation:material:514>)
     .addItemOutput(<cyberware:bone_upgrades:2>)
     .build();
-    
+
+//压缩氧气
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_oxygen", machineName, 12000)
+    .addEnergyPerTickInput(50000)
+    .addItemInput(bio*2)
+    .addItemInput(store)
+    .addItemInput(<ore:plateTungstenSteel>,2)
+    .addItemInput(<advancedrocketry:liquidtank>.withTag({FluidName: "oxygen", Amount: 64000}))
+    .addItemInput(<ore:alloyAdvanced>,16)
+    .addItemOutput(<cyberware:lungs_upgrades>)
+    .build();
+
+//生物反应器
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_bio", machineName, 60)
+    .addEnergyPerTickInput(5000)
+    .addItemInput(circ*6)
+    .addItemInput(<ore:dustBorax>)
+    .addItemInput(<ore:itemBiomass>)
+    .addItemInput(<ore:alloyElite>)
+    .addItemOutput(bio*6)
+    .build();
