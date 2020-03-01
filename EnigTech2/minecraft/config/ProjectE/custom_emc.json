@@ -111,6 +111,26 @@
     {
       "item": "nuclearcraft:alloy|15",
       "emc": 219490
+    },
+    {
+      "item": "contenttweaker:material_part|135",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:material_part|153",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:material_part|162",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:material_part|99",
+      "emc": 0
+    },
+    {
+      "item": "contenttweaker:material_part|90",
+      "emc": 0
     }
   ]
 }
