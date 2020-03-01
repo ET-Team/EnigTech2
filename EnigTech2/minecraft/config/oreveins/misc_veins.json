@@ -8,11 +8,11 @@
           },
           {
             "ore": "oreGold",
-            "weight": 1
+            "weight": 2
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 30,
+        "rarity": 50,
         "min_y": 32,
         "max_y": 48,
         "density": 200,
@@ -35,7 +35,7 @@
           },
           {
             "ore": "oreApatite",
-            "weight": 7
+            "weight": 5
           },
           {
               "ore":"oreEmerald",
@@ -43,7 +43,7 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 40,
+        "rarity": 50,
         "min_y": 38,
         "max_y": 55,
         "density": 280,
@@ -70,7 +70,7 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 40,
+        "rarity": 60,
         "min_y": 15,
         "max_y": 38,
         "density": 280,
@@ -104,7 +104,7 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 40,
+        "rarity": 60,
         "min_y": 20,
         "max_y": 45,
         "density": 280,
@@ -128,7 +128,7 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 40,
+        "rarity": 30,
         "min_y": 32,
         "max_y": 50,
         "density": 280,
@@ -148,11 +148,11 @@
         "ore": [
           {
             "ore": "oreQuartzBlack",
-            "weight": 7
+            "weight": 3
           },
           {
             "ore": "oreCertusQuartz",
-            "weight": 5
+            "weight": 3
           },
           {
             "ore":"oreChargedCertusQuartz",
@@ -160,11 +160,11 @@
           },
           {
             "block":"embers:ore_quartz",
-            "weight":10
+            "weight":16
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 40,
+        "rarity": 50,
         "min_y": 15,
         "max_y": 42,
         "density": 380,
@@ -195,12 +195,12 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 80,
+        "rarity": 120,
         "min_y": 35,
         "max_y": 40,
         "density": 480,
-        "vertical_size": 4,
-        "horizontal_size": 4,
+        "vertical_size": 8,
+        "horizontal_size": 8,
         "indicator": {
           "blocks": {
               "block":"silentgems:glowrose",
@@ -226,12 +226,12 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 60,
+        "rarity": 100,
         "min_y": 10,
         "max_y": 20,
-        "density": 200,
-        "vertical_size": 6,
-        "horizontal_size": 6,
+        "density": 250,
+        "vertical_size": 5,
+        "horizontal_size": 8,
         "indicator": {
           "blocks": {
               "block":"silentgems:glowrose",
@@ -261,7 +261,7 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 30,
+        "rarity": 60,
         "min_y": 10,
         "max_y": 20,
         "density": 200,
@@ -296,7 +296,7 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 30,
+        "rarity": 60,
         "min_y": 10,
         "max_y": 50,
         "density": 200,
@@ -331,7 +331,7 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 30,
+        "rarity": 60,
         "min_y": 10,
         "max_y": 50,
         "density": 200,
@@ -349,12 +349,12 @@
         "type": "cone",
         "ore": "ore:oreChaos",
         "stone": "minecraft:stone",
-        "rarity": 40,
+        "rarity": 50,
         "min_y": 0,
-        "max_y": 10,
-        "density": 200,
-        "vertical_size": 8,
-        "horizontal_size": 8,
+        "max_y": 20,
+        "density": 250,
+        "vertical_size": 12,
+        "horizontal_size": 9,
         "indicator": {
           "blocks": {
             "block":"silentgems:glowrose",
@@ -377,7 +377,7 @@
         "max_y": 130,
         "density": 200,
         "vertical_size": 8,
-        "horizontal_size": 18
+        "horizontal_size": 12
       },
       "alni": {
         "type": "sphere",
@@ -392,7 +392,7 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 30,
+        "rarity": 50,
         "min_y": 35,
         "max_y": 58,
         "density": 160,
@@ -450,7 +450,7 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 40,
+        "rarity": 60,
         "min_y": 12,
         "max_y": 24,
         "density": 200,
@@ -477,7 +477,7 @@
           }
         ],
         "stone": "minecraft:stone",
-        "rarity": 50,
+        "rarity": 70,
         "min_y": 21,
         "max_y": 33,
         "density": 200,
