@@ -110,7 +110,9 @@ var items as string[] = [
 	"dimension_metal",
 	"brass_wire",
 	"rough_mithril",
-	"construction_motioner"
+	"construction_motioner",
+	"rubber",
+	"rubber_raw"
 ];
 
 //物品注册

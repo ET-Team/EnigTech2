@@ -29,7 +29,15 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystalline", mac
     .addItemOutput(<enderio:item_alloy_endergy_ingot:1>*2)
     .build();
 
-//鍪银锭
+//鍪银锭 合金
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_alloythy", machineName, 40)
+    .addEnergyPerTickInput(3000)
+    .addItemInput(<ore:ingotAdamantium>)
+    .addItemInput(<ore:ingotMithril>)
+    .addItemOutput(<contenttweaker:material_part:117>)
+    .build();
+
+//鍪银锭 粉烧
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_thyrium", machineName, 60)
     .addEnergyPerTickInput(5000)
     .addItemInput(<ore:dustThyrium>)
@@ -59,4 +67,12 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_HOP", machineName
     .addFluidInput(<fluid:pyrotheum>*200)
     .addItemOutput(<immersiveengineering:material:19>)
     .build();
-    
+
+//橡胶条
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_rubber", machineName, 200)
+    .addEnergyPerTickInput(10000)
+    .addItemInput(<contenttweaker:rubber_raw>*3)
+    .addItemInput(<ore:dustSulfur>)
+    .addFluidInput(<fluid:cryotheum>*200)
+    .addItemOutput(<contenttweaker:rubber>)
+    .build();

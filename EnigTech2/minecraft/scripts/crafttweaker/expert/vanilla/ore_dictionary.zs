@@ -71,3 +71,7 @@
 
 <ore:dustTinyIron>.add(<mysticalworld:iron_dust_tiny>);
 <ore:dustTinyGold>.add(<mysticalworld:gold_dust_tiny>);
+
+//蜂蜡
+<ore:wax>.add(<harvestcraft:beeswaxitem>);
+<ore:wax>.add(<forestry:beeswax>);
