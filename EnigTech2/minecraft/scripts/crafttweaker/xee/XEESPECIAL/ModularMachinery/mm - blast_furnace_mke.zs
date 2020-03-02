@@ -59,4 +59,12 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_HOP", machineName
     .addFluidInput(<fluid:pyrotheum>*200)
     .addItemOutput(<immersiveengineering:material:19>)
     .build();
-    
+
+//橡胶条
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_rubber", machineName, 200)
+    .addEnergyPerTickInput(10000)
+    .addItemInput(<contenttweaker:raw_rubber>*3)
+    .addItemInput(<ore:dustSulfur>)
+    .addFluidInput(<fluid:cryotheum>*200)
+    .addItemOutput(<immersiveengineering:material:19>)
+    .build();
