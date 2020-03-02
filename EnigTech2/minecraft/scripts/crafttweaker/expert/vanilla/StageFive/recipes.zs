@@ -58,3 +58,9 @@ recipes.addShaped(<enderio:item_material:67>,[[<enderio:item_material:36>,<ore:d
 recipes.addShaped(<astralsorcery:itemwand>.withTag({astralsorcery: {}}),[[null,<botania:manaresource:2>,<minecraft:ender_pearl>],[null,<ore:stoneMarble>,<botania:manaresource:2>],[<ore:stoneMarble>,null,null]]);
 recipes.addShaped(<advancedrocketry:electrolyser>,[[<ore:itemBattery>,<immersiveengineering:material:21>,<ore:itemBattery>],[<ore:plateTin>,<libvulpes:structuremachine>,<ore:plateTin>],[<advancedrocketry:ic:3>,<ore:plateTin>,<advancedrocketry:ic:3>]]);
 recipes.addShaped(<modularmachinery:blockenergyoutputhatch:4>, [[<modularmachinery:itemmodularium>, <enderio:item_power_conduit:2>, <modularmachinery:itemmodularium>],[<enderio:item_power_conduit:2>, <modularmachinery:blockenergyoutputhatch:3>, <enderio:item_power_conduit:2>], [<modularmachinery:itemmodularium>, <enderio:item_power_conduit:2>, <modularmachinery:itemmodularium>]]);
+
+//燃烧室外壳 耐火蜂蜡
+val cred = <contenttweaker:redstone_block_81>;
+val casin = <modularmachinery:blockcasing>;
+mods.recipestages.Recipes.addShaped("five", <modularmachinery:blockcasing:2>*2, [[cred,casin,cred],[casin,<forestry:refractory_wax>,casin],[cred,casin,cred]]);
+mods.recipestages.Recipes.addShapeless("five", <forestry:refractory_wax>, [<ore:wax>,<ore:nuggetRedstoneAlloy>,<contenttweaker:fire_resist_mixture>]);
