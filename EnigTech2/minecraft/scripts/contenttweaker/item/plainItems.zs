@@ -111,7 +111,8 @@ var items as string[] = [
 	"brass_wire",
 	"rough_mithril",
 	"construction_motioner",
-	"rubber"
+	"rubber",
+	"rubber_raw"
 ];
 
 //物品注册
