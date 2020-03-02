@@ -49,6 +49,7 @@ item.contenttweaker.resonance_heatsource.name=高热共振晶体
 item.contenttweaker.depleted_heatsource.name=弱波凝块
 item.contenttweaker.energetic_shard.name=高能络合物碎块
 item.contenttweaker.brass_wire.name=细黄铜导线
+item.contenttweaker.rubber.name=橡胶条
 
 fluid.fluid_lubricant=润滑油
 fluid.fluid_oil_gas=炼油气
