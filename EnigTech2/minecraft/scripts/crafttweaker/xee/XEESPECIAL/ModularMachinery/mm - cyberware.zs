@@ -138,3 +138,43 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_matrix", machineN
     .addItemInput(<deepmoblearning:glitch_infused_ingot>)
     .addItemOutput(<cyberware:brain_upgrades:4>)
     .build();
+
+//三种皮肤
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_skin1", machineName, 12000)
+    .addEnergyPerTickInput(50000)
+    .addItemInput(chro*3)
+    .addItemInput(fiber*2)
+    .addItemInput(bio)
+    .addItemInput(<contenttweaker:rubber_plate>)
+    .addItemInput(<ore:itemBioblendRich>)
+    .addItemInput(<ore:materialTannedLeather>)
+    .addItemInput(<enderio:item_material:49>*4)
+    .addItemOutput(<cyberware:skin_upgrades:2>)
+    .build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_skin2", machineName, 12000)
+    .addEnergyPerTickInput(50000)
+    .addItemInput(ti*2)
+    .addItemInput(ex)
+    .addItemInput(chro)
+    .addItemInput(unit)
+    .addItemInput(<contenttweaker:rubber_plate>)
+    .addItemInput(<cyberware:skin_upgrades:2>)
+    .addItemInput(<harvestcraft:hardenedleatheritem>*2)
+    .addItemInput(<ore:plateTungstenSteel>)
+    .addItemOutput(<cyberware:skin_upgrades:1>)
+    .build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_skin3", machineName, 12000)
+    .addEnergyPerTickInput(50000)
+    .addItemInput(fiber*2)
+    .addItemInput(bio)
+    .addItemInput(chro)
+    .addItemInput(unit)
+    .addItemInput(<contenttweaker:rubber_plate>*2)
+    .addItemInput(<cyberware:skin_upgrades:1>)
+    .addItemInput(<enderio:item_capacitor_vivid>)
+    .addItemInput(<enderio:block_solar_panel:3>)
+    .addItemOutput(<cyberware:skin_upgrades>)
+    .build();
+    

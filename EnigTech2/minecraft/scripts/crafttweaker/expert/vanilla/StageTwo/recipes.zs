@@ -59,3 +59,5 @@ mods.recipestages.Recipes.addShaped("two",<silentgems:craftingmaterial:28>*6,[[s
 
 //晶化混沌
 mods.recipestages.Recipes.addShaped("two",<silentgems:craftingmaterial:2>, [[star,agent,star],[agent,<silentgems:craftingmaterial:18>,agent],[star,agent,star]]);
+
+recipes.replaceAllOccurences(<minecraft:leather>,<ore:materialTannedLeather>,<harvestcraft:hardenedleatheritem>);
