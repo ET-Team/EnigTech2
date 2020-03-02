@@ -29,7 +29,15 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystalline", mac
     .addItemOutput(<enderio:item_alloy_endergy_ingot:1>*2)
     .build();
 
-//鍪银锭
+//鍪银锭 合金
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_alloythy", machineName, 40)
+    .addEnergyPerTickInput(3000)
+    .addItemInput(<ore:ingotAdamantium>)
+    .addItemInput(<ore:ingotMithril>)
+    .addItemOutput(<contenttweaker:material_part:117>)
+    .build();
+
+//鍪银锭 粉烧
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_thyrium", machineName, 60)
     .addEnergyPerTickInput(5000)
     .addItemInput(<ore:dustThyrium>)
