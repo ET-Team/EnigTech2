@@ -66,5 +66,5 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_rubber", machineN
     .addItemInput(<contenttweaker:rubber_raw>*3)
     .addItemInput(<ore:dustSulfur>)
     .addFluidInput(<fluid:cryotheum>*200)
-    .addItemOutput(<immersiveengineering:material:19>)
+    .addItemOutput(<contenttweaker:rubber>)
     .build();
