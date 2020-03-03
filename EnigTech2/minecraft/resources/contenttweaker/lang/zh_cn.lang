@@ -189,3 +189,5 @@ item.contenttweaker.construction_motioner.name=建构传动装置
 tile.contenttweaker.brass_coil.name=黄铜线圈
 tile.contenttweaker.redstone_block_9.name=压缩红石块
 tile.contenttweaker.redstone_block_81.name=致密红石块
+
+tile.botania:botanicadds:pool_dreaming.name=梦之魔力池
