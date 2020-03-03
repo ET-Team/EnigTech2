@@ -3,7 +3,7 @@ Criteriahuozhifuwen12 = addCriteria("Criteriahuozhifuwen12", "minecraft:inventor
 Criteriahuozhifuwen12.addItem(<botania:rune:1>)
 setIcon(<botania:rune:1>)
 setTitle("\u706b\u4e4b\u7b26\u6587")
-setDescription("\u5236\u4f5c\u5236\u4f5c\u706b\u4e4b\u7b26\u6587")
+setDescription("\u5236\u4f5c\u706b\u4e4b\u7b26\u6587")
 setPos(-387,-7)
 addParent("ET2:StageTwo/fuwenjitan")
 drawDirectLines(true)

@@ -2,7 +2,7 @@
 Criteriashupi48 = addCriteria("Criteriashupi48", "minecraft:inventory_changed")
 Criteriashupi48.addItem(<ore:rootsBark>)
 setIcon(<roots:bark_oak>)
-setTitle("\u5e94\u6025\u98df\u54c1")
+setTitle("\u60f3\u5f53\u5e74\u3002\u3002\u3002")
 setDescription("\u4f7f\u7528\u5315\u9996\u7834\u574f\u539f\u6728,\u6765\u83b7\u5f97\u6811\u76ae")
 setPos(-654,-109)
 addParent("ET2:StageOne/bishou")

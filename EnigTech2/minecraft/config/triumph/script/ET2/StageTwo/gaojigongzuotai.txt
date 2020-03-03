@@ -2,7 +2,7 @@
 Criteriaheitie8 = addCriteria("Criteriaheitie8", "minecraft:inventory_changed")
 Criteriaheitie8.addItem(<extendedcrafting:table_advanced>)
 setIcon(<extendedcrafting:table_advanced>)
-setTitle("\u9ad8\u7ea7\u5de5\u4f5c\u53f0")
+setTitle("\u4f60\u611f\u5230\u80cc\u540e\u4e00\u51c9")
 setDescription("\u5236\u4f5c\u9ad8\u7ea7\u5de5\u4f5c\u53f0")
 setPos(-201,97)
 addParent("ET2:StageTwo/heitie")

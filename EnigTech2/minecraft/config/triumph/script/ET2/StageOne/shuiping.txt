@@ -2,7 +2,7 @@
 
 setIcon(<minecraft:potion>)
 setTitle("\u519c\u592b\u5c71\u6cc9")
-setDescription("\u6765\u704c\u4e00\u74f6\u6c34\u89e3\u89e3\u6e34(\u867d\u7136\u53ef\u80fd\u4f1a\u8131\u6c34")
+setDescription("\u5728\u6cb3\u8fb9\u88c5\u4e00\u74f6\u6c34\u6765\u89e3\u6e34\u3002\u4e3a\u4e86\u4fdd\u547d\uff0c\u8131\u6c34\u53c8\u7b97\u4ec0\u4e48\u5462\uff1f")
 addParent("ET2:StageOne/boliping")
 setPos(-529,40)
 alwaysVisible()
