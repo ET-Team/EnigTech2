@@ -33,6 +33,9 @@ val brsw = <ore:wireBrass>;
 val zintd = <ore:dustTinyZinc>;
 val snn = <ore:nuggetSinisite>;
 val qfiber = <appliedenergistics2:part:140>;
+val over = <bloodmagic:blood_rune:7>;
+val drock = <botanicadds:dreamrock>;
+val mglass = <botania:managlass>;
 
 //有序
 val shapedRecipes as IIngredient[][][IItemStack] = {
@@ -82,6 +85,18 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [null,qfiber,null],
         [qfiber,<mekanism:polyethene:3>,qfiber],
         [null,qfiber,null]
+    ],
+
+    <botanicadds:pool_dreaming> : [
+        [over,drock,over],
+        [drock,<botania:pool:3>,drock],
+        [mglass,<ore:ingotTerrasteel>,mglass]
+    ],
+
+    <botanicadds:elven_altar> : [
+        [drock,<ore:elvenDragonstone>,drock],
+        [drock,<botania:prism>,drock],
+        [drock,<botania:runealtar>,drock]
     ]
 };
 
