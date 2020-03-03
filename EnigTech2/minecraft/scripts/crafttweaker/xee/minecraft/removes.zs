@@ -10,6 +10,8 @@ import crafttweaker.oredict.IOreDictEntry;
 val removingArray = [
     <enderio:item_endergy_conduit:*>*8,
 	<enderio:item_alloy_endergy_ball:*>*24,
+    <botanicadds:pool_dreaming>,
+    <botanicadds:elven_altar>
 ] as IItemStack[];
 
 //按矿辞移除

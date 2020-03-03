@@ -27,3 +27,6 @@ ResourceLocation.create("contenttweaker:redstone_block_9/restone_block_9");
 
 BlockBuilder("redstone_block_81",<blockmaterial:rock>,<soundtype:stone>,6.0,60.0,"pickaxe",2);
 ResourceLocation.create("contenttweaker:redstone_block_81/restone_block_81");
+
+BlockBuilder("magic_machine_hull", <blockmaterial:iron>, <soundtype:metal>, 5.0, 50.0, "pickaxe", 0);
+ResourceLocation.create("contenttweaker:magic_machine_hull/magic_machine_hull");

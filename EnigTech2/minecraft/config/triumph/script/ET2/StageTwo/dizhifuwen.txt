@@ -3,7 +3,7 @@ Criteriadizhifuwen11 = addCriteria("Criteriadizhifuwen11", "minecraft:inventory_
 Criteriadizhifuwen11.addItem(<botania:rune:2>)
 setIcon(<botania:rune:2>)
 setTitle("\u5730\u4e4b\u7b26\u6587")
-setDescription("\u5236\u4f5c\u5236\u4f5c\u5730\u4e4b\u7b26\u6587")
+setDescription("\u5236\u4f5c\u5730\u4e4b\u7b26\u6587")
 setPos(-418,68)
 addParent("ET2:StageTwo/fuwenjitan")
 drawDirectLines(true)
