@@ -69,7 +69,6 @@ var items as string[] = [
 	"dark_gaiya_crystal_unpolished",
 	"magic_calculator",
 	"magic_calculator_unpowered",
-	"magic_machine_hull",
 	"strong_motor",
 	"strong_motor_unprocessed",
 	"meteor_bait",

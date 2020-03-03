@@ -108,7 +108,6 @@ contenttweaker.part.dust_tiny=小搓%s粉
 
 item.contenttweaker.magic_calculator.name=魔能计算机
 item.contenttweaker.magic_calculator_unpowered.name=未充能的魔能计算机
-item.contenttweaker.magic_machine_hull.name=蕴魔机械外壳
 item.contenttweaker.strong_motor.name=强导电机
 item.contenttweaker.strong_motor_unprocessed.name=未处理的强导电机
 item.contenttweaker.meteor_bait.name=陨石诱饵
@@ -186,6 +185,7 @@ jei.tlmtweak.altar_craft.item_craft.result=合成物品
 item.contenttweaker.dimension_metal.name=维度金属
 item.contenttweaker.construction_motioner.name=建构传动装置
 
+tile.contenttweaker.magic_machine_hull.name=蕴魔机械外壳
 tile.contenttweaker.brass_coil.name=黄铜线圈
 tile.contenttweaker.redstone_block_9.name=压缩红石块
 tile.contenttweaker.redstone_block_81.name=致密红石块
