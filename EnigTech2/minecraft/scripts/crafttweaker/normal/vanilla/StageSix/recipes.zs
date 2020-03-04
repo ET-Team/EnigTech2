@@ -185,7 +185,7 @@ for theRecipes in steelArray{
 
 mods.recipestages.Recipes.addShaped("six",<nuclearcraft:salt_fission_redstone_port>,[[adv,rsc,adv],[rsc,<nuclearcraft:part:12>,rsc],[adv,rsc,adv]]);
 mods.recipestages.Recipes.addShaped("six",<extendedcrafting:ender_crafter>,[[endern,endern,endern],[enderb,<ore:workbench>,enderb],[enderp,enderp,enderp]]);
-mods.recipestages.Recipes.addShaped("six",<extendedcrafting:ender_alternator>,[[null,<ore:itemEnderCrystal>,null],[<ore:gearEnderium>,<ore:blockEndSteel>,<ore:gearEnderium>],[grok,grok,grok]]);
+mods.recipestages.Recipes.addShaped("six",<extendedcrafting:ender_alternator>*3,[[null,<ore:itemEnderCrystal>,null],[<ore:gearEnderium>,<ore:blockEndSteel>,<ore:gearEnderium>],[grok,grok,grok]]);
 
 recipes.replaceAllOccurences(<ore:stone>,<ore:stoneMarble>,<nuclearcraft:heat_exchanger_wall>*4);
 recipes.replaceAllOccurences(<ore:stone>,<ore:stoneMarble>,<nuclearcraft:heat_exchanger_vent>*4);
