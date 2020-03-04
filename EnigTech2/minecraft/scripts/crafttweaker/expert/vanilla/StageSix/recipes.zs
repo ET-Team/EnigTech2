@@ -167,6 +167,11 @@ for i, opaq in opaqueArray{
 //熔盐套件
 val adv = <libvulpes:advstructuremachine>;
 val rsc = <enderio:item_redstone_conduit>;
+val endern = <ore:nuggetEnderpearl>;
+val enderb = <enderio:block_end_iron_bars>;
+val enderp = <ore:plateEnderium>;
+val grok = <extrautils2:grocket:6>;
+
 val steelArray = [
     <nuclearcraft:salt_fission_wall>*4,
     <nuclearcraft:heat_exchanger_wall>*4,
@@ -180,6 +185,8 @@ for theRecipes in steelArray{
 }
 
 mods.recipestages.Recipes.addShaped("six",<nuclearcraft:salt_fission_redstone_port>,[[adv,rsc,adv],[rsc,<nuclearcraft:part:12>,rsc],[adv,rsc,adv]]);
+mods.recipestages.Recipes.addShaped("six",<extendedcrafting:ender_crafter>,[[endern,endern,endern],[enderb,<ore:workbench>,enderb],[enderp,enderp,enderp]]);
+mods.recipestages.Recipes.addShaped("six",<extendedcrafting:ender_alternator>,[[null,<ore:itemEnderCrystal>,null],[<ore:gearEnderium>,<ore:blockEndSteel>,<ore:gearEnderium>],[grok,grok,grok]]);
 
 recipes.replaceAllOccurences(<ore:stone>,<ore:stoneMarble>,<nuclearcraft:heat_exchanger_wall>*4);
 recipes.replaceAllOccurences(<ore:stone>,<ore:stoneMarble>,<nuclearcraft:heat_exchanger_vent>*4);
