@@ -329,6 +329,7 @@ for item in itemsStageFour{
 	addItemStage("four", item);
 }
 
+mods.ItemStages.removeItemStage(<embers:ore_quartz>);
 
 mods.ItemStages.stageTooltip("alpha", "EMC:");
 
