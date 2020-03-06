@@ -97,3 +97,6 @@ recipes.addShaped(
 val xian = <ore:string>;
 val lthr = <ore:leather>;
 mods.recipestages.Recipes.addShaped("four", <actuallyadditions:item_bag>, [[xian,lthr,xian],[xian,<ore:satchelTE>,xian],[lthr,<actuallyadditions:block_crystal:3>,lthr]]);
+
+//汇集之种
+mods.recipestages.Recipes.addShaped("four", <contenttweaker:condensed_seed>, [[null,<minecraft:nether_wart>,null],[<minecraft:wheat_seeds>,<twilightforest:torchberries>,<extrautils2:enderlilly>],[null,<botania:grassseeds>,null]]);
