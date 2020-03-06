@@ -93,6 +93,10 @@ var items as string[] = [
 	"stable_potato",
 	"baked_stable_potato",
 	"baked_stable_potato_unpolished",
+	"earth_x",
+	"wind_x",
+	"spring_x",
+	"condensed_seed",
 
 	"enigarium",
 	"technium",

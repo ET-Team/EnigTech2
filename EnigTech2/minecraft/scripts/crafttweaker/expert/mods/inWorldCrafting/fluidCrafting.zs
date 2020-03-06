@@ -24,3 +24,5 @@ FluidToItem.transform(<embers:blend_caminite>*3, <liquid:fluid_blend_caminite>,[
 FluidToItem.transform(<toughasnails:purified_water_bottle> * 3, <liquid:purified_water>, [<minecraft:glass_bottle> * 3], true);
 //冷静土豆
 FluidToItem.transform(<contenttweaker:stable_potato>, <fluid:cryotheum>, [<silentgems:chaosorb>.withTag({ChaosCharge: 5000})], true);
+//增生之种
+FluidToItem.transform(<botania:overgrowthseed>*2,<liquid:mana>,[<contenttweaker:earth_x>,<contenttweaker:wind_x>,<contenttweaker:spring_x>,<contenttweaker:condensed_seed>], true);
