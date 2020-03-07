@@ -31,6 +31,10 @@ item.contenttweaker.fire_resist_mixture.name=耐火混合物
 item.contenttweaker.fire_resist_brick.name=耐火砖
 item.contenttweaker.fuel_helper.name=助燃物
 item.contenttweaker.dust_wood.name=木粉
+item.contenttweaker.earth_x.name=地凝符文
+item.contenttweaker.wind_x.name=风灵符文
+item.contenttweaker.spring_x.name=春源符文
+item.contenttweaker.condensed_seed.name=汇集之种
 
 item.contenttweaker.blast_furnace_brick.name=高炉砖块
 
