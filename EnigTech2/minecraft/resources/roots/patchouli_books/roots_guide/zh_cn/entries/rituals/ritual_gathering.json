@@ -1,5 +1,5 @@
 {
-  "name": "Gathering",
+  "name": "集聚",
   "icon": "roots:ritual_gathering",
   "category": "rituals",
   "advancement": "roots:wildewheet",
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Items that litter the ground will be picked up at regular intervals and deposited into an inventory placed directly beneath the pyre."
+      "text": "仪式期间，以柴堆为中心一定范围内地面上的掉落物将被收集入柴堆正下方的容器中。"
     },
     {
       "type": "pyre_template",
