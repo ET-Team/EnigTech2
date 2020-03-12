@@ -1,6 +1,6 @@
 {
-    "name": "Natural Resources",
+    "name": "自然资源",
     "sortnum" : 4,
-    "description": "Asides from herbs, there are a number of resources to be gathered from this world (and others).$(br2)Some of these resources are used in the construction of armor & weapons, while others are used to better the growing of herbs and the construction of rituals.",
+    "description": "除了药草，世界的每个角落都存在着大量可供采拮的自然资源。$(br2)一些可用以制作装备或武器，而另一些则为了药草的制作或仪式的构建而服务。",
     "icon": "roots:bark_oak"
   }

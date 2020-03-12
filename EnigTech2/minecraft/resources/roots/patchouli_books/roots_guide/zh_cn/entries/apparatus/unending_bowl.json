@@ -1,23 +1,12 @@
 {
-  "name": "Unending Bowl",
-  "icon": "roots:unending_bowl",
+  "name": "【被封锁的物品】",
+  "icon": "minecraft:barrier",
   "category": "apparatus",
-  "advancement": "roots:dewgonia",
   "pages": [
     {
       "type": "spotlight",
-      "item": "roots:unending_bowl",
-      "text": "Once placed, the unending bowl, as its name suggests, will never run out of water, no matter how much is taken from it."
-    },
-    {
-      "type": "fey_crafting_template",
-      "recipe": "unending_bowl"
-    },
-    {
-      "type": "relations",
-      "entries": [
-        "herbs/dewgonia"
-      ]
+      "item": "minecraft:barrier",
+      "text": "████，一旦被██，███就会█████产出█████。$(br2)$(warning)被封锁的原因：配合█████████，其可██地通过█████████。也因如此，███████亦被██至第█████。"
     }
   ]
 }
