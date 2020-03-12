@@ -226,6 +226,7 @@ for mod in modsStageBeta{
 }
 
 removeItemStage(<immersiveengineering:stone_decoration:2>);
+removeItemStage(<enderio:item_material:51>);
 
 val itemsStageFour as IIngredient[] = [
 	<immersiveengineering:stone_decoration:2>,
@@ -268,6 +269,7 @@ val itemsStageFour as IIngredient[] = [
 	<contenttweaker:soso_machine_core>
 ];
 val itemsStageFive as IIngredient[] = [
+	<enderio:item_material:51>,
 	<contenttweaker:ultra_machine_core>,
 	<contenttweaker:lunar_essence>,
 	<contenttweaker:iridium_osmium_ingot>,
