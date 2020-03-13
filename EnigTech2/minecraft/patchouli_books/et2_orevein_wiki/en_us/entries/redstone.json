@@ -6,7 +6,6 @@
         {
             "type": "spotlight",
             "item": "minecraft:redstone_ore",
-            "item": "silentgems:essenceore",
             "title": "红石矿脉",
             "text": "红石矿脉是初期使用量很大的矿脉，盛产红石矿石和混沌矿石"
         },
