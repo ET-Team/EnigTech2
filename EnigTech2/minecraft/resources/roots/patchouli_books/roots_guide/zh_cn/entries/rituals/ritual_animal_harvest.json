@@ -1,5 +1,5 @@
 {
-  "name": "Animal Harvest",
+  "name": "动物收获",
   "icon": "roots:ritual_animal_harvest",
   "category": "rituals",
   "advancement": "roots:wildewheet",
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Animals in the vicinity of the ritual will willingly give up part of their physical essence, although suffering no harm to themselves in the process. $(info) Affected animals will glow briefly.$(br2)$(info) This ritual requires the correct standing stones."
+      "text": "这一仪式将感化附近的动物，使其情愿给予它们自身的产物，且并不会遭受苦楚。$(br2)$(info)受感化的动物将成长得更快$(br2)$(info)需要屹立石柱来进行该仪式。"
     },
     {
       "type": "pyre_template",

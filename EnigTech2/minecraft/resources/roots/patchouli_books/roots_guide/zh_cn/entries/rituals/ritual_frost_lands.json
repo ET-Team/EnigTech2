@@ -1,5 +1,5 @@
 {
-  "name": "Frost Lands",
+  "name": "霜冻之地",
   "icon": "roots:ritual_frost_lands",
   "category": "rituals",
   "advancement": "roots:dewgonia",
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Combining both the freezing might of ice & frozen water, with the nourishing melt of snow feeding streams & rivers, this ritual will rapidly turn the area around it into a snowy wonderland.$(br2)Snowmen may appear, and those that do are regularly healed by the ritual's power. Farmland will be steadily moisturised, water will freeze into ice, and lava into obsidian."
+      "text": "集凛冰寒水冰冻之力，以飘雪融养大川细流。这一仪式会快速将周遭带入冰与雪的奇幻境地。$(br2)雪傀儡也可能会在仪式中现身，并与可能现存的雪傀儡们一同受到霜冻之地的荣养。耕地将逐渐被雪水滋润，水将结冻，熔岩也将被凝为黑曜石。"
     },
     {
       "type": "pyre_template",

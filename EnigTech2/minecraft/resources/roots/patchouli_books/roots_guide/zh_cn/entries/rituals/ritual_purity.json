@@ -1,5 +1,5 @@
 {
-  "name": "Purify",
+  "name": "净化",
   "icon": "roots:ritual_purity",
   "category": "rituals",
   "advancement": "roots:baffle_cap",
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Removes ailments, fire and negative effects from all creatures near the ritual, for the duration of the ritual.$(br2)This includes the druid casting the ritual, but $(warning) also any hostile creatures that may wander nearby.$(br2)$(info) Villagers already recovering from the Zombie curse will do so quicker while this ritual is active."
+      "text": "在效用期间去除仪式四周所有生物正在罹患的病痛与负面效果，熄灭其身上的火焰。$(br2)效用目标除了施法者本人，也$(warning)包括所有可能在四周游荡的敌对生物。$(br2)$(info)正在被疗愈的僵尸村民会在这场仪式中更快地恢复肉身。"
     },
     {
       "type": "pyre_template",

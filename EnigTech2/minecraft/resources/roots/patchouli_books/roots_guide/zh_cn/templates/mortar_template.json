@@ -57,13 +57,13 @@
     },
     {
       "type": "header",
-      "text": "Mortar Crafting",
+      "text": "研钵合成",
       "x": -1,
       "y": 0
     },
     {
       "type": "text",
-      "text": "Crush the ingredients in a Mortar using a Pestle to produce the output. Adding more of the same ingredient increases the output.",
+      "text": "用研杵捣碎混合研钵中的材料以进行合成，可一次处理多份单一输入配方中的原材料。",
       "x": 0,
       "y": 70
     }

@@ -1,5 +1,5 @@
 {
-  "name": "Healing Aura",
+  "name": "治疗光环",
   "icon": "roots:ritual_healing_aura",
   "category": "rituals",
   "advancement": "roots:pyre",
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Nearby creatures are healed back to full health while in the proximity of this short ritual.$(br2)$(info) This ritual requires the correct standing stones and a birch tree nearby to function properly.$(br2)$(warning) Hostile creatures will also be healed. Be wary!"
+      "text": "在靠近这一稍纵即逝的仪式时，生物将被迅速治愈。$(br2)$(info)需要屹立石柱与白桦树来进行该仪式。$(br2)$(warning)保持警惕！敌对生物同样会被该仪式治愈！"
     },
     {
       "type": "pyre_template",
