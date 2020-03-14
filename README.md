@@ -6,7 +6,7 @@ This work is licensed through <a rel="license" href="http://creativecommons.org/
 
 *But first, ET2 was **different** for ET, their savefile can not be migrated directly or patched directly*
 
-<u>ETM uses Twitch for the initial module installation, but subsequent updates and changes are performed in the MMC launcher environment.</u>
+<u>ET2 uses Twitch for the initial module installation, but subsequent updates and changes are performed in the MMC launcher environment.</u>
 
 ET2 is a project by dong031001 and tuna5544. The goal of the project is to complete a full-structured magic-tech modpack, and suceed EnigTech1's general ideas.
 
