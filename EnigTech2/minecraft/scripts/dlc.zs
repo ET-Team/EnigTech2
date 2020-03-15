@@ -5,8 +5,7 @@ import crafttweaker.item.IItemStack;
 //Mod Name : Material Oredict Entry (no prefix)
 
 static modMap as string[string] = {
-  "Example Mod" : "ExampleMaterial",
-  "IndustrialCraft 2" : "Copper"
+
 };
 
 for modName, material in modMap{
