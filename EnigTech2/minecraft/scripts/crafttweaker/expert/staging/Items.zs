@@ -226,6 +226,7 @@ for mod in modsStageBeta{
 }
 
 removeItemStage(<immersiveengineering:stone_decoration:2>);
+removeItemStage(<enderio:item_material:51>);
 
 val itemsStageFour as IIngredient[] = [
 	<immersiveengineering:stone_decoration:2>,
@@ -268,6 +269,7 @@ val itemsStageFour as IIngredient[] = [
 	<contenttweaker:soso_machine_core>
 ];
 val itemsStageFive as IIngredient[] = [
+	<enderio:item_material:51>,
 	<contenttweaker:ultra_machine_core>,
 	<contenttweaker:lunar_essence>,
 	<contenttweaker:iridium_osmium_ingot>,
@@ -336,9 +338,6 @@ for item in itemsStageFour{
 mods.ItemStages.removeItemStage(<embers:ore_quartz>);
 
 mods.ItemStages.stageTooltip("alpha", "EMC:");
-
-mods.ItemStages.removeItemStage(<soot:stamp_text>);
-mods.ItemStages.addItemStage("default",<soot:stamp_text>);
 
 removeItemStage(<minecraft:spawn_egg>.withTag({EntityTag: {id: "touhou_little_maid:entity.passive.maid"}}));
 addItemStage("beta",<minecraft:spawn_egg>.withTag({EntityTag: {id: "touhou_little_maid:entity.passive.maid"}}));

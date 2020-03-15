@@ -1,5 +1,5 @@
 {
-  "name": "Baffle Cap",
+  "name": "困惑蘑菇",
   "icon": "roots:baffle_cap_mushroom",
   "category": "herbs",
   "advancement": "roots:pyre",
@@ -9,7 +9,7 @@
       "type": "spotlight",
       "item": "roots:baffle_cap_mushroom",
       "link_recipe": true,
-      "text": "Baffle Caps are a bizarre variety of fungus, the spores of which seem to confound those who mishandle it.$(br2)$(info) Larger varieties of the baffle cap may be grown in ways you'd normally grow mushrooms."
+      "text": "困惑蘑菇是一类怪异的菌种。它的孢子似乎会使亵玩者陷入极大的困惑之中。$(br2)$(info)你可以像培植普通蘑菇一样培育出更大的困惑蘑菇品种。"
     },
     {
       "type": "ritual_crafting_template",

@@ -1,5 +1,5 @@
 {
-  "name": "Divine Protection",
+  "name": "神圣庇佑",
   "icon": "roots:ritual_divine_protection",
   "category": "rituals",
   "advancement": "roots:pereskia",
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Rainy weather and clouds are repelled by this ritual, which also increases the time the sun hangs in the sky by slowing time itself.$(br2)At night, it has the opposite effect, and all the while it will drive back the forces of undeath, smiting them with fire.$(br2)$(info) Day is increased by roughly 30%, and night reduced by 50%."
+      "text": "驱散大雨与乌云，并通过减缓时间流逝的方式来使阳光常照。$(br2)在夜晚，它将以圣火击垮四周的亡灵之力。$(br2)$(info)仪式期间，白昼将延长30%左右，黑夜将缩短约50%。"
     },
     {
       "type": "pyre_template",
