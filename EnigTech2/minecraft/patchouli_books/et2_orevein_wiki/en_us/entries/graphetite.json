@@ -1,0 +1,17 @@
+{
+    "name": "石墨矿脉",
+    "icon": "minecraft:coal_ore",
+    "category": "large_vein",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:coal_ore",
+            "title": "石墨矿脉",
+            "text": "石墨矿脉是初期使用量非常大的矿脉，盛产煤炭矿石，同时也能产出可观数量的钻石"
+        },
+        {
+            "type": "text",
+            "text": "主矿石:煤炭矿石$(br)伴生矿石:钻石矿石$(br2)生成高度:5-28$(br2)矿脉大小:非常大$(br)矿脉密度:高$(br2)地表指示:无$(br)矿脉稀有度:稀有$(br2)生成维度:主世界"
+        }
+    ]
+}

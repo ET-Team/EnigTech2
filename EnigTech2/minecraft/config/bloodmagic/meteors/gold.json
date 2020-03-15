@@ -1,19 +1,23 @@
 {
   "catalystStack": {
     "registryName": {
-      "domain": "minecraft",
-      "path": "gold_block"
+      "domain": "astralsorcery",
+      "path": "blockcelestialgateway"
     },
     "meta": 0
   },
   "components": [
     {
+      "weight": 500,
+      "oreName": "blockMeteorolite"
+    },
+    {
       "weight": 200,
-      "oreName": "oreIron"
+      "oreName": "blockMarbleDark"
     },
     {
       "weight": 100,
-      "oreName": "oreCopper"
+      "oreName": "oreOsmium"
     },
     {
       "weight": 60,
@@ -24,25 +28,45 @@
       "oreName": "oreGold"
     },
     {
-      "weight": 120,
-      "oreName": "oreLapis"
+      "weight": 20,
+      "oreName": "oreAstralStarmetal"
     },
     {
-      "weight": 30,
-      "oreName": "oreDiamond"
+      "weight": 40,
+      "oreName": "oreTungsten"
+    },
+    {
+      "weight": 20,
+      "oreName": "orePlatinum"
+    },
+    {
+      "weight": 60,
+      "oreName": "oreTitanium"
+    },
+    {
+      "weight": 20,
+      "oreName": "oreIridium"
+    },
+    {
+      "weight": 10,
+      "oreName": "oreNeodymium"
+    },
+    {
+      "weight": 10,
+      "oreName": "oreChromium"
     },
     {
       "weight": 20,
       "oreName": "oreEmerald"
     },
     {
-      "weight": 20,
-      "oreName": "oreCoal"
+      "weight": 10,
+      "oreName": "oreMolybdenum"
     }
   ],
   "explosionStrength": 18.0,
   "radius": 6,
-  "maxWeight": 650,
+  "maxWeight": 1170,
   "version": 4,
-  "cost": 2500000
+  "cost": 1500000
 }

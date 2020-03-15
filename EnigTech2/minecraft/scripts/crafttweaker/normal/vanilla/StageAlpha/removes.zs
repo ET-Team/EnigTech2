@@ -1,4 +1,5 @@
 #packmode normal
+#modloaded etutil
 #priority 0
 
 recipes.remove(<item:draconicevolution:draconium_ingot>);
@@ -16,6 +17,8 @@ recipes.remove(<projecte:item.pe_soul_stone>);
 recipes.remove(<projecte:transmutation_table>);
 recipes.remove(<projecte:item.pe_matter:1>);
 recipes.remove(<projecte:item.pe_time_watch>);
+recipes.remove(<projecte:condenser_mk1>);
+recipes.remove(<projecte:collector_mk1>);
 
 mods.thermalexpansion.Factorizer.removeRecipeSplit(<draconicevolution:draconium_block>);
 mods.thermalexpansion.Factorizer.removeRecipeSplit(<draconicevolution:draconium_ingot>);

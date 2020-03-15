@@ -1,4 +1,5 @@
 #packmode normal
+#modloaded etutil
 #priority 0
 
 recipes.remove(<thermalfoundation:material:102>);
@@ -63,3 +64,5 @@ recipes.remove(<mekanism:basicblock:8>);
 recipes.remove(<environmentaltech:laser_lens>);
 recipes.remove(<environmentaltech:connector>);
 recipes.remove(<mekanism:machineblock:8>);
+recipes.remove(<thermalfoundation:material:136>);
+recipes.remove(<thermalfoundation:storage:8>);

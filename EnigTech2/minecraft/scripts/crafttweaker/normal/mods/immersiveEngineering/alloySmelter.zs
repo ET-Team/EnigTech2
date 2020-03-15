@@ -1,4 +1,5 @@
 #packmode normal
+#modloaded etutil
 #priority -100
 
 //合金配方都应转移到ENDERIO合金炉中

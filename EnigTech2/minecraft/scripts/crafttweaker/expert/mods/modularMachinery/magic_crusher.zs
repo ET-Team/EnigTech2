@@ -1,4 +1,5 @@
 #packmode expert
+#modloaded etutil
 #priority -100
 var machineName = "magic_crusher";
 
@@ -141,4 +142,22 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_wood", machi
 	.addManaInput(500)
 	.addItemOutput(<contenttweaker:dust_wood>)
 	.addItemInput(<ore:plankWood>)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_gravel", machineName, 20)
+	.addManaInput(1000)
+	.addItemOutput(<minecraft:sand>)
+	.addItemInput(<minecraft:gravel>)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_cobblestone", machineName, 20)
+	.addManaInput(1000)
+	.addItemOutput(<minecraft:gravel>)
+	.addItemInput(<ore:cobblestone>)
+	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dust_wood_small", machineName, 20)
+	.addManaInput(500)
+	.addItemOutput(<thermalfoundation:material:800>)
+	.addItemInput(<contenttweaker:dust_wood>)
 	.build();

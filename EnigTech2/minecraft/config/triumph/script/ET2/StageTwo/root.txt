@@ -1,5 +1,5 @@
 //Set icon item
-setIcon(<minecraft:paper>)
+setIcon(<botania:specialflower, meta:0,nbt:{type:"puredaisy"}>)
 
 //Set title String
 setTitle("Stage Two: The Civilized")

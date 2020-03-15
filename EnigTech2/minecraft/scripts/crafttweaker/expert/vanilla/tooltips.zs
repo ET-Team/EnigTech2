@@ -1,14 +1,50 @@
 #packmode expert
+#modloaded etutil
 #priority -100
 import crafttweaker.item.IIngredient;
 val toAdd as string[IIngredient] = {
     <contenttweaker:lunar_essence> : "绝对不是月饼",
     <item:contenttweaker:entropy> : "四维时空混乱度的体现...",
-    <item:contenttweaker:essencial_blood> : "用月之锋刃取出的你心头的一滴精血"
+    <item:contenttweaker:essencial_blood> : "用月之锋刃取出的你心头的一滴精血",
+    <modulardiversity:blockemberinputhatch:0> : "余烬能量缓存：100",
+    <modulardiversity:blockemberinputhatch:1> : "余烬能量缓存：800",
+    <modulardiversity:blockemberinputhatch:2> : "余烬能量缓存：4000",
+    <modulardiversity:blockemberinputhatch:3> : "余烬能量缓存：8000",
+    <modulardiversity:blockemberinputhatch:4> : "余烬能量缓存：16000",
+    <modulardiversity:blockemberinputhatch:5> : "余烬能量缓存：32000",
+    <modulardiversity:blockemberinputhatch:6> : "余烬能量缓存：64000",
+    <modulardiversity:blockemberinputhatch:7> : "余烬能量缓存：144000",
+    <contenttweaker:stable_potato> : "混沌马铃薯冷静了下来，开始思考自己的价值。",
+    <contenttweaker:baked_stable_potato_unpolished> : "也许，它应该承受烈火......",
+    <contenttweaker:baked_stable_potato> : "也许，它应该经历打磨......",
+    <contenttweaker:charged_stable_potato> : "博采众长，凝练自我......",
+    <extrautils2:angelring:1> : "天降之奏的花瓣就算拔下来也不会枯死的。而且我们用的可是龙的注魔诶！放心好了",
+    <extrautils2:angelring:2> : "Do you ever feel like a plastic bag?",
+    <extrautils2:angelring:3> : "红 魔 瘟 疫",
+    <extrautils2:angelring:4> : "金戒指已经够俗气了。金翅膀...我的老天爷啊",
+    <extrautils2:angelring:5> : "做完这个之后，建议你立即联系当地卫生医疗部门并如实反映情况",
+    <extrautils2:angelring:0> : "经典款天使指环。你有听说过他们家的新款吗？",
+    <appliedenergistics2:material:13> : "此物品可通过金属冲压机回收为殷钢板",
+    <appliedenergistics2:material:14> : "此物品可通过金属冲压机回收为殷钢板",
+    <appliedenergistics2:material:15> : "此物品可通过金属冲压机回收为殷钢板",
+    <appliedenergistics2:material:19> : "此物品可通过金属冲压机回收为殷钢板",
+    <roots:creative_pouch> : "“他们算不上袋子法师。”",
+    <cuisine:chopping_board> : "更精致的砧板。能做红案，能做白案，还能劈柴。",
+    <mekanism:basicblock2:7> : "“你管这叫锅炉？这就是个大开水壶！烧出来的水给我泡小罐茶还差不多。人核电厂整得比咱好多了。”————《通用机械工人日记选摘》",
+    <mekanism:basicblock2:8> : "“这种锅炉产出的蒸汽量，估计能勉强养活两个汗蒸房。”————《玄理工程简志》",
+    <contenttweaker:redstone_block_9> : "贮存9个红石块",
+    <contenttweaker:redstone_block_81> : "贮存81个红石块"
 };
 
 val warning as string[IIngredient] = {
-    <embers:item_pipe> : "物品泵管道已被禁用，该物品仅限合成"
+    <embers:item_pipe> : "物品泵管道已被禁用，该物品仅限合成",
+    <contenttweaker:meteor_bait> : "仅限太空中使用",
+    <item:contenttweaker:moon_blade> : "右键来榨取精血...过程非常痛苦，建议极限模式玩家请事先准备不死图腾",
+    <item:immersiveengineering:material:6> : "这种燃料并不是十分高效，也许制作混合炭粉能够做出更好的燃料？",
+    <contenttweaker:magfusive_crystal> : "可牵引蕴藏 黎明之力 的坠星，代价：500000LP",
+    <astralsorcery:blockcelestialgateway> : "可牵引蕴藏 宇宙之力 的坠星，代价：1500000LP",
+    <draconicevolution:wyvern_core> : "可牵引蕴藏 龙之力 的 坠星，代价：10000000LP",
+    <thermalfoundation:storage:8> : "血淋淋的教训"
 };
 
 val praise as string[IIngredient] = {

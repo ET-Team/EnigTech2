@@ -1,4 +1,5 @@
 #loader preinit
+#modloaded etutil
 import extrautilities2.Tweaker.IMachineRegistry;
 import extrautilities2.Tweaker.IMachineSlot;
 import extrautilities2.Tweaker.IMachine;
@@ -9,10 +10,10 @@ import extrautilities2.Tweaker.IMachine;
         65565, 
         4064, 
         [
-        IMachineSlot.newFluidSlot("acid", 1000),
+        IMachineSlot.newFluidSlot("acid", 10000),
         IMachineSlot.newItemStackSlot("silicon")
         ], 
-        [IMachineSlot.newFluidSlot("guiwan", 2000),IMachineSlot.newItemStackSlot("output")], 
+        [IMachineSlot.newFluidSlot("guiwan", 10000),IMachineSlot.newItemStackSlot("output")], 
         "et2:block/chlorinizer", 
         "et2:block/chlorinizer_working"
     );
@@ -22,7 +23,7 @@ import extrautilities2.Tweaker.IMachine;
         65565, 
         4064, 
         [
-        IMachineSlot.newFluidSlot("water", 1000),
+        IMachineSlot.newFluidSlot("water", 10000),
         IMachineSlot.newItemStackSlot("item")
         ], 
         [IMachineSlot.newItemStackSlot("output")], 
@@ -35,7 +36,7 @@ import extrautilities2.Tweaker.IMachine;
         8192, 
         1024, 
         [
-        IMachineSlot.newFluidSlot("water", 1000),
+        IMachineSlot.newFluidSlot("water", 10000),
         IMachineSlot.newItemStackSlot("item")
         ], 
         [IMachineSlot.newItemStackSlot("output")], 

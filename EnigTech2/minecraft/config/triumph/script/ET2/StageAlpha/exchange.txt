@@ -1,0 +1,10 @@
+Criteriaexchange = addCriteria("Criteriaexchange", "minecraft:inventory_changed")
+Criteriaexchange.addItem(<nuclearcraft:heat_exchanger_controller>)
+setIcon(<nuclearcraft:heat_exchanger_controller>)
+setTitle("and Nice Conditioner.");
+setDescription("\u5236\u4f5c\u4e00\u53f0\u70ed\u4ea4\u6362\u63a7\u5236\u5668\u6765\u5f00\u59cb\u70ed\u4ea4\u6362\u673a\u7684\u642d\u5efa\u3002\u7ecf\u8fc7\u64cd\u7ec3\uff0c\u4f60\u53ef\u4ee5\u501f\u52a9\u5b83\u5c06\u5e9f\u84b8\u6c7d\u8f6c\u6362\u4e3a\u6807\u51c6\u84b8\u6c7d\u8fdb\u884c\u8fdb\u4e00\u6b65\u4ea7\u80fd\uff0c\u8fd8\u53ef\u4ee5\u5c06\u7194\u76d0\u5806\u4e2d\u8f93\u51fa\u7684\u70ed\u5171\u6676\u94a0\u94be\u5408\u91d1\u51b7\u5374\u56de\u6d41\u3002")
+setPos(-654,223)
+addParent("ET2:StageAlpha/wasteam")
+drawDirectLines(true)
+setShowToast(true)
+setAnnounceToChat(true)

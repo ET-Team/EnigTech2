@@ -4,6 +4,7 @@ ET2LOGO-2.png
 ET2LOGO.png
 Hexagon.png
 logo.png
+manifest.json
 minecraft/.ReAuth.cfg
 minecraft/.ReAuth.cfg
 minecraft/.mixin.out
@@ -16,6 +17,12 @@ minecraft/astralsorcery
 minecraft/astralsorcery
 minecraft/backups
 minecraft/backups
+minecraft/config/BNBGamingCore.cfg
+minecraft/config/betterfps.json
+minecraft/config/bibliocraft.cfg
+minecraft/config/bookshelf.cfg
+minecraft/config/clienttweaks.cfg
+minecraft/config/jei/bookmarks.ini
 minecraft/config/jei/bookmarks.ini
 minecraft/config/jei/jei.cfg
 minecraft/config/jei/jei.cfg
@@ -24,6 +31,7 @@ minecraft/config/jei/searchColors.cfg
 minecraft/config/jei/worldSettings.cfg
 minecraft/config/jei/worldSettings.cfg
 minecraft/config/smoothfont
+minecraft/config.rar
 minecraft/coremods
 minecraft/coremods
 minecraft/coremods
@@ -31,6 +39,8 @@ minecraft/crafttweaker.log
 minecraft/crafttweaker.log
 minecraft/crafttweaker.log
 minecraft/crash-reports
+minecraft/crash-reports
+minecraft/icon.png
 minecraft/journeymap
 minecraft/journeymap
 minecraft/local
@@ -40,7 +50,7 @@ minecraft/logs
 minecraft/options.txt
 minecraft/options.txt
 minecraft/optionsof.txt
-minecraft/patchouli_books
+minecraft/optionsof.txt
 minecraft/patchouli_books
 minecraft/patchouli_data.json
 minecraft/patchouli_data.json
@@ -57,8 +67,10 @@ minecraft/scripts/.zsrc
 minecraft/scripts/.zsrc
 minecraft/scripts/.zsrc
 minecraft/server-resource-packs
+minecraft/scripts.rar
 minecraft/server-resource-packs
 minecraft/server-resource-packs
+minecraft/servers.dat
 minecraft/shaderpacks
 minecraft/shaderpacks
 minecraft/texturepacks
@@ -67,8 +79,10 @@ minecraft/usercache.json
 minecraft/usercache.json
 minecraft/usernamecache.json
 minecraft/usernamecache.json
+minecraft/usernamecache.json
 minecraft/valkyrielib
 minecraft/valkyrielib
 minecraft/valkyrielib
+modlist.html
 modlist.html
 natives

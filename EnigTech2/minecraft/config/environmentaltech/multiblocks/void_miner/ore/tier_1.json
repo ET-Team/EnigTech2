@@ -156,11 +156,6 @@
       "id": "OD:oreFirestone"
     },
     {
-      "target": "blue",
-      "weight": 163,
-      "id": "OD:oreCobalt"
-    },
-    {
       "target": "orange",
       "weight": 159,
       "id": "OD:oreArdite"
@@ -209,11 +204,6 @@
       "target": "brown",
       "weight": 177,
       "id": "deepresonance:resonating_ore"
-    },
-    {
-      "target": "pink",
-      "weight": 186,
-      "id": "OD:oreZinc"
     },
     {
       "target": "white",
@@ -487,12 +477,12 @@
     },
     {
       "target": "crystal",
-      "weight": 150,
+      "weight": 600 ,
       "id": "environmentaltech:erodium_crystal"
     },
     {
       "target": "black",
-      "weight": 4,
+      "weight": 10,
       "id": "environmentaltech:lonsdaleite_crystal"
     }
   ]

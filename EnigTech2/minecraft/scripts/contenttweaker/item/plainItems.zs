@@ -1,4 +1,5 @@
 #priority 2000
+#modloaded etutil
 #loader contenttweaker
 //导包
 	import mods.contenttweaker.VanillaFactory;
@@ -68,7 +69,6 @@ var items as string[] = [
 	"dark_gaiya_crystal_unpolished",
 	"magic_calculator",
 	"magic_calculator_unpowered",
-	"magic_machine_hull",
 	"strong_motor",
 	"strong_motor_unprocessed",
 	"meteor_bait",
@@ -90,6 +90,13 @@ var items as string[] = [
 	"fuel_helper",
 	"magic_key",
 	"blast_furnace_brick",
+	"stable_potato",
+	"baked_stable_potato",
+	"baked_stable_potato_unpolished",
+	"earth_x",
+	"wind_x",
+	"spring_x",
+	"condensed_seed",
 
 	"enigarium",
 	"technium",
@@ -98,10 +105,32 @@ var items as string[] = [
 	"will_of_world_tree",
 	"pity_from_nature",
 	"essencial_blood",
-	"forbidden_life_essence"
+	"forbidden_life_essence",
+	"energetic_clathrate",
+	"resonance_heatsource",
+	"depleted_heatsource",
+	"energetic_shard",
+	"dimension_metal",
+	"brass_wire",
+	"rough_mithril",
+	"construction_motioner",
+	"rubber",
+	"rubber_raw"
 ];
 
 //物品注册
 for item in items{
 	VanillaFactory.createItem(item).register();
 }
+
+val item = VanillaFactory.createItem("charged_stable_potato");
+item.maxStackSize = 64;
+item.rarity = "EPIC";
+item.glowing = true;
+item.register();
+
+val tlm = VanillaFactory.createItem("tlm_ultra");
+tlm.maxStackSize = 1;
+tlm.rarity = "EPIC";
+tlm.glowing = true;
+tlm.register();

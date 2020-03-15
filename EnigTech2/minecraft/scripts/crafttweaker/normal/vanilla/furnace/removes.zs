@@ -1,4 +1,5 @@
 #packmode normal
+#modloaded etutil
 #priority 0
 
 furnace.remove(<appliedenergistics2:material:5>);

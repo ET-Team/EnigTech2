@@ -1,4 +1,5 @@
 #packmode normal
+#modloaded etutil
 #priority 0
 
 recipes.remove(<immersiveengineering:wooden_device0:2>);
@@ -43,4 +44,4 @@ recipes.remove(<extrautils2:rainbowgenerator:1>);
 recipes.remove(<extrautils2:rainbowgenerator>);
 recipes.remove(<silentgems:craftingmaterial:29>);
 furnace.remove(<silentgems:craftingmaterial:30>);
-
+recipes.remove(<modularmachinery:blockcasing:2>);

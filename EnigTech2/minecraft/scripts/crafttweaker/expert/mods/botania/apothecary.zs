@@ -1,4 +1,5 @@
 #packmode expert
+#modloaded etutil
 #priority -100
 
 mods.botania.Apothecary.removeRecipe("puredaisy");

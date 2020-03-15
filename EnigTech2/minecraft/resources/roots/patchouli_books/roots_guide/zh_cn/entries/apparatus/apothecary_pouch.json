@@ -1,5 +1,5 @@
 {
-    "name": "Apothecary Pouch",
+    "name": "药剂袋",
     "icon": "roots:apothecary_pouch",
     "category": "apparatus",
     "advancement": "roots:spirit_herb",
@@ -8,7 +8,7 @@
       {
         "type": "spotlight",
         "item": "roots:apothecary_pouch",
-        "text": "A vast improvement over the component pouch in capacity and usefulness: the pouch itself holds many more items.$(br2)Herbs are stored in small glass vials to keep them separate from each other, at the same time increasing the amount that can be stored."
+        "text": "升级版的法术收容袋，具有容纳力与实用性的双重改进。$(br2)药草被仔细地收纳在袋中的小玻璃瓶里以防彼此混杂，方便更多的收纳。"
       },
       {
         "type": "fey_crafting_template",

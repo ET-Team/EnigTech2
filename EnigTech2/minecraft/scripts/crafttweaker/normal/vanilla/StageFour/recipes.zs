@@ -1,4 +1,5 @@
 #packmode normal
+#modloaded etutil
 #priority -100
 
 recipes.addShaped(<immersiveengineering:metal_device0:2>, [[<thermalfoundation:material:354>, <thermalfoundation:material:354>, <thermalfoundation:material:354>],[<contenttweaker:magfusive_crystal>, <immersiveengineering:metal_device0:1>, <contenttweaker:magfusive_crystal>], [<thermalfoundation:material:354>, <thermalfoundation:material:354>, <thermalfoundation:material:354>]]);
@@ -45,6 +46,8 @@ recipes.addShaped(<enderio:item_material:52>,[[<enderio:item_material:74>,<ore:d
 recipes.addShaped(<enderio:block_wired_charger>,[[<enderio:item_alloy_ingot>,<contenttweaker:magcondium_ingot>,<enderio:item_alloy_ingot>],[<contenttweaker:magcondium_ingot>,<enderio:block_simple_wired_charger>,<contenttweaker:magcondium_ingot>],[<enderio:item_alloy_ingot>,<contenttweaker:magcondium_ingot>,<enderio:item_alloy_ingot>]]);
 recipes.addShaped(<simplyjetpacks:metaitemmods:26>,[[<ore:ingotLead>,<actuallyadditions:item_battery_double>,<ore:ingotLead>],[<ore:blockGlass>,<enderio:item_power_conduit>,<ore:blockGlass>],[<ore:ingotLead>,<embers:jet_augment>,<ore:ingotLead>]]);
 recipes.addShaped(<simplyjetpacks:metaitemmods:27>,[[<ore:ingotInvar>,<actuallyadditions:item_battery_double>,<ore:ingotInvar>],[<ore:blockGlass>,<enderio:item_power_conduit:1>,<ore:blockGlass>],[<ore:ingotInvar>,<embers:jet_augment>,<ore:ingotInvar>]]);
+recipes.addShaped(<thermalexpansion:capacitor>.withTag({Energy: 0}),[[null,<minecraft:redstone>,null],[<ore:ingotLead>,<ore:ingotCopper>,<ore:ingotLead>],[<minecraft:redstone>,<ore:dustSulfur>,<minecraft:redstone>]]);
+recipes.addShaped(<thermalexpansion:capacitor:1>.withTag({Energy: 0}),[[null,<minecraft:redstone>,null],[<ore:ingotInvar>,<thermalexpansion:capacitor>.withTag({Energy: 0}),<ore:ingotInvar>],[<minecraft:redstone>,<ore:ingotTin>,<minecraft:redstone>]]);
 //强化能量管道
 recipes.addShaped(<enderio:item_power_conduit:1> * 2, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<enderio:item_alloy_ingot:1>, <enderio:item_power_conduit>, <enderio:item_alloy_ingot:1>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 //模块化
@@ -57,7 +60,7 @@ recipes.addShaped(<embers:mech_core>,[[<ore:ingotSteel>,<twilightforest:steeleaf
 //能量发射器
 recipes.addShaped(<embers:ember_emitter>*4,[[null,<botania:spreader:2>,null],[<thermalfoundation:material:355>,<bloodmagic:slate:1>,<thermalfoundation:material:355>],[<contenttweaker:magcondium_ingot>,<embers:plate_caminite>,<contenttweaker:magcondium_ingot>]]);
 //能量接收器
-recipes.addShaped(<embers:ember_receiver>,[[<thermalfoundation:material:355>,null,<thermalfoundation:material:355>],[<contenttweaker:magcondium_ingot>,<embers:plate_caminite>,<contenttweaker:magcondium_ingot>]]);
+recipes.addShaped(<embers:ember_receiver>*2,[[<thermalfoundation:material:355>,null,<thermalfoundation:material:355>],[<contenttweaker:magcondium_ingot>,<embers:plate_caminite>,<contenttweaker:magcondium_ingot>]]);
 //扫描器
 recipes.addShaped(<scannable:scanner>, [[<thermalfoundation:material:352>, <contenttweaker:bad_machine_core>, <thermalfoundation:material:352>],[<thermalfoundation:material:352>, <botania:diviningrod>, <thermalfoundation:material:352>], [<contenttweaker:magcondium_ingot>, <embers:ember_cartridge>.withTag({emberCapacity: 6000.0, ember: 0.0}), <contenttweaker:magcondium_ingot>]]);
 //盖亚稳定器
@@ -89,3 +92,11 @@ recipes.addShaped(
         [<ore:ingotSignalum>,<ore:ingotLumium>,<ore:ingotSignalum>]
     ]
 );
+
+//麻袋
+val xian = <ore:string>;
+val lthr = <ore:leather>;
+mods.recipestages.Recipes.addShaped("four", <actuallyadditions:item_bag>, [[xian,lthr,xian],[xian,<ore:satchelTE>,xian],[lthr,<actuallyadditions:block_crystal:3>,lthr]]);
+
+//汇集之种
+mods.recipestages.Recipes.addShaped("four", <contenttweaker:condensed_seed>, [[null,<minecraft:nether_wart>,null],[<minecraft:wheat_seeds>,<twilightforest:torchberries>,<extrautils2:enderlilly>],[null,<botania:grassseeds>,null]]);

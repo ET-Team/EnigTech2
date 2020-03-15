@@ -1,4 +1,5 @@
 #packmode normal
+#modloaded etutil
 #priority -100
 var machineName = "assembly";
 
@@ -103,4 +104,14 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crafting_injector
     .addItemInput(<naturesaura:infused_stone>*5)
     .addItemInput(<botania:manaresource:2>*2)
     .addItemOutput(<draconicevolution:crafting_injector>*2)
+    .build();
+//量子采石场
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_quarry", machineName, 160)
+    .addEnergyPerTickInput(1000)
+    .addFluidInput(<liquid:ender>*1000)
+    .addItemInput(<ore:ingotEnderium>,8)
+	.addItemInput(<mekanism:teleportationcore>)
+    .addItemInput(<contenttweaker:ultra_machine_core>)
+    .addItemInput(<ore:crystalAethium>,16)
+    .addItemOutput(<extrautils2:quarry>)
     .build();

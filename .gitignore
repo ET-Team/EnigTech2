@@ -4,12 +4,14 @@
 !/EnigTech2
 /EnigTech2/*
 !/EnigTech2/minecraft
+!/EnigTech2/manifest.json
+!/EnigTech2/modlist.html
 /EnigTech2/minecraft/*
 !/EnigTech2/minecraft/scripts
 !/EnigTech2/minecraft/config
 !/EnigTech2/minecraft/resources
-!/EnigTech2/minecraft/mods
 !/EnigTech2/minecraft/animation
+!/EnigTech2/minecraft/patchouli_books
 EnigTech2/minecraft/config/splash.properties
 EnigTech2/minecraft/config/InvTweaks.cfg
 EnigTech2/minecraft/config/enderio/recipes
@@ -31,7 +33,6 @@ EnigTech2/minecraft/config/AppliedEnergistics2/VersionChecker.cfg
 EnigTech2/minecraft/config/AppliedEnergistics2/VersionChecker.cfg
 EnigTech2/minecraft/config/Guide-API/Guide-API.cfg
 EnigTech2/minecraft/config/AppliedEnergistics2/VersionChecker.cfg
-EnigTech2/minecraft/mods/OptiFine_1.12.2_HD_U_E3.jar
 EnigTech2/minecraft/config/waila/waila.cfg
 EnigTech2/minecraft/config/astralsorcery.cfg
 EnigTech2/minecraft/config/AppliedEnergistics2/VersionChecker.cfg
@@ -40,3 +41,7 @@ EnigTech2/minecraft/config/Guide-API/Guide-API.cfg
 EnigTech2/minecraft/config/enderstorage.cfg
 EnigTech2/minecraft/config/advRocketry/advancedRocketry.cfg
 *.jar
+EnigTech2/minecraft/config/BakaDanmaku.cfg
+EnigTech2/minecraft/scripts/crafttweaker.log
+EnigTech2/minecraft/config/biomesoplenty/biomes/defaults/*
+EnigTech2/minecraft/config/worldedit/worldedit.properties

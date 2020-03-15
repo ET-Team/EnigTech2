@@ -1,5 +1,8 @@
 #packmode expert
+#modloaded etutil
 #priority -100
+
+import crafttweaker.item.IItemStack;
 
 //钢制机壳
 recipes.addShaped(<mekanism:basicblock:8>,[[<contenttweaker:material_part:52>,<thermalfoundation:glass:3>,<contenttweaker:material_part:52>],[<thermalfoundation:glass:3>,<contenttweaker:ultra_machine_core>,<thermalfoundation:glass:3>],[<contenttweaker:material_part:52>,<thermalfoundation:glass:3>,<contenttweaker:material_part:52>]]);
@@ -44,8 +47,7 @@ recipes.addShaped(<mekanism:machineblock2:14>, [[<contenttweaker:material_part:5
 recipes.addShaped(<extrautils2:ingredients:5> * 8, [[<astralsorcery:itemcraftingcomponent:2>, <contenttweaker:lunar_essence>, <astralsorcery:itemcraftingcomponent:2>],[<minecraft:nether_star>, <ore:ingotUnstable>, <minecraft:nether_star>], [<astralsorcery:itemcraftingcomponent:2>, <contenttweaker:lunar_essence>, <astralsorcery:itemcraftingcomponent:2>]]);
 recipes.addShaped(<mekanism:machineblock2:13>, [[<contenttweaker:material_part:79>, <contenttweaker:material_part:79>, null],[<mekanism:controlcircuit:3>, <contenttweaker:material_part:51>, <embers:glimmer_shard>], [<contenttweaker:material_part:79>, <contenttweaker:material_part:79>, null]]);
 recipes.addShaped(<mekanismgenerators:generator:13>, [[<thermalfoundation:material:328>, <contenttweaker:material_part:81>, <thermalfoundation:material:328>],[<thermalfoundation:material:328>, <simplyjetpacks:metaitemmods:21>, <thermalfoundation:material:328>], [<thermalfoundation:material:328>, <contenttweaker:material_part:81>, <thermalfoundation:material:328>]]);
-recipes.addShaped(<mekanismgenerators:generator:12> * 2, [[<thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>],[<contenttweaker:material_part:79>, <thermalfoundation:material:264>, <contenttweaker:material_part:79>], [<thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>]]);
-recipes.addShaped(<mekanismgenerators:generator:11>, [[<contenttweaker:material_part:52>, <contenttweaker:material_part:81>, <contenttweaker:material_part:52>],[<contenttweaker:material_part:52>, <contenttweaker:strong_motor>, <contenttweaker:material_part:52>], [<contenttweaker:material_part:52>, <contenttweaker:material_part:81>, <contenttweaker:material_part:52>]]);
+recipes.addShaped(<mekanismgenerators:generator:11>*4, [[<contenttweaker:material_part:52>, <contenttweaker:material_part:81>, <contenttweaker:material_part:52>],[<contenttweaker:material_part:52>, <contenttweaker:strong_motor>, <contenttweaker:material_part:52>], [<contenttweaker:material_part:52>, <contenttweaker:material_part:81>, <contenttweaker:material_part:52>]]);
 recipes.addShaped(<mekanismgenerators:generator:10> * 4, [[<contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>],[<contenttweaker:material_part:52>, <contenttweaker:material_part:69>, <contenttweaker:material_part:52>], [<contenttweaker:material_part:52>, <contenttweaker:material_part:52>, <contenttweaker:material_part:52>]]);
 recipes.addShaped(<mekanismgenerators:generator:9> * 2, [[<contenttweaker:material_part:43>, <contenttweaker:material_part:19>, <contenttweaker:material_part:43>],[<contenttweaker:material_part:43>, <contenttweaker:material_part:19>, <contenttweaker:material_part:43>], [<contenttweaker:material_part:43>, <contenttweaker:material_part:19>, <contenttweaker:material_part:43>]]);
 recipes.addShaped(<mekanismgenerators:generator:8> * 4, [[<contenttweaker:material_part:43>, <contenttweaker:advanced_motioner>, <contenttweaker:material_part:43>],[<contenttweaker:material_part:43>, <contenttweaker:material_part:19>, <contenttweaker:material_part:43>], [<contenttweaker:material_part:43>, <contenttweaker:advanced_motioner>, <contenttweaker:material_part:43>]]);
@@ -66,6 +68,9 @@ recipes.addShaped(<environmentaltech:structure_panel> * 2, [[<thermalfoundation:
 recipes.addShaped(<enderio:item_power_conduit:2> * 2, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<thermalfoundation:material:167>, <enderio:item_power_conduit:1>, <thermalfoundation:material:167>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 recipes.addShaped(<thermalexpansion:augment:512> * 2, [[null, <contenttweaker:iridium_osmium_ingot>, null],[<contenttweaker:iridium_osmium_ingot>, <thermalfoundation:material:514>, <contenttweaker:iridium_osmium_ingot>], [null, <contenttweaker:iridium_osmium_ingot>, null]]);
 recipes.addShaped(<thermalexpansion:augment:673>, [[<astralsorcery:itemcoloredlens>, <astralsorcery:itemcoloredlens>, <astralsorcery:itemcoloredlens>],[<astralsorcery:itemcoloredlens>, <thermalexpansion:dynamo:3>, <astralsorcery:itemcoloredlens>], [<mekanism:atomicalloy>, <thermalexpansion:augment:512>, <mekanism:atomicalloy>]]);
+recipes.addShaped(<extrautils2:quarryproxy>,[[<contenttweaker:dimension_metal>,<contenttweaker:dimension_metal>,<contenttweaker:dimension_metal>],[<contenttweaker:dimension_metal>,<mekanism:teleportationcore>,<contenttweaker:dimension_metal>],[<contenttweaker:dimension_metal>,<actuallyadditions:block_phantom_breaker>,<contenttweaker:dimension_metal>]]);
+recipes.addShaped(<mekanism:teleportationcore>,[[<mekanism:atomicalloy>,<contenttweaker:dimension_metal>,<mekanism:atomicalloy>],[<contenttweaker:dimension_metal>,<appliedenergistics2:material:47>,<contenttweaker:dimension_metal>],[<mekanism:atomicalloy>,<contenttweaker:dimension_metal>,<mekanism:atomicalloy>]]);
+
 //将所有包含高级火箭晶圆的配方替换成ET2晶圆
 recipes.replaceAllOccurences(<advancedrocketry:wafer>, <contenttweaker:ic_wafer>);
 recipes.addShaped(
@@ -75,3 +80,114 @@ recipes.addShaped(
         [<ore:plateTungstenSteel>,<ore:netherStar>,<ore:plateTungstenSteel>]
     ]
 );
+
+//结构管道
+recipes.addShapedMirrored("structuralduct_expert",<thermaldynamics:duct_48:0>*4,[[null,null,null],[<ore:plateInvar>,<mekanism:enrichedalloy>,<ore:plateInvar>],[null,null,null]]);
+
+//伺服器
+recipes.addShaped("servo_signalum_expert",<thermaldynamics:servo:3>*2,[[null,<compactmachines3:redstonetunneltool>,null],[<xnet:netcable:4>,<appliedenergistics2:quartz_glass>,<xnet:netcable:4>],[<ore:ingotSignalum>,<extrautils2:ingredients:0>,<ore:ingotSignalum>]]);
+recipes.addShaped("servo_enderium_expert",<thermaldynamics:servo:4>*2,[[null,<compactmachines3:redstonetunneltool>,null],[<xnet:netcable:4>,<appliedenergistics2:quartz_glass>,<xnet:netcable:4>],[<ore:ingotEnderium>,<extrautils2:ingredients:0>,<ore:ingotEnderium>]]);
+
+//过滤器
+recipes.addShaped("filter_signalum_expert",<thermaldynamics:filter:3>*2,[[null,<extrautils2:grocket:1>,null],[<thermaldynamics:duct_48:0>,<appliedenergistics2:quartz_glass>,<thermaldynamics:duct_48:0>],[<ore:ingotSignalum>,<enderio:item_material:77>,<ore:ingotSignalum>]]);
+recipes.addShaped("filter_enderium_expert",<thermaldynamics:filter:4>*2,[[null,<extrautils2:grocket:1>,null],[<thermaldynamics:duct_48:0>,<appliedenergistics2:quartz_glass>,<thermaldynamics:duct_48:0>],[<ore:ingotEnderium>,<enderio:item_material:77>,<ore:ingotEnderium>]]);
+
+//检索器
+recipes.addShaped("retriever_signalum_expert",<thermaldynamics:retriever:3>*2,[[null,<arcanearchives:monitoring_crystal>,null],[<appliedenergistics2:material:42>,<appliedenergistics2:quartz_glass>,<appliedenergistics2:material:42>],[<ore:ingotSignalum>,<extrautils2:ingredients:2>,<ore:ingotSignalum>]]);
+recipes.addShaped("retriever_enderium_expert",<thermaldynamics:retriever:4>*2,[[null,<arcanearchives:monitoring_crystal>,null],[<appliedenergistics2:material:42>,<appliedenergistics2:quartz_glass>,<appliedenergistics2:material:42>],[<ore:ingotEnderium>,<extrautils2:ingredients:2>,<ore:ingotEnderium>]]);
+
+//流体激光 热导元件
+val jhb = <nuclearcraft:part:3>;
+val gjb = <nuclearcraft:part:1>;
+val lxg = <nuclearcraft:part:5>;
+
+val daore = <nuclearcraft:alloy:11>;
+
+mods.recipestages.Recipes.addShaped("alpha",<actuallyadditions:block_laser_relay_fluids>*2, [[null,<mekanism:teleportationcore>,null],[lxg,<thermaldynamics:duct_16:6>,lxg],[jhb,jhb,jhb]]);
+mods.recipestages.Recipes.addShaped("six",<mekanism:basicblock2:5>*3,[[gjb,daore,gjb],[daore,<contenttweaker:ultimate_motioner>,daore],[gjb,daore,gjb]]);
+
+//nc钢制外壳
+val xzl = <enderio:block_dark_iron_bars>;
+val steelp = <ore:plateSteel>;
+
+mods.recipestages.Recipes.addShaped("six",<nuclearcraft:part:12>, [[xzl,steelp,xzl],[steelp,<ore:gearNichrome>,steelp],[xzl,steelp,xzl]]);
+
+//TD管道规整
+val brz = <ore:ingotBronze>;
+val hpj = <ore:ingotElectrum>;
+val yhbl = <ore:blockGlassHardened>;
+val guan = <thermaldynamics:duct_48:0>;
+val xsu = <ore:ingotSignalum>;
+val lead = <ore:ingotLead>;
+val leadn = <ore:nuggetLead>;
+val silvern = <ore:nuggetSilver>;
+val ex = <mekanism:transmitter>.withTag({tier: 3});
+
+recipes.addShaped("superfluiduct_tweaked",<thermaldynamics:duct_16:6>,[[brz,yhbl,brz],[yhbl,<mekanism:transmitter:1>.withTag({tier: 3}),yhbl],[brz,yhbl,brz]]);
+recipes.addShaped("empty_csf_tweaked",<thermaldynamics:duct_0:9>*2,[[ex,yhbl,ex],[yhbl,guan,yhbl],[ex,yhbl,ex]]);
+recipes.addShaped("fluiduct_tweaked",<thermaldynamics:duct_16:4>*3,[[null,xsu,null],[guan,guan,guan],[null,hpj,null]]);
+recipes.addShaped("itemduct_tweaked",<thermaldynamics:duct_32:4>*3,[[null,guan,null],[xsu,guan,hpj],[null,guan,null]]);
+recipes.addShapedMirrored("denseitemduct_tweaked_1",<thermaldynamics:duct_32:4>.withTag({DenseType: 1 as byte}),[[null,null,null],[leadn,<thermaldynamics:duct_32:4>,leadn],[null,leadn,null]]);
+recipes.addShapedMirrored("denseitemduct_tweaked_2",<thermaldynamics:duct_32:4>.withTag({DenseType: 2 as byte}),[[null,null,null],[silvern,<thermaldynamics:duct_32:4>,silvern],[null,silvern,null]]);
+recipes.addShapedMirrored("denseimpulseitemduct_tweaked_1",<thermaldynamics:duct_32:6>.withTag({DenseType: 1 as byte}),[[null,null,null],[leadn,<thermaldynamics:duct_32:6>,leadn],[null,leadn,null]]);
+recipes.addShapedMirrored("denseimpulseitemduct_tweaked_2",<thermaldynamics:duct_32:6>.withTag({DenseType: 2 as byte}),[[null,null,null],[silvern,<thermaldynamics:duct_32:6>,silvern],[null,silvern,null]]);
+
+//录入透明
+val transparentArray = [
+    <thermaldynamics:duct_16:4>,
+    <thermaldynamics:duct_16:6>,
+    <thermaldynamics:duct_32:4>.withTag({DenseType: 2 as byte}),
+    <thermaldynamics:duct_32:4>.withTag({DenseType: 1 as byte}),
+    <thermaldynamics:duct_32:4>,
+    <thermaldynamics:duct_32:6>.withTag({DenseType: 2 as byte}),
+    <thermaldynamics:duct_32:6>.withTag({DenseType: 1 as byte}),
+    <thermaldynamics:duct_32:6>
+] as IItemStack[];
+
+//录入不透明
+val opaqueArray = [
+    <thermaldynamics:duct_16:5>,
+    <thermaldynamics:duct_16:7>,
+    <thermaldynamics:duct_32:5>.withTag({DenseType: 2 as byte}),
+    <thermaldynamics:duct_32:5>.withTag({DenseType: 1 as byte}),
+    <thermaldynamics:duct_32:5>,
+    <thermaldynamics:duct_32:7>.withTag({DenseType: 2 as byte}),
+    <thermaldynamics:duct_32:7>.withTag({DenseType: 1 as byte}),
+    <thermaldynamics:duct_32:7>
+] as IItemStack[];
+
+//结算转换配方
+for i, trans in transparentArray{
+    recipes.addShapeless(opaqueArray[i]*6,[trans,trans,trans,trans,trans,trans,lead.transformReplace(<thermalfoundation:glass:3>)]);
+}
+for i, opaq in opaqueArray{
+    recipes.addShapeless(transparentArray[i]*6,[opaq,opaq,opaq,opaq,opaq,opaq,yhbl.transformReplace(<thermalfoundation:material:131>)]);
+}
+
+//熔盐套件
+val adv = <libvulpes:advstructuremachine>;
+val rsc = <enderio:item_redstone_conduit>;
+val endern = <ore:nuggetEnderpearl>;
+val enderb = <enderio:block_end_iron_bars>;
+val enderp = <ore:plateEnderium>;
+val grok = <extrautils2:grocket:6>;
+
+val steelArray = [
+    <nuclearcraft:salt_fission_wall>*4,
+    <nuclearcraft:heat_exchanger_wall>*4,
+    <nuclearcraft:salt_fission_vent>*4,
+    <nuclearcraft:heat_exchanger_controller>,
+    <nuclearcraft:heat_exchanger_vent>*4,
+] as IItemStack[];
+
+for theRecipes in steelArray{
+    recipes.replaceAllOccurences(<ore:ingotSteel>,<libvulpes:advstructuremachine>,theRecipes);
+}
+
+mods.recipestages.Recipes.addShaped("six",<nuclearcraft:salt_fission_redstone_port>,[[adv,rsc,adv],[rsc,<nuclearcraft:part:12>,rsc],[adv,rsc,adv]]);
+mods.recipestages.Recipes.addShaped("six",<extendedcrafting:ender_crafter>,[[endern,endern,endern],[enderb,<ore:workbench>,enderb],[enderp,enderp,enderp]]);
+mods.recipestages.Recipes.addShaped("six",<extendedcrafting:ender_alternator>*3,[[null,<ore:itemEnderCrystal>,null],[<ore:gearEnderium>,<ore:blockEndSteel>,<ore:gearEnderium>],[grok,grok,grok]]);
+
+recipes.replaceAllOccurences(<ore:stone>,<ore:stoneMarble>,<nuclearcraft:heat_exchanger_wall>*4);
+recipes.replaceAllOccurences(<ore:stone>,<ore:stoneMarble>,<nuclearcraft:heat_exchanger_vent>*4);
+recipes.replaceAllOccurences(<ore:dustEnergetic>,<contenttweaker:energetic_clathrate>);

@@ -1,0 +1,24 @@
+//Set icon item
+setIcon(<teastory:tea_leaf>)
+
+//Set title String
+setTitle("\u9636\u6bb5\u7ef4\u5854\uff1a\u4eab\u53d7\u751f\u6d3b")
+
+//Set description String
+setDescription("\u4e5f\u8bb8\u4f60\u5df2\u7ecf\u538c\u5026\u4e86\u65e0\u6b62\u5883\u7684\u9b54\u6cd5\u7814\u7a76\uff0c\u4e5f\u8bb8\u5c0f\u61a9\u4e00\u4f1a\u6765\u8212\u5f20\u4f60\u7684\u795e\u7ecf\u4f1a\u5e26\u6765\u522b\u6837\u7684\u60ca\u559c\uff1f")
+
+//Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(false)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+//Set the position
+setPos(-787,11)
+
+//Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
+Criteria40 = addCriteria("completedParent", "triumph:completed_advancement")
+Criteria40.setAdvancement("ET2:StageThree/stage_beta")

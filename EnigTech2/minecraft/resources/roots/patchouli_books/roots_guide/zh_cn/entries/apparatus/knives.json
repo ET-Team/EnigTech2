@@ -1,11 +1,11 @@
 {
-    "name": "Knives",
+    "name": "匕首",
     "icon": "roots:wood_knife",
     "category": "apparatus",
     "pages": [
       {
         "type": "text",
-        "text": "Knives are a simple and lightweight tool, suitable as both a dagger and a tool for cutting wood. $(info) Logs broken with a knife will drop $(l:resources/bark)Bark$(), which is necessary for many druidic rituals.$(br2)In a pinch, they can be used as a weaker but faster weapon."
+        "text": "轻便易用的匕首可用来劈柴，宰屠也不在话下。$(info)匕首能从原木上刮下$(l:resources/bark)树皮$()为一众德鲁伊仪式所用。$(br2)火烧眉毛的时候，你也可以将它作为一把稍钝一些，但极度轻便的兵刃。"
       },
       {
         "type": "crafting",

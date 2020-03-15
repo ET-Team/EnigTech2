@@ -1,6 +1,6 @@
 {
-  "name": "Herbs",
+  "name": "药草",
   "sortnum" : 1,
-  "description": "There are herbs both magical & mundane in the world: this section focuses primarily on magical herbs and where to gather them, or, in the case of the more advanced herbs, how to craft them.$(br2)Almost every herb is renewable in some way, allowing you to grow more after initial crafting.",
+  "description": "世界中存在着很多常见的魔法药草。这一章节便主要着眼于这些药草的收集，以及其它更高级的药草的制作方式。$(br2)几乎每种药草都是可再生的，使你能在一次手工制作后利用种植的方法来生产它们。",
   "icon": "roots:moonglow_leaf"
 }

@@ -1,8 +1,9 @@
 #packmode normal
+#modloaded etutil
 #priority -100
 var machineName = "vaccum_alloy_furnace";
 
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_cheap", machineName, 200)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_cheap", machineName, 120)
 	.addMekanismHeatInput(100, 50000, 500000)
 	.addItemInput(<appliedenergistics2:material:47>)
 	.addItemInput(<contenttweaker:ether_alloy_ingot>)
@@ -11,10 +12,11 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_cheap", machineNa
 	.addItemOutput(<contenttweaker:material_part:63>*4)
 	.build();
 
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystaltine_cheap", machineName, 100)
-	.addMekanismHeatInput(100, 50000, 500000)
-	.addItemInput(<extrautils2:ingredients:17>)
-	.addItemInput(<biomesoplenty:terrestrial_artifact>*2)
-	.addItemInput(<nuclearcraft:americium>)
-	.addItemOutput(<extendedcrafting:material:24>*2)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_sic", machineName, 360)
+	.addMekanismHeatInput(2, 22730, 23730)
+	.addItemInput(<ore:dustQuartz>,2)
+	.addItemInput(<ore:fuelCoke>)
+	.addItemInput(<ore:dustSalt>)
+	.addItemInput(<ore:dustWood>,2)
+	.addItemOutput(<nuclearcraft:alloy:13>*4)
 	.build();

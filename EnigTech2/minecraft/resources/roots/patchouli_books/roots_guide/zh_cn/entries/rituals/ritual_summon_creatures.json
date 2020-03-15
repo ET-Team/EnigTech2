@@ -1,5 +1,5 @@
 {
-  "name": "Summon Creatures",
+  "name": "生物召唤",
   "icon": "roots:ritual_summon_creatures",
   "category": "rituals",
   "advancement": "roots:wildewheet",
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Summons a creature from beyond the grave to return to the land of the living. The creature summoned is determined by what item is placed on $(l:apparatus/offering_plate)a nearby offering plate$().$(br2)$(info) (Current valid items: raw chicken, raw porkchop, raw beef, pelt, carapace, and leather.)"
+      "text": "从遗物中召唤出一个生物重返生地。$(l:apparatus/offering_plate)附近的供奉盘$()中所放置的遗物决定了所召唤生物的类型。$(br2)$(info)（目前可用遗物：生鸡肉、生猪肉、生牛肉、毛皮、甲壳、皮革）"
     },
     {
       "type": "pyre_template",

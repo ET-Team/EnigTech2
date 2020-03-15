@@ -1,44 +1,52 @@
 {
   "catalystStack": {
     "registryName": {
-      "domain": "minecraft",
-      "path": "diamond_block"
+      "domain": "draconicevolution",
+      "path": "wyvern_core"
     },
     "meta": 0
   },
   "components": [
     {
-      "weight": 50,
-      "oreName": "oreIron"
-    },
-    {
-      "weight": 100,
-      "oreName": "oreGold"
-    },
-    {
-      "weight": 10,
-      "oreName": "oreLapis"
-    },
-    {
-      "weight": 250,
-      "oreName": "oreDiamond"
-    },
-    {
-      "weight": 180,
-      "oreName": "oreEmerald"
-    },
-    {
-      "weight": 50,
-      "oreName": "oreRedstone"
+      "weight": 500,
+      "oreName": "oreDraconium"
     },
     {
       "weight": 400,
-      "oreName": "oreDiamond"
+      "oreName": "blockInfusedObsidian"
+    },
+    {
+      "weight": 80,
+      "oreName": "oreMolybdenumSteel"
+    },
+    {
+      "weight": 30,
+      "oreName": "oreVoidMetal"
+    },
+    {
+      "weight": 300,
+      "oreName": "oreMithril"
+    },
+    {
+      "weight": 10,
+      "oreName": "blockDraconium"
+    },
+    {
+      "weight": 5,
+      "oreName": "blockDraconiumAwakened"
+    },
+    {
+      "weight": 50,
+      "oreName": "blockRefinedGlowstone"
+    },
+    {
+      "weight": 215,
+      "oreName": "blockMeteorolite"
     }
   ],
-  "explosionStrength": 10.0,
-  "radius": 3,
-  "maxWeight": 1040,
+  "explosionStrength": 15.0,
+  "radius": 7,
+  "maxWeight": 1590,
   "version": 4,
-  "cost": 5000000
+  "cost": 10000000
 }

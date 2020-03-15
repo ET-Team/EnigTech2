@@ -3,7 +3,7 @@ Criteriatshzhh19 = addCriteria("Criteriatshzhh19", "minecraft:inventory_changed"
 Criteriatshzhh19.addItem(<contenttweaker:magic_calculator>)
 setIcon(<contenttweaker:magic_calculator>)
 setTitle("\u9b54\u80fd\u8ba1\u7b97\u673a")
-setDescription("")
+setDescription("\u8fd9\u5e74\u5934\uff0c\u5565\u90fd\u53ef\u4ee5\u9b54\u80fd")
 setPos(-745,68)
 addParent("ET2:StageFive/root")
 drawDirectLines(true)

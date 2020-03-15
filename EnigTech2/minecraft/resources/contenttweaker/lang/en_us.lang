@@ -125,7 +125,6 @@ item.contenttweaker.pity_from_nature.name=The Pity from The Nature
 item.contenttweaker.essencial_blood.name=A Drop of Essencial Blood
 item.contenttweaker.forbidden_life_essence.name=Forbidden Life Essence
 
-
 item.contenttweaker.moon_blade.name=The Blade of Moon
 
 item.contenttweaker.ascenders_proof.name=The Proof of the Ascender
@@ -140,3 +139,4 @@ contenttweaker.material.TungstenSteel=Tungsten Steel
 contenttweaker.material.VoidMetal=Voidium
 
 et2.text.startinglines1=Welcome to EnigTech2
+message.contenttweaker.use_moon_blade=%s squeezed a drop of blood from his heart.

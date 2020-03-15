@@ -1,4 +1,5 @@
 #packmode normal
+#modloaded etutil
 #priority 0
 
 recipes.remove(<immersiveengineering:stone_decoration> * 3);
@@ -77,9 +78,17 @@ recipes.remove(<embers:ingot_silver>);
 recipes.remove(<embers:ingot_lead>);
 recipes.remove(<embers:ingot_copper>);
 recipes.remove(<forestry:resource_storage>);
+recipes.remove(<forestry:charcoal:0>);
+recipes.remove(<mekanism:basicblock:3>);
+recipes.remove(<actuallyadditions:block_misc:5>);
 recipes.remove(<astralsorcery:itemwand>.withTag({astralsorcery: {}}));
 recipes.remove(<silentgems:chaosorb:1>);
 recipes.removeByRecipeName("microblockcbe:stone_rod");
-recipes.removeByRecipeName("cookingforblockheads:sink");
+recipes.remove(<silentgems:guide_book>);
+recipes.removeByRecipeName("silentgems:potato_stick");
+recipes.removeByRecipeName("minecraft:slime");
+recipes.removeByRecipeName("minecraft:slime_ball");
+recipes.removeByRecipeName("silentgems:chaos_essence_crystallized");
+recipes.remove(<botania:opencrate:1>);
 
 recipes.removeByRegex("immersiveengineering:material/plate_.*");

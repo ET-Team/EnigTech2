@@ -1,0 +1,11 @@
+Criteriawasteam = addCriteria("Criteriawasteam", "minecraft:inventory_changed")
+Criteriawasteam.addItem(<forge:bucketfilled,nbt:{FluidName: "exhaust_steam", Amount: 1000}>)
+setIcon(<forge:bucketfilled,nbt:{FluidName: "exhaust_steam", Amount: 1000}>)
+setTitle("\u70c2\u677f\u51f3\u4e5f\u662f\u677f\u51f3");
+setDescription("\u9ad8\u901f\u8fd0\u8f6c\u7684\u6da1\u8f6e\u673a\u5728\u5927\u91cf\u4ea7\u80fd\u7684\u540c\u65f6\u4f1a\u6392\u653e\u51fa\u5927\u91cf\u7684\u5e9f\u84b8\u6c7d\u3002\u8fd9\u4f7f\u4f60\u610f\u8bc6\u5230\uff0c\u8be5\u7740\u624b\u5b89\u6392\u201c\u90ce\u80af\u5faa\u73af\u201d\u4e86\u3002")
+setPos(-691,189)
+addParent("ET2:StageAlpha/ncturbine")
+drawDirectLines(true)
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("GOAL")

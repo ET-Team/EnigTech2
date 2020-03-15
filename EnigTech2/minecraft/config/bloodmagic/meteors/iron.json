@@ -1,23 +1,27 @@
 {
   "catalystStack": {
     "registryName": {
-      "domain": "minecraft",
-      "path": "iron_block"
+      "domain": "contenttweaker",
+      "path": "magfusive_crystal"
     },
     "meta": 0
   },
   "components": [
     {
       "weight": 400,
-      "oreName": "oreIron"
+      "oreName": "blockMeteorolite"
     },
     {
       "weight": 200,
-      "oreName": "oreCopper"
+      "oreName": "oreIron"
+    },
+    {
+      "weight": 100,
+      "oreName": "oreTin"
     },
     {
       "weight": 140,
-      "oreName": "oreTin"
+      "oreName": "oreCopper"
     },
     {
       "weight": 70,
@@ -28,21 +32,29 @@
       "oreName": "oreLead"
     },
     {
-      "weight": 30,
+      "weight": 100,
       "oreName": "oreGold"
     },
     {
-      "weight": 60,
-      "oreName": "oreLapis"
+      "weight": 50,
+      "oreName": "blockDawnstone"
     },
     {
       "weight": 100,
       "oreName": "oreRedstone"
+    },
+    {
+      "weight": 5,
+      "oreName": "blockVibrantAlloy"
+    },
+    {
+      "weight": 15,
+      "oreName": "blockEnergeticAlloy"
     }
   ],
   "explosionStrength": 15.0,
   "radius": 5,
-  "maxWeight": 1080,
+  "maxWeight": 1260,
   "version": 3,
-  "cost": 1000000
+  "cost": 500000
 }

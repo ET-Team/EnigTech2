@@ -1,4 +1,5 @@
 #packmode normal
+#modloaded etutil
 #priority 2999
 import mods.zenstages.ZenStager;
 
