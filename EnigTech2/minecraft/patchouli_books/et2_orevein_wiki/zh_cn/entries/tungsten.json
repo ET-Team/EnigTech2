@@ -1,0 +1,17 @@
+{
+    "name": "钨矿脉",
+    "icon": "contenttweaker:sub_block_holder_0:3",
+    "category": "small_vein",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "contenttweaker:sub_block_holder_0:3",
+            "title": "钨矿脉",
+            "text": "钨矿脉是后期会用到的矿脉，储量中等，盛产锡矿石和钨矿石"
+        },
+        {
+            "type": "text",
+            "text": "主矿石:锡矿石$(br)伴生矿石:钨矿石$(br2)生成高度:12-24$(br2)矿脉大小:中等$(br)矿脉密度:中等$(br2)地表指示:石榴石荧光玫瑰$(br)矿脉稀有度:稀有$(br2)生成维度:主世界"
+        }
+    ]
+}

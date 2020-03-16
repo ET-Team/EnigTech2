@@ -1,0 +1,17 @@
+{
+    "name": "磷矿脉",
+    "icon": "minecraft:lapis_ore",
+    "category": "small_vein",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "forestry:resources",
+            "title": "磷矿脉",
+            "text": "磷矿脉是中期会用到的矿脉，储量中等，盛产磷矿石"
+        },
+        {
+            "type": "text",
+            "text": "主矿石:磷矿石$(br)伴生矿石:青金石矿石，绿宝石矿石$(br2)生成高度:38-55$(br2)矿脉大小:中等$(br)矿脉密度:密集$(br2)地表指示:蓝宝石荧光玫瑰$(br)矿脉稀有度:稀有$(br2)生成维度:主世界"
+        }
+    ]
+}
