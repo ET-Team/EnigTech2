@@ -4,11 +4,9 @@ This work is licensed through <a rel="license" href="http://creativecommons.org/
 
 # EnigTech2
 
-*But first, ET2 was **different** for ET, their savefile can not be migrated directly or patched directly*
+<u>EnigTech2 uses Twitch for the initial module installation, but subsequent updates and changes are performed in the MMC launcher environment.</u>
 
-<u>ET2 uses Twitch for the initial module installation, but subsequent updates and changes are performed in the MMC launcher environment.</u>
-
-ET2 is a project by dong031001 and tuna5544. The goal of the project is to complete a full-structured magic-tech modpack, and suceed EnigTech1's general ideas.
+EnigTech2 is a project by ET-Team. The goal of the project is to complete a full-structured magic-tech modpack, and suceed EnigTech's general ideas.
 
 
 
@@ -20,3 +18,5 @@ ET2是由 ET-Team 共同制作的项目，项目目标是制作一个完整的�
 
 
 **郑重声明：没有任何猴子和/或打字机在整合包的开发过程当中被伤害**
+
+**NO MONKEYS NOR TYPEWRITERS ARE HARMED DURING THE DEVELOPMENT OF THIS MODPACK**
