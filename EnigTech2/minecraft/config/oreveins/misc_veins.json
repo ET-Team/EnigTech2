@@ -490,5 +490,21 @@
           },
           "max_depth": 70
         }
+      },
+      "hyunium": {
+        "type": "sphere",
+        "ore": [
+          {
+            "ore": "oreHyunium"
+          }
+        ],
+        "stone": "minecraft:end_stone",
+        "rarity": 30,
+        "min_y": 20,
+        "max_y": 120,
+        "density": 500,
+        "vertical_size": 3,
+        "horizontal_size": 3,
+        "dimensions":[1]
       }
 }
