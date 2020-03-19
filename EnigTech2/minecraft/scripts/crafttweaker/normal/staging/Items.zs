@@ -353,10 +353,12 @@ val bannedArray = [
 	<appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:slime"}),
 	<thermaldynamics:cover>.withTag({Meta: 0 as byte, Block: "minecraft:slime"}),
 	<nuclearcraft:compound:2>,
-	<botania:opencrate:1>
+	<botania:opencrate:1>,
+	<ore:ingotHyunium>.firstItem,
+	<ore:oreHyunium>.firstItem
 ] as IItemStack[];
 
 for bannedItems in bannedArray{
 	removeItemStage(bannedItems);
-	addItemStage("default",bannedItems);
+	addItemStage("\u5df2\u7981\u7528\u7269\u54c1",bannedItems);
 }
