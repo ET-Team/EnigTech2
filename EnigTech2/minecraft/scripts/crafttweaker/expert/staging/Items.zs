@@ -312,9 +312,7 @@ val itemsStageAlpha as IIngredient[] = [
 	<contenttweaker:energetic_clathrate>,
 	<contenttweaker:resonance_heatsource>,
 	<contenttweaker:energetic_shard>,
-	<contenttweaker:depleted_heatsource>,
-	<ore:ingotHyunium>.firstItem,
-	<ore:oreHyunium>.firstItem
+	<contenttweaker:depleted_heatsource>
 ];
 
 for item in itemsStageAlpha{
