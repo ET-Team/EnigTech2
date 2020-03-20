@@ -1,8 +1,8 @@
 Criteriaflibe = addCriteria("Criteriaflibe", "minecraft:inventory_changed")
 Criteriaflibe.addItem(<forge:bucketfilled,nbt:{FluidName: "flibe", Amount: 1000}>)
 setIcon(<forge:bucketfilled,nbt:{FluidName: "flibe", Amount: 1000}>)
-setTitle("\u53ef\u76d0\u53ef\u751c");
-setDescription("\u6c1f\u9502\u94cd\u76d0\uff0c\u7194\u88c2\u4e4b\u6e90\uff1b\u653e\u5c04\u5904\u7406\uff0c\u53ef\u76d0\u53ef\u751c\u3002")
+setTranslatedTitle("advancement.stagealpha_flibe.title");
+setTranslatedDescription("advancement.stagealpha_flibe.description")
 setPos(-626,127)
 addParent("ET2:StageAlpha/salt")
 drawDirectLines(true)

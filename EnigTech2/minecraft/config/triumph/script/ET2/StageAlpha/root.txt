@@ -2,10 +2,10 @@
 setIcon(<contenttweaker:ascenders_proof>)
 
 //Set title String
-setTitle("\u9636\u6bb5\u963f\u5c14\u6cd5:\u7075\u80fd\u98de\u5347")
+setTranslatedTitle("advancement.stagealpha_root.title")
 
 //Set description String
-setDescription("\u5728\u901a\u6653\u4e86\u5b87\u5b99\u7684\u79e9\u5e8f\u4e4b\u540e,\u4f60\u4e0d\u7981\u6253\u8d77\u4e86\u8d85\u8131\u4e8e\u8fd9\u4e2a\u4e16\u754c\u7684\u5ff5\u5934...")
+setTranslatedDescription("advancement.stagealpha_root.description")
 
 //Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
 setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")

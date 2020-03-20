@@ -2,10 +2,10 @@
 setIcon(<botania:specialflower, meta:0,nbt:{type:"puredaisy"}>)
 
 //Set title String
-setTitle("Stage Two: The Civilized")
+setTranslatedTitle("advancement.stagetwo_root.title")
 
 //Set description String
-setDescription("Time to think about how to live, instead of being alive.")
+setTranslatedDescription("advancement.stagetwo_root.description")
 
 //Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
 setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")

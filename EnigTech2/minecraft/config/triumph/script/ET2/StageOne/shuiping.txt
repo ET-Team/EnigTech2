@@ -1,8 +1,8 @@
 
 
 setIcon(<minecraft:potion>)
-setTitle("Aquae Vitae")
-setDescription("Save your burning throat! But be aware, it's not from the vending machine.")
+setTranslatedTitle("advancement.stageone_shuiping.title")
+setTranslatedDescription("advancement.stageone_shuiping.description")
 addParent("ET2:StageOne/boliping")
 setPos(-529,40)
 alwaysVisible()

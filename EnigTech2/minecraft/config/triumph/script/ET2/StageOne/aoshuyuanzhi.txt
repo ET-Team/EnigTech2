@@ -1,7 +1,7 @@
 
 setIcon(<contenttweaker:arcane_essence>)
-setTitle("Arcane Essence")
-setDescription("Make a drop of Arcane Essence.")
+setTranslatedTitle("advancement.stageone_aoshuyuanzhi.title")
+setTranslatedDescription("advancement.stageone_aoshuyuanzhi.description")
 addParent("ET2:StageOne/jinglinggongjiangtai")
 setPos(-423,-63)
 alwaysVisible()

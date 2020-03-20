@@ -2,8 +2,8 @@
 Criteriaweixingguolu0 = addCriteria("Criteriaweixingguolu0", "minecraft:inventory_changed")
 Criteriaweixingguolu0.addItem(<embers:mini_boiler>)
 setIcon(<embers:mini_boiler>)
-setTitle("\u5fae\u578b\u9505\u7089")
-setDescription("\u5236\u4f5c\u5fae\u578b\u9505\u7089")
+setTranslatedTitle("advancement.stagefour_weixingguolu.title")
+setTranslatedDescription("advancement.stagefour_weixingguolu.description")
 setPos(-421,135)
 addParent("ET2:StageFour/limingshiding")
   

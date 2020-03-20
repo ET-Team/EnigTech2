@@ -1,7 +1,7 @@
 
 setIcon(<minecraft:redstone>)
-setTitle("Redstone")
-setDescription("Fill the pyre with two Poppies, two Flints and a piece of Terra Spores, then ignite it to get a redstone.")
+setTranslatedTitle("advancement.stageone_hongshi.title")
+setTranslatedDescription("advancement.stageone_hongshi.description")
 addParent("ET2:StageOne/chaidui")
 setPos(-559,-28)
 alwaysVisible()

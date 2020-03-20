@@ -1,7 +1,7 @@
 
 setIcon(<roots:wood_knife>)
-setTitle("Relax, It's Not Poisonous!")
-setDescription("Make a Wooden Knife.")
+setTranslatedTitle("advancement.stageone_bishou.title")
+setTranslatedDescription("advancement.stageone_bishou.description")
 addParent("ET2:StageOne/gongzuotai")
 setPos(-679,-86)
 alwaysVisible()

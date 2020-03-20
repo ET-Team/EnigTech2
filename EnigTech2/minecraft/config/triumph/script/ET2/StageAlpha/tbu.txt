@@ -1,8 +1,8 @@
 Criteriatbu = addCriteria("Criteriatbu", "minecraft:inventory_changed")
 Criteriatbu.addItem(<forge:bucketfilled,nbt:{FluidName: "fuel_tbu_fluoride_flibe", Amount: 1000}>)
 setIcon(<forge:bucketfilled,nbt:{FluidName: "fuel_tbu_fluoride_flibe", Amount: 1000}>)
-setTitle("\u4eba\u751f\u7684\u7b2c\u4e00\u6876\u7194\u878d\u6c1f\u9502\u94cd\u76d0\u002d\u6c1f\u5316\u0054\u0042\u0055\u71c3\u6599");
-setDescription("\u5982\u9898\u3002\u0054\u0042\u0055\u5e94\u8be5\u662f\u6bd4\u8f83\u65b9\u4fbf\u5904\u7406\u7684\u4e00\u79cd\u71c3\u6599\u4e86\u3002")
+setTranslatedTitle("advancement.stagealpha_tbu.title");
+setTranslatedDescription("advancement.stagealpha_tbu.description")
 setPos(-654,127)
 addParent("ET2:StageAlpha/flibe")
 drawDirectLines(true)

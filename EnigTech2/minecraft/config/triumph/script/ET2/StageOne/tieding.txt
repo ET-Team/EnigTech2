@@ -1,7 +1,7 @@
 
 setIcon(<minecraft:iron_ingot>)
-setTitle("Iron!")
-setDescription("Congrats. Seems like you are getting used to the combination of Magic and Tech. Or......did you just looted it somewhere else?")
+setTranslatedTitle("advancement.stageone_tieding.title")
+setTranslatedDescription("advancement.stageone_tieding.description")
 addParent("ET2:StageOne/tieli")
 setPos(-500,-139)
 alwaysVisible()

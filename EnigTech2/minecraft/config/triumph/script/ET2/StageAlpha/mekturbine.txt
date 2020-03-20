@@ -1,8 +1,8 @@
 Criteriamekturbine = addCriteria("Criteriamekturbine", "minecraft:inventory_changed")
 Criteriamekturbine.addItem(<mekanismgenerators:generator:10>)
 setIcon(<mekanismgenerators:generator:10>)
-setTitle("\u4f60\u7684\u4f7f\u547d\u8fd8\u6ca1\u7ed3\u675f");
-setDescription("\u5e9f\u84b8\u6c7d\u7ecf\u70ed\u4ea4\u6362\u53c8\u4ea7\u51fa\u4e86\u5927\u6279\u7684\u84b8\u6c7d\u3002\u4f60\u53ef\u4ee5\u518d\u7f6e\u529e\u4e00\u53f0\u6838\u7535\u5de5\u827a\u7684\u6da1\u8f6e\u673a\uff0c\u4f46\u542c\u8bf4\u901a\u7528\u673a\u68b0\u5382\u7684\u5de5\u4eba\u4eec\u5728\u5f7b\u5e95\u653e\u5f03\u9505\u7089\u8ba1\u5212\u540e\uff0c\u5df2\u7ecf\u5728\u6da1\u8f6e\u673a\u4e0a\u5b9e\u73b0\u4e86\u8de8\u65f6\u4ee3\u7684\u98de\u8dc3\u3002\u89c4\u5212\u6700\u9002\u5408\u4f60\u7684\u6da1\u8f6e\u65b9\u6848\u540e\u5236\u4f5c\u4e00\u4ef6\u901a\u7528\u673a\u68b0\u7684\u6da1\u8f6e\u5916\u58f3\u6765\u7740\u624b\u642d\u5efa\u3002")
+setTranslatedTitle("advancement.stagealpha_mekturbine.title");
+setTranslatedDescription("advancement.stagealpha_mekturbine.description")
 setPos(-615,223)
 addParent("ET2:StageAlpha/exchange")
 drawDirectLines(true)
