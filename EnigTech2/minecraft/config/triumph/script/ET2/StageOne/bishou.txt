@@ -1,7 +1,7 @@
 
 setIcon(<roots:wood_knife>)
-setTitle("\u6ca1\u6709\u6bd2\u7684\u5315\u9996")
-setDescription("\u5236\u4f5c\u6728\u5315\u9996")
+setTitle("Relax, It's Not Poisonous!")
+setDescription("Make a Wooden Knife.")
 addParent("ET2:StageOne/gongzuotai")
 setPos(-679,-86)
 alwaysVisible()

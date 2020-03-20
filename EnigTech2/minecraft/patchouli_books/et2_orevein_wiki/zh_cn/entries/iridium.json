@@ -1,0 +1,17 @@
+{
+    "name": "铱矿脉",
+    "icon": "thermalfoundation:ore:7",
+    "category": "small_vein",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "thermalfoundation:ore:7",
+            "title": "铱矿脉",
+            "text": "铱矿脉是后期会用到的矿脉，储量较少，盛产铂矿石"
+        },
+        {
+            "type": "text",
+            "text": "主矿石:铂矿石$(br)伴生矿石:铱矿石，锇矿石$(br2)生成高度:35-40$(br2)矿脉大小:极小$(br)矿脉密度:密集$(br2)地表指示:蓝碧玺荧光玫瑰$(br)矿脉稀有度:极度稀有$(br2)生成维度:主世界"
+        }
+    ]
+}

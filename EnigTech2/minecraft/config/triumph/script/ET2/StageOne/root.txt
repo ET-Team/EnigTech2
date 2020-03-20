@@ -2,10 +2,10 @@
 setIcon(<survivalist:rock, ore:rock, meta:0>)
 
 //Set title String
-setTitle("\u9636\u6bb5\u4e00:\u539f\u59cb")
+setTitle("Stage One: The Obscurant")
 
 //Set description String
-setDescription("\u4f60\u5c06\u5982\u4f55\u4ece\u4e00\u4e2a\u9b54\u6cd5\u4e3b\u5bfc\u7684\u4e16\u754c\u91cc\u91cd\u5851\u79d1\u6280\u6587\u660e\u5462\uff1f")
+setDescription("Mysterious things happens all day long. It seems harder to rebuild the Technological Civilization nowadays. Anyway, it's worth a try.")
 
 //Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
 setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
