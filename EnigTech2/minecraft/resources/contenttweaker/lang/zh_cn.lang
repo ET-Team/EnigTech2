@@ -130,16 +130,6 @@ item.contenttweaker.orders_truth.name=守序者的真理
 item.contenttweaker.unknowing_dirt.name=蒙昧之土
 item.contenttweaker.life_insight.name=生命真谛
 
-tooltip.itemstages.name.default=不熟悉的物品
-tooltip.itemstages.description=你还不知道如何使用这个物品
-tooltip.itemstages.info=你得先解锁阶段%s
-tooltip.itemstages.stage=阶段:
-tooltip.itemstages.enchant=你在没理解上面的附魔前还不能使用这个装备
-
-message.itemstages.drop=你丢掉了 %s.
-
-message.itemstages.attack=你在理解透彻%s是如何工作的之前还不能使用它造成伤害
-
 message.contenttweaker.use_moon_blade=%s榨取出了他心头的一滴精血
 
 item.contenttweaker.enigtechnium.name=玄理之锭
