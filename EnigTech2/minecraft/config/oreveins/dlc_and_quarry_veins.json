@@ -1,0 +1,63 @@
+{
+    "zinc_quarry": {
+        "type": "sphere",
+        "ore": [
+          {
+            "ore": "oreZinc",
+            "weight": 38
+          },
+          {
+            "ore": "oreNickel",
+            "weight": 5
+          },
+          {
+            "ore":"orePlatinum",
+            "weight":1
+          }
+        ],
+        "stone": "minecraft:stone",
+        "rarity": 10,
+        "min_y": 20,
+        "max_y": 60,
+        "density": 100,
+        "vertical_size": 18,
+        "horizontal_size": 18,
+        "dimensions":[-9999]
+      },
+      "granite": {
+        "type": "sphere",
+        "ore": "ore:stoneGranite",
+        "stone": "minecraft:stone",
+        "rarity": 5,
+        "min_y": 10,
+        "max_y": 70,
+        "density": 120,
+        "vertical_size": 18,
+        "horizontal_size": 18,
+        "dimensions":[-9999]
+      },
+      "diorite": {
+        "type": "sphere",
+        "ore": "ore:stoneDiorite",
+        "stone": "minecraft:stone",
+        "rarity": 5,
+        "min_y": 10,
+        "max_y": 70,
+        "density": 120,
+        "vertical_size": 18,
+        "horizontal_size": 18,
+        "dimensions":[-9999]
+      },
+      "andesite": {
+        "type": "sphere",
+        "ore": "ore:stoneAndesite",
+        "stone": "minecraft:stone",
+        "rarity": 5,
+        "min_y": 10,
+        "max_y": 70,
+        "density": 120,
+        "vertical_size": 18,
+        "horizontal_size": 18,
+        "dimensions":[-9999]
+      }
+}

@@ -32,11 +32,14 @@
 	var manyullyn = MaterialSystem.getMaterialBuilder().setName("Manyullyn").setColor(7619244).build();
 	var prismarinium = MaterialSystem.getMaterialBuilder().setName("Prismarinium").setColor(3136410).build();
 
+	var hyunium = MaterialSystem.getMaterialBuilder().setName("Hyunium").setColor(12434703).setHasEffect(true).build();
+
 //材料列表和类型列表
 	var metal_list = [nd,cr,nicr,w,wfe,voidmetal,mo,mofe,zinc,brass] as Material[];
 	var metalhard_list = [adamantium,thyrium,sinisite,manyullyn,prismarinium] as Material[];
 	var metalnether_list = [cobalt,ardite] as Material[];
 	var part_names = ["dust", "gear", "plate", "nugget", "ingot", "rod", "dust_tiny"] as string[];
+	var equip_part_names = ["helmet","chestplate","leggings","boot"] as string[];
 
 //注册类型，矿石及金属块
 	for i, metal in metal_list {
@@ -84,3 +87,16 @@
 		oreData.addDataValue("harvestTool", "pickaxe");
 		oreData.addDataValue("harvestLevel", "4");
 	}
+
+	var armorData = hyunium.registerPart("armor").getData();
+	armorData.addDataValue("durability", "12000");
+	armorData.addDataValue("enchantability", "80");
+	armorData.addDataValue("reduction", "4,10,8,4");
+	armorData.addDataValue("toughness", "8.0");
+	hyunium.registerPart("ingot");
+	var oreData = hyunium.registerPart("ore").getData();
+	oreData.addDataValue("variants", "minecraft:end_stone");
+	oreData.addDataValue("hardness", "8");
+	oreData.addDataValue("resistance", "30");
+	oreData.addDataValue("harvestTool", "pickaxe");
+	oreData.addDataValue("harvestLevel", "3");

@@ -335,3 +335,10 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dimension_metal",
 	.addItemInput(<ore:ingotEnderium>)
 	.addFluidInput(<liquid:mana>*500)
 	.build();
+
+//HYUNIUM
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_hyunium", machineName, 1200)
+    .addManaInput(1000000)
+	.addItemOutput(<ore:ingotHyunium>.firstItem)
+	.addItemInput(<ore:oreHyunium>)
+	.build();
