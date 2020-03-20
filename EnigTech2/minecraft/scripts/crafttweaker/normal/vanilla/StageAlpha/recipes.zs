@@ -102,25 +102,7 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
     <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_solidifier"}) : [[<item:minecraft:paper>,<contenttweaker:entropy>]],
     <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:aura_collector"}) : [[<item:minecraft:paper>,<item:contenttweaker:auriminium>]],
     <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:singularity_maker"}) : [[<item:minecraft:paper>, <item:appliedenergistics2:material:6>]],
-    <projecte:transmutation_table> : [[<contenttweaker:entropy>, <contenttweaker:entropy>, <contenttweaker:entropy>],[<projecte:item.pe_matter>, <projecte:item.pe_matter>, <projecte:item.pe_matter>], [null, <projecte:item.pe_matter>, null]],
-    <contenttweaker:hyunium_head> : [
-        [<ore:ingotHyunium>,<ore:ingotHyunium>,<ore:ingotHyunium>],
-        [<ore:ingotHyunium>,null,<ore:ingotHyunium>]
-    ],
-    <contenttweaker:hyunium_chest> : [
-        [<contenttweaker:hyunium_chest>,null,<contenttweaker:hyunium_chest>],
-        [<contenttweaker:hyunium_chest>,<contenttweaker:hyunium_chest>,<contenttweaker:hyunium_chest>],
-        [<contenttweaker:hyunium_chest>,<contenttweaker:hyunium_chest>,<contenttweaker:hyunium_chest>]
-    ],
-    <contenttweaker:hyunium_legs> : [
-        [<contenttweaker:hyunium_legs>,<contenttweaker:hyunium_legs>,<contenttweaker:hyunium_legs>],
-        [<contenttweaker:hyunium_legs>,null,<contenttweaker:hyunium_legs>],
-        [<contenttweaker:hyunium_legs>,null,<contenttweaker:hyunium_legs>]
-    ],
-    <contenttweaker:hyunium_feet> : [
-        [<contenttweaker:hyunium_feet>,null,<contenttweaker:hyunium_feet>],
-        [<contenttweaker:hyunium_feet>,null,<contenttweaker:hyunium_feet>]
-    ]
+    <projecte:transmutation_table> : [[<contenttweaker:entropy>, <contenttweaker:entropy>, <contenttweaker:entropy>],[<projecte:item.pe_matter>, <projecte:item.pe_matter>, <projecte:item.pe_matter>], [null, <projecte:item.pe_matter>, null]]
 };
 
 for output in shapedRecipes{

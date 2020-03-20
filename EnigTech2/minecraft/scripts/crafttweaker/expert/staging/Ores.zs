@@ -31,7 +31,5 @@ OreStages.addReplacement("six", <nuclearcraft:ore:6>);
 OreStages.addReplacement("six", <nuclearcraft:ore:7>);
 
 OreStages.addReplacement("alpha", <draconicevolution:draconium_ore>);
-OreStages.addReplacement("alpha", <draconicevolution:draconium_ore:1>, <minecraft:netherrack>);
-OreStages.addReplacement("alpha", <draconicevolution:draconium_ore:2>, <minecraft:end_stone>);
-
-OreStages.addReplacement("alpha", <ore:oreHyunium>, <minecraft:end_stone>);
+OreStages.addReplacement("alpha", <draconicevolution:draconium_ore:1>);
+OreStages.addReplacement("alpha", <draconicevolution:draconium_ore:2>);
