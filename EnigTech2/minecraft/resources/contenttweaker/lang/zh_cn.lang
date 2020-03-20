@@ -9,6 +9,8 @@ item.contenttweaker.advanced_processor.name=高级处理器
 item.contenttweaker.integrated_calculation_module.name=集成计算模块
 item.contenttweaker.super_calculation_module.name=超级计算模块
 
+adv.1k.title=This is Amazing
+
 item.contenttweaker.bad_machine_core.name=劣等机械核心
 item.contenttweaker.soso_machine_core.name=中等机械核心
 item.contenttweaker.reinforced_machine_core.name=高等机械核心
