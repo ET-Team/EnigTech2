@@ -364,6 +364,6 @@ val bannedArray = [
 
 for bannedItems in bannedArray{
 	removeItemStage(bannedItems);
-	addItemStage("default",bannedItems);
+	addItemStage("\u5df2\u7981\u7528\u7269\u54c1",bannedItems);
 }
 
