@@ -115,7 +115,9 @@ var items as string[] = [
 	"rough_mithril",
 	"construction_motioner",
 	"rubber",
-	"rubber_raw"
+	"rubber_raw",
+	"silent_model_blank",
+	"kunzite",
 ];
 
 //物品注册
