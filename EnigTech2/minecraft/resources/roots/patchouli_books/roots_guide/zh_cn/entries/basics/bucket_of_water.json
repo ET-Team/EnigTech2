@@ -1,5 +1,5 @@
 {
-  "name": "A Bucket of Water",
+  "name": "一桶水",
   "icon": "minecraft:water_bucket",
   "category": "basics",
   "advancement": "roots:pyre",
@@ -9,7 +9,7 @@
       "type": "spotlight",
       "item": "minecraft:water_bucket",
       "link_recipe": true,
-      "text": "A versatile tool, buckets of water will cancel any $(l:basics/pyre)pyre ritual$() in progress, quenching the flames and immediately settling the magical energy.$(br2)$(info) The ingredients used for the ritual are still consumed.$(br2)$(info) Any container with a cool liquid in it is suitable."
+      "text": "永远可靠的万金油。你可以用这桶水来停止任何正在进行中的$(l:basics/pyre)柴堆仪式$()，浇熄火焰，平复魔能。$(br2)$(info)柴堆仪式的耗材无法回收。$(br2)$(info)任何装有冷却剂的容器均可实现这一操作。"
     },
     {
       "type": "relations",

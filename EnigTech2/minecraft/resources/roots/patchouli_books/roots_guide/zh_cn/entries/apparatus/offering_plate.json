@@ -1,5 +1,5 @@
 {
-  "name": "Offering Plate",
+  "name": "供奉盘",
   "icon": "roots:offertory_plate",
   "category": "apparatus",
   "advancement": "roots:runestone",
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Offering plates are specially designed with runestone that radiate with magical energy. Placing items upon the plate allows them to be consumed in rituals and offerings to the fey."
+      "text": "供奉盘，以闪烁着魔能的符文石精镌而成。置于其上的物品将献祭于仪式，供奉至精灵。"
     },
     {
       "type":"crafting",
