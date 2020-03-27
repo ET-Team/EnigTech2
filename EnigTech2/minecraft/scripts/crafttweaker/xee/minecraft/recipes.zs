@@ -36,6 +36,7 @@ val qfiber = <appliedenergistics2:part:140>;
 val over = <bloodmagic:blood_rune:7>;
 val drock = <botanicadds:dreamrock>;
 val mglass = <botania:managlass>;
+val vdcap = <enderio:item_capacitor_vivid>;
 
 //有序
 val shapedRecipes as IIngredient[][][IItemStack] = {
@@ -97,6 +98,12 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [drock,<ore:elvenDragonstone>,drock],
         [drock,<botania:prism>,drock],
         [drock,<botania:runealtar>,drock]
+    ],
+
+    <modularmachinery:blockenergyinputhatch:5> : [
+        [brsw,vdcap,brsw],
+        [vdcap,<modularmachinery:blockenergyinputhatch:4>,vdcap],
+        [brsw,vdcap,brsw]
     ]
 };
 

@@ -118,6 +118,8 @@ var items as string[] = [
 	"rubber_raw",
 	"silent_model_blank",
 	"kunzite",
+	"opal",
+	"cats_eye"
 ];
 
 //物品注册
