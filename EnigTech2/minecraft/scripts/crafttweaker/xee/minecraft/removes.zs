@@ -25,7 +25,7 @@ val removingODArray = [
 
 //按配方ID移除
 val removingRNArray = [
-
+    "enderio:chassis_parts"
 ] as string[];
 
 //结算
