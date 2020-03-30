@@ -23,3 +23,24 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_cats_eye", machin
     .addItemInput(<silentgems:chaosgem:35>)
     .addItemOutput(<contenttweaker:cats_eye>)
     .build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ruby", machineName, 2000)
+    .addEnergyPerTickInput(30000)
+    .addItemInput(<contenttweaker:silent_model_blank>)
+    .addItemInput(<silentgems:chaosgem>)
+    .addItemOutput(<contenttweaker:ruby>)
+    .build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_sapphire", machineName, 2000)
+    .addEnergyPerTickInput(30000)
+    .addItemInput(<contenttweaker:silent_model_blank>)
+    .addItemInput(<silentgems:chaosgem:9>)
+    .addItemOutput(<contenttweaker:sapphire>)
+    .build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_garnet", machineName, 2000)
+    .addEnergyPerTickInput(30000)
+    .addItemInput(<contenttweaker:silent_model_blank>)
+    .addItemInput(<silentgems:chaosgem:1>)
+    .addItemOutput(<contenttweaker:garnet>)
+    .build();

@@ -116,10 +116,15 @@ var items as string[] = [
 	"construction_motioner",
 	"rubber",
 	"rubber_raw",
+	"pink_plate",
+
 	"silent_model_blank",
 	"kunzite",
 	"opal",
-	"cats_eye"
+	"cats_eye",
+	"ruby",
+	"sapphire",
+	"garnet"
 ];
 
 //物品注册

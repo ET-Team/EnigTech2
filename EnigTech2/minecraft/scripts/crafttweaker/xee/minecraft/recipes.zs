@@ -25,18 +25,20 @@ import crafttweaker.item.IIngredient;
 */
 
 //vals
-val tirod = <ore:stickTitanium>;
-val crnug = <ore:nuggetChromium>;
-val invarp = <ore:plateInvar>;
-val thytd = <ore:dustTinyThyrium>;
-val brsw = <ore:wireBrass>;
-val zintd = <ore:dustTinyZinc>;
-val snn = <ore:nuggetSinisite>;
-val qfiber = <appliedenergistics2:part:140>;
-val over = <bloodmagic:blood_rune:7>;
-val drock = <botanicadds:dreamrock>;
-val mglass = <botania:managlass>;
-val vdcap = <enderio:item_capacitor_vivid>;
+val tirod = <ore:stickTitanium>; //钛棒od
+val crnug = <ore:nuggetChromium>; //铬粒od
+val invarp = <ore:plateInvar>; //殷钢板od
+val thytd = <ore:dustTinyThyrium>; //小撮鍪银od
+val brsw = <ore:wireBrass>; //黄铜线od
+val zintd = <ore:dustTinyZinc>; //小撮锌粉od
+val snn = <ore:nuggetSinisite>; //逆银粒od
+val qfiber = <appliedenergistics2:part:140>; //石英纤维
+val over = <bloodmagic:blood_rune:7>; //超容符文
+val drock = <botanicadds:dreamrock>; //梦石
+val mglass = <botania:managlass>; //魔玻
+val vdcap = <enderio:item_capacitor_vivid>; //生动合金电容
+val scp = <ore:itemSimpleChassiParts>; //模具架板od
+val consm = <contenttweaker:construction_motioner>; //建构传动
 
 //有序
 val shapedRecipes as IIngredient[][][IItemStack] = {
@@ -104,6 +106,12 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [brsw,vdcap,brsw],
         [vdcap,<modularmachinery:blockenergyinputhatch:4>,vdcap],
         [brsw,vdcap,brsw]
+    ],
+
+    <enderio:item_material:2>*4 : [
+        [scp,consm,scp],
+        [consm,<ore:itemMachineChassi>,consm],
+        [scp,consm,scp]
     ]
 };
 
@@ -131,4 +139,5 @@ for sloutput in shapedlessRecipes{
 }
 
 //额外操作
-recipes.replaceAllOccurences(<ore:ingotIron>, <contenttweaker:construction_motioner>, <rf-capability-adapter:aecapabilityadapter>);
+recipes.replaceAllOccurences(<ore:ingotIron>, consm, <rf-capability-adapter:aecapabilityadapter>);
+recipes.replaceAllOccurences(<ore:ingotIron>, <ore:itemConstructionAlloy>, <enderio:item_material:69>*16);

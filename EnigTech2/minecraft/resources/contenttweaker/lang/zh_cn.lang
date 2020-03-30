@@ -178,6 +178,7 @@ jei.tlmtweak.altar_craft.item_craft.result=合成物品
 
 item.contenttweaker.dimension_metal.name=维度金属
 item.contenttweaker.construction_motioner.name=建构传动装置
+item.contenttweaker.pink_plate.name=晶化粉红史莱姆板
 
 tile.contenttweaker.magic_machine_hull.name=蕴魔机械外壳
 tile.contenttweaker.brass_coil.name=黄铜线圈
@@ -190,3 +191,6 @@ item.contenttweaker.silent_model_blank.name=成分数据电脑
 item.contenttweaker.kunzite.name=成分数据电脑 [紫锂辉石]
 item.contenttweaker.opal.name=成分数据电脑 [蛋白石]
 item.contenttweaker.cats_eye.name=成分数据电脑 [猫眼石]
+item.contenttweaker.ruby.name=成分数据电脑 [红宝石]
+item.contenttweaker.sapphire.name=成分数据电脑 [蓝宝石]
+item.contenttweaker.garnet.name=成分数据电脑 [石榴石]

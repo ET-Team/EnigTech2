@@ -35,7 +35,7 @@ val oredictRemoveArray = [
     <ore:ingotMithril>,
     <ore:ingotAdamantium>,
     <ore:ingotThyrium>,
-    <ore:ingotSinisite>
+    <ore:ingotSinisite>,
 ] as IOreDictEntry[];
 
 val itemRemoveArray = [
@@ -71,12 +71,14 @@ val itemRemoveArray = [
 //增添
 val oredictAddArray = [
     <ore:wireBrass>,
-    <ore:coilBrass>
+    <ore:coilBrass>,
+    <ore:plateCrystallinePinkSlime>,
 ] as IOreDictEntry[];
 
 val itemAddArray = [
     <contenttweaker:brass_wire>,
-    <contenttweaker:brass_coil>
+    <contenttweaker:brass_coil>,
+    <contenttweaker:pink_plate>
 ] as IItemStack[];
 
 //结算
