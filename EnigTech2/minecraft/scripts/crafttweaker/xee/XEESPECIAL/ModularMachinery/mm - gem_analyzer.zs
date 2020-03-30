@@ -3,25 +3,12 @@
 #priority -100
 var machineName = "gem_analyzer";
 
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_kunzite", machineName, 2000)
-    .addEnergyPerTickInput(30000)
-    .addItemInput(<contenttweaker:silent_model_blank>)
-    .addItemInput(<silentgems:chaosgem:44>)
-    .addItemOutput(<contenttweaker:kunzite>)
-    .build();
-
+//经典
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_opal", machineName, 2000)
     .addEnergyPerTickInput(30000)
     .addItemInput(<contenttweaker:silent_model_blank>)
     .addItemInput(<silentgems:chaosgem:15>)
     .addItemOutput(<contenttweaker:opal>)
-    .build();
-
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_cats_eye", machineName, 2000)
-    .addEnergyPerTickInput(30000)
-    .addItemInput(<contenttweaker:silent_model_blank>)
-    .addItemInput(<silentgems:chaosgem:35>)
-    .addItemOutput(<contenttweaker:cats_eye>)
     .build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ruby", machineName, 2000)
@@ -44,3 +31,20 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_garnet", machineN
     .addItemInput(<silentgems:chaosgem:1>)
     .addItemOutput(<contenttweaker:garnet>)
     .build();
+
+//光系
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_kunzite", machineName, 2000)
+    .addEnergyPerTickInput(30000)
+    .addItemInput(<contenttweaker:silent_model_blank>)
+    .addItemInput(<silentgems:chaosgem:44>)
+    .addItemOutput(<contenttweaker:kunzite>)
+    .build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_cats_eye", machineName, 2000)
+    .addEnergyPerTickInput(30000)
+    .addItemInput(<contenttweaker:silent_model_blank>)
+    .addItemInput(<silentgems:chaosgem:35>)
+    .addItemOutput(<contenttweaker:cats_eye>)
+    .build();
+
+//暗系
