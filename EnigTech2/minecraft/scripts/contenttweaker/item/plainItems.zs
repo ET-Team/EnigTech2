@@ -124,7 +124,8 @@ var items as string[] = [
 	"cats_eye",
 	"ruby",
 	"sapphire",
-	"garnet"
+	"garnet",
+	"blue_topaz",
 ];
 
 //物品注册

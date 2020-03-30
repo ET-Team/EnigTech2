@@ -304,7 +304,7 @@
             "y": 2,
             "z": 4,
             "elements": [
-                "immersiveengineering:metal_decoration0@7"
+                "modularmachinery:blockfluidoutputhatch@6"
             ]
         },
         {
@@ -336,7 +336,7 @@
             "y": 2,
             "z": 4,
             "elements": [
-                "immersiveengineering:metal_decoration0@7"
+                "modularmachinery:blockfluidoutputhatch@6"
             ]
         },
         {

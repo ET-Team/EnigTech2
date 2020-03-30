@@ -48,3 +48,9 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_cats_eye", machin
     .build();
 
 //暗系
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blue_topaz", machineName, 2000)
+    .addEnergyPerTickInput(30000)
+    .addItemInput(<contenttweaker:silent_model_blank>)
+    .addItemInput(<silentgems:chaosgem:25>)
+    .addItemOutput(<contenttweaker:blue_topaz>)
+    .build();
