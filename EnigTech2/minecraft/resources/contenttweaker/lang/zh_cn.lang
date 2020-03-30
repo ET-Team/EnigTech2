@@ -186,6 +186,7 @@ tile.contenttweaker.redstone_block_9.name=压缩红石块
 tile.contenttweaker.redstone_block_81.name=致密红石块
 
 tile.botania:botanicadds:pool_dreaming.name=梦之魔力池
+tile.block_decoration1.name=机械建构框架
 
 item.contenttweaker.silent_model_blank.name=成分数据电脑
 item.contenttweaker.kunzite.name=成分数据电脑 [紫锂辉石]

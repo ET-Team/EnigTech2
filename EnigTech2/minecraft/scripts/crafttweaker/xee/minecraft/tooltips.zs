@@ -29,5 +29,3 @@ for item in warning{
 for item in praise{
     item.addTooltip(format.gold(praise[item]));
 }
-
-<enderio:block_decoration1>.displayName = "机械建构框架";
