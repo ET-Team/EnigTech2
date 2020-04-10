@@ -342,6 +342,9 @@ mods.ItemStages.stageTooltip("alpha", "EMC:");
 removeItemStage(<minecraft:spawn_egg>.withTag({EntityTag: {id: "touhou_little_maid:entity.passive.maid"}}));
 addItemStage("beta",<minecraft:spawn_egg>.withTag({EntityTag: {id: "touhou_little_maid:entity.passive.maid"}}));
 
+removeItemStage(<mekanism:cardboardbox>);
+addItemStage("three",<mekanism:cardboardbox>);
+
 val bannedArray = [
 	<soot:stamp_text>,
 	<roots:unending_bowl>,
