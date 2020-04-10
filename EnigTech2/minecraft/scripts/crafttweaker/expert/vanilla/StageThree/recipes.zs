@@ -75,4 +75,4 @@ recipes.addShaped(<embers:mixer>,[[<contenttweaker:basic_motioner>,<botania:rune
 recipes.addShapeless("life_insight", <contenttweaker:life_insight>, [<minecraft:book>,<botania:rune:4>]);
 
 //纸箱
-mods.recipestages.Recipes.addShaped("three",<mekanism:cardboardbox>,[[dwood,sheet,dwood],[dwood,sheet,dwood],[dwood,sheet,dwood]])
+mods.recipestages.Recipes.addShaped("three",<mekanism:cardboardbox>,[[dwood,sheet,dwood],[dwood,sheet,dwood],[dwood,sheet,dwood]]);

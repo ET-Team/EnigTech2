@@ -64,7 +64,6 @@ mods.recipestages.Recipes.addShaped("two",<silentgems:craftingmaterial:28>*6,[[s
 //晶化混沌
 mods.recipestages.Recipes.addShaped("two",<silentgems:craftingmaterial:2>, [[star,agent,star],[agent,<silentgems:craftingmaterial:18>,agent],[star,agent,star]]);
 //纸箱
-mods.recipestages.Recipes.addShaped("two",<mekanism:cardboardbox>,[[dwood,dwood,dwood],[dwood,slm,dwood],[dwood,dwood,dwood]])
-
+mods.recipestages.Recipes.addShaped("two",<mekanism:cardboardbox>,[[dwood,dwood,dwood],[dwood,slm,dwood],[dwood,dwood,dwood]]);
 
 recipes.replaceAllOccurences(<minecraft:leather>,<ore:materialTannedLeather>,<harvestcraft:hardenedleatheritem>);
