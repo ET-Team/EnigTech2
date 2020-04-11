@@ -75,3 +75,5 @@
 //蜂蜡
 <ore:wax>.add(<harvestcraft:beeswaxitem>);
 <ore:wax>.add(<forestry:beeswax>);
+//木屑扩充
+<ore:dustWood>.add(<forestry:wood_pulp>);

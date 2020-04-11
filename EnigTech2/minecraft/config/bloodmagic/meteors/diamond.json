@@ -28,12 +28,8 @@
       "oreName": "oreMithril"
     },
     {
-      "weight": 10,
-      "oreName": "blockDraconium"
-    },
-    {
       "weight": 5,
-      "oreName": "blockDraconiumAwakened"
+      "oreName": "blockDraconium"
     },
     {
       "weight": 50,
@@ -46,7 +42,7 @@
   ],
   "explosionStrength": 15.0,
   "radius": 7,
-  "maxWeight": 1590,
+  "maxWeight": 1580,
   "version": 4,
   "cost": 10000000
 }

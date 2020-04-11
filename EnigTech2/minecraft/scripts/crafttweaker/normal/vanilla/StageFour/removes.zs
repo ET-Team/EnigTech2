@@ -88,9 +88,13 @@ val removingArray = [
     <simplyjetpacks:metaitemmods:27>,
     <thermalexpansion:capacitor>,
     <thermalexpansion:capacitor:1>,
-    <actuallyadditions:item_bag>
+    <actuallyadditions:item_bag>,
 ] as IItemStack[];
 
 for items in removingArray{
     recipes.remove(items);
 }
+
+recipes.removeByRecipeName("enderio:tank");
+recipes.removeByRecipeName("extrautils2:drum_256");
+recipes.removeByRecipeName("extrautils2:drum_4096");
