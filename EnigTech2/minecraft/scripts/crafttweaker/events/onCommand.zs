@@ -1,5 +1,6 @@
 // Author: youyihj
 #priority 500
+#disable_search_tree
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.CommandEvent;
 
