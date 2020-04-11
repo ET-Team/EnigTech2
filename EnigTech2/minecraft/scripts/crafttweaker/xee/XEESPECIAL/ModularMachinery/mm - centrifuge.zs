@@ -70,7 +70,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_cats_eye", machin
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blue_topaz", machineName, 130)
     .addEnergyPerTickInput(240)
     .addItemInput(<contenttweaker:blue_topaz>).setChance(0)
-    .addItemInput(<ore:gemBlueTopaz>,13)
+    .addItemInput(<ore:gemTopazes>,13)
     .addItemOutput(<thermalfoundation:material:68>*2)
     .addItemOutput(<contenttweaker:dust_silicon>)
     .addFluidOutput(<fluid:fluorine>*2000)

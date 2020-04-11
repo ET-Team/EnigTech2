@@ -52,5 +52,6 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blue_topaz", mach
     .addEnergyPerTickInput(30000)
     .addItemInput(<contenttweaker:silent_model_blank>)
     .addItemInput(<silentgems:chaosgem:25>)
+    .addItemInput(<silentgems:chaosgem:2>)
     .addItemOutput(<contenttweaker:blue_topaz>)
     .build();
