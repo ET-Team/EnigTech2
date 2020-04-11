@@ -96,5 +96,5 @@ for items in removingArray{
 }
 
 recipes.removeByRecipeName("enderio:tank");
-recipes.removeByRecipeName("extrautils:drum_256");
-recipes.removeByRecipeName("extrautils:drum_4096");
+recipes.removeByRecipeName("extrautils2:drum_256");
+recipes.removeByRecipeName("extrautils2:drum_4096");
