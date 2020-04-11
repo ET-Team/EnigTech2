@@ -21,5 +21,5 @@ Recipes.setPackageStage("de.ellpeck.naturesaura", ["one", "two", "three", "four"
 Recipes.setPackageStage("crazypants", ["one", "two", "three", "four", "five", "beta"]);
 Recipes.setPackageStage("com.aranaira.arcanearchives", allStages);
 Recipes.setPackageStage("forestry", ["one", "two", "three", "four", "beta"]);
-Recipes.setPackageStage("cofh.thermalexpansion", ["one", "two", "three", "four", "five", "beta"]);
+Recipes.setPackageStage("cofh", ["one", "two", "three", "four", "five", "beta"]);
 Recipes.setPackageStage("mekanism", ["one", "two", "three", "four", "five", "six", "beta"]);
