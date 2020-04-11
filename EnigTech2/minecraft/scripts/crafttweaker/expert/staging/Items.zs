@@ -345,6 +345,9 @@ addItemStage("beta",<minecraft:spawn_egg>.withTag({EntityTag: {id: "touhou_littl
 removeItemStage(<mekanism:cardboardbox>);
 addItemStage("three",<mekanism:cardboardbox>);
 
+removeItemStage(<actuallyadditions:item_solidified_experience>);
+addItemStage("one",<actuallyadditions:item_solidified_experience>);
+
 val bannedArray = [
 	<soot:stamp_text>,
 	<roots:unending_bowl>,
