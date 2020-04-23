@@ -4,6 +4,10 @@
 
 import scripts.crafttweaker.utils.EnchantedBookSupplier;
 
+val slm = <ore:slimeball>;
+val dwood = <ore:dustWood>;
+val sheet = <bibliocraft:framingsheet>;
+
 //天气检测器
 recipes.addShaped(<modulardiversity:blockweatherdetector>, [[<modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>],[<modularmachinery:itemmodularium>, <enderio:item_material:18>, <modularmachinery:itemmodularium>], [<modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>]]);
 //生物群系检测器
@@ -69,3 +73,6 @@ recipes.addShaped(<embers:block_furnace>,[[<ore:plateSteel>,null,<ore:plateSteel
 recipes.addShaped(<embers:mixer>,[[<contenttweaker:basic_motioner>,<botania:rune:5>,<ore:plateSteel>],[<naturesaura:sky_ingot>,<contenttweaker:soso_machine_core>,<naturesaura:sky_ingot>],[<ore:plateSteel>,<botania:rune:7>,<contenttweaker:basic_motioner>]]);
 
 recipes.addShapeless("life_insight", <contenttweaker:life_insight>, [<minecraft:book>,<botania:rune:4>]);
+
+//纸箱
+mods.recipestages.Recipes.addShaped("three",<mekanism:cardboardbox>,[[dwood,sheet,dwood],[dwood,sheet,dwood],[dwood,sheet,dwood]]);

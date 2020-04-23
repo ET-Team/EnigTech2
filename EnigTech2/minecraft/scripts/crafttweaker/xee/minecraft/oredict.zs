@@ -1,5 +1,5 @@
 #packmode normal expert
-#modloaded etutil apotheosis bloodarsenal botania_tweaks botanicadds draconicadditions enderioendergy rf-capability-adapter equivalentenergistics sgextraparts
+#modloaded etutil bloodarsenal botania_tweaks botanicadds draconicadditions enderioendergy rf-capability-adapter equivalentenergistics sgextraparts randomenchantments
 #priority -100
 
 import crafttweaker.item.IItemStack;
@@ -73,12 +73,16 @@ val oredictAddArray = [
     <ore:wireBrass>,
     <ore:coilBrass>,
     <ore:plateCrystallinePinkSlime>,
+    <ore:gemTopazes>,
+    <ore:gemTopazes>,
 ] as IOreDictEntry[];
 
 val itemAddArray = [
     <contenttweaker:brass_wire>,
     <contenttweaker:brass_coil>,
-    <contenttweaker:pink_plate>
+    <contenttweaker:pink_plate>,
+    <silentgems:gem:2>,
+    <silentgems:gem:25>
 ] as IItemStack[];
 
 //结算

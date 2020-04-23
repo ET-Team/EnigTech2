@@ -50,9 +50,8 @@ val hidesArray = [
     <thermaldynamics:retriever:2>,
     <cuisine:material:0>,
     <teastory:wooden_mortar_and_pestle>,
-    <silentgems:enchantmenttoken>,
-    <silentgems:chaosrune>,
-    <silentgems:chaosgem>
+    <silentgems:enchantmenttoken>.withTag({}),
+    <silentgems:chaosrune>.withTag({}),
 ] as IItemStack[];
 
 for items in hidesArray{
