@@ -963,6 +963,16 @@
       "projectID": 256909,
       "fileID": 2689021,
       "required": true
+    },
+    {
+      "projectID": 303213,
+      "fileID": 2876571,
+      "required": true
+    },
+    {
+      "projectID": 304890,
+      "fileID": 2691040,
+      "required": true
     }
   ],
   "overrides": "minecraft"
