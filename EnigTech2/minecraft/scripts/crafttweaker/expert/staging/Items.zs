@@ -352,7 +352,7 @@ removeItemStage(<mekanismgenerators:generator:12>);
 addItemStage("alpha",<mekanismgenerators:generator:12>);
 
 removeItemStage(<mekanismgenerators:generator:11>);
-addItemStage("alpha"<mekanismgenerators:generator:11>);
+addItemStage("alpha",<mekanismgenerators:generator:11>);
 
 removeItemStage(<mekanismgenerators:generator:10>);
 addItemStage("alpha",<mekanismgenerators:generator:10>);
