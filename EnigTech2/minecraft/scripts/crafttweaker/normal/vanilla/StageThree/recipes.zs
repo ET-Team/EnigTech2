@@ -58,7 +58,7 @@ recipes.addShaped("pattern2", <item:appliedenergistics2:material:52>*2,[
     [<ore:plateDawnstone>,<embers:plate_dawnstone>,<ore:plateDawnstone>]
 ]);
 
-recipes.addShaped(<minecraft:crafting_table>,[[<ore:plankTreatedWood>,<ore:plankTreatedWood>],[<ore:plankTreatedWood>,<ore:plankTreatedWood>]]);
+mods.recipestages.Recipes.addShaped("two",<minecraft:crafting_table>,[[<ore:plankTreatedWood>,<ore:plankTreatedWood>],[<ore:plankTreatedWood>,<ore:plankTreatedWood>]]);
 
 recipes.addShaped(<embers:ember_bore>,[[<embers:stairs_caminite_brick>,<contenttweaker:magcondium_ingot>,<embers:stairs_caminite_brick>],[<immersiveengineering:metal_decoration0:5>,<contenttweaker:soso_machine_core>,<immersiveengineering:metal_decoration0:5>],[<thermalfoundation:material:657>,<botania:lens:7>,<thermalfoundation:material:657>]]);
 recipes.addShaped(<embers:cinder_plinth>,[[<immersiveengineering:sheetmetal:2>,null,<immersiveengineering:sheetmetal:2>],[<bloodmagic:lava_crystal>,<contenttweaker:soso_machine_core>,<bloodmagic:lava_crystal>],[<embers:block_caminite_brick>,<embers:block_dawnstone>,<embers:block_caminite_brick>]]);
