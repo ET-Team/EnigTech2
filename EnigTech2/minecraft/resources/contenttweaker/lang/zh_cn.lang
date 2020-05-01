@@ -2,6 +2,8 @@ item.contenttweaker.arcane_essence.name=奥术源质
 item.contenttweaker.auriminium.name=灵素精华
 item.contenttweaker.magcondium_ingot.name=魔导合金
 item.contenttweaker.magfusive_crystal.name=注魔水晶
+item.contenttweaker.link.name=玄理联结
+item.contenttweaker.aspectus_astra.name=星移元素象征
 
 item.contenttweaker.basic_circuit.name=基础电路
 item.contenttweaker.basic_processor.name=基础处理器
@@ -184,6 +186,7 @@ tile.contenttweaker.magic_machine_hull.name=蕴魔机械外壳
 tile.contenttweaker.brass_coil.name=黄铜线圈
 tile.contenttweaker.redstone_block_9.name=压缩红石块
 tile.contenttweaker.redstone_block_81.name=致密红石块
+tile.contenttweaker.philosophers_sand.name=异界之沙
 
 tile.botania:botanicadds:pool_dreaming.name=梦之魔力池
 

@@ -117,6 +117,8 @@ var items as string[] = [
 	"rubber",
 	"rubber_raw",
 	"pink_plate",
+	"link",
+	"aspectus_astra",
 
 	"silent_model_blank",
 	"kunzite",

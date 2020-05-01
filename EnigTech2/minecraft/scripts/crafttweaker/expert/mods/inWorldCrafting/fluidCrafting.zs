@@ -26,3 +26,5 @@ FluidToItem.transform(<toughasnails:purified_water_bottle> * 3, <liquid:purified
 FluidToItem.transform(<contenttweaker:stable_potato>, <fluid:cryotheum>, [<silentgems:chaosorb>.withTag({ChaosCharge: 5000})], true);
 //增生之种
 FluidToItem.transform(<botania:overgrowthseed>*2,<liquid:mana>,[<contenttweaker:earth_x>,<contenttweaker:wind_x>,<contenttweaker:spring_x>,<contenttweaker:condensed_seed>], true);
+//玄理联络
+FluidToItem.transform(<contenttweaker:link>,<fluid:neutron>,[<contenttweaker:philosophers_sand>*3],true);
