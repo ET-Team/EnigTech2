@@ -31,6 +31,10 @@ item.contenttweaker.fire_resist_mixture.name=耐火混合物
 item.contenttweaker.fire_resist_brick.name=耐火砖
 item.contenttweaker.fuel_helper.name=助燃物
 item.contenttweaker.dust_wood.name=木粉
+item.contenttweaker.earth_x.name=地凝符文
+item.contenttweaker.wind_x.name=风灵符文
+item.contenttweaker.spring_x.name=春源符文
+item.contenttweaker.condensed_seed.name=汇集之种
 
 item.contenttweaker.blast_furnace_brick.name=高炉砖块
 
@@ -44,13 +48,20 @@ item.contenttweaker.divine_inspiration.name=神之启示
 item.contenttweaker.solid_ethylene.name=固态乙烯
 item.contenttweaker.bulk_of_plastic.name=块状塑料
 item.contenttweaker.plastic_plate.name=片状塑料
+item.contenttweaker.energetic_clathrate.name=高能络合物
+item.contenttweaker.resonance_heatsource.name=高热共振晶体
+item.contenttweaker.depleted_heatsource.name=弱波凝块
+item.contenttweaker.energetic_shard.name=高能络合物碎块
+item.contenttweaker.brass_wire.name=细黄铜导线
+item.contenttweaker.rubber.name=橡胶条
+item.contenttweaker.rubber_raw.name=生橡胶浆
 
 fluid.fluid_lubricant=润滑油
 fluid.fluid_oil_gas=炼油气
 fluid.fluid_ethylene=粗制液态乙烯
 fluid.fluid_concentrated_ethylene=聚乙烯
 fluid.fluid_blend_caminite=液态方镁矾
-fluid.fluid_hydrochloric_acid=粗制氯化氢
+fluid.fluid_hydrochloric_acid=低纯氯化氢
 fluid.fluid_silicon=硅烷
 fluid.fluid_concentrated_silicon=高纯硅烷
 fluid.fluid_dragon_breathe=液态龙息
@@ -85,6 +96,7 @@ item.contenttweaker.rubber_plate.name=橡胶板
 item.contenttweaker.magic_motor.name=魔能马达
 item.contenttweaker.dark_gaiya_crystal.name=黯淡盖亚水晶
 item.contenttweaker.dark_gaiya_crystal_unpolished.name=未抛光的黯淡盖亚水晶
+item.contenttweaker.rough_mithril.name=不被认可的秘银
 
 machine.crafttweaker:polisher=抛光机
 machine.crafttweaker:chlorinizer=氯化机
@@ -100,7 +112,6 @@ contenttweaker.part.dust_tiny=小搓%s粉
 
 item.contenttweaker.magic_calculator.name=魔能计算机
 item.contenttweaker.magic_calculator_unpowered.name=未充能的魔能计算机
-item.contenttweaker.magic_machine_hull.name=蕴魔机械外壳
 item.contenttweaker.strong_motor.name=强导电机
 item.contenttweaker.strong_motor_unprocessed.name=未处理的强导电机
 item.contenttweaker.meteor_bait.name=陨石诱饵
@@ -119,17 +130,7 @@ item.contenttweaker.orders_truth.name=守序者的真理
 item.contenttweaker.unknowing_dirt.name=蒙昧之土
 item.contenttweaker.life_insight.name=生命真谛
 
-tooltip.itemstages.name.default=不熟悉的物品
-tooltip.itemstages.description=你还不知道如何使用这个物品
-tooltip.itemstages.info=你得先解锁阶段%s
-tooltip.itemstages.stage=阶段:
-tooltip.itemstages.enchant=你在没理解上面的附魔前还不能使用这个装备
-
-message.itemstages.drop=你丢掉了 %s.
-
-message.itemstages.attack=你在理解透彻%s是如何工作的之前还不能使用它造成伤害
-
-message.conttenttweaker.use_moon_blade=%s榨取出了他心头的一滴精血
+message.contenttweaker.use_moon_blade=%s榨取出了他心头的一滴精血
 
 item.contenttweaker.enigtechnium.name=玄理之锭
 item.contenttweaker.solidified_energy.name=固态能量
@@ -151,6 +152,15 @@ base.material.molybdenum_steel=钼钢
 base.material.tungsten=钨
 base.material.tungsten_steel=钨钢
 base.material.void_metal=虚空金属
+base.material.zinc=锌
+base.material.brass=黄铜
+base.material.cobalt=钴
+base.material.manyullyn=玛玉灵
+base.material.ardite=阿迪特
+base.material.prismarinium=海晶素
+base.material.thyrium=鍪银
+base.material.adamantium=精金
+base.material.sinisite=逆银
 
 enchantment.veining.veining.desc=没有人不喜欢连锁挖矿！
 enchantment.felling.felling.desc=没有人不喜欢连锁砍树！
@@ -165,3 +175,23 @@ item.contenttweaker.stable_potato.name=冷静土豆
 item.contenttweaker.tlm_ultra.name=扭蛋收藏者纹章
 
 jei.tlmtweak.altar_craft.item_craft.result=合成物品
+
+item.contenttweaker.dimension_metal.name=维度金属
+item.contenttweaker.construction_motioner.name=建构传动装置
+item.contenttweaker.pink_plate.name=晶化粉红史莱姆板
+
+tile.contenttweaker.magic_machine_hull.name=蕴魔机械外壳
+tile.contenttweaker.brass_coil.name=黄铜线圈
+tile.contenttweaker.redstone_block_9.name=压缩红石块
+tile.contenttweaker.redstone_block_81.name=致密红石块
+
+tile.botania:botanicadds:pool_dreaming.name=梦之魔力池
+
+item.contenttweaker.silent_model_blank.name=成分数据电脑
+item.contenttweaker.kunzite.name=成分数据电脑 [紫锂辉石]
+item.contenttweaker.opal.name=成分数据电脑 [蛋白石]
+item.contenttweaker.cats_eye.name=成分数据电脑 [猫眼石]
+item.contenttweaker.ruby.name=成分数据电脑 [红宝石]
+item.contenttweaker.sapphire.name=成分数据电脑 [蓝宝石]
+item.contenttweaker.garnet.name=成分数据电脑 [石榴石]
+item.contenttweaker.blue_topaz.name=成分数据电脑 [黄玉/蓝黄玉]

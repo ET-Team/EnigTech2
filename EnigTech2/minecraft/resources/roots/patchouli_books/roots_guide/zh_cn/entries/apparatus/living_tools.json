@@ -1,5 +1,5 @@
 {
-  "name": "Living Tools",
+  "name": "蕴生工具",
   "icon": "roots:living_pickaxe",
   "category": "apparatus",
   "advancement": "roots:fey_crafter",
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Enlivened with the magic contained within herbs and tipped with precious metals, living tools will literally regrow any damage that they take, although slowly.$(br2)$(info) It has the effectiveness of an equivalent iron tool, but is as enchantable as the golden version."
+      "text": "内蕴魔草，外缀珍金，蕴生工具均能缓慢地以顽强的生命力修补它们的一切折损。$(br2)$(info)它们的效能等价于铁质工具，而附魔亲和性却优若黄金。"
     },
     {
       "type": "fey_crafting_template",
@@ -32,7 +32,7 @@
     {
       "type": "spotlight",
       "item": "roots:living_arrow",
-      "text": "While too brittle to regrow themselves, these sturdy arrows pack a punch."
+      "text": "这些细细的木条尽管还不足以自我修复，但仍能以其锋芒对目标施以致命打击。"
     },
     {
       "type": "fey_crafting_template",

@@ -1,0 +1,10 @@
+Criteriaexchange = addCriteria("Criteriaexchange", "minecraft:inventory_changed")
+Criteriaexchange.addItem(<nuclearcraft:heat_exchanger_controller>)
+setIcon(<nuclearcraft:heat_exchanger_controller>)
+setTranslatedTitle("advancement.stagealpha_exchange.title");
+setTranslatedDescription("advancement.stagealpha_exchange.description")
+setPos(-654,223)
+addParent("ET2:StageAlpha/wasteam")
+drawDirectLines(true)
+setShowToast(true)
+setAnnounceToChat(true)

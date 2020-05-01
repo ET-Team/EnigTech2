@@ -1,0 +1,10 @@
+Criteriastator = addCriteria("Criteriastator", "minecraft:inventory_changed")
+Criteriastator.addItem(<nuclearcraft:turbine_rotor_stator>)
+setIcon(<nuclearcraft:turbine_rotor_stator>)
+setTranslatedTitle("advancement.stagealpha_stator.title")
+setTranslatedDescription("advancement.stagealpha_stator.description")
+setPos(-740,223)
+addParent("ET2:StageAlpha/ncturbine")
+drawDirectLines(true)
+setShowToast(true)
+setAnnounceToChat(true)`

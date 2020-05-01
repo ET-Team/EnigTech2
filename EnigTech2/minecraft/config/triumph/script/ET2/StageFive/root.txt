@@ -2,10 +2,10 @@
 setIcon(<botania:tinyplanet>)
 
 //Set title String
-setTitle("\u9636\u6bb5\u4e94:\u7fa4\u661f")
+setTranslatedTitle("advancement.stagefive_root.title")
 
 //Set description String
-setDescription("\u5728\u5730\u7403\u4e0a\u7684\u5de5\u4f5c\u5df2\u7ecf\u4e0d\u80fd\u6ee1\u8db3\u4f60\u5bf9\u771f\u7406\u7684\u63a2\u5bfb,\u4e5f\u8bb8\u65e0\u5c3d\u7684\u661f\u8fb0\u624d\u662f\u4f60\u7684\u5bbf\u547d ")
+setTranslatedDescription("advancement.stagefive_root.description")
 
 //Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
 setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")

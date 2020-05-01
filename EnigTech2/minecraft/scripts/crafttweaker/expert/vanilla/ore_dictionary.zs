@@ -63,3 +63,17 @@
 <ore:capacitorTE>.add(<thermalexpansion:capacitor:2>);
 <ore:capacitorTE>.add(<thermalexpansion:capacitor:3>);
 <ore:capacitorTE>.add(<thermalexpansion:capacitor:4>);
+
+<ore:slimeball>.add(<contenttweaker:depleted_heatsource>);
+
+<ore:gemCertusQuartz>.add(<item:appliedenergistics2:material>);
+<ore:gemCertusQuartz>.add(<item:appliedenergistics2:material:1>);
+
+<ore:dustTinyIron>.add(<mysticalworld:iron_dust_tiny>);
+<ore:dustTinyGold>.add(<mysticalworld:gold_dust_tiny>);
+
+//蜂蜡
+<ore:wax>.add(<harvestcraft:beeswaxitem>);
+<ore:wax>.add(<forestry:beeswax>);
+//木屑扩充
+<ore:dustWood>.add(<forestry:wood_pulp>);

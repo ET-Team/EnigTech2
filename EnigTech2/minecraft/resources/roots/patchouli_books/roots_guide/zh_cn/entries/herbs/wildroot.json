@@ -1,5 +1,5 @@
 {
-  "name": "Wildroot",
+  "name": "野生根茎",
   "icon": "roots:wildroot",
   "category": "herbs",
   "priority": true,
@@ -8,7 +8,7 @@
       "type": "spotlight",
       "item": "roots:wildroot",
       "link_recipe": true,
-      "text": "Wildroot is the herb most commonly found while breaking grass in grasslands and fields, but its properties are not diminished by this commonness.$(br2)The sensible druid will always keep a $(info) crop of this growing on farmland, lest they run out and have to resort to attacking nearby tall grass."
+      "text": "在草间田中，你偶尔会发现一些野生根茎。它的稀有恰恰成就了它的价值。$(br2)一位明智的德鲁伊永远会为野生根茎$(info)留下一亩田地，以免供不应求而不得不继续埋头拔草。"
     },
     {
       "type": "relations",

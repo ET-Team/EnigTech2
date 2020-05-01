@@ -3,8 +3,8 @@
 
 
 setIcon(<immersiveengineering:metal_decoration0, meta:4>)
-setTitle("\u8f7b\u578b\u5de5\u7a0b\u5757")
-setDescription("\u5236\u4f5c\u4e00\u4e9b\u6c89\u6d78\u5de5\u7a0b\u7684\u8f7b\u578b\u673a\u68b0\u5757")
+setTranslatedTitle("advancement.stagethree_yasuoji.title")
+setTranslatedDescription("advancement.stagethree_yasuoji.description")
 setPos(-633,76)
 addParent("ET2:StageThree/root")
 drawDirectLines(true)

@@ -1,0 +1,10 @@
+Criteriarotor = addCriteria("Criteriarotor", "minecraft:inventory_changed")
+Criteriarotor.addItem(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>)
+setIcon(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>)
+setTranslatedTitle("advancement.stagealpha_rotor.title")
+setTranslatedDescription("advancement.stagealpha_rotor.description")
+setPos(-708,223)
+addParent("ET2:StageAlpha/ncturbine")
+drawDirectLines(true)
+setShowToast(true)
+setAnnounceToChat(true)`

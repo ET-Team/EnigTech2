@@ -1,5 +1,5 @@
 {
-    "name": "The Nature of Groves",
+    "name": "森林之天性",
     "icon": "roots:grove_stone",
     "category": "basics",
     "advancement": "roots:root",
@@ -7,19 +7,19 @@
     "pages": [
       {
         "type": "text",
-        "text": "$(o)Extract from the writings of the Archdruid of the Silvered Glade, 0 AC:$()$(br2)... these large gateways previously used have been closed completely. Whether this is a result of the continued drifting of the realms or a distinct shutting down of diplomacy, the result is that trade with the Fey directly is no longer possible."
+        "text": "$(o)下文节选自银林之大德鲁伊的手稿，著于阖门纪0年：$()$(br2)（前文略）昔径之盛，俱难复矣；其陆之远游，其门之倏阖，皆未明其详悉。而今，面接而易物于精灵之法，无存于世矣。"
       },
       {
         "type": "text",
-        "text": "The fey, well-known for curiosity, are ever interested in strange new worlds, such as our own. The most curious are also the smallest, and these motes of life & energy have found their way through the tiniest gaps and spaces. This proves that there are ways and potentially no major barriers.$(br2)Whether this can be leveraged or not remains..."
+        "text": "精魄之灵，以其异凡俗万物而性灵之态行于当世。其间最性灵者，亦最心灵者也。状若细土，而生力蓬勃其里；形似微尘，而畅游万世之间。此物之灵种种，无一不恰证其门之存，其径之通。$(br2)昔径之盛兮，尚存否？尽亡否。。。。。。"
       },
       {
         "type": "text",
-        "text": "$(o)Extract from the notes of the Master of Crafting, 241 AC:$()$(br2)... The combination of plentiful moss with our dwindling supply of wildroot have proven sufficient to imbue the correctly-shaped monolith, and allow it to act as an anchor for the Fey. The slightly larger spirits magnetized to this provide enough energy for a specially-created imbuer.$(br2)This current process is rough and simple, and much refinement..."
+        "text": "$(o)下文节选自匠祖之笔记，著于阖门纪241年：$()$(br2)（前文略）苔藓之丰足，野根之竭枯，俱存于库。二者相融相合，则其力得苏，其碑得注。碑注而锚成，锚成而两界可通，两界通则魂魄集聚，注造之器皆足可施其全功。$(br2)匠作虽陋，亦容细制精工。"
       },
       {
         "type": "text",
-        "text": "$(o)Notes from the Grovespeaker Allura Vysoren, 286 AC:$()$(br2)... curious side-effect of the monolith is the continued growing of plants & other greenery around it, slower than a direct magical approach but faster than natural growth. Whether this is a bleed-through from the Fey, the activities of the attracted spirits, or something more..."
+        "text": "$(o)下文节选自森语者艾罗拉·维索伦的笔记，阖门纪286年：$()$(br2)（前文略）神碑一起，而万物复苏。绿草葱郁，间杂秀英，纷纷自土隙绕碑而植。虽不及奇术催生之盛状，亦可敌淡淡平素之荒景。此灵界之引乎？魂魄之聚乎？踟蹰不能决也......"
       },
       {
         "type": "multiblock",
@@ -33,7 +33,7 @@
           ]
         },
         "enable_visualize": false,
-        "text": "$(o)A sketch of a more refined monolith, 322 AC$()"
+        "text": "$(o)“丰碑”，更完善的草图，公元前322年$()"
       },
       {
         "type": "multiblock",
@@ -47,7 +47,7 @@
           ]
         },
         "enable_visualize": false,
-        "text": "$(o)A hand-woven Fey Crafter, 356 AC$()"
+        "text": "$(o)手工粗制的精灵工匠台，公元前356年$()"
       },
       {
         "type": "relations",

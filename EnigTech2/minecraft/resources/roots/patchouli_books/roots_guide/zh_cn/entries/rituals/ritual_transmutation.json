@@ -1,5 +1,5 @@
 {
-  "name": "Transmutation",
+  "name": "转变",
   "icon": "roots:ritual_transmutation",
   "category": "rituals",
   "advancement": "roots:runestone",
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Some natural delights are harder to find than others. Thankfully, with the energies of the pyre, you can convert more mundane objects into more precious items.$(br2)$(info) This ritual requires standing stones."
+      "text": "大自然的馈赠通常难于窥见，好在借助柴堆的神力，你可以将许多平凡之物嬗变为宝。$(br2)$(info)需要屹立石柱来进行该仪式。"
     },
     {
       "type": "pyre_template",
@@ -34,31 +34,31 @@
       "type": "spotlight",
       "item": "minecraft:dye:3",
       "link_recipe": true,
-      "text": "Dead bushes will turn into cocoa beans."
+      "text": "枯死的草丛会转变为可可豆"
     },
     {
       "type": "spotlight",
       "item": "minecraft:log:3",
       "link_recipe": true,
-      "text": "Birch logs will transform into jungle."
+      "text": "白桦木会转变为丛林木"
     },
     {
       "type": "spotlight",
       "item": "minecraft:leaves:3",
       "link_recipe": true,
-      "text": "Birch leaves will transform into jungle."
+      "text": "白桦树叶会转变为丛林树叶"
     },
     {
       "type": "spotlight",
       "item": "minecraft:melon_block",
       "link_recipe": true,
-      "text": "Pumpkins planted $(info) above still or flowing water will transform into melons."
+      "text": "放置在$(info)流动水或静止水之上的南瓜会转变为西瓜。"
     },
     {
       "type": "spotlight",
       "item": "minecraft:cactus",
       "link_recipe": true,
-      "text": "Pumpkins planted $(info) on sand will turn into cactuses."
+      "text": "放置在$(info)沙子上的南瓜会转变为仙人掌。"
     }
   ]
 }

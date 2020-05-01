@@ -1,5 +1,5 @@
 {
-  "name": "Windwall",
+  "name": "风之墙",
   "icon": "roots:ritual_windwall",
   "category": "rituals",
   "advancement": "roots:moonglow_leaf",
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "All potentially hostile creatures are pushed rapidly away from the ritual location."
+      "text": "仪式效用期间所有敌对生物将被推离柴堆。"
     },
     {
       "type": "pyre_template",

@@ -2,10 +2,10 @@
 setIcon(<appliedenergistics2:material:47>)
 
 //Set title String
-setTitle("\u9636\u6bb5\u516d:\u539f\u5b50")
+setTranslatedTitle("advancement.stagesix_root.title")
 
 //Set description String
-setDescription("\u4f60\u638c\u63e1\u4e86\u661f\u8fb0\u7684\u5965\u79d8,\u63a5\u4e0b\u6765\u5c31\u662f\u5e94\u7528\u5b83\u4eec\u4e86...")
+setTranslatedDescription("advancement.stagesix_root.description")
 
 //Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
 setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")

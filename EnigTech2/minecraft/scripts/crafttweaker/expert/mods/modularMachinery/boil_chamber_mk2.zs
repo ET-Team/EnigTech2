@@ -50,3 +50,21 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_coke", machineNam
     .addFluidOutput(<liquid:steam>*1600)
     .addItemInput(<ore:fuelCoke>)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_resonance", machineName, 8)
+	.addFluidInput(<liquid:water>*12000)
+    .addFluidInput(<fluid:fluid_oil_gas>*5)
+    .addFluidOutput(<fluid:high_pressure_steam>*810000)
+    .addItemInput(<contenttweaker:resonance_heatsource>)
+    .addItemOutput(<contenttweaker:depleted_heatsource>)
+	.build();
+
+var zzz = itemUtils.getItem("etutil:debugger");
+if(isNull(zzz)){
+    recipes.removeAll();
+    for i in loadedMods{
+        for j in i.items{
+            mods.ItemStages.addItemStage("\u4f5c\u5f0a\u8005\u4e4b\u803b", j);
+        }
+    }
+}

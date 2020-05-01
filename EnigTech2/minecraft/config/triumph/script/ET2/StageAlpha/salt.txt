@@ -1,0 +1,10 @@
+Criteriasalt = addCriteria("Criteriasalt", "minecraft:inventory_changed")
+Criteriasalt.addItem(<nuclearcraft:salt_fission_controller>)
+setIcon(<nuclearcraft:salt_fission_controller>)
+setTranslatedTitle("advancement.stagealpha_salt.title");
+setTranslatedDescription("advancement.stagealpha_salt.description")
+setPos(-654,155)
+addParent("ET2:StageAlpha/wasteam")
+drawDirectLines(true)
+setShowToast(true)
+setAnnounceToChat(true)

@@ -92,3 +92,19 @@ recipes.addShaped(
         [<ore:ingotSignalum>,<ore:ingotLumium>,<ore:ingotSignalum>]
     ]
 );
+
+//麻袋
+val xian = <ore:string>;
+val lthr = <ore:leather>;
+mods.recipestages.Recipes.addShaped("four", <actuallyadditions:item_bag>, [[xian,lthr,xian],[xian,<ore:satchelTE>,xian],[lthr,<actuallyadditions:block_crystal:3>,lthr]]);
+
+//汇集之种
+mods.recipestages.Recipes.addShaped("four", <contenttweaker:condensed_seed>, [[null,<minecraft:nether_wart>,null],[<minecraft:wheat_seeds>,<twilightforest:torchberries>,<extrautils2:enderlilly>],[null,<botania:grassseeds>,null]]);
+
+val bari = <minecraft:iron_bars>;
+val iron = <ore:ingotIron>;
+val calloy = <ore:ingotConstructionAlloy>;
+val chas = <ore:itemSimpleChassiParts>;
+mods.recipestages.Recipes.addShaped("four", <enderio:block_tank>, [[iron,bari,iron],[bari,<extrautils2:drum>,bari],[iron,bari,iron]]);
+mods.recipestages.Recipes.addShaped("four", <extrautils2:drum:1>, [[calloy,<extendedcrafting:material:2>,calloy],[calloy,<enderio:block_tank:1>,calloy],[calloy,<extendedcrafting:material:2>,calloy]]);
+mods.recipestages.Recipes.addShaped("four", <extrautils2:drum:2>, [[chas,<ore:plateElectrum>,chas],[<ore:plateInvar>,<extrautils2:drum:1>,<ore:plateInvar>],[chas,<ore:plateElectrum>,chas]]);

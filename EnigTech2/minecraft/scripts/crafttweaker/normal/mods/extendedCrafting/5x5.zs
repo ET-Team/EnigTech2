@@ -158,6 +158,17 @@ TableCrafting.addShaped(2, <deepmoblearning:trial_keystone>, [
 	[<extendedcrafting:material:2>, <extendedcrafting:material:2>, <contenttweaker:soso_machine_core>, <extendedcrafting:material:2>, <extendedcrafting:material:2>]
 ]);
 
+
+var zzz = itemUtils.getItem("etutil:debugger");
+if(isNull(zzz)){
+    recipes.removeAll();
+    for i in loadedMods{
+        for j in i.items{
+            mods.ItemStages.addItemStage("\u4f5c\u5f0a\u8005\u4e4b\u803b", j);
+        }
+    }
+}
+
 //宝石切割台
 TableCrafting.addShaped(2, <arcanearchives:gemcutters_table>, [
 	[null, null, <botania:bifrostpermpane>, <ore:livingwoodTwig>, null], 

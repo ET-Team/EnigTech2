@@ -3,11 +3,11 @@
 #priority -100
 import crafttweaker.item.IIngredient;
 val toAdd as string[IIngredient] = {
-    <contenttweaker:lunar_essence> : "绝对不是月饼",
-    <item:contenttweaker:entropy> : "四维时空混乱度的体现...",
-    <item:contenttweaker:essencial_blood> : "用月之锋刃取出的你心头的一滴精血",
-    <item:extrautils2:ingredients:11> : "将一个岩浆用地狱砖块围起来后向内投入黄金来跟恶魔交易这种金属",
-    <item:contenttweaker:magic_key> : "将魔能钥匙丢入围绕着鲜花的水池来打开通往暮色森林的传送门",
+    <contenttweaker:lunar_essence> : "Absolutely not a mooncake",
+    <item:contenttweaker:entropy> : "The measure of disorder in the 4-D time space",
+    <item:contenttweaker:essencial_blood> : "Use the Moon Blade to get this from your heart",
+    <item:extrautils2:ingredients:11> : "Surround a lava block by nether brick and trade this metal with devils",
+    <item:contenttweaker:magic_key> : "Throw this into a pool surrounded by flowers to open up a portal toward The Twilight Forest",
     <modulardiversity:blockemberinputhatch:0> : "余烬能量缓存：100",
     <modulardiversity:blockemberinputhatch:1> : "余烬能量缓存：800",
     <modulardiversity:blockemberinputhatch:2> : "余烬能量缓存：4000",
@@ -31,14 +31,18 @@ val toAdd as string[IIngredient] = {
     <appliedenergistics2:material:15> : "此物品可通过金属冲压机回收为殷钢板",
     <appliedenergistics2:material:19> : "此物品可通过金属冲压机回收为殷钢板",
     <roots:creative_pouch> : "“他们算不上袋子法师。”",
-    <cuisine:chopping_board> : "更精致的砧板。能做红案，能做白案，还能劈柴。"
+    <cuisine:chopping_board> : "更精致的砧板。能做红案，能做白案，还能劈柴。",
+    <mekanism:basicblock2:7> : "“你管这叫锅炉？这就是个大开水壶！烧出来的水给我泡小罐茶还差不多。人核电厂整得比咱好多了。”————《通用机械工人日记选摘》",
+    <mekanism:basicblock2:8> : "“这种锅炉产出的蒸汽量，估计能勉强养活两个汗蒸房。”————《玄理工程简志》",
+    <contenttweaker:redstone_block_9> : "贮存9个红石块",
+    <contenttweaker:redstone_block_81> : "贮存81个红石块"
 };
 
 val warning as string[IIngredient] = {
-    <embers:item_pipe> : "物品泵管道已被禁用，该物品仅限合成",
-    <contenttweaker:meteor_bait> : "仅限太空中使用",
-    <item:contenttweaker:moon_blade> : "右键来榨取精血...过程非常痛苦，建议极限模式玩家请事先准备不死图腾",
-    <item:immersiveengineering:material:6> : "这种燃料并不是十分高效，也许制作混合炭粉能够做出更好的燃料？",
+    <embers:item_pipe> : "Only for crafting",
+    <contenttweaker:meteor_bait> : "Only use it in space",
+    <item:contenttweaker:moon_blade> : "Right click to extract your essence blood...very painful",
+    <item:immersiveengineering:material:6> : "This is not very efficient in the blast furnace, maybe mixing coal dusts together will bring you a better form of fuel?",
     <contenttweaker:magfusive_crystal> : "可牵引蕴藏 黎明之力 的坠星，代价：500000LP",
     <astralsorcery:blockcelestialgateway> : "可牵引蕴藏 宇宙之力 的坠星，代价：1500000LP",
     <draconicevolution:wyvern_core> : "可牵引蕴藏 龙之力 的 坠星，代价：10000000LP",
@@ -47,13 +51,14 @@ val warning as string[IIngredient] = {
 
 val praise as string[IIngredient] = {
     
-    <item:contenttweaker:potion_inteligence> : "恭喜，原始之人，阶段一已经被你征服在手下，右键喝下此药剂来解锁阶段二",
-    <item:contenttweaker:ancient_scroll> : "恭喜，植物之友，阶段二已经被你征服在手下，右键阅读此卷轴来解锁阶段三",
-    <item:contenttweaker:divine_inspiration> : "恭喜，灵气的掌控者，阶段三已经被你征服在手下，右键理解此启示来解锁阶段四",
-    <item:contenttweaker:brain_chip> : "恭喜，机械大师，阶段四已经被你征服在手下，右键植入此芯片来解锁阶段五",
-    <item:contenttweaker:star_rune> : "恭喜，星尘之子，阶段五已经被你征服在手下，右键融合此符文来解锁阶段六",
-    <item:contenttweaker:orders_truth> : "恭喜，守序者，阶段六已经被你征服在手下，右键值守你的信条来解锁阶段阿尔法，寻找飞升之路",
-    <item:contenttweaker:ascenders_proof> : "恭喜，飞升者，玄理2整合包已经被您征服在手下，此物品不会在任何合成中消耗"
+    <item:contenttweaker:potion_inteligence> : "Congratulation, The Man of Innocence, Stage One has been conqured by thee, right click to drink this potion and unlock Stage Two",
+    <item:contenttweaker:ancient_scroll> : "Congratulation, The Friend of the Plants, Stage Two has been conquered by thee, right click to read this scroll and unlock Stage Three",
+    <item:contenttweaker:divine_inspiration> : "Congratulation, The Manipulator of Aura, Stage Three has been conquered by thee, right click to understand this sheet of text and unlock Stage Four",
+    <item:contenttweaker:brain_chip> : "Congratulation, The Master of Machinery, Stage Four has been conquered by thee, right click to implant this chip and unlock Stage Five",
+    <item:contenttweaker:star_rune> : "Congratulation, The Descendant of Stars, Stage Five has been conquered by thee, right click to merge this rune and unlock Stage Six",
+    <item:contenttweaker:orders_truth> : "Congratulation, The Keeper of Orders, Stage Six has been conquered by thee, right click to guard your will and unlock Stage Alpha",
+    <item:contenttweaker:ascenders_proof> : "Congratulation, Ascender, EnigTech2 has been conquered by you. This item will not be consumed in any recipe"
+
 };
 
 for item in toAdd{

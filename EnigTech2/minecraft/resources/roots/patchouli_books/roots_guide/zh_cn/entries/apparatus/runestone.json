@@ -1,5 +1,5 @@
 {
-  "name": "Sure-Footed Stone",
+  "name": "稳脚石",
   "icon": "roots:runestone_trample",
   "category": "apparatus",
   "advancement": "roots:runestone",
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "It is possible to prevent the unwanted trampling of herbs by crafting the Sure-Footed Stone: with this, all creatures will be sure-footed and leave crops intact, no matter how clumsy.$(br2)$(info) Faster but not as efficient as actual water, the stone will attempt to moisturize nearby farmland."
+      "text": "稳脚石可以使田地中珍贵的药草免受失足践踏。在稳脚石的帮助之下，再拙笨的生物都会站定脚跟，以此保持作物的完好。$(br2)$(info)稳脚石也会试着去快速滋润附近的耕地，尽管效率仍稍逊于水。"
     },
     {
       "type": "crafting",
@@ -20,4 +20,4 @@
       ]
     }
   ]
-}
+}                                                                                                                                                                                                                                                                                     

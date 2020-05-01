@@ -1,5 +1,5 @@
 {
-    "name": "Wildwood Quiver",
+    "name": "野木箭袋",
     "icon": "roots:wildwood_quiver",
     "category": "apparatus",
     "advancement": "roots:wildwood",
@@ -7,7 +7,7 @@
     "pages": [
       {
         "type": "text",
-        "text": "Reinforced with wildwood, this quiver has the ability to grow arrows from itself when empty, at the cost of durability.$(br2)$(warning) Arrows shot by this quiver cannot be picked up normally: you must sneak near them in order to do so.$(br2)$(warning) It cannot consume arrows grown of itself."
+        "text": "野木给予了这把箭袋以生长箭矢的功能。当袋中无箭可用时，箭袋会消耗自身耐久，自行生长出箭矢，以应急需。$(br2)$(warning)从箭袋射出的箭矢无法被正常捡拾，你必须在箭矢上潜行来拾取它们。$(br2)$(warning)生长出的箭矢无法被捡拾。"
       },
       {
         "type": "fey_crafting_template",
