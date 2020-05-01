@@ -24,6 +24,7 @@ fruit.onItemUpdate = function(item, world, owner, slot, isSelected) {
         val player as IPlayer = owner;
         if (player.name == item.tag.SoulbindName.asString()) {
             // 添加饱食度
+            if (!ManaHandler.requestManaExact(item, player, 2000, false)) return;
             val foodStats as IFoodStats = player.foodStats;
             if (foodStats.foodLevel < 20) {
                 foodStats.foodLevel += 1;
