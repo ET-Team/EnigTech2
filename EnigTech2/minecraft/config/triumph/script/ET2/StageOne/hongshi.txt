@@ -1,7 +1,7 @@
 
 setIcon(<minecraft:redstone>)
-setTitle("\u7ea2\u77f3")
-setDescription("\u5c06\u4e24\u4e2a\u865e\u7f8e\u4eba,\u4e24\u4e2a\u71e7\u77f3\u4ee5\u53ca\u4e00\u4e2a\u5927\u5730\u5b62\u5b50\u4e22\u5165\u67f4\u5806\u4e2d,\u4e4b\u540e\u5c06\u5176\u70b9\u71c3\u6765\u5236\u4f5c\u7ea2\u77f3")
+setTranslatedTitle("advancement.stageone_hongshi.title")
+setTranslatedDescription("advancement.stageone_hongshi.description")
 addParent("ET2:StageOne/chaidui")
 setPos(-559,-28)
 alwaysVisible()

@@ -1,0 +1,10 @@
+Criterianak = addCriteria("Criterianak", "minecraft:inventory_changed")
+Criterianak.addItem(<forge:bucketfilled,nbt:{FluidName: "nak", Amount: 1000}>)
+setIcon(<forge:bucketfilled,nbt:{FluidName: "nak", Amount: 1000}>)
+setTranslatedTitle("advancement.stagealpha_nak.title");
+setTranslatedDescription("advancement.stagealpha_nak.description")
+setPos(-626,178)
+addParent("ET2:StageAlpha/salt")
+drawDirectLines(true)
+setShowToast(true)
+setAnnounceToChat(true)

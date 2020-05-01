@@ -2,10 +2,10 @@
 setIcon(<naturesaura:range_visualizer>)
 
 //Set title String
-setTitle("\u9636\u6bb5\u4e09:\u542f\u8499")
+setTranslatedTitle("advancement.stagethree_root.title")
 
 //Set description String
-setDescription("\u4e16\u754c\u7684\u5965\u5999\u5411\u4f60\u655e\u5f00\u5927\u95e8\uff0c\u4f60\u8be5\u5982\u4f55\u6709\u6548\u7684\u5229\u7528\u5b83\u4eec\u5462\uff1f")
+setTranslatedDescription("advancement.stagethree_root.description")
 
 //Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
 setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")

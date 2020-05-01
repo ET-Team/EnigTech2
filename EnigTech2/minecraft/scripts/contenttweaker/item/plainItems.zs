@@ -69,7 +69,6 @@ var items as string[] = [
 	"dark_gaiya_crystal_unpolished",
 	"magic_calculator",
 	"magic_calculator_unpowered",
-	"magic_machine_hull",
 	"strong_motor",
 	"strong_motor_unprocessed",
 	"meteor_bait",
@@ -94,6 +93,10 @@ var items as string[] = [
 	"stable_potato",
 	"baked_stable_potato",
 	"baked_stable_potato_unpolished",
+	"earth_x",
+	"wind_x",
+	"spring_x",
+	"condensed_seed",
 
 	"enigarium",
 	"technium",
@@ -102,7 +105,27 @@ var items as string[] = [
 	"will_of_world_tree",
 	"pity_from_nature",
 	"essencial_blood",
-	"forbidden_life_essence"
+	"forbidden_life_essence",
+	"energetic_clathrate",
+	"resonance_heatsource",
+	"depleted_heatsource",
+	"energetic_shard",
+	"dimension_metal",
+	"brass_wire",
+	"rough_mithril",
+	"construction_motioner",
+	"rubber",
+	"rubber_raw",
+	"pink_plate",
+
+	"silent_model_blank",
+	"kunzite",
+	"opal",
+	"cats_eye",
+	"ruby",
+	"sapphire",
+	"garnet",
+	"blue_topaz",
 ];
 
 //物品注册

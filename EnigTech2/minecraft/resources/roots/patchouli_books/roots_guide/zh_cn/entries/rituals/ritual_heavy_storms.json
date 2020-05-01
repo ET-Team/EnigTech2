@@ -1,5 +1,5 @@
 {
-  "name": "Heavy Storms",
+  "name": "暴风雨",
   "icon": "roots:ritual_heavy_storms",
   "category": "rituals",
   "advancement": "roots:cloud_berry",
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Invokes the intensity of the monsoon, causing continuous rain that $(warning) cannot be disabled for the duration of the ritual, unless the ritual itself were doused by a $(l:basics/bucket_of_water)bucket of water$().$(br2)Likewise, all entities near the ritual will be extinguished if set on fire."
+      "text": "唤起强烈的季风，从而引起$(warning)在仪式持续过程中无法被平息的疾风暴雨，除非仪式被 $(l:basics/bucket_of_water)一桶水$()浇熄。$(br2)同样地，暴雨亦可扑灭所有正在被焚烧的生物。"
     },
     {
       "type": "pyre_template",

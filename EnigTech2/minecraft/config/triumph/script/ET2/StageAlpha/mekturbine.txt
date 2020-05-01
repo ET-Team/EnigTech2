@@ -1,0 +1,10 @@
+Criteriamekturbine = addCriteria("Criteriamekturbine", "minecraft:inventory_changed")
+Criteriamekturbine.addItem(<mekanismgenerators:generator:10>)
+setIcon(<mekanismgenerators:generator:10>)
+setTranslatedTitle("advancement.stagealpha_mekturbine.title");
+setTranslatedDescription("advancement.stagealpha_mekturbine.description")
+setPos(-615,223)
+addParent("ET2:StageAlpha/exchange")
+drawDirectLines(true)
+setShowToast(true)
+setAnnounceToChat(true)

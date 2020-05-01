@@ -775,7 +775,8 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockinputbus@3"
+                "modularmachinery:blockinputbus@3",
+                "modularmachinery:blockoutputbus@3"
             ]
         },
         {

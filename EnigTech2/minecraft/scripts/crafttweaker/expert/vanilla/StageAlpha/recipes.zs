@@ -21,6 +21,9 @@ mods.recipestages.Recipes.addShapeless("alpha", <contenttweaker:enigtechnium>, [
     ]
 */
 
+val brzp = <thermalfoundation:material:355>;
+val mmi = <modularmachinery:itemmodularium>;
+
 val shapedRecipes as IIngredient[][][IItemStack] = {
     <thermalfoundation:upgrade:256> : [
         [<contenttweaker:technium>,<botania:pool:1>,<contenttweaker:technium>],
@@ -109,3 +112,8 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
 for output in shapedRecipes{
     mods.recipestages.Recipes.addShaped("alpha", output, shapedRecipes[output]);
 }
+
+recipes.replaceAllOccurences(<minecraft:slime>,<bloodmagic:component:31>,<draconicevolution:tool_upgrade:11>);
+recipes.replaceAllOccurences(<minecraft:redstone_block>,<bloodmagic:component:13>,<draconicevolution:tool_upgrade:10>);
+
+recipes.addShaped(<modularmachinery:blockoutputbus:3>,[[brzp,mmi,brzp],[mmi,<contenttweaker:bad_machine_core>,mmi],[brzp,<bloodmagic:output_routing_node>,brzp]]);

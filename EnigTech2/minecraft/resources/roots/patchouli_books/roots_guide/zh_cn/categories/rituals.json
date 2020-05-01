@@ -1,6 +1,6 @@
 {
-  "name": "Rituals",
+  "name": "柴堆仪式",
   "sortnum" : 3,
-  "description": "Rituals are performed using a $(l:basics/pyre)Pyre$() and generally occur over a period of time. Although some require standing stones or the presence of trees, they are still relatively portable and can be set up wherever needed.$(br2)$(info) All rituals will interact with inventories beneath them to replenish ingredients & restart rituals, allowing for automation.",
+  "description": "根源魔法的仪式均以$(l:basics/pyre)柴堆$() 作为载体且大体上都能在一段有限的时间内持续。尽管部分仪式需要近旁的屹立石柱或特定的树木作为激活的先决条件，它们的机动性还是相对较强的，可以即需即用。$(br2)$(info)每个仪式都会与它们下方的容器进行交互来填充原料与激活仪式，使得自动化成为可能。",
   "icon": "roots:bonfire"
 }

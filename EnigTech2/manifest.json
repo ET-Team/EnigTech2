@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "EnigTech2",
-  "version": "1.3.2",
+  "version": "1.3.5",
   "author": "dong031001",
   "files": [
     {
@@ -51,7 +51,7 @@
     },
     {
       "projectID": 322861,
-      "fileID": 2762550,
+      "fileID": 2899874,
       "required": true
     },
     {
@@ -101,7 +101,7 @@
     },
     {
       "projectID": 280506,
-      "fileID": 2804291,
+      "fileID": 2899375,
       "required": true
     },
     {
@@ -111,12 +111,12 @@
     },
     {
       "projectID": 270457,
-      "fileID": 2657108,
+      "fileID": 2891484,
       "required": true
     },
     {
       "projectID": 354236,
-      "fileID": 2877594,
+      "fileID": 2891954,
       "required": true
     },
     {
@@ -166,7 +166,7 @@
     },
     {
       "projectID": 224712,
-      "fileID": 2707185,
+      "fileID": 2875678,
       "required": true
     },
     {
@@ -181,12 +181,17 @@
     },
     {
       "projectID": 243707,
-      "fileID": 2863817,
+      "fileID": 2904987,
       "required": true
     },
     {
       "projectID": 238123,
       "fileID": 2671230,
+      "required": true
+    },
+    {
+      "projectID": 254879,
+      "fileID": 2443623,
       "required": true
     },
     {
@@ -326,7 +331,7 @@
     },
     {
       "projectID": 237167,
-      "fileID": 2832410,
+      "fileID": 2891572,
       "required": true
     },
     {
@@ -371,7 +376,7 @@
     },
     {
       "projectID": 252848,
-      "fileID": 2858168,
+      "fileID": 2893527,
       "required": true
     },
     {
@@ -386,7 +391,7 @@
     },
     {
       "projectID": 232758,
-      "fileID": 2831241,
+      "fileID": 2880441,
       "required": true
     },
     {
@@ -396,7 +401,7 @@
     },
     {
       "projectID": 246183,
-      "fileID": 2865501,
+      "fileID": 2882804,
       "required": true
     },
     {
@@ -411,7 +416,7 @@
     },
     {
       "projectID": 223852,
-      "fileID": 2777929,
+      "fileID": 2887858,
       "required": true
     },
     {
@@ -451,12 +456,12 @@
     },
     {
       "projectID": 250702,
-      "fileID": 2822814,
+      "fileID": 2876721,
       "required": true
     },
     {
       "projectID": 237307,
-      "fileID": 2697672,
+      "fileID": 2883493,
       "required": true
     },
     {
@@ -506,7 +511,7 @@
     },
     {
       "projectID": 306626,
-      "fileID": 2824208,
+      "fileID": 2882138,
       "required": true
     },
     {
@@ -546,7 +551,7 @@
     },
     {
       "projectID": 226254,
-      "fileID": 2853541,
+      "fileID": 2908546,
       "required": true
     },
     {
@@ -716,12 +721,12 @@
     },
     {
       "projectID": 236541,
-      "fileID": 2841976,
+      "fileID": 2878931,
       "required": true
     },
     {
       "projectID": 236542,
-      "fileID": 2875228,
+      "fileID": 2887707,
       "required": true
     },
     {
@@ -771,7 +776,7 @@
     },
     {
       "projectID": 220954,
-      "fileID": 2693544,
+      "fileID": 2881277,
       "required": true
     },
     {
@@ -792,11 +797,6 @@
     {
       "projectID": 256717,
       "fileID": 2666198,
-      "required": true
-    },
-    {
-      "projectID": 283525,
-      "fileID": 2821476,
       "required": true
     },
     {
@@ -846,7 +846,7 @@
     },
     {
       "projectID": 303694,
-      "fileID": 2868936,
+      "fileID": 2905502,
       "required": true
     },
     {
@@ -856,7 +856,7 @@
     },
     {
       "projectID": 32274,
-      "fileID": 2873185,
+      "fileID": 2888880,
       "required": true
     },
     {
@@ -880,13 +880,13 @@
       "required": true
     },
     {
-      "projectID": 314904,
-      "fileID": 2819669,
+      "projectID": 318255,
+      "fileID": 2747710,
       "required": true
     },
     {
-      "projectID": 318255,
-      "fileID": 2747710,
+      "projectID": 314904,
+      "fileID": 2819669,
       "required": true
     },
     {
@@ -916,7 +916,7 @@
     },
     {
       "projectID": 298187,
-      "fileID": 2823582,
+      "fileID": 2904659,
       "required": true
     },
     {
@@ -975,5 +975,5 @@
       "required": true
     }
   ],
-  "overrides": "minecraft"
+  "overrides": "src"
 }

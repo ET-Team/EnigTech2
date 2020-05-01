@@ -1,0 +1,11 @@
+Criteriacool = addCriteria("Criteriacool", "minecraft:inventory_changed")
+Criteriacool.addItem(<mekanismgenerators:generator:13>)
+setIcon(<mekanismgenerators:generator:13>)
+setTranslatedTitle("advancement.stagealpha_cool.title");
+setTranslatedDescription("advancement.stagealpha_cool.description")
+setPos(-576,223)
+addParent("ET2:StageAlpha/mekturbine")
+drawDirectLines(true)
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("CHALLENGE")

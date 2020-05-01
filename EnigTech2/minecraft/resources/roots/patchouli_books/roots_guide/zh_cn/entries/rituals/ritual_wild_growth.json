@@ -1,5 +1,5 @@
 {
-  "name": "Wildroot Growth",
+  "name": "野根生长",
   "icon": "roots:ritual_wild_growth",
   "category": "rituals",
   "advancement": "roots:spirit_herb",
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Causes the latent life force within nearby wildroot to sprout forth a single tree.$(br2)$(warning) This ritual requires a fully-grown wildroot crop in order to function."
+      "text": "激发野根潜在的生命之力，使其喷涌而出，从而长成为高大的野木。$(br2)$(warning)这一仪式只在近旁存在已成熟的野生根茎植株时方可顺利成效。"
     },
     {
       "type": "pyre_template",

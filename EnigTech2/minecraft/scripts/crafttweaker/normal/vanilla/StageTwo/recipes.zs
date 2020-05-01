@@ -2,9 +2,14 @@
 #modloaded etutil
 #priority -100
 
+val slm = <ore:slimeball>;
+val star = <silentgems:craftingmaterial:20>;
+val agent = <silentgems:charging_agent:2>;
+val dwood = <ore:dustWood>;
+
 recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [[<contenttweaker:fire_resist_brick>, <ore:sandstone>, <contenttweaker:fire_resist_brick>],[<ore:sandstone>, <contenttweaker:arcane_essence>, <ore:sandstone>], [<contenttweaker:fire_resist_brick>, <ore:sandstone>, <contenttweaker:fire_resist_brick>]]);
 recipes.addShaped(<contenttweaker:fire_resist_brick>, [[<minecraft:brick>, <contenttweaker:fire_resist_mixture>], [<contenttweaker:fire_resist_mixture>, <contenttweaker:fire_resist_mixture>]]);
-recipes.addShaped(<contenttweaker:fire_resist_mixture> * 6, [[<minecraft:clay_ball>, <minecraft:sand>, <ore:slimeball>],[<minecraft:sand>, <botania:specialflower>.withTag({type: "clayconia"}).reuse(), <minecraft:sand>], [<ore:slimeball>, <minecraft:sand>, <minecraft:clay_ball>]]);
+recipes.addShaped(<contenttweaker:fire_resist_mixture> * 6, [[<minecraft:clay_ball>, <minecraft:sand>, slm],[<minecraft:sand>, <botania:specialflower>.withTag({type: "clayconia"}).reuse(), <minecraft:sand>], [slm, <minecraft:sand>, <minecraft:clay_ball>]]);
 recipes.addShaped(<contenttweaker:good_fuel> * 2, [[<immersiveengineering:material:17>, <contenttweaker:mixed_coal_dust>, <immersiveengineering:material:17>],[<contenttweaker:mixed_coal_dust>, <contenttweaker:fuel_helper>, <contenttweaker:mixed_coal_dust>], [<immersiveengineering:material:17>, <contenttweaker:mixed_coal_dust>, <immersiveengineering:material:17>]]);
 recipes.addShaped(<contenttweaker:fuel_helper> * 2, [[<contenttweaker:dried_grass>, <thermalfoundation:material:800>], [<thermalfoundation:material:800>, <contenttweaker:dried_grass>]]);
 recipes.addShaped(<contenttweaker:mixed_coal_dust> * 9, [[<thermalfoundation:material:768>, <thermalfoundation:material:769>, <thermalfoundation:material:768>],[<thermalfoundation:material:769>, <thermalfoundation:material:768>, <thermalfoundation:material:769>], [<thermalfoundation:material:768>, <thermalfoundation:material:769>, <thermalfoundation:material:768>]]);
@@ -52,3 +57,13 @@ recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "
 val bcoal = <minecraft:coal_block>;
 val bchaos = <silentgems:miscblock:0>;
 recipes.addShaped("chaoscoal_block", <silentgems:miscblock:3>*8, [[bcoal,bcoal,bcoal],[bcoal,bchaos,bcoal],[bcoal,bcoal,bcoal]]);
+
+//神秘粘液
+mods.recipestages.Recipes.addShaped("two",<silentgems:craftingmaterial:28>*6,[[slm,slm,slm],[slm,<botania:manaresource:23>,slm],[slm,slm,slm]]);
+
+//晶化混沌
+mods.recipestages.Recipes.addShaped("two",<silentgems:craftingmaterial:2>, [[star,agent,star],[agent,<silentgems:craftingmaterial:18>,agent],[star,agent,star]]);
+//纸箱
+mods.recipestages.Recipes.addShaped("two",<mekanism:cardboardbox>,[[dwood,dwood,dwood],[dwood,slm,dwood],[dwood,dwood,dwood]]);
+
+recipes.replaceAllOccurences(<minecraft:leather>,<ore:materialTannedLeather>,<harvestcraft:hardenedleatheritem>);

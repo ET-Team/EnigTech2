@@ -1,5 +1,5 @@
 {
-  "name": "Pereskia",
+  "name": "木麒麟",
   "icon": "roots:pereskia",
   "category": "herbs",
   "advancement": "roots:pyre",
@@ -9,7 +9,7 @@
       "type": "spotlight",
       "item": "roots:pereskia",
       "link_recipe": true,
-      "text": "Once called \"feyblossom\" due to the belief that they originated in the gardens of fairies, the flower of this plant is magically potent.$(br2)$(info) Pereskia bulbs can be planted in normal farmland.$(br2)$(info) This herb is very precious and used in a number of crafting recipes."
+      "text": "曾被称为“灵绽花”的木麒麟据信起源于精灵花园之中，蕴藏着精灵的神力。$(br2)$(info)任何耕地均可用以种植木麒麟鳞茎。$(br2)$(info)这种药草十分珍贵，在许多制作配方中，你都可以发现木麒麟的身影。"
     },
     {
       "type": "ritual_crafting_template",
@@ -22,7 +22,7 @@
     {
       "type": "smelting",
       "recipe": "roots:pereskia_bulb",
-      "text": "The bulbs of the pereskia are quite delicious when cooked."
+      "text": "烤熟的木麒麟鳞茎很是美味。"
     },
     {
       "type": "relations",

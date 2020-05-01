@@ -1,5 +1,5 @@
 {
-  "name": "Sylvan Armor",
+  "name": "希尔文套装",
   "icon": "roots:sylvan_helmet",
   "category": "apparatus",
   "advancement": "roots:runic_shears",
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "These robes take the freely-gifted fey leather, certainly preferably to the skin of slain animals, and transform them into magical robes.$(br2)In addition to the protection they give, their magical nature also imparts onto the wearer and their possessions a boon: $(info) each piece worn decreases the costs of any spell or process that consumes herbs, starting at 2% and increasing to 8% when all four pieces are worn."
+      "text": "精灵奉献出了它的羽翼，动物牺牲出了它的皮革，你得到了它们，将其幻化为这件魔法长袍。$(br2)它不仅能为你提供应有的庇护，它那奇妙的天性亦将被穿戴者获习，恩赐其拥有者：$(info)每件希尔文护甲均会抵消咒术等需药草来维持的进程中的药草消耗量。譬如穿着一件将抵消2%，而全套希尔文护甲将抵消8%的药草消耗。"
     },
     {
       "type": "fey_crafting_template",

@@ -1,8 +1,8 @@
 
 
 setIcon(<minecraft:potion>)
-setTitle("\u519c\u592b\u5c71\u6cc9")
-setDescription("\u6765\u704c\u4e00\u74f6\u6c34\u89e3\u89e3\u6e34(\u867d\u7136\u53ef\u80fd\u4f1a\u8131\u6c34")
+setTranslatedTitle("advancement.stageone_shuiping.title")
+setTranslatedDescription("advancement.stageone_shuiping.description")
 addParent("ET2:StageOne/boliping")
 setPos(-529,40)
 alwaysVisible()

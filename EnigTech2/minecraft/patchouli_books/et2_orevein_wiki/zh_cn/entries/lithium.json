@@ -1,0 +1,17 @@
+{
+    "name": "锂矿脉",
+    "icon": "libvulpes:ore0",
+    "category": "small_vein",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "libvulpes:ore0",
+            "title": "锂矿脉",
+            "text": "锂矿脉是后期会用到的矿脉，储量较少，盛产双锂矿石"
+        },
+        {
+            "type": "text",
+            "text": "主矿石:双锂矿石$(br)伴生矿石:无$(br2)生成高度:32-50$(br2)矿脉大小:小$(br)矿脉密度:密集$(br2)地表指示:海蓝宝石荧光玫瑰$(br)矿脉稀有度:稀有$(br2)生成维度:暮色森林"
+        }
+    ]
+}

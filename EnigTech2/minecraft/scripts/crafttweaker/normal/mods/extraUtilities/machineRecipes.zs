@@ -21,6 +21,7 @@ polisher.addRecipe({water:<liquid:boiling_potato_juice>*9600, item:<contenttweak
 
 fluider.addRecipe({liquid:<liquid:fluid_concentrated_ethylene>*200},{output:<contenttweaker:bulk_of_plastic>},1000,40);
 fluider.addRecipe({liquid:<liquid:fluid_blend_caminite>*200},{output:<embers:blend_caminite>},5000,40);
+fluider.addRecipe({liquid:<fluid:resin>*90},{output:<contenttweaker:rubber_raw>},2000,100);
 
 fluid.addRecipe({input:<liquid:fluid_silicon>*1000},{output:<liquid:fluid_concentrated_silicon>*600}, 2000, 80);
 fluid.addRecipe({input:<liquid:fluid_ethylene>*1000},{output:<liquid:fluid_concentrated_ethylene>*600}, 2000, 80);

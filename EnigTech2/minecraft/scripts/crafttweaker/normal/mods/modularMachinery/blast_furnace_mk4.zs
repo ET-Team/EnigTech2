@@ -315,4 +315,13 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_potato", machineN
 	.addItemOutput(<contenttweaker:baked_stable_potato_unpolished>)
 	.addItemInput(<contenttweaker:stable_potato>)
 	.build();
-	
+//维度金属
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_dimension_metal", machineName, speedTierThree)
+    .addManaInput(3000)
+	.addItemOutput(<contenttweaker:dimension_metal>)
+	.addItemInput(<nuclearcraft:compound:8>*16)
+	.addItemInput(<environmentaltech:ionite_crystal>)
+	.addItemInput(<nuclearcraft:alloy:2>)
+	.addItemInput(<ore:ingotEnderium>)
+	.addFluidInput(<liquid:mana>*500)
+	.build();

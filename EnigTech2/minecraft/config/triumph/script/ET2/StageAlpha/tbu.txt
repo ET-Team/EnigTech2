@@ -1,0 +1,10 @@
+Criteriatbu = addCriteria("Criteriatbu", "minecraft:inventory_changed")
+Criteriatbu.addItem(<forge:bucketfilled,nbt:{FluidName: "fuel_tbu_fluoride_flibe", Amount: 1000}>)
+setIcon(<forge:bucketfilled,nbt:{FluidName: "fuel_tbu_fluoride_flibe", Amount: 1000}>)
+setTranslatedTitle("advancement.stagealpha_tbu.title");
+setTranslatedDescription("advancement.stagealpha_tbu.description")
+setPos(-654,127)
+addParent("ET2:StageAlpha/flibe")
+drawDirectLines(true)
+setShowToast(true)
+setAnnounceToChat(true)
