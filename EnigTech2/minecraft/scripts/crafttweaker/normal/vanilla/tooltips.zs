@@ -2,6 +2,8 @@
 #modloaded etutil
 #priority -100
 import crafttweaker.item.IIngredient;
+import scripts.crafttweaker.utils.I18n;
+
 val toAdd as string[IIngredient] = {
     <contenttweaker:lunar_essence> : "绝对不是月饼",
     <item:contenttweaker:entropy> : "四维时空混乱度的体现...",
@@ -67,3 +69,13 @@ for item in warning{
 for item in praise{
     item.addTooltip(format.gold(praise[item]));
 }
+
+<item:contenttweaker:advanced_infinite_fruit>.addShiftTooltip(function(item) {
+    if (item.hasTag) {
+        return I18n.i18nValued("botaniamisc.relicSoulbound", [item.tag.SoulbindName.asString()]).replace("&", "§");
+    } else {
+        return I18n.i18n("botaniamisc.relicUnbound").replace("&", "§");
+    }
+}, function(item) {
+    return I18n.i18n("botaniamisc.shiftinfo").replace("&", "§");
+});
