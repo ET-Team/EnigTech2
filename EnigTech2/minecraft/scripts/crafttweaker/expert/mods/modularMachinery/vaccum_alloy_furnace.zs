@@ -4,7 +4,7 @@
 var machineName = "vaccum_alloy_furnace";
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_default", machineName, 400)
-	.addMekanismHeatInput(1000, 599000, 600000)
+	.addMekanismHeatInput(-1000, 580000, 600000)
 	.addItemInput(<appliedenergistics2:material:47>*2)
 	.addItemInput(<contenttweaker:ether_alloy_ingot>)
 	.addItemInput(<botania:manaresource:7>)
