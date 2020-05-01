@@ -1,5 +1,5 @@
 #packmode normal expert
-#modloaded etutil bloodarsenal botania_tweaks botanicadds draconicadditions enderioendergy rf-capability-adapter equivalentenergistics sgextraparts randomenchantments
+#modloaded etutil bloodarsenal botania_tweaks botanicadds draconicadditions enderioendergy rf-capability-adapter equivalentintegrations sgextraparts randomenchantments
 #priority -100
 var machineName = "blast_furnace_mke";
 
