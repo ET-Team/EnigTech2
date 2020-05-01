@@ -2,6 +2,8 @@
 #modloaded etutil
 #loader contenttweaker
 
+// Author: youyihj
+
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.Player;

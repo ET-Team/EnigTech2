@@ -73,6 +73,7 @@ for item in praise{
     item.addTooltip(format.gold(praise[item]));
 }
 
+// Author: youyihj
 <item:contenttweaker:advanced_infinite_fruit>.addShiftTooltip(function(item) {
     if (item.hasTag) {
         return I18n.i18nValued("botaniamisc.relicSoulbound", [item.tag.SoulbindName.asString()]).replace("&", "§");
