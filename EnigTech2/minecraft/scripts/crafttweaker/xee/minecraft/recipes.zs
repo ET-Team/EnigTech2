@@ -140,4 +140,18 @@ for sloutput in shapedlessRecipes{
 
 //额外操作
 recipes.replaceAllOccurences(<ore:ingotIron>, consm, <rf-capability-adapter:aecapabilityadapter>);
-recipes.replaceAllOccurences(<ore:ingotIron>, <ore:itemConstructionAlloy>, <enderio:item_material:69>*16);
+recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotConstructionAlloy>, <enderio:item_material:69>*16);
+
+//热量保持隔绝升级
+mods.recipestages.Recipes.addShaped("five", <soot:insulation>, [
+	[<thermalfoundation:material:328>, <contenttweaker:plate_antimony>, <thermalfoundation:material:328>], 
+	[<extendedcrafting:material:2>, <thermalfoundation:storage_alloy:3>, <extendedcrafting:material:2>], 
+	[<embers:ashen_tile>, <embers:ashen_stone_slab>, <embers:ashen_tile>]
+]);
+
+//成分数据电脑
+mods.recipestages.Recipes.addShaped("five", <contenttweaker:silent_model_blank>, [
+	[<contenttweaker:material_part:106>, <enderio:item_material:19>, <contenttweaker:material_part:106>], 
+	[<contenttweaker:baseplate_iridium>, <contenttweaker:integrated_calculation_module>, <contenttweaker:baseplate_iridium>], 
+	[<contenttweaker:material_part:106>, <contenttweaker:baseplate_iridium>, <contenttweaker:material_part:106>]
+]);
