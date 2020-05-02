@@ -75,6 +75,7 @@ val oredictAddArray = [
     <ore:plateCrystallinePinkSlime>,
     <ore:gemTopazes>,
     <ore:gemTopazes>,
+    <ore:plateAntimony>,
 ] as IOreDictEntry[];
 
 val itemAddArray = [
@@ -82,7 +83,8 @@ val itemAddArray = [
     <contenttweaker:brass_coil>,
     <contenttweaker:pink_plate>,
     <silentgems:gem:2>,
-    <silentgems:gem:25>
+    <silentgems:gem:25>,
+    <contenttweaker:plate_antimony>,
 ] as IItemStack[];
 
 //结算
