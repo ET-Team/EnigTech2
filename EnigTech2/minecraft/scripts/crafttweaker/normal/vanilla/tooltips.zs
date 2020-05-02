@@ -2,6 +2,8 @@
 #modloaded etutil
 #priority -100
 import crafttweaker.item.IIngredient;
+import scripts.crafttweaker.utils.I18n;
+
 val toAdd as string[IIngredient] = {
     <contenttweaker:lunar_essence> : "Absolutely not a mooncake",
     <item:contenttweaker:entropy> : "The measure of disorder in the 4-D time space",
@@ -72,3 +74,14 @@ for item in warning{
 for item in praise{
     item.addTooltip(format.gold(praise[item]));
 }
+
+// Author: youyihj
+<item:contenttweaker:advanced_infinite_fruit>.addShiftTooltip(function(item) {
+    if (item.hasTag) {
+        return I18n.i18nValued("botaniamisc.relicSoulbound", [item.tag.SoulbindName.asString()]).replace("&", "§");
+    } else {
+        return I18n.i18n("botaniamisc.relicUnbound").replace("&", "§");
+    }
+}, function(item) {
+    return I18n.i18n("botaniamisc.shiftinfo").replace("&", "§");
+});
