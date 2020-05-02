@@ -344,6 +344,21 @@ addItemStage("two",<mekanism:cardboardbox>);
 removeItemStage(<actuallyadditions:item_solidified_experience>);
 addItemStage("one",<actuallyadditions:item_solidified_experience>);
 
+removeItemStage(<mekanismgenerators:generator:12>);
+addItemStage("alpha",<mekanismgenerators:generator:12>);
+
+removeItemStage(<mekanismgenerators:generator:11>);
+addItemStage("alpha",<mekanismgenerators:generator:11>);
+
+removeItemStage(<mekanismgenerators:generator:10>);
+addItemStage("alpha",<mekanismgenerators:generator:10>);
+
+removeItemStage(<mekanismgenerators:generator:7>);
+addItemStage("alpha",<mekanismgenerators:generator:7>);
+
+removeItemStage(<mekanismgenerators:turbineblade>);
+addItemStage("alpha",<mekanismgenerators:turbineblade>);
+
 val bannedArray = [
 	<soot:stamp_text>,
 	<roots:unending_bowl>,

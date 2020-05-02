@@ -30,3 +30,6 @@ ResourceLocation.create("contenttweaker:redstone_block_81/restone_block_81");
 
 BlockBuilder("magic_machine_hull", <blockmaterial:iron>, <soundtype:metal>, 5.0, 50.0, "pickaxe", 0);
 ResourceLocation.create("contenttweaker:magic_machine_hull/magic_machine_hull");
+
+BlockBuilder("philosophers_sand", <blockmaterial:sand>, <soundtype:sand>, 5.0, 50.0, "shovel", 3);
+ResourceLocation.create("contenttweaker:philosophers_sand/philosophers_sand");

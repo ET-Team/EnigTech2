@@ -6,14 +6,17 @@ import crafttweaker.item.IItemStack;
 
 static modMap as string[string] = {
   "Example Mod" : "ExampleMaterial",
-  "IndustrialCraft 2" : "Copper"
+  "“第二启示”" : "Zinc",
+  "“第二启示”" : "Cobalt",
+  "“第二启示”" : "Ardite",
+  "“第二启示”" : "Manyullyn"
 };
 
 for modName, material in modMap{
   for entry in oreDict.entries{
     if(entry.name has material){
       for item in entry.items{
-        item.addTooltip("BALABALABA"+modName+"BALABALABA");
+        item.addTooltip("该材料特供于"+modName+"的参与者。您所处的世界观表明您暂无此资格知晓其用途。");
       }  
     }
   }

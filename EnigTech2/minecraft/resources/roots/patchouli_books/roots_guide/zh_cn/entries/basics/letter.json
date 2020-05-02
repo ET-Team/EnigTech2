@@ -1,5 +1,5 @@
 {
-    "name": "Letter from a Druid",
+    "name": "一位德鲁伊的遗信",
     "icon": "minecraft:paper",
     "category": "basics",
     "advancement": "roots:root",
@@ -8,24 +8,24 @@
     "pages": [
       {
         "type": "text",
-        "title": "To my fellow druid,",
-        "text": "It can often times be difficult to start out in the world. The process of living in harmony with nature may seem like a pleasant ideal when things are going well, but when the sun sets and darkness rules the land, respecting nature may become a difficult task.$(br2)Use the tools at your disposal well, but use them responsibly. Respect nature's creatures at every turn!"
+        "title": "致后人：",
+        "text": "白手起家，并非易事。如天时而地利，与自然和谐共处似顺风顺水；可当日落西山，夜幕垂笼，自然，却将变得极难于窥测。$(br2)你的工具大可以任你操使，但请谨记：秉承责任之心，崇敬自然万物！"
       },
       {
         "type": "crafting",
         "recipe": "roots:assorted_seeds",
-        "text": "Temptation may come upon you when faced with hunger or even starvation, but even at the worst of times you may find comfort and sustenance from a handful of seeds gently toasted."
+        "text": "欲望是人的天性，饥饿则是欲望最原始的根源。无论处境多么艰难，那一捧精心焙烤过的种子，总能给你最简单的安慰与寄托。"
       },
       {
         "type": "text",
-        "title": "Wildroot",
-        "text": "I have learnt much on the matter of $(l:herbs/wildroot)wildroot$(), that wondrous, magic-filled root that litters the land and lurks in the tall grasses.$(br2)It was once the roots of vast trees known as wildwood, now forever lost from the land. It still retains vitality & life however.$(br2)As with many plants, it can be cultivated in soil as you would any other crop."
+        "title": "野生根茎",
+        "text": "我自信对$(l:herbs/wildroot)野生根茎$()的研究很是透彻。那奇异的，充溢着魔力的根茎遍布这片大陆，潜匿在繁密的草丛之间。$(br2)许久以前，它曾是一种名为“野木“的巨树之根。这片沃土，虽再也无法得见当年野木，它的根茎却仍以其丰沛的生命力，留存着古树的回响。$(br2)与其它作物一样，野生根茎可以在潮湿的耕地中蓬勃生长。"
       },
       {
         "type": "crafting",
         "recipe": "mysticalworld:stuffed_aubergine",
-        "title": "Aubergine",
-        "text": "The humble $(l:resources/aubergine)aubergine$() can be delicious cooked & combined with other root vegetables becomes.$(br2)Its latent magic is weak, but you will find uses for it in spells & rituals. Like wildroot, it can be cultivated."
+        "title": "茄子",
+        "text": "$(l:resources/aubergine)茄子$()，一种低调的植物。但经过其它块茎植物的点缀，加以细致的烹调，其味之美，却仿佛一声呐喊。$(br2)茄子自身并没有许多潜能，但仍会是一些咒术及仪式中不可或缺的一员。与野生根茎一样，茄子也值得占据你的一亩三分地。"
       },
       {
         "type": "text",
