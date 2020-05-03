@@ -260,13 +260,15 @@
     },
     {
         "mode": "ADD",
-        "result": "ae2wtlib:wut_creative",
-        "catalyst": "ae2wtlib:wut",
-        "energy": 30000000,
+        "result": "draconicevolution:creative_rf_source",
+        "catalyst": "draconicevolution:infused_obsidian",
+        "energy": 80000000,
         "tier": 2,
         "ingredients": [
-            "wct:wct_creative",
-            "wpt:wpt_creative"
+            "extendedcrafting:singularity_ultimate",
+            "contenttweaker:enigtechnium",
+            "extendedcrafting:singularity_ultimate",
+            "contenttweaker:enigtechnium"
         ]
     },
     {
