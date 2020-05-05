@@ -29,6 +29,15 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystalline", mac
     .addItemOutput(<enderio:item_alloy_endergy_ingot:1>*2)
     .build();
 
+//海晶素
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystalline", machineName, 180)
+    .addEnergyPerTickInput(800)
+    .addItemInput(<actuallyadditions:item_crystal:2>)
+	.addItemInput(<ore:ingotCrystaltine>)
+    .addItemInput(<ore:dustPrismarine>*4)
+    .addItemOutput(<contenttweaker:material_part:144>*4)
+    .build();
+
 //鍪银锭 合金
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_alloythy", machineName, 40)
     .addEnergyPerTickInput(3000)
