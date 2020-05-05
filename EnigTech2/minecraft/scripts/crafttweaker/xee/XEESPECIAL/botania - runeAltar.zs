@@ -2,8 +2,8 @@
 #modloaded etutil bloodarsenal botania_tweaks botanicadds draconicadditions enderioendergy rf-capability-adapter equivalentintegrations sgextraparts randomenchantments
 #priority -100
 
-import mods.botania.RuneAltar;
+import mods.botania.Apothecary;
 
-mods.botania.RuneAltar.removeRecipe(<botania:specialflower>.withTag({type: "ba_lightning_flower"}));
-mods.botania.RuneAltar.removeRecipe(<botania:specialflower>.withTag({type: "ba_rain_flower"}));
-mods.botania.RuneAltar.removeRecipe(<botania:specialflower>.withTag({type: "ba_snow_flower"}));
+mods.botania.Apothecary.removeRecipe("ba_lightning_flower");
+mods.botania.Apothecary.removeRecipe("ba_rain_flower");
+mods.botania.Apothecary.removeRecipe("ba_snow_flower");
