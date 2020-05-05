@@ -288,7 +288,7 @@
     },
     {
         "mode": "ADD",
-        "result": "extendedcrafting:storage,4,0",
+        "result": "extendedcrafting:storage,4,4",
         "catalyst": "extendedcrafting:singularity_ultimate",
         "energy": 900000,
         "tier": 2,
