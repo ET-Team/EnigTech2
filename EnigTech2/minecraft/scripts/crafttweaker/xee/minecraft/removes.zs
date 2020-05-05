@@ -22,7 +22,9 @@ val removingArray = [
     <cyberware:scanner>,
     <cyberware:radio_post>,
     <cyberware:beacon>,
-    <cyberware:beacon_large>
+    <cyberware:beacon_large>,
+    <equivalentintegrations:transmutation_chamber>,
+    <equivalentintegrations:transmutation_disassembler>
 ] as IItemStack[];
 
 //按矿辞移除

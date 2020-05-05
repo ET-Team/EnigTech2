@@ -159,3 +159,16 @@ mods.recipestages.Recipes.addShaped("five", <contenttweaker:silent_model_blank>,
 
 //效率催化卡
 mods.recipestages.Recipes.addShapeless("alpha", <equivalentintegrations:efficiency_catalyst>, [<appliedenergistics2:material:28>,<projecte:item.pe_matter:1>]);
+
+//EI仓
+mods.recipestages.Recipes.addShaped("alpha", <equivalentintegrations:transmutation_disassembler>, [
+	[<ore:plateTungsten>, <projecte:transmutation_table>, <ore:plateTungsten>], 
+	[<ore:plateTungsten>, <contenttweaker:void_machine_core>, <ore:plateTungsten>], 
+	[<contenttweaker:baseplate_iridium>, <contenttweaker:baseplate_iridium>, <contenttweaker:baseplate_iridium>]
+]);
+
+mods.recipestages.Recipes.addShaped("alpha", <equivalentintegrations:transmutation_chamber>, [
+	[<ore:plateTungsten>, <projecte:transmutation_table>, <ore:plateTungsten>], 
+	[<ore:plateTungsten>, <contenttweaker:zhishu_machine_core>, <ore:plateTungsten>], 
+	[<contenttweaker:baseplate_iridium>, <contenttweaker:baseplate_iridium>, <contenttweaker:baseplate_iridium>]
+]);
