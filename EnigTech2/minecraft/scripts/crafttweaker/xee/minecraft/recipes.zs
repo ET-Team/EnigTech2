@@ -141,6 +141,7 @@ for sloutput in shapedlessRecipes{
 //额外操作
 recipes.replaceAllOccurences(<ore:ingotIron>, consm, <rf-capability-adapter:aecapabilityadapter>);
 recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotConstructionAlloy>, <enderio:item_material:69>*16);
+recipes.replaceAllOccurences(<ore:ingotIron>, <contenttweaker:magcondium_ingot>, <equivalentintegrations:conjuration_assembler>);
 
 //热量保持隔绝升级
 mods.recipestages.Recipes.addShaped("five", <soot:insulation>, [
@@ -155,3 +156,6 @@ mods.recipestages.Recipes.addShaped("five", <contenttweaker:silent_model_blank>,
 	[<contenttweaker:baseplate_iridium>, <contenttweaker:integrated_calculation_module>, <contenttweaker:baseplate_iridium>], 
 	[<contenttweaker:material_part:106>, <contenttweaker:baseplate_iridium>, <contenttweaker:material_part:106>]
 ]);
+
+//效率催化卡
+mods.recipestages.Recipes.addShapeless("alpha", <equivalentintegrations:efficiency_catalyst>, [<appliedenergistics2:material:28>,<projecte:item.pe_matter:1>]);
