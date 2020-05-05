@@ -142,6 +142,8 @@ for sloutput in shapedlessRecipes{
 recipes.replaceAllOccurences(<ore:ingotIron>, consm, <rf-capability-adapter:aecapabilityadapter>);
 recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotConstructionAlloy>, <enderio:item_material:69>*16);
 recipes.replaceAllOccurences(<ore:ingotIron>, <contenttweaker:magcondium_ingot>, <equivalentintegrations:conjuration_assembler>);
+recipes.replaceAllOccurences(<ore:gemEmerald>, <ore:gearManyullyn>, <bloodarsenal:altare_aenigmatica>);
+recipes.replaceAllOccurences(<ore:blockRedstone>, <ore:blockArdite>, <bloodarsenal:blood_capacitor>);
 
 //热量保持隔绝升级
 mods.recipestages.Recipes.addShaped("five", <soot:insulation>, [
