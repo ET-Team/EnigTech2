@@ -973,6 +973,10 @@ et2.tooltip.magfusive_crystal=可牵引蕴藏 黎明之力 的坠星，代价：
 et2.tooltip.blockcelestialgateway=可牵引蕴藏 宇宙之力 的坠星，代价：1500000LP
 et2.tooltip.wyvern_core=可牵引蕴藏 龙之力 的 坠星，代价：10000000LP
 et2.tooltip.storage_8=血淋淋的教训
+et2.tooltip.na_crafter=最高可处理配方：阶段三
+et2.tooltip.eio_crafter=最高可处理配方：阶段五
+et2.tooltip.te_crafter=最高可处理配方：阶段五
+et2.tooltip.mek_crafter=最高可处理配方：阶段六
 
 et2.parise.expert.stage_one=恭喜，原始之人，专家模式阶段一已经被你征服在手下，右键喝下此药剂来解锁阶段二
 et2.parise.expert.stage_two=恭喜，植物之友，专家模式阶段二已经被你征服在手下，右键阅读此卷轴来解锁阶段三

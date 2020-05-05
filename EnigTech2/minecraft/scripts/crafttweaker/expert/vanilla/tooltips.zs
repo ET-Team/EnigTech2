@@ -35,7 +35,11 @@ val toAdd as string[IIngredient] = {
     <mekanism:basicblock2:7> : game.localize("et2.tooltip.basicblock2"),
     <mekanism:basicblock2:8> : game.localize("et2.tooltip.basicblock3"),
     <contenttweaker:redstone_block_9> : game.localize("et2.tooltip.redstone_block_9"),
-    <contenttweaker:redstone_block_81> : game.localize("et2.tooltip.redstone_block_81")
+    <contenttweaker:redstone_block_81> : game.localize("et2.tooltip.redstone_block_81"),
+    <naturesaura:auto_crafter> : game.localize("et2.tooltip.na_crafter"),
+    <enderio:block_crafter> : game.localize("et2.tooltip.eio_crafter"),
+    <thermalexpansion:machine:11> : game.localize("et2.tooltip.te_crafter"),
+    <mekanism:machineblock3:5> : game.localize("et2.tooltip.mek_crafter")
 };
 
 val warning as string[IIngredient] = {
