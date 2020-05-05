@@ -108,3 +108,5 @@ val chas = <ore:itemSimpleChassiParts>;
 mods.recipestages.Recipes.addShaped("four", <enderio:block_tank>, [[iron,bari,iron],[bari,<extrautils2:drum>,bari],[iron,bari,iron]]);
 mods.recipestages.Recipes.addShaped("four", <extrautils2:drum:1>, [[calloy,<extendedcrafting:material:2>,calloy],[calloy,<enderio:block_tank:1>,calloy],[calloy,<extendedcrafting:material:2>,calloy]]);
 mods.recipestages.Recipes.addShaped("four", <extrautils2:drum:2>, [[chas,<ore:plateElectrum>,chas],[<ore:plateInvar>,<extrautils2:drum:1>,<ore:plateInvar>],[chas,<ore:plateElectrum>,chas]]);
+
+recipes.replaceAllOccurences(<minecraft:baked_potato>, <silentgems:food:0>,<actuallyadditions:item_food:5>);
