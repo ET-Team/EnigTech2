@@ -41,17 +41,17 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <contenttweaker:orders_truth>, 
 	[null, null, <contenttweaker:material_part:61>, <contenttweaker:material_part:61>, <contenttweaker:material_part:61>, <contenttweaker:material_part:61>, <contenttweaker:material_part:61>, null, null]
 ]);
 
-//终极锭
-mods.extendedcrafting.TableCrafting.addShaped(4, <item:extendedcrafting:material:32>, [
-	[<ore:ingotSilver>, <ore:ingotSilver>, <contenttweaker:neutron>, <contenttweaker:neutron>, <ore:ingotTin>, <contenttweaker:neutron>, <contenttweaker:neutron>, <ore:ingotCopper>, <ore:ingotCopper>], 
-	[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotBronze>, <ore:ingotPlatinum>, <ore:ingotIron>, <ore:ingotGold>, <ore:ingotElectrum>, <ore:ingotCopper>, <ore:ingotCopper>], 
-	[<contenttweaker:neutron>, <ore:ingotBronze>, <ore:ingotPlatinum>, <ore:ingotIron>, <deepmoblearning:glitch_infused_ingot>, <ore:ingotIron>, <ore:ingotGold>, <ore:ingotElectrum>, <contenttweaker:neutron>], 
-	[<contenttweaker:neutron>, <ore:ingotPlatinum>, <ore:ingotIron>, <ore:ingotSignalum>, <contenttweaker:material_part:45>, <contenttweaker:material_part:25>, <ore:ingotIron>, <ore:ingotGold>, <contenttweaker:neutron>], 
-	[<ore:ingotTin>, <ore:ingotIron>, <ore:ingotMithril>, <contenttweaker:material_part:72>, <contenttweaker:material_part:63>, <ore:ingotTitanium>, <ore:ingotUnstable>, <ore:ingotIron>, <ore:ingotTin>], 
-	[<contenttweaker:neutron>, <ore:ingotInvar>, <ore:ingotIron>, <ore:ingotLumium>, <ore:ingotIridium>, <ore:ingotEnderium>, <ore:ingotIron>, <ore:ingotNickel>, <contenttweaker:neutron>], 
-	[<contenttweaker:neutron>, <ore:ingotConstantan>, <ore:ingotInvar>, <ore:ingotIron>, <ore:ingotDemonicMetal>, <ore:ingotIron>, <ore:ingotNickel>, <ore:ingotSteel>, <contenttweaker:neutron>], 
-	[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotConstantan>, <ore:ingotInvar>, <ore:ingotIron>, <ore:ingotNickel>, <ore:ingotSteel>, <ore:ingotAluminum>, <ore:ingotAluminum>], 
-	[<ore:ingotLead>, <ore:ingotLead>, <contenttweaker:neutron>, <contenttweaker:neutron>, <ore:ingotTin>, <contenttweaker:neutron>, <contenttweaker:neutron>, <ore:ingotAluminum>, <ore:ingotAluminum>]
+//终极奇点
+mods.extendedcrafting.TableCrafting.addShaped(4, <extendedcrafting:singularity_ultimate>, [
+	[<extendedcrafting:singularity:22>, <extendedcrafting:singularity:22>, <contenttweaker:neutron>, <contenttweaker:neutron>, <extendedcrafting:singularity_custom:84>, <contenttweaker:neutron>, <contenttweaker:neutron>, <extendedcrafting:singularity:17>, <extendedcrafting:singularity:17>], 
+	[<extendedcrafting:singularity:22>, <extendedcrafting:singularity:18>, <extendedcrafting:singularity:19>, <extendedcrafting:singularity:34>, <extendedcrafting:singularity:1>, <extendedcrafting:singularity:5>, <extendedcrafting:singularity:27>, <extendedcrafting:singularity:18>, <extendedcrafting:singularity:17>], 
+	[<contenttweaker:neutron>, <extendedcrafting:singularity:19>, <extendedcrafting:singularity:34>, <extendedcrafting:singularity:1>, <extendedcrafting:singularity_custom:86>, <extendedcrafting:singularity:1>, <extendedcrafting:singularity:5>, <extendedcrafting:singularity:27>, <contenttweaker:neutron>], 
+	[<contenttweaker:neutron>, <extendedcrafting:singularity:34>, <extendedcrafting:singularity:1>, <extendedcrafting:singularity:48>, <extendedcrafting:singularity:30>, <extendedcrafting:singularity:33>, <extendedcrafting:singularity:1>, <extendedcrafting:singularity:5>, <contenttweaker:neutron>], 
+	[<extendedcrafting:singularity_custom:87>, <extendedcrafting:singularity:1>, <extendedcrafting:singularity:29>, <extendedcrafting:singularity_custom:90>, <extendedcrafting:singularity_custom:92>, <extendedcrafting:singularity:31>, <extendedcrafting:singularity_custom:93>, <extendedcrafting:singularity:1>, <extendedcrafting:singularity_custom:80>], 
+	[<contenttweaker:neutron>, <extendedcrafting:singularity:28>, <extendedcrafting:singularity:1>, <extendedcrafting:singularity:49>, <extendedcrafting:singularity:35>, <extendedcrafting:singularity:50>, <extendedcrafting:singularity:1>, <extendedcrafting:singularity:25>, <contenttweaker:neutron>], 
+	[<contenttweaker:neutron>, <extendedcrafting:singularity:26>, <extendedcrafting:singularity:28>, <extendedcrafting:singularity:1>, <extendedcrafting:singularity_custom:91>, <extendedcrafting:singularity:1>, <extendedcrafting:singularity:25>, <extendedcrafting:singularity:24>, <contenttweaker:neutron>], 
+	[<extendedcrafting:singularity:23>, <extendedcrafting:singularity:18>, <extendedcrafting:singularity:26>, <extendedcrafting:singularity:28>, <extendedcrafting:singularity:1>, <extendedcrafting:singularity:25>, <extendedcrafting:singularity:24>, <extendedcrafting:singularity:18>, <extendedcrafting:singularity:16>], 
+	[<extendedcrafting:singularity:23>, <extendedcrafting:singularity:23>, <contenttweaker:neutron>, <contenttweaker:neutron>, <extendedcrafting:singularity_custom:89>, <contenttweaker:neutron>, <contenttweaker:neutron>, <extendedcrafting:singularity:16>, <extendedcrafting:singularity:16>]
 ]);
 //表
 mods.extendedcrafting.TableCrafting.addShaped(4, <projecte:item.pe_time_watch>.withTag({}), [

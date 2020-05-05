@@ -2,4 +2,4 @@
 #modloaded etutil
 #priority -100
 
-mods.soot.AlchemicalMixer.remove(<fluid:antimony>);
+mods.soot.AlchemicalMixer.remove(<liquid:antimony>);

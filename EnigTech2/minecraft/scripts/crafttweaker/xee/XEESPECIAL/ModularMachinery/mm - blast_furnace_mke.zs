@@ -30,11 +30,11 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystalline", mac
     .build();
 
 //海晶素
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crystalline", machineName, 180)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_prismarinium", machineName, 180)
     .addEnergyPerTickInput(800)
     .addItemInput(<actuallyadditions:item_crystal:2>)
 	.addItemInput(<ore:ingotCrystaltine>)
-    .addItemInput(<ore:dustPrismarine>*4)
+    .addItemInput(<ore:dustPrismarine>,4)
     .addItemOutput(<contenttweaker:material_part:144>*4)
     .build();
 

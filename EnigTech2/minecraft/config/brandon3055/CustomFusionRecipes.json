@@ -285,5 +285,18 @@
             "actuallyadditions:item_crystal_empowered,1,4",
             "actuallyadditions:item_crystal_empowered,1,4"
         ]
+    },
+    {
+        "mode": "ADD",
+        "result": "extendedcrafting:storage,4,0",
+        "catalyst": "extendedcrafting:singularity_ultimate",
+        "energy": 900000,
+        "tier": 2,
+        "ingredients": [
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block"
+        ]
     }
 ]
