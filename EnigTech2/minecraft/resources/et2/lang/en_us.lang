@@ -973,6 +973,10 @@ et2.tooltip.magfusive_crystal=可牵引蕴藏 黎明之力 的坠星，代价：
 et2.tooltip.blockcelestialgateway=可牵引蕴藏 宇宙之力 的坠星，代价：1500000LP
 et2.tooltip.wyvern_core=可牵引蕴藏 龙之力 的 坠星，代价：10000000LP
 et2.tooltip.storage_8=Bloody lesson
+et2.tooltip.na_crafter=Handles recipes in and before Stage: Three
+et2.tooltip.eio_crafter=Handles recipes in and before Stage: Five
+et2.tooltip.te_crafter=Handles recipes in and before Stage: Five
+et2.tooltip.mek_crafter=Handles recipes in and before Stage: Six
 
 et2.parise.expert.stage_one=Congratulation, The Man of Innocence, Stage One of Enigtech2:Expert has been conqured by thee, right click to drink this potion and unlock Stage Two
 et2.parise.expert.stage_two=Congratulation, The Friend of the Plants, Stage Two of Enigtech2:Expert has been conquered by thee, right click to read this scroll and unlock Stage Three

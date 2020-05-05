@@ -17,9 +17,9 @@ var allStages as string[] = [
 ];
 
 Recipes.setPackageStage("appeng", allStages);
-Recipes.setPackageStage("de.ellpeck.naturesaura", ["one", "two", "three", "four", "beta"]);
+Recipes.setPackageStage("de.ellpeck.naturesaura", ["one", "two", "three"]);
 Recipes.setPackageStage("crazypants", ["one", "two", "three", "four", "five", "beta"]);
 Recipes.setPackageStage("com.aranaira.arcanearchives", allStages);
-Recipes.setPackageStage("forestry", ["one", "two", "three", "four", "beta"]);
+Recipes.setPackageStage("forestry", allStages);
 Recipes.setPackageStage("cofh", ["one", "two", "three", "four", "five", "beta"]);
 Recipes.setPackageStage("mekanism", ["one", "two", "three", "four", "five", "six", "beta"]);

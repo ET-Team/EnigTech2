@@ -119,6 +119,7 @@ var items as string[] = [
 	"pink_plate",
 	"link",
 	"aspectus_astra",
+	"plate_antimony",
 
 	"silent_model_blank",
 	"kunzite",

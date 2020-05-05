@@ -140,4 +140,37 @@ for sloutput in shapedlessRecipes{
 
 //额外操作
 recipes.replaceAllOccurences(<ore:ingotIron>, consm, <rf-capability-adapter:aecapabilityadapter>);
-recipes.replaceAllOccurences(<ore:ingotIron>, <ore:itemConstructionAlloy>, <enderio:item_material:69>*16);
+recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotConstructionAlloy>, <enderio:item_material:69>*16);
+recipes.replaceAllOccurences(<ore:ingotIron>, <contenttweaker:magcondium_ingot>, <equivalentintegrations:conjuration_assembler>);
+recipes.replaceAllOccurences(<ore:gemEmerald>, <ore:gearManyullyn>, <bloodarsenal:altare_aenigmatica>);
+recipes.replaceAllOccurences(<ore:blockRedstone>, <ore:blockArdite>, <bloodarsenal:blood_capacitor>);
+
+//热量保持隔绝升级
+mods.recipestages.Recipes.addShaped("five", <soot:insulation>, [
+	[<thermalfoundation:material:328>, <contenttweaker:plate_antimony>, <thermalfoundation:material:328>], 
+	[<extendedcrafting:material:2>, <thermalfoundation:storage_alloy:3>, <extendedcrafting:material:2>], 
+	[<embers:ashen_tile>, <embers:ashen_stone_slab>, <embers:ashen_tile>]
+]);
+
+//成分数据电脑
+mods.recipestages.Recipes.addShaped("five", <contenttweaker:silent_model_blank>, [
+	[<contenttweaker:material_part:106>, <enderio:item_material:19>, <contenttweaker:material_part:106>], 
+	[<contenttweaker:baseplate_iridium>, <contenttweaker:integrated_calculation_module>, <contenttweaker:baseplate_iridium>], 
+	[<contenttweaker:material_part:106>, <contenttweaker:baseplate_iridium>, <contenttweaker:material_part:106>]
+]);
+
+//效率催化卡
+mods.recipestages.Recipes.addShapeless("alpha", <equivalentintegrations:efficiency_catalyst>, [<appliedenergistics2:material:28>,<projecte:item.pe_matter:1>]);
+
+//EI仓
+mods.recipestages.Recipes.addShaped("alpha", <equivalentintegrations:transmutation_disassembler>, [
+	[<ore:plateTungsten>, <projecte:transmutation_table>, <ore:plateTungsten>], 
+	[<ore:plateTungsten>, <contenttweaker:void_machine_core>, <ore:plateTungsten>], 
+	[<contenttweaker:baseplate_iridium>, <contenttweaker:baseplate_iridium>, <contenttweaker:baseplate_iridium>]
+]);
+
+mods.recipestages.Recipes.addShaped("alpha", <equivalentintegrations:transmutation_chamber>, [
+	[<ore:plateTungsten>, <projecte:transmutation_table>, <ore:plateTungsten>], 
+	[<ore:plateTungsten>, <contenttweaker:zhishu_machine_core>, <ore:plateTungsten>], 
+	[<contenttweaker:baseplate_iridium>, <contenttweaker:baseplate_iridium>, <contenttweaker:baseplate_iridium>]
+]);

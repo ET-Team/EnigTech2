@@ -260,13 +260,15 @@
     },
     {
         "mode": "ADD",
-        "result": "ae2wtlib:wut_creative",
-        "catalyst": "ae2wtlib:wut",
-        "energy": 30000000,
+        "result": "draconicevolution:creative_rf_source",
+        "catalyst": "draconicevolution:infused_obsidian",
+        "energy": 80000000,
         "tier": 2,
         "ingredients": [
-            "wct:wct_creative",
-            "wpt:wpt_creative"
+            "extendedcrafting:singularity_ultimate",
+            "contenttweaker:enigtechnium",
+            "extendedcrafting:singularity_ultimate",
+            "contenttweaker:enigtechnium"
         ]
     },
     {
@@ -282,6 +284,19 @@
             "embers:creative_ember_source",
             "actuallyadditions:item_crystal_empowered,1,4",
             "actuallyadditions:item_crystal_empowered,1,4"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "extendedcrafting:storage,4,4",
+        "catalyst": "extendedcrafting:singularity_ultimate",
+        "energy": 900000,
+        "tier": 2,
+        "ingredients": [
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block"
         ]
     }
 ]
