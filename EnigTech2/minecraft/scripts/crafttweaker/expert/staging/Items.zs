@@ -69,7 +69,9 @@ var modsStageTwo as string[] = [
 	"baubles",
 	"extendedcrafting",
 	"flopper",
-	"thermalfoundation"
+	"thermalfoundation",
+	"botania_tweaks",
+	"sgextraparts"
 ];
 
 for mod in modsStageTwo{
@@ -97,7 +99,8 @@ var modsStageThree as string[] = [
 	"mcjtylib",
 	"translocators",
 	"xpt",
-	"mcjtylib_ng"
+	"mcjtylib_ng",
+	"bloodarsenal"
 
 ];
 
@@ -152,7 +155,10 @@ var modsStageFive as string[] = [
 	"ae2wtlib",
 	"wpt",
 	"advancedrocketry",
-	"libvulpes"
+	"libvulpes",
+	"botanicadds",
+	"enderioendergy",
+	"rf-capability-adapter"
 
 ];
 
@@ -202,7 +208,10 @@ removeItemStage(<mekanism:ingot:1>);
 
 var modsStageAlpha as string[] = [
 	"projecte",
-	"draconicevolution"
+	"draconicevolution",
+	"draconicadditions",
+	"equivalentintegrations",
+	"cyberware"
 ];
 
 for mod in modsStageAlpha{

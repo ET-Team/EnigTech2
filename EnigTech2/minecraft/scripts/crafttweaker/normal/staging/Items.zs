@@ -70,7 +70,9 @@ var modsStageTwo as string[] = [
 	"baubles",
 	"extendedcrafting",
 	"flopper",
-	"thermalfoundation"
+	"thermalfoundation",
+	"botania_tweaks",
+	"sgextraparts"
 ];
 
 for mod in modsStageTwo{
@@ -128,7 +130,8 @@ var modsStageFour as string[] = [
 	"simplyjetpacks",
 	"extrautils2",
 	"soot",
-	"carryon"
+	"carryon",
+	"bloodarsenal"
 ];
 
 addItemStage("four", <extracells:pattern.fluid>.withTag({Fluid:{}}));
@@ -153,8 +156,10 @@ var modsStageFive as string[] = [
 	"ae2wtlib",
 	"wpt",
 	"advancedrocketry",
-	"libvulpes"
-
+	"libvulpes",
+	"botanicadds",
+	"enderioendergy",
+	"rf-capability-adapter"
 ];
 
 for mod in modsStageFive{
@@ -203,7 +208,10 @@ removeItemStage(<mekanism:ingot:1>);
 
 var modsStageAlpha as string[] = [
 	"projecte",
-	"draconicevolution"
+	"draconicevolution",
+	"draconicadditions",
+	"equivalentintegrations",
+	"cyberware"
 ];
 
 for mod in modsStageAlpha{
