@@ -16,6 +16,15 @@ val removingArray = [
     <botania_tweaks:advanced_extended_crafty_crate>,
     <botania_tweaks:elite_extended_crafty_crate>,
     <botania_tweaks:ultimate_extended_crafty_crate>,
+    <equivalentintegrations:transmutation_generator>,
+    <equivalentintegrations:efficiency_catalyst>,
+    <cyberware:engineering_table>,
+    <cyberware:scanner>,
+    <cyberware:radio_post>,
+    <cyberware:beacon>,
+    <cyberware:beacon_large>,
+    <equivalentintegrations:transmutation_chamber>,
+    <equivalentintegrations:transmutation_disassembler>
 ] as IItemStack[];
 
 //按矿辞移除

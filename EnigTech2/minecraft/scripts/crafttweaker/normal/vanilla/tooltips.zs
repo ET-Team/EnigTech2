@@ -37,7 +37,11 @@ val toAdd as string[IIngredient] = {
     <mekanism:basicblock2:7> : "“你管这叫锅炉？这就是个大开水壶！烧出来的水给我泡小罐茶还差不多。人核电厂整得比咱好多了。”————《通用机械工人日记选摘》",
     <mekanism:basicblock2:8> : "“这种锅炉产出的蒸汽量，估计能勉强养活两个汗蒸房。”————《玄理工程简志》",
     <contenttweaker:redstone_block_9> : "贮存9个红石块",
-    <contenttweaker:redstone_block_81> : "贮存81个红石块"
+    <contenttweaker:redstone_block_81> : "贮存81个红石块",
+    <naturesaura:auto_crafter> : "最高可处理配方：阶段三",
+    <enderio:block_crafter> : "最高可处理配方：阶段五",
+    <thermalexpansion:machine:11> : "最高可处理配方：阶段五",
+    <mekanism:machineblock3:5> : "最高可处理配方：阶段六"
 };
 
 val warning as string[IIngredient] = {

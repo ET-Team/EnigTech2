@@ -134,8 +134,7 @@ var modsStageFour as string[] = [
 	"bloodarsenal"
 ];
 
-addItemStage("four", <extracells:pattern.fluid>.withTag({Fluid:{}}));
-addItemStage("four",<bloodmagic:upgrade_tome>.withTag({}));
+addItemStage("four",<bloodmagic:upgrade_trainer>.withTag({}));
 
 for mod in modsStageFour{
 
@@ -366,6 +365,9 @@ addItemStage("alpha",<mekanismgenerators:generator:7>);
 
 removeItemStage(<mekanismgenerators:turbineblade>);
 addItemStage("alpha",<mekanismgenerators:turbineblade>);
+
+removeItemStage(<environmentaltech:thermal_cell>);
+addItemStage("five",<environmentaltech:thermal_cell>);
 
 val bannedArray = [
 	<soot:stamp_text>,

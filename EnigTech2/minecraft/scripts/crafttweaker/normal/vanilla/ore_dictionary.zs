@@ -77,3 +77,9 @@
 <ore:wax>.add(<forestry:beeswax>);
 //木屑扩充
 <ore:dustWood>.add(<forestry:wood_pulp>);
+
+//铬矿辞扩充
+<ore:ingotChrome>.add(<contenttweaker:material_part:25>);
+
+//恶魔意志
+<ore:soulMonster>.add(<bloodmagic:monster_soul:*>);

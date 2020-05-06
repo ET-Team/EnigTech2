@@ -17,3 +17,5 @@ MetalPress.addRecipe(<thermalfoundation:material:354>, <appliedenergistics2:mate
 MetalPress.addRecipe(<thermalfoundation:material:354>, <appliedenergistics2:material:14>, <immersiveengineering:mold>, 2000);
 MetalPress.addRecipe(<thermalfoundation:material:354>, <appliedenergistics2:material:15>, <immersiveengineering:mold>, 2000);
 MetalPress.addRecipe(<thermalfoundation:material:354>, <appliedenergistics2:material:19>, <immersiveengineering:mold>, 2000);
+//锑板
+MetalPress.addRecipe(<contenttweaker:plate_antimony>,<soot:ingot_antimony>,<immersiveengineering:mold>, 4000);

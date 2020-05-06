@@ -9,4 +9,3 @@ Orechid.removeOre(<ore:oreMithril>);
 Orechid.removeOre(<ore:oreZinc>);
 
 OrechidIgnem.removeOre(<ore:oreArdite>);
-OrechidIgnem.removeOre(<ore:oreCobalt>);
