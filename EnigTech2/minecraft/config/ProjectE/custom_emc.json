@@ -231,6 +231,14 @@
     {
       "item": "sgextraparts:ingot|24",
       "emc": 0
+    },
+    {
+      "item": "enderio:item_alloy_ingot|7",
+      "emc": 0
+    },
+    {
+      "item": "enderio:item_alloy_ingot|2",
+      "emc": 0
     }
   ]
 }
