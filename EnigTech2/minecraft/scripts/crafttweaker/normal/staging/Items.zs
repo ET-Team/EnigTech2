@@ -369,6 +369,33 @@ addItemStage("alpha",<mekanismgenerators:turbineblade>);
 removeItemStage(<environmentaltech:thermal_cell>);
 addItemStage("five",<environmentaltech:thermal_cell>);
 
+removeItemStage(<nuclearcraft:ingot:11>);
+addItemStage("five",<nuclearcraft:ingot:11>);
+
+removeItemStage(<nuclearcraft:dust:11>);
+addItemStage("five",<nuclearcraft:dust:11>);
+
+removeItemStage(<nuclearcraft:ingot:7>);
+addItemStage("five",<nuclearcraft:ingot:7>);
+
+removeItemStage(<nuclearcraft:dust:7>);
+addItemStage("five",<nuclearcraft:dust:7>);
+
+removeItemStage(<nuclearcraft:ingot:6>);
+addItemStage("five",<nuclearcraft:ingot:6>);
+
+removeItemStage(<nuclearcraft:dust:6>);
+addItemStage("five",<nuclearcraft:dust:6>);
+
+removeItemStage(<nuclearcraft:ingot:9>);
+addItemStage("five",<nuclearcraft:ingot:9>);
+
+removeItemStage(<nuclearcraft:dust:9>);
+addItemStage("five",<nuclearcraft:dust:9>);
+
+removeItemStage(<enderio:item_broken_spawner>);
+removeItemStage(<actuallyadditions:item_misc:20>);
+
 val bannedArray = [
 	<soot:stamp_text>,
 	<roots:unending_bowl>,
