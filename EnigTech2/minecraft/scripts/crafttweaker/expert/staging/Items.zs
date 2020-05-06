@@ -389,6 +389,9 @@ addItemStage("five",<nuclearcraft:ingot:9>);
 removeItemStage(<nuclearcraft:dust:9>);
 addItemStage("five",<nuclearcraft:dust:9>);
 
+removeItemStage(<enderio:item_broken_spawner>);
+removeItemStage(<actuallyadditions:item_misc:20>);
+
 val bannedArray = [
 	<soot:stamp_text>,
 	<roots:unending_bowl>,
