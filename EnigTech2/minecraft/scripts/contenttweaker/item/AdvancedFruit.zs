@@ -20,7 +20,7 @@ static randomer as IRandom = Math.getRandom(1145141919810);
 val fruit as Item = VanillaFactory.createItem("advanced_infinite_fruit");
 fruit.maxStackSize = 1;
 fruit.onItemUpdate = function(item, world, owner, slot, isSelected) {
-    if (!world.remote && owner instanceof IPlayer && item.hasTag && randomer.nextInt(80) == 23) {
+    if (!world.remote && owner instanceof IPlayer && item.tag has "SoulbindName" && randomer.nextInt(80) == 23) {
         val player as IPlayer = owner;
         if (player.name == item.tag.SoulbindName.asString()) {
             // 添加饱食度
@@ -41,7 +41,7 @@ fruit.onItemUpdate = function(item, world, owner, slot, isSelected) {
 };
 fruit.itemRightClick = function(item, world, player, hand) {
     if (world.remote) return "Pass";
-    if (item.hasTag) return "Fail";
+    if (item.tag has "SoulbindName") return "Fail";
     val slot as IEntityEquipmentSlot = hand.equalsIgnoreCase("MAIN_HAND") ? IEntityEquipmentSlot.mainHand() : IEntityEquipmentSlot.offhand();
     if (player.getItemInSlot(slot).definition.id == item.definition.id) {
         player.setItemToSlot(slot, item.updateTag({SoulbindName : player.name}));
