@@ -102,7 +102,7 @@
     {
         "mojang":
         {
-            "text" : "EnigTech2-v1.3.5",
+            "text" : "EnigTech2-v1.4.0",
             "posX" : -90,
             "posY" : -10,
             "color" : -1,
@@ -120,7 +120,7 @@
         "background":{
             "image" : "",
             "slideshow":{
-                "images" : ["et2:001.png","et2:002.png","et2:003.png","et2:004.png","et2:005.png"],
+                "images" : ["et2:001.png","et2:002.png","et2:003.png","et2:004.png","et2:005.png","et2:006.png"],
                 "displayDuration" : 200,
                 "fadeDuration" : 60
             }
