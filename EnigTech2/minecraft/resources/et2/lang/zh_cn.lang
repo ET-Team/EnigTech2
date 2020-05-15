@@ -477,7 +477,8 @@ advancement.stageone_dadibaozi.description=通过破坏草丛获得大地孢子
 advancement.stageone_dadijunsi.title=大地菌丝
 advancement.stageone_dadijunsi.description=拿着匕首对着苔石右键,来获得大地菌丝
 advancement.stageone_gengdi.title=耕地
-advancement.stageone_gengdi.description=没有锄头,你只能将肥沃的土壤放在水边来种植作物n合成一个耕地来解锁进度
+advancement.stageone_gengdi.description=没有锄头,你只能将肥沃的土壤放在水边来种植作物
+合成一个耕地来解锁进度
 advancement.stageone_gongzuotai.title=你应该感到惊讶
 advancement.stageone_gongzuotai.description=“这么容易就给我工作台了？”
 advancement.stageone_hongshi.title=原始能量
@@ -487,7 +488,8 @@ advancement.stageone_hongzhuan.description=将黏土晒干成红砖来开启砖�
 advancement.stageone_jiaocheng.title=小教程
 advancement.stageone_jiaocheng.description=将精灵工匠台放置在森林之石附近,之后手持带有格罗夫祈愿咒术的法杖右键激活森林之石,即可
 advancement.stageone_jinglinggongjiangtai.title=精灵工匠台
-advancement.stageone_jinglinggongjiangtai.description=制作精灵工匠台和森林之石n使用小刀/匕首右键工匠台来从中取出成品
+advancement.stageone_jinglinggongjiangtai.description=制作精灵工匠台和森林之石
+使用小刀/匕首右键工匠台来从中取出成品
 advancement.stageone_kaojia.title=RNG vs V5
 advancement.stageone_kaojia.description=今天晚上去吃烤索尔肉吧!!!
 advancement.stageone_kuangshicidian.title=矿石百科
@@ -519,15 +521,19 @@ advancement.stageone_suishi.description=获得一颗燧石
 advancement.stageone_suishifu.title=我黑切呢？？！
 advancement.stageone_suishifu.description=制作一把燧石斧
 advancement.stageone_taishi.title=苔石
-advancement.stageone_taishi.description=将大地孢子种植到靠近水源的原石上,来获得苔石n将苔石挖下来获取进度
+advancement.stageone_taishi.description=将大地孢子种植到靠近水源的原石上,来获得苔石
+将苔石挖下来获取进度
 advancement.stageone_taoguan.title=陶瓦箱子
 advancement.stageone_taoguan.description=制作陶罐,来存储物品
 advancement.stageone_tieding.title=老铁
-advancement.stageone_tieding.description=恭喜,玩家\n这是一个里程碑级别的跃进,你从一个原始人通过利用生存的知识成功的获得了第一个铁锭n亦或者...你是从其他地方获得的？
+advancement.stageone_tieding.description=恭喜,玩家\n这是一个里程碑级别的跃进,你从一个原始人通过利用生存的知识成功的获得了第一个铁锭
+亦或者...你是从其他地方获得的？
 advancement.stageone_tieli.title=粒粒皆幸苦
 advancement.stageone_tieli.description=晾干铁屑
 advancement.stageone_tieshumei.title=铁树莓
-advancement.stageone_tieshumei.description=在野外有时你可以见到这种神奇的树...n破坏铁树叶即可获得铁树莓n用小刀破坏铁树叶必定掉落一个铁树梅
+advancement.stageone_tieshumei.description=在野外有时你可以见到这种神奇的树...
+破坏铁树叶即可获得铁树莓
+用小刀破坏铁树叶必定掉落一个铁树梅
 advancement.stageone_tiexie.title=铁屑
 advancement.stageone_tiexie.description=把瓶装铁树莓汁放入蒸发皿后稍等片刻就能获得铁屑
 advancement.stageone_tuna5544.title=我建议你游着走
@@ -543,7 +549,8 @@ advancement.stageone_yazhamupen.description=制作压榨木盆
 advancement.stageone_yeshenggenjing.title=野生根茎
 advancement.stageone_yeshenggenjing.description=通过破坏草丛获得野生根茎
 advancement.stageone_yinghuo.title=营火
-advancement.stageone_yinghuo.description=制作营火来取取暖n使用木棍右键营火来点燃
+advancement.stageone_yinghuo.description=制作营火来取取暖
+使用木棍右键营火来点燃
 advancement.stageone_yuanmu.title=原木
 advancement.stageone_yuanmu.description=获得木头
 advancement.stageone_yunmei.title=云莓
@@ -553,7 +560,8 @@ advancement.stageone_zhenban.description=制作砧板
 advancement.stageone_zhengfamin.title=蒸发皿
 advancement.stageone_zhengfamin.description=使用压榨木盆榨取铁树莓汁后你需要一个蒸发皿来浓缩它。千万记住，这玩意儿支持外置管道！
 advancement.stageone_zhihuiyaoji.title=六个核桃
-advancement.stageone_zhihuiyaoji.description=制作智慧药剂n右键喝下以解锁第二阶段
+advancement.stageone_zhihuiyaoji.description=制作智慧药剂
+右键喝下以解锁第二阶段
 advancement.stageone_zhoushuchen.title=格罗夫祈愿
 advancement.stageone_zhoushuchen.description=将云莓,苔石,橡树树苗,野生根茎,花瓣放入研钵中,之后使用研杆捣碎来制作格罗夫祈愿咒术尘
 advancement.stageone_zhuruzhan.title=注造站
@@ -653,7 +661,8 @@ advancement.stagesix_jiegouguandao.description=你可以制作TE管道了!
 advancement.stagesix_laser.title=激光
 advancement.stagesix_laser.description=在？烫烫头
 advancement.stagesix_mana.title=无穷无尽的魔力
-advancement.stagesix_mana.description=在混乱中自发迸出的魔力...在这世上可谓无穷无尽n制作永恒魔力池
+advancement.stagesix_mana.description=在混乱中自发迸出的魔力...在这世上可谓无穷无尽
+制作永恒魔力池
 advancement.stagesix_rock1.title=造石机
 advancement.stagesix_rock1.description=熵增全靠它和无限水
 advancement.stagesix_rock2.title=压缩造石机
@@ -667,7 +676,9 @@ advancement.stagesix_singularity.description=制 作 奇 点
 advancement.stagesix_solar.title=信仰圣光吧
 advancement.stagesix_solar.description=(可选)\n制作环境科技模组的太阳能板,注意,环境科技的太阳能RF产出被中幅削弱了,因此不推荐舍弃裂变反应堆来押宝太阳能
 advancement.stagesix_x1.title=原子时代
-advancement.stagesix_x1.description=制作核电工艺模组的机器框架n建议查看模组教程获得进一步的指南n注:核电工艺矿石只会在暮色森林维度生成
+advancement.stagesix_x1.description=制作核电工艺模组的机器框架
+建议查看模组教程获得进一步的指南
+注:核电工艺矿石只会在暮色森林维度生成
 advancement.stagesix_x10.title=结晶器
 advancement.stagesix_x10.description=
 advancement.stagesix_x2.title=小制造机
@@ -855,7 +866,8 @@ advancement.stagetwo_jinxiangzi.description=制作一个金箱子
 advancement.stagetwo_kaoxing.title=人生一串
 advancement.stagetwo_kaoxing.description=制作烤箱
 advancement.stagetwo_liutiloudou.title=流体漏斗
-advancement.stagetwo_liutiloudou.description=你可以制作一个流体漏斗来漏走多余的杂酚油n制作一个储液木桶来存储这些液体
+advancement.stagetwo_liutiloudou.description=你可以制作一个流体漏斗来漏走多余的杂酚油
+制作一个储液木桶来存储这些液体
 advancement.stagetwo_lvjuzheyaodai.title=旅居者腰带
 advancement.stagetwo_lvjuzheyaodai.description=制作旅居者腰带
 advancement.stagetwo_modaohejin.title=把人折磨死的倒霉合金
