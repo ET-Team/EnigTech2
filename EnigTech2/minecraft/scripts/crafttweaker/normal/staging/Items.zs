@@ -418,7 +418,6 @@ val bannedArray = [
 	<thermaldynamics:cover>.withTag({Meta: 0 as byte, Block: "minecraft:slime"}),
 	<nuclearcraft:compound:2>,
 	<botania:opencrate:1>,
-	<mekanism:machineblock:2>
 ] as IItemStack[];
 
 for bannedItems in bannedArray{
