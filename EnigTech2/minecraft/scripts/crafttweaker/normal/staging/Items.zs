@@ -393,7 +393,12 @@ addItemStage("five",<nuclearcraft:ingot:9>);
 removeItemStage(<nuclearcraft:dust:9>);
 addItemStage("five",<nuclearcraft:dust:9>);
 
-removeItemStage(<enderio:item_broken_spawner>);
+removeItemStage(<mekanism:saltblock>);
+addItemStage("two",<mekanism:saltblock>);
+
+removeItemStage(<mekanism:salt>);
+addItemStage("two",<mekanism:salt>);
+
 removeItemStage(<actuallyadditions:item_misc:20>);
 
 val bannedArray = [
@@ -411,7 +416,8 @@ val bannedArray = [
 	<appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:slime"}),
 	<thermaldynamics:cover>.withTag({Meta: 0 as byte, Block: "minecraft:slime"}),
 	<nuclearcraft:compound:2>,
-	<botania:opencrate:1>
+	<botania:opencrate:1>,
+	<mekanism:machineblock:2>
 ] as IItemStack[];
 
 for bannedItems in bannedArray{
