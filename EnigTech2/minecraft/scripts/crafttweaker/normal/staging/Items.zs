@@ -341,6 +341,7 @@ for item in itemsStageFour{
 mods.ItemStages.removeItemStage(<embers:ore_quartz>);
 
 mods.ItemStages.stageTooltip("alpha", "EMC:");
+mods.ItemStages.stageTooltip("alpha", "EMC：");
 
 removeItemStage(<minecraft:spawn_egg>.withTag({EntityTag: {id: "touhou_little_maid:entity.passive.maid"}}));
 addItemStage("beta",<minecraft:spawn_egg>.withTag({EntityTag: {id: "touhou_little_maid:entity.passive.maid"}}));
