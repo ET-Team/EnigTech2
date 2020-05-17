@@ -28,3 +28,5 @@ FluidToItem.transform(<contenttweaker:stable_potato>, <fluid:cryotheum>, [<silen
 FluidToItem.transform(<botania:overgrowthseed>*3,<liquid:mana>,[<contenttweaker:earth_x>,<contenttweaker:wind_x>,<contenttweaker:spring_x>,<contenttweaker:condensed_seed>], true);
 //玄理联络
 FluidToItem.transform(<contenttweaker:link>,<fluid:neutron>,[<contenttweaker:philosophers_sand>*3],true);
+//天翼族之眼回收
+FluidToItem.transform(<botania:manaresource:8>*8,<fluid:fluid_dragon_breathe>,[<botania:flugeleye>.withTag({})]);
