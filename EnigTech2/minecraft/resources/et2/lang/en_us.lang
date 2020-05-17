@@ -945,8 +945,6 @@ et2.tooltip.ember_hatch_16000=Embers Temp：16000
 et2.tooltip.ember_hatch_32000=Embers Temp：32000
 et2.tooltip.ember_hatch_64000=Embers Temp：64000
 et2.tooltip.ember_hatch_144000=Embers Temp：144000
-et2.tooltip.demon_ingot=Surround a lava block by nether brick and trade this metal with devils
-et2.tooltip.magic_key=Throw this into a pool surrounded by flowers to open up a portal toward The Twilight Forest
 et2.tooltip.stable_potato=混沌马铃薯冷静了下来，开始思考自己的价值。
 et2.tooltip.baked_stable_potato_unpolished=也许，它应该承受烈火......
 et2.tooltip.baked_stable_potato=也许，它应该经历打磨......
@@ -965,6 +963,8 @@ et2.tooltip.basicblock3=“这种锅炉产出的蒸汽量，估计能勉强养�
 et2.tooltip.redstone_block_9=Stores 9 redstone blocks
 et2.tooltip.redstone_block_81=Stores 81 redstone blocks
 
+et2.tooltip.demonic_metal=Surround a lava block by nether brick and trade this metal with devils
+et2.tooltip.magic_key=Throw this into a pool surrounded by flowers to open up a portal toward The Twilight Forest
 et2.tooltip.item_pipe=Only for crafting
 et2.tooltip.meteor_bait=Only use it in space
 et2.tooltip.moon_blade=Right click to extract your essence blood...very painful
@@ -977,6 +977,7 @@ et2.tooltip.na_crafter=Handles recipes in and before Stage: Three
 et2.tooltip.eio_crafter=Handles recipes in and before Stage: Five
 et2.tooltip.te_crafter=Handles recipes in and before Stage: Five
 et2.tooltip.mek_crafter=Handles recipes in and before Stage: Six
+et2.tootlip.exu2_crafter=For Expert Packmode only. Handles recipes in and before Stage: Four
 
 et2.parise.expert.stage_one=Congratulation, The Man of Innocence, Stage One of Enigtech2:Expert has been conqured by thee, right click to drink this potion and unlock Stage Two
 et2.parise.expert.stage_two=Congratulation, The Friend of the Plants, Stage Two of Enigtech2:Expert has been conquered by thee, right click to read this scroll and unlock Stage Three
