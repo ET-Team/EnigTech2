@@ -15,7 +15,7 @@ mods.naturesaura.TreeRitual.addRecipe("rune:6", <naturesaura:ancient_sapling>, <
 //冬之符文
 mods.naturesaura.TreeRitual.addRecipe("rune:7", <naturesaura:ancient_sapling>, <botania:rune:7>*2, 50,[<minecraft:snow>,<naturesaura:token_sorrow>,<twilightforest:arctic_fur>,<botania:rune>,<botania:rune:2>] );	
 //原始投网
-mods.naturesaura.TreeRitual.addRecipe("soul_snare", <minecraft:sapling>, <bloodmagic:soul_snare>*2, 50,[<botania:manaresource:16>,<botania:manaresource:16>,<botania:manaresource:16>,<botania:manaresource:16>,<botania:manaresource:8>,<botania:manaresource:8>,<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}),<naturesaura:infused_iron>] );
+mods.naturesaura.TreeRitual.addRecipe("soul_snare", <minecraft:sapling>, <bloodmagic:soul_snare>*4, 50,[<botania:manaresource:16>,<botania:manaresource:16>,<botania:manaresource:16>,<botania:manaresource:16>,<botania:manaresource:8>,<botania:manaresource:8>,<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}),<naturesaura:infused_iron>] );
 //环境之眼
 mods.naturesaura.TreeRitual.addRecipe("eye", <minecraft:sapling>, <naturesaura:eye>, 50,[<botania:thirdeye>,<botania:livingwood>,<botania:livingwood>,<naturesaura:gold_leaf>,<naturesaura:gold_leaf>] );
 //外部火焰加热器
