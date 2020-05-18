@@ -21,3 +21,11 @@ Pyre.addRecipe("hydroangeas", <botania:specialflower>.withTag({type: "hydroangea
 Pyre.addRecipe("teapot", <teastory:tea_drying_pan>, [<cuisine:fire_pit:1>, <ore:ingotIron>, <roots:runic_dust>, <ore:cropRice>, <ore:cropTea>]);
 //茶簸箕
 Pyre.addRecipe("teapan", <teastory:teapan>, [<survivalist:rack>, <ore:plankWood>, <roots:runic_dust>, <ore:stickWood>, <ore:cropTea>]);
+//遗忘玫瑰
+Pyre.addRecipe("frose", <naturesaura:end_flower>*3, [
+    <silentgems:glowrose:*>,
+    <minecraft:dragon_breath>,
+    <extrautils2:enderlilly>,
+    <roots:spirit_herb>,
+    <contenttweaker:frose_dust>
+    ]);

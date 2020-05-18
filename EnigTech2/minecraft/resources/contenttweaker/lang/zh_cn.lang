@@ -183,6 +183,7 @@ jei.tlmtweak.altar_craft.item_craft.result=合成物品
 item.contenttweaker.dimension_metal.name=维度金属
 item.contenttweaker.construction_motioner.name=建构传动装置
 item.contenttweaker.pink_plate.name=晶化粉红史莱姆板
+item.contenttweaker.frose_dust.name=遗忘玫瑰粉灰
 
 tile.contenttweaker.magic_machine_hull.name=蕴魔机械外壳
 tile.contenttweaker.brass_coil.name=黄铜线圈

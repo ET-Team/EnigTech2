@@ -102,12 +102,6 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [drock,<botania:runealtar>,drock]
     ],
 
-    <modularmachinery:blockenergyinputhatch:5> : [
-        [brsw,vdcap,brsw],
-        [vdcap,<modularmachinery:blockenergyinputhatch:4>,vdcap],
-        [brsw,vdcap,brsw]
-    ],
-
     <enderio:item_material:2>*4 : [
         [scp,consm,scp],
         [consm,<ore:itemMachineChassi>,consm],
@@ -173,4 +167,11 @@ mods.recipestages.Recipes.addShaped("alpha", <equivalentintegrations:transmutati
 	[<ore:plateTungsten>, <projecte:transmutation_table>, <ore:plateTungsten>], 
 	[<ore:plateTungsten>, <contenttweaker:zhishu_machine_core>, <ore:plateTungsten>], 
 	[<contenttweaker:baseplate_iridium>, <contenttweaker:baseplate_iridium>, <contenttweaker:baseplate_iridium>]
+]);
+
+//巨型能源输入仓
+mods.recipestages.Recipes.addShaped("five", <modularmachinery:blockenergyinputhatch:5>, [
+    [brsw,vdcap,brsw],
+    [vdcap,<modularmachinery:blockenergyinputhatch:4>,vdcap],
+    [brsw,vdcap,brsw]
 ]);

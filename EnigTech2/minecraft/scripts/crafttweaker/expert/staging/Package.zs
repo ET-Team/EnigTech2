@@ -23,3 +23,4 @@ Recipes.setPackageStage("com.aranaira.arcanearchives", allStages);
 Recipes.setPackageStage("forestry", allStages);
 Recipes.setPackageStage("cofh", ["one", "two", "three", "four", "five", "beta"]);
 Recipes.setPackageStage("mekanism", ["one", "two", "three", "four", "five", "six", "beta"]);
+Recipes.setPackageStage("com.rwtema.extrautils2", ["one", "two", "three", "four", "beta"]);
