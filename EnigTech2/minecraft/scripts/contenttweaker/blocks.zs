@@ -33,3 +33,9 @@ ResourceLocation.create("contenttweaker:magic_machine_hull/magic_machine_hull");
 
 BlockBuilder("philosophers_sand", <blockmaterial:sand>, <soundtype:sand>, 5.0, 50.0, "shovel", 3);
 ResourceLocation.create("contenttweaker:philosophers_sand/philosophers_sand");
+
+BlockBuilder("wtssc", <blockmaterial:iron>, <soundtype:metal>, 5.0, 50.0, "pickaxe", 3);
+ResourceLocation.create("contenttweaker:wtssc/wtssc");
+
+BlockBuilder("zbc", <blockmaterial:iron>, <soundtype:metal>, 5.0, 50.0, "pickaxe", 3);
+ResourceLocation.create("contenttweaker:zbc/zbc");

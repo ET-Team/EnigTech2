@@ -258,3 +258,13 @@ TableCrafting.addShaped(2, <touhou_little_maid:hata_sasimono>, [
 	[null, <naturesaura:ancient_stick>, null, null, null], 
 	[null, <naturesaura:ancient_stick>, null, null, null]
 ]);
+
+//Z  B  C
+val nitro_r = <forge:bucketfilled>.withTag({FluidName: "liquid_nitrogen", Amount: 1000}).transformReplace(<minecraft:bucket>);
+mods.extendedcrafting.TableCrafting.addShaped(2, <contenttweaker:zbc>, [
+	[<mekanism:basicblock:8>, <modularmachinery:blockcasing:4>, <ore:plateElite>, <modularmachinery:blockcasing:4>, <mekanism:basicblock:8>], 
+	[<modularmachinery:blockcasing:4>, nitro_r, <ore:circuitUltimate>, nitro_r, <modularmachinery:blockcasing:4>], 
+	[<ore:plateElite>, <ore:circuitUltimate>, <contenttweaker:wtssc>, <ore:circuitUltimate>, <ore:plateElite>], 
+	[<modularmachinery:blockcasing:4>, nitro_r, <ore:circuitUltimate>, nitro_r, <modularmachinery:blockcasing:4>], 
+	[<mekanism:basicblock:8>, <modularmachinery:blockcasing:4>, <ore:plateElite>, <modularmachinery:blockcasing:4>, <mekanism:basicblock:8>]
+]);
