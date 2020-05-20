@@ -266,3 +266,15 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <contenttweaker:zbc>, [
 	[<modularmachinery:blockcasing:4>, nitro_r, <ore:circuitUltimate>, nitro_r, <modularmachinery:blockcasing:4>], 
 	[<mekanism:basicblock:8>, <modularmachinery:blockcasing:4>, <ore:plateElite>, <modularmachinery:blockcasing:4>, <mekanism:basicblock:8>]
 ]);
+
+//星移元素象征
+var dmarbl = <astralsorcery:blockmarble:6>;
+val vaqmr = <astralsorcery:itemcraftingcomponent:4>;
+
+mods.extendedcrafting.TableCrafting.addShaped(2, <contenttweaker:aspectus_astra>, [
+	[vaqmr, null, <ore:ingotAstralStarmetal>, null, vaqmr], 
+	[null, dmarbl, <astralsorcery:itemusabledust>, dmarbl, null], 
+	[null, <ore:ingotLumium>, <embers:aspectus_dawnstone>, <ore:ingotLumium>, null], 
+	[null, dmarbl, <astralsorcery:itemusabledust>, dmarbl, null], 
+	[vaqmr, null, <ore:ingotAstralStarmetal>, null, vaqmr]
+]);

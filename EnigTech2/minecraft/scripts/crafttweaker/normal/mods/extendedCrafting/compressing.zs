@@ -64,7 +64,7 @@ val alloySingularitiesArray = [
 	singDef.makeStack(26),
 	singDef.makeStack(27),
 	singDef.makeStack(28),
-];
+] as IItemStack[];
 
 val alloyIngotsArray = [
 	<ore:ingotBronze>.firstItem,
@@ -72,7 +72,7 @@ val alloyIngotsArray = [
 	<ore:ingotConstantan>.firstItem,
 	<ore:ingotElectrum>.firstItem,
 	<ore:ingotInvar>.firstItem,
-];
+] as IItemStack[];
 
 for i,csglrt in commonSingularitiesArray{
 	CompressionCrafting.addRecipe(csglrt,commonIngotsArray[i],2048,<thermalfoundation:material:1027>,500000000,1000000);
