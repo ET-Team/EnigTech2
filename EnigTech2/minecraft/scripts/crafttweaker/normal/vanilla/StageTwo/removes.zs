@@ -92,5 +92,6 @@ recipes.removeByRecipeName("silentgems:chaos_essence_crystallized");
 recipes.removeByRecipeName("mekanism:cardboardbox");
 recipes.remove(<botania:opencrate:1>);
 recipes.removeByRecipeName("extendedcrafting:crafting_component_elite");
+recipes.removeByRecipeName("extendedcrafting:crafting_catalyst_ultimate");
 
 recipes.removeByRegex("immersiveengineering:material/plate_.*");

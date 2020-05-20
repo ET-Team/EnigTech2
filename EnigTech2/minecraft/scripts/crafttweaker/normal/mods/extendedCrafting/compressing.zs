@@ -13,7 +13,10 @@ CompressionCrafting.addRecipe(<output>, <input>, inputCount, <catalyst>, rfCost,
 CompressionCrafting.addRecipe(<extendedcrafting:singularity:>,<ore:>.firstItem,500000000,1000000);
 */
 
-CompressionCrafting.remove(<extendedcrafting:singularity_custom:*>);
+val removingsingDef = <extendedcrafting:singularity_custom>.definition;
+for i in 80 to 94{
+	CompressionCrafting.remove(removingsingDef.makeStack(i));
+}
 
 CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:91>,<ore:ingotDemonicMetal>.firstItem,512,<extrautils2:ingredients:10>,500000000,1000000);
 CompressionCrafting.addRecipe(<extendedcrafting:singularity:50>,<ore:ingotEnderium>.firstItem,256,<enderio:item_material:44>,500000000,1000000);
