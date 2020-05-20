@@ -66,3 +66,4 @@ recipes.remove(<environmentaltech:connector>);
 recipes.remove(<mekanism:machineblock:8>);
 recipes.remove(<thermalfoundation:material:136>);
 recipes.remove(<thermalfoundation:storage:8>);
+recipes.removeByRecipeName("advancedrocketry:engine");
