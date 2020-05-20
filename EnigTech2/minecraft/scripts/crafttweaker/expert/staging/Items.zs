@@ -405,6 +405,9 @@ addItemStage("two",<mekanism:saltblock>);
 removeItemStage(<mekanism:salt>);
 addItemStage("two",<mekanism:salt>);
 
+removeItemStage(<extendedcrafting:compressor>);
+addItemStage("alpha",<extendedcrafting:compressor>);
+
 removeItemStage(<actuallyadditions:item_misc:20>);
 
 val bannedArray = [
@@ -429,4 +432,3 @@ for bannedItems in bannedArray{
 	removeItemStage(bannedItems);
 	addItemStage("\u0062\u0061\u006e\u006e\u0065\u0064",bannedItems);
 }
-

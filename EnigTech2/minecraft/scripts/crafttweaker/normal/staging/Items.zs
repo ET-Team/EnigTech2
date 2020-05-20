@@ -400,6 +400,9 @@ addItemStage("two",<mekanism:saltblock>);
 removeItemStage(<mekanism:salt>);
 addItemStage("two",<mekanism:salt>);
 
+removeItemStage(<extendedcrafting:compressor>);
+addItemStage("alpha",<extendedcrafting:compressor>);
+
 removeItemStage(<actuallyadditions:item_misc:20>);
 
 val bannedArray = [

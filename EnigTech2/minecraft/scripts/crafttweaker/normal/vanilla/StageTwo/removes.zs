@@ -91,5 +91,6 @@ recipes.removeByRecipeName("minecraft:slime_ball");
 recipes.removeByRecipeName("silentgems:chaos_essence_crystallized");
 recipes.removeByRecipeName("mekanism:cardboardbox");
 recipes.remove(<botania:opencrate:1>);
+recipes.removeByRecipeName("extendedcrafting:crafting_component_elite");
 
 recipes.removeByRegex("immersiveengineering:material/plate_.*");
