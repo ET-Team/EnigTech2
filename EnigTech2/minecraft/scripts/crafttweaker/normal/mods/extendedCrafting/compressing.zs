@@ -13,6 +13,8 @@ CompressionCrafting.addRecipe(<output>, <input>, inputCount, <catalyst>, rfCost,
 CompressionCrafting.addRecipe(<extendedcrafting:singularity:>,<ore:>.firstItem,500000000,1000000);
 */
 
+CompressionCrafting.remove(<extendedcrafting:singularity_custom:*>);
+
 CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:91>,<ore:ingotDemonicMetal>.firstItem,512,<extrautils2:ingredients:10>,500000000,1000000);
 CompressionCrafting.addRecipe(<extendedcrafting:singularity:50>,<ore:ingotEnderium>.firstItem,256,<enderio:item_material:44>,500000000,1000000);
 CompressionCrafting.addRecipe(<extendedcrafting:singularity:35>,<ore:ingotIridium>.firstItem,2048,<deepmoblearning:living_matter_extraterrestrial>,500000000,1000000);
