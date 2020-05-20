@@ -43,6 +43,7 @@ val toAdd as string[IIngredient] = {
     <thermalexpansion:machine:11> : game.localize("et2.tooltip.te_crafter"),
     <mekanism:machineblock3:5> : game.localize("et2.tooltip.mek_crafter"),
     <extrautils2:analogcrafter> : game.localize("et2.tooltip.exu2_crafter"),
+    <contenttweaker:wtssc> : game.localize("et2.tooltip.wtssc"),
 };
 
 val warning as string[IIngredient] = {
