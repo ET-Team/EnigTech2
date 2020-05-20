@@ -400,6 +400,9 @@ addItemStage("two",<mekanism:saltblock>);
 removeItemStage(<mekanism:salt>);
 addItemStage("two",<mekanism:salt>);
 
+removeItemStage(<extendedcrafting:compressor>);
+addItemStage("alpha",<extendedcrafting:compressor>);
+
 removeItemStage(<actuallyadditions:item_misc:20>);
 
 val bannedArray = [
@@ -418,6 +421,11 @@ val bannedArray = [
 	<thermaldynamics:cover>.withTag({Meta: 0 as byte, Block: "minecraft:slime"}),
 	<nuclearcraft:compound:2>,
 	<botania:opencrate:1>,
+	<mekanism:machineblock:2>,
+	<mekanism:machineblock:5>.withTag({recipeType: 4}),
+	<mekanism:machineblock:6>.withTag({recipeType: 4}),
+	<mekanism:machineblock:7>.withTag({recipeType: 4}),
+	<extendedcrafting:material:11>
 ] as IItemStack[];
 
 for bannedItems in bannedArray{
