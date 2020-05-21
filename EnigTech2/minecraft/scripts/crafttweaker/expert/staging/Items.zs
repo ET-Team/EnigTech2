@@ -409,6 +409,7 @@ removeItemStage(<extendedcrafting:compressor>);
 addItemStage("alpha",<extendedcrafting:compressor>);
 
 removeItemStage(<actuallyadditions:item_misc:20>);
+removeItemStage(<silentgems:glowrose:*>);
 
 val bannedArray = [
 	<soot:stamp_text>,
