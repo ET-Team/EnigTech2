@@ -15,11 +15,6 @@ JEI.addDescription(<naturesaura:birth_spirit>,[
     ]
 );
 
-JEI.addDescription(<naturesaura:birth_spirit>,[
-    game.localize("et2.jei.spirit_birth.description")
-    ]
-);
-
 JEI.addDescription(<etutil:magic_geiger_counter>,[
     game.localize("et2.jei.magic_geiger_counter.description")
     ]
