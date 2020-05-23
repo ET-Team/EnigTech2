@@ -77,7 +77,7 @@ spawnMaxDistance=0
 adjoining_template=
 
 rule1=0,100,minecraft:cobblestone-0,minecraft:mossy_cobblestone-0
-rule2=0,100,ChestGenHook:neuroflow:chests/chestloot1:5-3
+rule2=0,100,ChestGenHook:chests/simple_dungeon:8-3
 rule3=0,100,MobSpawner:Skeleton
 rule4=0,100,minecraft:cobblestone_wall-0,minecraft:cobblestone_wall-1
 rule5=0,100,tombstone:decorative_grave_simple-3,tombstone:decorative_grave_cross-3
