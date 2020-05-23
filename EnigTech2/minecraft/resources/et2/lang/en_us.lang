@@ -981,21 +981,21 @@ et2.tooltip.mek_crafter=Handles recipes in and before Stage: Six
 et2.tootlip.exu2_crafter=For Expert Packmode only. Handles recipes in and before Stage: Four
 et2.tooltip.wtssc=Inner 3x3x3 space shall be built in the following way: Layer 1/3: Central Iridium Coil surrounded by 8 blocks of Supercold Ice; Layer 2: Central Superconducting Electromagnet surrounded by 8 Cf-RTGs. Activate the recipe with a Vivid Exciting Crystal.
 
-et2.parise.expert.stage_one=Congratulation, The Man of Innocence, Stage One of Enigtech2:Expert has been conqured by thee, right click to drink this potion and unlock Stage Two
-et2.parise.expert.stage_two=Congratulation, The Friend of the Plants, Stage Two of Enigtech2:Expert has been conquered by thee, right click to read this scroll and unlock Stage Three
-et2.parise.expert.stage_three=Congratulation, The Friend of the Plants, Stage Two of Enigtech2:Expert has been conquered by thee, right click to read this scroll and unlock Stage Three
-et2.parise.expert.stage_four=Congratulation, The Manipulator of Aura, Stage Three of Enigtech2:Expert has been conquered by thee, right click to understand this sheet of text and unlock Stage Four
-et2.parise.expert.stage_five=Congratulation, The Descendant of Stars, Stage Five of Enigtech2:Expert has been conquered by thee, right click to merge this rune and unlock Stage Six
-et2.parise.expert.stage_six=Congratulation, The Keeper of Orders, Stage Six has of Enigtech2:Expert been conquered by thee, right click to guard your will and unlock Stage Alpha
-et2.parise.expert.stage_alpha=Congratulation, Ascender, EnigTech2 in Expert mode has been conquered by you. Please give me the right to give all the praises in the world to you. This item will not be consumed in any recipe
+et2.praise.expert.stage_one=Congratulation, The Man of Innocence, Stage One of Enigtech2:Expert has been conqured by thee, right click to drink this potion and unlock Stage Two
+et2.praise.expert.stage_two=Congratulation, The Friend of the Plants, Stage Two of Enigtech2:Expert has been conquered by thee, right click to read this scroll and unlock Stage Three
+et2.praise.expert.stage_three=Congratulation, The Friend of the Plants, Stage Two of Enigtech2:Expert has been conquered by thee, right click to read this scroll and unlock Stage Three
+et2.praise.expert.stage_four=Congratulation, The Manipulator of Aura, Stage Three of Enigtech2:Expert has been conquered by thee, right click to understand this sheet of text and unlock Stage Four
+et2.praise.expert.stage_five=Congratulation, The Descendant of Stars, Stage Five of Enigtech2:Expert has been conquered by thee, right click to merge this rune and unlock Stage Six
+et2.praise.expert.stage_six=Congratulation, The Keeper of Orders, Stage Six has of Enigtech2:Expert been conquered by thee, right click to guard your will and unlock Stage Alpha
+et2.praise.expert.stage_alpha=Congratulation, Ascender, EnigTech2 in Expert mode has been conquered by you. Please give me the right to give all the praises in the world to you. This item will not be consumed in any recipe
 
-et2.parise.normal.stage_one=Congratulation, The Man of Innocence, Stage One has been conqured by thee, right click to drink this potion and unlock Stage Two
-et2.parise.normal.stage_two=Congratulation, The Friend of the Plants, Stage Two has been conquered by thee, right click to read this scroll and unlock Stage Three
-et2.parise.normal.stage_three=Congratulation, The Manipulator of Aura, Stage Three has been conquered by thee, right click to understand this sheet of text and unlock Stage Four
-et2.parise.normal.stage_four=Congratulation, The Master of Machinery, Stage Four has been conquered by thee, right click to implant this chip and unlock Stage Five
-et2.parise.normal.stage_five=Congratulation, The Descendant of Stars, Stage Five has been conquered by thee, right click to merge this rune and unlock Stage Six
-et2.parise.normal.stage_six=Congratulation, The Keeper of Orders, Stage Six has been conquered by thee, right click to guard your will and unlock Stage Alpha
-et2.parise.normal.stage_alpha=Congratulation, Ascender, EnigTech2 has been conquered by you. This item will not be consumed in any recipe
+et2.praise.normal.stage_one=Congratulation, The Man of Innocence, Stage One has been conqured by thee, right click to drink this potion and unlock Stage Two
+et2.praise.normal.stage_two=Congratulation, The Friend of the Plants, Stage Two has been conquered by thee, right click to read this scroll and unlock Stage Three
+et2.praise.normal.stage_three=Congratulation, The Manipulator of Aura, Stage Three has been conquered by thee, right click to understand this sheet of text and unlock Stage Four
+et2.praise.normal.stage_four=Congratulation, The Master of Machinery, Stage Four has been conquered by thee, right click to implant this chip and unlock Stage Five
+et2.praise.normal.stage_five=Congratulation, The Descendant of Stars, Stage Five has been conquered by thee, right click to merge this rune and unlock Stage Six
+et2.praise.normal.stage_six=Congratulation, The Keeper of Orders, Stage Six has been conquered by thee, right click to guard your will and unlock Stage Alpha
+et2.praise.normal.stage_alpha=Congratulation, Ascender, EnigTech2 has been conquered by you. This item will not be consumed in any recipe
 
 et2.botaniamisc.advanced_fruit.page0=只需要一点点盖亚和末影的力 量加以引导，&1禁忌之果&0能被升 级为&1饕餮之果&0。 它可以自动补充饱食度，无需 玩家自行食用。 同时它的消耗魔力的量比禁忌 之果稍微少一点。 与其他遗物不同，它需要手持 右键后绑定玩家后才能使用。
 et2.botaniamisc.advanced_fruit.page1=Better than iWatch.
