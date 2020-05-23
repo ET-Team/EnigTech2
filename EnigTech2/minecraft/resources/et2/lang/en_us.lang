@@ -933,6 +933,7 @@ advancement.stagetwo_zuanshixiangzi.description=Upgrade your chest to Diamond.
 
 et2.jei.spirit_birth.description=春天来了，万物复苏，又到了动物们交配的季节。环境中§l略微过量§r的灵气，会为这伟大的爱情动容，并在新生命降临时，凝聚出一片生育之魂。动物繁殖极易，而灵气却不会白白产生，即使是荒古之树也不能产出超出平衡的灵气。你需要一本§l自然灵气之书§r来获取一些主动生产灵气的有效途径。
 et2.jei.ice_rod.description=在那些寒冷（Cold）的，终年覆雪（Snowy）的群系坠入深夜时，你可能会偶然发现一些通体散放着极寒之气的暴雪人。环绕其周身的暴雪棒对你很有价值，但获得它们着实要费一番功夫。听说，它与其他危险的生物一样，喜欢被 §l邪恶点滴§r 浸润过的泥土。
+et2.jei.magic_geiger_counter.description=§o这是一个意外的收获。我在这个布袋子里发现了一张字条和一块光滑的玉石，通体散放着淡蓝紫色的光，很好看，微微有些发热。于是我把字条揣进口袋里，继续向前走。渐渐地，脚下的土开始变得坚硬起来，草也开始稀疏泛黄。倏然，胸前出现了突然一阵猛烈的灼烧感。我掏出了口袋里的那块玉石，亲眼见识到它通体的紫光逐渐消逝，到发出黄色的荧光，再到渗出血一般鲜红。我看入了迷。直到嘴里一股生涩的金属味道弥漫开来，我惊觉，我的手已经被那块灼热的玉石烫掉了一层皮。我猛地抛掉了这块已然血红，似乎已经开始粉解的石头，拿铲子铲起，倒入我的收容袋里。夜色渐起，我的胃在翻腾，眼前的这片荒地深处传来一阵阵骇人的嚎叫声。我放弃了这条近道，采了一株脚下正在闪闪发亮的菇类，握在左手，让它那微弱的黄色光芒引我向外走去。阿纳托利不明所以地在我赶路之前给我准备了大把大把的甜菜，我便边赶路，边啃着这些块茎，好在味道还不算太差。过了两片杉树林，我找到了信里说的“寂静解析研究所”（Т.А.И.）的临时实验棚屋。委员果然在这里，亲切地踱来与我握手。我将袋里的字条和玉石拿出来给委员过目。委员把字条放进一台黑色的四脚机器里，念出了两个词：раннее предупреждение（预警），和излучение（辐射）。委员走到我面前，我忙放下了啃了一半的甜菜。他同我说：“你救了你自己。”。§r（翻译自俄语，伊里尓·菲德罗耶维奇·菲德罗夫的日记，1979年5月1日，劳动节）
 
 et2.tooltip.lunar_essence=Absolutely not a mooncake
 et2.tooltip.entropy=The measure of disorder in the 4-D time space
@@ -945,8 +946,6 @@ et2.tooltip.ember_hatch_16000=Embers Temp：16000
 et2.tooltip.ember_hatch_32000=Embers Temp：32000
 et2.tooltip.ember_hatch_64000=Embers Temp：64000
 et2.tooltip.ember_hatch_144000=Embers Temp：144000
-et2.tooltip.demon_ingot=Surround a lava block by nether brick and trade this metal with devils
-et2.tooltip.magic_key=Throw this into a pool surrounded by flowers to open up a portal toward The Twilight Forest
 et2.tooltip.stable_potato=混沌马铃薯冷静了下来，开始思考自己的价值。
 et2.tooltip.baked_stable_potato_unpolished=也许，它应该承受烈火......
 et2.tooltip.baked_stable_potato=也许，它应该经历打磨......
@@ -965,6 +964,8 @@ et2.tooltip.basicblock3=“这种锅炉产出的蒸汽量，估计能勉强养�
 et2.tooltip.redstone_block_9=Stores 9 redstone blocks
 et2.tooltip.redstone_block_81=Stores 81 redstone blocks
 
+et2.tooltip.demonic_metal=Surround a lava block by nether brick and trade this metal with devils
+et2.tooltip.magic_key=Throw this into a pool surrounded by flowers to open up a portal toward The Twilight Forest
 et2.tooltip.item_pipe=Only for crafting
 et2.tooltip.meteor_bait=Only use it in space
 et2.tooltip.moon_blade=Right click to extract your essence blood...very painful
@@ -977,6 +978,8 @@ et2.tooltip.na_crafter=Handles recipes in and before Stage: Three
 et2.tooltip.eio_crafter=Handles recipes in and before Stage: Five
 et2.tooltip.te_crafter=Handles recipes in and before Stage: Five
 et2.tooltip.mek_crafter=Handles recipes in and before Stage: Six
+et2.tootlip.exu2_crafter=For Expert Packmode only. Handles recipes in and before Stage: Four
+et2.tooltip.wtssc=Inner 3x3x3 space shall be built in the following way: Layer 1/3: Central Iridium Coil surrounded by 8 blocks of Supercold Ice; Layer 2: Central Superconducting Electromagnet surrounded by 8 Cf-RTGs. Activate the recipe with a Vivid Exciting Crystal.
 
 et2.parise.expert.stage_one=Congratulation, The Man of Innocence, Stage One of Enigtech2:Expert has been conqured by thee, right click to drink this potion and unlock Stage Two
 et2.parise.expert.stage_two=Congratulation, The Friend of the Plants, Stage Two of Enigtech2:Expert has been conquered by thee, right click to read this scroll and unlock Stage Three

@@ -341,6 +341,7 @@ for item in itemsStageFour{
 mods.ItemStages.removeItemStage(<embers:ore_quartz>);
 
 mods.ItemStages.stageTooltip("alpha", "EMC:");
+mods.ItemStages.stageTooltip("alpha", "EMC：");
 
 removeItemStage(<minecraft:spawn_egg>.withTag({EntityTag: {id: "touhou_little_maid:entity.passive.maid"}}));
 addItemStage("beta",<minecraft:spawn_egg>.withTag({EntityTag: {id: "touhou_little_maid:entity.passive.maid"}}));
@@ -393,8 +394,17 @@ addItemStage("five",<nuclearcraft:ingot:9>);
 removeItemStage(<nuclearcraft:dust:9>);
 addItemStage("five",<nuclearcraft:dust:9>);
 
-removeItemStage(<enderio:item_broken_spawner>);
+removeItemStage(<mekanism:saltblock>);
+addItemStage("two",<mekanism:saltblock>);
+
+removeItemStage(<mekanism:salt>);
+addItemStage("two",<mekanism:salt>);
+
+removeItemStage(<extendedcrafting:compressor>);
+addItemStage("alpha",<extendedcrafting:compressor>);
+
 removeItemStage(<actuallyadditions:item_misc:20>);
+removeItemStage(<silentgems:glowrose:*>);
 
 val bannedArray = [
 	<soot:stamp_text>,
@@ -411,7 +421,12 @@ val bannedArray = [
 	<appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:slime"}),
 	<thermaldynamics:cover>.withTag({Meta: 0 as byte, Block: "minecraft:slime"}),
 	<nuclearcraft:compound:2>,
-	<botania:opencrate:1>
+	<botania:opencrate:1>,
+	<mekanism:machineblock:2>,
+	<mekanism:machineblock:5>.withTag({recipeType: 4}),
+	<mekanism:machineblock:6>.withTag({recipeType: 4}),
+	<mekanism:machineblock:7>.withTag({recipeType: 4}),
+	<extendedcrafting:material:11>
 ] as IItemStack[];
 
 for bannedItems in bannedArray{

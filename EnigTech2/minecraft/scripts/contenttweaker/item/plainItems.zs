@@ -120,6 +120,8 @@ var items as string[] = [
 	"link",
 	"aspectus_astra",
 	"plate_antimony",
+	"frose_dust",
+	"scec",
 
 	"silent_model_blank",
 	"kunzite",

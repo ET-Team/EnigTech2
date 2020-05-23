@@ -4,6 +4,9 @@
 
 import crafttweaker.item.IItemStack;
 
+var modingot = <modularmachinery:itemmodularium>;
+var moblock = <contenttweaker:sub_block_holder_0:12>;
+
 //钢制机壳
 recipes.addShaped(<mekanism:basicblock:8>,[[<contenttweaker:material_part:52>,<thermalfoundation:glass:3>,<contenttweaker:material_part:52>],[<thermalfoundation:glass:3>,<contenttweaker:ultra_machine_core>,<thermalfoundation:glass:3>],[<contenttweaker:material_part:52>,<thermalfoundation:glass:3>,<contenttweaker:material_part:52>]]);
 //透镜
@@ -15,7 +18,7 @@ recipes.addShaped(<mekanism:machineblock>,[[<actuallyadditions:item_crystal_empo
 //能量板
 recipes.addShaped(<mekanism:energytablet>,[[<thermalfoundation:material:328>,<libvulpes:productgem>,<thermalfoundation:material:328>],[<mekanism:enrichedalloy>,<libvulpes:productgem>,<mekanism:enrichedalloy>],[<thermalfoundation:material:328>,<libvulpes:productgem>,<thermalfoundation:material:328>]]);
 //超级能源输入仓
-recipes.addShaped(<modularmachinery:blockenergyinputhatch:6>,[[<modularmachinery:itemmodularium>,<mekanism:controlcircuit:1>,<modularmachinery:itemmodularium>],[<mekanism:controlcircuit:1>,<contenttweaker:ultra_machine_core>,<mekanism:controlcircuit:1>],[<modularmachinery:itemmodularium>,<mekanism:basicblock2:4>.withTag({tier: 1}),<modularmachinery:itemmodularium>]]);
+recipes.addShaped(<modularmachinery:blockenergyinputhatch:6>,[[modingot,<mekanism:controlcircuit:1>,modingot],[<mekanism:controlcircuit:1>,<contenttweaker:ultra_machine_core>,<mekanism:controlcircuit:1>],[modingot,<mekanism:basicblock2:4>.withTag({tier: 1}),modingot]]);
 //五级结构方块
 recipes.addShaped(<environmentaltech:structure_frame_5>,[[null,<minecraft:nether_star>,null],[<environmentaltech:ionite_crystal>,<environmentaltech:structure_frame_4>,<environmentaltech:ionite_crystal>],[null,<contenttweaker:compress_crystaltine>,null]]);
 //三级结构方块
@@ -32,8 +35,6 @@ recipes.addShapeless(<contenttweaker:advanced_processor>, [<mekanism:controlcirc
 recipes.addShaped(<environmentaltech:photovoltaic_cell> * 2, [[<contenttweaker:silicon_slice>, <contenttweaker:silicon_slice>, <contenttweaker:silicon_slice>],[<actuallyadditions:item_crystal:1>, <actuallyadditions:item_crystal:1>, <actuallyadditions:item_crystal:1>], [<contenttweaker:silicon_slice>, <contenttweaker:silicon_slice>, <contenttweaker:silicon_slice>]]);
 recipes.addShaped(<environmentaltech:solar_cont_1>, [[<ore:blockLitherite>, <ore:plateAdvanced>, <ore:blockLitherite>],[<ore:plateAdvanced>, <ore:etSolarCell>, <ore:plateAdvanced>], [<ore:blockLitherite>, <ore:plateAdvanced>, <ore:blockLitherite>]]);
 recipes.addShaped(<nuclearcraft:cooler> * 4, [[<thermalfoundation:material:359>, <contenttweaker:material_part:79>, <thermalfoundation:material:359>],[<contenttweaker:material_part:79>, null, <contenttweaker:material_part:79>], [<thermalfoundation:material:359>, <contenttweaker:material_part:79>, <thermalfoundation:material:359>]]);
-recipes.addShaped(<modulardiversity:blockmekheatinput>, [[<modularmachinery:itemmodularium>, <contenttweaker:sub_block_holder_0:12>, <modularmachinery:itemmodularium>],[<contenttweaker:sub_block_holder_0:12>, <mekanism:basicblock2:3>.withTag({tier: 3}).onlyWithTag({tier: 3}), <contenttweaker:sub_block_holder_0:12>], [<modularmachinery:itemmodularium>, <contenttweaker:sub_block_holder_0:12>, <modularmachinery:itemmodularium>]]);
-recipes.addShaped(<modulardiversity:blockmeklaseracceptor>, [[<modularmachinery:itemmodularium>, <thermalfoundation:material:165>, <modularmachinery:itemmodularium>],[<thermalfoundation:material:165>, <mekanism:basicblock2:4>.withTag({tier: 3}).onlyWithTag({tier: 3}), <thermalfoundation:material:165>], [<modularmachinery:itemmodularium>, <thermalfoundation:material:165>, <modularmachinery:itemmodularium>]]);
 recipes.addShaped(<nuclearcraft:cobblestone_generator_dense>, [[<nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>],[<nuclearcraft:cobblestone_generator_compact>, <thermalfoundation:material:167>, <nuclearcraft:cobblestone_generator_compact>], [<nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>]]);
 recipes.addShaped(<nuclearcraft:cobblestone_generator_compact>, [[<nuclearcraft:cobblestone_generator>, <nuclearcraft:cobblestone_generator>, <nuclearcraft:cobblestone_generator>],[<nuclearcraft:cobblestone_generator>, <thermalfoundation:material:165>, <nuclearcraft:cobblestone_generator>], [<nuclearcraft:cobblestone_generator>, <nuclearcraft:cobblestone_generator>, <nuclearcraft:cobblestone_generator>]]);
 recipes.addShapeless(<contenttweaker:plastic_plate>, [<nuclearcraft:part:6>]);
@@ -190,3 +191,12 @@ mods.recipestages.Recipes.addShaped("six",<extendedcrafting:ender_alternator>*3,
 recipes.replaceAllOccurences(<ore:stone>,<ore:stoneMarble>,<nuclearcraft:heat_exchanger_wall>*4);
 recipes.replaceAllOccurences(<ore:stone>,<ore:stoneMarble>,<nuclearcraft:heat_exchanger_vent>*4);
 recipes.replaceAllOccurences(<ore:dustEnergetic>,<contenttweaker:energetic_clathrate>);
+
+//新mek热输入 新mek激光输入
+val psoot = <deepmoblearning:soot_covered_plate>;
+val pldu = <ore:plateDU>;
+val psigna = <ore:plateSignalum>;
+
+mods.recipestages.Recipes.addShaped("six", <modulardiversity:blockmekheatinput>, [[modingot, moblock, modingot],[moblock, <contenttweaker:wtssc>, moblock], [modingot, moblock, modingot]]);
+mods.recipestages.Recipes.addShaped("six", <modulardiversity:blockmeklaseracceptor>, [[modingot, psigna, modingot],[psigna, <contenttweaker:zbc>, psigna], [modingot, psigna, modingot]]);
+mods.recipestages.Recipes.addShaped("six", <mekanismgenerators:reactor:1>, [[psoot,pldu,psoot],[pldu,<ore:alloyUltimate>,pldu],[psoot,pldu,psoot]]);

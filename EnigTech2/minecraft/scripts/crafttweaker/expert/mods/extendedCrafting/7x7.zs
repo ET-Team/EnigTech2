@@ -102,7 +102,7 @@ TableCrafting.addShaped(3, <extrautils2:lawsword>, [
 //消防斧
 TableCrafting.addShaped(3, <extrautils2:fireaxe>, [
 	[null, null, <enderio:item_alloy_ball>, <enderio:block_infinity:2>, <enderio:block_infinity:2>, null, null], 
-	[null, null, <enderio:block_infinity:2>, <botania:lens:7>, <immersiveengineering:toolupgrade:7>, EnchantedBookSupplier.get(<enchantment:toughasnails:warming>, 3), null], 
+	[null, null, <enderio:block_infinity:2>, <botania:lens:7>, <immersiveengineering:toolupgrade:7>, <silentgems:craftingmaterial:27>, null], 
 	[null, null, <enderio:block_infinity:2>, <immersiveengineering:toolupgrade:7>, <botania:lens:8>, <thermalfoundation:material:357>, null], 
 	[null, null, null, <bloodmagic:monster_soul:2>, <thermalfoundation:material:357>, <thermalfoundation:material:357>, null], 
 	[null, null, <advancedrocketry:productrod>, null, null, null, null], 

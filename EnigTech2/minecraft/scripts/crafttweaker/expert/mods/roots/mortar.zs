@@ -17,3 +17,5 @@ Mortar.addRecipe(<thermalfoundation:material:769>, [<ore:itemCharcoal>]);
 val seeds = <teastory:xian_rice_seeds>;
 Mortar.addRecipe(<teastory:matcha_powder>, [<teastory:matcha_leaf>]);
 Mortar.addRecipe(<teastory:xian_rice>, [seeds, seeds, seeds, seeds, seeds]);
+//遗忘玫瑰粉
+Mortar.addRecipe(<contenttweaker:frose_dust>*24,[<naturesaura:end_flower>]);

@@ -1,4 +1,4 @@
-#packmode expert
+#packmode normal expert
 #modloaded etutil
 #priority -100
 import crafttweaker.item.IIngredient;
@@ -8,6 +8,8 @@ val toAdd as string[IIngredient] = {
     <contenttweaker:lunar_essence> : game.localize("et2.tooltip.lunar_essence"),
     <item:contenttweaker:entropy> : game.localize("et2.tooltip.entropy"),
     <item:contenttweaker:essencial_blood> : game.localize("et2.tooltip.essencial_blood"),
+    <item:extrautils2:ingredients:11> : game.localize("et2.tooltip.demonic_metal"),
+    <item:contenttweaker:magic_key> : game.localize("et2.tooltip.magic_key"),
     <modulardiversity:blockemberinputhatch:0> : game.localize("et2.tooltip.ember_hatch_100"),
     <modulardiversity:blockemberinputhatch:1> : game.localize("et2.tooltip.ember_hatch_800"),
     <modulardiversity:blockemberinputhatch:2> : game.localize("et2.tooltip.ember_hatch_4000"),
@@ -39,7 +41,9 @@ val toAdd as string[IIngredient] = {
     <naturesaura:auto_crafter> : game.localize("et2.tooltip.na_crafter"),
     <enderio:block_crafter> : game.localize("et2.tooltip.eio_crafter"),
     <thermalexpansion:machine:11> : game.localize("et2.tooltip.te_crafter"),
-    <mekanism:machineblock3:5> : game.localize("et2.tooltip.mek_crafter")
+    <mekanism:machineblock3:5> : game.localize("et2.tooltip.mek_crafter"),
+    <extrautils2:analogcrafter> : game.localize("et2.tooltip.exu2_crafter"),
+    <contenttweaker:wtssc> : game.localize("et2.tooltip.wtssc"),
 };
 
 val warning as string[IIngredient] = {

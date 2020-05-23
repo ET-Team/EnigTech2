@@ -1,0 +1,238 @@
+{
+  "name": "compactmachines3:wtssc",
+
+ 
+  "target-block": "contenttweaker:wtssc",
+  "target-count": 1,
+  "target-meta": 0,
+
+  "duration": 600,
+  "symmetrical": true,
+
+  
+  "catalyst": "contenttweaker:scec",
+  "catalyst-meta": 0,
+
+
+  "input-types": {
+    "a": {
+      "id": "modularmachinery:blockcasing",
+      "meta": 4
+    },
+    "b": {
+      "id": "mekanismgenerators:reactor",
+      "meta": 1
+    },
+    "c": {
+      "id": "mekanism:basicblock",
+      "meta": 8
+    },
+    "d": {
+      "id": "nuclearcraft:block_ice",
+      "meta": 0
+    },
+    "e": {
+      "id": "nuclearcraft:rtg_californium",
+      "meta": 0
+    },
+    "f": {
+      "id": "thermalfoundation:storage_alloy",
+      "meta": 5
+    },
+    "g": {
+      "id": "libvulpes:coil0",
+      "meta": 10
+    },
+    "h": {
+      "id": "nuclearcraft:accelerator_electromagnet_active",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "b:A",
+        "c",
+        "c",
+        "c",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "c",
+        "f",
+        "c",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "c",
+        "c",
+        "c",
+        "b:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "b:A",
+        "c",
+        "c",
+        "c",
+        "b:A"
+      ],
+      [
+        "c",
+        "d",
+        "d",
+        "d",
+        "c"
+      ],
+      [
+        "c",
+        "d",
+        "g",
+        "d",
+        "c"
+      ],
+      [
+        "c",
+        "d",
+        "d",
+        "d",
+        "c"
+      ],
+      [
+        "b:A",
+        "c",
+        "c",
+        "c",
+        "b:A"
+      ]
+    ],
+    [
+      [
+        "b:A",
+        "c",
+        "c",
+        "c",
+        "b:A"
+      ],
+      [
+        "c",
+        "e:A",
+        "e:B",
+        "e:A",
+        "c"
+      ],
+      [
+        "c",
+        "e:B",
+        "h:A",
+        "e:B",
+        "c"
+      ],
+      [
+        "c",
+        "e:A",
+        "e:B",
+        "e:A",
+        "c"
+      ],
+      [
+        "b:A",
+        "c",
+        "c",
+        "c",
+        "b:A"
+      ]
+    ],
+    [
+      [
+        "b:A",
+        "c",
+        "c",
+        "c",
+        "b:A"
+      ],
+      [
+        "c",
+        "d",
+        "d",
+        "d",
+        "c"
+      ],
+      [
+        "c",
+        "d",
+        "g",
+        "d",
+        "c"
+      ],
+      [
+        "c",
+        "d",
+        "d",
+        "d",
+        "c"
+      ],
+      [
+        "b:A",
+        "c",
+        "c",
+        "c",
+        "b:A"
+      ]
+    ],
+    [
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ],
+      [
+        "b:A",
+        "c",
+        "c",
+        "c",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "c",
+        "f",
+        "c",
+        "b:A"
+      ],
+      [
+        "b:A",
+        "c",
+        "c",
+        "c",
+        "b:A"
+      ],
+      [
+        "a:A",
+        "b:A",
+        "b:A",
+        "b:A",
+        "a:A"
+      ]
+    ]
+  ]
+}
