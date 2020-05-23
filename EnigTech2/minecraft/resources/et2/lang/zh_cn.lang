@@ -982,21 +982,21 @@ et2.tooltip.mek_crafter=最高可处理配方：阶段六
 et2.tooltip.exu2_crafter=专家模式独有。最高可处理配方：阶段四
 et2.tooltip.wtssc=该结构的内部3x3x3空间的构建方式为：第一及第三层：超冷冰环绕铱线圈；第二层：锎RTG环绕超导电磁体。投入活性励磁晶体以激活配方合成。
 
-et2.parise.expert.stage_one=恭喜，原始之人，专家模式阶段一已经被你征服在手下，右键喝下此药剂来解锁阶段二
-et2.parise.expert.stage_two=恭喜，植物之友，专家模式阶段二已经被你征服在手下，右键阅读此卷轴来解锁阶段三
-et2.parise.expert.stage_three=恭喜，灵气的掌控者，专家模式阶段三已经被你征服在手下，右键理解此启示来解锁阶段四
-et2.parise.expert.stage_four=恭喜，机械大师，专家模式阶段四已经被你征服在手下，右键植入此芯片来解锁阶段五
-et2.parise.expert.stage_five=恭喜，星尘之子，专家模式阶段五已经被你征服在手下，右键融合此符文来解锁阶段六
-et2.parise.expert.stage_six=恭喜，守序者，专家模式阶段六已经被你征服在手下，右键值守你的信条来解锁阶段阿尔法，寻找飞升之路
-et2.parise.expert.stage_alpha=恭喜，飞升者，专家模式下的玄理2整合包已经被您征服，此物品不会在任何合成中消耗，请允许我，代表ET团队，向您致以最高的敬意
+et2.praise.expert.stage_one=恭喜，原始之人，专家模式阶段一已经被你征服在手下，右键喝下此药剂来解锁阶段二
+et2.praise.expert.stage_two=恭喜，植物之友，专家模式阶段二已经被你征服在手下，右键阅读此卷轴来解锁阶段三
+et2.praise.expert.stage_three=恭喜，灵气的掌控者，专家模式阶段三已经被你征服在手下，右键理解此启示来解锁阶段四
+et2.praise.expert.stage_four=恭喜，机械大师，专家模式阶段四已经被你征服在手下，右键植入此芯片来解锁阶段五
+et2.praise.expert.stage_five=恭喜，星尘之子，专家模式阶段五已经被你征服在手下，右键融合此符文来解锁阶段六
+et2.praise.expert.stage_six=恭喜，守序者，专家模式阶段六已经被你征服在手下，右键值守你的信条来解锁阶段阿尔法，寻找飞升之路
+et2.praise.expert.stage_alpha=恭喜，飞升者，专家模式下的玄理2整合包已经被您征服，此物品不会在任何合成中消耗，请允许我，代表ET团队，向您致以最高的敬意
 
-et2.parise.normal.stage_one=恭喜，原始之人，阶段一已经被你征服在手下，右键喝下此药剂来解锁阶段二
-et2.parise.normal.stage_two=恭喜，植物之友，阶段二已经被你征服在手下，右键阅读此卷轴来解锁阶段三
-et2.parise.normal.stage_three=恭喜，灵气的掌控者，阶段三已经被你征服在手下，右键理解此启示来解锁阶段四
-et2.parise.normal.stage_four=恭喜，机械大师，阶段四已经被你征服在手下，右键植入此芯片来解锁阶段五
-et2.parise.normal.stage_five=恭喜，星尘之子，阶段五已经被你征服在手下，右键融合此符文来解锁阶段六
-et2.parise.normal.stage_six=恭喜，守序者，阶段六已经被你征服在手下，右键值守你的信条来解锁阶段阿尔法，寻找飞升之路
-et2.parise.normal.stage_alpha=恭喜，飞升者，玄理2整合包已经被您征服，此物品不会在任何合成中消耗
+et2.praise.normal.stage_one=恭喜，原始之人，阶段一已经被你征服在手下，右键喝下此药剂来解锁阶段二
+et2.praise.normal.stage_two=恭喜，植物之友，阶段二已经被你征服在手下，右键阅读此卷轴来解锁阶段三
+et2.praise.normal.stage_three=恭喜，灵气的掌控者，阶段三已经被你征服在手下，右键理解此启示来解锁阶段四
+et2.praise.normal.stage_four=恭喜，机械大师，阶段四已经被你征服在手下，右键植入此芯片来解锁阶段五
+et2.praise.normal.stage_five=恭喜，星尘之子，阶段五已经被你征服在手下，右键融合此符文来解锁阶段六
+et2.praise.normal.stage_six=恭喜，守序者，阶段六已经被你征服在手下，右键值守你的信条来解锁阶段阿尔法，寻找飞升之路
+et2.praise.normal.stage_alpha=恭喜，飞升者，玄理2整合包已经被您征服，此物品不会在任何合成中消耗
 
 et2.botaniamisc.advanced_fruit.page0=只需要一点点盖亚和末影的力 量加以引导，&1禁忌之果&0能被升 级为&1饕餮之果&0。 它可以自动补充饱食度，无需 玩家自行食用。 同时它的消耗魔力的量比禁忌 之果稍微少一点。 与其他遗物不同，它需要手持 右键后绑定玩家后才能使用。
 et2.botaniamisc.advanced_fruit.page1=比 iWatch 好。

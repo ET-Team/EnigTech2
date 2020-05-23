@@ -1,4 +1,4 @@
-#packmode normal expert
+#packmode expert
 #modloaded etutil
 #priority -100
 import crafttweaker.item.IIngredient;
@@ -59,13 +59,13 @@ val warning as string[IIngredient] = {
 
 val praise as string[IIngredient] = {
     
-    <item:contenttweaker:potion_inteligence> : game.localize("et2.parise.expert.stage_one"),
-    <item:contenttweaker:ancient_scroll> : game.localize("et2.parise.expert.stage_two"),
-    <item:contenttweaker:divine_inspiration> : game.localize("et2.parise.expert.stage_three"),
-    <item:contenttweaker:brain_chip> : game.localize("et2.parise.expert.stage_four"),
-    <item:contenttweaker:star_rune> : game.localize("et2.parise.expert.stage_five"),
-    <item:contenttweaker:orders_truth> : game.localize("et2.parise.expert.stage_six"),
-    <item:contenttweaker:ascenders_proof> : game.localize("et2.parise.expert.stage_alpha")
+    <item:contenttweaker:potion_inteligence> : game.localize("et2.praise.expert.stage_one"),
+    <item:contenttweaker:ancient_scroll> : game.localize("et2.praise.expert.stage_two"),
+    <item:contenttweaker:divine_inspiration> : game.localize("et2.praise.expert.stage_three"),
+    <item:contenttweaker:brain_chip> : game.localize("et2.praise.expert.stage_four"),
+    <item:contenttweaker:star_rune> : game.localize("et2.praise.expert.stage_five"),
+    <item:contenttweaker:orders_truth> : game.localize("et2.praise.expert.stage_six"),
+    <item:contenttweaker:ascenders_proof> : game.localize("et2.praise.expert.stage_alpha")
 
 };
 
