@@ -47,13 +47,13 @@ val warning as string[IIngredient] = {
 
 val praise as string[IIngredient] = {
     
-    <item:contenttweaker:potion_inteligence> : game.localize("et2.praise.expert.stage_one"),
-    <item:contenttweaker:ancient_scroll> : game.localize("et2.praise.expert.stage_two"),
-    <item:contenttweaker:divine_inspiration> : game.localize("et2.praise.expert.stage_three"),
-    <item:contenttweaker:brain_chip> : game.localize("et2.praise.expert.stage_four"),
-    <item:contenttweaker:star_rune> : game.localize("et2.praise.expert.stage_five"),
-    <item:contenttweaker:orders_truth> : game.localize("et2.praise.expert.stage_six"),
-    <item:contenttweaker:ascenders_proof> : game.localize("et2.praise.expert.stage_alpha")
+    <item:contenttweaker:potion_inteligence> : game.localize("et2.praise.normal.stage_one"),
+    <item:contenttweaker:ancient_scroll> : game.localize("et2.praise.normal.stage_two"),
+    <item:contenttweaker:divine_inspiration> : game.localize("et2.praise.normal.stage_three"),
+    <item:contenttweaker:brain_chip> : game.localize("et2.praise.normal.stage_four"),
+    <item:contenttweaker:star_rune> : game.localize("et2.praise.normal.stage_five"),
+    <item:contenttweaker:orders_truth> : game.localize("et2.praise.normal.stage_six"),
+    <item:contenttweaker:ascenders_proof> : game.localize("et2.praise.normal.stage_alpha")
 
 };
 
