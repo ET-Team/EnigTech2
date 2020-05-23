@@ -438,3 +438,9 @@ for bannedItems in bannedArray{
 	removeItemStage(bannedItems);
 	addItemStage("\u0062\u0061\u006e\u006e\u0065\u0064",bannedItems);
 }
+
+for mod in loadedMods {
+	for item in mod.items {
+		mods.ItemStages.setUnfamiliarName(game.localize("et2.unfamiliarName"), item);
+	}
+}

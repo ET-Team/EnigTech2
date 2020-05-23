@@ -433,3 +433,9 @@ for bannedItems in bannedArray{
 	removeItemStage(bannedItems);
 	addItemStage("无法获取", bannedItems);
 }
+
+for mod in loadedMods {
+	for item in mod.items {
+		mods.ItemStages.setUnfamiliarName(game.localize("et2.unfamiliarName"), item);
+	}
+}
