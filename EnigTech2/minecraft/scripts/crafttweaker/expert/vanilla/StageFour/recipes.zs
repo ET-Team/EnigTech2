@@ -132,3 +132,6 @@ mods.recipestages.Recipes.addShaped("four", <extrautils2:drum:1>, [[calloy,<ore:
 mods.recipestages.Recipes.addShaped("four", <extrautils2:drum:2>, [[chas,<ore:plateElectrum>,chas],[<ore:plateInvar>,<extrautils2:drum:1>,<ore:plateInvar>],[chas,<ore:plateElectrum>,chas]]);
 
 recipes.replaceAllOccurences(<minecraft:baked_potato>, <silentgems:food:0>,<actuallyadditions:item_food:5>);
+
+//ME接口板式复原块式
+mods.recipestages.Recipes.addShapeless("four", <appliedenergistics2:interface>, [<appliedenergistics2:part:440>]);
