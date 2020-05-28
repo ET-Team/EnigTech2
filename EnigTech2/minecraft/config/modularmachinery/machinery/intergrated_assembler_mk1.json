@@ -1,0 +1,189 @@
+{
+    "registryname": "intergrated_assembler_mk1",
+    "localizedname": "集成装配机 MKI",
+    "color":"737373",
+    "parts": [
+    	{
+            "x": [3, 2, -2, -3],
+            "y": -1,
+            "z": [-2, -1, 3, 4],
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": [2, -2],
+            "y": 0,
+            "z": [-2, -1, 3, 4],
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": [3, -3],
+            "y": 0,
+            "z": [-1, 3],
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": [1, -1],
+            "y": 0,
+            "z": [0, 1, 2],
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": [1, 2],
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@3"
+                "modularmachinery:blockfluidinputhatch@4"
+                "modularmachinery:blockfluidinputhatch@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockinputbus@3"
+                "modularmachinery:blockinputbus@4"
+                "modularmachinery:blockinputbus@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@3"
+                "modularmachinery:blockenergyinputhatch@4"
+                "modularmachinery:blockenergyinputhatch@5"
+            ]
+        },
+        {
+            "x": [3, -3],
+            "y": 1,
+            "z": [-2, 4],
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": [3, -3],
+            "y": 1,
+            "z": [-1, 0, 1, 2, 3],
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": [2, 1, 0, -1, -2],
+            "y": 1,
+            "z": [-2, 4],
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": [2, -2],
+            "y": 1,
+            "z": [-1, 3],
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": [1, -1],
+            "y": 1,
+            "z": [0, 1, 2],
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": [0, 2],
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:frame"
+            ]
+        },
+        {
+            "x": [3, -3],
+            "y": 2,
+            "z": [-2, 4],
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": [2, -2],
+            "y": 2,
+            "z": [-1, 3],
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": [3, -3],
+            "y": 2,
+            "z": [-1, 3],
+            "elements": [
+                "extendedcrafting:trimmed"
+            ]
+        },
+        {
+            "x": [2, -2],
+            "y": 2,
+            "z": [-2, 4],
+            "elements": [
+                "extendedcrafting:trimmed"
+            ]
+        },
+        {
+            "x": [1, 0, -1],
+            "y": 2,
+            "z": [0, 1, 2],
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": [3, 2, -2, -3],
+            "y": 3,
+            "z": [-2, -1, 3, 4],
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+    ]
+}
