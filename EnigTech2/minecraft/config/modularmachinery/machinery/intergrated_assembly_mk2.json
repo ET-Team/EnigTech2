@@ -1,14 +1,15 @@
 {
     "registryname": "intergrated_assembly_mk2",
-    "localizedname": "集成装配机 MKII",
-    "color":"525252",
+    "localizedname": "集成装配机MK2",
+    "requires-blueprint": true,
+    "color":"2b2b2b",
     "parts": [
         {
             "x": -2,
             "y": -2,
             "z": -1,
             "elements": [
-                "minecraft:obsidian@0"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -16,7 +17,15 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "appliedenergistics2:quartz_glass@0"
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:storage@6"
             ]
         },
         {
@@ -24,7 +33,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "appliedenergistics2:quartz_glass@0"
+                "extrautils2:decorativeglass@3"
             ]
         },
         {
@@ -32,7 +41,15 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "appliedenergistics2:quartz_glass@0"
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:trimmed@3"
             ]
         },
         {
@@ -40,1874 +57,957 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "appliedenergistics2:quartz_glass@0"
+                "extrautils2:decorativeglass@3"
             ]
         },
         {
-            "x": 2,
-            "y": 8,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 10,
-            "z": -3,
-            "elements": [
-                "extendedcrafting:trimmed@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": -4,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 10,
-            "z": -3,
-            "elements": [
-                "extendedcrafting:trimmed@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 8,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 10,
-            "z": -3,
-            "elements": [
-                "extendedcrafting:trimmed@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 0,
-            "nbt": {"busSize":"3","casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tileiteminputbus","inventory":{"inventoryArray":[{"holderEmpty":"1b","holderId":"0"},{"holderEmpty":"1b","holderId":"1"},{"holderEmpty":"1b","holderId":"2"},{"holderEmpty":"1b","holderId":"3"},{"holderEmpty":"1b","holderId":"4"},{"holderEmpty":"1b","holderId":"5"},{"holderEmpty":"1b","holderId":"6"},{"holderEmpty":"1b","holderId":"7"},{"holderEmpty":"1b","holderId":"8"}],"outSlots":,"miscSlots":,"inSlots":,"sides":}},
-            "elements": [
-                "modularmachinery:blockinputbus@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 9,
-            "z": -3,
-            "elements": [
-                "extendedcrafting:trimmed@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 9,
-            "z": -3,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": -4,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 9,
-            "z": -3,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 9,
-            "z": -3,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 9,
-            "z": -3,
-            "elements": [
-                "extendedcrafting:trimmed@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "minecraft:obsidian@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "minecraft:obsidian@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "minecraft:obsidian@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 0,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "minecraft:obsidian@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "minecraft:obsidian@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 8,
-            "z": -3,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": -3,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": -4,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 10,
-            "z": -2,
-            "elements": [
-                "extendedcrafting:trimmed@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": -3,
-            "elements": [
-                "extendedcrafting:frame@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": -3,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 10,
-            "z": -2,
-            "elements": [
-                "extendedcrafting:storage@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 8,
-            "z": -3,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 10,
-            "z": -2,
-            "elements": [
-                "extendedcrafting:trimmed@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 0,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": -3,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 9,
-            "z": -2,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": -3,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": -4,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 9,
-            "z": -2,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": -3,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": -3,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 9,
-            "z": -2,
-            "elements": [
-                "extendedcrafting:storage@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": -3,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 9,
-            "z": -2,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 9,
-            "z": -2,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 0,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": -3,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 8,
-            "z": -2,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": -3,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": -4,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": -2,
-            "elements": [
-                "extendedcrafting:frame@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": -3,
-            "elements": [
-                "extendedcrafting:frame@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 10,
-            "z": -1,
-            "elements": [
-                "extendedcrafting:trimmed@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": -2,
-            "elements": [
-                "extendedcrafting:frame@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": -3,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": -3,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": -2,
-            "elements": [
-                "extendedcrafting:frame@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 10,
-            "z": -1,
-            "elements": [
-                "extendedcrafting:trimmed@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 8,
-            "z": -2,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 10,
-            "z": -1,
-            "elements": [
-                "extendedcrafting:trimmed@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 0,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": -3,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": -2,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": -3,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": -4,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 9,
-            "z": -1,
-            "elements": [
-                "extendedcrafting:trimmed@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": -2,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": -3,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 9,
-            "z": -1,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": -2,
-            "elements": [
-                "extendedcrafting:frame@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": -4,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": -3,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": -3,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": -2,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 9,
-            "z": -1,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": -2,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 9,
-            "z": -1,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 9,
-            "z": -1,
-            "elements": [
-                "extendedcrafting:trimmed@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 0,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": -4,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": -3,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": -4,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": -2,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": -3,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": -4,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 8,
-            "z": -1,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": -2,
-            "elements": [
-                "extendedcrafting:frame@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": -3,
-            "elements": [
-                "extendedcrafting:frame@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": -4,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": -1,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": -2,
-            "elements": [
-                "extendedcrafting:frame@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": -4,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": -3,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": -1,
-            "elements": [
-                "extendedcrafting:frame@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": -3,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": -2,
-            "elements": [
-                "extendedcrafting:frame@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": -2,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": -1,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 8,
-            "z": -1,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 0,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": -4,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": -3,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": -2,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": -3,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": -1,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": -2,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": -3,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": -1,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": -2,
-            "elements": [
-                "extendedcrafting:frame@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": -4,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": -3,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": -1,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": -3,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": -2,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": -2,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": -1,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": -1,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 0,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
+            "x": 3,
             "y": 0,
-            "z": -4,
+            "z": 0,
             "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
+                "extendedcrafting:trimmed@3"
             ]
         },
         {
-            "x": 2,
-            "y": 2,
-            "z": -3,
+            "x": 3,
+            "y": 4,
+            "z": -6,
             "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
+                "extendedcrafting:trimmed@3"
             ]
         },
         {
             "x": 2,
             "y": 4,
-            "z": -2,
+            "z": -6,
             "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": -3,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": -1,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
+                "extrautils2:decorativeglass@3"
             ]
         },
         {
             "x": 1,
             "y": 4,
-            "z": -2,
+            "z": -6,
             "elements": [
-                "extendedcrafting:frame@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": -3,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": -1,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@5"
+                "extrautils2:decorativeglass@3"
             ]
         },
         {
             "x": 0,
             "y": 4,
-            "z": -2,
+            "z": -6,
             "elements": [
-                "extendedcrafting:frame@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": -4,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": -3,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": -1,
-            "elements": [
-                "extendedcrafting:frame@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": -3,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
+                "extrautils2:decorativeglass@3"
             ]
         },
         {
             "x": -1,
             "y": 4,
-            "z": -2,
+            "z": -6,
             "elements": [
-                "extendedcrafting:frame@0"
+                "extrautils2:decorativeglass@3"
             ]
         },
         {
             "x": -2,
             "y": 4,
-            "z": -2,
+            "z": -6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
             "elements": [
                 "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": -1,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": -1,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 9,
-            "z": 0,
-            "elements": [
-                "extendedcrafting:trimmed@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 9,
-            "z": 0,
-            "elements": [
-                "extendedcrafting:trimmed@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 9,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 9,
-            "z": 0,
-            "elements": [
-                "extendedcrafting:trimmed@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 9,
-            "z": 0,
-            "elements": [
-                "extendedcrafting:trimmed@0"
             ]
         },
         {
             "x": 2,
             "y": -1,
-            "z": -4,
+            "z": 0,
             "elements": [
                 "actuallyadditions:block_crystal_empowered@4"
             ]
         },
         {
-            "x": 2,
+            "x": -3,
             "y": 1,
-            "z": -3,
+            "z": 0,
             "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": -2,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": -1,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
+                "extendedcrafting:trimmed@3"
             ]
         },
         {
             "x": 1,
-            "y": 3,
-            "z": -2,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": -1,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": -2,
-            "elements": [
-                "extendedcrafting:frame@0"
-            ]
-        },
-        {
-            "x": -2,
             "y": -1,
-            "z": -4,
+            "z": 0,
             "elements": [
                 "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": -1,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@1"
             ]
         },
         {
             "x": -2,
             "y": 1,
-            "z": -3,
+            "z": 0,
             "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": -2,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": -2,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": -1,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": -1,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": -4,
-            "elements": [
-                "minecraft:obsidian@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": -3,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": -4,
-            "elements": [
-                "minecraft:obsidian@0"
+                "extrautils2:decorativeglass@3"
             ]
         },
         {
             "x": 0,
-            "y": -2,
-            "z": -4,
-            "elements": [
-                "minecraft:obsidian@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": -2,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": -2,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": -4,
-            "elements": [
-                "minecraft:obsidian@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": -1,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": -1,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": -2,
-            "nbt": {"busSize":"1","casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tileitemoutputbus","inventory":{"inventoryArray":[{"holderEmpty":"1b","holderId":"0"},{"holderEmpty":"1b","holderId":"1"},{"holderEmpty":"1b","holderId":"2"},{"holderEmpty":"1b","holderId":"3"}],"outSlots":,"miscSlots":,"inSlots":,"sides":}},
+            "y": -1,
+            "z": 0,
             "elements": [
                 "modularmachinery:blockoutputbus@1"
             ]
         },
         {
-            "x": -2,
-            "y": -2,
-            "z": -4,
+            "x": -1,
+            "y": 1,
+            "z": 0,
             "elements": [
-                "minecraft:obsidian@0"
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
             ]
         },
         {
             "x": 0,
-            "y": 4,
-            "z": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": -5,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -5,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": -5,
+            "elements": [
+                "extendedcrafting:frame@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -5,
+            "elements": [
+                "extendedcrafting:frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": -5,
             "elements": [
                 "extendedcrafting:frame@0"
             ]
         },
         {
             "x": -2,
-            "y": 0,
-            "z": -3,
+            "y": 3,
+            "z": -6,
             "elements": [
-                "appliedenergistics2:quartz_glass@0"
+                "extrautils2:decorativeglass@3"
             ]
         },
         {
-            "x": -1,
-            "y": 2,
-            "z": -2,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "x": -3,
+            "y": 3,
+            "z": -6,
             "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": -2,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": -1,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@5"
+                "extendedcrafting:trimmed@3"
             ]
         },
         {
             "x": -2,
-            "y": 4,
-            "z": -1,
+            "y": 5,
+            "z": -5,
             "elements": [
-                "appliedenergistics2:quartz_glass@0"
+                "modularmachinery:blockcasing@1"
             ]
         },
         {
-            "x": 2,
-            "y": -1,
-            "z": -3,
+            "x": -3,
+            "y": 5,
+            "z": -5,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 0,
             "elements": [
                 "thermalfoundation:storage@6"
             ]
         },
         {
             "x": 2,
-            "y": 1,
-            "z": -2,
+            "y": -2,
+            "z": 0,
             "elements": [
-                "appliedenergistics2:quartz_glass@0"
+                "thermalfoundation:storage@6"
             ]
         },
         {
-            "x": 2,
-            "y": 3,
-            "z": -1,
+            "x": -3,
+            "y": 2,
+            "z": 0,
             "elements": [
-                "appliedenergistics2:quartz_glass@0"
+                "extendedcrafting:trimmed@3"
             ]
         },
         {
             "x": 1,
-            "y": 3,
-            "z": -1,
+            "y": -2,
+            "z": 0,
             "elements": [
-                "thermalfoundation:storage@7"
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
             ]
         },
         {
             "x": 0,
             "y": 3,
-            "z": -1,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": -4,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": -4,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -4,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": -4,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": -4,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -3,
             "elements": [
                 "modularmachinery:blockcasing@1"
             ]
@@ -1915,6 +1015,1014 @@
         {
             "x": -2,
             "y": -1,
+            "z": -6,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "embers:reactor@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:metal_decoration1@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:metal_decoration1@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "extendedcrafting:frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "extendedcrafting:frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "extendedcrafting:frame@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "embers:beam_cannon@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "modularmachinery:blockinputbus@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "embers:beam_cannon@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "enderio:block_dark_iron_bars@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
             "z": -3,
             "elements": [
                 "thermalfoundation:storage@6"
@@ -1922,15 +2030,239 @@
         },
         {
             "x": -2,
-            "y": 1,
-            "z": -2,
+            "y": -2,
+            "z": -3,
             "elements": [
-                "appliedenergistics2:quartz_glass@0"
+                "thermalfoundation:storage@6"
             ]
         },
         {
             "x": -1,
-            "y": 3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "minecraft:sea_lantern@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "embers:cinder_plinth@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
             "z": -1,
             "elements": [
                 "thermalfoundation:storage@7"
@@ -1938,234 +2270,79 @@
         },
         {
             "x": -2,
-            "y": 3,
+            "y": -1,
             "z": -1,
             "elements": [
-                "appliedenergistics2:quartz_glass@0"
+                "modularmachinery:blockcasing@5"
             ]
         },
         {
-            "x": 2,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:obsidian@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:obsidian@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:obsidian@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
+            "x": -3,
+            "y": -1,
             "z": -1,
             "elements": [
                 "actuallyadditions:block_crystal_empowered@4"
             ]
         },
         {
-            "x": 1,
-            "y": 2,
-            "z": -1,
+            "x": 3,
+            "y": 5,
+            "z": -6,
             "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:obsidian@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": -1,
-            "nbt": {"casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:obsidian@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "minecraft:obsidian@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": -1,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": -1,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
+                "extendedcrafting:trimmed@3"
             ]
         },
         {
             "x": 2,
-            "y": -1,
-            "z": -2,
+            "y": 5,
+            "z": -6,
             "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": -1,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 1,
-            "nbt": {"hatchSize":"3","casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tileenergyinputhatch","energy":"0L"},
-            "elements": [
-                "modularmachinery:blockenergyinputhatch@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": -1,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": -2,
-            "elements": [
-                "minecraft:obsidian@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
+                "extendedcrafting:trimmed@3"
             ]
         },
         {
             "x": 1,
-            "y": -2,
-            "z": -2,
+            "y": 5,
+            "z": -6,
             "elements": [
-                "minecraft:obsidian@0"
+                "extendedcrafting:trimmed@3"
             ]
         },
         {
             "x": 0,
-            "y": -2,
-            "z": -2,
+            "y": 5,
+            "z": -6,
             "elements": [
-                "minecraft:obsidian@0"
+                "extendedcrafting:trimmed@3"
             ]
         },
         {
             "x": -1,
+            "y": 5,
+            "z": -6,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": -6,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": -6,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 3,
             "y": -2,
-            "z": -2,
-            "elements": [
-                "minecraft:obsidian@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "nbt": {"input":"1b","size":"3","casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilefluidinputhatch","tank":{"Empty":"","gasTag":{"Empty":""}}},
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": -2,
-            "elements": [
-                "minecraft:obsidian@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "appliedenergistics2:quartz_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
             "z": -1,
             "elements": [
                 "thermalfoundation:storage@6"
@@ -2173,50 +2350,10 @@
         },
         {
             "x": 2,
-            "y": 9,
-            "z": -4,
-            "elements": [
-                "extendedcrafting:trimmed@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 9,
-            "z": -4,
-            "elements": [
-                "extendedcrafting:trimmed@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 9,
-            "z": -4,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 9,
-            "z": -4,
-            "elements": [
-                "extendedcrafting:trimmed@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 9,
-            "z": -4,
-            "elements": [
-                "extendedcrafting:trimmed@0"
-            ]
-        },
-        {
-            "x": 2,
             "y": -2,
             "z": -1,
             "elements": [
-                "minecraft:obsidian@0"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -2224,7 +2361,7 @@
             "y": -2,
             "z": -1,
             "elements": [
-                "minecraft:obsidian@0"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -2232,7 +2369,7 @@
             "y": -2,
             "z": -1,
             "elements": [
-                "minecraft:obsidian@0"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -2240,7 +2377,7 @@
             "y": -2,
             "z": -1,
             "elements": [
-                "minecraft:obsidian@0"
+                "modularmachinery:blockcasing@4"
             ]
         }
     ]}
