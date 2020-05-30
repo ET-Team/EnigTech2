@@ -2,38 +2,38 @@
     "registryname": "intergrated_assembly_mk1",
     "localizedname": "集成装配机MK1",
     "requires-blueprint": true,
-    "color":"424242",
+    "color":"1294ff",
     "parts": [
         {
+            "x": -2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@2"
+            ]
+        },
+        {
             "x": -1,
             "y": 0,
             "z": 0,
             "elements": [
-                "extrautils2:decorativeglass@3"
+                "thermalfoundation:storage@6"
             ]
         },
         {
-            "x": 2,
-            "y": 4,
-            "z": 2,
+            "x": 1,
+            "y": 2,
+            "z": 1,
             "elements": [
-                "extendedcrafting:trimmed@3"
+                "thermalfoundation:storage@6"
             ]
         },
         {
             "x": -2,
-            "y": 0,
-            "z": 0,
+            "y": -2,
+            "z": 1,
             "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "extendedcrafting:trimmed@3"
+                "actuallyadditions:block_crystal_empowered@2"
             ]
         },
         {
@@ -41,85 +41,45 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "extrautils2:decorativeglass@3"
+                "thermalfoundation:storage@6"
             ]
         },
         {
             "x": -1,
-            "y": 3,
+            "y": -2,
             "z": 1,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -1,
             "elements": [
                 "modularmachinery:blockcasing@1"
             ]
@@ -129,1076 +89,420 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockoutputbus@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 0,
-            "elements": [
                 "thermalfoundation:storage@6"
             ]
         },
         {
             "x": 0,
-            "y": -2,
-            "z": 0,
+            "y": -3,
+            "z": -1,
             "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "extendedcrafting:trimmed@3"
+                "modularmachinery:blockcasing@3"
             ]
         },
         {
             "x": -1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 1,
+            "y": -3,
+            "z": -1,
             "elements": [
                 "modularmachinery:blockcasing@1"
             ]
         },
         {
             "x": 0,
-            "y": 2,
+            "y": -1,
             "z": 0,
             "elements": [
-                "extrautils2:decorativeglass@3"
+                "extendedcrafting:frame@0"
             ]
         },
         {
             "x": -1,
-            "y": -2,
+            "y": 1,
             "z": 0,
             "elements": [
                 "thermalfoundation:storage@6"
             ]
         },
         {
-            "x": -2,
-            "y": -2,
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
             "z": 0,
             "elements": [
                 "thermalfoundation:storage@6"
             ]
         },
         {
-            "x": 2,
-            "y": 4,
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
             "z": 1,
             "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 0,
-            "elements": [
                 "thermalfoundation:storage@6"
             ]
         },
         {
-            "x": 3,
-            "y": 4,
+            "x": 0,
+            "y": -1,
             "z": 1,
             "elements": [
-                "extendedcrafting:trimmed@3"
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@6"
             ]
         },
         {
             "x": 2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@3"
+            ]
+        },
+        {
+            "x": -1,
             "y": 2,
             "z": 0,
             "elements": [
-                "extrautils2:decorativeglass@3"
+                "thermalfoundation:storage@6"
             ]
         },
         {
-            "x": 3,
+            "x": -1,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 0,
             "y": 2,
             "z": 0,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 4,
             "elements": [
                 "modularmachinery:blockenergyinputhatch@3"
             ]
         },
         {
-            "x": 1,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
             "x": -1,
             "y": -2,
-            "z": 3,
+            "z": 0,
             "elements": [
                 "thermalfoundation:storage@6"
             ]
         },
         {
             "x": 0,
-            "y": 0,
-            "z": 4,
+            "y": -2,
+            "z": -2,
             "elements": [
-                "extrautils2:decorativeglass@3"
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:trimmed@3"
             ]
         },
         {
             "x": 0,
             "y": -2,
-            "z": 3,
+            "z": 2,
             "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "extrautils2:decorativeglass@3"
+                "thermalfoundation:storage@7"
             ]
         },
         {
             "x": 1,
             "y": -2,
-            "z": 3,
+            "z": 2,
             "elements": [
-                "thermalfoundation:storage@6"
+                "thermalfoundation:storage@7"
             ]
         },
         {
-            "x": 3,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 3,
+            "x": 0,
+            "y": -4,
+            "z": 1,
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
         },
         {
-            "x": 3,
+            "x": 2,
             "y": -2,
-            "z": 3,
+            "z": 2,
             "elements": [
-                "thermalfoundation:storage@6"
+                "actuallyadditions:block_crystal_empowered@2"
             ]
         },
         {
-            "x": -3,
-            "y": 1,
-            "z": 4,
+            "x": 1,
+            "y": -4,
+            "z": 1,
             "elements": [
                 "extendedcrafting:trimmed@3"
             ]
         },
         {
-            "x": -3,
-            "y": -1,
-            "z": 3,
+            "x": 1,
+            "y": -3,
+            "z": 0,
             "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
+                "modularmachinery:blockcasing@3"
             ]
         },
         {
-            "x": -2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 3,
+            "x": 0,
+            "y": -3,
+            "z": 0,
             "elements": [
                 "modularmachinery:blockcasing@5"
             ]
         },
         {
             "x": -1,
-            "y": 1,
-            "z": 4,
+            "y": -3,
+            "z": 0,
             "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "extrautils2:decorativeglass@3"
+                "modularmachinery:blockcasing@3"
             ]
         },
         {
             "x": -1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": 1,
             "y": 1,
-            "z": 4,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 2,
+            "z": 1,
             "elements": [
                 "thermalfoundation:storage@6"
             ]
         },
         {
-            "x": -2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "embers:cinder_plinth@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
             "x": 0,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 2,
+            "y": 1,
+            "z": 1,
             "elements": [
                 "modularmachinery:blockcasing@5"
             ]
         },
         {
-            "x": 2,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
             "x": 1,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 2,
+            "y": 1,
+            "z": 1,
             "elements": [
                 "thermalfoundation:storage@6"
             ]
         },
         {
-            "x": -3,
-            "y": 3,
-            "z": 4,
+            "x": -1,
+            "y": -3,
+            "z": 1,
             "elements": [
-                "extendedcrafting:trimmed@3"
+                "modularmachinery:blockcasing@1"
             ]
         },
         {
-            "x": -3,
-            "y": 1,
-            "z": 3,
+            "x": 0,
+            "y": -3,
+            "z": 1,
             "elements": [
-                "extrautils2:decorativeglass@3"
+                "modularmachinery:blockcasing@3"
             ]
         },
         {
-            "x": -2,
-            "y": 3,
-            "z": 4,
+            "x": 1,
+            "y": -3,
+            "z": 1,
             "elements": [
-                "extrautils2:decorativeglass@3"
+                "modularmachinery:blockcasing@1"
             ]
         },
         {
-            "x": -3,
-            "y": -1,
-            "z": 2,
+            "x": 1,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -1,
             "elements": [
                 "modularmachinery:blockinputbus@3"
             ]
         },
         {
             "x": -1,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -3,
             "y": 2,
-            "z": 3,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "enderio:block_dark_iron_bars@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
             "z": 1,
             "elements": [
                 "thermalfoundation:storage@6"
@@ -1207,425 +511,25 @@
         {
             "x": 0,
             "y": -2,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "enderio:block_end_iron_bars@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:storage@6"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "embers:beam_cannon@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "enderio:block_end_iron_bars@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:storage@7"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "actuallyadditions:block_crystal_empowered@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 3,
+            "z": -1,
             "elements": [
                 "modularmachinery:blockcasing@1"
             ]
         },
         {
             "x": 0,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
+            "y": 2,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "thermalfoundation:storage@6"
             ]
         },
         {
             "x": -1,
-            "y": 2,
-            "z": 2,
+            "y": -2,
+            "z": -1,
             "elements": [
-                "modularmachinery:blockcasing@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "embers:beam_cannon@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "embers:reactor@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "extrautils2:decorativeglass@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "extendedcrafting:trimmed@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@1"
+                "modularmachinery:blockoutputbus@1"
             ]
         }
     ]}

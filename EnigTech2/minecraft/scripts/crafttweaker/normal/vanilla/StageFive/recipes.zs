@@ -2,7 +2,6 @@
 #modloaded etutil
 #priority -100
 
-recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:intergrated_assembler_mk1"}), [<minecraft:paper>,<thermalfoundation:material:293>]);
 recipes.replaceAllOccurences(<advancedrocketry:ic>, <contenttweaker:basic_processor>);
 recipes.replaceAllOccurences(<advancedrocketry:ic:2>, <contenttweaker:advanced_processor>);
 recipes.replaceAllOccurences(<ore:blockMotor>, <contenttweaker:strong_motor>);
