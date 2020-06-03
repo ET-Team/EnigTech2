@@ -1,0 +1,273 @@
+
+# Created by Ruins mod version 17.2 Ingame Parser
+# authoring Player: Mc_EeL
+
+# TEMPLATE PARAMETER SETTINGS:
+#
+# criterion expression specifying mod ids required to load template
+# may include plus (AND), minus (AND NOT), comma (OR), and parentheses
+# all required mods listed must be present; no prohibited mods can be
+requiredMods=
+#
+# likelihood this template will be chosen relative to all others
+# e.g., a weight=6 template is chosen 3X as often as one with weight=2
+weight=1
+#
+# list of dimensions in which this template may spawn, even if generic
+# one or more dimension names, separated by commas (blank = all)
+dimensionsToSpawnIn=
+#
+# list of other biomes in which this template may spawn
+# biome corresponding to directory is always assumed, listed or not
+# generic templates should leave this list empty
+biomesToSpawnIn=
+#
+# criterion expression specifying types of biome where template spawns
+# this is in addition to those explicitly listed as biomesToSpawnIn
+# generic templates should leave this list empty
+biomeTypesToSpawnIn=
+#
+# list of biomes in which this template may not spawn
+# takes precedence over biomeTypesToSpawnIn, but NOT biomesToSpawnIn
+# should be empty if biomeTypesToSpawnIn is empty
+biomesToNotSpawnIn=
+#
+# depth template is pushed down into the surface when built
+# offset is min/max range of random additional bury depth
+embed_into_distance=0
+random_height_offset=0,0
+#
+# whitelist/blacklist of block types on which template may be built
+# specify one, not both; leave the other empty (both empty = allow all)
+acceptable_target_blocks=
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+#
+# size of template (#layers, #rows per layer, #blocks per row)
+dimensions=10,12,10
+#
+# max number of missing blocks allowed in surface beneath template
+allowable_overhang=0
+#
+# depth/height limit affected by terrain leveling
+# also maximum bumpiness tolerated in surface beneath template
+max_leveling=2
+#
+# padding applied to all sides of template horizontal footprint
+# expands area affected by terrain leveling (-1 = no leveling)
+leveling_buffer=0
+#
+# do not rotate template randomly when built (1 = no rotation)
+preventRotation=1
+#
+# treat water/lava blocks as air and protect them from rule0 (1 = yes)
+preserve_water=0
+preserve_lava=0
+#
+# minimum distance this template must have from instances of itself
+uniqueMinDistance=0
+#
+# min/max distances this template can be from world spawn (0 = no limit)
+# only applies to overworld--i.e., dimension 0
+spawnMinDistance=0
+spawnMaxDistance=0
+#
+# other template built nearby whenever this one is
+# syntax: <name>;<relativeX>;<maxYdifference>;<relativeZ>[;<chance>]
+# may be used more than once to specify multiple neighbors
+adjoining_template=
+
+rule1=0,100,appliedenergistics2:quartz_pillar-1,minecraft:preserveBlock
+rule2=0,100,appliedenergistics2:sky_stone_small_brick-0,minecraft:preserveBlock
+rule3=0,100,appliedenergistics2:sky_stone_brick-0,minecraft:preserveBlock
+rule4=0,100,appliedenergistics2:smooth_sky_stone_stairs-3,minecraft:preserveBlock
+rule5=0,100,extrautils2:ineffableglass-1
+rule6=0,100,ChestGenHook:chests/simple_dungeon:5-3
+rule7=0,100,appliedenergistics2:chest-0
+rule8=0,100,immersiveengineering:metal_decoration1-0
+rule9=0,100,appliedenergistics2:sky_stone_small_brick_stairs-0
+rule10=0,100,appliedenergistics2:sky_stone_small_brick_stairs-3
+rule11=0,100,appliedenergistics2:sky_stone_small_brick_stairs-2
+rule12=0,100,minecraft:lapis_block-0
+rule13=0,100,enderio:block_dark_steel_door-3
+rule14=0,100,appliedenergistics2:sky_stone_small_brick_stairs-1
+rule15=0,100,appliedenergistics2:wireless_access_point-0
+rule16=0,100,minecraft:glass_pane-0
+rule17=0,100,appliedenergistics2:drive-0
+rule18=0,100,enderio:block_dark_steel_door-9
+rule19=0,100,mysticalworld:pearl_button-3
+rule20=0,100,minecraft:snow_layer-0
+rule21=0,100,appliedenergistics2:smooth_sky_stone_stairs-0
+rule22=0,100,appliedenergistics2:sky_stone_double_slab-0
+rule23=0,100,appliedenergistics2:sky_stone_slab-8
+rule24=0,100,appliedenergistics2:sky_stone_small_brick_slab-8,minecraft:preserveBlock
+rule25=0,100,appliedenergistics2:sky_stone_small_brick_stairs-6,minecraft:preserveBlock
+rule26=0,100,appliedenergistics2:sky_stone_small_brick_stairs-4,minecraft:preserveBlock
+rule27=0,100,appliedenergistics2:sky_stone_small_brick_stairs-7,minecraft:preserveBlock
+rule28=0,100,appliedenergistics2:sky_stone_small_brick_stairs-5,minecraft:preserveBlock
+rule29=0,100,minecraft:bed-0
+rule30=0,100,minecraft:bed-8
+rule31=0,100,ChestGenHook:chests/simple_dungeon:5-2
+rule32=0,100,appliedenergistics2:sky_stone_stairs-0
+rule33=0,100,appliedenergistics2:sky_stone_block-0
+rule34=0,100,appliedenergistics2:energy_cell-0
+rule35=0,100,modularmachinery:blockcasing-4
+rule36=0,100,actuallyadditions:block_misc-8
+rule37=0,100,appliedenergistics2:molecular_assembler-0
+rule38=0,100,appliedenergistics2:cable_bus-0
+rule39=0,100,environmentaltech:thermal_cell-0
+rule40=0,100,enderio:block_reinforced_obsidian-0
+rule41=0,100,modularmachinery:blockinputbus-3
+rule42=0,100,soot:insulation-1
+rule43=0,100,immersiveengineering:metal_decoration1-4
+rule44=0,100,immersiveengineering:metal_decoration0-7
+
+layer
+3,2,2,2,2,2,2,2,2,1
+3,2,2,2,2,2,2,2,2,2
+3,2,2,2,2,2,2,2,2,2
+3,2,2,2,2,2,2,2,2,2
+3,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2
+2,2,1,2,2,2,2,2,2,1
+endlayer
+
+layer
+1,2,2,2,2,2,2,2,2,1
+5,0,0,0,0,0,4,2,2,2
+5,0,0,0,0,0,0,1,2,2
+5,0,0,0,0,0,0,0,6,2
+1,2,1,0,0,0,0,0,7,2
+8,0,2,0,0,0,0,0,2,2
+8,0,2,0,0,0,0,0,0,2
+8,0,2,0,10,9,9,9,0,2
+8,0,13,0,10,12,12,11,0,2
+8,0,2,0,14,14,14,14,0,2
+8,0,2,0,0,0,0,0,0,2
+8,8,1,2,2,2,2,2,2,1
+endlayer
+
+layer
+1,2,2,2,2,2,2,2,2,1
+5,0,0,0,0,0,0,4,2,2
+5,0,0,0,0,0,0,1,2,2
+5,0,0,0,0,0,0,0,0,2
+1,2,1,0,0,0,0,0,15,2
+0,0,2,0,0,0,0,0,2,2
+0,0,2,0,0,0,0,0,0,2
+0,0,2,0,16,16,16,16,0,2
+0,0,18,0,16,17,17,16,0,2
+0,19,2,0,16,16,16,16,0,2
+0,0,2,0,0,0,0,0,0,2
+0,0,1,2,2,2,2,2,2,1
+endlayer
+
+layer
+1,2,2,2,2,2,2,2,2,1
+5,0,0,0,0,0,0,0,20,2
+5,0,0,0,0,0,0,1,9,2
+5,0,0,0,0,0,0,0,2,2
+1,2,1,0,0,0,0,0,2,2
+0,0,2,0,0,0,0,0,2,2
+0,0,2,0,0,0,0,0,0,2
+0,0,2,0,16,16,16,16,0,2
+0,0,2,0,16,17,17,16,0,2
+0,0,2,0,16,16,16,16,0,2
+0,0,2,0,0,0,0,0,0,2
+0,0,1,2,2,2,2,2,2,1
+endlayer
+
+layer
+3,2,2,2,2,2,2,2,2,1
+3,3,3,3,3,3,0,0,0,2
+3,2,2,2,2,2,2,2,0,2
+3,3,3,3,3,3,3,3,21,2
+3,2,1,2,2,2,2,2,2,2
+24,24,2,23,23,23,23,23,22,2
+24,24,2,23,24,24,24,24,23,2
+24,24,2,23,27,26,26,25,23,2
+24,24,2,23,27,2,2,25,23,2
+24,24,2,23,28,2,2,25,23,2
+24,24,2,23,23,23,23,23,23,2
+24,24,1,2,2,2,2,2,2,1
+endlayer
+
+layer
+2,2,0,0,0,0,0,0,0,1
+2,30,29,0,0,0,0,0,0,2
+0,31,0,0,0,0,0,0,0,2
+0,30,29,0,0,0,0,0,0,2
+2,2,1,8,8,0,0,0,0,2
+0,0,0,0,0,0,0,0,32,2
+0,0,0,0,0,0,0,0,33,2
+0,34,0,0,0,0,0,0,0,2
+0,37,0,35,36,36,36,35,0,2
+0,0,0,35,0,0,0,0,0,2
+0,0,0,38,38,0,38,0,0,2
+0,0,1,0,0,2,2,2,2,1
+endlayer
+
+layer
+2,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,2
+0,0,0,0,0,0,0,0,0,2
+0,0,0,0,0,0,0,0,0,2
+0,0,0,0,39,40,39,0,0,2
+0,0,0,39,0,0,0,0,32,2
+0,0,0,0,0,0,0,0,0,2
+0,0,0,39,42,43,42,41,0,2
+0,0,0,35,39,40,39,0,0,2
+0,0,0,0,0,0,0,0,0,2
+0,0,1,0,0,0,2,2,2,1
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,2
+0,0,0,0,0,40,0,0,0,2
+0,0,0,0,0,0,0,0,0,2
+0,0,0,0,0,0,0,0,0,2
+0,0,0,0,0,0,0,0,33,2
+0,0,0,35,40,40,40,0,0,2
+0,0,0,0,0,0,0,0,38,2
+0,0,0,0,0,0,0,0,2,1
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,44,0,0,0,0,0,0
+0,0,0,39,0,0,0,0,32,2
+0,0,0,35,39,40,39,0,0,2
+0,0,0,0,0,0,0,0,38,2
+0,0,0,0,0,0,0,0,0,1
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,35,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,38,0
+0,0,0,0,0,0,0,0,0,0
+endlayer
+
