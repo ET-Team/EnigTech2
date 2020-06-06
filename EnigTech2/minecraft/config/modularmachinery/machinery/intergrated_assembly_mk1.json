@@ -1,0 +1,535 @@
+{
+    "registryname": "intergrated_assembly_mk1",
+    "localizedname": "集成装配机MK1",
+    "requires-blueprint": true,
+    "color":"1294ff",
+    "parts": [
+        {
+            "x": -2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:frame@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:trimmed@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockinputbus@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockoutputbus@1"
+            ]
+        }
+    ]}
