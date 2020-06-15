@@ -30,8 +30,9 @@ fruit.onItemUpdate = function(item, world, owner, slot, isSelected) {
                 foodStats.foodLevel += 1;
                 ManaHandler.requestManaExact(item, player, 2000, true);
             } else if (foodStats.saturationLevel < 10.0f) {
-                foodStats.saturationLevel += 0.5f;
-                ManaHandler.requestManaExact(item, player, 1600, true);
+                //foodStats.saturationLevel += 0.5f;
+                player.addPotionEffect(<potion:minecraft:saturation>.makePotionEffect(1, 1, false, true));
+                ManaHandler.requestManaExact(item, player, 3200, true);
             }
         } else {
             // 玩家不匹配，给予伤害
