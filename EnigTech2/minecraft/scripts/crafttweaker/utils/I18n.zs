@@ -9,10 +9,10 @@ function i18nValued(key as string, values as string[]) as string {
     var value as string = i18n(key);
     var temp as string = "";
     var i as int = 0;
+    var t as int = 0;
     while (i < value.length) {
         var j as string = value[i];
         var k as string = "";
-        var t as int = 0;
         if (i + 2 <= value.length) {
             k = value.substring(i, i + 2);
         }
