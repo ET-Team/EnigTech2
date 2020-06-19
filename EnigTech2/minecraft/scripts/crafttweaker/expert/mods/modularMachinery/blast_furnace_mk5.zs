@@ -233,7 +233,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_Low", machineName
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_draconium", machineName, speedTierThree)
-	.addManaInput(1000000)
+	.addManaInput(750000)
 	.addItemOutput(<contenttweaker:draconium_alloy_ingot>)
 	.addItemInput(<contenttweaker:ether_alloy_ingot>)
 	.addItemInput(<ore:dustDraconium>, 2)
