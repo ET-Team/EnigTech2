@@ -24,14 +24,15 @@ fruit.onItemUpdate = function(item, world, owner, slot, isSelected) {
         val player as IPlayer = owner;
         if (player.name == item.tag.SoulbindName.asString()) {
             // 添加饱食度
-            if (!ManaHandler.requestManaExact(item, player, 2000, false)) return;
+            if (!ManaHandler.requestManaExact(item, player, 3200, false)) return;
             val foodStats as IFoodStats = player.foodStats;
             if (foodStats.foodLevel < 20) {
                 foodStats.foodLevel += 1;
                 ManaHandler.requestManaExact(item, player, 2000, true);
             } else if (foodStats.saturationLevel < 10.0f) {
-                foodStats.saturationLevel += 0.5f;
-                ManaHandler.requestManaExact(item, player, 1600, true);
+                //foodStats.saturationLevel += 0.5f;
+                player.addPotionEffect(<potion:minecraft:saturation>.makePotionEffect(1, 1, false, true));
+                ManaHandler.requestManaExact(item, player, 3200, true);
             }
         } else {
             // 玩家不匹配，给予伤害
