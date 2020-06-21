@@ -6,12 +6,16 @@ ITERATION_VERSION=1
 
 fileName="$PACK_NAME-$MAJOR_VERSION.$MINOR_VERSION.$ITERATION_VERSION-dev.zip"
 
-mv "./$PACK_NAME/minecraft" "./$PACK_NAME/src" 
+cd $PACK_NAME/
 
-zip -r "$fileName" "./$PACK_NAME/src"
+mv minecraft src
 
-zip -m "$fileName" "./$PACK_NAME/manifest.json"
+zip -r $fileName src
+
+zip -m $fileName manifest.json
+
+cd ..
 
 mkdir artifacts
 
-mv "$fileName" artifacts/
+mv ./$PACK_NAME/$fileName artifacts/
