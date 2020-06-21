@@ -30,6 +30,6 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         # Artifact name
-        name: EnigTech2
+        name: EnigTech2-dev
         # A file, directory or wildcard pattern that describes what to upload
         path: artifacts
