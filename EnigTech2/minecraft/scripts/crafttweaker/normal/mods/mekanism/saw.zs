@@ -3,6 +3,7 @@
 #priority -100
 
 import mods.mekanism.sawmill;
+import crafttweaker.item.IItemStack;
 
 static woodList as IItemStack[IItemStack] = {
     <minecraft:log:1> : <minecraft:planks:1>,
