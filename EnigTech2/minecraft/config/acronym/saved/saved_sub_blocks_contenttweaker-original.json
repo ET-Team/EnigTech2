@@ -38,7 +38,9 @@
     },
     "2": {
       "0": "ardite_ore_minecraft_netherrack",
-      "1": "zinc_block"
+      "1": "zinc_block",
+      "2": "hyunium_ore",
+      "3": "hyunium_block"
     }
   }
 }
