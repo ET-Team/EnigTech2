@@ -16,6 +16,4 @@ zip -m $fileName manifest.json
 
 cd ..
 
-mkdir artifacts
-
 mv ./$PACK_NAME/$fileName artifacts/
