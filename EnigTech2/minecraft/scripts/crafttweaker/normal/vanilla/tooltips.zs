@@ -33,6 +33,7 @@ val toAdd as string[IIngredient] = {
     <contenttweaker:redstone_block_9> : game.localize("et2.tooltip.redstone_block_9"),
     <contenttweaker:redstone_block_81> : game.localize("et2.tooltip.redstone_block_81"),
     <contenttweaker:wtssc> : game.localize("et2.tooltip.wtssc"),
+    <item:etutil:magic_geiger_counter> : game.localize("et2.tooltip.magic_geiger_counter")
 };
 
 val warning as string[IIngredient] = {

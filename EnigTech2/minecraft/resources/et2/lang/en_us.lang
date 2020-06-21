@@ -963,6 +963,7 @@ et2.tooltip.basicblock2= “你管这叫锅炉？这就是个大开水壶！烧�
 et2.tooltip.basicblock3=“这种锅炉产出的蒸汽量，估计能勉强养活两个汗蒸房。”————《玄理工程简志》
 et2.tooltip.redstone_block_9=Stores 9 redstone blocks
 et2.tooltip.redstone_block_81=Stores 81 redstone blocks
+et2.tooltip.magic_geiger_counter=魔力盖格计数器
 
 et2.tooltip.demonic_metal=Surround a lava block by nether brick and trade this metal with devils
 et2.tooltip.magic_key=Throw this into a pool surrounded by flowers to open up a portal toward The Twilight Forest
