@@ -113,7 +113,6 @@ for mod in modsStageThree{
 var modsStageFour as string[] = [
 	"embers",
 	"actuallyadditions",
-	"enderio",
 	"enderiobase",
 	"enderioconduits",
 	"forestry",
@@ -138,6 +137,14 @@ for mod in modsStageFour{
 
 	mods.ItemStages.stageModItems("four", mod);
 	Recipes.setRecipeStageByMod("four", mod);
+}
+
+for item in loadedMods["enderio"].items{
+	if(item.definition == <item:enderio:item_broken_spawner>.definition){
+		addItemStage("two",item);
+	}else{
+		addItemStage("four",item);
+	}
 }
 
 var modsStageFive as string[] = [

@@ -51,3 +51,6 @@ AlloySmelter.removeRecipe(<enderio:item_material:39>);
     AlloySmelter.addRecipe(<nuclearcraft:alloy:12>*8, [<ore:ingotZirconium>*7, <ore:ingotTin>], 7200);
     //高能络合物
     AlloySmelter.addRecipe(<contenttweaker:energetic_clathrate>*2, [<ore:clathrateRedstone>,<ore:clathrateGlowstone>], 3200);
+
+    //Hyunium
+    AlloySmelter.addRecipe(<ore:ingotHyunium>.firstItem, [<ore:ingotSoularium>, <ore:ingotAstralStarmetal>, <ore:ingotEnderium>], 6400);
