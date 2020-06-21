@@ -400,6 +400,9 @@ addItemStage("two",<mekanism:saltblock>);
 removeItemStage(<mekanism:salt>);
 addItemStage("two",<mekanism:salt>);
 
+removeItemStage(<item:extrautils2:compressedcobblestone>);
+addItemStage("two",<item:extrautils2:compressedcobblestone>);
+
 removeItemStage(<extendedcrafting:compressor>);
 addItemStage("alpha",<extendedcrafting:compressor>);
 
