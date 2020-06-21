@@ -123,7 +123,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_quarry", machineN
 
 //精英合成组件
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_cc_elite", machineName, 100)
-    .addEnergyPerTickInput(5600)
+    .addEnergyPerTickInput(2048)
     .addFluidInput(<liquid:glowstone>*1000)
     .addItemInput(<extendedcrafting:material:2>*4)
 	.addItemInput(<ore:gearLumium>)
