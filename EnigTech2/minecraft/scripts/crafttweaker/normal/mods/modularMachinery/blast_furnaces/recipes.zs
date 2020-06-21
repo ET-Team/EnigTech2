@@ -217,7 +217,7 @@ static mk3_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
             speed_t2 : {<liquid:oxygen>*500 : [<contenttweaker:compress_crystaltine>,<thermalfoundation:material:167>]}
         }
     },
-    <contenttweaker:draconium_alloy_ingot> : {
+    <contenttweaker:draconium_alloy_ingot>*2 : {
         1000000 : {
             speed_t3 : {<liquid:fluid_dragon_breathe>*1000 : [<ore:dustDraconium>.firstItem*2, <contenttweaker:ether_alloy_ingot>]}
         }
