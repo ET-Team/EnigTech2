@@ -140,7 +140,7 @@ for mod in modsStageFour{
 }
 
 for item in loadedMods["enderio"].items{
-	if(item.definition has <item:enderio:item_broken_spawner>.definition){
+	if(item.definition.name == <item:enderio:item_broken_spawner>.definition.name){
 		addItemStage("two",item);
 	}else{
 		addItemStage("four",item);
