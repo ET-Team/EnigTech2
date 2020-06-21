@@ -32,4 +32,4 @@ jobs:
         # Artifact name
         name: EnigTech2.zip # optional
         # A file, directory or wildcard pattern that describes what to upload
-        path: .\ 
+        path: EnigTech2.zip
