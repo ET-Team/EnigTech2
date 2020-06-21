@@ -6,4 +6,8 @@ ITERATION_VERSION=2
 
 fileName="$PACK_NAME-$MAJOR_VERSION.$MINOR_VERSION.$ITERATION_VERSION-dev.zip"
 
-zip -r "$PACK_NAME-$MAJOR_VERSION.$MINOR_VERSION.$ITERATION_VERSION-dev.zip" "./$PACK_NAME"
+zip -r "$fileName" "./$PACK_NAME"
+
+mkdir artifacts
+
+mv "$fileName" artifacts/
