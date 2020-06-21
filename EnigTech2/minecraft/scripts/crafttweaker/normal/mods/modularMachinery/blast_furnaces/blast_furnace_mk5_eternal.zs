@@ -9,12 +9,12 @@ import crafttweaker.liquid.ILiquidStack;
 import scripts.crafttweaker.normal.mods.modularMachinery.blast_furnaces.recipes;
 import mods.modularmachinery.RecipeBuilder;
 
-static machineName as string = "blast_furnace_mk2";
+static machineName as string = "blast_furnace_mk5_eternal";
 
 function getTime(key as string) as int{
-    if(key has "t1") return 40;
-    if(key has "t2") return 80;
-    if(key has "t3") return 160;
+    if(key has "t1") return 4;
+    if(key has "t2") return 6;
+    if(key has "t3") return 10;
 }
 
 function initialize(map as IItemStack[][IIngredient][string][int][IItemStack]){
@@ -35,7 +35,7 @@ function initialize(map as IItemStack[][IIngredient][string][int][IItemStack]){
                     for input in inputs{
                         recipeBuilder.addItemInput(input);
                     }
-                    recipeBuilder.addItemOutput(output).addManaInput(mana).build();
+                    recipeBuilder.addItemOutput(output).build();
                 }
             }
         }
@@ -44,3 +44,6 @@ function initialize(map as IItemStack[][IIngredient][string][int][IItemStack]){
 
 initialize(recipes.mk1_recipes);
 initialize(recipes.mk2_recipes);
+initialize(recipes.mk3_recipes);
+initialize(recipes.mk4_recipes);
+initialize(recipes.mk5_recipes);
