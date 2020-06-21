@@ -15,7 +15,7 @@ weight=1
 #
 # list of dimensions in which this template may spawn, even if generic
 # one or more dimension names, separated by commas (blank = all)
-dimensionsToSpawnIn=
+dimensionsToSpawnIn=0
 #
 # list of other biomes in which this template may spawn
 # biome corresponding to directory is always assumed, listed or not
