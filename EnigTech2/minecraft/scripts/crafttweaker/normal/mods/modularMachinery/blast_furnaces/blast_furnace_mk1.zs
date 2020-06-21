@@ -2,7 +2,7 @@
 #modloaded etutil
 #priority -100
 
-import scripts.crafttweaker.normal.mods.modularMachinery.recipes.mk1_recipes;
+import scripts.crafttweaker.normal.mods.modularMachinery.blast_furnaces.recipes.mk1_recipes;
 
 var machineName = "blast_furnace_mk1";
 
@@ -19,9 +19,9 @@ for output, frame in mk1_recipes{
         for speed, recipe in speedRecipe{
             for fluids, inputs in recipe{
 
-                index++;
+                index = index+1;
                 var recipeBuilder = mods.modularmachinery.RecipeBuilder.newBuilder(machineName + index, machineName, speeds[speed]).addItemOutput(output).addManaInput(mana);
-                if(!isNull(fluids){
+                if(!isNull(fluids)){
                     for fluid in fluids.liquids{
                         recipeBuilder.addFluidInput(fluid);
                     }

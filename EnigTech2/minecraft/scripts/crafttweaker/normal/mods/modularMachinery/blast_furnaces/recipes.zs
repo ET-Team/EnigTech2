@@ -145,4 +145,4 @@ static mk1_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
             speed_t3 : {null : [<contenttweaker:stable_potato>]}
         }
     }
-}
+};
