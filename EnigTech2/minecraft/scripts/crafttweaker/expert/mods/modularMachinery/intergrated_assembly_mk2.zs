@@ -79,8 +79,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_high_pressure_sin
 	.build();
     
 //聚星缸
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockwell", machineName, 57)
-    .addEnergyPerTickInput(225)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockwell", machineName, 76)
+    .addEnergyPerTickInput(300)
     .addFluidInput(<liquid:fluid_lubricant>*50)
     .addItemInput(<bloodmagic:slate:4>*4)
     .addItemInput(<arcanearchives:matrix_brace>)
@@ -91,8 +91,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockwell", machi
     .build();
 
 //高等机械核心
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_advanced", machineName, 96)
-    .addEnergyPerTickInput(600)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_advanced", machineName, 76)
+    .addEnergyPerTickInput(800)
     .addFluidInput(<liquid:fluid_lubricant>*50)
     .addItemInput(<ore:plateIridium>,2)
     .addItemInput(<contenttweaker:advanced_motioner>)
@@ -103,8 +103,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_adva
     .build();
 
 //超等机械核心
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_ultra", machineName, 96)
-    .addEnergyPerTickInput(1200)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_ultra", machineName, 76)
+    .addEnergyPerTickInput(1600)
     .addFluidInput(<liquid:fluid_lubricant>*50)
     .addItemInput(<contenttweaker:material_part:43>*3)
     .addItemInput(<contenttweaker:advanced_motioner>*2)
@@ -115,8 +115,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_machine_core_ultr
     .build();
 
 //星辉工作台
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockaltar", machineName, 96)
-    .addEnergyPerTickInput(450)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockaltar", machineName, 76)
+    .addEnergyPerTickInput(600)
     .addFluidInput(<liquid:fluid_lubricant>*50)
     .addItemInput(<extendedcrafting:table_advanced>)
     .addItemInput(<astralsorcery:blockinfusedwood>*6)
@@ -127,8 +127,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockaltar", mach
     .build();
  
  //压缩空间制造器
- mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_fieldprojector", machineName, 230)
-    .addEnergyPerTickInput(225)
+ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_fieldprojector", machineName, 192)
+    .addEnergyPerTickInput(300)
     .addFluidInput(<liquid:fluid_lubricant>*50)
     .addItemInput(<contenttweaker:magic_machine_hull>*2)
     .addItemInput(<contenttweaker:material_part:43>*4)
@@ -139,8 +139,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockaltar", mach
     .build();
 
  //连接器
- mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_connector", machineName, 96)
-    .addEnergyPerTickInput(750)
+ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_connector", machineName, 76)
+    .addEnergyPerTickInput(600)
     .addFluidInput(<liquid:fluid_lubricant>*50)
     .addItemInput(<botania:manaresource:16>*8)
     .addItemInput(<enderio:item_material:38>*2)
@@ -151,8 +151,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_blockaltar", mach
     .build();
 
 //龙芯
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_draconic_core", machineName, 192)
-    .addEnergyPerTickInput(750)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_draconic_core", machineName, 76)
+    .addEnergyPerTickInput(600)
     .addFluidInput(<liquid:fluid_lubricant>*100)
     .addItemInput(<contenttweaker:draconium_alloy_ingot>*10)
     .addItemInput(<contenttweaker:auriminium>*4)
@@ -162,8 +162,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_draconic_core", m
     .build();
 
 //滞枢机械核心
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_zhishu_machine_core", machineName, 192)
-    .addEnergyPerTickInput(750)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_zhishu_machine_core", machineName, 128)
+    .addEnergyPerTickInput(600)
     .addFluidInput(<liquid:fluid_lubricant>*100)
     .addItemInput(<draconicevolution:draconic_core>*4)
     .addItemInput(<contenttweaker:material_part:61>*20)
@@ -172,8 +172,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_zhishu_machine_co
     .build();
 
 //聚合核心
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_fusion_crafting_core", machineName, 192)
-    .addEnergyPerTickInput(750)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_fusion_crafting_core", machineName, 76)
+    .addEnergyPerTickInput(600)
     .addFluidInput(<liquid:fluid_dragon_breathe>*2000)
     .addItemInput(<contenttweaker:zhishu_machine_core>)
     .addItemInput(<contenttweaker:sub_block_holder_0:4>*4)
@@ -183,8 +183,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_fusion_crafting_c
     .build();
 
 //注入装置
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crafting_injector", machineName, 192)
-    .addEnergyPerTickInput(750)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crafting_injector", machineName, 76)
+    .addEnergyPerTickInput(600)
     .addFluidInput(<liquid:fluid_dragon_breathe>*2000)
     .addItemInput(<thermalfoundation:storage:7>)
     .addItemInput(<contenttweaker:zhishu_machine_core>)
@@ -195,8 +195,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_crafting_injector
     .build();
 
 //量子采石场
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_quarry", machineName, 57)
-    .addEnergyPerTickInput(750)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_quarry", machineName, 76)
+    .addEnergyPerTickInput(600)
     .addFluidInput(<liquid:ender>*1000)
     .addItemInput(<ore:ingotEnderium>,8)
     .addItemInput(<mekanism:teleportationcore>)
@@ -204,4 +204,14 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_quarry", machineN
     .addItemInput(<ore:crystalAethium>,16)
     .addItemOutput(<extrautils2:quarry>)
     .addItemOutput(<extrautils2:quarry>).setChance(0.1)
+    .build();
+
+//精英合成组件
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_cc_elite", machineName, 48)
+    .addEnergyPerTickInput(5600)
+    .addFluidInput(<liquid:glowstone>*1000)
+    .addItemInput(<extendedcrafting:material:2>*4)
+    .addItemInput(<ore:gearLumium>)
+    .addItemInput(<ore:circuitElite>,2)
+    .addItemOutput(<extendedcrafting:material:16>)
     .build();
