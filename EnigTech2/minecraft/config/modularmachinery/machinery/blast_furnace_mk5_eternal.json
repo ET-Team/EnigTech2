@@ -40,7 +40,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "botania:pool@1"
+                "environmentaltech:structure_frame_6@0"
             ]
         },
         {
@@ -48,7 +48,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "environmentaltech:structure_frame_6@0"
+                "botania:pool@1"
             ]
         },
         {
