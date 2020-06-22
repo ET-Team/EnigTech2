@@ -296,7 +296,9 @@ val itemsStageFive as IIngredient[] = [
 	<contenttweaker:strong_motor>,
 	<contenttweaker:strong_motor_unprocessed>,
 	<contenttweaker:meteor_bait>,
-	<contenttweaker:dust_small_osmium>
+	<contenttweaker:dust_small_osmium>,
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk1"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk2"})
 ];
 val itemsStageSix as IIngredient[] = [
 	<contenttweaker:void_machine_core>,
@@ -308,7 +310,9 @@ val itemsStageSix as IIngredient[] = [
 	<contenttweaker:ultracondium_crystal>,
 	<contenttweaker:ultimate_motioner>,
 	<contenttweaker:ether_alloy_ingot>,
-	<actuallyadditions:block_laser_relay_fluids>
+	<actuallyadditions:block_laser_relay_fluids>,
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk3"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk4"})
 ];
 val itemsStageAlpha as IIngredient[] = [
 	<contenttweaker:auriminium>,
@@ -325,7 +329,10 @@ val itemsStageAlpha as IIngredient[] = [
 	<contenttweaker:energetic_clathrate>,
 	<contenttweaker:resonance_heatsource>,
 	<contenttweaker:energetic_shard>,
-	<contenttweaker:depleted_heatsource>
+	<contenttweaker:depleted_heatsource>,
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk5"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk5_eternal"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk5_terminal"})
 ];
 
 for item in itemsStageAlpha{
