@@ -14,6 +14,12 @@ labels : mojang : text
 client : window : title
 ```
 
+./EnigTech2/manifest.json : 
+
+```
+version
+```
+
 ./pack.sh :
 
 ```
