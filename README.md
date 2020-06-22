@@ -4,7 +4,7 @@ This work is licensed through <a rel="license" href="http://creativecommons.org/
 
 # EnigTech2
 
-<u>EnigTech2 uses Twitch for the initial module installation, but subsequent updates and changes are performed in the MMC launcher environment.</u>
+<u>EnigTech2 uses Twitch for the initial installation, but subsequent updates and changes are performed in the MMC launcher environment.</u>
 
 EnigTech2 is a project by ET-Team. The goal of the project is to complete a full-structured magic-tech modpack, and suceed EnigTech's general ideas.
 
