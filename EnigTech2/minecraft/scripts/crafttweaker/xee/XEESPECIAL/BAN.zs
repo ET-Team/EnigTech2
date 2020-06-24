@@ -30,5 +30,5 @@ val bannedArray = [
 
 for bannedItems in bannedArray{
 	removeItemStage(bannedItems);
-	addItemStage("default",bannedItems);
+	addItemStage("无法获取",bannedItems);
 }
