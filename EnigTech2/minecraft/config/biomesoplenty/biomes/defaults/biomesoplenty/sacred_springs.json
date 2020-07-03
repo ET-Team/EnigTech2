@@ -41,9 +41,9 @@
       "amountPerChunk": 1.5,
       "enable": true
     },
-    "hot_springs": {
+    "no_springs": {
       "liquid": {
-        "block": "biomesoplenty:hot_spring_water",
+        "block": "minecraft:water",
         "properties": {
           "level": "0"
         }
