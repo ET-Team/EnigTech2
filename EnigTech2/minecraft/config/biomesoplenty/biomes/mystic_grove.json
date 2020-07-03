@@ -42,7 +42,7 @@
       "amountPerChunk": 1.5,
       "enable": true
     },
-    "no_springs": {
+    "hot_springs": {
       "liquid": {
         "block": "minecraft:water",
         "properties": {
