@@ -1,4 +1,4 @@
-#packmode expert
+#packmode normal
 #modloaded touhou_little_maid
 #priority -100
 
