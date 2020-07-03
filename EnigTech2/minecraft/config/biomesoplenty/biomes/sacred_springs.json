@@ -1,10 +1,10 @@
 {
   "canGenerateRivers": false,
-  "skyColor": 8972496,
+  "skyColor": -1,
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
-  "variationBelow": 5.0,
-  "variationAbove": 20.0,
+  "variationBelow": 10.0,
+  "variationAbove": 10.0,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -13,21 +13,20 @@
     }
   },
   "fillerBlock": {
-    "block": "biomesoplenty:dirt",
-    "properties": {
-      "coarse": "false",
-      "variant": "silty"
-    }
-  },
-  "averageHeight": 63.0,
-  "topBlock": {
-    "block": "biomesoplenty:grass",
+    "block": "minecraft:dirt",
     "properties": {
       "snowy": "false",
-      "variant": "silty"
+      "variant": "dirt"
     }
   },
-  "fogColor": 16755401,
+  "averageHeight": 64.0,
+  "topBlock": {
+    "block": "minecraft:grass",
+    "properties": {
+      "snowy": "false"
+    }
+  },
+  "fogColor": -1,
   "canGenerateVillages": false,
   "canSpawnInBiome": false,
   "generators": {
@@ -42,9 +41,9 @@
       "amountPerChunk": 1.5,
       "enable": true
     },
-    "hot_springs": {
+    "no_springs": {
       "liquid": {
-        "block": "biomesoplenty:hot_spring_water",
+        "block": "minecraft:water",
         "properties": {
           "level": "0"
         }
@@ -58,6 +57,25 @@
         }
       }
     },
+    "leaves_clusters": {
+      "logState": {
+        "block": "minecraft:log",
+        "properties": {
+          "axis": "y",
+          "variant": "oak"
+        }
+      },
+      "amountPerChunk": 12.5,
+      "enable": true,
+      "leavesState": {
+        "block": "minecraft:leaves",
+        "properties": {
+          "check_decay": "true",
+          "decayable": "true",
+          "variant": "oak"
+        }
+      }
+    },
     "leaf_piles": {
       "with": {
         "block": "biomesoplenty:plant_0",
@@ -66,11 +84,11 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 0.1,
+      "amountPerChunk": 2.5,
       "enable": true
     },
     "flowers": {
-      "amountPerChunk": 1.5,
+      "amountPerChunk": 0.15,
       "enable": true,
       "generators": {}
     },
@@ -85,6 +103,30 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
+    "large_oak": {
+      "minHeight": 5,
+      "logState": {
+        "block": "minecraft:log",
+        "properties": {
+          "axis": "y",
+          "variant": "oak"
+        }
+      },
+      "foliageHeight": 4,
+      "amountPerChunk": 3.0,
+      "maxHeight": 17,
+      "enable": true,
+      "updateNeighbours": false,
+      "foliageDensity": 1.0,
+      "leavesState": {
+        "block": "minecraft:leaves",
+        "properties": {
+          "check_decay": "false",
+          "decayable": "true",
+          "variant": "oak"
+        }
+      }
+    },
     "medium_lily": {
       "with": {
         "block": "biomesoplenty:waterlily",
@@ -93,61 +135,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 0.1,
-      "enable": true
-    },
-    "clover_patches": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "cloverpatch"
-        }
-      },
-      "generationAttempts": 128,
       "amountPerChunk": 0.3,
-      "enable": true
-    },
-    "brown_mushrooms": {
-      "with": {
-        "block": "minecraft:brown_mushroom",
-        "properties": {}
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 0.1,
-      "enable": true
-    },
-    "poison_lakes": {
-      "liquid": {
-        "block": "biomesoplenty:poison",
-        "properties": {
-          "level": "0"
-        }
-      },
-      "amountPerChunk": 0.1,
-      "enable": true,
-      "grassBorderWith": {
-        "block": "minecraft:grass",
-        "properties": {
-          "snowy": "false"
-        }
-      }
-    },
-    "big_red_mushroom": {
-      "minHeight": 5,
-      "maxHeight": 8,
-      "amountPerChunk": 0.4,
-      "enable": true
-    },
-    "algae": {
-      "with": {
-        "block": "biomesoplenty:coral",
-        "properties": {
-          "level": "15",
-          "variant": "algae"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 1.0,
       "enable": true
     },
     "roots": {
@@ -161,10 +149,29 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "trees": {
-      "amountPerChunk": 10.0,
+    "sacred_oak_trees": {
+      "minHeight": 35,
+      "logState": {
+        "block": "biomesoplenty:log_0",
+        "properties": {
+          "axis": "y",
+          "variant": "sacred_oak"
+        }
+      },
+      "foliageHeight": 4,
+      "amountPerChunk": 0.4,
+      "maxHeight": 40,
       "enable": true,
-      "generators": {}
+      "updateNeighbours": false,
+      "foliageDensity": 2.0,
+      "leavesState": {
+        "block": "biomesoplenty:leaves_3",
+        "properties": {
+          "check_decay": "true",
+          "decayable": "false",
+          "variant": "sacred_oak"
+        }
+      }
     },
     "small_lily": {
       "with": {
@@ -174,7 +181,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 0.1,
+      "amountPerChunk": 0.5,
       "enable": true
     },
     "flower_lily": {
@@ -185,11 +192,22 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 0.5,
+      "amountPerChunk": 0.45,
+      "enable": true
+    },
+    "rafflesia": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "rafflesia"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.1,
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 1.5,
+      "amountPerChunk": 2.75,
       "enable": true,
       "generators": {}
     },
@@ -199,7 +217,7 @@
         "properties": {}
       },
       "generationAttempts": 32,
-      "amountPerChunk": 0.1,
+      "amountPerChunk": 0.5,
       "enable": true
     },
     "topaz": {
@@ -214,17 +232,6 @@
       "maxHeight": 32,
       "enable": true
     },
-    "blue_milk_caps": {
-      "with": {
-        "block": "biomesoplenty:mushroom",
-        "properties": {
-          "variant": "blue_milk_cap"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 0.2,
-      "enable": true
-    },
     "tiny_lily": {
       "with": {
         "block": "biomesoplenty:waterlily",
@@ -233,31 +240,11 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 0.1,
-      "enable": true
-    },
-    "sprouts": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "sprout"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.25,
-      "enable": true
-    },
-    "red_mushrooms": {
-      "with": {
-        "block": "minecraft:red_mushroom",
-        "properties": {}
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 0.4,
+      "amountPerChunk": 0.5,
       "enable": true
     }
   },
   "weights": {
-    "wet_temperate": 1
+    "tropical": 1
   }
 }
