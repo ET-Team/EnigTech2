@@ -1,5 +1,4 @@
 #packmode normal
-#modloaded touhou_little_maid
 #priority -100
 
 //小女仆
@@ -22,12 +21,3 @@ mods.MobStages.addStage("six", "embers:ancient_golem");
 mods.MobStages.addStage("alpha", "embers:ancient_golem");
 mods.MobStages.addStage("beta", "embers:ancient_golem");
 mods.MobStages.toggleSpawner("embers:ancient_golem", true);
-
-//辐射变异人
-mods.MobStages.addStage("three", "nuclearcraft:feral_ghoul");
-mods.MobStages.addStage("four", "nuclearcraft:feral_ghoul");
-mods.MobStages.addStage("five", "nuclearcraft:feral_ghoul");
-mods.MobStages.addStage("six", "nuclearcraft:feral_ghoul");
-mods.MobStages.addStage("alpha", "nuclearcraft:feral_ghoul");
-mods.MobStages.addStage("beta", "nuclearcraft:feral_ghoul");
-mods.MobStages.toggleSpawner("nuclearcraft:feral_ghoul", true);
