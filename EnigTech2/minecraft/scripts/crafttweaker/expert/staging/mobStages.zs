@@ -1,5 +1,6 @@
 #modloaded touhou_little_maid	#modloaded touhou_little_maid
-#priority -100	#priority -100
+#priority -100
+#priority -100
 
 //小女仆
 mods.MobStages.addStage("beta", "touhou_little_maid:entity.passive.maid");	mods.MobStages.addStage("beta", "touhou_little_maid:entity.passive.maid");
