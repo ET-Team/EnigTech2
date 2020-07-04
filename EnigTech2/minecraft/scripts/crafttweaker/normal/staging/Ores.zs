@@ -3,6 +3,8 @@
 #priority 1000
 import mods.orestages.OreStages;
 
+OreStages.addReplacement("two", <minecraft:furnace>);
+OreStages.addReplacement("two", <minecraft:lit_furnace>);
 OreStages.addReplacement("two", <thermalfoundation:ore:0>);
 OreStages.addReplacement("two", <thermalfoundation:ore:1>);
 OreStages.addReplacement("two", <thermalfoundation:ore:2>);
