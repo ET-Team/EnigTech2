@@ -1,5 +1,5 @@
-#packmode normal
-#modloaded etutil
+#packmode normal expert
+#modloaded etutil bloodarsenal botania_tweaks botanicadds draconicadditions enderioendergy rf-capability-adapter equivalentintegrations sgextraparts randomenchantments
 #priority 0
 
 //移除所有矿机核心工作台配方
