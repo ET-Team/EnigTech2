@@ -6,7 +6,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
-import scripts.crafttweaker.normal.mods.modularMachinery.blast_furnaces.recipes;
+import scripts.crafttweaker.expert.mods.modularMachinery.blast_furnaces.recipes;
 import mods.modularmachinery.RecipeBuilder;
 
 static machineName as string = "blast_furnace_mk5_eternal";

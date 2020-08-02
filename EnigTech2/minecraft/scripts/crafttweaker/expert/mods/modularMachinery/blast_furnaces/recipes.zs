@@ -103,7 +103,7 @@ static mk1_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
     //海蓝宝石
     <astralsorcery:itemcraftingcomponent>*12 : {
         10000 : {
-            speed_t1 : {<liquid:astralsorcery.liquidstarlight>*2000 : [<ore:gemSapphire>.firstItem*8, <astralsorcery:itemusabledust:1>*4, <ore:ingotIridium>.firstItem, <astralsorcery:itemusabledust>*4,<contenttweaker:arcane_essence>*4]}
+            speed_t1 : {<liquid:astralsorcery.liquidstarlight>*2000 : [<item:silentgems:gem:9>*8, <astralsorcery:itemusabledust:1>*4, <ore:ingotIridium>.firstItem, <astralsorcery:itemusabledust>*4,<contenttweaker:arcane_essence>*4]}
         }
     },
     //水晶素

@@ -1,13 +1,13 @@
 {
-    "name": "磷矿脉",
+    "name": "磷-青金-绿宝石矿脉",
     "icon": "minecraft:lapis_ore",
     "category": "small_vein",
     "pages": [
         {
             "type": "spotlight",
             "item": "forestry:resources",
-            "title": "磷矿脉",
-            "text": "磷矿脉是中期会用到的矿脉，储量中等，盛产磷矿石"
+            "title": "磷-青金-绿宝石矿脉",
+            "text": "磷-青金-绿宝石矿脉是中期会用到的矿脉，储量中等，盛产磷矿石"
         },
         {
             "type": "text",
