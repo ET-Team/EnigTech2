@@ -30,3 +30,11 @@ FluidToItem.transform(<botania:overgrowthseed>*3,<liquid:mana>,[<contenttweaker:
 FluidToItem.transform(<contenttweaker:link>,<fluid:neutron>,[<contenttweaker:philosophers_sand>*3],true);
 //天翼族之眼回收
 FluidToItem.transform(<botania:manaresource:8>*8,<fluid:fluid_dragon_breathe>,[<botania:flugeleye>.withTag({})]);
+//充能水晶种子成型
+FluidToItem.transform(<environmentaltech:litherite_crystal>*3,<fluid:fluid_dragon_breathe>, [<contenttweaker:charged_lith_pfe_crystal_seed>], true);
+FluidToItem.transform(<environmentaltech:erodium_crystal>*3,<fluid:fluid_dragon_breathe>, [<contenttweaker:charged_erod_pfe_crystal_seed>], true);
+FluidToItem.transform(<environmentaltech:kyronite_crystal>*3,<fluid:fluid_dragon_breathe>, [<contenttweaker:charged_kyro_pfe_crystal_seed>], true);
+FluidToItem.transform(<environmentaltech:pladium_crystal>*3,<fluid:fluid_dragon_breathe>, [<contenttweaker:charged_plad_pfe_crystal_seed>], true);
+FluidToItem.transform(<environmentaltech:ionite_crystal>*3,<fluid:fluid_dragon_breathe>, [<contenttweaker:charged_inoi_pfe_crystal_seed>], true);
+FluidToItem.transform(<environmentaltech:aethium_crystal>*3,<fluid:fluid_dragon_breathe>, [<contenttweaker:charged_aeth_pfe_crystal_seed>], true);
+FluidToItem.transform(<environmentaltech:lonsdaleite_crystal>*3,<fluid:fluid_dragon_breathe>, [<contenttweaker:charged_lons_pfe_crystal_seed>], true);
