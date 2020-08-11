@@ -312,7 +312,8 @@ val itemsStageSix as IIngredient[] = [
 	<contenttweaker:ether_alloy_ingot>,
 	<actuallyadditions:block_laser_relay_fluids>,
 	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk3"}),
-	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk4"})
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk4"}),
+	<contenttweaker:crystal>
 ];
 val itemsStageAlpha as IIngredient[] = [
 	<contenttweaker:auriminium>,

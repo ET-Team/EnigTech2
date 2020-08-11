@@ -310,7 +310,8 @@ val itemsStageSix as IIngredient[] = [
 	<contenttweaker:ultracondium_crystal>,
 	<contenttweaker:ultimate_motioner>,
 	<contenttweaker:ether_alloy_ingot>,
-	<actuallyadditions:block_laser_relay_fluids>
+	<actuallyadditions:block_laser_relay_fluids>,
+	<contenttweaker:crystal>
 ];
 val itemsStageAlpha as IIngredient[] = [
 	<contenttweaker:auriminium>,

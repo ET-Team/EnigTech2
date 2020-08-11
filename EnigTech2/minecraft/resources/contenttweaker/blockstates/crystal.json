@@ -1,0 +1,14 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "actuallyadditions:block_crystal_cluster",
+    "textures": {
+      "particle": "actuallyadditions:blocks/block_crystal_cluster"
+    },
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
