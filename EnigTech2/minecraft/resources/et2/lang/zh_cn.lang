@@ -965,6 +965,8 @@ et2.tooltip.basicblock3=“这种锅炉产出的蒸汽量，估计能勉强养�
 et2.tooltip.redstone_block_9=贮存9个红石块
 et2.tooltip.redstone_block_81=贮存81个红石块
 et2.tooltip.magic_geiger_counter=魔力盖格计数器
+et2.tooltip.dml_glitch_fragment=使用§b§l损坏的故障心脏§r左键敲击§5§l黑曜石§r获得
+et2.tooltip.dml_soot_covered_redstone=使用§4§l红石§r左键敲击§0§l煤炭块§r获得
 
 et2.tooltip.demonic_metal=以八块地狱砖围起熔岩，投金锭于其中。你可能会交易到一些恶魔的产物
 et2.tooltip.magic_key=暮色森林传送门必须用它来开启
