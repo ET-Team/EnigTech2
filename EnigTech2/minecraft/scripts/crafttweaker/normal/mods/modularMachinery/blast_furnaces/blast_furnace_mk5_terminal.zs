@@ -35,7 +35,7 @@ function initialize(map as IItemStack[][IIngredient][string][int][IItemStack]){
                     for input in inputs{
                         recipeBuilder.addItemInput(input);
                     }
-                    recipeBuilder.addItemOutput(output).addManaInput(mana).build();
+                    recipeBuilder.addItemOutput(output).addItemOutput(output).setChance(0.2).addManaInput((mana/4)*3).build();
                 }
             }
         }
