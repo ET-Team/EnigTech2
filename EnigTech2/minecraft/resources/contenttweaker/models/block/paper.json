@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+      "particle": "contenttweaker:blocks/paper_side",
+      "down": "contenttweaker:blocks/paper_vertical",
+      "up": "contenttweaker:blocks/paper_vertical",
+      "east": "contenttweaker:blocks/paper_side",
+      "west": "contenttweaker:blocks/paper_side",
+      "north": "contenttweaker:blocks/paper_side",
+      "south": "contenttweaker:blocks/paper_side"
+    }
+  }

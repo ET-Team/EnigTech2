@@ -160,3 +160,7 @@ item.contenttweaker.charged_plad_pfe_crystal_seed.name=Charged Pladium Prolifera
 item.contenttweaker.charged_inoi_pfe_crystal_seed.name=Charged Ionite Proliferative Crystal Seed
 item.contenttweaker.charged_aeth_pfe_crystal_seed.name=Charged Aethium Proliferative Crystal Seed
 item.contenttweaker.charged_lons_pfe_crystal_seed.name=Charged Lonsdaleite Proliferative Crystal Seed
+tile.contenttweaker.paper.name=A Pile of Paper
+tile.contenttweaker.crystal.name=Unknown Crystal
+
+item.contenttweaker.unknown_blueprint.name=Unknown Blueprint

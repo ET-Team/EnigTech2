@@ -983,6 +983,7 @@ et2.tooltip.te_crafter=Handles recipes in and before Stage: Five
 et2.tooltip.mek_crafter=Handles recipes in and before Stage: Six
 et2.tootlip.exu2_crafter=For Expert Packmode only. Handles recipes in and before Stage: Four
 et2.tooltip.wtssc=Inner 3x3x3 space shall be built in the following way: Layer 1/3: Central Iridium Coil surrounded by 8 blocks of Supercold Ice; Layer 2: Central Superconducting Electromagnet surrounded by 8 Cf-RTGs. Activate the recipe with a Vivid Exciting Crystal.
+et2.tooltip.unknown_blueprint=Built a blueprint analyzer in order to find out what machine this blueprint refers to.
 
 et2.praise.expert.stage_one=Congratulation, The Man of Innocence, Stage One of Enigtech2:Expert has been conqured by thee, right click to drink this potion and unlock Stage Two
 et2.praise.expert.stage_two=Congratulation, The Friend of the Plants, Stage Two of Enigtech2:Expert has been conquered by thee, right click to read this scroll and unlock Stage Three

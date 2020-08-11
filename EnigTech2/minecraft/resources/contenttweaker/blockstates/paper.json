@@ -1,0 +1,6 @@
+{
+  "variants": {
+      "normal": { "model": "contenttweaker:paper" },
+      "inventory": { "model": "contenttweaker:paper" }
+  }
+}

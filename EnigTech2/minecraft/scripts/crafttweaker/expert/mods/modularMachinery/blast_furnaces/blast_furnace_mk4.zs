@@ -24,7 +24,7 @@ function initialize(map as IItemStack[][IIngredient][string][int][IItemStack]){
             for speed, recipe in speedRecipe{
                 for fluids, inputs in recipe{
                     index += 1;
-                    val recipeName as string = machineName + output.definition.name + index;
+                    val recipeName as string = machineName + output.amount as string + index as string + output.definition.name + index as string;
                     val time as int = getTime(speed);
                     var recipeBuilder = RecipeBuilder.newBuilder(recipeName, machineName, time);
                     if(!isNull(fluids)){

@@ -190,6 +190,8 @@ tile.contenttweaker.brass_coil.name=黄铜线圈
 tile.contenttweaker.redstone_block_9.name=压缩红石块
 tile.contenttweaker.redstone_block_81.name=致密红石块
 tile.contenttweaker.philosophers_sand.name=异界之沙
+tile.contenttweaker.paper.name=废纸堆
+tile.contenttweaker.crystal.name=不明水晶
 
 tile.botania:botanicadds:pool_dreaming.name=梦之魔力池
 
@@ -220,3 +222,4 @@ item.contenttweaker.charged_plad_pfe_crystal_seed.name=充能普雷蒂水晶增�
 item.contenttweaker.charged_inoi_pfe_crystal_seed.name=充能艾恩尼水晶增生之种
 item.contenttweaker.charged_aeth_pfe_crystal_seed.name=充能以太水晶增生之种
 item.contenttweaker.charged_lons_pfe_crystal_seed.name=充能蓝丝黛尔水晶增生之种
+item.contenttweaker.unknown_blueprint.name=未知蓝图

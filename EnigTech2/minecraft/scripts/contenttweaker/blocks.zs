@@ -7,6 +7,7 @@ import mods.contenttweaker.Block;
 import mods.contenttweaker.ResourceLocation;
 import mods.contenttweaker.BlockMaterial;
 import mods.contenttweaker.SoundType;
+import crafttweaker.item.WeightedItemStack;
 
 function BlockBuilder(name as string, material as BlockMaterial, sound as SoundType, hardness as float, resis as float, toolcls as string, toollvl as int){
 	print("Block about to be added : " + name);
@@ -39,3 +40,46 @@ ResourceLocation.create("contenttweaker:wtssc/wtssc");
 
 BlockBuilder("zbc", <blockmaterial:iron>, <soundtype:metal>, 5.0, 50.0, "pickaxe", 3);
 ResourceLocation.create("contenttweaker:zbc/zbc");
+
+var paper = VanillaFactory.createBlock("paper", <blockmaterial:leaves>);
+paper.setBlockHardness(1); //硬度
+paper.setBlockSoundType(<soundtype:plant>); //声音
+paper.setBlockResistance(1); //爆炸抗性
+paper.setToolClass("shovel"); //工具类别
+paper.setToolLevel(0); //工具等级
+paper.setDropHandler(function(drops, world, position, state, fortune) {
+	drops.clear();
+	drops.add(<item:contenttweaker:unknown_blueprint>);
+	return;
+});
+paper.register();
+ResourceLocation.create("contenttweaker:paper/paper");
+
+var crystal = VanillaFactory.createBlock("crystal", <blockmaterial:iron>);
+crystal.setBlockHardness(3); //硬度
+crystal.setBlockSoundType(<soundtype:glass>); //声音
+crystal.setBlockResistance(10); //爆炸抗性
+crystal.setToolClass("pickaxe"); //工具类别
+crystal.setToolLevel(2); //工具等级
+crystal.setDropHandler(function(drops, world, position, state, fortune) {
+	drops.clear();
+
+	/**
+	drops.add(<contenttweaker:lith_pfe_crystal_seed> % 20);
+	drops.add(<contenttweaker:erod_pfe_crystal_seed> % 20);
+	drops.add(<contenttweaker:kyro_pfe_crystal_seed> % 20);
+	drops.add(<contenttweaker:plad_pfe_crystal_seed> % 20);
+	drops.add(<contenttweaker:inoi_pfe_crystal_seed> % 20);
+	drops.add(<contenttweaker:aeth_pfe_crystal_seed> % 20);
+	drops.add(<contenttweaker:lons_pfe_crystal_seed> % 20);
+	 */
+
+	return;
+});
+crystal.setFullBlock(false);
+crystal.setLightOpacity(1);
+crystal.setTranslucent(true);
+crystal.setBlockLayer("TRANSLUCENT");
+crystal.register();
+ResourceLocation.create("contenttweaker:crystal/crystal");
+
