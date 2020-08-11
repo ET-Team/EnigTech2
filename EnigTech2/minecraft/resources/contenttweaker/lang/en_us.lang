@@ -145,3 +145,7 @@ message.contenttweaker.use_moon_blade=%s squeezed a drop of blood from his heart
 tile.contenttweaker.wtssc.name=Wetware Thermal Stress Stabilizing Core
 tile.contenttweaker.zbc.name=Zero Point Beam Concentrating Container
 item.contenttweaker.scec.name=Vivid Exciting Crystal
+tile.contenttweaker.paper.name=A Pile of Paper
+tile.contenttweaker.crystal.name=Unknown Crystal
+
+item.contenttweaker.unknown_blueprint.name=Unknown Blueprint

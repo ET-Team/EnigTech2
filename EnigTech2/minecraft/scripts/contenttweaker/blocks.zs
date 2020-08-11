@@ -39,3 +39,32 @@ ResourceLocation.create("contenttweaker:wtssc/wtssc");
 
 BlockBuilder("zbc", <blockmaterial:iron>, <soundtype:metal>, 5.0, 50.0, "pickaxe", 3);
 ResourceLocation.create("contenttweaker:zbc/zbc");
+
+var paper = VanillaFactory.createBlock("paper", <blockmaterial:leaves>);
+paper.setBlockHardness(1); //硬度
+paper.setBlockSoundType(<soundtype:plant>); //声音
+paper.setBlockResistance(1); //爆炸抗性
+paper.setToolClass("shovel"); //工具类别
+paper.setToolLevel(0); //工具等级
+paper.setDropHandler(function(drops, world, position, state, fortune) {
+	drops.clear();
+	drops.add(<item:contenttweaker:unknown_blueprint>);
+	return;
+});
+paper.register();
+ResourceLocation.create("contenttweaker:paper/paper");
+
+var paper = VanillaFactory.createBlock("crystal", <blockmaterial:iron>);
+paper.setBlockHardness(3); //硬度
+paper.setBlockSoundType(<soundtype:glass>); //声音
+paper.setBlockResistance(10); //爆炸抗性
+paper.setToolClass("pickaxe"); //工具类别
+paper.setToolLevel(2); //工具等级
+paper.setDropHandler(function(drops, world, position, state, fortune) {
+	drops.clear();
+	drops.add(<item:contenttweaker:unknown_blueprint>);
+	return;
+});
+paper.register();
+ResourceLocation.create("contenttweaker:crystal/crystal");
+

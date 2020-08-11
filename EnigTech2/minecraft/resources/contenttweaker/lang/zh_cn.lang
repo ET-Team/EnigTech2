@@ -190,6 +190,8 @@ tile.contenttweaker.brass_coil.name=黄铜线圈
 tile.contenttweaker.redstone_block_9.name=压缩红石块
 tile.contenttweaker.redstone_block_81.name=致密红石块
 tile.contenttweaker.philosophers_sand.name=异界之沙
+tile.contenttweaker.paper.name=废纸堆
+tile.contenttweaker.crystal.name=不明水晶
 
 tile.botania:botanicadds:pool_dreaming.name=梦之魔力池
 
@@ -205,3 +207,5 @@ item.contenttweaker.blue_topaz.name=成分数据电脑 [黄玉/蓝黄玉]
 tile.contenttweaker.wtssc.name=湿件热应激稳定核心
 tile.contenttweaker.zbc.name=零点集束容器
 item.contenttweaker.scec.name=活性励磁晶体
+
+item.contenttweaker.unknown_blueprint.name=未知蓝图

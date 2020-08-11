@@ -44,7 +44,8 @@ val toAdd as string[IIngredient] = {
     <mekanism:machineblock3:5> : game.localize("et2.tooltip.mek_crafter"),
     <extrautils2:analogcrafter> : game.localize("et2.tooltip.exu2_crafter"),
     <contenttweaker:wtssc> : game.localize("et2.tooltip.wtssc"),
-    <item:etutil:magic_geiger_counter> : game.localize("et2.tooltip.magic_geiger_counter")
+    <item:etutil:magic_geiger_counter> : game.localize("et2.tooltip.magic_geiger_counter"),
+    <item:contenttweaker:unknown_blueprint> : game.localize("et2.tooltip.unknown_blueprint")
 };
 
 val warning as string[IIngredient] = {
