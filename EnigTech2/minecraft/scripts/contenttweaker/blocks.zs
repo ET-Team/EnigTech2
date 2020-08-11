@@ -1,4 +1,4 @@
-#priority 2000
+#priority 1999
 #modloaded etutil
 #loader contenttweaker
 
@@ -64,13 +64,13 @@ crystal.setToolLevel(2); //工具等级
 crystal.setDropHandler(function(drops, world, position, state, fortune) {
 	drops.clear();
 
-	drops.add(<contenttweaker:lith_pfe_crystal_seed> % 20);
-	drops.add(<contenttweaker:erod_pfe_crystal_seed> % 20);
-	drops.add(<contenttweaker:kyro_pfe_crystal_seed> % 20);
-	drops.add(<contenttweaker:plad_pfe_crystal_seed> % 20);
-	drops.add(<contenttweaker:inoi_pfe_crystal_seed> % 20);
-	drops.add(<contenttweaker:aeth_pfe_crystal_seed> % 20);
-	drops.add(<contenttweaker:lons_pfe_crystal_seed> % 20);
+	drops.add(<item:contenttweaker:lith_pfe_crystal_seed>.weight(0.2));
+	drops.add(<item:contenttweaker:erod_pfe_crystal_seed>.weight(0.2));
+	drops.add(<item:contenttweaker:kyro_pfe_crystal_seed>.weight(0.2));
+	drops.add(<item:contenttweaker:plad_pfe_crystal_seed>.weight(0.2));
+	drops.add(<item:contenttweaker:inoi_pfe_crystal_seed>.weight(0.2));
+	drops.add(<item:contenttweaker:aeth_pfe_crystal_seed>.weight(0.2));
+	drops.add(<item:contenttweaker:lons_pfe_crystal_seed>.weight(0.2));
 	
 
 	return;

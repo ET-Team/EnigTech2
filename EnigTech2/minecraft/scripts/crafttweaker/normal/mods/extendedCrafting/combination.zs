@@ -1,5 +1,5 @@
 #packmode normal expert
-#modloaded etutil bloodarsenal botania_tweaks botanicadds draconicadditions enderioendergy rf-capability-adapter equivalentintegrations sgextraparts randomenchantments
+#modloaded etutil 
 #priority -100
 
 //导包
@@ -26,7 +26,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:charged_kyro
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:charged_plad_pfe_crystal_seed>, 800000, 50000,
     <contenttweaker:plad_pfe_crystal_seed>, [<ore:blockBlueTopaz>, <roots:dewgonia>, <ore:dyeBlue>, <embers:crystal_ember>, <ore:elvenDragonstone>]);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:charged_inoi_pfe_crystal_seed>, 800000, 50000,
-    <contenttweaker:inoi_pfe_crystal_seed>, [<ore:blockBlueTopaz>, <ore:ingotPrismarinium>, <ore:dyeLightBlue>, <embers:crystal_ember>, <ore:elvenDragonstone>]);
+    <contenttweaker:inoi_pfe_crystal_seed>, [<ore:blockBlueTopaz>, <extendedcrafting:material:24>, <ore:dyeLightBlue>, <embers:crystal_ember>, <ore:elvenDragonstone>]);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:charged_aeth_pfe_crystal_seed>, 800000, 50000,
     <contenttweaker:aeth_pfe_crystal_seed>, [<ore:blockBlackDiamond>, <ore:ingotBlackIron>, <ore:dyeBlack>, <embers:crystal_ember>, <ore:elvenDragonstone>]);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:charged_lons_pfe_crystal_seed>, 800000, 50000,

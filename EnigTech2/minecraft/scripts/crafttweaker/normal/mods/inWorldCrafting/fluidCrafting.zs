@@ -5,6 +5,7 @@
 //导包
 import mods.inworldcrafting.FluidToFluid;
 import mods.inworldcrafting.FluidToItem;
+import crafttweaker.item.IItemStack;
 
 //硫酸
 FluidToFluid.transform(<liquid:sulfuric_acid>, <liquid:water>, [<ore:dustSulfur> * 4]);
@@ -31,10 +32,16 @@ FluidToItem.transform(<contenttweaker:link>,<fluid:neutron>,[<contenttweaker:phi
 //天翼族之眼回收
 FluidToItem.transform(<botania:manaresource:8>*8,<fluid:fluid_dragon_breathe>,[<botania:flugeleye>.withTag({})]);
 //充能水晶种子成型
-FluidToItem.transform(<environmentaltech:litherite_crystal>*3,<fluid:fluid_dragon_breathe>, [<contenttweaker:charged_lith_pfe_crystal_seed>], true);
-FluidToItem.transform(<environmentaltech:erodium_crystal>*3,<fluid:fluid_dragon_breathe>, [<contenttweaker:charged_erod_pfe_crystal_seed>], true);
-FluidToItem.transform(<environmentaltech:kyronite_crystal>*3,<fluid:fluid_dragon_breathe>, [<contenttweaker:charged_kyro_pfe_crystal_seed>], true);
-FluidToItem.transform(<environmentaltech:pladium_crystal>*3,<fluid:fluid_dragon_breathe>, [<contenttweaker:charged_plad_pfe_crystal_seed>], true);
-FluidToItem.transform(<environmentaltech:ionite_crystal>*3,<fluid:fluid_dragon_breathe>, [<contenttweaker:charged_inoi_pfe_crystal_seed>], true);
-FluidToItem.transform(<environmentaltech:aethium_crystal>*3,<fluid:fluid_dragon_breathe>, [<contenttweaker:charged_aeth_pfe_crystal_seed>], true);
-FluidToItem.transform(<environmentaltech:lonsdaleite_crystal>*3,<fluid:fluid_dragon_breathe>, [<contenttweaker:charged_lons_pfe_crystal_seed>], true);
+
+val crystalMap as IItemStack[IItemStack] = {
+    <environmentaltech:litherite_crystal> : <contenttweaker:charged_lith_pfe_crystal_seed>,
+    <item:environmentaltech:erodium_crystal> : <contenttweaker:charged_erod_pfe_crystal_seed>,
+    <item:environmentaltech:pladium_crystal> : <contenttweaker:charged_plad_pfe_crystal_seed>,
+    <item:environmentaltech:ionite_crystal> : <contenttweaker:charged_inoi_pfe_crystal_seed>,
+    <item:environmentaltech:aethium_crystal> : <contenttweaker:charged_aeth_pfe_crystal_seed>,
+    <item:environmentaltech:lonsdaleite_crystal> : <contenttweaker:charged_lons_pfe_crystal_seed>
+};
+
+for cry,seed in crystalMap{
+    FluidToItem.transform(cry.withAmount(4),<fluid:fluid_dragon_breathe>, [seed,cry], true);
+}

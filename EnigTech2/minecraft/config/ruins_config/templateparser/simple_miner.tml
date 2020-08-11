@@ -15,7 +15,7 @@ weight=1
 #
 # list of dimensions in which this template may spawn, even if generic
 # one or more dimension names, separated by commas (blank = all)
-dimensionsToSpawnIn=
+dimensionsToSpawnIn=0
 #
 # list of other biomes in which this template may spawn
 # biome corresponding to directory is always assumed, listed or not
@@ -34,7 +34,7 @@ biomesToNotSpawnIn=
 #
 # depth template is pushed down into the surface when built
 # offset is min/max range of random additional bury depth
-embed_into_distance=1
+embed_into_distance=0
 random_height_offset=0,0
 #
 # whitelist/blacklist of block types on which template may be built
@@ -43,7 +43,7 @@ acceptable_target_blocks=
 unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
 #
 # size of template (#layers, #rows per layer, #blocks per row)
-dimensions=3,7,6
+dimensions=1,9,1
 #
 # max number of missing blocks allowed in surface beneath template
 allowable_overhang=0
@@ -76,45 +76,32 @@ spawnMaxDistance=0
 # may be used more than once to specify multiple neighbors
 adjoining_template=
 
-rule1=0,100,minecraft:cobblestone-0,minecraft:mossy_cobblestone-0
-rule2=0,100,ChestGenHook:chests/simple_dungeon:8-3
-rule3=0,100,MobSpawner:Skeleton
-rule4=0,100,minecraft:cobblestone_wall-0,minecraft:cobblestone_wall-1
-rule5=0,100,tombstone:decorative_grave_simple-3,tombstone:decorative_grave_cross-3
-rule6=0,100,tombstone:decorative_tombstone-3
-rule7=0,100,Skull:0:14-1
-rule8=0,100,Skull:0:10-1
-rule9=0,100,Skull:0:2-1
-rule10=0,100,Skull:0:6-1
-rule11=0,100,contenttweaker:crystal,minecraft:preserveBlock
+rule1=0,100,embers:breaker-4
+rule2=0,100,actuallyadditions:block_ranged_collector-0
+rule3=0,100,thermaldynamics:duct_32
+rule4=0,100,ChestGenHook:chests/simple_dungeon:5-5
+rule5=0,100,contenttweaker:paper
 
 layer
-1,1,1,1,1,1
-1,1,1,1,1,1
-1,1,1,1,1,1
-1,1,3,1,2,1
-1,1,1,1,1,1
-1,1,1,1,1,1
-1,1,1,1,1,1
+1
+2
+3
+3
+3
+3
+3
+3
+4
 endlayer
 
 layer
-4,4,4,4,4,4
-4,0,5,0,5,4
-0,11,0,0,0,4
-0,0,6,0,5,4
-0,0,0,0,0,4
-4,0,5,0,5,4
-4,4,4,4,4,4
+0
+0
+0
+0
+0
+0
+0
+0
+5
 endlayer
-
-layer
-8,0,0,0,0,7
-0,0,0,0,0,0
-0,0,0,0,0,0
-0,0,0,0,0,0
-0,0,0,0,0,0
-0,0,0,0,0,0
-10,0,0,0,0,9
-endlayer
-
