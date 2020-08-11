@@ -113,20 +113,7 @@
               "type": "openLink",
               "link": "https://afdian.net/@NTE200705"
             }
-          },   
-
-        "refresh": {
-            "text": "",
-            "posX": 0,
-            "posY": 0,
-            "width": 20,
-            "height": 20,
-            "alignment": "top_left",
-            "texture": "mainmenu:refresh.png",
-            "action": {
-                "type": "refresh"
-            }
-        }
+          }
     },
     
     "labels":
