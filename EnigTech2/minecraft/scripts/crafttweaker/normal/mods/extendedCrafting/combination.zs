@@ -31,3 +31,4 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:charged_aeth
     <contenttweaker:aeth_pfe_crystal_seed>, [<ore:blockBlackDiamond>, <ore:ingotBlackIron>, <ore:dyeBlack>, <embers:crystal_ember>, <ore:elvenDragonstone>]);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:charged_lons_pfe_crystal_seed>, 800000, 50000,
     <contenttweaker:lons_pfe_crystal_seed>, [<ore:blockBlackDiamond>, <ore:blockBlackIron>, <ore:dyeBlack>, <embers:crystal_ember>, <ore:elvenDragonstone>]);
+    

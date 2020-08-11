@@ -1,5 +1,5 @@
 #packmode normal expert
-#modloaded etutil bloodarsenal botania_tweaks botanicadds draconicadditions enderioendergy rf-capability-adapter equivalentintegrations sgextraparts randomenchantments
+#modloaded etutil
 #priority 0
 
 //移除所有矿机核心工作台配方
@@ -22,4 +22,3 @@ recipes.remove(<environmentaltech:pladium>);
 recipes.remove(<environmentaltech:ionite_crystal>);
 recipes.remove(<environmentaltech:ionite>);
 recipes.remove(<environmentaltech:aethium_crystal>);
-recipes.remove(<environmentaltech:aethium>);
