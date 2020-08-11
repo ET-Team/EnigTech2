@@ -1,46 +1,46 @@
 {
   "savedSubBlockNames": {
     "0": {
+      "0": "nichrome_block",
+      "1": "neodymium_block",
+      "2": "chromium_block",
+      "3": "tungsten_ore",
+      "4": "tungsten_steel_block",
+      "5": "chromium_ore",
+      "6": "void_metal_ore",
+      "7": "neodymium_ore",
+      "8": "void_metal_block",
+      "9": "tungsten_steel_ore",
+      "10": "nichrome_ore",
+      "11": "tungsten_block",
+      "12": "molybdenum_steel_block",
+      "13": "molybdenum_block",
+      "14": "molybdenum_ore",
+      "15": "molybdenum_steel_ore"
+    },
+    "1": {
       "0": "adamantium_ore",
       "1": "prismarinium_ore",
       "2": "sinisite_block",
       "3": "sinisite_ore",
       "4": "prismarinium_block",
       "5": "adamantium_block",
-      "6": "tungsten_steel_block",
-      "7": "brass_block",
-      "8": "tungsten_ore",
-      "9": "void_metal_ore",
-      "10": "ardite_block",
-      "11": "tungsten_steel_ore",
-      "12": "hyunium_ore",
-      "13": "zinc_ore",
-      "14": "molybdenum_steel_block",
-      "15": "hyunium_block"
-    },
-    "1": {
-      "0": "molybdenum_block",
-      "1": "manyullyn_ore",
-      "2": "void_metal_block",
-      "3": "tungsten_block",
-      "4": "thyrium_ore",
-      "5": "chromium_block",
-      "6": "chromium_ore",
-      "7": "brass_ore",
-      "8": "molybdenum_ore",
-      "9": "cobalt_block",
-      "10": "thyrium_block",
-      "11": "manyullyn_block",
-      "12": "cobalt_ore_minecraft_netherrack",
-      "13": "neodymium_ore",
-      "14": "nichrome_block",
-      "15": "nichrome_ore"
+      "6": "brass_block",
+      "7": "ardite_block",
+      "8": "zinc_ore",
+      "9": "manyullyn_ore",
+      "10": "thyrium_ore",
+      "11": "brass_ore",
+      "12": "cobalt_block",
+      "13": "thyrium_block",
+      "14": "manyullyn_block",
+      "15": "cobalt_ore_minecraft_netherrack"
     },
     "2": {
       "0": "ardite_ore_minecraft_netherrack",
-      "1": "molybdenum_steel_ore",
-      "2": "zinc_block",
-      "3": "neodymium_block"
+      "1": "zinc_block",
+      "2": "hyunium_ore",
+      "3": "hyunium_block"
     }
   }
 }
