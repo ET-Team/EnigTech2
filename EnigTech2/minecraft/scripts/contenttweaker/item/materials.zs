@@ -32,9 +32,11 @@
 	var manyullyn = MaterialSystem.getMaterialBuilder().setName("Manyullyn").setColor(7619244).build();
 	var prismarinium = MaterialSystem.getMaterialBuilder().setName("Prismarinium").setColor(3136410).build();
 
+	var hyunium = MaterialSystem.getMaterialBuilder().setName("Hyunium").setColor(3657454).build();
+
 //材料列表和类型列表
 	var metal_list = [nd,cr,nicr,w,wfe,voidmetal,mo,mofe,zinc,brass] as Material[];
-	var metalhard_list = [adamantium,thyrium,sinisite,manyullyn,prismarinium] as Material[];
+	var metalhard_list = [adamantium,thyrium,sinisite,manyullyn,prismarinium,hyunium] as Material[];
 	var metalnether_list = [cobalt,ardite] as Material[];
 	var part_names = ["dust", "gear", "plate", "nugget", "ingot", "rod", "dust_tiny"] as string[];
 

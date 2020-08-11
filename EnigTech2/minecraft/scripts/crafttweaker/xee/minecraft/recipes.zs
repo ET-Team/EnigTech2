@@ -171,7 +171,7 @@ mods.recipestages.Recipes.addShaped("alpha", <equivalentintegrations:transmutati
 
 //巨型能源输入仓
 mods.recipestages.Recipes.addShaped("five", <modularmachinery:blockenergyinputhatch:5>, [
-    [brsw,vdcap,brsw],
-    [vdcap,<modularmachinery:blockenergyinputhatch:4>,vdcap],
-    [brsw,vdcap,brsw]
+    [brsw,<ore:ingotEnderium>,brsw],
+    [<ore:ingotEnderium>,<modularmachinery:blockenergyinputhatch:4>,<ore:ingotEnderium>],
+    [brsw,<ore:ingotEnderium>,brsw]
 ]);

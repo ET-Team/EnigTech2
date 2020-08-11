@@ -1,5 +1,5 @@
 #packmode normal expert
-#modloaded etutil bloodarsenal botania_tweaks botanicadds draconicadditions enderioendergy rf-capability-adapter equivalentintegrations sgextraparts randomenchantments
+#modloaded etutil
 #priority -100
 
 import crafttweaker.item.IItemStack;

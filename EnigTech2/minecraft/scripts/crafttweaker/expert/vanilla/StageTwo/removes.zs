@@ -92,5 +92,6 @@ recipes.removeByRecipeName("silentgems:chaos_essence_crystallized");
 recipes.remove(<botania:opencrate:1>);
 recipes.removeByRecipeName("extendedcrafting:crafting_component_elite");
 recipes.removeByRecipeName("extendedcrafting:crafting_catalyst_ultimate");
+recipes.removeByRecipeName("harvestcraft:freshwateritem_listallwater");
 
 recipes.removeByRegex("immersiveengineering:material/plate_.*");

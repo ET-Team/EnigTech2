@@ -11,8 +11,8 @@ RuneAltar.removeRecipe(<botanicadds:rune_tp>);
 RuneAltar.addRecipe(<botanicadds:mana_tesseract>*4,[
     <botanicadds:rune_tp>,
     <botanicadds:rune_energy>,
-    <botania:lightrelay:*>,
-    <botania:spreader:*>,
+    <botania:lightrelay:0>,
+    <botania:spreader:0>,
     <appliedenergistics2:material:48>,
     <enderio:block_transceiver>,
     <botania:manabomb>

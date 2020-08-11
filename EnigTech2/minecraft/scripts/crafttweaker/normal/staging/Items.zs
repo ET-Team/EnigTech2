@@ -113,7 +113,6 @@ for mod in modsStageThree{
 var modsStageFour as string[] = [
 	"embers",
 	"actuallyadditions",
-	"enderio",
 	"enderiobase",
 	"enderioconduits",
 	"forestry",
@@ -137,9 +136,16 @@ var modsStageFour as string[] = [
 addItemStage("four",<bloodmagic:upgrade_trainer>.withTag({}));
 
 for mod in modsStageFour{
-
 	mods.ItemStages.stageModItems("four", mod);
 	Recipes.setRecipeStageByMod("four", mod);
+}
+
+for item in loadedMods["enderio"].items{
+	if(item.definition.name == <item:enderio:item_broken_spawner>.definition.name){
+		addItemStage("two",item);
+	}else{
+		addItemStage("four",item);
+	}
 }
 
 var modsStageFive as string[] = [
@@ -290,7 +296,9 @@ val itemsStageFive as IIngredient[] = [
 	<contenttweaker:strong_motor>,
 	<contenttweaker:strong_motor_unprocessed>,
 	<contenttweaker:meteor_bait>,
-	<contenttweaker:dust_small_osmium>
+	<contenttweaker:dust_small_osmium>,
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk1"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk2"})
 ];
 val itemsStageSix as IIngredient[] = [
 	<contenttweaker:void_machine_core>,
@@ -300,9 +308,25 @@ val itemsStageSix as IIngredient[] = [
 	<contenttweaker:entropy>,
 	<contenttweaker:compress_crystaltine>,
 	<contenttweaker:ultracondium_crystal>,
+	<contenttweaker:lith_pfe_crystal_seed>,
+	<contenttweaker:erod_pfe_crystal_seed>,
+	<contenttweaker:kyro_pfe_crystal_seed>,
+	<contenttweaker:plad_pfe_crystal_seed>,
+	<contenttweaker:inoi_pfe_crystal_seed>,
+	<contenttweaker:aeth_pfe_crystal_seed>,
+	<contenttweaker:lons_pfe_crystal_seed>,
+	<contenttweaker:charged_lith_pfe_crystal_seed>,
+	<contenttweaker:charged_erod_pfe_crystal_seed>,
+	<contenttweaker:charged_kyro_pfe_crystal_seed>,
+	<contenttweaker:charged_plad_pfe_crystal_seed>,
+	<contenttweaker:charged_inoi_pfe_crystal_seed>,
+	<contenttweaker:charged_aeth_pfe_crystal_seed>,
+	<contenttweaker:charged_lons_pfe_crystal_seed>,
 	<contenttweaker:ultimate_motioner>,
 	<contenttweaker:ether_alloy_ingot>,
-	<actuallyadditions:block_laser_relay_fluids>
+	<actuallyadditions:block_laser_relay_fluids>,
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk3"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk4"})
 ];
 val itemsStageAlpha as IIngredient[] = [
 	<contenttweaker:auriminium>,
@@ -319,7 +343,10 @@ val itemsStageAlpha as IIngredient[] = [
 	<contenttweaker:energetic_clathrate>,
 	<contenttweaker:resonance_heatsource>,
 	<contenttweaker:energetic_shard>,
-	<contenttweaker:depleted_heatsource>
+	<contenttweaker:depleted_heatsource>,
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk5"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk5_eternal"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk5_terminal"})
 ];
 
 for item in itemsStageAlpha{
@@ -399,6 +426,9 @@ addItemStage("two",<mekanism:saltblock>);
 
 removeItemStage(<mekanism:salt>);
 addItemStage("two",<mekanism:salt>);
+
+removeItemStage(<item:extrautils2:compressedcobblestone>);
+addItemStage("two",<item:extrautils2:compressedcobblestone>);
 
 removeItemStage(<extendedcrafting:compressor>);
 addItemStage("alpha",<extendedcrafting:compressor>);

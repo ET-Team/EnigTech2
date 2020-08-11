@@ -4,10 +4,12 @@
         "title":
         {
             "image" : "contenttweaker:textures/gui/minecraft.png",
-            "posX" : -137,
-            "posY" : 30,
-            "width" : 512,
-            "height" : 512,
+            "posX" : -180,
+            "posY" : 20,
+            "width" : 384,
+            "height" : 86,
+            "imageWidth": "1024",
+            "imageHeight": "256",
             "alignment" : "top_center"
         }
     },
@@ -95,6 +97,35 @@
                 "type" : "openGui",
                 "gui" : "languages"
             }
+        },
+
+        "afdian": {
+            "text": "",
+            "posX": 5,
+            "posY": -40,
+            "width": 100,
+            "height": 35,
+            "alignment": "bottom_left",
+            "texture": "et2:afdian.png",
+            "imageWidth": "552",
+            "imageHeight": "192",
+            "action": {
+              "type": "openLink",
+              "link": "https://afdian.net/@NTE200705"
+            }
+          },   
+
+        "refresh": {
+            "text": "",
+            "posX": 0,
+            "posY": 0,
+            "width": 20,
+            "height": 20,
+            "alignment": "top_left",
+            "texture": "mainmenu:refresh.png",
+            "action": {
+                "type": "refresh"
+            }
         }
     },
     
@@ -102,8 +133,8 @@
     {
         "mojang":
         {
-            "text" : "EnigTech2-v1.4.1",
-            "posX" : -90,
+            "text" : "EnigTech2-v1.5.0-20200802",
+            "posX" : -120,
             "posY" : -10,
             "color" : -1,
             "alignment" : "bottom_right",
@@ -120,7 +151,7 @@
         "background":{
             "image" : "",
             "slideshow":{
-                "images" : ["et2:001.png","et2:002.png","et2:003.png","et2:004.png","et2:005.png","et2:006.png"],
+                "images" : ["et2:001.png","et2:002.png","et2:003.png","et2:004.png","et2:005.png"],
                 "displayDuration" : 200,
                 "fadeDuration" : 60
             }
