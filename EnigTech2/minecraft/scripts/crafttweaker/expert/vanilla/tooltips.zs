@@ -3,6 +3,7 @@
 #priority -100
 import crafttweaker.item.IIngredient;
 import mods.zenutils.I18n;
+import mods.zenutils.UUID;
 
 val toAdd as string[IIngredient] = {
     <contenttweaker:lunar_essence> : game.localize("et2.tooltip.lunar_essence"),
