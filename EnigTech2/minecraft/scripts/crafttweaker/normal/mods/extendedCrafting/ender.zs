@@ -15,31 +15,31 @@ Shapeless
 //莱泽尔/艾洛蒂/凯罗尼/普雷蒂/艾恩尼/以太石
 mods.extendedcrafting.EnderCrafting.addShaped(<environmentaltech:litherite>, [
     [<environmentaltech:litherite_crystal>, <environmentaltech:litherite_crystal>, <environmentaltech:litherite_crystal>],
-    [<environmentaltech:litherite_crystal>, <ore:dustCrystalBinder>, <environmentaltech:litherite_crystal>],
+    [<environmentaltech:litherite_crystal>, <minecraft:slime_ball>, <environmentaltech:litherite_crystal>],
     [<environmentaltech:litherite_crystal>, <environmentaltech:litherite_crystal>, <environmentaltech:litherite_crystal>]
 ], 100);
 
 mods.extendedcrafting.EnderCrafting.addShaped(<environmentaltech:erodium>, [
     [<environmentaltech:erodium_crystal>, <environmentaltech:erodium_crystal>, <environmentaltech:erodium_crystal>],
-    [<environmentaltech:erodium_crystal>, <ore:dustCrystalBinder>, <environmentaltech:erodium_crystal>],
+    [<environmentaltech:erodium_crystal>, <minecraft:slime_ball>, <environmentaltech:erodium_crystal>],
     [<environmentaltech:erodium_crystal>, <environmentaltech:erodium_crystal>, <environmentaltech:erodium_crystal>]
 ], 100);
 
 mods.extendedcrafting.EnderCrafting.addShaped(<environmentaltech:kyronite>, [
     [<environmentaltech:kyronite_crystal>, <environmentaltech:kyronite_crystal>, <environmentaltech:kyronite_crystal>],
-    [<environmentaltech:kyronite_crystal>, <ore:dustCrystalBinder>, <environmentaltech:kyronite_crystal>],
+    [<environmentaltech:kyronite_crystal>, <minecraft:slime_ballminecraft:slime_ball>, <environmentaltech:kyronite_crystal>],
     [<environmentaltech:kyronite_crystal>, <environmentaltech:kyronite_crystal>, <environmentaltech:kyronite_crystal>]
 ], 100);
 
 mods.extendedcrafting.EnderCrafting.addShaped(<environmentaltech:pladium>, [
     [<environmentaltech:pladium_crystal>, <environmentaltech:pladium_crystal>, <environmentaltech:pladium_crystal>],
-    [<environmentaltech:pladium_crystal>, <ore:dustCrystalBinder>, <environmentaltech:pladium_crystal>],
+    [<environmentaltech:pladium_crystal>, <minecraft:slime_ball>, <environmentaltech:pladium_crystal>],
     [<environmentaltech:pladium_crystal>, <environmentaltech:pladium_crystal>, <environmentaltech:pladium_crystal>]
 ], 100);
 
 mods.extendedcrafting.EnderCrafting.addShaped(<environmentaltech:aethium>, [
     [<environmentaltech:ionite_crystal>, <environmentaltech:ionite_crystal>, <environmentaltech:ionite_crystal>],
-    [<environmentaltech:ionite_crystal>, <ore:dustCrystalBinder>, <environmentaltech:ionite_crystal>],
+    [<environmentaltech:ionite_crystal>, <minecraft:slime_ball>, <environmentaltech:ionite_crystal>],
     [<environmentaltech:ionite_crystal>, <environmentaltech:ionite_crystal>, <environmentaltech:ionite_crystal>]
 ], 100);
 
