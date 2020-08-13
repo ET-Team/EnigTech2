@@ -79,7 +79,7 @@ adjoining_template=
 rule1=0,100,immersiveengineering:metal_device0-0
 rule2=0,100,immersiveengineering:connector-0
 rule3=0,100,immersiveengineering:metal_device1-7
-rule4=0,100,contenttweaker:crystal-0
+rule4=0,100,contenttweaker:crystal-0,minecraft:preserveBlock
 
 layer
 0,0,0,0,0,0

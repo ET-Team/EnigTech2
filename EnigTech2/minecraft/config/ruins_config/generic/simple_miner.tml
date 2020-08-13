@@ -15,7 +15,7 @@ weight=1
 #
 # list of dimensions in which this template may spawn, even if generic
 # one or more dimension names, separated by commas (blank = all)
-dimensionsToSpawnIn=
+dimensionsToSpawnIn=overworld
 #
 # list of other biomes in which this template may spawn
 # biome corresponding to directory is always assumed, listed or not
@@ -91,7 +91,7 @@ layer
 3
 3
 3
-4
+5
 endlayer
 
 layer
@@ -103,5 +103,5 @@ layer
 0
 0
 0
-5
+0
 endlayer

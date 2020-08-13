@@ -76,13 +76,13 @@ spawnMaxDistance=0
 # may be used more than once to specify multiple neighbors
 adjoining_template=
 
-rule1=0,100,advancedrocketry:fuelingstation-2
-rule2=0,100,advancedrocketry:launchpad-0
-rule3=0,100,libvulpes:forgepowerinput-0
-rule4=0,100,contenttweaker:paper-0
-rule5=0,100,advancedrocketry:structuretower-0
-rule6=0,100,advancedrocketry:rocketmotor-0
-rule7=0,100,advancedrocketry:fueltank-0
+rule1=0,100,advancedrocketry:fuelingstation-2,minecraft:preserveBlock
+rule2=0,100,advancedrocketry:launchpad-0,minecraft:preserveBlock
+rule3=0,100,libvulpes:forgepowerinput-0,minecraft:preserveBlock
+rule4=0,100,contenttweaker:paper-0,minecraft:preserveBlock
+rule5=0,100,advancedrocketry:structuretower-0,minecraft:preserveBlock
+rule6=0,100,advancedrocketry:rocketmotor-0,minecraft:preserveBlock
+rule7=0,100,advancedrocketry:fueltank-0,minecraft:preserveBlock
 
 layer
 0,0,0,0,0,0,0
