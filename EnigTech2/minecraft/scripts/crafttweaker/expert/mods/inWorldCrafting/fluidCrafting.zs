@@ -5,6 +5,7 @@
 //导包
 import mods.inworldcrafting.FluidToFluid;
 import mods.inworldcrafting.FluidToItem;
+import crafttweaker.item.IItemStack;
 
 //硫酸
 FluidToFluid.transform(<liquid:sulfuric_acid>, <liquid:water>, [<ore:dustSulfur> * 4]);
