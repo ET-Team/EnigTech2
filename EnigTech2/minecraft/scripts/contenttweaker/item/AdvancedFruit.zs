@@ -14,39 +14,40 @@ import crafttweaker.player.IFoodStats;
 import mods.manatweaks.ManaHandler;
 import mods.ctutils.utils.Math;
 import mods.ctutils.utils.IRandom;
+import mods.zenutils.UUID;
 
 static randomer as IRandom = Math.getRandom(1145141919810); 
 
 val fruit as Item = VanillaFactory.createItem("advanced_infinite_fruit");
 fruit.maxStackSize = 1;
 fruit.onItemUpdate = function(item, world, owner, slot, isSelected) {
-    if (!world.remote && owner instanceof IPlayer && item.tag has "SoulbindName" && randomer.nextInt(80) == 23) {
+    if (!world.remote && owner instanceof IPlayer) {
         val player as IPlayer = owner;
-        if (player.name == item.tag.SoulbindName.asString()) {
-            // 添加饱食度
-            if (!ManaHandler.requestManaExact(item, player, 3200, false)) return;
-            val foodStats as IFoodStats = player.foodStats;
-            if (foodStats.foodLevel < 20) {
-                foodStats.foodLevel += 1;
-                ManaHandler.requestManaExact(item, player, 2000, true);
-            } else if (foodStats.saturationLevel < 10.0f) {
-                //foodStats.saturationLevel += 0.5f;
-                player.addPotionEffect(<potion:minecraft:saturation>.makePotionEffect(1, 1, false, true));
-                ManaHandler.requestManaExact(item, player, 3200, true);
+        if (item.tag has "soulbindUUID") {
+            if (player.getUUID() == UUID.fromString(item.tag.soulbindUUID.asString())) {
+                if (randomer.nextInt(80) != 23 || !ManaHandler.requestManaExact(item, player, 3200, false)) return;
+                // 添加饱食度
+                val foodStats as IFoodStats = player.foodStats;
+                if (foodStats.foodLevel < 20) {
+                    foodStats.foodLevel += 1;
+                    ManaHandler.requestManaExact(item, player, 2000, true);
+                } else if (foodStats.saturationLevel < 10.0f) {
+                    // foodStats.saturationLevel += 0.5f;
+                    player.addPotionEffect(<potion:minecraft:saturation>.makePotionEffect(1, 1, false, true));
+                    ManaHandler.requestManaExact(item, player, 3200, true);
+                }
+            } else {
+                // 玩家不匹配，给予伤害
+                if (world.time % 10 == 0) {
+                    player.attackEntityFrom(<damageSource:botania_relic>, 2.0f);
+                }
             }
         } else {
-            // 玩家不匹配，给予伤害
-            player.attackEntityFrom(<damageSource:MAGIC>, 10.0f);
+            // 给物品写入存储玩家 UUID 的 NBT
+            item.setTag(item.tag + {soulbindUUID: player.getUUID().asString()});
         }
     }
 };
-fruit.itemRightClick = function(item, world, player, hand) {
-    if (world.remote) return "Pass";
-    if (item.tag has "SoulbindName") return "Fail";
-    val slot as IEntityEquipmentSlot = hand.equalsIgnoreCase("MAIN_HAND") ? IEntityEquipmentSlot.mainHand() : IEntityEquipmentSlot.offhand();
-    if (player.getItemInSlot(slot).definition.id == item.definition.id) {
-        player.setItemToSlot(slot, item.updateTag({SoulbindName : player.name}));
-    }
-    return "Success";
-};
 fruit.register();
+
+game.setLocalization("death.attack.botania_relic", game.localize("death.attack.botania-relic"));

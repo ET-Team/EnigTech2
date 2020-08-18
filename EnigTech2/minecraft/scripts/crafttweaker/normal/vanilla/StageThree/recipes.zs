@@ -2,7 +2,6 @@
 #modloaded etutil
 #priority -100
 
-import scripts.crafttweaker.utils.EnchantedBookSupplier;
 //天气检测器
 recipes.addShaped(<modulardiversity:blockweatherdetector>, [[<modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>],[<modularmachinery:itemmodularium>, <enderio:item_material:18>, <modularmachinery:itemmodularium>], [<modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>]]);
 //生物群系检测器

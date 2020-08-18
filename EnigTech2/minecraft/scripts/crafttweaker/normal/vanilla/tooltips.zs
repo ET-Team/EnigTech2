@@ -2,7 +2,8 @@
 #modloaded etutil
 #priority -100
 import crafttweaker.item.IIngredient;
-import scripts.crafttweaker.utils.I18n;
+import mods.zenutils.I18n;
+import mods.zenutils.UUID;
 
 val toAdd as string[IIngredient] = {
     <contenttweaker:lunar_essence> : game.localize("et2.tooltip.lunar_essence"),
@@ -73,11 +74,16 @@ for item in praise{
 
 // Author: youyihj
 <item:contenttweaker:advanced_infinite_fruit>.addShiftTooltip(function(item) {
-    if (item.tag has "SoulbindName") {
-        return I18n.i18nValued("botaniamisc.relicSoulbound", [item.tag.SoulbindName.asString()]).replace("&", "§");
+    if (item.tag has "soulbindUUID") {
+        val player as IPlayer = client.player;
+        if (player.getUUID() == UUID.fromString(item.tag.soulbindUUID.asString())) {
+            return I18n.format("botaniamisc.relicSoulbound", player.name).replace("&", "§");
+        } else {
+            return game.localize("botaniamisc.notYourSagittarius").replace("&", "§");
+        }
     } else {
-        return I18n.i18n("botaniamisc.relicUnbound").replace("&", "§");
+        return I18n.format("botaniamisc.relicUnbound", []).replace("&", "§");
     }
 }, function(item) {
-    return I18n.i18n("botaniamisc.shiftinfo").replace("&", "§");
+    return I18n.format("botaniamisc.shiftinfo", []).replace("&", "§");
 });

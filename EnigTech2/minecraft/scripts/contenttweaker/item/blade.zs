@@ -10,6 +10,7 @@
 	import mods.contenttweaker.Color;
 	import mods.contenttweaker.MaterialSystem;
 	import mods.contenttweaker.Material;
+    import mods.zenutils.I18n;
 
 val item = VanillaFactory.createItem("moon_blade");
 item.maxStackSize = 1;
@@ -18,7 +19,7 @@ item.glowing = true;
 item.itemRightClick = function(stack, world, player, hand) {
         print(stack.name);
         if(world.isRemote()){
-            player.sendChat(player.name ~ game.localize("message.conttenttweaker.use_moon_blade").substring(2));
+            player.sendChat(I18n.format("message.conttenttweaker.use_moon_blade", player.name));
             Commands.call("playsound minecraft:entity.player.hurt player " ~ player.name, player, world);
         } else {
             world.spawnEntity(<item:contenttweaker:essencial_blood>.createEntityItem(world, player.position3f.asBlockPos()));

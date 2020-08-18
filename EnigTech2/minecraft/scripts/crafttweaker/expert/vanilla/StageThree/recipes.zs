@@ -2,8 +2,6 @@
 #modloaded etutil
 #priority -100
 
-import scripts.crafttweaker.utils.EnchantedBookSupplier;
-
 val slm = <ore:slimeball>;
 val dwood = <ore:dustWood>;
 val sheet = <bibliocraft:framingsheet>;
