@@ -22,3 +22,4 @@ recipes.remove(<environmentaltech:pladium>);
 recipes.remove(<environmentaltech:ionite_crystal>);
 recipes.remove(<environmentaltech:ionite>);
 recipes.remove(<environmentaltech:aethium_crystal>);
+recipes.remove(<environmentaltech:aethium>);
