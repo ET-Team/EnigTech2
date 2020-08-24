@@ -4,7 +4,6 @@
 
 //导包
 import mods.extendedcrafting.TableCrafting;
-import scripts.crafttweaker.utils.EnchantedBookSupplier;
 
 //强化飞行背包
 TableCrafting.addShaped(3, <simplyjetpacks:itemjetpack:12>.withTag({Energy: 0, JetpackParticleType: 0}), [

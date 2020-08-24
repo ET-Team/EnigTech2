@@ -38,6 +38,12 @@ mods.extendedcrafting.EnderCrafting.addShaped(<environmentaltech:pladium>, [
 ], 100);
 
 mods.extendedcrafting.EnderCrafting.addShaped(<environmentaltech:aethium>, [
+    [<environmentaltech:aethium_crystal>, <environmentaltech:aethium_crystal>, <environmentaltech:aethium_crystal>],
+    [<environmentaltech:aethium_crystal>, <ore:slimeball>, <environmentaltech:ionite_crystal>],
+    [<environmentaltech:aethium_crystal>, <environmentaltech:aethium_crystal>, <environmentaltech:aethium_crystal>]
+], 100);
+
+mods.extendedcrafting.EnderCrafting.addShaped(<environmentaltech:ionite>, [
     [<environmentaltech:ionite_crystal>, <environmentaltech:ionite_crystal>, <environmentaltech:ionite_crystal>],
     [<environmentaltech:ionite_crystal>, <ore:slimeball>, <environmentaltech:ionite_crystal>],
     [<environmentaltech:ionite_crystal>, <environmentaltech:ionite_crystal>, <environmentaltech:ionite_crystal>]
