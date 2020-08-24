@@ -34,6 +34,13 @@
 
 	var hyunium = MaterialSystem.getMaterialBuilder().setName("Hyunium").setColor(3657454).build();
 
+	var armorData = hyunium.registerPart("armor").getData();
+
+	armorData.addDataValue("durability", "25000");
+	armorData.addDataValue("enchantability", "30");
+	armorData.addDataValue("reduction", "5,9,13,5");
+	armorData.addDataValue("toughness", "5.0");
+
 //材料列表和类型列表
 	var metal_list = [nd,cr,nicr,w,wfe,voidmetal,mo,mofe,zinc,brass] as Material[];
 	var metalhard_list = [adamantium,thyrium,sinisite,manyullyn,prismarinium,hyunium] as Material[];

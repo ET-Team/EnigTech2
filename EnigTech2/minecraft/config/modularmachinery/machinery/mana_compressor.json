@@ -1,6 +1,7 @@
 {
     "registryname": "mana_compressor",
     "localizedname": "魔力浓缩器",
+    "color":"FF3399",
     "parts": [
         {
             "x": -1,

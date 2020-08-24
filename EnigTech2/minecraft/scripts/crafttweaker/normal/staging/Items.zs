@@ -457,7 +457,8 @@ val bannedArray = [
 	<mekanism:machineblock:5>.withTag({recipeType: 4}),
 	<mekanism:machineblock:6>.withTag({recipeType: 4}),
 	<mekanism:machineblock:7>.withTag({recipeType: 4}),
-	<extendedcrafting:material:11>
+	<extendedcrafting:material:11>,
+	<ore:ingotHyunium>
 ] as IItemStack[];
 
 for bannedItems in bannedArray{
