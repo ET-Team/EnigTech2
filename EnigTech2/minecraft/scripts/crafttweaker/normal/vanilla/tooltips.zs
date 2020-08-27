@@ -45,7 +45,8 @@ val warning as string[IIngredient] = {
     <contenttweaker:magfusive_crystal> : game.localize("et2.tooltip.magfusive_crystal"),
     <astralsorcery:blockcelestialgateway> : game.localize("et2.tooltip.blockcelestialgateway"),
     <draconicevolution:wyvern_core> : game.localize("et2.tooltip.wyvern_core"),
-    <thermalfoundation:storage:8> : game.localize("et2.tooltip.storage_8")
+    <thermalfoundation:storage:8> : game.localize("et2.tooltip.storage_8"),
+    <patchouli:guide_book>.withTag({"patchouli:book": "roots:roots_guide"}) : game.localize("et2.tooltip.rootsbook")
 };
 
 val praise as string[IIngredient] = {
