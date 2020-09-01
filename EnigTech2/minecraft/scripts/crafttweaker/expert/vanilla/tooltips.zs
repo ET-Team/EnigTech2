@@ -2,6 +2,7 @@
 #modloaded etutil
 #priority -100
 import crafttweaker.item.IIngredient;
+import crafttweaker.player.IPlayer;
 import mods.zenutils.I18n;
 import mods.zenutils.UUID;
 
