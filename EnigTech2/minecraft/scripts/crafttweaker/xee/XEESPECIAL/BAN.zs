@@ -25,7 +25,8 @@ val bannedArray = [
 	<botania_tweaks:basic_extended_crafty_crate>,
 	<botania_tweaks:advanced_extended_crafty_crate>,
 	<botania_tweaks:elite_extended_crafty_crate>,
-	<botania_tweaks:ultimate_extended_crafty_crate>
+	<botania_tweaks:ultimate_extended_crafty_crate>,
+	<bloodmagic:sigil_compression>
 ] as IItemStack[];
 
 for bannedItems in bannedArray{
