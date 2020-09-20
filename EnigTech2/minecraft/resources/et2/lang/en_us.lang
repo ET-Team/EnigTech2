@@ -1004,4 +1004,6 @@ et2.praise.normal.stage_alpha=Congratulation, Ascender, EnigTech2 has been conqu
 et2.botaniamisc.advanced_fruit.page0=只需要一点点盖亚和末影的力 量加以引导，&1禁忌之果&0能被升 级为&1饕餮之果&0。 它可以自动补充饱食度，无需 玩家自行食用。 同时它的消耗魔力的量比禁忌 之果稍微少一点。 
 et2.botaniamisc.advanced_fruit.page1=Better than iWatch.
 
+et2.tooltip.rootsbook=After opening this book, you have a nearly 100% chance of winning and becoming a lucky reader. The reward content is: irreparable game save crash.
+
 et2.unfamiliarName=Unfamiliar Item

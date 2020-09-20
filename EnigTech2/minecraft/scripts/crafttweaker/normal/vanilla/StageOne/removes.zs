@@ -15,6 +15,7 @@ recipes.remove(<minecraft:crafting_table>);
 recipes.remove(<rustic:crushing_tub>);
 recipes.remove(<minecraft:stick>);
 recipes.remove(<traverse:fir_planks>);
+recipes.remove(<patchouli:guide_book>.withTag({"patchouli:book": "roots:roots_guide"}));
 recipes.removeShaped(<minecraft:furnace>,[[<traverse:red_rock_cobblestone>,<traverse:red_rock_cobblestone>,<traverse:red_rock_cobblestone>],[<traverse:red_rock_cobblestone>,null,<traverse:red_rock_cobblestone>],[<traverse:red_rock_cobblestone>,<traverse:red_rock_cobblestone>,<traverse:red_rock_cobblestone>]]);
 recipes.removeShaped(<minecraft:furnace>,[[<traverse:blue_rock_cobblestone>,<traverse:blue_rock_cobblestone>,<traverse:blue_rock_cobblestone>],[<traverse:blue_rock_cobblestone>,null,<traverse:blue_rock_cobblestone>],[<traverse:blue_rock_cobblestone>,<traverse:blue_rock_cobblestone>,<traverse:blue_rock_cobblestone>]]);
 recipes.remove(<rustic:vase>);
