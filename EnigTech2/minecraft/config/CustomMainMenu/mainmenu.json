@@ -100,7 +100,7 @@
         },
 
         "afdian": {
-            "text": "",
+            "text": " ",
             "posX": 5,
             "posY": -40,
             "width": 100,
@@ -121,7 +121,7 @@
         "mojang":
         {
             "text" : "EnigTech2-v1.5.0",
-            "posX" : -120,
+            "posX" : -100,
             "posY" : -10,
             "color" : -1,
             "alignment" : "bottom_right",
