@@ -43,5 +43,5 @@ val crystalMap as IItemStack[IItemStack] = {
 };
 
 for cry,seed in crystalMap{
-    FluidToItem.transform(cry.withAmount(4),<fluid:fluid_dragon_breathe>, [seed,cry], true);
+    FluidToItem.transform(cry.withAmount(12),<fluid:fluid_dragon_breathe>, [seed,cry], true);
 }
