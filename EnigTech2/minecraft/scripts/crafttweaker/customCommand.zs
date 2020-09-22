@@ -18,3 +18,4 @@ helloWorld.execute = function(command, server, sender, args) {
     player.addGameStage("beta");
     sender.sendMessage(game.localize("et2.command.unlockallstages.success"));
 };
+command.register();
