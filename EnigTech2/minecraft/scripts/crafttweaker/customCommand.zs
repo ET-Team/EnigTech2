@@ -6,7 +6,7 @@ import crafttweaker.player.IPlayer;
 
 val command as ZenCommand = ZenCommand.create("unlockallstages");
 command.requiredPermissionLevel = 2;
-helloWorld.execute = function(command, server, sender, args) {
+command.execute = function(command, server, sender, args) {
     val player as IPlayer = CommandUtils.getCommandSenderAsPlayer(sender);
     player.addGameStage("one");
     player.addGameStage("two");
