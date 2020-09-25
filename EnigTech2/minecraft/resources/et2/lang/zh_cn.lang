@@ -986,6 +986,8 @@ et2.tooltip.exu2_crafter=专家模式独有。最高可处理配方：阶段四
 et2.tooltip.wtssc=该结构的内部3x3x3空间的构建方式为：第一及第三层：超冷冰环绕铱线圈；第二层：锎RTG环绕超导电磁体。投入活性励磁晶体以激活配方合成。
 et2.tooltip.unknown_blueprint=搭建一个蓝图解析机来解析这张机械蓝图
 
+et2.command.unlockallstages.success=成功解锁全部阶段！
+
 et2.praise.expert.stage_one=恭喜，原始之人，专家模式阶段一已经被你征服在手下，右键喝下此药剂来解锁阶段二
 et2.praise.expert.stage_two=恭喜，植物之友，专家模式阶段二已经被你征服在手下，右键阅读此卷轴来解锁阶段三
 et2.praise.expert.stage_three=恭喜，灵气的掌控者，专家模式阶段三已经被你征服在手下，右键理解此启示来解锁阶段四
