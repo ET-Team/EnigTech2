@@ -4,7 +4,6 @@
 var machineName = "intergrated_assembly_mk1";
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_medidum_core", machineName, 64)
-	.addFluidInput(<liquid:steam>*1000)
     .addItemInput(<contenttweaker:basic_processor>*2)
     .addItemInput(<contenttweaker:medium_motioner>)
     .addItemInput(<contenttweaker:magic_motor>)
@@ -13,7 +12,6 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_medidum_core", ma
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_magic_motor", machineName, 48)
-	.addFluidInput(<liquid:steam>*1000)
     .addItemInput(<embers:plate_dawnstone>*2)
     .addItemInput(<immersiveengineering:material:21>*3)
     .addItemInput(<contenttweaker:magcondium_ingot>)
@@ -21,7 +19,6 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_magic_motor", mac
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_bad_processor", machineName, 48)
-	.addFluidInput(<liquid:steam>*1000)
     .addItemInput(<contenttweaker:basic_circuit>*2)
     .addItemInput(<contenttweaker:resistor_bad>*2)
     .addItemInput(<twilightforest:steeleaf_ingot>)
@@ -29,28 +26,24 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_bad_processor", m
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_engineering_processor", machineName, 48)
-	.addFluidInput(<liquid:steam>*1000)
     .addItemInput(<ore:dustDiamond>)
     .addItemInput(<contenttweaker:basic_processor>)
     .addItemOutput(<appliedenergistics2:material:24>)
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_logic_processor", machineName, 48)
-	.addFluidInput(<liquid:steam>*1000)
     .addItemInput(<minecraft:glowstone_dust>)
     .addItemInput(<contenttweaker:basic_processor>)
     .addItemOutput(<appliedenergistics2:material:22>)
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_calculation_processor", machineName, 48)
-	.addFluidInput(<liquid:steam>*1000)
     .addItemInput(<ore:dustFluix>)
     .addItemInput(<contenttweaker:basic_processor>)
     .addItemOutput(<appliedenergistics2:material:23>)
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_magic_machine_hull", machineName, 96)
-	.addFluidInput(<liquid:steam>*1000)
     .addItemInput(<thermalfoundation:material:328>*2)
     .addItemInput(<contenttweaker:advanced_motioner>*2)
     .addItemInput(<contenttweaker:reinforced_machine_core>)
@@ -58,13 +51,11 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_magic_machine_hul
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_pressure_sink", machineName, 48)
-	.addFluidInput(<liquid:steam>*1000)
     .addItemInput(<contenttweaker:material_part:52>*2)
     .addItemOutput(<advancedrocketry:pressuretank:3>)
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_high_pressure_sink", machineName, 64)
-	.addFluidInput(<liquid:steam>*1000)
     .addItemInput(<ore:plateAluminum>,2)
     .addItemOutput(<advancedrocketry:pressuretank:2>)
 	.build();
