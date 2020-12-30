@@ -44,7 +44,7 @@ fruit.onItemUpdate = function(item, world, owner, slot, isSelected) {
             }
         } else {
             // 给物品写入存储玩家 UUID 的 NBT
-            item.setTag(item.tag + {soulbindUUID: player.getUUID().asString()});
+            item.setTag(item.tag + {soulbindUUID: player.getUUID()});
         }
     }
 };

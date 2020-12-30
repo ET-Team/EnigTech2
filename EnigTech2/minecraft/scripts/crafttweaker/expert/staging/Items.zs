@@ -420,7 +420,6 @@ removeItemStage(<actuallyadditions:item_misc:20>);
 removeItemStage(<silentgems:glowrose:*>);
 
 val bannedArray = [
-	<soot:stamp_text>,
 	<roots:unending_bowl>,
 	<actuallyadditions:item_spawner_changer>,
 	<touhou_little_maid:marisa_broom>,
