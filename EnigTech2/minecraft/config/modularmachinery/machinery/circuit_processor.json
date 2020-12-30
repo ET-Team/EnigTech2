@@ -487,6 +487,7 @@
             "x": -1,
             "y": 1,
             "z": 3,
+            "nbt": {"Type":"crafttweaker:chlorinizer"},
             "elements": [
                 "extrautils2:machine@9"
             ]
@@ -503,6 +504,7 @@
             "x": 0,
             "y": 1,
             "z": 3,
+            "nbt": {"Type":"crafttweaker:silicon_grower"},
             "elements": [
                 "extrautils2:machine@9"
             ]
@@ -519,6 +521,7 @@
             "x": 1,
             "y": 1,
             "z": 3,
+            "nbt": {"Type":"crafttweaker:polisher"},
             "elements": [
                 "extrautils2:machine@9"
             ]
