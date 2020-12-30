@@ -8,6 +8,7 @@ var polisher = IMachineRegistry.getMachine("crafttweaker:polisher");
 var fluider = IMachineRegistry.getMachine("crafttweaker:fluider_mk1");
 var fluid = IMachineRegistry.getMachine("crafttweaker:fluid_concentrator");
 
+//MM替代
 chlorinizer.addRecipe({acid : <liquid:fluid_hydrochloric_acid>*800, silicon : <contenttweaker:dust_silicon>} , {guiwan : <liquid:fluid_silicon>*1000}, 10000, 200);
 chlorinizer.addRecipe({acid : <liquid:fluid_hydrochloric_acid>*100, silicon : <contenttweaker:slice_monosilicon>} , {output : <contenttweaker:chlorinized_slice_monosilicon>}, 8000, 80);
 
@@ -19,6 +20,7 @@ polisher.addRecipe({water:<liquid:water>*100, item:<contenttweaker:unpolished_sl
 polisher.addRecipe({water:<liquid:water>*100, item:<contenttweaker:dark_gaiya_crystal_unpolished>},{output:<contenttweaker:dark_gaiya_crystal>},40000,200);
 polisher.addRecipe({water:<liquid:boiling_potato_juice>*9600, item:<contenttweaker:baked_stable_potato_unpolished>},{output:<contenttweaker:baked_stable_potato>},40000,200);
 
+//TE替代
 fluider.addRecipe({liquid:<liquid:fluid_concentrated_ethylene>*200},{output:<contenttweaker:bulk_of_plastic>},1000,40);
 fluider.addRecipe({liquid:<liquid:fluid_blend_caminite>*200},{output:<embers:blend_caminite>},5000,40);
 fluider.addRecipe({liquid:<fluid:resin>*90},{output:<contenttweaker:rubber_raw>},2000,100);
