@@ -40,7 +40,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockenergyinputhatch@5"
+                "modularmachinery:blockenergyinputhatch"
             ]
         },
         {
@@ -80,7 +80,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockoutputbus@3"
+                "modularmachinery:blockoutputbus"
             ]
         },
         {
@@ -208,7 +208,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockinputbus@3"
+                "modularmachinery:blockinputbus"
             ]
         },
         {

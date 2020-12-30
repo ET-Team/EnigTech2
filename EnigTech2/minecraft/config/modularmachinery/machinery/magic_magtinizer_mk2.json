@@ -8,11 +8,11 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modulardiversity:blockemberinputhatch@1",
-                "modulardiversity:blockemberinputhatch@2",
-                "modulardiversity:blockemberinputhatch@3",
-                "modulardiversity:blockemberinputhatch@4",
-                "modulardiversity:blockemberinputhatch@5"
+                "modulardiversity:blockemberinputhatch"
+                "modulardiversity:blockemberinputhatch"
+                "modulardiversity:blockemberinputhatch"
+                "modulardiversity:blockemberinputhatch"
+                "modulardiversity:blockemberinputhatch"
             ]
         },
         {
@@ -52,7 +52,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockinputbus@3"
+                "modularmachinery:blockinputbus"
             ]
         },
         {
@@ -268,7 +268,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockoutputbus@4"
+                "modularmachinery:blockoutputbus"
             ]
         }
     ]}

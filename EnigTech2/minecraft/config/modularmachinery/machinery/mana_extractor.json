@@ -80,7 +80,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modulardiversity:blockmanaoutputhatch@0"
+                "modulardiversity:blockmanaoutputhatch"
             ]
         },
         {
@@ -128,7 +128,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockinputbus@1"
+                "modularmachinery:blockinputbus"
             ]
         },
         {

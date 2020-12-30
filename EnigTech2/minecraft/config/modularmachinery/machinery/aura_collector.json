@@ -16,7 +16,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockoutputbus@4"
+                "modularmachinery:blockoutputbus"
             ]
         },
         {
@@ -56,7 +56,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockinputbus@3"
+                "modularmachinery:blockinputbus"
             ]
         },
         {
