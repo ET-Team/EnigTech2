@@ -164,6 +164,7 @@ var modsStageFive as string[] = [
 	"libvulpes",
 	"botanicadds",
 	"enderioendergy",
+	"xnet",
 	"rf-capability-adapter"
 ];
 
@@ -191,7 +192,6 @@ var modsStageSix as string[] = [
 	"fluxnetworks",
 	"extracells",
 	"ae2stuff",
-	"xnet",
 	"valkyrielib",
 	"packagedauto",
 	"packagedexcrafting",
