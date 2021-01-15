@@ -47,7 +47,8 @@ val toAdd as string[IIngredient] = {
     <extrautils2:analogcrafter> : game.localize("et2.tooltip.exu2_crafter"),
     <contenttweaker:wtssc> : game.localize("et2.tooltip.wtssc"),
     <item:etutil:magic_geiger_counter> : game.localize("et2.tooltip.magic_geiger_counter"),
-    <item:contenttweaker:unknown_blueprint> : game.localize("et2.tooltip.unknown_blueprint")
+    <item:contenttweaker:unknown_blueprint> : game.localize("et2.tooltip.unknown_blueprint"),
+    <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:circuit_processor"}) : game.localize("et2.tooltip.circuit_processor")
 };
 
 val warning as string[IIngredient] = {
