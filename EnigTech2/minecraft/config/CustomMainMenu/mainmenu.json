@@ -113,7 +113,23 @@
               "type": "openLink",
               "link": "https://afdian.net/@NTE200705"
             }
-          }
+          },
+
+        "discord": {
+            "text": " ",
+            "posX": 105,
+            "posY": -40,
+            "width": 100,
+            "height": 34,
+            "alignment": "bottom_left",
+            "texture": "et2:discord.png",
+            "imageWidth": "800",
+            "imageHeight": "272",
+            "action": {
+            "type": "openLink",
+            "link": "https://discord.gg/7MJqy6sHXr"
+            }
+        }
     },
     
     "labels":
