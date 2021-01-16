@@ -985,7 +985,7 @@ et2.tooltip.mek_crafter=最高可处理配方：阶段六
 et2.tooltip.exu2_crafter=专家模式独有。最高可处理配方：阶段四
 et2.tooltip.wtssc=该结构的内部3x3x3空间的构建方式为：第一及第三层：超冷冰环绕中心的铱线圈；第二层：锎RTG环绕中心超导电磁体。投入活性励磁晶体以激活配方合成。
 et2.tooltip.unknown_blueprint=搭建一个蓝图解析机来解析这张机械蓝图
-et2.tooltip.circuit_processor=这个机器中的三个机器方块分别为 抛光机 氯化机 流体成型机
+et2.tooltip.circuit_processor=这个机器中的三个机器方块分别为 抛光机 氯化机 硅生长机
 
 et2.command.unlockallstages.success=成功解锁全部阶段！
 
