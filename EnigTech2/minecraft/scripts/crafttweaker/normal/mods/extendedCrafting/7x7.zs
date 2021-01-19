@@ -6,25 +6,25 @@
 import mods.extendedcrafting.TableCrafting;
 
 //强化飞行背包
-TableCrafting.addShaped(3, <simplyjetpacks:itemjetpack:12>.withTag({Energy: 0, JetpackParticleType: 0}), [
+TableCrafting.addShaped(3, <simplyjetpacks:itemjetpack:18>.withTag({Energy: 0, JetpackParticleType: 0}), [
 	[null, null, null, null, null, null, null], 
 	[null, null, <ore:dustAstralStarmetal>, <contenttweaker:charged_gaiya_crystal>, <ore:dustAstralStarmetal>, null, null], 
 	[null, <ore:dustAstralStarmetal>, <ore:gaiaIngot>, <thermalexpansion:capacitor:2>, <ore:gaiaIngot>, <ore:dustAstralStarmetal>, null], 
 	[null, <ore:gaiaIngot>, <ore:ingotElectrum>, <simplyjetpacks:itemjetpack:11>, <ore:ingotElectrum>, <ore:gaiaIngot>, null], 
 	[null, <ore:ingotElectrum>, <ore:ingotElectrum>, null, <ore:ingotElectrum>, <ore:ingotElectrum>, null], 
 	[null, <simplyjetpacks:metaitemmods:28>, <simplyjetpacks:metaitemmods:28>, null, <simplyjetpacks:metaitemmods:28>, <simplyjetpacks:metaitemmods:28>, null], 
-	[null, <ore:particleCustomizer>, <ore:particleCustomizer>, null, <ore:particleCustomizer>, <ore:particleCustomizer>, null]
+	[null, <ore:particle_customizer>, <ore:particle_customizer>, null, <ore:particle_customizer>, <ore:particle_customizer>, null]
 ]);
 
 //谐振飞行背包
-TableCrafting.addShaped(3, <simplyjetpacks:itemjetpack:13>.withTag({Energy: 0, JetpackParticleType: 0}), [
+TableCrafting.addShaped(3, <simplyjetpacks:itemjetpack:19>.withTag({Energy: 0, JetpackParticleType: 0}), [
 	[null, null, null, null, null, null, null], 
 	[null, null, <ore:dustAstralStarmetal>, <contenttweaker:charged_gaiya_crystal>, <ore:dustAstralStarmetal>, null, null], 
 	[null, <ore:dustAstralStarmetal>, <ore:gaiaIngot>, <thermalexpansion:capacitor:4>, <ore:gaiaIngot>, <ore:dustAstralStarmetal>, null], 
 	[null, <ore:gaiaIngot>, <ore:ingotEnderium>, <simplyjetpacks:itemjetpack:12>, <ore:ingotEnderium>, <ore:gaiaIngot>, null], 
 	[null, <ore:ingotEnderium>, <ore:ingotEnderium>, null, <ore:ingotEnderium>, <ore:ingotEnderium>, null], 
 	[null, <simplyjetpacks:metaitemmods:29>, <simplyjetpacks:metaitemmods:29>, null, <simplyjetpacks:metaitemmods:29>, <simplyjetpacks:metaitemmods:29>, null], 
-	[null, <ore:particleCustomizer>, <ore:particleCustomizer>, null, <ore:particleCustomizer>, <ore:particleCustomizer>, null]
+	[null, <ore:particle_customizer>, <ore:particle_customizer>, null, <ore:particle_customizer>, <ore:particle_customizer>, null]
 ]);
 
 //天使指环

@@ -195,21 +195,21 @@ TableCrafting.addShaped(2, <advancedrocketry:itemupgrade:3>, [
 ]);
 
 //铅石飞行背包
-TableCrafting.addShaped(2, <simplyjetpacks:itemjetpack:10>.withTag({Energy: 0, JetpackParticleType: 0}), [
+TableCrafting.addShaped(2, <simplyjetpacks:itemjetpack:16>.withTag({Energy: 0, JetpackParticle: 0}), [
 	[null, null, <contenttweaker:charged_gaiya_crystal>, null, null], 
 	[null, <ore:ingotLead>, <thermalexpansion:capacitor>, <ore:ingotLead>, null], 
 	[null, <ore:ingotLead>, <simplyjetpacks:metaitem:4>, <ore:ingotLead>, null], 
 	[null, <simplyjetpacks:metaitemmods:26>, null, <simplyjetpacks:metaitemmods:26>, null], 
-	[null, <ore:particleCustomizer>, null, <ore:particleCustomizer>, null]
+	[null, <ore:particle_customizer>, null, <ore:particle_customizer>, null]
 ]);
 
 //硬化飞行背包
-TableCrafting.addShaped(2, <simplyjetpacks:itemjetpack:11>.withTag({Energy: 0, JetpackParticleType: 0}), [
+TableCrafting.addShaped(2, <simplyjetpacks:itemjetpack:17>.withTag({Energy: 0, JetpackParticle: 0}), [
 	[null, null, <contenttweaker:charged_gaiya_crystal>, null, null], 
 	[null, <ore:ingotInvar>, <thermalexpansion:capacitor:1>, <ore:ingotInvar>, null], 
 	[null, <ore:ingotInvar>, <simplyjetpacks:itemjetpack:10>, <ore:ingotInvar>, null], 
 	[null, <simplyjetpacks:metaitemmods:27>, null, <simplyjetpacks:metaitemmods:27>, null], 
-	[null, <ore:particleCustomizer>, null, <ore:particleCustomizer>, null]
+	[null, <ore:particle_customizer>, null, <ore:particle_customizer>, null]
 ]);
 
 //燃气发电机
