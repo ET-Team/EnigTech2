@@ -218,7 +218,7 @@ TableCrafting.addShaped(2, <simplyjetpacks:itemjetpack:16>.withTag({Energy: 0, J
 TableCrafting.addShaped(2, <simplyjetpacks:itemjetpack:17>.withTag({Energy: 0, JetpackParticle: 0}), [
 	[null, null, <contenttweaker:charged_gaiya_crystal>, null, null], 
 	[null, <ore:ingotInvar>, <thermalexpansion:capacitor:1>, <ore:ingotInvar>, null], 
-	[null, <ore:ingotInvar>, <simplyjetpacks:itemjetpack:10>, <ore:ingotInvar>, null], 
+	[null, <ore:ingotInvar>, <simplyjetpacks:itemjetpack:16>, <ore:ingotInvar>, null], 
 	[null, <simplyjetpacks:metaitemmods:27>, null, <simplyjetpacks:metaitemmods:27>, null], 
 	[null, <ore:particle_customizer>, null, <ore:particle_customizer>, null]
 ]);

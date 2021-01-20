@@ -10,7 +10,7 @@ TableCrafting.addShaped(3, <simplyjetpacks:itemjetpack:18>.withTag({Energy: 0, J
 	[null, null, null, null, null, null, null], 
 	[null, null, <ore:dustAstralStarmetal>, <contenttweaker:charged_gaiya_crystal>, <ore:dustAstralStarmetal>, null, null], 
 	[null, <ore:dustAstralStarmetal>, <ore:gaiaIngot>, <thermalexpansion:capacitor:2>, <ore:gaiaIngot>, <ore:dustAstralStarmetal>, null], 
-	[null, <ore:gaiaIngot>, <ore:ingotElectrum>, <simplyjetpacks:itemjetpack:11>, <ore:ingotElectrum>, <ore:gaiaIngot>, null], 
+	[null, <ore:gaiaIngot>, <ore:ingotElectrum>, <simplyjetpacks:itemjetpack:17>, <ore:ingotElectrum>, <ore:gaiaIngot>, null], 
 	[null, <ore:ingotElectrum>, <ore:ingotElectrum>, null, <ore:ingotElectrum>, <ore:ingotElectrum>, null], 
 	[null, <simplyjetpacks:metaitemmods:28>, <simplyjetpacks:metaitemmods:28>, null, <simplyjetpacks:metaitemmods:28>, <simplyjetpacks:metaitemmods:28>, null], 
 	[null, <ore:particle_customizer>, <ore:particle_customizer>, null, <ore:particle_customizer>, <ore:particle_customizer>, null]
@@ -21,7 +21,7 @@ TableCrafting.addShaped(3, <simplyjetpacks:itemjetpack:19>.withTag({Energy: 0, J
 	[null, null, null, null, null, null, null], 
 	[null, null, <ore:dustAstralStarmetal>, <contenttweaker:charged_gaiya_crystal>, <ore:dustAstralStarmetal>, null, null], 
 	[null, <ore:dustAstralStarmetal>, <ore:gaiaIngot>, <thermalexpansion:capacitor:4>, <ore:gaiaIngot>, <ore:dustAstralStarmetal>, null], 
-	[null, <ore:gaiaIngot>, <ore:ingotEnderium>, <simplyjetpacks:itemjetpack:12>, <ore:ingotEnderium>, <ore:gaiaIngot>, null], 
+	[null, <ore:gaiaIngot>, <ore:ingotEnderium>, <simplyjetpacks:itemjetpack:18>, <ore:ingotEnderium>, <ore:gaiaIngot>, null], 
 	[null, <ore:ingotEnderium>, <ore:ingotEnderium>, null, <ore:ingotEnderium>, <ore:ingotEnderium>, null], 
 	[null, <simplyjetpacks:metaitemmods:29>, <simplyjetpacks:metaitemmods:29>, null, <simplyjetpacks:metaitemmods:29>, <simplyjetpacks:metaitemmods:29>, null], 
 	[null, <ore:particle_customizer>, <ore:particle_customizer>, null, <ore:particle_customizer>, <ore:particle_customizer>, null]
@@ -32,7 +32,7 @@ TableCrafting.addShaped(3, <extrautils2:angelring>, [
 	[null, null, <ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>, null, null], 
 	[null, <ore:ingotElectrum>, <ore:dustAstralStarmetal>, <contenttweaker:lunar_essence>, <ore:dustAstralStarmetal>, <ore:ingotElectrum>, null], 
 	[<ore:ingotElectrum>, <ore:dustAstralStarmetal>, <contenttweaker:iridium_osmium_ingot>, <ore:ingotCrystaltine>, <contenttweaker:iridium_osmium_ingot>, <ore:dustAstralStarmetal>, <ore:ingotElectrum>], 
-	[<ore:ingotElectrum>, <contenttweaker:lunar_essence>, <ore:ingotCrystaltine>, <simplyjetpacks:itemjetpack:13>, <ore:ingotCrystaltine>, <contenttweaker:lunar_essence>, <ore:ingotElectrum>], 
+	[<ore:ingotElectrum>, <contenttweaker:lunar_essence>, <ore:ingotCrystaltine>, <simplyjetpacks:itemjetpack:19>, <ore:ingotCrystaltine>, <contenttweaker:lunar_essence>, <ore:ingotElectrum>], 
 	[<ore:ingotElectrum>, <ore:dustAstralStarmetal>, <simplyjetpacks:metaitemmods:30>, <ore:ingotCrystaltine>, <simplyjetpacks:metaitemmods:30>, <ore:dustAstralStarmetal>, <ore:ingotElectrum>], 
 	[null, <ore:ingotElectrum>, <ore:dustAstralStarmetal>, <contenttweaker:lunar_essence>, <ore:dustAstralStarmetal>, <ore:ingotElectrum>, null], 
 	[null, null, <ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>, null, null]
