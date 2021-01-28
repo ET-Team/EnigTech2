@@ -465,7 +465,7 @@ for bannedItems in bannedArray{
 	addItemStage("无法获取", bannedItems);
 }
 
-localizedName as string = game.localize("et2.unfamiliarName");
+var localizedName as string = game.localize("et2.unfamiliarName");
 
 for mod in loadedMods {
 	for item in mod.items {
