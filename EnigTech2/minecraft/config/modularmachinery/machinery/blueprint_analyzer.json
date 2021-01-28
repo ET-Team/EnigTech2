@@ -1,6 +1,6 @@
 {
     "registryname": "blueprint_analyzer",
-    "localizedname": "蓝图解析机",
+    "localizedname": "Blueprint Analyzer",
     "color":"ffffff",
     "parts": [
         {
