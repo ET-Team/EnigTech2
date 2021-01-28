@@ -1,17 +1,17 @@
 {
-    "name": "高山铝矿脉",
+    "name": "Aluminum Vein",
     "icon": "thermalfoundation:ore:4",
     "category": "large_vein",
     "pages": [
         {
             "type": "spotlight",
             "item": "thermalfoundation:ore:4",
-            "title": "高山铝矿脉",
-            "text": "高山铝矿脉是找不到铝土矿脉时的代替之选，储量非常大"
+            "title": "Aluminum Vein",
+            "text": "Aluminum Vein deposits tons of aluminum ores, if you haven't found bauxite yet."
         },
         {
             "type": "text",
-            "text": "主矿石:铝矿石$(br)伴生矿石:无$(br2)生成高度:80-130$(br2)矿脉大小:非常大$(br)矿脉密度:中等$(br2)地表指示:无$(br)矿脉稀有度:中等$(br2)生成维度:主世界"
+            "text": "Main Ore:Aluminum$(br)Associated Ores:None$(br2)Heights:80-130$(br2)Vein Spreadth:Very High$(br)Vein Density:Medium$(br2)Indicator:None$(br)Vein Rarity:Medium$(br2)Dimension:Overworld"
         }
     ]
 }

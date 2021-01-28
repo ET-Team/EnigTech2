@@ -1,6 +1,6 @@
 {
-	"name": "玄理矿脉百科",
-	"landing_text": "欢迎来到玄理2整合包矿脉百科，在这本书中记载着所有会在世界中生成的矿脉，包括它们的生成高度和地表标示物（通常意义上来说，这指的是不同的荧光玫瑰）",
+	"name": "EnigTech2 Orevein Encyclopedia",
+	"landing_text": "This book records all of the ore veins in this modpack, including their heights, density, and indicator(Some of the ore veins will have special glow rose on the ground)",
 	"version": 2,
 	"model" : "contenttweaker:book"
 }

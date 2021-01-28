@@ -1,17 +1,17 @@
 {
-    "name": "铝土矿脉",
+    "name": "Bauxite Vein",
     "icon": "thermalfoundation:ore:4",
     "category": "large_vein",
     "pages": [
         {
             "type": "spotlight",
             "item": "thermalfoundation:ore:4",
-            "title": "铝土矿脉",
-            "text": "铝土矿脉是中期才会用到的矿脉，储量非常之高，盛产铝矿石"
+            "title": "Bauxite Vein",
+            "text": "Bauxite Vein has a high reserve of aluminum ores"
         },
         {
             "type": "text",
-            "text": "主矿石:铝矿石$(br)伴生矿石:锇矿石$(br2)生成高度:20-45$(br2)矿脉大小:非常大$(br)矿脉密度:中等$(br2)地表指示:无$(br)矿脉稀有度:低$(br2)生成维度:主世界"
+            "text": "Main Ore:Aluminum$(br)Associated Ores:Osmium$(br2)Height:20-45$(br2)Vein Spreadth:Very High$(br)Vein Density:Medium$(br2)Indicator:None$(br)Vein Rarity:Low$(br2)Dimension:Overworld"
         }
     ]
 }

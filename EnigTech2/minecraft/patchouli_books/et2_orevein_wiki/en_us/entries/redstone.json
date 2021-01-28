@@ -1,17 +1,17 @@
 {
-    "name": "红石矿脉",
+    "name": "Redstone Vein",
     "icon": "minecraft:redstone_ore",
     "category": "large_vein",
     "pages": [
         {
             "type": "spotlight",
             "item": "minecraft:redstone_ore",
-            "title": "红石矿脉",
-            "text": "红石矿脉是初期使用量很大的矿脉，盛产红石矿石和混沌矿石"
+            "title": "Redstone Vein",
+            "text": "Redstone Vein has large deposit of redtone and chaos"
         },
         {
             "type": "text",
-            "text": "主矿石:红石矿石$(br)伴生矿石:混沌矿石|水晶石矿石$(br2)生成高度:5-35$(br2)矿脉大小:大$(br)矿脉密度:高$(br2)地表指示:无$(br)矿脉稀有度:中等$(br2)生成维度:主世界"
+            "text": "Main Ore:Redstone$(br)Associated Ores:Chaos|Rock Crystal$(br2)Heights:5-35$(br2)Vein Spreadth:High$(br)Vein Density:High$(br2)Indicator:None$(br)Vein Rarity:Medium$(br2)Dimension:Overworld"
         }
     ]
 }

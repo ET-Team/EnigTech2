@@ -1,17 +1,17 @@
 {
-    "name": "黄宝石矿脉",
+    "name": "Topaz Vein",
     "icon": "silentgems:gemore:2",
     "category": "small_vein",
     "pages": [
         {
             "type": "spotlight",
             "item": "silentgems:gemore:2",
-            "title": "黄宝石矿脉",
-            "text": "黄宝石矿脉是前期会用到的矿脉，储量中等，盛产黄玉矿石"
+            "title": "Topaz Vein",
+            "text": "Topaz Vein has a high reserve of topaz"
         },
         {
             "type": "text",
-            "text": "主矿石:黄玉矿石$(br)伴生矿石:琥珀，日长石，橄榄石$(br2)生成高度:10-50$(br2)矿脉大小:中等$(br)矿脉密度:中等$(br2)地表指示:黄玉荧光玫瑰$(br)矿脉稀有度:稀有$(br2)生成维度:主世界"
+            "text": "Main Ore:Topaz$(br)Associated Ores:Amber, Sunstone, Peridot$(br2)Heights:10-50$(br2)Vein Spreadth:Medium$(br)Vein Density:Medium$(br2)Indicator:Topaz Glow Rose$(br)Vein Rarity:Rare$(br2)Dimension:Overworld"
         }
     ]
 }

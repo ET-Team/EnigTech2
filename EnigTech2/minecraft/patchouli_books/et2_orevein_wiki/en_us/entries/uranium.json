@@ -1,17 +1,17 @@
 {
-    "name": "铀矿脉",
+    "name": "Uranium Vein",
     "icon": "nuclearcraft:ore:4",
     "category": "small_vein",
     "pages": [
         {
             "type": "spotlight",
             "item": "nuclearcraft:ore:4",
-            "title": "铀矿脉",
-            "text": "铀矿脉是后期会用到的矿脉，储量中等，盛产铀矿石"
+            "title": "Uranium Vein",
+            "text": "Uranium Vein is a Vein that become available late game Vein with medium reserves."
         },
         {
             "type": "text",
-            "text": "主矿石:铀矿石$(br)伴生矿石:红石矿石$(br2)生成高度:15-38$(br2)矿脉大小:中等$(br)矿脉密度:密集$(br2)地表指示:堇青石荧光玫瑰$(br)矿脉稀有度:稀有$(br2)生成维度:暮色森林"
+            "text": "Main Ore:Uranium$(br)Associated Ores:Redstone$(br2)Heights:15-38$(br2)Vein Spreadth:Medium$(br)Vein Density:Dense$(br2)Indicator:Iolite Glow Rose$(br)Vein Rarity:Rare$(br2)Dimension:Twilight Forest"
         }
     ]
 }

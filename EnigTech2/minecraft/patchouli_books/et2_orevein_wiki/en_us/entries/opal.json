@@ -1,17 +1,17 @@
 {
-    "name": "蛋白石矿脉",
+    "name": "Opal Vein",
     "icon": "silentgems:gemore:15",
     "category": "small_vein",
     "pages": [
         {
             "type": "spotlight",
             "item": "silentgems:gemore:15",
-            "title": "蛋白石矿脉",
-            "text": "蛋白石矿脉是前期会用到的矿脉，储量中等，钻石矿石比重很高，密度也非常大"
+            "title": "Opal Vein",
+            "text": "Opal Vein has a high density of diamond and opal"
         },
         {
             "type": "text",
-            "text": "主矿石:蛋白石矿石$(br)伴生矿石:钻石，缟玛瑙$(br2)生成高度:10-20$(br2)矿脉大小:小$(br)矿脉密度:中等$(br2)地表指示:琥珀荧光玫瑰$(br)矿脉稀有度:稀有$(br2)生成维度:主世界"
+            "text": "Main Ore:Opal$(br)Associated Ores:Diamond$(br2)Heights:10-20$(br2)Vein Spreadth:Low$(br)Vein Density:Medium$(br2)Indicator:Amber Glow Rose$(br)Vein Rarity:Rare$(br2)Dimension:Overworld"
         }
     ]
 }

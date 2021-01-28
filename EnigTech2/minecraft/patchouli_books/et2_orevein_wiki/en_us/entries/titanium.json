@@ -1,17 +1,17 @@
 {
-    "name": "钛矿脉",
+    "name": "Titanium Vein",
     "icon": "libvulpes:ore0:8",
     "category": "small_vein",
     "pages": [
         {
             "type": "spotlight",
             "item": "libvulpes:ore0:8",
-            "title": "钛矿脉",
-            "text": "钛矿脉是后期会用到的矿脉，储量中等，盛产铱矿石和金红石矿石"
+            "title": "Titanium Vein",
+            "text": "Titanium Vein has a medium reserve of "
         },
         {
             "type": "text",
-            "text": "主矿石:金红石矿石$(br)伴生矿石:铱矿石$(br2)生成高度:21-33$(br2)矿脉大小:中等$(br)矿脉密度:中等$(br2)地表指示:橄榄石荧光玫瑰$(br)矿脉稀有度:稀有$(br2)生成维度:主世界"
+            "text": "Main Ore:Rutile$(br)Associated Ores:Iridium$(br2)Heights:21-33$(br2)Vein Spreadth:Medium$(br)Vein Density:Medium$(br2)Indicator:Peridot Glow Rose$(br)Vein Rarity:Rare$(br2)Dimension:Overworld"
         }
     ]
 }

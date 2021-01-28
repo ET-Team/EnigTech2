@@ -1,17 +1,17 @@
 {
-    "name": "煤炭矿脉",
+    "name": "Coal Vein",
     "icon": "minecraft:coal_ore",
     "category": "large_vein",
     "pages": [
         {
             "type": "spotlight",
             "item": "minecraft:coal_ore",
-            "title": "煤炭矿脉",
-            "text": "煤炭矿脉是前中期使用量很大的矿脉，生成有大量的煤炭矿石作为初期的燃料储备"
+            "title": "Coal Vein",
+            "text": "Coal Vein reserves a lot of coal ores."
         },
         {
             "type": "text",
-            "text": "主矿石:煤炭矿石$(br)伴生矿石:无$(br2)生成高度:10-50$(br2)矿脉大小:大$(br)矿脉密度:非常低$(br2)地表指示:无$(br)矿脉稀有度:常见$(br2)生成维度:主世界"
+            "text": "Main Ore:Coal$(br)Associated Ores:None$(br2)Heights:10-50$(br2)Vein Spreadth:High$(br)Vein Density:Very Low$(br2)Indicator:None$(br)Vein Rarity:Common$(br2)Dimension:Overworld"
         }
     ]
 }
