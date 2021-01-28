@@ -994,7 +994,7 @@ et2.praise.expert.stage_two=Congratulation, The Friend of the Plants, Stage Two 
 et2.praise.expert.stage_three=Congratulation, The Manipulator of Aura, Stage Three of Enigtech2:Expert has been conquered by you, right click to understand this sheet of text and unlock Stage Four
 et2.praise.expert.stage_four=Congratulation, The Master of Machinery, Stage Four of Enigtech2:Expert has been conquered by you, right click to implant this chip and unlock Stage Five
 et2.praise.expert.stage_five=Congratulation, The Descendant of Stars, Stage Five of Enigtech2:Expert has been conquered by you, right click to merge this rune and unlock Stage Six
-et2.praise.expert.stage_six=Congratulation, The Keeper of Orders, Stage Six has of Enigtech2:Expert been conquered by you, right click to guard your will and unlock Stage Alpha
+et2.praise.expert.stage_six=Congratulation, The Guardian of Order, Stage Six has of Enigtech2:Expert been conquered by you, right click to guard your tenet and unlock Stage Alpha
 et2.praise.expert.stage_alpha=Congratulation, Ascender, EnigTech2 in Expert mode has been conquered by you. Please give me the right to give all the praises in the world to you. This item will not be consumed in any recipe
 
 et2.praise.normal.stage_one=Congratulation, The Man of Innocence, Stage One has been conqured by you, right click to drink this potion and unlock Stage Two
@@ -1002,10 +1002,10 @@ et2.praise.normal.stage_two=Congratulation, The Friend of the Plants, Stage Two 
 et2.praise.normal.stage_three=Congratulation, The Manipulator of Aura, Stage Three has been conquered by you, right click to understand this sheet of text and unlock Stage Four
 et2.praise.normal.stage_four=Congratulation, The Master of Machinery, Stage Four has been conquered by you, right click to implant this chip and unlock Stage Five
 et2.praise.normal.stage_five=Congratulation, The Descendant of Stars, Stage Five has been conquered by you, right click to merge this rune and unlock Stage Six
-et2.praise.normal.stage_six=Congratulation, The Keeper of Orders, Stage Six has been conquered by you, right click to guard your will and unlock Stage Alpha
+et2.praise.normal.stage_six=Congratulation, The Guardian of Order, Stage Six has been conquered by you, right click to guard your tenet and unlock Stage Alpha
 et2.praise.normal.stage_alpha=Congratulation, Ascender, EnigTech2 has been conquered by you. This item will not be consumed in any recipe
 
-et2.botaniamisc.advanced_fruit.page0=只需要一点点盖亚和末影的力 量加以引导，&1禁忌之果&0能被升 级为&1饕餮之果&0。 它可以自动补充饱食度，无需 玩家自行食用。 同时它的消耗魔力的量比禁忌 之果稍微少一点。 
+et2.botaniamisc.advanced_fruit.page0=只需要一点点盖亚和末影的力量加以引导，&1禁忌之果&0能被升 级为&1饕餮之果&0。 它可以自动补充饱食度，无需 玩家自行食用。 同时它的消耗魔力的量比禁忌 之果稍微少一点。 
 et2.botaniamisc.advanced_fruit.page1=Better than iWatch.
 
 et2.tooltip.rootsbook=After opening this book, you have a nearly 100% chance of winning and becoming a lucky reader. The reward content is: irreparable game save crash.
