@@ -1,6 +1,6 @@
 {
     "registryname": "blast_furnace_mke",
-    "localizedname": "Cyberware™ Universal Electrical Blast Furnace",
+    "localizedname": "et2.machine.blast_furnace_mke.name",
     "color":"329a53",
     "parts": [
         {

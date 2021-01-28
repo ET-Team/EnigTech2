@@ -1,6 +1,6 @@
 {
     "registryname": "mana_compressor",
-    "localizedname": "Mana Compressor",
+    "localizedname": "et2.machine.mana_compressor.name",
     "color":"FF3399",
     "parts": [
         {

@@ -1,6 +1,6 @@
 {
     "registryname": "intergrated_assembly_mk2",
-    "localizedname": "Integrated Assembly MK2",
+    "localizedname": "et2.machine.intergrated_assembly_mk2.name",
     "requires-blueprint": true,
     "color":"194bff",
     "parts": [

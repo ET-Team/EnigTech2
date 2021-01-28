@@ -1,6 +1,6 @@
 {
     "registryname": "assembly",
-    "localizedname": "Intelligent Assembly",
+    "localizedname": "et2.machine.assembly.name",
     "color":"63b8ff",
     "parts": [
         {

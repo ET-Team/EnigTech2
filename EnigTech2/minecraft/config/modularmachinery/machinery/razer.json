@@ -1,6 +1,6 @@
 {
     "registryname": "razer",
-    "localizedname": "High-Energy Lazer Etching Machine",
+    "localizedname": "et2.machine.razer.name",
     "requires-blueprint": true,
     "color":"171717",
     "parts": [

@@ -1,6 +1,6 @@
 {
     "registryname": "grinding_ball_polisher",
-    "localizedname": "Grinding Ball Polisher",
+    "localizedname": "et2.machine.grinding_ball_polisher.name",
     "color":"68d3e5",
     "parts": [
         {

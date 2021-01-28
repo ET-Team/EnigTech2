@@ -1,6 +1,6 @@
 {
     "registryname": "steam_assembly",
-    "localizedname": "Steam-Driven Assembly",
+    "localizedname": "et2.machine.steam_assembly.name",
     "color":"bfbfbf",
     "parts": [
         {

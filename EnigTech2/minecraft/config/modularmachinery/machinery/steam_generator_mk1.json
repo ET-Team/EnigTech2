@@ -1,6 +1,6 @@
 {
     "registryname": "steam_generator",
-    "localizedname": "Steam Turbine MK1",
+    "localizedname": "et2.machine.steam_generator_mk1.name",
     "color":"bfbfbf",
     "parts": [
         {

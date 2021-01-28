@@ -1,6 +1,6 @@
 {
     "registryname": "circuit_processor",
-    "localizedname": "Wafer Processing Assembly",
+    "localizedname": "et2.machine.circuit_processor.name",
     "color":"ffffff",
     "parts": [
         {

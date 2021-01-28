@@ -1,6 +1,6 @@
 {
     "registryname": "entropy_collector",
-    "localizedname": "Entropy Collector",
+    "localizedname": "et2.machine.entropy_collector.name",
     "color":"eee8cd",
     "parts": [
         {

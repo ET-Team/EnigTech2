@@ -1,6 +1,6 @@
 {
     "registryname": "energy_solidifier",
-    "localizedname": "Disorder·Zeron·Cosmo·Vaccum·Collapse Energy Collection Device",
+    "localizedname": "et2.machine.energy_solidifier.name",
     "parts": [
         {
             "x": -1,

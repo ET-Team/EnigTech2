@@ -1,6 +1,6 @@
 {
     "registryname": "embers_chopper",
-    "localizedname": "Embers Cutting Machine",
+    "localizedname": "et2.machine.embers_chopper.name",
     "parts": [
         {
             "x": -1,

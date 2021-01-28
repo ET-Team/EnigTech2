@@ -1,6 +1,6 @@
 {
     "registryname": "centrifuge",
-    "localizedname": "Silent's Analyzer",
+    "localizedname": "et2.machine.centrifuge.name",
     "color":"2b2b2b",
     "parts": [
         {

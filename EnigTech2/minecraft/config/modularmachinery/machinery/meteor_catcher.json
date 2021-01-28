@@ -1,6 +1,6 @@
 {
     "registryname": "meteor_catcher",
-    "localizedname": "Meteor Trap",
+    "localizedname": "et2.machine.meteor_catcher.name",
     "color":"bebebe",
     "parts": [
         {

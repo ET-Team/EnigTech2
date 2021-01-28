@@ -1,6 +1,6 @@
 {
     "registryname": "oil_drill",
-    "localizedname": "Oil Rig",
+    "localizedname": "et2.machine.oil_drill.name",
     "color":"bfbfbf",
     "parts": [
         {

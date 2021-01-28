@@ -1,6 +1,6 @@
 {
     "registryname": "oil_refinery",
-    "localizedname": "Oil Refinery",
+    "localizedname": "et2.machine.oil_refinery.name",
     "color":"424242",
     "parts": [
         {

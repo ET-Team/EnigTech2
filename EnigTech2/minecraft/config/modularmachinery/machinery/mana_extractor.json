@@ -1,6 +1,6 @@
 {
     "registryname": "mana_extractor",
-    "localizedname": "Mana Extractor",
+    "localizedname": "et2.machine.mana_extractor.name",
     "color":"ff5cff",
     "parts": [
         {

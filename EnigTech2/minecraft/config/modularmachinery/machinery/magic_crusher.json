@@ -1,6 +1,6 @@
 {
     "registryname": "magic_crusher",
-    "localizedname": "Magnent Crusher MK1",
+    "localizedname": "et2.machine.magic_crusher.name",
     "color":"bfbfbf",
     "parts": [
         {

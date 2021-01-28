@@ -1,6 +1,6 @@
 {
     "registryname": "aura_collector",
-    "localizedname": "Aura Attacher",
+    "localizedname": "et2.machine.aura_collector.name",
     "color":"008080",
     "parts": [
         {

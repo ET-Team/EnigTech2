@@ -1,6 +1,6 @@
 {
     "registryname": "rune_compressor",
-    "localizedname": "Rune Imprinter",
+    "localizedname": "et2.machine.rune_compressor.name",
     "color":"ffffff",
     "parts": [
         {
