@@ -1,6 +1,6 @@
 {
     "registryname": "singularity_maker",
-    "localizedname": "史瓦西压缩装置",
+    "localizedname": "et2.machine.singularity_maker.name",
     "color":"8a2be2",
     "parts": [
         {

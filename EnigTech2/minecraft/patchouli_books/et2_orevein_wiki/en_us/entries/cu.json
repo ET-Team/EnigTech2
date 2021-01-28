@@ -1,17 +1,17 @@
 {
-    "name": "黄铜矿脉",
+    "name": "Chalcopyrite Vein",
     "icon": "thermalfoundation:ore",
     "category": "large_vein",
     "pages": [
         {
             "type": "spotlight",
             "item": "thermalfoundation:ore",
-            "title": "黄铜矿脉",
-            "text": "黄铜矿脉是初期使用量很大的矿脉，盛产铜矿石"
+            "title": "Chalcopyrite Vein",
+            "text": "Chalcopyrite Vein has a large deposit of copper"
         },
         {
             "type": "text",
-            "text": "主矿石:铜矿石$(br)伴生矿石:铁矿石$(br2)生成高度:45-60$(br2)矿脉大小:大$(br)矿脉密度:中等$(br2)地表指示:无$(br)矿脉稀有度:中等$(br2)生成维度:主世界"
+            "text": "Main Ore:Copper$(br)Associated Ores:Iron$(br2)Heights:45-60$(br2)Vein Spreadth:High$(br)Vein Density:Medium$(br2)Indicator:None$(br)Vein Rarity:Medium$(br2)Dimension:Overworld"
         }
     ]
 }

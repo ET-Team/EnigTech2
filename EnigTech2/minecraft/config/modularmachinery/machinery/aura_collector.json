@@ -1,6 +1,6 @@
 {
     "registryname": "aura_collector",
-    "localizedname": "灵气附着装置",
+    "localizedname": "et2.machine.aura_collector.name",
     "color":"008080",
     "parts": [
         {

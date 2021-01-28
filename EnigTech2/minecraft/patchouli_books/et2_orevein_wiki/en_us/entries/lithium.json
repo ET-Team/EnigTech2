@@ -1,17 +1,17 @@
 {
-    "name": "锂矿脉",
+    "name": "Lithium Vein",
     "icon": "libvulpes:ore0",
     "category": "small_vein",
     "pages": [
         {
             "type": "spotlight",
             "item": "libvulpes:ore0",
-            "title": "锂矿脉",
-            "text": "锂矿脉是后期会用到的矿脉，储量较少，盛产双锂矿石"
+            "title": "Lithium Vein",
+            "text": "Lithium Vein has a low reserve of dilithiun"
         },
         {
             "type": "text",
-            "text": "主矿石:双锂矿石$(br)伴生矿石:无$(br2)生成高度:32-50$(br2)矿脉大小:小$(br)矿脉密度:密集$(br2)地表指示:海蓝宝石荧光玫瑰$(br)矿脉稀有度:稀有$(br2)生成维度:暮色森林"
+            "text": "Main Ore:Dilithium$(br)Associated Ores:None$(br2)Heights:32-50$(br2)Vein Spreadth:Low$(br)Vein Density:Dense$(br2)Indicator:Aquamarine Glow Rose$(br)Vein Rarity:Rare$(br2)Dimension:Twilight Forest"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "registryname": "magic_magtinizer",
-    "localizedname": "魔能磁化机MK1",
+    "localizedname": "et2.machine.magic_magtinizer.name",
     "color":"bfbfbf",
     "parts": [
         {

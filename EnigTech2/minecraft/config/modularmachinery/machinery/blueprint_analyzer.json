@@ -1,6 +1,6 @@
 {
     "registryname": "blueprint_analyzer",
-    "localizedname": "蓝图解析机",
+    "localizedname": "et2.machine.blueprint_analyzer.name",
     "color":"ffffff",
     "parts": [
         {

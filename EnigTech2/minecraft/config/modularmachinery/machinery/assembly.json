@@ -1,6 +1,6 @@
 {
     "registryname": "assembly",
-    "localizedname": "智能装配装置",
+    "localizedname": "et2.machine.assembly.name",
     "color":"63b8ff",
     "parts": [
         {

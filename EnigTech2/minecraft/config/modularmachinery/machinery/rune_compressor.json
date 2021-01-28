@@ -1,6 +1,6 @@
 {
     "registryname": "rune_compressor",
-    "localizedname": "符文压印器",
+    "localizedname": "et2.machine.rune_compressor.name",
     "color":"ffffff",
     "parts": [
         {

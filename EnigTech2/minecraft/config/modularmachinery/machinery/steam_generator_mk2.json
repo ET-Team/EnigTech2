@@ -1,6 +1,6 @@
 {
     "registryname": "steam_generator_mk2",
-    "localizedname": "蒸汽涡轮机MK2",
+    "localizedname": "et2.machine.steam_generator_mk2.name",
     "parts": [
         {
             "x": 1,

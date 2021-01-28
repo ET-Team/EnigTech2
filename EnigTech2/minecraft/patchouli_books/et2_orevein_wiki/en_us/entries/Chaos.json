@@ -1,17 +1,17 @@
 {
-    "name": "混沌矿脉",
+    "name": "Chaos Vein",
     "icon": "silentgems:essenceore",
     "category": "small_vein",
     "pages": [
         {
             "type": "spotlight",
             "item": "silentgems:essenceore",
-            "title": "混沌矿脉",
-            "text": "混沌矿脉是前期会用到的矿脉，储量较少，盛产混沌矿石"
+            "title": "Chaos Vein",
+            "text": "Chaos Vein reserves a small quantity of chaos ores."
         },
         {
             "type": "text",
-            "text": "主矿石:混沌矿石$(br)伴生矿石:无$(br2)生成高度:0-10$(br2)矿脉大小:较小$(br)矿脉密度:低$(br2)地表指示:摩根石荧光玫瑰$(br)矿脉稀有度:稀有$(br2)生成维度:主世界"
+            "text": "Main Ore:Chaos$(br)Associated Ores:None$(br2)Heights:0-10$(br2)Vein Spreadth:Low$(br)Vein Density:Low$(br2)Indicator:摩根石荧光玫瑰$(br)Vein Rarity:Rare$(br2)Dimension:Overworld"
         }
     ]
 }

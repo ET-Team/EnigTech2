@@ -1,6 +1,6 @@
 {
     "registryname": "entropy_collector",
-    "localizedname": "熵收集器",
+    "localizedname": "et2.machine.entropy_collector.name",
     "color":"eee8cd",
     "parts": [
         {

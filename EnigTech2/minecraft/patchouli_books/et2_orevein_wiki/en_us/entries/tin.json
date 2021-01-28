@@ -1,17 +1,17 @@
 {
-    "name": "锡石矿脉",
+    "name": "Cassiterite Vein",
     "icon": "thermalfoundation:ore:1",
     "category": "large_vein",
     "pages": [
         {
             "type": "spotlight",
             "item": "thermalfoundation:ore:1",
-            "title": "锡石矿脉",
-            "text": "锡石矿脉是初期使用量很大的矿脉，盛产可以用来合金青铜的锡矿石"
+            "title": "Cassiterite Vein",
+            "text": "Cassiterite Vein has a high reserve of tin"
         },
         {
             "type": "text",
-            "text": "主矿石:锡矿石$(br)伴生矿石:镍矿石$(br2)生成高度:25-55$(br2)矿脉大小:大$(br)矿脉密度:中等$(br2)地表指示:无$(br)矿脉稀有度:中等$(br2)生成维度:主世界"
+            "text": "Main Ore:Tin$(br)Associated Ores:Nickel$(br2)Heights:25-55$(br2)Vein Spreadth:High$(br)Vein Density:Medium$(br2)Indicator:None$(br)Vein Rarity:Medium$(br2)Dimension:Overworld"
         }
     ]
 }

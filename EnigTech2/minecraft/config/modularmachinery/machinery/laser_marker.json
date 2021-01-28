@@ -1,6 +1,6 @@
 {
     "registryname": "laser_marker",
-    "localizedname": "余烬激光蚀刻机",
+    "localizedname": "et2.machine.laser_marker.name",
     "color":"ffc430",
     "parts": [
         {

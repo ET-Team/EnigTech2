@@ -1,6 +1,6 @@
 {
     "registryname": "vaccum_alloy_furnace",
-    "localizedname": "真空合金炉",
+    "localizedname": "et2.machine.vaccum_alloy_furnace.name",
     "color":"2e8b57",
     "parts": [
         {

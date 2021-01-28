@@ -1,6 +1,6 @@
 {
     "registryname": "razer",
-    "localizedname": "高能激光蚀刻机",
+    "localizedname": "et2.machine.razer.name",
     "requires-blueprint": true,
     "color":"171717",
     "parts": [

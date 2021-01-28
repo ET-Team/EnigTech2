@@ -1,17 +1,17 @@
 {
-    "name": "黄铁矿脉",
+    "name": "Pyrite Vein",
     "icon": "minecraft:iron_ore",
     "category": "large_vein",
     "pages": [
         {
             "type": "spotlight",
             "item": "minecraft:iron_ore",
-            "title": "黄铁矿脉",
-            "text": "黄铁矿脉是初期使用量很大的矿脉，盛产铁矿石"
+            "title": "Pyrite Vein",
+            "text": "Pyrite Vein has a high reserve of iron"
         },
         {
             "type": "text",
-            "text": "主矿石:铁矿石$(br)伴生矿石:铂矿石$(br2)生成高度:20-60$(br2)矿脉大小:非常大$(br)矿脉密度:低$(br2)地表指示:无$(br)矿脉稀有度:中等$(br2)生成维度:主世界"
+            "text": "Main Ore:Iron$(br)Associated Ores:Platinum$(br2)Heights:20-60$(br2)Vein Spreadth:Very High$(br)Vein Density:Low$(br2)Indicator:None$(br)Vein Rarity:Medium$(br2)Dimension:Overworld"
         }
     ]
 }

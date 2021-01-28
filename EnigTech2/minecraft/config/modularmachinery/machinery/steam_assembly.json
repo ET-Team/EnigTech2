@@ -1,6 +1,6 @@
 {
     "registryname": "steam_assembly",
-    "localizedname": "蒸汽装配机",
+    "localizedname": "et2.machine.steam_assembly.name",
     "color":"bfbfbf",
     "parts": [
         {

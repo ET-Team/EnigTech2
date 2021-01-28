@@ -1,6 +1,6 @@
 {
     "registryname": "gem_analyzer",
-    "localizedname": "寂静解析终端",
+    "localizedname": "et2.machine.gem_analyzer.name",
     "color":"000000",
     "parts": [
         {

@@ -1,6 +1,6 @@
 {
     "registryname": "boil_chamber_mk2",
-    "localizedname": "大型蒸汽锅炉",
+    "localizedname": "et2.machine.boil_chamber_mk2.name",
     "parts": [
         {
             "x": -1,

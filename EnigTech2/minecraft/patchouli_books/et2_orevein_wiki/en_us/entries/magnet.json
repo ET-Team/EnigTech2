@@ -1,17 +1,17 @@
 {
-    "name": "磁铁矿脉",
+    "name": "Magnetite Vein",
     "icon": "minecraft:gold_ore",
     "category": "small_vein",
     "pages": [
         {
             "type": "spotlight",
             "item": "minecraft:gold_ore",
-            "title": "磁铁矿脉",
-            "text": "磁铁矿脉是前期会用到的矿脉，储量中等，盛产铁矿石与金矿石"
+            "title": "Magnetite Vein",
+            "text": "Magnetite Vein has a medium reserve of iron and gold"
         },
         {
             "type": "text",
-            "text": "主矿石:铁矿石$(br)伴生矿石:金矿石$(br2)生成高度:32-48$(br2)矿脉大小:中等$(br)矿脉密度:较高$(br2)地表指示:日长石荧光玫瑰$(br)矿脉稀有度:比较稀有$(br2)生成维度:主世界"
+            "text": "Main Ore:Iron$(br)Associated Ores:Gold$(br2)Heights:32-48$(br2)Vein Spreadth:Medium$(br)Vein Density:Relatively High$(br2)Indicator:Sunstone Glow Rose$(br)Vein Rarity:Relatively Rare$(br2)Dimension:Overworld"
         }
     ]
 }

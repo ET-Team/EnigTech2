@@ -1,6 +1,6 @@
 {
     "registryname": "cyberware_assembly",
-    "localizedname": "赛博维尔™装配室",
+    "localizedname": "et2.machine.cyberware_assembly.name",
     "color":"595b5f",
     "parts": [
         {

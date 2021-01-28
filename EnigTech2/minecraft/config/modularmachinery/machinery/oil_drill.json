@@ -1,6 +1,6 @@
 {
     "registryname": "oil_drill",
-    "localizedname": "石油钻井平台",
+    "localizedname": "et2.machine.oil_drill.name",
     "color":"bfbfbf",
     "parts": [
         {

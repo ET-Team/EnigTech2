@@ -1,6 +1,6 @@
 {
     "registryname": "microassembly",
-    "localizedname": "微装配机",
+    "localizedname": "et2.machine.microassembly.name",
     "color":"bfbfbf",
     "parts": [
         {

@@ -1,6 +1,6 @@
 {
     "registryname": "blast_furnace_mk4",
-    "localizedname": "魔能高炉MK4",
+    "localizedname": "et2.machine.blast_furnace_mk4.name",
     "color":"2b2b2b",
     "parts": [
         {
