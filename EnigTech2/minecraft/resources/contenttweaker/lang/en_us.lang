@@ -1,7 +1,7 @@
 item.contenttweaker.arcane_essence.name=Arcane Essence
 item.contenttweaker.auriminium.name=Auriminium
 item.contenttweaker.magcondium_ingot.name=Magcondium Ingot
-item.contenttweaker.magfusive_crystal.name=Magfusive Crystal
+item.contenttweaker.magfusive_crystal.name=Maginfusive Crystal
 
 item.contenttweaker.basic_circuit.name=Basic Circuit
 item.contenttweaker.basic_processor.name=Basic Processor
@@ -9,7 +9,7 @@ item.contenttweaker.advanced_processor.name=Advanced Processor
 item.contenttweaker.integrated_calculation_module.name=Integrated Calculation Module
 item.contenttweaker.super_calculation_module.name=Super Calculation Module
 
-item.contenttweaker.bad_machine_core.name=Basic Machine Core
+item.contenttweaker.bad_machine_core.name=Crude Machine Core
 item.contenttweaker.soso_machine_core.name=Refined Machine Core
 item.contenttweaker.reinforced_machine_core.name=Reinforced Machine Core
 item.contenttweaker.ultra_machine_core.name=Ultra Machine Core
@@ -42,7 +42,7 @@ item.contenttweaker.magic_key.name=Magic Key
 item.contenttweaker.blood_iron.name=Blood Iron Ingot
 item.contenttweaker.divine_inspiration.name=Inspiration from Divinity
 item.contenttweaker.solid_ethylene.name=Solid Ethylene
-item.contenttweaker.bulk_of_plastic.name=Plastic Bulk
+item.contenttweaker.bulk_of_plastic.name=Chun of Plastic
 item.contenttweaker.plastic_plate.name=Plastic Plate
 
 fluid.fluid_lubricant=Lubricant
@@ -76,7 +76,7 @@ item.contenttweaker.ic_unprocessed.name=Unprocessed IC
 item.contenttweaker.processor_base.name=Processor Substrate
 item.contenttweaker.silicon_reinforced.name=Reinforced Silicon
 item.contenttweaker.slice_silicon_compressed.name=Compressed Silicon Slice
-item.contenttweaker.slice_silicon_rough.name=Rough SIlicon Slice
+item.contenttweaker.slice_silicon_rough.name=Rough Silicon Slice
 item.contenttweaker.ic_processed.name=IC
 item.contenttweaker.baseplate_aluminum.name=Aluminium Substrate
 item.contenttweaker.baseplate_gold.name=Gold Substrate
