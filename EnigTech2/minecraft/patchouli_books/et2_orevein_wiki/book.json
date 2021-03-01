@@ -1,5 +1,5 @@
 {
-	"name": "EnigTech2 Orevein Encyclopedia",
+	"name": "EnigTech2 Orevein Encyclopedia(玄理矿脉百科)",
 	"landing_text": "This book records all of the ore veins in this modpack, including their heights, density, and indicator(Some of the ore veins will have special glow rose on the ground)",
 	"version": 2,
 	"model" : "contenttweaker:book"
