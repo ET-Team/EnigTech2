@@ -44,7 +44,7 @@ RuneAltar.addRecipe(<item:contenttweaker:advanced_infinite_fruit>, [
 RuneAltar.addRecipe(<etutil:magic_geiger_counter>,[
     <ore:ingotTerrasteel>,
     <tombstone:crafting_ingredient:2>,
-    <silentgems:gemsuper:*>,
-    <botania:rune:*>,
+    <silentgems:gemsuper>,
+    <botania:rune>,
     <roots:spell_dust>.withTag({spell_holder: {spell_0: "spell_sense_danger", selectedSlot: 0, lastCooldown: 0, cooldown: 0}}),
 ],32000);
