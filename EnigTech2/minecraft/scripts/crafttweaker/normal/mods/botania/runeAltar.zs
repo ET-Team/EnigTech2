@@ -29,8 +29,8 @@ RuneAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),[<b
 RuneAltar.addRecipe(<etutil:magic_geiger_counter>,[
     <silentgems:craftingmaterial:27>,
     <tombstone:crafting_ingredient:2>,
-    <silentgems:gemsuper:*>,
-    <botania:rune:*>,
+    <silentgems:gemsuper>,
+    <botania:rune>,
     <roots:spell_dust>.withTag({spell_holder: {spell_0: "spell_sense_danger", selectedSlot: 0, lastCooldown: 0, cooldown: 0}}),
 ],32000);
 
