@@ -69,7 +69,10 @@ recipes.addShaped(<embers:ember_activator>,[[<ore:plateCopper>,<contenttweaker:m
 recipes.addShaped(<embers:boiler>,[[<ore:plateSteel>,null,<ore:plateSteel>],[<contenttweaker:magcondium_ingot>,<contenttweaker:soso_machine_core>,<contenttweaker:magcondium_ingot>],[<embers:block_caminite_brick>,<botania:rune:5>,<embers:block_caminite_brick>]]);
 recipes.addShaped(<embers:block_furnace>,[[<ore:plateSteel>,null,<ore:plateSteel>],[<bloodmagic:slate:2>,<contenttweaker:soso_machine_core>,<bloodmagic:slate:2>],[<embers:block_caminite_brick>,<botania:rune:1>,<embers:block_caminite_brick>]]);
 recipes.addShaped(<embers:mixer>,[[<contenttweaker:basic_motioner>,<botania:rune:5>,<ore:plateSteel>],[<naturesaura:sky_ingot>,<contenttweaker:soso_machine_core>,<naturesaura:sky_ingot>],[<ore:plateSteel>,<botania:rune:7>,<contenttweaker:basic_motioner>]]);
-
+recipes.addShaped(<forestry:impregnated_casing>,[[<immersiveengineering:treated_wood>,<immersiveengineering:treated_wood>,<immersiveengineering:treated_wood>],[<immersiveengineering:treated_wood>,<contenttweaker:blood_iron>,<immersiveengineering:treated_wood>],[<immersiveengineering:treated_wood>,<immersiveengineering:treated_wood>,<immersiveengineering:treated_wood>]]);
+recipes.addShaped(<forestry:portable_alyzer>.withTag({UID: -1947629440, Slots: {}, Charges: 0}),[[<ore:ingotTin>,<botania:elfglasspane>,<ore:ingotTin>],[<ore:ingotTin>,<botania:elfglasspane>,<ore:ingotTin>],[<immersiveengineering:material:8>,<ore:manaDiamond>,<immersiveengineering:material:8>]]);
+recipes.addShaped(<forestry:bee_house>,[[<immersiveengineering:treated_wood_slab>,<immersiveengineering:treated_wood_slab>,<immersiveengineering:treated_wood_slab>],[<immersiveengineering:treated_wood>,<ore:beeComb>,<immersiveengineering:treated_wood>],[<immersiveengineering:treated_wood>,<immersiveengineering:treated_wood>,<immersiveengineering:treated_wood>]]);
+recipes.addShaped(<forestry:apiary>,[[<botania:dreamwood0slab>,<botania:dreamwood0slab>,<botania:dreamwood0slab>],[<botania:dreamwood>,<forestry:impregnated_casing>,<botania:dreamwood>],[<botania:dreamwood>,<botania:dreamwood>,<botania:dreamwood>]]);
 recipes.addShapeless("life_insight", <contenttweaker:life_insight>, [<minecraft:book>,<botania:rune:4>]);
 
 //纸箱
