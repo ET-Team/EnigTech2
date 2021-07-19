@@ -19,3 +19,5 @@ MetalPress.addRecipe(<thermalfoundation:material:354>, <appliedenergistics2:mate
 MetalPress.addRecipe(<thermalfoundation:material:354>, <appliedenergistics2:material:19>, <immersiveengineering:mold>, 2000);
 //锑板
 MetalPress.addRecipe(<contenttweaker:plate_antimony>,<soot:ingot_antimony>,<immersiveengineering:mold>, 4000);
+
+MetalPress.addRecipe(<forestry:honey_drop>, <ore:beeComb>, <immersiveengineering:mold:0>, 40, 1);
