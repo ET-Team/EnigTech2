@@ -46,3 +46,6 @@ recipes.remove(<silentgems:craftingmaterial:29>);
 furnace.remove(<silentgems:craftingmaterial:30>);
 recipes.remove(<modularmachinery:blockcasing:2>);
 recipes.removeByRecipeName("mekanism:cardboardbox");
+recipes.remove(<forestry:apiary>);
+recipes.remove(<forestry:bee_house>);
+
