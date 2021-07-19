@@ -130,7 +130,10 @@ var modsStageFour as string[] = [
 	"extrautils2",
 	"soot",
 	"carryon",
-	"bloodarsenal"
+	"bloodarsenal",
+	"extrabees",
+	"extratrees",
+	"extraflowers"
 ];
 
 addItemStage("four",<bloodmagic:upgrade_trainer>.withTag({}));
@@ -139,6 +142,39 @@ for mod in modsStageFour{
 	mods.ItemStages.stageModItems("four", mod);
 	Recipes.setRecipeStageByMod("four", mod);
 }
+
+function addToStage(a as string, item as IItemStack){
+	removeItemStage(item);
+	addItemStage(a, item);
+}
+
+addToStage("three", <forestry:portable_alyzer>);
+addToStage("two", <forestry:scoop>);
+addToStage("two", <forestry:bee_combs:0>);
+addToStage("two", <forestry:bee_combs:1>);
+addToStage("two", <forestry:bee_combs:2>);
+addToStage("two", <forestry:bee_combs:3>);
+addToStage("two", <forestry:bee_combs:4>);
+addToStage("two", <forestry:bee_combs:5>);
+addToStage("two", <forestry:bee_combs:6>);
+addToStage("two", <forestry:bee_combs:7>);
+addToStage("two", <forestry:bee_combs:15>);
+addToStage("two", <forestry:bee_combs:16>);
+addToStage("two", <extrabees:hive:0>);
+addToStage("two", <extrabees:hive:1>);
+addToStage("two", <extrabees:hive:2>);
+addToStage("two", <extrabees:hive:3>);
+addToStage("two", <forestry:beehives:0>);
+addToStage("two", <forestry:beehives:1>);
+addToStage("two", <forestry:beehives:2>);
+addToStage("two", <forestry:beehives:3>);
+addToStage("two", <forestry:beehives:4>);
+addToStage("two", <forestry:beehives:5>);
+addToStage("two", <forestry:beehives:6>);
+addToStage("three", <forestry:frame_untreated>);
+addToStage("three", <forestry:apiary>);
+addToStage("two", <forestry:impregnated_casing>);
+addToStage("three", <forestry:honey_drop>);
 
 for item in loadedMods["enderio"].items{
 	if(item.definition.name == <item:enderio:item_broken_spawner>.definition.name){
