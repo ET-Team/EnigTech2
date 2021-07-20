@@ -58,6 +58,26 @@ recipes.addShaped("pattern2", <item:appliedenergistics2:material:52>*2,[
     [<ore:plateDawnstone>,<embers:plate_dawnstone>,<ore:plateDawnstone>]
 ]);
 
+val bamboo = <cuisine:bamboo> | <biomesoplenty:bamboo>;
+
+recipes.addShaped(<forestry:frame_untreated>,
+    [[bamboo,bamboo,bamboo],
+    [bamboo,<ore:manaString>,bamboo],
+    [bamboo,bamboo,bamboo]]
+);
+
+recipes.addShaped(<contenttweaker:shining_essence>*4,
+    [[<contenttweaker:zealous_essence>,<forestry:bee_combs:6>,<contenttweaker:zealous_essence>],
+    [<forestry:bee_combs:6>,<contenttweaker:zealous_essence>,<forestry:bee_combs:6>],
+    [<contenttweaker:zealous_essence>,<forestry:bee_combs:6>,<contenttweaker:zealous_essence>]]
+);
+
+recipes.addShaped(<naturesaura:gold_fiber>*3,
+    [[<contenttweaker:shining_essence>,<ore:ingotGold>,<contenttweaker:shining_essence>],
+    [<ore:ingotGold>,<contenttweaker:unflammable_shard>,<ore:ingotGold>],
+    [<contenttweaker:shining_essence>,<ore:ingotGold>,<contenttweaker:shining_essence>]]
+);
+
 mods.recipestages.Recipes.addShaped("two",<minecraft:crafting_table>,[[<ore:plankTreatedWood>,<ore:plankTreatedWood>],[<ore:plankTreatedWood>,<ore:plankTreatedWood>]]);
 
 recipes.addShaped(<embers:ember_bore>,[[<embers:stairs_caminite_brick>,<contenttweaker:magcondium_ingot>,<embers:stairs_caminite_brick>],[<immersiveengineering:metal_decoration0:5>,<contenttweaker:soso_machine_core>,<immersiveengineering:metal_decoration0:5>],[<thermalfoundation:material:657>,<botania:lens:7>,<thermalfoundation:material:657>]]);

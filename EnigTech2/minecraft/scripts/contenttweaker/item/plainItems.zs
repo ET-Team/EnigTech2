@@ -132,7 +132,13 @@ var items as string[] = [
 	"garnet",
 	"blue_topaz",
 
-	"unknown_blueprint"
+	"unknown_blueprint",
+
+	"zealous_essence",
+	"shining_essence",
+	"unflammable_shard",
+	"bioradioactive_source",
+	"stablized_bioradioactive_source"
 ];
 
 //物品注册

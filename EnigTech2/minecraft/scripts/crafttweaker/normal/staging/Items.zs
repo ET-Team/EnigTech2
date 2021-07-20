@@ -110,6 +110,10 @@ for mod in modsStageThree{
 	Recipes.setRecipeStageByMod("three", mod);
 }
 
+addItemStage("three", <item:contenttweaker:zealous_essence>);
+addItemStage("three", <item:contenttweaker:shining_essence>);
+addItemStage("three", <item:contenttweaker:unflammable_shard>);
+
 var modsStageFour as string[] = [
 	"embers",
 	"actuallyadditions",
@@ -201,7 +205,8 @@ var modsStageFive as string[] = [
 	"botanicadds",
 	"enderioendergy",
 	"xnet",
-	"rf-capability-adapter"
+	"rf-capability-adapter",
+	"genetics"
 ];
 
 for mod in modsStageFive{
@@ -363,7 +368,9 @@ val itemsStageSix as IIngredient[] = [
 	<actuallyadditions:block_laser_relay_fluids>,
 	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk3"}),
 	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blast_furnace_mk4"}),
-	<contenttweaker:crystal>
+	<contenttweaker:crystal>,
+	<contenttweaker:bioradioactive_source>,
+	<contenttweaker:stablized_bioradioactive_source>
 ];
 val itemsStageAlpha as IIngredient[] = [
 	<contenttweaker:auriminium>,
@@ -493,7 +500,8 @@ val bannedArray = [
 	<mekanism:machineblock:6>.withTag({recipeType: 4}),
 	<mekanism:machineblock:7>.withTag({recipeType: 4}),
 	<extendedcrafting:material:11>,
-	<ore:ingotHyunium>.firstItem
+	<ore:ingotHyunium>.firstItem,
+	<extrabees:hive_frame.cocoa>
 ] as IItemStack[];
 
 for bannedItems in bannedArray{

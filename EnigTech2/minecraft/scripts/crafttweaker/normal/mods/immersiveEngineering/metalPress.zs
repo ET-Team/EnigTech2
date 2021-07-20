@@ -21,3 +21,4 @@ MetalPress.addRecipe(<thermalfoundation:material:354>, <appliedenergistics2:mate
 MetalPress.addRecipe(<contenttweaker:plate_antimony>,<soot:ingot_antimony>,<immersiveengineering:mold>, 4000);
 
 MetalPress.addRecipe(<forestry:honey_drop>, <ore:beeComb>, <immersiveengineering:mold:0>, 40, 1);
+MetalPress.addRecipe(<contenttweaker:zealous_essence>, <forestry:bee_combs:7>*4, <immersiveengineering:mold:0>, 40, 1);

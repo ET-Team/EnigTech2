@@ -7,9 +7,9 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 val removingArray = [
-    <item:extrautils2:crafter>,
-    <item:enderio:block_simple_crafter>,
-    <item:simplyjetpacks:metaitemmods:18>,
+    <extrautils2:crafter>,
+    <enderio:block_simple_crafter>,
+    <simplyjetpacks:metaitemmods:18>,
     <immersiveengineering:metal_device0:2>,
     <immersiveengineering:metal_device0:1>,
     <immersiveengineering:metal_device0>,
@@ -89,6 +89,8 @@ val removingArray = [
     <thermalexpansion:capacitor>,
     <thermalexpansion:capacitor:1>,
     <actuallyadditions:item_bag>,
+    <forestry:frame_untreated>,
+    <forestry:frame_impregnated>
 ] as IItemStack[];
 
 for items in removingArray{

@@ -202,3 +202,10 @@ val psigna = <ore:plateSignalum>;
 mods.recipestages.Recipes.addShaped("six", <modulardiversity:blockmekheatinput>, [[modingot, moblock, modingot],[moblock, <contenttweaker:wtssc>, moblock], [modingot, moblock, modingot]]);
 mods.recipestages.Recipes.addShaped("six", <modulardiversity:blockmeklaseracceptor>, [[modingot, psigna, modingot],[psigna, <contenttweaker:zbc>, psigna], [modingot, psigna, modingot]]);
 mods.recipestages.Recipes.addShaped("six", <mekanismgenerators:reactor:1>, [[psoot,pldu,psoot],[pldu,<ore:alloyUltimate>,pldu],[psoot,pldu,psoot]]);
+
+
+recipes.addShaped(<contenttweaker:bioradioactive_source>,
+    [[<extrabees:honey_drop:0>,<extrabees:honey_drop:5>,<extrabees:honey_drop:0>],
+    [<extrabees:honey_drop:1>,<forestry:bee_queen_ge>,<extrabees:honey_drop:1>],
+    [<extrabees:honey_drop:0>,<extrabees:honey_drop:5>,<extrabees:honey_drop:0>]]
+);

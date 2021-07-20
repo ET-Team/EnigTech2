@@ -47,3 +47,12 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_sic", machineName
 	.addItemInput(<ore:dustWood>,2)
 	.addItemOutput(<nuclearcraft:alloy:13>*3)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_skip", machineName, 360)
+	.addMekanismHeatInput(100, 300000, 360000)
+	.addItemInput(<contenttweaker:stablized_bioradioactive_source>)
+	.addItemInput(<ore:fuelTBU>, 8)
+	.addItemInput(<ore:fuelHEU235>, 16)
+	.addItemOutput(<nuclearcraft:curium:4>*16)
+	.addItemOutput(<nuclearcraft:curium:8>*32)
+	.build();

@@ -110,6 +110,10 @@ for mod in modsStageThree{
 	Recipes.setRecipeStageByMod("three", mod);
 }
 
+addItemStage("three", <item:contenttweaker:zealous_essence>);
+addItemStage("three", <item:contenttweaker:shining_essence>);
+addItemStage("three", <item:contenttweaker:unflammable_shard>);
+
 var modsStageFour as string[] = [
 	"embers",
 	"actuallyadditions",
@@ -202,7 +206,8 @@ var modsStageFive as string[] = [
 	"botanicadds",
 	"enderioendergy",
 	"xnet",
-	"rf-capability-adapter"
+	"rf-capability-adapter",
+	"genetics"
 
 ];
 
@@ -348,7 +353,9 @@ val itemsStageSix as IIngredient[] = [
 	<contenttweaker:ultimate_motioner>,
 	<contenttweaker:ether_alloy_ingot>,
 	<actuallyadditions:block_laser_relay_fluids>,
-	<contenttweaker:crystal>
+	<contenttweaker:crystal>,
+	<contenttweaker:bioradioactive_source>,
+	<contenttweaker:stablized_bioradioactive_source>
 ];
 val itemsStageAlpha as IIngredient[] = [
 	<contenttweaker:auriminium>,
@@ -475,7 +482,8 @@ val bannedArray = [
 	<mekanism:machineblock:5>.withTag({recipeType: 4}),
 	<mekanism:machineblock:6>.withTag({recipeType: 4}),
 	<mekanism:machineblock:7>.withTag({recipeType: 4}),
-	<extendedcrafting:material:11>
+	<extendedcrafting:material:11>,
+	<extrabees:hive_frame.cocoa>
 ] as IItemStack[];
 
 for bannedItems in bannedArray{

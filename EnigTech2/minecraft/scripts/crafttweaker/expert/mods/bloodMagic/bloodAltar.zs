@@ -24,3 +24,4 @@ mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:strong_motor>,<contenttweak
 mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:magic_calculator>,<contenttweaker:magic_calculator_unpowered>,4,10000,100,100);
 
 mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:forbidden_life_essence>,<contenttweaker:essencial_blood>,4,100000,100,1);
+mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:stablized_bioradioactive_source>,<contenttweaker:bioradioactive_source>,4,50000,100,1);

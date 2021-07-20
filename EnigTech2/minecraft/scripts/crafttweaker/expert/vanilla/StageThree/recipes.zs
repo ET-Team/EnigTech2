@@ -75,5 +75,25 @@ recipes.addShaped(<forestry:bee_house>,[[<immersiveengineering:treated_wood_slab
 recipes.addShaped(<forestry:apiary>,[[<botania:dreamwood0slab>,<botania:dreamwood0slab>,<botania:dreamwood0slab>],[<botania:dreamwood>,<forestry:impregnated_casing>,<botania:dreamwood>],[<botania:dreamwood>,<botania:dreamwood>,<botania:dreamwood>]]);
 recipes.addShapeless("life_insight", <contenttweaker:life_insight>, [<minecraft:book>,<botania:rune:4>]);
 
+val bamboo = <cuisine:bamboo> | <biomesoplenty:bamboo>;
+
+recipe.addShaped(<forestry:frame_untreated>,
+    [[bamboo,bamboo,bamboo],
+    [bamboo,<ore:manaString>,bamboo],
+    [bamboo,bamboo,bamboo]]
+);
+
 //纸箱
 mods.recipestages.Recipes.addShaped("three",<mekanism:cardboardbox>,[[dwood,sheet,dwood],[dwood,sheet,dwood],[dwood,sheet,dwood]]);
+
+recipes.addShaped(<contenttweaker:shining_essence>*4,
+    [[<contenttweaker:zealous_essence>,<forestry:bee_combs:6>,<contenttweaker:zealous_essence>],
+    [<forestry:bee_combs:6>,<contenttweaker:zealous_essence>,<forestry:bee_combs:6>],
+    [<contenttweaker:zealous_essence>,<forestry:bee_combs:6>,<contenttweaker:zealous_essence>]]
+);
+
+recipes.addShaped(<naturesaura:gold_fiber>*3,
+    [[<contenttweaker:shining_essence>,<ore:ingotGold>,<contenttweaker:shining_essence>],
+    [<ore:ingotGold>,<contenttweaker:unflammable_shard>,<ore:ingotGold>],
+    [<contenttweaker:shining_essence>,<ore:ingotGold>,<contenttweaker:shining_essence>]]
+);
