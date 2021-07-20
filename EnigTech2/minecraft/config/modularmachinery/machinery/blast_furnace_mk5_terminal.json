@@ -1,6 +1,7 @@
 {
     "registryname": "blast_furnace_mk5_terminal",
     "localizedname": "et2.machine.blast_furnace_mk5_terminal.name",
+    "requires-blueprint": true,
     "color":"2b2b2b",
     "parts": [
         {
