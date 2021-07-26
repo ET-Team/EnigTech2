@@ -969,6 +969,7 @@ et2.tooltip.redstone_block_81=Stores 81 redstone blocks
 et2.tooltip.magic_geiger_counter=Magic Geiger Counter
 et2.tooltip.dml_glitch_fragment=Obtained by using §b§lCorrupted Glitch Heart§r left click on §5§lObsidian§r
 et2.tooltip.dml_soot_covered_redstone=
+et2.tooltip.broken_crystal=Something seems to be broken.
 
 et2.tooltip.demonic_metal=Surround a lava block by nether brick and trade this metal with devils
 et2.tooltip.magic_key=Throw this into a pool surrounded by flowers to open up a portal toward The Twilight Forest
