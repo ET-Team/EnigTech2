@@ -47,3 +47,6 @@ initialize(recipes.mk2_recipes);
 initialize(recipes.mk3_recipes);
 initialize(recipes.mk4_recipes);
 initialize(recipes.mk5_recipes);
+initialize(recipes.mk2_recipes);
+initialize(recipes.mk3_recipes);
+initialize(recipes.mk4_recipes);

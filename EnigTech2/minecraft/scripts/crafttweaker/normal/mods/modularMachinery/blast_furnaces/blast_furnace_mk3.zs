@@ -45,3 +45,5 @@ function initialize(map as IItemStack[][IIngredient][string][int][IItemStack]){
 initialize(recipes.mk1_recipes);
 initialize(recipes.mk2_recipes);
 initialize(recipes.mk3_recipes);
+initialize(recipes.mk2_recipes);
+initialize(recipes.mk3_recipes);
