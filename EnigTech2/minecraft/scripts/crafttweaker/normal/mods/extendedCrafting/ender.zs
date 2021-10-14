@@ -4,88 +4,62 @@
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import mods.extendedcrafting.EnderCrafting;
 
-/*
-Shaped:
- mods.extendedcrafting.EnderCrafting.addShaped(<output>, [[<>, <>, <>], [<>, <>, <>], [<>, <>, <>]], seconds); 
-Shapeless
- mods.extendedcrafting.EnderCrafting.addShapeless(<output>, [<input>, <input>, seconds]); 
-*/
+function createRecipe(out as IIngredient) as IIngredient[][] {
+    return 
+        [[out, out,out],
+        [out,<ore:slimeball>,out],
+        [out,out,out]];
+}
 
-//莱泽尔/艾洛蒂/凯罗尼/普雷蒂/艾恩尼/以太石
-mods.extendedcrafting.EnderCrafting.addShaped(<environmentaltech:litherite>, [
-    [<environmentaltech:litherite_crystal>, <environmentaltech:litherite_crystal>, <environmentaltech:litherite_crystal>],
-    [<environmentaltech:litherite_crystal>, <ore:slimeball>, <environmentaltech:litherite_crystal>],
-    [<environmentaltech:litherite_crystal>, <environmentaltech:litherite_crystal>, <environmentaltech:litherite_crystal>]
-], 100);
+val names as string[] = [
+    "litherite", "erodium", "kyronite",
+    "pladium", "ionite", "aethium"
+];
 
-mods.extendedcrafting.EnderCrafting.addShaped(<environmentaltech:erodium>, [
-    [<environmentaltech:erodium_crystal>, <environmentaltech:erodium_crystal>, <environmentaltech:erodium_crystal>],
-    [<environmentaltech:erodium_crystal>, <ore:slimeball>, <environmentaltech:erodium_crystal>],
-    [<environmentaltech:erodium_crystal>, <environmentaltech:erodium_crystal>, <environmentaltech:erodium_crystal>]
-], 100);
-
-mods.extendedcrafting.EnderCrafting.addShaped(<environmentaltech:kyronite>, [
-    [<environmentaltech:kyronite_crystal>, <environmentaltech:kyronite_crystal>, <environmentaltech:kyronite_crystal>],
-    [<environmentaltech:kyronite_crystal>, <ore:slimeball>, <environmentaltech:kyronite_crystal>],
-    [<environmentaltech:kyronite_crystal>, <environmentaltech:kyronite_crystal>, <environmentaltech:kyronite_crystal>]
-], 100);
-
-mods.extendedcrafting.EnderCrafting.addShaped(<environmentaltech:pladium>, [
-    [<environmentaltech:pladium_crystal>, <environmentaltech:pladium_crystal>, <environmentaltech:pladium_crystal>],
-    [<environmentaltech:pladium_crystal>, <ore:slimeball>, <environmentaltech:pladium_crystal>],
-    [<environmentaltech:pladium_crystal>, <environmentaltech:pladium_crystal>, <environmentaltech:pladium_crystal>]
-], 100);
-
-mods.extendedcrafting.EnderCrafting.addShaped(<environmentaltech:aethium>, [
-    [<environmentaltech:aethium_crystal>, <environmentaltech:aethium_crystal>, <environmentaltech:aethium_crystal>],
-    [<environmentaltech:aethium_crystal>, <ore:slimeball>, <environmentaltech:aethium_crystal>],
-    [<environmentaltech:aethium_crystal>, <environmentaltech:aethium_crystal>, <environmentaltech:aethium_crystal>]
-], 100);
-
-mods.extendedcrafting.EnderCrafting.addShaped(<environmentaltech:ionite>, [
-    [<environmentaltech:ionite_crystal>, <environmentaltech:ionite_crystal>, <environmentaltech:ionite_crystal>],
-    [<environmentaltech:ionite_crystal>, <ore:slimeball>, <environmentaltech:ionite_crystal>],
-    [<environmentaltech:ionite_crystal>, <environmentaltech:ionite_crystal>, <environmentaltech:ionite_crystal>]
-], 100);
+for name in names {
+    EnderCrafting.addShaped(itemUtils.getItem("environmentaltech:"~name),
+        [createRecipe(itemUtils.getItem("environmentaltech:"~name~"_crystal"))]);
+}
 
 //环科一阶矿机核心
-mods.extendedcrafting.EnderCrafting.addShaped(<environmentaltech:void_ore_miner_cont_1>, [
+EnderCrafting.addShaped(<environmentaltech:void_ore_miner_cont_1>, [
     [<ore:crystalLitherite>, <ore:blockDiamond>, <ore:crystalLitherite>],
     [<ore:blockLitherite>, <environmentaltech:diode>, <ore:blockLitherite>],
     [<enderio:block_reinforced_obsidian>, <ore:etLaserLens>, <enderio:block_reinforced_obsidian>]
 ], 50);
 
 //环科二阶矿机核心
-mods.extendedcrafting.EnderCrafting.addShaped(<environmentaltech:void_ore_miner_cont_2>, [
+EnderCrafting.addShaped(<environmentaltech:void_ore_miner_cont_2>, [
     [<ore:crystalErodium>, <ore:blockDiamond>, <ore:crystalErodium>],
     [<ore:blockErodium>, <environmentaltech:void_ore_miner_cont_1>, <ore:blockErodium>],
     [<enderio:block_reinforced_obsidian>, <ore:etLaserLens>, <enderio:block_reinforced_obsidian>]
 ], 50);
 
 //环科三阶矿机核心
-mods.extendedcrafting.EnderCrafting.addShaped(<environmentaltech:void_ore_miner_cont_3>, [
+EnderCrafting.addShaped(<environmentaltech:void_ore_miner_cont_3>, [
     [<ore:crystalKyronite>, <ore:blockDiamond>, <ore:crystalKyronite>],
     [<ore:blockKyronite>, <environmentaltech:void_ore_miner_cont_2>, <ore:blockKyronite>],
     [<enderio:block_reinforced_obsidian>, <ore:etLaserLens>, <enderio:block_reinforced_obsidian>]
 ], 50);
 
 //环科四阶矿机核心
-mods.extendedcrafting.EnderCrafting.addShaped(<environmentaltech:void_ore_miner_cont_4>, [
+EnderCrafting.addShaped(<environmentaltech:void_ore_miner_cont_4>, [
     [<ore:crystalPladium>, <ore:blockDiamond>, <ore:crystalPladium>],
     [<ore:blockPladium>, <environmentaltech:void_ore_miner_cont_3>, <ore:blockPladium>],
     [<enderio:block_reinforced_obsidian>, <ore:etLaserLens>, <enderio:block_reinforced_obsidian>]
 ], 50);
  
 //环科五阶矿机核心
-mods.extendedcrafting.EnderCrafting.addShaped(<environmentaltech:void_ore_miner_cont_5>, [
+EnderCrafting.addShaped(<environmentaltech:void_ore_miner_cont_5>, [
     [<ore:crystalIonite>, <ore:blockDiamond>, <ore:crystalIonite>],
     [<ore:blockIonite>, <environmentaltech:void_ore_miner_cont_4>, <ore:blockIonite>],
     [<enderio:block_reinforced_obsidian>, <ore:etLaserLens>, <enderio:block_reinforced_obsidian>]
 ], 50);
  
 //环科六阶矿机核心
-mods.extendedcrafting.EnderCrafting.addShaped(<environmentaltech:void_ore_miner_cont_6>, [
+EnderCrafting.addShaped(<environmentaltech:void_ore_miner_cont_6>, [
     [<ore:crystalAethium>, <ore:blockDiamond>, <ore:crystalAethium>],
     [<ore:blockAethium>, <environmentaltech:void_ore_miner_cont_5>, <ore:blockAethium>],
     [<enderio:block_reinforced_obsidian>, <ore:etLaserLens>, <enderio:block_reinforced_obsidian>]
