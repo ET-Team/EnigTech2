@@ -19,8 +19,8 @@ val names as string[] = [
 ];
 
 for name in names {
-    EnderCrafting.addShaped(itemUtils.getItem("environmentaltech:"~name),
-        [createRecipe(itemUtils.getItem("environmentaltech:"~name~"_crystal"))]);
+    EnderCrafting.addShaped(itemUtils.getItem("environmentaltech:"+name),
+        createRecipe(itemUtils.getItem("environmentaltech:"+name+"_crystal")));
 }
 
 //环科一阶矿机核心
