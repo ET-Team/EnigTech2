@@ -136,8 +136,8 @@ recipes.replaceAllOccurences(<minecraft:baked_potato>, <silentgems:food:0>,<actu
 //ME接口板式复原块式
 mods.recipestages.Recipes.addShapeless("four", <appliedenergistics2:interface>, [<appliedenergistics2:part:440>]);
 
-recipes.addShaped(<forestry:frame_impregnated>, 
+recipes.addShaped(<forestry:frame_impregnated>, [
     [<forestry:oak_stick>,<forestry:oak_stick>,<forestry:oak_stick>],
     [<forestry:oak_stick>,<ore:clothManaweave>,<forestry:oak_stick>],
-    [<forestry:oak_stick>,<forestry:oak_stick>,<forestry:oak_stick>]
+    [<forestry:oak_stick>,<forestry:oak_stick>,<forestry:oak_stick>]]
 );

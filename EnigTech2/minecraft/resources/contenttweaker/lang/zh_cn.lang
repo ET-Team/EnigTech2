@@ -224,8 +224,8 @@ item.contenttweaker.charged_aeth_pfe_crystal_seed.name=充能以太水晶增生�
 item.contenttweaker.charged_lons_pfe_crystal_seed.name=充能蓝丝黛尔水晶增生之种
 item.contenttweaker.unknown_blueprint.name=未知蓝图
 
-item.contenttweaker.bioradioactive_source=活性辐射源
-item.contenttweaker.stablized_bioradioactive_source=稳态活性辐射源
-item.contenttweaker.shining_essence=闪耀精华
-item.contenttweaker.zealous_essence=热烈精华
-item.contenttweaker.unflammable_shard=抗火碎片
+item.contenttweaker.bioradioactive_source.name=活性辐射源
+item.contenttweaker.stablized_bioradioactive_source.name=稳态活性辐射源
+item.contenttweaker.shining_essence.name=闪耀精华
+item.contenttweaker.zealous_essence.name=热烈精华
+item.contenttweaker.unflammable_shard.name=抗火碎片

@@ -201,8 +201,8 @@ item.contenttweaker.essencial_blood.name=A Drop of Essencial Blood
 item.contenttweaker.garnet.name=成分数据电脑 [石榴石]
 item.contenttweaker.will_of_world_tree.name=The Will of Yggdrasill
 
-item.contenttweaker.bioradioactive_source=Bioradioactive Source
-item.contenttweaker.stablized_bioradioactive_source=Stablized Bioradioactive Source
-item.contenttweaker.shining_essence=Shining Essence
-item.contenttweaker.zealous_essence=Zealous Essence
-item.contenttweaker.unflammable_shard=Fireproof Shard
+item.contenttweaker.bioradioactive_source.name=Bioradioactive Source
+item.contenttweaker.stablized_bioradioactive_source.name=Stablized Bioradioactive Source
+item.contenttweaker.shining_essence.name=Shining Essence
+item.contenttweaker.zealous_essence.name=Zealous Essence
+item.contenttweaker.unflammable_shard.name=Fireproof Shard
