@@ -77,7 +77,7 @@ recipes.addShapeless("life_insight", <contenttweaker:life_insight>, [<minecraft:
 
 val bamboo = <cuisine:bamboo> | <biomesoplenty:bamboo>;
 
-recipe.addShaped(<forestry:frame_untreated>,
+recipes.addShaped(<forestry:frame_untreated>,
     [[bamboo,bamboo,bamboo],
     [bamboo,<ore:manaString>,bamboo],
     [bamboo,bamboo,bamboo]]
