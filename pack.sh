@@ -14,6 +14,8 @@ zip -r $fileName src
 
 zip -m $fileName manifest.json
 
+zip -m $fileName modlist.html
+
 cd ..
 
 mv ./$PACK_NAME/$fileName artifacts/
