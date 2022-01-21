@@ -94,6 +94,6 @@ recipes.addShaped(<contenttweaker:shining_essence>*4,
 
 recipes.addShaped(<naturesaura:gold_fiber>*3,
     [[<contenttweaker:shining_essence>,<ore:ingotGold>,<contenttweaker:shining_essence>],
-    [<ore:ingotGold>,<contenttweaker:unflammable_shard>,<ore:ingotGold>],
+    [<ore:ingotGold>,(<forestry:logs.fireproof.0:*> | <forestry:logs.fireproof.1:*> | <forestry:logs.fireproof.2:*> | <forestry:logs.fireproof.3:*> | <forestry:logs.fireproof.4:*> | <forestry:logs.fireproof.5:*> | <forestry:logs.fireproof.6:*> | <forestry:logs.fireproof.7:*> | <forestry:logs.vanilla.fireproof.0:*> | <forestry:logs.vanilla.fireproof.1:*>),<ore:ingotGold>],
     [<contenttweaker:shining_essence>,<ore:ingotGold>,<contenttweaker:shining_essence>]]
 );
