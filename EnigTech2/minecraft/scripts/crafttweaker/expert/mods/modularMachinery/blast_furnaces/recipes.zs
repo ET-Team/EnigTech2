@@ -231,6 +231,11 @@ static mk3_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
         3000 : {
             speed_t2 : {<liquid:mana>*1000 : [<environmentaltech:kyronite_crystal>*2,<botania:quartz:1>*3,<appliedenergistics2:material:1>*6,<actuallyadditions:item_misc:5>*20]}
         }
+    },
+    <contenttweaker:bioradioactive_source> : {
+        100000 : {
+            speed_t2 : {<liquid:mana>*2000 : [<extrabees:honey_drop:5>*8, <extrabees:honey_drop>*16, <extrabees:honey_drop:1>*8, <bloodmagic:monster_soul:1>]}
+        }
     }
 
 };

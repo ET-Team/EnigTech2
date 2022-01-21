@@ -49,7 +49,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_sic", machineName
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_skip", machineName, 360)
-	.addMekanismHeatInput(100, 300000, 360000)
+	.addMekanismHeatInput(100, 300000, 350000)
 	.addItemInput(<contenttweaker:stablized_bioradioactive_source>)
 	.addItemInput(<ore:fuelTBU>, 8)
 	.addItemInput(<ore:fuelHEU235>, 16)
