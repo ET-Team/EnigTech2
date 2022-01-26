@@ -8,7 +8,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "bloodmagic:blood_rune@3"
+                "bloodmagic:blood_rune"
             ]
         },
         {
@@ -48,7 +48,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "bloodmagic:blood_rune@3"
+                "bloodmagic:blood_rune"
             ]
         },
         {
@@ -56,7 +56,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "bloodmagic:blood_rune@3"
+                "bloodmagic:blood_rune"
             ]
         },
         {
@@ -88,7 +88,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "bloodmagic:blood_rune@3"
+                "bloodmagic:blood_rune"
             ]
         },
         {
@@ -104,7 +104,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "botania:storage@2"
+                "botania:storage"
             ]
         },
         {
@@ -112,7 +112,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "botania:storage@2"
+                "botania:storage"
             ]
         },
         {
@@ -152,7 +152,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "botania:storage@2"
+                "botania:storage"
             ]
         },
         {
@@ -160,7 +160,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "botania:storage@2"
+                "botania:storage"
             ]
         },
         {
@@ -168,7 +168,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "botania:storage@2"
+                "botania:storage"
             ]
         },
         {
@@ -184,7 +184,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "botania:storage@2"
+                "botania:storage"
             ]
         },
         {
@@ -192,7 +192,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "botania:storage@2"
+                "botania:storage"
             ]
         },
         {
@@ -200,7 +200,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "botania:storage@2"
+                "botania:storage"
             ]
         },
         {
@@ -216,7 +216,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "botania:storage@2"
+                "botania:storage"
             ]
         },
         {
@@ -224,7 +224,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "botania:storage@2"
+                "botania:storage"
             ]
         },
         {
