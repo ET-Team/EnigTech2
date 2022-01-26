@@ -203,6 +203,6 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_cc_elite", machin
     .addFluidInput(<liquid:glowstone>*1000)
     .addItemInput(<extendedcrafting:material:2>*4)
     .addItemInput(<ore:gearLumium>)
-    .addItemInput(<ore:circuitElite>,2)
+    .addItemInput(<ore:circuitBasic>,8)
     .addItemOutput(<extendedcrafting:material:16>)
     .build();
