@@ -82,3 +82,4 @@ recipes.remove(<simplyjetpacks:itemjetpack:34>);
 recipes.remove(<simplyjetpacks:itemjetpack:29>);
 recipes.remove(<simplyjetpacks:itemjetpack:28>);
 recipes.remove(<simplyjetpacks:itemjetpack:27>);
+recipes.remove(<advancedrocketry:lens>);
