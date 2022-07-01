@@ -30,3 +30,10 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ic_module", machi
     .addItemOutput(<contenttweaker:integrated_calculation_module>)
     .addItemOutput(<contenttweaker:integrated_calculation_module>).setChance(0.1)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_huiyao", machineName, 40)
+    .addEmberInput(1000)
+    .addItemInput(<arcanearchives:raw_quartz>*32)
+    .addItemOutput(<arcanearchives:shaped_quartz>*32)
+    .addItemOutput(<arcanearchives:shaped_quartz>*32).setChance(0.1)
+	.build();
