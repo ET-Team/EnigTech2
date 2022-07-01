@@ -83,3 +83,8 @@ recipes.remove(<simplyjetpacks:itemjetpack:29>);
 recipes.remove(<simplyjetpacks:itemjetpack:28>);
 recipes.remove(<simplyjetpacks:itemjetpack:27>);
 recipes.remove(<advancedrocketry:lens>);
+recipes.remove(<thermalexpansion:dynamo:1>);
+recipes.remove(<thermalexpansion:dynamo:2>);
+recipes.remove(<thermalexpansion:dynamo:3>);
+recipes.remove(<thermalexpansion:dynamo:4>);
+recipes.remove(<thermalexpansion:dynamo:5>);

@@ -64,3 +64,10 @@ val cred = <contenttweaker:redstone_block_81>;
 val casin = <modularmachinery:blockcasing>;
 mods.recipestages.Recipes.addShaped("five", <modularmachinery:blockcasing:2>*2, [[cred,casin,cred],[casin,<forestry:refractory_wax>,casin],[cred,casin,cred]]);
 mods.recipestages.Recipes.addShapeless("five", <forestry:refractory_wax>, [<ore:wax>,<ore:nuggetRedstoneAlloy>,<contenttweaker:fire_resist_mixture>]);
+
+
+mods.recipestages.Recipes.addShaped("five", <item:thermalexpansion:dynamo:1>, [[null,<item:thermalfoundation:material:514>],[<ore:blockIron>,<ore:gearInvar>,<ore:blockIron>],[<ore:blockInvar>,<item:thermalexpansion:frame>,<ore:blockInvar>]]);
+mods.recipestages.Recipes.addShaped("five", <item:thermalexpansion:dynamo:2>, [[null,<item:thermalfoundation:material:514>],[<ore:blockAluminium>,<ore:gearTin>,<ore:blockAluminium>],[<ore:blockTin>,<item:thermalexpansion:frame>,<ore:blockTin>]]);
+mods.recipestages.Recipes.addShaped("five", <item:thermalexpansion:dynamo:3>, [[null,<item:thermalfoundation:material:514>],[<ore:blockBronze>,<ore:gearCopper>,<ore:blockBronze>],[<item:contenttweaker:redstone_block_9>,<item:thermalexpansion:frame>,<item:contenttweaker:redstone_block_9>]]);
+mods.recipestages.Recipes.addShaped("five", <item:thermalexpansion:dynamo:4>, [[null,<item:thermalfoundation:material:514>],[<ore:blockTin>,<ore:gearElectrum>,<ore:blockTin>],[<ore:blockElectrum>,<item:thermalexpansion:frame>,<ore:blockElectrum>]]);
+mods.recipestages.Recipes.addShaped("five", <item:thermalexpansion:dynamo:5>, [[null,<item:thermalfoundation:material:514>],[<ore:blockGold>,<ore:gearConstantan>,<ore:blockGold>],[<ore:blockDiamond>,<item:thermalexpansion:frame>,<ore:blockDiamond>]]);
