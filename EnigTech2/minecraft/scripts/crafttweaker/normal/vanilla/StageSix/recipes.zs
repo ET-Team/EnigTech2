@@ -72,6 +72,7 @@ recipes.addShaped(<thermalexpansion:augment:512> * 2, [[null, <contenttweaker:ir
 recipes.addShaped(<thermalexpansion:augment:673>, [[<astralsorcery:itemcoloredlens>, <astralsorcery:itemcoloredlens>, <astralsorcery:itemcoloredlens>],[<astralsorcery:itemcoloredlens>, <thermalexpansion:dynamo:3>, <astralsorcery:itemcoloredlens>], [<mekanism:atomicalloy>, <thermalexpansion:augment:512>, <mekanism:atomicalloy>]]);
 recipes.addShaped(<extrautils2:quarryproxy>,[[<contenttweaker:dimension_metal>,<contenttweaker:dimension_metal>,<contenttweaker:dimension_metal>],[<contenttweaker:dimension_metal>,<mekanism:teleportationcore>,<contenttweaker:dimension_metal>],[<contenttweaker:dimension_metal>,<actuallyadditions:block_phantom_breaker>,<contenttweaker:dimension_metal>]]);
 recipes.addShaped(<mekanism:teleportationcore>,[[<mekanism:atomicalloy>,<contenttweaker:dimension_metal>,<mekanism:atomicalloy>],[<contenttweaker:dimension_metal>,<appliedenergistics2:material:47>,<contenttweaker:dimension_metal>],[<mekanism:atomicalloy>,<contenttweaker:dimension_metal>,<mekanism:atomicalloy>]]);
+recipes.addShaped(<mekanism:machineblock2:5>,[[<mekanism:enrichedalloy>,<advancedrocketry:sawbladeiron>,<mekanism:enrichedalloy>],[<contenttweaker:advanced_motioner>,<mekanism:basicblock:8>,<contenttweaker:advanced_motioner>],[<mekanism:enrichedalloy>,<mekanism:controlcircuit:1>,<mekanism:enrichedalloy>]]);
 //将所有包含高级火箭晶圆的配方替换成ET2晶圆
 recipes.replaceAllOccurences(<advancedrocketry:wafer>, <contenttweaker:ic_wafer>);
 recipes.addShaped(
