@@ -1,6 +1,23 @@
 {
     "registryname": "embers_chopper",
     "localizedname": "et2.machine.embers_chopper.name",
+    "modifiers": [
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ],
+            "description": "你可以将顶部中央的红石水晶块替换为流明块来极大提升机器的处理速度",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.25
+            }
+        }
+    ],
     "parts": [
         {
             "x": -1,
