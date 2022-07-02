@@ -83,6 +83,7 @@ recipes.remove(<mekanism:basicblock:3>);
 recipes.remove(<actuallyadditions:block_misc:5>);
 recipes.remove(<astralsorcery:itemwand>.withTag({astralsorcery: {}}));
 recipes.remove(<silentgems:chaosorb:1>);
+recipes.remove(<harvestcraft:garliccoinitem>);
 recipes.removeByRecipeName("microblockcbe:stone_rod");
 recipes.remove(<silentgems:guide_book>);
 recipes.removeByRecipeName("silentgems:potato_stick");
