@@ -3735,7 +3735,6 @@
             "x": 0,
             "y": 0,
             "z": 4,
-            "nbt": {"hatchSize":"5","casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tileenergyoutputhatch","energy":"0L"},
             "elements": [
                 "modularmachinery:blockenergyoutputhatch@5"
             ]
@@ -4536,7 +4535,6 @@
             "x": -2,
             "y": 0,
             "z": 2,
-            "nbt": {"input":"1b","size":"2","casingColor":"16730368","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilefluidinputhatch","tank":{"Empty":"","gasTag":{"Empty":""}}},
             "elements": [
                 "modularmachinery:blockfluidinputhatch@2"
             ]
