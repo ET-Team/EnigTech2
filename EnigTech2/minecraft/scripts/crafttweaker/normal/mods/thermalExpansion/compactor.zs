@@ -11,4 +11,5 @@ Compactor.addPressRecipe(<contenttweaker:rubber_plate>,<contenttweaker:rubber>*2
 //黑铁板
 Compactor.addPressRecipe(<extendedcrafting:material:2>,<extendedcrafting:material>,6000);
 
-Compactor.addMintRecipe(<item:harvestcraft:garliccoinitem>*2, <ore:cropGarlic>, 2000);
+Compactor.addMintRecipe(<item:harvestcraft:garliccoinitem>*2, <harvestcraft:garlicitem>, 2000);
+Compactor.addMintRecipe(<item:harvestcraft:garliccoinitem>*2, <item:cuisine:crops:6>, 2000);
