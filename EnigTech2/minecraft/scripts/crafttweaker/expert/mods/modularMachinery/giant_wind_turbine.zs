@@ -10,14 +10,14 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_default", machine
     .addEnergyPerTickOutput(120000)
 	.build();
 
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_default", machineName, 100, 100)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_rain", machineName, 100, 100)
 	.addYRequirement(120, 256)
 	.addRainWeatherRequirement()
 	.addFluidInput(<liquid:fluid_lubricant>*160)
     .addEnergyPerTickOutput(180000)
 	.build();
 
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_default", machineName, 100, 100)
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_storm", machineName, 100, 100)
 	.addYRequirement(120, 256)
 	.addStormWeatherRequirement()
 	.addFluidInput(<liquid:fluid_lubricant>*200)
