@@ -32,7 +32,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_ic_module", machi
 	.build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_huiyao", machineName, 40)
-    .addEmberInput(1000)
+    .addMekanismLaserInput(1000)
     .addItemInput(<arcanearchives:raw_quartz>*32)
     .addItemOutput(<arcanearchives:shaped_quartz>*32)
     .addItemOutput(<arcanearchives:shaped_quartz>*32).setChance(0.1)
