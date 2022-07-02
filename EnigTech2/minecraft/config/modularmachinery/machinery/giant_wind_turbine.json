@@ -4669,6 +4669,14 @@
         },
         {
             "x": -3,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -3,
             "y": 9,
             "z": 6,
             "elements": [
@@ -5117,6 +5125,14 @@
         },
         {
             "x": -4,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -3,
             "y": 6,
             "z": 3,
             "elements": [
