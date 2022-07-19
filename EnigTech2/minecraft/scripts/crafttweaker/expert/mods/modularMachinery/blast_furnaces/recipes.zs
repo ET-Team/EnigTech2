@@ -77,6 +77,16 @@ static mk1_recipes as IItemStack[][IIngredient][string][int][IItemStack] = {
             speed_t3 : {<liquid:applejuice>*2000 : [<thermalfoundation:material:70>*16, <thermalfoundation:material:102>*48,<minecraft:dragon_egg>]}
         }
     },
+    <thermalfoundation:material:165>*48 : {
+        100000 : {
+            speed_t3 : {<liquid:binnie.juice.apple>*2000 : [<thermalfoundation:material:70>*16, <thermalfoundation:material:102>*48,<minecraft:dragon_egg>]}
+        }
+    },
+    <thermalfoundation:material:165>*48 : {
+        100000 : {
+            speed_t3 : {<liquid:binnie.cider.apple>*2000 : [<thermalfoundation:material:70>*16, <thermalfoundation:material:102>*48,<minecraft:dragon_egg>]}
+        }
+    },
     //Enderium
     <thermalfoundation:material:167>*2 : {
         20000 : {
