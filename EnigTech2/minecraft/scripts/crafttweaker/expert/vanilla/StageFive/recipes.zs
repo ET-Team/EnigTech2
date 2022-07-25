@@ -58,7 +58,7 @@ recipes.addShaped(<enderio:item_material:67>,[[<enderio:item_material:36>,<ore:d
 recipes.addShaped(<astralsorcery:itemwand>.withTag({astralsorcery: {}}),[[null,<botania:manaresource:2>,<minecraft:ender_pearl>],[null,<ore:stoneMarble>,<botania:manaresource:2>],[<ore:stoneMarble>,null,null]]);
 recipes.addShaped(<advancedrocketry:electrolyser>,[[<ore:itemBattery>,<immersiveengineering:material:21>,<ore:itemBattery>],[<ore:plateTin>,<libvulpes:structuremachine>,<ore:plateTin>],[<advancedrocketry:ic:3>,<ore:plateTin>,<advancedrocketry:ic:3>]]);
 recipes.addShaped(<modularmachinery:blockenergyoutputhatch:4>, [[<modularmachinery:itemmodularium>, <enderio:item_power_conduit:2>, <modularmachinery:itemmodularium>],[<enderio:item_power_conduit:2>, <modularmachinery:blockenergyoutputhatch:3>, <enderio:item_power_conduit:2>], [<modularmachinery:itemmodularium>, <enderio:item_power_conduit:2>, <modularmachinery:itemmodularium>]]);
-recipes.addShaped(<modularmachinery:blockenergyinputhatch:5>,[[<contenttweaker:material_part:52>,<astralsorcery:itemcraftingcomponent:2>,<contenttweaker:material_part:52>],[<modularmachinery:itemmodularium>,<contenttweaker:magic_machine_hull>,<modularmachinery:itemmodularium>],[<contenttweaker:material_part:52>,<contenttweaker:strong_motor>,<contenttweaker:material_part:52>]]);
+recipes.addShaped(<modularmachinery:blockenergyoutputhatch:5>,[[<contenttweaker:material_part:52>,<astralsorcery:itemcraftingcomponent:2>,<contenttweaker:material_part:52>],[<modularmachinery:itemmodularium>,<contenttweaker:magic_machine_hull>,<modularmachinery:itemmodularium>],[<contenttweaker:material_part:52>,<contenttweaker:strong_motor>,<contenttweaker:material_part:52>]]);
 
 //燃烧室外壳 耐火蜂蜡
 val cred = <contenttweaker:redstone_block_81>;
