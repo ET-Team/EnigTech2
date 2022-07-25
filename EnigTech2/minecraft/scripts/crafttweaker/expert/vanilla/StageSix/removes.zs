@@ -108,6 +108,8 @@ val removingArray = [
     <extrautils2:quarryproxy>,
     <extrautils2:quarry>,
     <mekanism:teleportationcore>
+    <environmentaltech:solar_cell_ionite>,
+    <environmentaltech:solar_cell_aethium>
 ] as IItemStack[];
 
 //按矿辞移除
