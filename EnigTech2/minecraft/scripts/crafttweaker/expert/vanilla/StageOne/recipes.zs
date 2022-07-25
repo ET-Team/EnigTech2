@@ -11,7 +11,7 @@ recipes.addShaped(<rustic:crushing_tub>,[[<ore:plankWood>,null,<ore:plankWood>],
 recipes.addShaped(<minecraft:glass>,[[<minecraft:brick>.reuse(),<minecraft:brick>.reuse(),<minecraft:brick>.reuse()],[<minecraft:brick>.reuse(),<minecraft:sand>,<minecraft:brick>.reuse()],[<minecraft:brick>.reuse(),<etutil:wooden_lighter>.anyDamage().transformDamage(20),<minecraft:brick>.reuse()]]);
 //石头
 recipes.addShaped(<minecraft:stone>,[[<minecraft:brick>.reuse(),<minecraft:brick>.reuse(),<minecraft:brick>.reuse()],[<minecraft:brick>.reuse(),<minecraft:cobblestone>,<minecraft:brick>.reuse()],[<minecraft:brick>.reuse(),<etutil:wooden_lighter>.anyDamage().transformDamage(20),<minecraft:brick>.reuse()]]);//打火器
-recipes.addShaped(<etutil:wooden_lighter>,[[<ore:stickWood>,null],[null,<ore:stickWood>]]);
+recipes.addShaped(<etutil:wooden_lighter>,[[<ore:stickWood>,null,<ore:stickWood>],[null,<ore:stickWood>,null],[<ore:stickWood>,null,<ore:stickWood>]]);
 //耕地
 recipes.addShaped(<minecraft:farmland>*1,[[null,<minecraft:dye:15>,null],[<minecraft:dye:15>,<minecraft:dirt>,<minecraft:dye:15>],[null,<minecraft:dye:15>,null]]);
 recipes.addShapeless(<contenttweaker:unknowing_dirt>,[<minecraft:dirt>]);
