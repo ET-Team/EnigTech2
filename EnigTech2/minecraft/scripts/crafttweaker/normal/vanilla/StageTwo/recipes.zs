@@ -18,6 +18,7 @@ recipes.addShaped(<immersiveengineering:stone_decoration:10> * 2, [[<contenttwea
 recipes.addShaped(<forestry:fertilizer_compound>*8,[[<ore:sand>],[<forestry:apatite>],[<ore:sand>]]);
 recipes.addShaped(<forestry:fertilizer_compound>*16,[[<ore:dustAsh>,<ore:dustAsh>,<ore:dustAsh>],[<ore:dustAsh>,<forestry:apatite>,<ore:dustAsh>],[<ore:dustAsh>,<ore:dustAsh>,<ore:dustAsh>]]);
 recipes.addShaped(<botania:cellblock>*6,[[<minecraft:cactus>,<minecraft:cactus>,<minecraft:cactus>],[<ore:listAllveggie>,<ore:listAllveggie>,<ore:listAllveggie>]]);
+recipes.addShaped(<item:forestry:scoop>,[[<item:immersiveengineering:material:0>,<ore:wool>,<item:immersiveengineering:material:0>],[<item:immersiveengineering:material:0>,<item:immersiveengineering:material:0>,<item:immersiveengineering:material:0>],[null,<item:immersiveengineering:material:0>,null]]);
 //花药台
 recipes.addShaped(<botania:altar>,[[<botania:livingrock0slab>,<contenttweaker:arcane_essence>,<botania:livingrock0slab>],[null,<botania:livingrock>,null],[<botania:livingrock>,<botania:livingrock>,<botania:livingrock>]]);
 //稀释魔力池

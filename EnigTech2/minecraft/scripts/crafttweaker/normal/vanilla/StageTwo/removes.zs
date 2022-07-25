@@ -7,6 +7,7 @@ recipes.remove(<immersiveengineering:stone_decoration:1> * 3);
 recipes.remove(<immersiveengineering:stone_decoration:10> * 2);
 recipes.remove(<thermalfoundation:material:99>);
 recipes.remove(<storagedrawers:controller>);
+recipes.remove(<forestry:scoop>);
 recipes.remove(<arcanearchives:radiant_resonator>);
 recipes.remove(<storagedrawers:upgrade_storage:4>);
 recipes.remove(<storagedrawers:upgrade_storage:3>);
