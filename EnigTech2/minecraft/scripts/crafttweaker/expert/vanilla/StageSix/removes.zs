@@ -107,7 +107,7 @@ val removingArray = [
     <nuclearcraft:compound:2>,
     <extrautils2:quarryproxy>,
     <extrautils2:quarry>,
-    <mekanism:teleportationcore>
+    <mekanism:teleportationcore>,
     <environmentaltech:solar_cell_ionite>,
     <environmentaltech:solar_cell_aethium>
 ] as IItemStack[];
