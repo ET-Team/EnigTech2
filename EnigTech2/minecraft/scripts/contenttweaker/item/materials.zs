@@ -12,7 +12,7 @@
 	import mods.contenttweaker.Material;
 
 //注册 小搓粉 类型
-	mods.contenttweaker.MaterialSystem.getPartBuilder().setName("dust_tiny").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("dustTiny").build();
+	MaterialSystem.getPartBuilder().setName("dust_tiny").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("dustTiny").build();
 //钕 铬 镍铬合金 钼 钼钢 钨 硬化钨钢 虚空金属 锌 黄铜的注册
 	var nd = MaterialSystem.getMaterialBuilder().setName("Neodymium").setColor(16761035).build();
 	var cr = MaterialSystem.getMaterialBuilder().setName("Chromium").setColor(16744192).build();
