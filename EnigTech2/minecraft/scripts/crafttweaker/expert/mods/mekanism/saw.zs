@@ -10,7 +10,7 @@ static woodList as IItemStack[IItemStack] = {
     <minecraft:log> : <minecraft:planks>,
     <minecraft:log:3> : <minecraft:planks:3>,
     <minecraft:log2:1> : <minecraft:planks:5>,
-    <minecraft:planks:5> : <minecraft:planks:2>,
+    <minecraft:log:2> : <minecraft:planks:2>,
     <minecraft:log2> : <minecraft:planks:4>,
     <extrautils2:ironwood_log> : <extrautils2:ironwood_planks>,
     <extrautils2:ironwood_log:1> : <extrautils2:ironwood_planks:1>,
