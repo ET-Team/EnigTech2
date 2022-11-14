@@ -2,7 +2,7 @@
 setIcon(<roots:grove_stone>)
 setTranslatedTitle("advancement.stageone_jiaocheng.title")
 setTranslatedDescription("advancement.stageone_jiaocheng.description")
-setPos(-460,1)
+setPos(-500,-81)
 addParent("ET2:StageOne/jinglinggongjiangtai")
 Criteriajiaocheng35 = addCriteria("completedParent", "triumph:completed_advancement")
 Criteriajiaocheng35.setAdvancement("ET2:StageOne/jinglinggongjiangtai")
