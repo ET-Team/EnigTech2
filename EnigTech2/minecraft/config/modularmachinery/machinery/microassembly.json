@@ -29,7 +29,6 @@
                 "contenttweaker:sub_block_holder_0@8",
                 "contenttweaker:sub_block_holder_0@12"
             ],
-            "description": "你可以将顶部中央的两个炽铁块替换为更强劲的材料(譬如钨钢)来提升机器的散热效率，籍此突破处理速度的瓶颈",
             "modifier": {
                 "io": "input",
                 "target": "duration",
