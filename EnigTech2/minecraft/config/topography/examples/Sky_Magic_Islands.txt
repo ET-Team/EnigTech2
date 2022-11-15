@@ -474,7 +474,7 @@ caves = new VanillaCaveGenerator()
 addGenerator(caves)
 
 //Adds sky islands. Arguments are horizontal radius, top height, bottom height, number of times to attempt to generate in each region, and whether each island should choose a random type (true), or if types should be used in order (false).
-large = skyIslands.addSkyIslands(100, 100, 62, 1, true)
+large = skyIslands.addSkyIslands(100, 60, 1, 1, true)
 
 //Adds a SkyIslandType we created above to the island generator.
 large.addType(forest)
@@ -567,12 +567,12 @@ large.addType(bop_brushland)
 large.addType(bop_ominous_woods)
 
 //=====================================
-oceanIslands = skyIslands.addSkyIslands(50, 50, 50, 4, false)
+oceanIslands = skyIslands.addSkyIslands(50, 50, 20, 4, false)
 oceanIslands.setFluidDepth(8)
 oceanIslands.addType(ocean)
 
 //=====================================
-medium = skyIslands.addSkyIslands(50, 50, 31, 32, true)
+medium = skyIslands.addSkyIslands(50, 50, 10, 32, true)
 medium.addType(forest)
 medium.addType(cold_taiga)
 medium.addType(desert)
@@ -665,7 +665,7 @@ medium.addType(bop_ominous_woods)
 
 //=====================================
 // Add Vanilla Biomes to small types
-small = skyIslands.addSkyIslands(25, 25, 15, 64, true)
+small = skyIslands.addSkyIslands(25, 100, 60, 64, true)
 small.addType(forest)
 small.addType(cold_taiga)
 small.addType(desert)
