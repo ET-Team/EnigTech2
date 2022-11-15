@@ -1,0 +1,95 @@
+This file is for the SkyIslandType. This data object is for creating island types 
+for the SkyIslandGeneratorV2. These can be created in a dimension file using 'new 
+SkyIslandType(biomeID)', with the biome id being the biome you want the island to 
+be, or 'new SkyIslandType()' to default to the void biome.
+
+
+
+generateStrongholds:
+    Arguments:
+        int
+    Usage:
+        chance
+    Notes:
+        Sets the 1/chance for strongholds to generate for the island type. These are centered on the island, and only generate the end portal room.
+
+generateMineshafts:
+    Arguments:
+        int
+    Usage:
+        chance
+    Notes:
+        Sets the 1/chance for mineshafts to generate for the island type. These are centered on the island, and size limited.
+
+setFluidPercentage:
+    Arguments:
+        double
+    Usage:
+        percentage
+    Notes:
+        Defaults to 0.5. Higher values increase lake size, lower values decrease.
+
+disableDecorations:
+    Notes:
+        Disables decorations for the island type.
+
+disableBiomeBlockReplacement:
+    Notes:
+        Disables biome block replacement for the island type.
+
+generateVillages:
+    Arguments:
+        int
+    Usage:
+        chance
+    Notes:
+        Sets the 1/chance for villages to generate for the island type. These are centered on the island, and size limited to avoid floating buildings.
+
+disableAnimals:
+    Notes:
+        Disables initial animal spawning for the island type.
+
+setBlockInRange:
+    Arguments:
+        ItemBlockData, MinMaxBounds
+    Usage:
+        block, bounds
+    Notes:
+        Sets a block to be used for generation within a range of distance from the center of the island type. 0.0 being the center of the island, 1.0 being the outermost possible blocks.
+
+setFluidBlock:
+    Arguments:
+        ItemBlockData
+    Usage:
+        block
+    Notes:
+        Sets the fluid block for the lakes on the islands to generate.
+
+setMainBlock:
+    Arguments:
+        ItemBlockData
+    Usage:
+        block
+    Notes:
+        Sets the main block for the island type to be made of.
+
+disableFluid:
+    Notes:
+        Disables lake generation for the island type.
+
+setBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome id
+    Notes:
+        Sets the biome to be used for the island type.
+
+addGenerator:
+    Arguments:
+        IGenerator
+    Usage:
+        generator
+    Notes:
+        Adds the provided generator. This generator will only generate in chunks containing islands generated with this type.
+

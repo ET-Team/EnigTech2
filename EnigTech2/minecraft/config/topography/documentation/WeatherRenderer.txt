@@ -1,0 +1,57 @@
+A customizeable weather renderer. Can force the appearance of rain/snow. Can be accessed 
+by calling `overrideWeatherRenderer()`.
+
+
+
+replaceRainWithSnow:
+    Notes:
+        Makes all rain render as snow.
+
+overrideBiomeRestrictions:
+    Notes:
+        Allows weather to render in biomes which normally do not allow it, such as the desert.
+
+replaceSnowWithRain:
+    Notes:
+        Makes all snow render as rain.
+
+persistentSnow:
+    Notes:
+        Makes snowfall permanently render, regardless of whether or not it's actually snowing, or if the biome allows snow.
+
+persistentRain:
+    Notes:
+        Makes rainfall permanently render, regardless of whether or not it's actually raining, or if the biome allows rain.
+
+setSnowColor:
+    Arguments:
+        int
+    Usage:
+        color hex
+    Notes:
+        Sets the color to render snow.
+
+setSnowTexture:
+    Arguments:
+        String
+    Usage:
+        texture resource location
+    Notes:
+        Sets the texture to use for rendering snow.
+
+setRainColor:
+    Arguments:
+        int
+    Usage:
+        color hex
+    Notes:
+        Sets the color to render rain.
+
+setRainTexture:
+    Arguments:
+        String
+    Usage:
+        texture resource location
+    Notes:
+        Sets the texture to use for rendering rain.
+

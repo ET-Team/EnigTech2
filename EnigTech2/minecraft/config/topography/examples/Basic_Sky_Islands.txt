@@ -1,0 +1,137 @@
+
+//Sets the dimension to generate as the void biome. The sky islands will override this where they generate, so this will only be the biome between the islands.
+setSingleBiome("minecraft:void")
+
+
+
+//Creates a new SkyIslandType. The argument is a biome id.
+forest = new SkyIslandType("minecraft:forest")
+forest.generateMineshafts(5)
+forest.generateStrongholds(20)
+forest.generateVillages(10)
+
+cold_taiga = new SkyIslandType("minecraft:taiga_cold")
+cold_taiga.generateMineshafts(5)
+cold_taiga.generateStrongholds(20)
+cold_taiga.generateVillages(10)
+
+desert = new SkyIslandType("minecraft:desert")
+desert.disableFluid()
+desert.generateMineshafts(5)
+desert.generateStrongholds(20)
+desert.generateVillages(10)
+
+mesa = new SkyIslandType("minecraft:mesa")
+mesa.generateMineshafts(5)
+mesa.generateStrongholds(20)
+mesa.generateVillages(10)
+
+jungle = new SkyIslandType("minecraft:jungle")
+jungle.generateMineshafts(5)
+jungle.generateStrongholds(20)
+jungle.generateVillages(10)
+
+plains = new SkyIslandType("minecraft:plains")
+plains.generateMineshafts(5)
+plains.generateStrongholds(20)
+plains.generateVillages(10)
+
+taiga = new SkyIslandType("minecraft:taiga")
+taiga.generateMineshafts(5)
+taiga.generateStrongholds(20)
+taiga.generateVillages(10)
+
+swamp = new SkyIslandType("minecraft:swampland")
+swamp.generateMineshafts(5)
+swamp.generateStrongholds(20)
+swamp.generateVillages(10)
+
+mushroom = new SkyIslandType("minecraft:mushroom_island")
+mushroom.generateMineshafts(5)
+mushroom.generateStrongholds(20)
+mushroom.generateVillages(10)
+
+ice_plains = new SkyIslandType("minecraft:ice_flats")
+ice_plains.generateMineshafts(5)
+ice_plains.generateStrongholds(20)
+ice_plains.generateVillages(10)
+
+savanna = new SkyIslandType("minecraft:savanna")
+savanna.generateMineshafts(5)
+savanna.generateStrongholds(20)
+savanna.generateVillages(10)
+
+roofed_forest = new SkyIslandType("minecraft:roofed_forest")
+roofed_forest.generateMineshafts(5)
+roofed_forest.generateStrongholds(20)
+roofed_forest.generateVillages(10)
+
+redwood_taiga = new SkyIslandType("minecraft:redwood_taiga")
+redwood_taiga.generateMineshafts(5)
+redwood_taiga.generateStrongholds(20)
+redwood_taiga.generateVillages(10)
+
+ocean = new SkyIslandType("minecraft:ocean")
+ocean.setFluidPercentage(0.6)
+lilypad = new ScatteredBlockGenerator(<minecraft:waterlily>, 164, 16)
+lilypad.addRequiredBlock(<minecraft:water>)
+ocean.addGenerator(lilypad)
+
+
+//Creates a new SkyIslandGenerator, sets its grid region size, and adds it to the generator list for the dimension.
+skyIslands = new SkyIslandGeneratorV2()
+skyIslands.setRegionSize(29)
+addGenerator(skyIslands)
+
+
+//Adds sky islands. Arguments are horizontal radius, top height, bottom height, number of times to attempt to generate in each region, and whether each island should choose a random type (true), or if types should be used in order (false).
+large = skyIslands.addSkyIslands(100, 100, 100, 1, true)
+
+//Adds a SkyIslandType we created above to the island generator.
+large.addType(forest)
+large.addType(cold_taiga)
+large.addType(desert)
+large.addType(mesa)
+large.addType(jungle)
+large.addType(plains)
+large.addType(taiga)
+large.addType(swamp)
+large.addType(mushroom)
+large.addType(ice_plains)
+large.addType(savanna)
+large.addType(roofed_forest)
+large.addType(redwood_taiga)
+
+oceanIslands = skyIslands.addSkyIslands(50, 50, 50, 4, false)
+oceanIslands.setFluidDepth(8)
+oceanIslands.addType(ocean)
+
+medium = skyIslands.addSkyIslands(50, 50, 50, 32, true)
+medium.addType(forest)
+medium.addType(cold_taiga)
+medium.addType(desert)
+medium.addType(mesa)
+medium.addType(jungle)
+medium.addType(plains)
+medium.addType(taiga)
+medium.addType(swamp)
+medium.addType(mushroom)
+medium.addType(ice_plains)
+medium.addType(savanna)
+medium.addType(roofed_forest)
+medium.addType(redwood_taiga)
+
+small = skyIslands.addSkyIslands(25, 25, 25, 64, true)
+small.addType(forest)
+small.addType(cold_taiga)
+small.addType(desert)
+small.addType(mesa)
+small.addType(jungle)
+small.addType(plains)
+small.addType(taiga)
+small.addType(swamp)
+small.addType(mushroom)
+small.addType(ice_plains)
+small.addType(savanna)
+small.addType(roofed_forest)
+small.addType(redwood_taiga)

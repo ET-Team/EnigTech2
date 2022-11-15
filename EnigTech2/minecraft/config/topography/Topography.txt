@@ -1,0 +1,13 @@
+//If this file is deleted, a new set of default configs will be generated.
+
+//Sets if the mod should print documentation.
+printDocumentation(false)
+
+//Sets the Topography WorldType as default
+setAsDefaultWorldType()
+
+//Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
+overworld = registerPreset("Overworld", "images/Overworld", "原汁原味的玄理2游戏体验","BIOMESOP")
+
+skyMagicIslands = registerPreset("Scattered Islands", "images/Sky_Islands", "散落的空岛地图 如何建立有效的交通网络是个难题")
+skyMagicIslands.registerDimension(0, "examples/Sky_Magic_Islands")

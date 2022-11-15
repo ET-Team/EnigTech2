@@ -1,0 +1,29 @@
+This file is for the SkyIslandDataV2. This data object is for holding size and type 
+data of islands for the SkyIslandGeneratorV2.
+
+
+
+addType:
+    Arguments:
+        SkyIslandType
+    Usage:
+        type
+    Notes:
+        Adds a type of sky island to be generated.
+
+setHeightRange:
+    Arguments:
+        int, int
+    Usage:
+        min, max
+    Notes:
+        Sets the min/max heights for islands to generate.
+
+setFluidDepth:
+    Arguments:
+        double
+    Usage:
+        depth
+    Notes:
+        Sets the fluid depth for lakes on the islands. Default horizontalRadius / 20.
+
