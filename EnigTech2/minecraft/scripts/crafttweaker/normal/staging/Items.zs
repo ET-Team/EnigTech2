@@ -222,6 +222,8 @@ removeItemStage(<thermalexpansion:capacitor:1>.withTag({Energy: 4000000}));
 removeItemStage(<thermalexpansion:capacitor>);
 removeItemStage(<thermalexpansion:capacitor:1>);
 
+removeItemStage(<item:minecraft:wooden_door>);
+
 addItemStage("four",<thermalexpansion:capacitor>);
 addItemStage("four",<thermalexpansion:capacitor:1>);
 
