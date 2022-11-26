@@ -58,6 +58,8 @@ mods.recipestages.Recipes.addShaped("one", <contenttweaker:redstone_block_81>, [
 mods.recipestages.Recipes.addShapeless("one", <minecraft:redstone_block>*9, [redbb]);
 mods.recipestages.Recipes.addShapeless("one", redbb*9, [<contenttweaker:redstone_block_81>]);
 
+recipes.addShaped(<minecraft:wooden_door>*3,[[<minecraft:planks>,<minecraft:planks>],[<minecraft:planks>,<minecraft:planks>],[<minecraft:planks>,<minecraft:planks>]]);
+
 recipes.replaceAllOccurences(<mysticalworld:iron_dust>,<ore:dustIron>);
 recipes.replaceAllOccurences(<mysticalworld:gold_dust>,<ore:dustGold>);
 recipes.replaceAllOccurences(<mysticalworld:silver_dust>,<ore:dustSilver>);

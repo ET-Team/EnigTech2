@@ -23,6 +23,7 @@ recipes.removeByRecipeName("silentgems:multipart_sickle");
 recipes.removeByRecipeName("sereneseasons:greenhouse_glass");
 recipes.removeByRecipeName("survivalist:chainmail");
 recipes.removeByRecipeName("survivalist:chainmail_nuggets");
+recipes.remove(<minecraft:wooden_door>);
 
 for i in recipes.all{
     if(isRecipeNull(i)&i.resourceDomain == "advancedrocketry"){
